@@ -1,0 +1,4 @@
+
+from preprocessing.bl.ExpandContractionsDialoguePreProcessorImpl import ExpandContractionsDialoguePreProcessorImpl
+
+var = ExpandContractionsDialoguePreProcessorImpl('')

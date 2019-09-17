@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AIFraudEngine(Structured)-Release1909/AICommonsPython/.idea/AICommonsPython.iml" filepath="$PROJECT_DIR$/../AIFraudEngine(Structured)-Release1909/AICommonsPython/.idea/AICommonsPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CallTranscriptsAnalyticsNLP.iml" filepath="$PROJECT_DIR$/.idea/CallTranscriptsAnalyticsNLP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AIFraudEngine(Structured)-Release1909/CommonExceps/.idea/CommonExceps.iml" filepath="$PROJECT_DIR$/../AIFraudEngine(Structured)-Release1909/CommonExceps/.idea/CommonExceps.iml" />
+    </modules>
+  </component>
+</project>
