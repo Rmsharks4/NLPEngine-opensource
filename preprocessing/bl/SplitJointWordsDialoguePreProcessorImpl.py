@@ -1,5 +1,6 @@
 from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
+from preprocessing.utils.SplitsDictionary import SplitsDictionary
 
 
 class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
@@ -7,12 +8,12 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
     def __init__(self):
         super().__init__()
         self.config_pattern.properties.req_data = LowercaseDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = None
+        self.config_pattern.properties.req_args = SplitsDictionary.__class__.__name__
 
     @classmethod
-    def split_joint_words(cls, text):
-        return text.replace('-', ' ')
+    def split_joint_words(cls, text, splits):
+        return text if text not in splits.splits_dict else splits.splits_replace
 
-    @classmethod
-    def preprocess_operation(cls, args):
-        return [SplitJointWordsPreProcessorImpl.split_joint_words(text) for text in args]
+    def preprocess_operation(self, args):
+        return [self.split_joint_words(args[self.config_pattern.properties.req_data],
+                                       args[self.config_pattern.properties.req_args])]

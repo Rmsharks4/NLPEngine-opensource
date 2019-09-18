@@ -1,13 +1,13 @@
 
 import abc
 import logging
-from preprocessing.utils.PreProcessingConstants import PreProcessingConstants
+from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 
 
 class AbstractDialoguePreProcessingHandler(metaclass=abc.ABCMeta):
 
     def __init__(self):
-        self.logger = logging.getLogger(PreProcessingConstants.LOGGER_NAME)
+        self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
 
     @abc.abstractmethod
     def perform_preprocessing(self, args):

@@ -1,7 +1,7 @@
 
 import abc
 import logging
-from preprocessing.utils.PreProcessingConstants import PreProcessingConstants
+from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 from preprocessing.bl.ExpandContractionsDialoguePreProcessorImpl import ExpandContractionsDialoguePreProcessorImpl
 from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
 from preprocessing.bl.PorterStemmerDialoguePreProcessorImpl import PorterStemmerDialoguePreProcessorImpl
@@ -17,21 +17,21 @@ from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNet_L
 class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
 
     def __init__(self):
-        self.logger = logging.getLogger(PreProcessingConstants.LOGGER_NAME)
+        self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
 
     @classmethod
     def get_dialogue_preprocessor(cls, preprocessor_type):
         switcher = {
-            ExpandContractionsDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_EXPAND_CONTRACTIONS,
-            LowercaseDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_LOWERCASE,
-            PorterStemmerDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_PORTER_STEMMER,
-            RemoveEmailsDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_REMOVE_EMAILS,
-            RemoveNumericCharactersDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_REMOVE_NUMERIC_CHARACTERS,
-            RemovePunctuationDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_REMOVE_PUNCTUATION,
-            RemoveStopWordsDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_REMOVE_STOP_WORDS,
-            SpellCheckerDialoguePreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_SPELL_CHECKER,
-            SplitJointWordsPreProcessorImpl(): PreProcessingConstants.PREPROCESSOR_TYPE_SPLIT_JOINT_WORDS,
-            WordNet_Lemmatizer_Dialogue_PreProcessor_Impl(): PreProcessingConstants.PREPROCESSOR_TYPE_WORDNET_LEMMATIZER
+            ExpandContractionsDialoguePreProcessorImpl.__class__.__name__: ExpandContractionsDialoguePreProcessorImpl(),
+            LowercaseDialoguePreProcessorImpl.__class__.__name__: LowercaseDialoguePreProcessorImpl(),
+            PorterStemmerDialoguePreProcessorImpl.__class__.__name__: PorterStemmerDialoguePreProcessorImpl(),
+            RemoveEmailsDialoguePreProcessorImpl.__class__.__name__: RemoveEmailsDialoguePreProcessorImpl(),
+            RemoveNumericCharactersDialoguePreProcessorImpl.__class__.__name__: RemoveNumericCharactersDialoguePreProcessorImpl(),
+            RemovePunctuationDialoguePreProcessorImpl.__class__.__name__: RemovePunctuationDialoguePreProcessorImpl(),
+            RemoveStopWordsDialoguePreProcessorImpl.__class__.__name__: RemoveStopWordsDialoguePreProcessorImpl(),
+            SpellCheckerDialoguePreProcessorImpl.__class__.__name__: SpellCheckerDialoguePreProcessorImpl(),
+            SplitJointWordsPreProcessorImpl.__class__.__name__: SplitJointWordsPreProcessorImpl(),
+            WordNet_Lemmatizer_Dialogue_PreProcessor_Impl.__class__.__name__: WordNet_Lemmatizer_Dialogue_PreProcessor_Impl()
         }
 
         return switcher.get(preprocessor_type, '')

@@ -1,7 +1,7 @@
 from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
-import nltk
+from preprocessing.utils.WordnetLemmatizer import WordnetLemmatizer
 
 
 class WordNet_Lemmatizer_Dialogue_PreProcessor_Impl(AbstractDialoguePreProcessor):
@@ -10,13 +10,12 @@ class WordNet_Lemmatizer_Dialogue_PreProcessor_Impl(AbstractDialoguePreProcessor
         super().__init__()
         self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__class__.__name__,
                                                    SpellCheckerDialoguePreProcessorImpl.__class__.__name__]
-        self.config_pattern.properties.req_args = None
-        self.WordNet_Lemmatizer = nltk.stem.WordNetLemmatizer()
+        self.config_pattern.properties.req_args = WordnetLemmatizer.__class__.__name__
 
     @classmethod
-    def lemmatize(cls, text):
-        return cls.WordNet_Lemmatizer.lemmatize(text, pos='v')
+    def lemmatize(cls, text, lemmatizer):
+        return lemmatizer.lemmatizer_lib.lemmatize(text, pos=lemmatizer.lemmatizer_mode)
 
-    @classmethod
-    def preprocess_operation(cls, args):
-        return [WordNet_Lemmatizer_Dialogue_PreProcessor_Impl.lemmatize(text) for text in args]
+    def preprocess_operation(self, args):
+        return [self.lemmatize(args[self.config_pattern.properties.req_data],
+                               args[self.config_pattern.properties.req_args])]

@@ -13,6 +13,5 @@ class LowercaseDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
     def lowercase(cls, text):
         return text.lower()
 
-    @classmethod
-    def preprocess_operation(cls, args):
-        return [LowercaseDialoguePreProcessorImpl.lowercase(text) for text in args]
+    def preprocess_operation(self, args):
+        return [self.lowercase(args[self.config_pattern.properties.req_data])]

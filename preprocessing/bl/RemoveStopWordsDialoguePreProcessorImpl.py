@@ -1,7 +1,7 @@
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
-import nltk
+from preprocessing.utils.StopWordsDictionary import StopWordsDictionary
 
 
 class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -9,13 +9,12 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
     def __init__(self):
         super().__init__()
         self.config_pattern.properties.req_data = SpellCheckerDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = None
-        self.stopwords = nltk.corpus.stopwords.words('english')
+        self.config_pattern.properties.req_args = StopWordsDictionary.__class__.__name__
 
     @classmethod
-    def remove_stop_words(cls, text):
-        return text if text not in cls.stopwords else ''
+    def remove_stop_words(cls, text, stopwords):
+        return text if text not in stopwords.stopwrods_dict else stopwords.stopwords_replace
 
-    @classmethod
-    def preprocess_operation(cls, args):
-        return [RemoveStopWordsDialoguePreProcessorImpl.remove_stop_words(text) for text in args]
+    def preprocess_operation(self, args):
+        return [self.remove_stop_words(args[self.config_pattern.properties.req_data],
+                                       args[self.config_pattern.properties.req_args])]

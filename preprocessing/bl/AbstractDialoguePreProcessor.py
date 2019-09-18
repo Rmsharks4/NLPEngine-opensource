@@ -7,14 +7,14 @@
 import abc
 import logging
 from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
-from preprocessing.utils.PreProcessingConstants import PreProcessingConstants
+from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 
 
 class AbstractDialoguePreProcessor(metaclass=abc.ABCMeta, StandardConfigParserImpl):
 
     def __init__(self):
         super().__init__()
-        self.logger = logging.getLogger(PreProcessingConstants.LOGGER_NAME)
+        self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
 
     @classmethod
     def preprocess(cls, args):
