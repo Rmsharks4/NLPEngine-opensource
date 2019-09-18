@@ -1,16 +1,16 @@
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
-from commons.config.PreProcessingConfigParserImpl import PreProcessingConfigParserImpl
+from preprocessing.bl.SplitJointWordsDialoguePreProcessorImpl import SplitJointWordsPreProcessorImpl
 import csv
 import re
 
 
-class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor, PreProcessingConfigParserImpl):
+class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
-    def __init__(self, args):
-        AbstractDialoguePreProcessor.__init__(self, args)
-        PreProcessingConfigParserImpl.__init__(self)
-        self.req_data.append('ConversationLowerJoin')
+    def __init__(self):
+        super().__init__()
+        self.config_pattern.properties.req_data = SplitJointWordsPreProcessorImpl.__class__.__name__
+        self.config_pattern.properties.req_args = None
         with open('../data/Contractions_Dict.csv', mode='r') as infile:
             reader = csv.reader(infile)
             self.contractions_dict = dict((rows[0], rows[1]) for rows in reader)

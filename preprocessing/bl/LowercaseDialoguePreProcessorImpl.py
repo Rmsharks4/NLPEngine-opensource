@@ -4,6 +4,11 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 
 class LowercaseDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
+    def __init__(self):
+        super().__init__()
+        self.config_pattern.properties.req_data = None
+        self.config_pattern.properties.req_args = None
+
     @classmethod
     def lowercase(cls, text):
         return text.lower()

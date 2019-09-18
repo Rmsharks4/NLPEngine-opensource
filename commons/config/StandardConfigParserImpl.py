@@ -8,24 +8,22 @@ from commons.config.AbstractConfigParser import AbstractConfigParser
 from types import FunctionType
 
 
-class PreProcessingConfigParserImpl(AbstractConfigParser):
+class StandardConfigParserImpl(AbstractConfigParser):
 
     def __init__(self):
         super().__init__()
-        self.init_config()
 
-    def init_config(self):
-        self.config_pattern.id = '1'
+    def init_config(self, args):
+        self.config_pattern.id = hash(self.__class__.__name__)
         self.config_pattern.name = self.__class__.__name__
-        print('Name:', self.config_pattern.name)
         self.config_pattern.vars = [x for x, y in self.__dict__.items() if type(y) != FunctionType]
-        print('Vars:', self.config_pattern.vars)
         self.config_pattern.properties.parents = [x.__name__ for x in self.__class__.mro() if x != self.__class__ and x != object]
-        print('Parents:', self.config_pattern.properties.parents)
         self.config_pattern.properties.children = self.__class__.__subclasses__()
-        print('Children:', self.config_pattern.properties.children)
         self.config_pattern.methods.static_methods = [x for x, y in self.__class__.__dict__.items() if type(y) == FunctionType]
-        print('Methods:', self.config_pattern.methods.static_methods)
+        if 'data' in args:
+            self.config_pattern.properties.req_data = args['data']
+        if 'args' in args:
+            self.config_pattern.properties.req_args = args['args']
 
     def parse(self, args):
         return True

@@ -6,39 +6,39 @@
 class AbstractConfigProperties:
 
     def __init__(self):
-        self.cls_req_args = list()
-        self.cls_req_data = list()
-        self.cls_parents = list()
-        self.cls_children = list()
+        self.req_args = list()
+        self.req_data = list()
+        self.parents = list()
+        self.children = list()
 
     @property
     def req_args(self):
-        return self.cls_req_args
+        return self.req_args
 
     @req_args.setter
     def req_args(self, args):
-        self.cls_req_args = args
+        self.req_args = args
 
     @property
     def req_data(self):
-        return self.cls_req_data
+        return self.req_data
 
     @req_data.setter
     def req_data(self, args):
-        self.cls_req_data = args
+        self.req_data = args
 
     @property
     def parents(self):
-        return self.cls_parents
+        return self.parents
 
     @parents.setter
     def parents(self, args):
-        self.cls_parents = args
+        self.parents = args
 
     @property
     def children(self):
-        return self.cls_children
+        return self.children
 
     @children.setter
     def children(self, args):
-        self.cls_children = args
+        self.children = args

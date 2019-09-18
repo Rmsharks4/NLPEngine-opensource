@@ -2,9 +2,7 @@
     Created By: Ramsha Siddiqui
     Description: This is the factory class for Abstract Config Parser
 """
-
-from commons.config.PreProcessingConfigParserImpl import PreProcessingConfigParserImpl
-from constants import constants
+from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
 
 
 class AbstractConfigParserFactory:
@@ -12,7 +10,7 @@ class AbstractConfigParserFactory:
     @classmethod
     def get_config_parser(cls, parser_type):
         switcher = {
-            PreProcessingConfigParserImpl(): constants.PREPROCESSING_CONFIG_PARSER_IMPL
+            StandardConfigParserImpl.__class__.__name__: StandardConfigParserImpl()
         }
 
         return switcher.get(parser_type, '')
