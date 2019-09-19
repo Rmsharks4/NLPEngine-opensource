@@ -19,8 +19,8 @@ class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
     def __init__(self):
         self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
 
-    @classmethod
-    def get_dialogue_preprocessor(cls, preprocessor_type):
+    @staticmethod
+    def get_dialogue_preprocessor(preprocessor_type):
         switcher = {
             ExpandContractionsDialoguePreProcessorImpl.__class__.__name__: ExpandContractionsDialoguePreProcessorImpl(),
             LowercaseDialoguePreProcessorImpl.__class__.__name__: LowercaseDialoguePreProcessorImpl(),
