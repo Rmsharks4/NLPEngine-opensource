@@ -5,6 +5,7 @@
 """
 
 from commons.config.AbstractConfigParser import AbstractConfigParser
+from preprocessing.utils.UtilsFactory import UtilsFactory
 from types import FunctionType
 
 
@@ -20,9 +21,9 @@ class StandardConfigParserImpl(AbstractConfigParser):
         self.config_pattern.properties.parents = [x.__name__ for x in self.__class__.mro() if x != self.__class__ and x != object]
         self.config_pattern.properties.children = self.__class__.__subclasses__()
         self.config_pattern.methods.static_methods = [x for x, y in self.__class__.__dict__.items() if type(y) == FunctionType]
-        if 'data' in args:
+        if 'data' in args.keys():
             self.config_pattern.properties.req_data = args['data']
-        if 'args' in args:
+        if UtilsFactory.__class__.__name__ in args.keys():
             self.config_pattern.properties.req_args = args['args']
 
     def parse(self, args):
