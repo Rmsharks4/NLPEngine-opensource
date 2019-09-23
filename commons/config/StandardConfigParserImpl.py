@@ -5,6 +5,7 @@
 """
 
 from commons.config.AbstractConfigParser import AbstractConfigParser
+from commons.config.AbstractConfig import AbstractConfig
 from preprocessing.utils.UtilsFactory import UtilsFactory
 from types import FunctionType
 
@@ -27,4 +28,6 @@ class StandardConfigParserImpl(AbstractConfigParser):
             self.config_pattern.properties.req_args = args['args']
 
     def parse(self, args):
-        return True
+        self.init_config(args[AbstractConfig.__class__.__name__])
+        self.config_parser.read(self.config_pattern)
+        self.config_parser.write(args[AbstractConfigParser.__class__.__name__])

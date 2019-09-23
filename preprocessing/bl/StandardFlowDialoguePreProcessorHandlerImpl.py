@@ -17,7 +17,6 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
             while current.config_pattern.properties.req_data not in preprocessors:
                 current = current.config_pattern.properties.req_data
             preprocessors.append(current)
-        # assume it is now sorted
         for current in reversed(preprocessors):
             df = []
             for data in args[current.config_pattern.properties.req_data]:

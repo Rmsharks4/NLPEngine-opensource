@@ -13,36 +13,33 @@ from commons.config.AbstractConfig import AbstractConfig
 class AbstractConfigParser(metaclass=abc.ABCMeta):
 
     def __init__(self):
-        self.cls_config_parser = ConfigParser(allow_no_value=True)
-        self.cls_config_pattern = AbstractConfig()
+        self.config_parser = ConfigParser(allow_no_value=True)
+        self.config_pattern = AbstractConfig()
+        self.config_file_path = None
 
     @property
     def config_pattern(self):
-        return self.cls_config_pattern
+        return self.config_pattern
 
     @config_pattern.setter
     def config_pattern(self, args):
-        self.cls_config_pattern = args
+        self.config_pattern = args
 
     @property
     def config_parser(self):
-        return self.cls_config_parser
+        return self.config_parser
 
     @config_parser.setter
     def config_parser(self, args):
-        self.cls_config_parser = args
+        self.config_parser = args
 
-    @classmethod
-    def initialize(cls, args):
-        cls.configFilePath = (os.path.join(os.getcwd(), args))
+    def write(self, args):
+        self.config_file_path = args
+        with open(self.config_file_path, 'w') as file:
+            self.config_parser.write(file)
 
-    @classmethod
-    def write(cls, args):
-        cls.configParser.write(args)
-
-    @classmethod
-    def read(cls, args):
-        return cls.configParser.read(args)
+    def read(self, args):
+        return self.config_parser.read(args)
 
     @abc.abstractmethod
     def parse(self, args):
