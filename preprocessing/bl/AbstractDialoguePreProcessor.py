@@ -10,11 +10,11 @@ from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
 from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 
 
-class AbstractDialoguePreProcessor(metaclass=abc.ABCMeta, StandardConfigParserImpl):
+class AbstractDialoguePreProcessor(StandardConfigParserImpl, metaclass=abc.ABCMeta):
 
     def __init__(self):
         super().__init__()
-        self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
+        self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
     @classmethod
     def preprocess(cls, args):

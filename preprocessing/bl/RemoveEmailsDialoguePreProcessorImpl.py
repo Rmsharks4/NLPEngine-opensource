@@ -8,8 +8,8 @@ class RemoveEmailsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = RemoveNumericCharactersDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = EmailsDictionary.__class__.__name__
+        self.config_pattern.properties.req_data = RemoveNumericCharactersDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = EmailsDictionary.__name__
 
     @classmethod
     def remove_emails(cls, text, emails):

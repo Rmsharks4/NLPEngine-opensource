@@ -9,9 +9,9 @@ class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__class__.__name__,
-                                                   SpellCheckerDialoguePreProcessorImpl.__class__.__name__]
-        self.config_pattern.properties.req_args = PorterStemmer.__class__.__name__
+        self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__name__,
+                                                   SpellCheckerDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_args = PorterStemmer.__name__
 
     @classmethod
     def stem(cls, text, stemmer):

@@ -8,8 +8,8 @@ class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = RemovePunctuationDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = SpellCheckerLib.__class__.__name__
+        self.config_pattern.properties.req_data = RemovePunctuationDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = SpellCheckerLib.__name__
 
     @classmethod
     def spell_check(cls, text, spell_checker):

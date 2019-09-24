@@ -14,7 +14,7 @@ class AbstractConfig:
         self.cls_name = None
         self.cls_properties = AbstractConfigProperties()
         self.cls_methods = AbstractConfigMethods()
-        self.cls_vars = list()
+        self.cls_vars = None
 
     @property
     def id(self):

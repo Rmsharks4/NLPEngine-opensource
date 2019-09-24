@@ -8,8 +8,8 @@ class RemoveNumericCharactersDialoguePreProcessorImpl(AbstractDialoguePreProcess
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = ExpandContractionsDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = FiguresDictionary.__class__.__name__
+        self.config_pattern.properties.req_data = ExpandContractionsDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = FiguresDictionary.__name__
 
     @classmethod
     def replace(cls, match, figures_dict):

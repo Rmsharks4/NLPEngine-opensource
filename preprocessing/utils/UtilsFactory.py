@@ -14,14 +14,14 @@ class UtilsFactory:
     @staticmethod
     def get_utils(util_type):
         switcher = {
-            ContractionsDictionary.__class__.__name__: ContractionsDictionary(),
-            EmailsDictionary.__class__.__name__: EmailsDictionary(),
-            FiguresDictionary.__class__.__name__: FiguresDictionary(),
-            PorterStemmer.__class__.__name__: PorterStemmer(),
-            PunctuationDictionary.__class__.__name__: PunctuationDictionary(),
-            SpellCheckerLib.__class__.__name__: SpellCheckerLib(),
-            SplitsDictionary.__class__.__name__: SplitsDictionary(),
-            StopWordsDictionary.__class__.__name__: StopWordsDictionary(),
-            WordnetLemmatizer.__class__.__name__: WordnetLemmatizer()
+            ContractionsDictionary.__name__: ContractionsDictionary(),
+            EmailsDictionary.__name__: EmailsDictionary(),
+            FiguresDictionary.__name__: FiguresDictionary(),
+            PorterStemmer.__name__: PorterStemmer(),
+            PunctuationDictionary.__name__: PunctuationDictionary(),
+            SpellCheckerLib.__name__: SpellCheckerLib(),
+            SplitsDictionary.__name__: SplitsDictionary(),
+            StopWordsDictionary.__name__: StopWordsDictionary(),
+            WordnetLemmatizer.__name__: WordnetLemmatizer()
         }
         return switcher.get(util_type, '')

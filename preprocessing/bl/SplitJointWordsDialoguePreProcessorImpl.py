@@ -7,8 +7,8 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = LowercaseDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = SplitsDictionary.__class__.__name__
+        self.config_pattern.properties.req_data = LowercaseDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = SplitsDictionary.__name__
 
     @classmethod
     def split_joint_words(cls, text, splits):

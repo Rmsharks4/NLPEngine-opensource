@@ -7,7 +7,7 @@ from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 class AbstractDialoguePreProcessingHandler(metaclass=abc.ABCMeta):
 
     def __init__(self):
-        self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
+        self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
     @abc.abstractmethod
     def perform_preprocessing(self, args):

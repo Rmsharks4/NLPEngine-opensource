@@ -10,7 +10,7 @@ class AbstractConfigParserFactory:
     @classmethod
     def get_config_parser(cls, parser_type):
         switcher = {
-            StandardConfigParserImpl.__class__.__name__: StandardConfigParserImpl()
+            StandardConfigParserImpl.__name__: StandardConfigParserImpl()
         }
 
         return switcher.get(parser_type, '')

@@ -14,17 +14,17 @@ from preprocessing.bl.StandardFlowDialoguePreProcessorHandlerImpl import Standar
 class PreProcessorService(AbstractService):
 
     def __init__(self):
-        self.logger = logging.getLogger(PreProcessingLogger.__class__.__name__)
+        self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
     def run(self, args):
 
-        dao_obj = AbstractDAOFactory.get_dao(SparkDAOImpl.__class__.__name__)
-        data_obj = dao_obj.load(args[SparkDAOImpl.__class__.__name__])
+        dao_obj = AbstractDAOFactory.get_dao(SparkDAOImpl.__name__)
+        data_obj = dao_obj.load(args[SparkDAOImpl.__name__])
 
-        handler_obj = AbstractDialoguePreProcessorHandlerFactory.get_dialogue_preprocessor_handler(StandardFlowDialoguePreProcessorHandlerImpl.__class__.__name__)
+        handler_obj = AbstractDialoguePreProcessorHandlerFactory.get_dialogue_preprocessor_handler(StandardFlowDialoguePreProcessorHandlerImpl.__name__)
         output_obj = handler_obj.perform_preprocessing({
-            AbstractDialoguePreProcessor.__class__.__name__: args[StandardFlowDialoguePreProcessorHandlerImpl.__class__.__name__],
-            SparkDAOImpl.__class__.__name__: data_obj
+            AbstractDialoguePreProcessor.__name__: args[StandardFlowDialoguePreProcessorHandlerImpl.__name__],
+            SparkDAOImpl.__name__: data_obj
         })
 
         return dao_obj.save(output_obj)

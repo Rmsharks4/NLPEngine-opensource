@@ -8,9 +8,9 @@ class WordNet_Lemmatizer_Dialogue_PreProcessor_Impl(AbstractDialoguePreProcessor
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__class__.__name__,
-                                                   SpellCheckerDialoguePreProcessorImpl.__class__.__name__]
-        self.config_pattern.properties.req_args = WordnetLemmatizer.__class__.__name__
+        self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__name__,
+                                                   SpellCheckerDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_args = WordnetLemmatizer.__name__
 
     @classmethod
     def lemmatize(cls, text, lemmatizer):

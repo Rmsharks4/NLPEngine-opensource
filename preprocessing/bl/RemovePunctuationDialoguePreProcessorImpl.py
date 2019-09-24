@@ -7,8 +7,8 @@ class RemovePunctuationDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = RemoveEmailsDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = PunctuationDictionary.__class__.__name__
+        self.config_pattern.properties.req_data = RemoveEmailsDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = PunctuationDictionary.__name__
 
     @classmethod
     def remove_punctuation(cls, text, punctuation):

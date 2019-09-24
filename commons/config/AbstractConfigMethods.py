@@ -6,9 +6,9 @@
 class AbstractConfigMethods:
 
     def __init__(self):
-        self.cls_static_methods = list()
-        self.cls_impl_methods = list()
-        self.cls_abs_methods = list()
+        self.cls_static_methods = None
+        self.cls_impl_methods = None
+        self.cls_abs_methods = None
 
     @property
     def static_methods(self):

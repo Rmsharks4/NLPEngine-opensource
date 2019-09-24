@@ -8,8 +8,8 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = SpellCheckerDialoguePreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = StopWordsDictionary.__class__.__name__
+        self.config_pattern.properties.req_data = SpellCheckerDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = StopWordsDictionary.__name__
 
     @classmethod
     def remove_stop_words(cls, text, stopwords):

@@ -8,8 +8,8 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = SplitJointWordsPreProcessorImpl.__class__.__name__
-        self.config_pattern.properties.req_args = ContractionsDictionary.__class__.__name__
+        self.config_pattern.properties.req_data = SplitJointWordsPreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = ContractionsDictionary.__name__
 
     def replace(self, match, contractions_dict):
         return contractions_dict[match.group(0)]
@@ -20,6 +20,3 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
     def preprocess_operation(self, args):
         return [self.expand_contractions(args[self.config_pattern.properties.req_data],
                                          args[self.config_pattern.properties.req_args])]
-
-    def parse(self, args):
-        return True
