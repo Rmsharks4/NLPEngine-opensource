@@ -11,7 +11,7 @@ from preprocessing.bl.RemovePunctuationDialoguePreProcessorImpl import RemovePun
 from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.bl.SplitJointWordsDialoguePreProcessorImpl import SplitJointWordsPreProcessorImpl
-from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNet_Lemmatizer_Dialogue_PreProcessor_Impl
+from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNetLemmatizerDialoguePreProcessorImpl
 
 
 class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
@@ -31,7 +31,7 @@ class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
             RemoveStopWordsDialoguePreProcessorImpl.__name__: RemoveStopWordsDialoguePreProcessorImpl(),
             SpellCheckerDialoguePreProcessorImpl.__name__: SpellCheckerDialoguePreProcessorImpl(),
             SplitJointWordsPreProcessorImpl.__name__: SplitJointWordsPreProcessorImpl(),
-            WordNet_Lemmatizer_Dialogue_PreProcessor_Impl.__name__: WordNet_Lemmatizer_Dialogue_PreProcessor_Impl()
+            WordNetLemmatizerDialoguePreProcessorImpl.__name__: WordNetLemmatizerDialoguePreProcessorImpl()
         }
 
         return switcher.get(preprocessor_type, '')

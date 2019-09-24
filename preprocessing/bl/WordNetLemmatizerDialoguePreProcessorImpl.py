@@ -4,7 +4,7 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.utils.WordnetLemmatizer import WordnetLemmatizer
 
 
-class WordNet_Lemmatizer_Dialogue_PreProcessor_Impl(AbstractDialoguePreProcessor):
+class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         super().__init__()
