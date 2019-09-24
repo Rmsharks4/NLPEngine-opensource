@@ -1,7 +1,11 @@
 """
-    Created By: Ramsha Siddiqui
-    Description: This is the Abstract Dialogue Pre Processing Class -
-    A Dialogue is a thread by any one of the speakers at a time.
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
 """
 
 import abc

@@ -1,3 +1,15 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
+**Remove Stop Words**:
+remove all frequently occurring words (the, by, etc.)
+
+"""
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl

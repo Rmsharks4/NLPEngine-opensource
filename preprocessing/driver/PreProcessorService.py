@@ -1,3 +1,14 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class contains a 'run' function that runs the whole routine - starting from DAO to BL to DAO again.
+- An implementation of **Abstract Service** in NLP.commons
+- Implements the following main function: **run**
+
+"""
+
 import logging
 
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory

@@ -1,3 +1,16 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
+**Remove Punctuation**:
+remove all punctuation from text (a,b,c to a b c)
+
+"""
+
 from preprocessing.utils.PunctuationDictionary import PunctuationDictionary
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.RemoveEmailsDialoguePreProcessorImpl import RemoveEmailsDialoguePreProcessorImpl

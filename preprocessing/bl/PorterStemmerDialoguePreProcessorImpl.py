@@ -1,3 +1,15 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
+**Porter Stemmer**:
+stems words to their origin stems (grows to grow, etc.)
+
+"""
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl

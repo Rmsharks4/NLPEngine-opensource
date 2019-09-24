@@ -1,3 +1,12 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class selects in what flow the classes should be created and called:
+- perform_preprocessing (pass in configurations and data elements)
+
+"""
 
 import abc
 import logging

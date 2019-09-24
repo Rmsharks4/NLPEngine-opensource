@@ -1,3 +1,16 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
+**Word Net Lemmatizer**:
+lemmatizes words to their roots (grew to grow, etc.)
+
+"""
+
 from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor

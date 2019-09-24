@@ -1,3 +1,15 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
+**Lowercase**:
+turns all characters to lowercase (CHAR to char, etc.)
+
+"""
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 

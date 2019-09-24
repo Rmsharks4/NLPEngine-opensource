@@ -1,3 +1,20 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class follows the following flow of pre-processing (as visible in configurations)
+- Lowercase
+- Split Joint Words
+- Contractions
+- Numbers
+- Email
+- Punctuation
+- Spell Check
+- Stop Words
+- Lemmatize
+
+"""
 
 from preprocessing.bl.AbstractDialoguePreProcessorHandler import AbstractDialoguePreProcessingHandler
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor

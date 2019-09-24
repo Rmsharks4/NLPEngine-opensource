@@ -1,3 +1,15 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class operates on one major function:
+- preprocess (operation and validation included!)
+
+**Remove Emails**:
+removes sensitive email info (abc@ab.com to EMAIL, etc.)
+
+"""
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.EmailsDictionary import EmailsDictionary

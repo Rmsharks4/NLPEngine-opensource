@@ -1,3 +1,12 @@
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class selects which file implementation should be used at any given time.
+- get_utils (takes class name as argument)
+"""
+
 from preprocessing.utils.ContractionsDictionary import ContractionsDictionary
 from preprocessing.utils.EmailsDictionary import EmailsDictionary
 from preprocessing.utils.FiguresDictionary import FiguresDictionary

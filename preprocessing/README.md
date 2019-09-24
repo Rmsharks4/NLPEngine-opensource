@@ -17,7 +17,7 @@ This contains the OOP logic for NLP Pre-processing. The following classes are pr
         - **preprocess** (operation and validation included!)
     - **Abstract Class Implementations**: different versions of Abstract Class that preprocess in different ways
         - **Expand Contractions**: expands contractions in text (I'm to I am, etc.)
-        - **Lowercase**: truns all characters to lowercase (CHAR to char, etc.)
+        - **Lowercase**: turns all characters to lowercase (CHAR to char, etc.)
         - **Porter Stemmer**: stems words to their origin stems (grows to grow, etc.)
         - **Remove Emails**: removes sensitive email info (abc@ab.com to EMAIL, etc.)
         - **Remove Numeric Characters**: remove all digits and alike (14, fourteen, sunday, etc.)
@@ -27,9 +27,9 @@ This contains the OOP logic for NLP Pre-processing. The following classes are pr
         - **Split Joint Words**: splits combination words into two (well-managed to well managed, etc.)
         - **Word Net Lemmatizer**: lemmatizes words to their roots (grew to grow, etc.)
     - **Abstract Factory**: selects which implementation should be used at a given time:
-        - get_dialogue_preprocessor (pass in class name as argument)
+        - **get_dialogue_preprocessor** (pass in class name as argument)
     - **Abstract Handler**: selects in what flow the classes should be created and called:
-        - perform_preprocessing (pass in configurations and data elements)  
+        - **perform_preprocessing** (pass in configurations and data elements)  
     - **Abstract Handler Implementations**: different versions of Abstract Handler that preprocess text.
         - **Standard Flow**: It follows the following flow of pre-processing (as visible in configurations)
             - Lowercase
@@ -61,6 +61,7 @@ This DAO Implementation helps us keep the DAO similar to the whole project as we
 This contains one main function to run the whole routine. The following class implements it:
 - **PreProcessing Service**: contains a 'run' function that runs the whole routine - starting from DAO to BL to DAO again.
     - An implementation of **Abstract Service** in NLP.commons
+    - Implements the following main function: **run**
 
 This service implementation is also universally constant, as well as unique enough to handle some pre-processing quirks.
 
@@ -80,7 +81,7 @@ This method of storing configurations (.ini) helps us in easy dynamic implementa
 This folder contains static utilities required by Business Logic files for pre-processing. The following classes are present:
 - **Utils**
     - **Abstract Class**: this class operates on one static function
-        - load (loads the static object required for preprocesing)
+        - **load** (loads the static object required for preprocesing)
     - **Abstract Class Implementation**: different versions of Abstract Utils Class
         - **Contractions Dictionary**: reads a contractions dict and regex from file
         - **Emails Dictionary**: reads email regex from file
