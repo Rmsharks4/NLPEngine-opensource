@@ -1,7 +1,8 @@
 from spellchecker import SpellChecker
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class SpellCheckerLib:
+class SpellCheckerLib(UtilsFactory):
 
     spell_checker_lib = None
 

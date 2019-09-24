@@ -1,8 +1,9 @@
 import csv
 import re
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class FiguresDictionary:
+class FiguresDictionary(UtilsFactory):
 
     figures_dict = None
     figures_re = None

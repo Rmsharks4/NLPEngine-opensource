@@ -1,5 +1,7 @@
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
-class SplitsDictionary:
+
+class SplitsDictionary(UtilsFactory):
 
     splits_dict = None
     splits_replace = None

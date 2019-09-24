@@ -1,7 +1,8 @@
 import nltk
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class StopWordsDictionary:
+class StopWordsDictionary(UtilsFactory):
 
     stopwords_dict = None
     stopwords_replace = None

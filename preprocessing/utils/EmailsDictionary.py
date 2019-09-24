@@ -1,7 +1,8 @@
 import re
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class EmailsDictionary:
+class EmailsDictionary(UtilsFactory):
 
     standard_re = None
     semi_standard_re = None

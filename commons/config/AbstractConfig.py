@@ -1,6 +1,6 @@
 """
     Created By: Ramsha Siddiqui
-    Description: This is a class for Abstract COnfiguration (what's to be dumped inside a config file)
+    Description: This is a class for Abstract COnfiguration (what's to be dumped inside a configuration file)
 """
 
 from commons.config.AbstractConfigProperties import AbstractConfigProperties

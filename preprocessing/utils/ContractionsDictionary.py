@@ -1,8 +1,9 @@
 import re
 import csv
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class ContractionsDictionary:
+class ContractionsDictionary(UtilsFactory):
 
     contractions_dict = None
     contractions_re = None

@@ -1,7 +1,8 @@
 import nltk
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class WordnetLemmatizer:
+class WordnetLemmatizer(UtilsFactory):
 
     lemmatizer_lib = None
     lemmatize_mode = None

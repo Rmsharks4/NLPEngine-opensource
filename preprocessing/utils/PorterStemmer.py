@@ -1,7 +1,8 @@
 import nltk
+from preprocessing.utils.UtilsFactory import UtilsFactory
 
 
-class PorterStemmer:
+class PorterStemmer(UtilsFactory):
 
     stemmer_lib = None
 
