@@ -26,10 +26,18 @@ from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNetLe
 class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
 
     def __init__(self):
+        """
+        initializes abstract dialogue preprocessor factory: starts logger!
+        """
         self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
     @staticmethod
     def get_dialogue_preprocessor(preprocessor_type):
+        """
+
+        :param preprocessor_type: (str) AbstractDialoguePreProcessorImpl class name
+        :return: (AbstractDialoguePreProcessor) else throws Exception
+        """
         switcher = {
             ExpandContractionsDialoguePreProcessorImpl.__name__: ExpandContractionsDialoguePreProcessorImpl(),
             LowercaseDialoguePreProcessorImpl.__name__: LowercaseDialoguePreProcessorImpl(),

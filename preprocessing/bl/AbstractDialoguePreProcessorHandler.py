@@ -16,8 +16,15 @@ from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 class AbstractDialoguePreProcessingHandler(metaclass=abc.ABCMeta):
 
     def __init__(self):
+        """
+        initializes Abstract Dialogue PreProcessor Handler: starts logger!
+        """
         self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
     @abc.abstractmethod
     def perform_preprocessing(self, args):
+        """
+
+        :param args: arguments needed for pre-processing pipeline
+        """
         pass

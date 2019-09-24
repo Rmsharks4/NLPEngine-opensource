@@ -8,13 +8,26 @@ this class selects which implementation should be used at a given time:
 
 """
 
+import logging
+from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 from preprocessing.bl.StandardFlowDialoguePreProcessorHandlerImpl import StandardFlowDialoguePreProcessorHandlerImpl
 
 
 class AbstractDialoguePreProcessorHandlerFactory:
 
+    def __init__(self):
+        """
+        initializes Abstract Dialogue Pre-Processor Handler Factory
+        """
+        self.logger = logging.getLogger(PreProcessingLogger.__name__)
+
     @staticmethod
     def get_dialogue_preprocessor_handler(handler_type):
+        """
+
+        :param handler_type: (str) AbstractDialoguePreProcessorHandlerImpl Class Name
+        :return: (AbstractDialoguePreProcessorHandler) else throws Exception
+        """
         switcher = {
             StandardFlowDialoguePreProcessorHandlerImpl.__name__: StandardFlowDialoguePreProcessorHandlerImpl()
         }

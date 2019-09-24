@@ -19,6 +19,9 @@ from preprocessing.utils.ContractionsDictionary import ContractionsDictionary
 class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
+        """
+        initializes Expand Contractions Dialogue Pre-Processor Class: set required data and arguments
+        """
         super().__init__()
         self.config_pattern.properties.req_data = SplitJointWordsPreProcessorImpl.__name__
         self.config_pattern.properties.req_args = ContractionsDictionary.__name__
