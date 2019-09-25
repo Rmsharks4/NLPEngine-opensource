@@ -25,9 +25,18 @@ from preprocessing.utils.UtilsFactory import UtilsFactory
 class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingHandler):
 
     def __init__(self):
+        """
+        initializes Standard Flow Dialogue Pre-Processor Handler Implementation Class
+        """
         super().__init__()
 
     def perform_preprocessing(self, args):
+        """
+
+        :param args: (dict) contains req_data and req_args
+        (list) Abstract Config
+        (list) Spark Data-frame
+        """
         preprocessors = list()
         preprocessors.append(None)
         for current in args[AbstractDialoguePreProcessor.__name__]:

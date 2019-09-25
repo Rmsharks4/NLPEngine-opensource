@@ -14,5 +14,8 @@ import abc
 class AbstractUtils(metaclass=abc.ABCMeta):
 
     @staticmethod
-    def load(self):
+    def load():
+        """
+        initializes static function load for Abstract Utils Class
+        """
         pass

@@ -22,6 +22,11 @@ class UtilsFactory:
 
     @staticmethod
     def get_utils(util_type):
+        """
+
+        :param util_type: (AbstractUtils) class name
+        :return: (AbstractUtils) object else throws Exception
+        """
         switcher = {
             ContractionsDictionary.__name__: ContractionsDictionary(),
             EmailsDictionary.__name__: EmailsDictionary(),

@@ -20,6 +20,9 @@ from preprocessing.utils.PorterStemmer import PorterStemmer
 class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
+        """
+        initializes Porter Stemmer Dialogue Pre-Processor Class: set required data and arguments
+        """
         super().__init__()
         self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__name__,
                                                    SpellCheckerDialoguePreProcessorImpl.__name__]
@@ -27,8 +30,21 @@ class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     @classmethod
     def stem(cls, text, stemmer):
+        """
+
+        :param text: (str) string to examine
+        :param stemmer: (PorterStemmer) stemmer utils
+        :return: (str) preprocessed data
+        """
         return stemmer.stemmer_lib.stem(text)
 
     def preprocess_operation(self, args):
+        """
+
+        :param args: (dict) contains req_data and req_args
+        (RemoveStopWordsDialoguePreProcessorImpl)(SpellCheckerDialoguePreProcessorImpl)
+        (PorterStemmer)
+        :return: (list) array of preprocessed data
+        """
         return [self.stem(args[self.config_pattern.properties.req_data],
                           args[self.config_pattern.properties.req_args])]

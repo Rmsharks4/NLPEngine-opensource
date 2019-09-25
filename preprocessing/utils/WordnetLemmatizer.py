@@ -12,15 +12,18 @@ downloads lemmatizer from nltk
 """
 
 import nltk
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class WordnetLemmatizer(UtilsFactory):
+class WordnetLemmatizer(AbstractUtils):
 
     lemmatizer_lib = None
     lemmatize_mode = None
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Wordnet Lemmatizer Class
+        """
         WordnetLemmatizer.lemmatizer_lib = nltk.stem.WordNetLemmatizer()
         WordnetLemmatizer.lemmatize_mode = 'v'

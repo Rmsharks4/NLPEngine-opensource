@@ -26,7 +26,7 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl, metaclass=abc.ABCMe
     @classmethod
     def preprocess(cls, args):
         """
-        a function to preprocess
+
         :param args: arguments required for pre-processing!
         """
         if cls.preprocess_validation(args):
@@ -35,7 +35,7 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl, metaclass=abc.ABCMe
     @abc.abstractmethod
     def preprocess_operation(self, args):
         """
-        abstract function that perform preprocessing
+
         :param args: arguments required for pre-processing!
         """
         pass
@@ -44,7 +44,7 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl, metaclass=abc.ABCMe
     def preprocess_validation(cls, args):
         """
 
-        :param args: function that validates preprocessing arguments
+        :param args: arguments required for pre-processing!
         :return: True if correct else throws exception
         """
         if isinstance(args, list):

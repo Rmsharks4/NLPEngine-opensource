@@ -20,6 +20,9 @@ from preprocessing.utils.WordnetLemmatizer import WordnetLemmatizer
 class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
+        """
+        initializes Word Net Lemmatizer Dialogue Pre-Processor Class: set required data and arguments
+        """
         super().__init__()
         self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__name__,
                                                    SpellCheckerDialoguePreProcessorImpl.__name__]
@@ -27,8 +30,21 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     @classmethod
     def lemmatize(cls, text, lemmatizer):
+        """
+
+        :param text: (str) string to examine
+        :param lemmatizer: (WordnetLemmatizer) lemmatizer utils
+        :return:
+        """
         return lemmatizer.lemmatizer_lib.lemmatize(text, pos=lemmatizer.lemmatizer_mode)
 
     def preprocess_operation(self, args):
+        """
+
+        :param args: (dict) contains req_data and req_args
+        (RemoveStopWordsDialoguePreProcessorImpl) (SpellCheckerDialoguePreProcessorImpl)
+        (WordnetLemmatizer)
+        :return: (list) array of preprocessed data
+        """
         return [self.lemmatize(args[self.config_pattern.properties.req_data],
                                args[self.config_pattern.properties.req_args])]

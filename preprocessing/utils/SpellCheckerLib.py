@@ -12,13 +12,16 @@ downloads spell checker from Spell Checker lib
 """
 
 from spellchecker import SpellChecker
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class SpellCheckerLib(UtilsFactory):
+class SpellCheckerLib(AbstractUtils):
 
     spell_checker_lib = None
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Spell Checker Lib Class
+        """
         SpellCheckerLib.spell_checker_lib = SpellChecker()

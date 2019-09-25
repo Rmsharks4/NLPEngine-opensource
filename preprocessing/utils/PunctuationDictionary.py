@@ -12,15 +12,18 @@ downloads punctuation dict from nltk
 """
 
 import string
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class PunctuationDictionary(UtilsFactory):
+class PunctuationDictionary(AbstractUtils):
 
     punctuation_dict = None
     punctuation_replace = None
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Punctuations Dict Class
+        """
         PunctuationDictionary.punctuation_dict = string.punctuation
         PunctuationDictionary.punctuation_replace = ''

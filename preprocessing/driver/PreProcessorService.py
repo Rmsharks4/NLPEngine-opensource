@@ -25,10 +25,19 @@ from preprocessing.bl.StandardFlowDialoguePreProcessorHandlerImpl import Standar
 class PreProcessorService(AbstractService):
 
     def __init__(self):
+        """
+        initializes Pre-processor service class and starts logger.
+        """
         self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
     def run(self, args):
+        """
 
+        :param args: (dict) contains the following
+        (list(Spark Data-frame))
+        (StandardFlowDialoguePreProcessorHandlerImpl)
+        :return: (SparkDAOImpl) DAO object to use further
+        """
         dao_obj = AbstractDAOFactory.get_dao(SparkDAOImpl.__name__)
         data_obj = dao_obj.load(args[SparkDAOImpl.__name__])
 

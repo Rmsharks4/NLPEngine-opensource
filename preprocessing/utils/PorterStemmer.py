@@ -12,13 +12,16 @@ downloads stemmer from nltk
 """
 
 import nltk
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class PorterStemmer(UtilsFactory):
+class PorterStemmer(AbstractUtils):
 
     stemmer_lib = None
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Porter Stemmer Class
+        """
         PorterStemmer.stemmer_lib = nltk.PorterStemmer()

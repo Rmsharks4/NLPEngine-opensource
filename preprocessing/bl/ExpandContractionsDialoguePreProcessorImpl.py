@@ -27,11 +27,30 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         self.config_pattern.properties.req_args = ContractionsDictionary.__name__
 
     def replace(self, match, contractions_dict):
+        """
+
+        :param match: (str) string to match
+        :param contractions_dict: (dict) regex dict for contractions
+        :return: (str) string to replace
+        """
         return contractions_dict[match.group(0)]
 
     def expand_contractions(self, text, contractions):
+        """
+
+        :param text: (str) string to examine
+        :param contractions: (ContractionsDictionary) contractions utils
+        :return: (str) preprocessed data
+        """
         return contractions.contractions_re.sub(self.replace, text, contractions.contractions_dict)
 
     def preprocess_operation(self, args):
+        """
+
+        :param args: (dict) contains req_data and req_args
+        (ContractionsDictionary)
+        (SplitJointWordsPreProcessorImpl)
+        :return: (list) array of preprocessed data
+        """
         return [self.expand_contractions(args[self.config_pattern.properties.req_data],
                                          args[self.config_pattern.properties.req_args])]

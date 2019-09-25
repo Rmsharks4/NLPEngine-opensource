@@ -12,10 +12,10 @@ reads email regex from file
 """
 
 import re
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class EmailsDictionary(UtilsFactory):
+class EmailsDictionary(AbstractUtils):
 
     standard_re = None
     semi_standard_re = None
@@ -24,6 +24,9 @@ class EmailsDictionary(UtilsFactory):
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Emails Dict Class
+        """
         EmailsDictionary.standard_re = re.compile(r'\w*@\w*\.\w*')
         EmailsDictionary.semi_standard_re = re.compile(r'\w*\.\w*')
         EmailsDictionary.non_standard_re = re.compile(r'\w*\sdot\s\w*')

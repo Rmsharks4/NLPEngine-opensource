@@ -11,15 +11,18 @@ reads splits regex from file
 
 """
 
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class SplitsDictionary(UtilsFactory):
+class SplitsDictionary(AbstractUtils):
 
     splits_dict = None
     splits_replace = None
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Splits Dict Class
+        """
         SplitsDictionary.splits_dict = ['-', '_']
         SplitsDictionary.splits_replace = ' '

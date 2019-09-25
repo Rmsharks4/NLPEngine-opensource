@@ -12,15 +12,18 @@ downloads stop words from nltk
 """
 
 import nltk
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class StopWordsDictionary(UtilsFactory):
+class StopWordsDictionary(AbstractUtils):
 
     stopwords_dict = None
     stopwords_replace = None
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Stop Words Dict Class
+        """
         StopWordsDictionary.stopwords_dict = nltk.corpus.stopwords.words('english')
         StopWordsDictionary.stopwords_replace = ''

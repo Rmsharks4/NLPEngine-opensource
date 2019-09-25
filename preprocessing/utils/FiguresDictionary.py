@@ -13,10 +13,10 @@ reads numbers, digits and days from file
 
 import csv
 import re
-from preprocessing.utils.UtilsFactory import UtilsFactory
+from preprocessing.utils.AbstractUtils import AbstractUtils
 
 
-class FiguresDictionary(UtilsFactory):
+class FiguresDictionary(AbstractUtils):
 
     figures_dict = None
     figures_re = None
@@ -25,6 +25,9 @@ class FiguresDictionary(UtilsFactory):
 
     @staticmethod
     def load():
+        """
+        initializes static function load for Figures Dict Class
+        """
         with open('../data/Figures_Dict.csv', mode='r') as infile:
             reader = csv.reader(infile)
             FiguresDictionary.figures_dict = dict((rows[0], '#') for rows in reader)
