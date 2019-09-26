@@ -22,9 +22,14 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         """
         initializes Expand Contractions Dialogue Pre-Processor Class: set required data and arguments
         """
+        self.logger.info('Calling Parent Constructor: '+super.__class__.__name__)
         super().__init__()
+
+        self.logger.info('Setting Arguments in: ' + self.config_pattern.properties.__class__.__name__)
         self.config_pattern.properties.req_data = SplitJointWordsPreProcessorImpl.__name__
+        self.logger.info("Required Data: " + SplitJointWordsPreProcessorImpl.__name__)
         self.config_pattern.properties.req_args = ContractionsDictionary.__name__
+        self.logger.info("Required Arguments: " + ContractionsDictionary.__name__)
 
     def replace(self, match, contractions_dict):
         """

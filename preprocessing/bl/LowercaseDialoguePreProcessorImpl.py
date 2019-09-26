@@ -20,6 +20,7 @@ class LowercaseDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         """
         initializes Lowercase Dialogue Pre-Processor Class: set required data and arguments
         """
+        self.logger.info('Calling Parent Constructor: ' + super.__class__.__name__)
         super().__init__()
         self.config_pattern.properties.req_data = None
         self.config_pattern.properties.req_args = None
