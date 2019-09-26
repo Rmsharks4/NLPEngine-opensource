@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<dialogue corpus="trainline" id="31">
+<turn n="1" speaker="A">
+<frag n="1" sp-act="greet" polarity="positive" topic="opening" mode="greet">
+good morning
+</frag>
+<frag n="2" sp-act="identifySelf" polarity="positive" topic="intro" mode="deixis">
+Virgin trainlines Sandra speaking
+</frag>
+<q-wh n="3" sp-act="reqDirect" polarity="positive" topic="journey-preference" mode="open">
+for which journey do you wish to purchase a ticket
+</q-wh>
+</turn>
+<turn n="2" speaker="B">
+<frag n="4" sp-act="direct" polarity="positive" topic="to-location" mode="deixis-closure">
+erm Manchester Picadilly to Birmingham N E C
+</frag>
+</turn>
+<turn n="3" speaker="A">
+<dm n="5" sp-act="init">
+now
+</dm>
+<q-yn n="6" sp-act="reqInfo" polarity="positive" topic="creditcard" mode="closed">
+do you hold a current debit or credit card
+</q-yn>
+</turn>
+<turn n="4" speaker="B">
+<decl n="7" sp-act="answ" polarity="positive" topic="" mode="closure">
+i do
+</decl>
+</turn>
+<turn n="5" speaker="A">
+<q-wh n="8" sp-act="reqInfo" polarity="positive" topic="date-journey" mode="open">
+and what date is it you're travelling
+</q-wh>
+</turn>
+<turn n="6" speaker="B">
+<decl n="9" sp-act="answ-disc" polarity="positive" topic="time-journey" mode="closure">
+er i am travelling on
+</decl>
+<imp n="10" sp-act="hold" polarity="positive" topic="" mode="">
+let me get this right
+</imp>
+<decl n="11" sp-act="inform" polarity="positive" topic="number" mode="reason">
+cos i mucked up the last one 
+</decl>
+<decl n="12" sp-act="uninterpretable" polarity="positive" topic="" mode="">
+i did er
+</decl>
+<frag n="13" sp-act="answ-cont" polarity="positive" topic="month" mode="">
+October the fifteenth
+</frag>
+</turn>
+<turn n="7" speaker="A">
+<frag n="14" sp-act="echo" polarity="positive" topic="month" mode="">
+October the fifteenth
+</frag>
+</turn>
+<turn n="8" speaker="B">
+<yes n="15" sp-act="ackn">
+yeah
+</yes>
+</turn>
+<turn n="9" speaker="A">
+<decl n="16" sp-act="confirm" polarity="positive" topic="day" mode="open">
+<pause length="2s" /> which is a Thursday
+</decl>
+<dm n="17" sp-act="init">
+now
+</dm>
+<q-yn n="18" sp-act="reqInfo" polarity="positive" topic="number" mode="closed">
+is it just for one
+</q-yn>
+</turn>
+<turn n="10" speaker="B">
+<decl n="19" sp-act="answ" polarity="positive" topic="number" mode="closure">
+it is just for one
+</decl>
+</turn>
+<turn n="11" speaker="A">
+<q-wh n="20" sp-act="reqDirect" polarity="positive" topic="time-preference" mode="open">
+and what time would you like to depart
+</q-wh>
+</turn>
+<turn n="12" speaker="B">
+<dm n="21" sp-act="init">
+erm well
+</dm>
+<decl n="22" sp-act="direct" polarity="positive" topic="time-location-to-preference" mode="poss1-alternativeIntent">
+i'd like to get to Birmingham N E C for as close to 9 o'clock either side of it as i can <pause length="4s" />
+</decl>
+<decl n="23" sp-act="inform" polarity="positive" topic="" mode="opinion-constrain">
+oh i've just had a thought
+</decl>
+<decl n="24" sp-act="informIntent" polarity="positive" topic="" mode="intent-constrain-report">
+i'm going to have to phone you back
+</decl>
+<decl n="25" sp-act="express-possibility" polarity="positive" topic="number" mode="">
+there might be two of us <pause />
+</decl>
+<decl n="26" sp-act="express-regret" polarity="positive" topic="" mode="regret">
+i'm sorry about that
+</decl>
+</turn>
+<turn n="13" speaker="A">
+<frag n="27" sp-act="ackn" polarity="positive" topic="" mode="">
+ok then sir
+</frag>
+</turn>
+<turn n="14" speaker="B">
+<dm n="28" sp-act="expressRegret" mode="regret">
+sorry about that
+</dm>
+</turn>
+<turn n="15" speaker="A">
+<imp n="29" sp-act="suggest" polarity="positive" topic="time" mode="">
+call us back when you're ready
+</imp>
+</turn>
+<turn n="16" speaker="B">
+<dm n="30" sp-act="ackn" polarity="positive">
+ok
+</dm>
+<frag n="31" sp-act="bye" polarity="positive" topic="closing" mode="farewell">
+bye now <overlap type="start" />
+</frag>
+<dm n="32" sp-act="expressRegret" mode="regret">
+sorry
+</dm>
+</turn>
+<turn n="17" speaker="A">
+<frag n="33" sp-act="bye" polarity="positive" topic="closing" mode="farewell">
+bye <overlap type="end" /> 
+</frag>
+</turn>
+</dialogue>

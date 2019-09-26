@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<dialogue corpus="trainline" id="10">
+<turn n="01" speaker="A">
+<frag n="1" sp-act="greet" polarity="positive" topic="opening" mode="greet">
+good afternoon
+</frag>
+<frag n="2" sp-act="identifySelf" polarity="positive" topic="intro" mode="deixis">
+Virgin trainlines Sandra speaking
+</frag>
+<q-wh n="3" sp-act="reqDirect" polarity="positive" topic="journey-preference" mode="open">
+for which journey do you wish to purchase a ticket
+</q-wh>
+</turn>
+<turn n="02" speaker="B">
+<decl n="4" sp-act="direct" polarity="positive" topic="location-to-preference-from" mode="intent-closure">
+er i'd like to go from Preston to London
+</decl>
+</turn>
+<turn n="03" speaker="A">
+<dm n="5" sp-act="init">
+<pause /> now
+</dm>
+<q-yn n="6" sp-act="reqInfo" polarity="positive" topic="creditcard" mode="closed">
+do you hold a current debit or credit card
+</q-yn>
+</turn>
+<turn n="04" speaker="B">
+<frag n="7" sp-act="answ" polarity="positive" topic="creditcard" mode="closure">
+er credit card
+</frag>
+</turn>
+<turn n="05" speaker="A">
+<q-yn n="8" sp-act="reqInfo" polarity="positive" topic="railcard" mode="closed">
+and do you have a railcard at all
+</q-yn>
+</turn>
+<turn n="06" speaker="B">
+<no n="9" sp-act="answ">
+no
+</no>
+<frag n="10" sp-act="answElab" polarity="negative" topic="" mode="closure">
+i don't
+</frag>
+</turn>
+<turn n="07" speaker="A">
+<q-wh n="11" sp-act="reqInfo" polarity="positive" topic="number-journey" mode="open">
+and how many people are travelling
+</q-wh>
+</turn>
+<turn n="08" speaker="B">
+<frag n="12" sp-act="answ" polarity="positive" topic="number" mode="closure">
+just one
+</frag>
+</turn>
+<turn n="09" speaker="A">
+<q-wh n="13" sp-act="reqDirect" polarity="positive" topic="preference-date-journey" mode="open">
+and what date would you like to travel
+</q-wh>
+</turn>
+<turn n="10" speaker="B">
+<frag n="14" sp-act="direct" polarity="positive" topic="day" mode="closure">
+er next er next Friday <pause />
+</frag>
+<dm n="15" sp-act="init">
+so
+</dm>
+<frag n="16" sp-act="uninterpretable" polarity="positive" topic="" mode="">
+wha... er
+</frag>
+</turn>
+<turn n="11" speaker="A">
+<frag n="17" sp-act="confirm" polarity="positive" topic="" mode="">
+the ninth
+</frag>
+</turn>
+<turn n="12" speaker="B">
+<frag n="18" sp-act="ackn" polarity="positive" topic="" mode="">
+the ninth yes
+</frag>
+</turn>
+<turn n="13" speaker="A">
+<frag n="19" sp-act="confirm" polarity="positive" topic="month" mode="deixis">
+of October
+</frag>
+</turn>
+<turn n="14" speaker="B">
+<frag n="20" sp-act="ackn" polarity="positive" topic="month" mode="deixis">
+of October yes
+</frag>
+</turn>
+<turn n="15" speaker="A">
+<q-wh n="21" sp-act="reqInfo" polarity="positive" topic="time-location-from-journey" mode="open">
+travelling from Preston at what time
+</q-wh>
+</turn>
+<turn n="16" speaker="B">
+<decl n="22" sp-act="expressWish" polarity="positive" topic="time-location-arrival-preference-number" mode="conditionIntent-closure">
+i'd like to arrive in er London at hal... around half past seven if possible
+</decl>
+<dm n="23" sp-act="init">
+so
+</dm>
+<frag n="24" sp-act="inform" polarity="negative" topic="time" mode="">
+i don't know the <overlap type="start" /> time in <overlap type="end" /> the evening yes
+</frag>
+</turn>
+<turn n="17" speaker="A">
+<dm n="25" sp-act="init">
+<pause length="6s" /> now
+</dm>
+<decl n="26" sp-act="inform" polarity="positive" topic="location-time-arrival-from-number" mode="exists-alternative">
+there's a train from Preston at 16 31 arriving at 19 48 or the one before that 16 20 arriving 18 51
+</decl>
+</turn>
+<turn n="18" speaker="B">
+<frag n="27" sp-act="confirm" polarity="positive" topic="time-arrival" mode="abandon">
+er <pause /> <unclear length="5 syllables" /> at 16 20 arriv... arriving at 18
+</frag>
+</turn>
+<turn n="19" speaker="A">
+<frag n="28" sp-act="complete" polarity="positive" topic="enum" mode="">
+18 51
+</frag>
+</turn>
+<turn n="20" speaker="B">
+<dm n="29" sp-act="init">
+well
+</dm>
+<yes n="30" sp-act="ackn">
+yeah
+</yes>
+<decl n="31" sp-act="direct" polarity="positive" topic="number" mode="intent">
+i'll have this one then
+</decl>
+</turn>
+<turn n="21" speaker="A">
+<frag n="32" sp-act="confirm" polarity="positive" topic="enum" mode="">
+the 16 20
+</frag>
+</turn>
+<turn n="22" speaker="B">
+<yes n="33" sp-act="ackn">
+yes
+</yes>
+</turn>
+<turn n="23" speaker="A">
+<q-wh n="34" sp-act="reqDirect" polarity="positive" topic="time-preference" mode="open">
+and when would you like to return
+</q-wh>
+</turn>
+<turn n="24" speaker="B">
+<q-wh n="35" sp-act="reqInfo" polarity="positive" topic="day-time" mode="closure">
+er on er well... when's the last train on the Sunday
+</q-wh>
+</turn>
+<turn n="25" speaker="A">
+<frag n="36" sp-act="answ" polarity="positive" topic="day" mode="">
+Sunday the eleventh
+</frag>
+</turn>
+<turn n="26" speaker="B">
+<yes n="37" sp-act="ackn">
+yes
+</yes>
+</turn>
+<turn n="27" speaker="A">
+<decl n="38" sp-act="inform" polarity="positive" topic="time-arrival" mode="">
+<pause length="16s" /> the last train in the evening is the 20 35 arriving at 23 35
+</decl>
+</turn>
+<turn n="28" speaker="B">
+<yes n="39" sp-act="ackn">
+yes
+</yes>
+<dm n="40" sp-act="ackn" polarity="positive">
+ok
+</dm>
+<decl n="41" sp-act="accept" polarity="positive" topic="time-arrival" mode="">
+that's good
+</decl>
+</turn>
+<turn n="29" speaker="A">
+<dm n="42" sp-act="init">
+<pause /> now
+</dm>
+<decl n="43" sp-act="informIntent-hold" polarity="positive" topic="fare-avail-verify" mode="intent">
+i'm just going to check to see what's your cheapest fare available to you
+</decl>
+</turn>
+<turn n="30" speaker="B">
+<dm n="44" sp-act="ackn" polarity="positive">
+ok
+</dm>
+</turn>
+<turn n="31" speaker="A">
+<dm n="45" sp-act="init">
+<pause length="6s" /> now
+</dm>
+<frag n="46" sp-act="refer" polarity="positive" topic="enum" mode="deixis">
+on that outward service on the 16 20
+</frag>
+<decl n="47" sp-act="inform" polarity="negative" topic="fare-avail-journey" mode="exists">
+there's not an advance purchase tickets available now
+</decl>
+<decl n="48" sp-act="inform" polarity="positive" topic="avail" mode="">
+they have been booked up
+</decl>
+</turn>
+<turn n="32" speaker="B">
+<frag n="49" sp-act="exclaim" polarity="positive" topic="" mode="partial">
+oh
+</frag>
+</turn>
+<turn n="33" speaker="A">
+<frag n="50" sp-act="refer" polarity="positive" topic="fare-journey" mode="">
+to get an advance purchase ticket
+</frag>
+<decl n="51" sp-act="inform" polarity="positive" topic="enum" mode="constrain">
+you would need to get the 16 31 <event content='tape_cuts_off' />
+</decl>
+</turn>
+</dialogue>
+
+
+

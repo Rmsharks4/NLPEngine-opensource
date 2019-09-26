@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<dialogue corpus="trainline" id="15">
+<turn n="1" speaker="A">
+<frag n="1" sp-act="greet" polarity="positive" topic="opening" mode="greet">
+good afternoon
+</frag>
+<frag n="2" sp-act="identifySelf" polarity="positive" topic="intro" mode="deixis">
+Virgin trainlines Sandra speaking
+</frag>
+<q-wh n="3" sp-act="reqDirect" polarity="positive" topic="journey-preference" mode="open">
+for which journey do you wish to purchase a ticket
+</q-wh>
+</turn>
+<turn n="2" speaker="B">
+<frag n="4" sp-act="direct" polarity="positive" topic="to-location-day-time" mode="deixis-closure">
+erm erm Warrington to London tomorrow morning on the 8 44
+</frag>
+</turn>
+<turn n="3" speaker="A">
+<dm n="5" sp-act="init">
+now
+</dm>
+<q-yn n="6" sp-act="reqInfo" polarity="positive" topic="creditcard" mode="closed">
+is it yourself that is the credit card holder
+</q-yn>
+</turn>
+<turn n="4" speaker="B">
+<dm n="7" sp-act="pardon" mode="regret">
+sorry
+</dm>
+</turn>
+<turn n="5" speaker="A">
+<q-yn n="8" sp-act="reqInfo" polarity="positive" topic="creditcard" mode="closed">
+do you hold a current credit or debit card
+</q-yn>
+</turn>
+<turn n="6" speaker="B">
+<yes n="9" sp-act="answ">
+yes
+</yes>
+<frag n="10" sp-act="answElab" polarity="positive" topic="booking" mode="report-closure-closure">
+the person i'm booking for does
+</frag>
+</turn>
+<turn n="7" speaker="A">
+<dm n="11" sp-act="ackn" polarity="positive">
+ok <pause />
+</dm>
+<q-yn n="12" sp-act="reqInfo" polarity="positive" topic="journey-railcard" mode="closed">
+and does the person have a railcard who's travelling
+</q-yn>
+</turn>
+<turn n="8" speaker="B">
+<dm n="13" sp-act="expressRegret" mode="regret">
+sorry
+</dm>
+<yes n="14" sp-act="answ">
+yes
+</yes>
+<decl n="15" sp-act="answElab" polarity="positive" topic="" mode="closure">
+i've already spoken to somebody earlier
+</decl>
+<decl n="16" sp-act="answElab" polarity="positive" topic="railcard" mode="">
+he has a a family railcard
+</decl>
+</turn>
+<turn n="9" speaker="A">
+<q-wh n="17" sp-act="reqInfo" polarity="positive" topic="number-journey" mode="open">
+and how many people's travelling
+</q-wh>
+</turn>
+<turn n="10" speaker="B">
+<frag n="18" sp-act="answ" polarity="positive" topic="fare" mode="closure">
+5 adults and 4 children <pause />
+</frag>
+<frag n="19" sp-act="inform">
+ <unclear length="5 syllables" /> pay 46 pound 50 <pause />
+</frag>
+<decl n="20" sp-act="inform" polarity="positive" topic="fare" mode="">
+the rest of the adults pay 30 pounds 70
+</decl>
+<decl n="21" sp-act="inform" polarity="positive" topic="fare" mode="">
+and it's <unclear length="2 syllables" /> pound per child <pause />
+</decl>
+<q-yn n="22" sp-act="reqInfo" polarity="positive" topic="" mode="closed">
+is that right
+</q-yn>
+</turn>
+<turn n="11" speaker="A">
+<dm n="23" sp-act="answ" polarity="positive">
+right
+</dm>
+<dm n="24" sp-act="init">
+now
+</dm>
+<q-wh n="25" sp-act="reqInfo" polarity="positive" topic="day-time" mode="open">
+what time tomorrow
+</q-wh>
+<decl n="26" sp-act="confirm" polarity="positive" topic="time" mode="">
+ you said 1 44
+</decl>
+</turn>
+<turn n="12" speaker="B">
+<yes n="27" sp-act="answ" mode="closure">
+er yes <pause />
+</yes>
+<frag n="28" sp-act="inform" polarity="positive" topic="time-arrival" mode="">
+arriving at 11 15
+</frag>
+</turn>
+<turn n="13" speaker="A">
+<dm n="29" sp-act="init">
+<pause length="7s" /> now
+</dm>
+<decl n="30" sp-act="informIntent" polarity="positive" topic="time-journey" mode="intent-constrain-report">
+i'm going to have to arrange for the person to collect the tickets at the train station
+</decl>
+<dm n="31" sp-act="init">
+so
+</dm>
+<decl n="32" sp-act="hold" polarity="positive" topic="hold" mode="condition-manage">
+if you just bear with me
+</decl>
+<decl n="33" sp-act="informIntent" polarity="positive" topic="booking" mode="intent">
+i'm just going to get a booking form to fill in refax to the train station
+</decl>
+</turn>
+<turn n="14" speaker="B">
+<dm n="34" sp-act="ackn" polarity="positive">
+ok
+</dm>
+<frag n="35" sp-act="thank" mode="">
+thanks
+</frag>
+</turn>
+<turn n="15" speaker="A">
+<dm n="36" sp-act="init">
+<pause length="6s" /> now
+</dm>
+<q-wh n="37" sp-act="reqInfo" polarity="positive" topic="time-return" mode="open">
+when is it they're returning
+</q-wh>
+</turn>
+<turn n="16" speaker="B">
+<dm n="38" sp-act="pardon" mode="regret">
+sorry
+</dm>
+</turn>
+<turn n="17" speaker="A">
+<q-wh n="39" sp-act="reqInfo" polarity="positive" topic="time-return" mode="open">
+when is it they're returning
+</q-wh>
+</turn>
+<turn n="18" speaker="B">
+<frag n="40" sp-act="answ" polarity="positive" topic="day" mode="deixis-closure">
+Sunday <pause />
+</frag>
+<frag n="41" sp-act="answElab" polarity="positive" topic="enum" mode="deixis">
+on the 15 35
+</frag>
+</turn>
+<turn n="19" speaker="A">
+<q-wh n="42" sp-act="reqInfo" polarity="positive" topic="day-time" mode="open">
+<pause length="2s" /> what time was Sunday
+</q-wh>
+</turn>
+<turn n="20" speaker="B">
+<frag n="43" sp-act="answ" polarity="positive" topic="enum" mode="closure">
+15 35
+</frag>
+</turn>
+<turn n="21" speaker="A">
+<decl n="44" sp-act="confirm" polarity="positive" topic="day" mode="">
+<pause length="7s" /> and that's Sunday the fourth
+</decl>
+</turn>
+<turn n="22" speaker="B">
+<yes n="45" sp-act="ackn">
+<pause /> yeah
+</yes>
+</turn>
+<turn n="23" speaker="A">
+<dm n="46" sp-act="init">
+<pause length="19s" /> now
+</dm>
+<decl n="47" sp-act="inform" polarity="positive" topic="arrival-location-day-time-from" mode="">
+the 15 35 on Sunday from Euston arrives back in Warrington Bank Quay at 18 03
+</decl>
+</turn>
+<turn n="24" speaker="B">
+<frag n="48" sp-act="echo" polarity="positive" topic="enum" mode="">
+18 03
+</frag>
+</turn>
+<turn n="25" speaker="A">
+<decl n="49" sp-act="inform" polarity="positive" topic="day" mode="">
+then the outward service tomorrow in 8 34 arrives at London 11 15
+</decl>
+</turn>
+<turn n="26" speaker="B">
+<yes n="50" sp-act="ackn">
+yeah
+</yes>
+<frag n="51" sp-act="uninterpretable" polarity="positive" topic="" mode="">
+<pause /> <unclear length="1 syllable" />
+</frag>
+</turn>
+<turn n="27" speaker="A">
+<dm n="52" sp-act="init">
+<pause length="3s" /> so
+</dm>
+<decl n="53" sp-act="confirm" polarity="positive" topic="enum-railcard" mode="">
+it's 4 adults and 4 children on 6 family railcard
+</decl>
+</turn>
+<turn n="28" speaker="B">
+<no n="54" sp-act="negate">
+no
+</no>
+<frag n="55" sp-act="correct" polarity="positive" topic="enum" mode="">
+5 adults 4 children
+</frag>
+</turn>
+<turn n="29" speaker="A">
+<decl n="56" sp-act="inform" polarity="positive" topic="enum" mode="poss2-constrain">
+<pause /> you can only get up to 4 adults on a family card
+</decl>
+</turn>
+<turn n="30" speaker="B">
+<yes n="57" sp-act="ackn">
+yeah
+</yes>
+<decl n="58" sp-act="inform" polarity="positive" topic="fare" mode="exists-constrain">
+but then there's the <unclear length="1 syllable" /> said <unclear length="2 syllables" /> 46 pound 50
+</decl>
+<q-yn n="59" sp-act="reqInfo" polarity="positive" topic="" mode="closed">
+is that right
+</q-yn>
+</turn>
+<turn n="31" speaker="A">
+<yes n="60" sp-act="answ">
+<pause /> yeah
+</yes>
+<frag n="61" sp-act="refer" polarity="positive" topic="" mode="closure">
+they <pause /> the 4 <pause /> the 5 adults 
+</frag>
+<decl n="62" sp-act="inform" polarity="positive" topic="enum-railcard" mode="">
+4 of them will go on the railcard
+</decl>
+<decl n="63" sp-act="inform-disc" polarity="positive" topic="number-fare" mode="constrain">
+one'll have to pay a normal fare  <overlap type="start" /> 46
+</decl>
+</turn>
+<turn n="32" speaker="B">
+<yes n="64" sp-act="ackn">
+yeah <overlap type="end" />
+</yes>
+</turn>
+<turn n="33" speaker="A">
+<frag n="65" sp-act="inform-cont" polarity="positive" topic="fare" mode="">
+pounds fifty
+</frag>
+</turn>
+<turn n="34" speaker="B">
+<decl n="66" sp-act="accept" polarity="positive" topic="" mode="reassurance">
+that's right
+</decl>
+</turn>
+<turn n="35" speaker="A">
+<dm n="67" sp-act="init">
+so
+</dm>
+<decl n="68" sp-act="confirm" polarity="positive" topic="enum-railcard" mode="">
+it's 4 adults and 4 children with the family railcard discount
+</decl>
+</turn>
+<turn n="36" speaker="B">
+<yes n="69" sp-act="ackn">
+yes
+</yes>
+</turn>
+<turn n="37" speaker="A">
+<decl n="70" sp-act="inform" polarity="positive" topic="number-fare" mode="">
+and the total cost is going to be 155 pounds for the four adults and four children
+</decl>
+</turn>
+<turn n="38" speaker="B">
+<dm n="71" sp-act="ackn" polarity="positive">
+right
+</dm>
+</turn>
+<turn n="39" speaker="A">
+<decl n="72" sp-act="informIntent" polarity="positive" topic="number-booking" mode="intent">
+<pause length="6s" /> and then i'll book the one
+</decl>
+</turn>
+<turn n="40" speaker="B">
+<frag n="73" sp-act="complete" polarity="positive" topic="" mode="">
+<pause /> the other adult
+</frag>
+</turn>
+<turn n="41" speaker="A">
+<yes n="74" sp-act="ackn">
+yeah <pause length="7s" />
+</yes>
+<dm n="75" sp-act="init">
+now
+</dm>
+<decl n="76" sp-act="hold" polarity="positive" topic="hold" mode="condition-manage">
+if you just bear with me
+</decl>
+<decl n="77" sp-act="inform" polarity="positive" topic="number-journey" mode="reason-constrain">
+we need to actually fill out the form twice because it's classed as two separate journeys <pause />
+</decl>
+<frag n="78" sp-act="inform" polarity="positive" topic="enum-railcard" mode="">
+with it being 1 with a railcard you know
+</frag>
+<frag n="79" sp-act="inform" polarity="positive" topic="enum-railcard" mode="">
+1 family railcard and 1 without
+</frag>
+<dm n="80" sp-act="init">
+so
+</dm>
+<imp n="81" sp-act="hold" polarity="positive" topic="hold" mode="manage">
+just bear with me
+</imp>
+</turn>
+<turn n="42" speaker="B">
+<dm n="82" sp-act="ackn" polarity="positive">
+ok
+</dm>
+<frag n="83" sp-act="thank" mode="">
+thanks
+</frag>
+</turn>
+<turn n="43" speaker="A">
+<dm n="84" sp-act="init">
+<pause length="12s" /> now
+</dm>
+<frag n="85" sp-act="reqInfo" polarity="positive" topic="name-creditcard" mode="">
+the surname of the credit card holder
+</frag>
+</turn>
+<turn n="44" speaker="B">
+<dm n="86" sp-act="pardon" mode="regret">
+sorry
+</dm>
+</turn>
+<turn n="45" speaker="A">
+<frag n="87" sp-act="reqInfo" polarity="positive" topic="name-creditcard" mode="">
+the surname of the credit card holder
+</frag>
+</turn>
+<turn n="46" speaker="B">
+<frag n="88" sp-act="answ" polarity="positive" topic="name" mode="partial">
+{surname}%12%8%4%14%23%4
+</frag>
+</turn>
+<turn n="47" speaker="A">
+<frag n="89" sp-act="reqInfo" polarity="positive" topic="name" mode="">
+and the initial
+</frag>
+</turn>
+<turn n="48" speaker="B">
+<frag n="90" sp-act="answ" polarity="positive" topic="spell" mode="partial">
+{letter}%15
+</frag>
+</turn>
+<turn n="49" speaker="A">
+<frag n="91" sp-act="reqInfo" polarity="positive" topic="name" mode="">
+and the title
+</frag>
+</turn>
+<turn n="50" speaker="B">
+<frag n="92" sp-act="answ" polarity="positive" topic="" mode="partial">
+Mr
+</frag>
+</turn>
+<turn n="51" speaker="A">
+<frag n="93" sp-act="echo" polarity="positive" topic="" mode="deixis">
+Mr <pause />
+</frag>
+<decl n="94" sp-act="confirm" polarity="positive" topic="day-name-journey" mode="">
+and it's Mr {surname}%12%8%4%14%23%4 who's collecting the tickets tomorrow yeah
+</decl>
+</turn>
+<turn n="52" speaker="B">
+<yes n="95" sp-act="ackn">
+yeah
+</yes>
+</turn>
+<turn n="53" speaker="A">
+<dm n="96" sp-act="init">
+and now
+</dm>
+<frag n="97" sp-act="reqInfo" polarity="positive" topic="creditcard-address" mode="">
+the postcode to where the credit card is registered to
+</frag>
+</turn>
+<turn n="54" speaker="B">
+<frag n="98" sp-act="confirm" polarity="positive" topic="railcard" mode="">
+erm <pause /> the railcard
+</frag>
+</turn>
+<turn n="55" speaker="A">
+<no n="99" sp-act="negate">
+no no
+</no>
+<frag n="100" sp-act="correct" polarity="positive" topic="creditcard" mode="">
+the credit card
+</frag>
+</turn>
+<turn n="56" speaker="B">
+<decl n="101" sp-act="answ" polarity="positive" topic="" mode="">
+it's a diner's card erm <pause />
+</decl>
+<decl n="102" sp-act="answElab" polarity="negative" topic="address" mode="">
+postcode i don't know
+</decl>
+</turn>
+<turn n="57" speaker="A">
+<dm n="103" sp-act="init">
+well
+</dm>
+<decl n="104" sp-act="inform" polarity="positive" topic="creditcard-address" mode="constrain">
+i need the full credit card address
+</decl>
+</turn>
+<turn n="58" speaker="B">
+<dm n="105" sp-act="ackn" polarity="positive">
+right
+</dm>
+<imp n="106" sp-act="hold" polarity="positive" topic="hold" mode="manage">
+hold on a second
+</imp>
+</turn>
+<turn n="59" speaker="A">
+<yes n="107" sp-act="ackn">
+yeah <pause length="10s" />
+</yes>
+</turn>
+<turn n="60" speaker="B">
+<frag n="108" sp-act="greet" polarity="positive" topic="" mode="partial-greet">
+hello
+</frag>
+</turn>
+<turn n="61" speaker="A">
+<frag n="109" sp-act="greet" polarity="positive" topic="" mode="partial-greet">
+hello
+</frag>
+</turn>
+<turn n="62" speaker="B">
+<decl n="110" sp-act="inform" polarity="positive" topic="number" mode="constrain">
+the only thing i've got is his number <pause />
+</decl>
+<decl n="111" sp-act="inform" polarity="negative" topic="address" mode="">
+i don't have an address
+</decl>
+</turn>
+<turn n="63" speaker="A">
+<decl n="112" sp-act="inform" polarity="positive" topic="creditcard-address" mode="constrain">
+but we do need the credit card address details
+</decl>
+</turn>
+<turn n="64" speaker="B">
+<dm n="113" sp-act="ackn" polarity="positive">
+<pause /> <overlap type="start" /> right
+</dm>
+</turn>
+<turn n="65" speaker="A">
+<decl n="114" sp-act="inform" polarity="negative" topic="booking" mode="">
+we <overlap type="end" /> can't take a booking without it
+</decl>
+</turn>
+<turn n="66" speaker="B">
+<dm n="115" sp-act="ackn" polarity="positive">
+right
+</dm>
+<imp n="116" sp-act="hold" polarity="positive" topic="hold" mode="manage">
+hold on a second
+</imp>
+</turn>
+<turn n="67" speaker="A">
+<yes n="117" sp-act="ackn">
+yeah <pause length="18s" />
+</yes>
+</turn>
+<turn n="68" speaker="B">
+<decl n="118" sp-act="inform" polarity="positive" topic="" mode="">
+it's i've got it
+</decl>
+<decl n="119" sp-act="inform" polarity="positive" topic="" mode="">
+it's American Express
+</decl>
+</turn>
+<turn n="69" speaker="A">
+<dm n="120" sp-act="ackn" polarity="positive">
+right well
+</dm>
+<decl n="121" sp-act="inform" polarity="negative" topic="booking-address" mode="poss1-apology">
+i'm afraid i can't take the booking until you find the appropriate address
+</decl>
+<q-yn n="122" sp-act="reqInfo" polarity="negative" topic="booking-journey" mode="closed">
+do you not know the person who you're booking the travel for
+</q-yn>
+</turn>
+<turn n="70" speaker="B">
+<yes n="123" sp-act="answ">
+yes
+</yes>
+<decl n="124" sp-act="answElab" polarity="positive" topic="" mode="closure">
+i do
+</decl>
+</turn>
+<turn n="71" speaker="A">
+<dm n="125" sp-act="ackn" polarity="positive">
+right
+</dm>
+<q-yn n="126" sp-act="reqInfo" polarity="negative" topic="address" mode="closed">
+do you not know where the bill and address is the bill's sent to <pause />
+</q-yn>
+<q-yn n="127" sp-act="reqInfo" polarity="positive" topic="" mode="closure">
+is he there just now
+</q-yn>
+</turn>
+<turn n="72" speaker="B">
+<no n="128" sp-act="answ">
+no
+</no>
+<decl n="129" sp-act="answElab" polarity="negative" topic="" mode="">
+he's not
+</decl>
+<decl n="130" sp-act="answElab" polarity="positive" topic="" mode="">
+he's in a meeting
+</decl>
+</turn>
+<turn n="73" speaker="A">
+<dm n="131" sp-act="ackn" polarity="positive">
+right well
+</dm>
+<decl n="132" sp-act="inform" polarity="positive" topic="booking-journey" mode="constrain">
+i'm afraid you... we're going to have to wait until he comes out of the meeting then and give the ring back to book this <overlap type="start" /> ticket
+</decl>
+</turn>
+<turn n="74" speaker="B">
+<q-yn n="133" sp-act="unclassifiable" polarity="positive" topic="" mode="closed">
+is it <overlap type="end" />
+</q-yn>
+<decl n="134" sp-act="confirm" polarity="positive" topic="creditcard-address" mode="constrain-closure">
+you just need the credit card's address
+</decl>
+</turn>
+<turn n="75" speaker="A">
+<decl n="135" sp-act="inform" polarity="positive" topic="creditcard-address" mode="constrain">
+we need the full credit card details address <pause />
+</decl>
+<frag n="136" sp-act="inform" polarity="positive" topic="address" mode="">
+the full address plus the postcode
+</frag>
+</turn>
+<turn n="76" speaker="B">
+<dm n="137" sp-act="ackn" polarity="positive">
+right
+</dm>
+<decl n="138" sp-act="hold" polarity="positive" topic="hold" mode="condition-manage">
+if you hold on
+</decl>
+<decl n="139" sp-act="informIntent-disc" polarity="positive" topic="" mode="poss1">
+i can get it off anoth... another person
+</decl>
+</turn>
+<turn n="77" speaker="A">
+<yes n="140" sp-act="ackn">
+yeah
+</yes>
+<dm n="141" sp-act="ackn" polarity="positive">
+<overlap type="start" /> sure
+</dm>
+</turn>
+<turn n="78" speaker="B">
+<frag n="142" sp-act="inform-cont" polarity="positive" topic="" mode="open">
+who has it <overlap type="end" />
+</frag>
+<frag n="143" sp-act="hold" polarity="positive" topic="number" mode="closure">
+one second <event type='tape_cuts_off' />
+</frag>
+</turn>
+<turn n="79" speaker="A">
+<frag n="144" sp-act="greet" polarity="positive" topic="" mode="partial-greet">
+hello
+</frag>
+</turn>
+<turn n="80" speaker="B">
+<q-yn n="145" sp-act="reqModal" polarity="positive" topic="name" mode="closed-poss1">
+can i can i take your name and ring you back <event type='tape_cuts_off' /> 
+</q-yn>
+</turn>
+</dialogue>
+
