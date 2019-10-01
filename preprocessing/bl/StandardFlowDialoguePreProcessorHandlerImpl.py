@@ -20,7 +20,6 @@ from preprocessing.bl.AbstractDialoguePreProcessorHandler import AbstractDialogu
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 from preprocessing.utils.UtilsFactory import UtilsFactory
-from preprocessing.driver.PreProcessorService import PreProcessorService
 from commons.dao.SparkDAOImpl import SparkDAOImpl
 import numpy as np
 import pandas as pd
@@ -79,5 +78,5 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                         preprocessor.config_pattern.properties.req_args: util
                     }))
         return spark.create([
-            df, PreProcessorService.__name__
+            df, self.__class__.__name__
         ])

@@ -48,4 +48,6 @@ class PreProcessorService(AbstractService):
             SparkDAOImpl.__name__: data_obj
         })
 
-        return dao_obj.save(output_obj)
+        return dao_obj.save([
+            output_obj, args[SparkDAOImpl.__name__]
+        ])
