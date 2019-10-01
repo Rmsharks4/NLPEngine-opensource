@@ -22,7 +22,6 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         """
         initializes Expand Contractions Dialogue Pre-Processor Class: set required data and arguments
         """
-        self.logger.info('Calling Parent Constructor: '+super.__class__.__name__)
         super().__init__()
 
         self.logger.info('Setting Arguments in: ' + self.config_pattern.properties.__class__.__name__)
@@ -31,15 +30,6 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         self.config_pattern.properties.req_args = ContractionsDictionary.__name__
         self.logger.info("Required Arguments: " + ContractionsDictionary.__name__)
 
-    def replace(self, match, contractions_dict):
-        """
-
-        :param match: (str) string to match
-        :param contractions_dict: (dict) regex dict for contractions
-        :return: (str) string to replace
-        """
-        return contractions_dict[match.group(0)]
-
     def expand_contractions(self, text, contractions):
         """
 
@@ -47,7 +37,9 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param contractions: (ContractionsDictionary) contractions utils
         :return: (str) preprocessed data
         """
-        return contractions.contractions_re.sub(self.replace, text, contractions.contractions_dict)
+        def replace(match):
+            return contractions.contractions_dict[match.group(0)]
+        return contractions.contractions_re.sub(replace, text)
 
     def preprocess_operation(self, args):
         """
@@ -57,5 +49,5 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (SplitJointWordsPreProcessorImpl)
         :return: (list) array of preprocessed data
         """
-        return [self.expand_contractions(args[self.config_pattern.properties.req_data],
-                                         args[self.config_pattern.properties.req_args])]
+        return self.expand_contractions(args[self.config_pattern.properties.req_data],
+                                         args[self.config_pattern.properties.req_args])

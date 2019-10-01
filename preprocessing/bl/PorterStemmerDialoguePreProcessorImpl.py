@@ -15,6 +15,7 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.utils.PorterStemmer import PorterStemmer
+import re
 
 
 class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -36,7 +37,7 @@ class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param stemmer: (PorterStemmer) stemmer utils
         :return: (str) preprocessed data
         """
-        return stemmer.stemmer_lib.stem(text)
+        return ' '.join(stemmer.stemmer_lib.stem(x) for x in re.split('\W+', text))
 
     def preprocess_operation(self, args):
         """
@@ -46,5 +47,7 @@ class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (PorterStemmer)
         :return: (list) array of preprocessed data
         """
-        return [self.stem(args[self.config_pattern.properties.req_data],
-                          args[self.config_pattern.properties.req_args])]
+        for req_data in self.config_pattern.properties.req_data:
+            if req_data in args:
+                return self.stem(args[req_data], args[self.config_pattern.properties.req_args])
+        return None

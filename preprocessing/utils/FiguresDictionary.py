@@ -33,4 +33,4 @@ class FiguresDictionary(AbstractUtils):
             FiguresDictionary.figures_dict = dict((rows[0], '#') for rows in reader)
         FiguresDictionary.figures_re = re.compile(r'\b(%s)\b' % '|'.join(FiguresDictionary.figures_dict.keys()))
         FiguresDictionary.numbers_re = re.compile(r'\w*\d\w*')
-        FiguresDictionary.replace_text = '$NUMBER'
+        FiguresDictionary.replace_text = 'NUMBER'

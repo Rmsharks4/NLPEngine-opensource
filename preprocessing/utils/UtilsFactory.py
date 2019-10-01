@@ -38,4 +38,4 @@ class UtilsFactory:
             StopWordsDictionary.__name__: StopWordsDictionary(),
             WordnetLemmatizer.__name__: WordnetLemmatizer()
         }
-        return switcher.get(util_type, '')
+        return switcher.get(util_type, None)

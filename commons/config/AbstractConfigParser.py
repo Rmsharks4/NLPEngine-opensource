@@ -5,7 +5,7 @@
 """
 
 from configparser import ConfigParser
-import os
+import yaml
 import abc
 from commons.config.AbstractConfig import AbstractConfig
 
@@ -38,7 +38,29 @@ class AbstractConfigParser(metaclass=abc.ABCMeta):
         with open(self.cls_config_file_path, 'w') as file:
             self.cls_config_parser.write(file)
 
-    def read(self, args):
+    def read_config(self, args):
+        self.cls_config_parser.read(args)
+        self.cls_config_pattern.id, \
+        self.cls_config_pattern.name, \
+        properties, \
+        methods, \
+        self.cls_config_pattern.vars = self.cls_config_parser[AbstractConfig.__name__].values()
+
+        properties = yaml.safe_load(properties)
+        methods = yaml.safe_load(methods)
+
+
+
+        self.cls_config_pattern.properties.req_args, \
+        self.cls_config_pattern.properties.req_data, \
+        self.cls_config_pattern.properties.parents, \
+        self.cls_config_pattern.properties.children = [None if x == 'None' else x for x in properties.values()]
+
+        self.cls_config_pattern.methods.static_methods, \
+        self.cls_config_pattern.methods.impl_methods, \
+        self.cls_config_pattern.methods.abs_methods = [None if x == 'None' else x for x in methods.values()]
+
+    def read_dict(self, args):
         return self.cls_config_parser.read_dict(args)
 
     @abc.abstractmethod

@@ -14,6 +14,7 @@ remove all frequently occurring words (the, by, etc.)
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.utils.StopWordsDictionary import StopWordsDictionary
+import re
 
 
 class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -34,7 +35,7 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param stopwords: (StopWordsDictionary) stop words utils
         :return: (str) preprocessed data
         """
-        return text if text not in stopwords.stopwrods_dict else stopwords.stopwords_replace
+        return ''.join(x+' ' if x not in stopwords.stopwords_dict else stopwords.stopwords_replace for x in re.split('\W+', text))
 
     def preprocess_operation(self, args):
         """
@@ -44,5 +45,5 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (StopWordsDictionary)
         :return: (list) array of preprocessed data
         """
-        return [self.remove_stop_words(args[self.config_pattern.properties.req_data],
-                                       args[self.config_pattern.properties.req_args])]
+        return self.remove_stop_words(args[self.config_pattern.properties.req_data],
+                                      args[self.config_pattern.properties.req_args])

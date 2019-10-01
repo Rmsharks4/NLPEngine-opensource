@@ -14,7 +14,7 @@ from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
 from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 
 
-class AbstractDialoguePreProcessor(StandardConfigParserImpl, metaclass=abc.ABCMeta):
+class AbstractDialoguePreProcessor(StandardConfigParserImpl):
 
     def __init__(self):
         """
@@ -32,7 +32,6 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl, metaclass=abc.ABCMe
         if cls.preprocess_validation(args):
             cls.preprocess_operation(args)
 
-    @abc.abstractmethod
     def preprocess_operation(self, args):
         """
 

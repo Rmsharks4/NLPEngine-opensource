@@ -44,5 +44,5 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
         (SplitsDictionary)
         :return: (list) array of preprocessed data
         """
-        return [self.split_joint_words(args[self.config_pattern.properties.req_data],
-                                       args[self.config_pattern.properties.req_args])]
+        return self.split_joint_words(args[self.config_pattern.properties.req_data],
+                                       args[self.config_pattern.properties.req_args])

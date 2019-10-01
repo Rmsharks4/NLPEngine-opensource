@@ -44,5 +44,5 @@ class RemovePunctuationDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (PunctuationDictionary)
         :return: (list) array of preprocessed data
         """
-        return [self.remove_punctuation(args[self.config_pattern.properties.req_data],
-                                        args[self.config_pattern.properties.req_args])]
+        return self.remove_punctuation(args[self.config_pattern.properties.req_data],
+                                        args[self.config_pattern.properties.req_args])

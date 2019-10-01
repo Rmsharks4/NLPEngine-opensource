@@ -30,4 +30,4 @@ class EmailsDictionary(AbstractUtils):
         EmailsDictionary.standard_re = re.compile(r'\w*@\w*\.\w*')
         EmailsDictionary.semi_standard_re = re.compile(r'\w*\.\w*')
         EmailsDictionary.non_standard_re = re.compile(r'\w*\sdot\s\w*')
-        EmailsDictionary.replace_text = '$EMAIL'
+        EmailsDictionary.replace_text = 'EMAIL'

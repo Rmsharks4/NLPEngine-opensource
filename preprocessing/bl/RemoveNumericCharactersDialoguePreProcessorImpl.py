@@ -27,16 +27,6 @@ class RemoveNumericCharactersDialoguePreProcessorImpl(AbstractDialoguePreProcess
         self.config_pattern.properties.req_args = FiguresDictionary.__name__
 
     @classmethod
-    def replace(cls, match, figures_dict):
-        """
-
-        :param match: (str) string to match
-        :param figures_dict: (dict) regex dict for figures
-        :return: (str) string to replace
-        """
-        return figures_dict[match.group(0)]
-
-    @classmethod
     def remove_numeric_characters(cls, text, figures):
         """
 
@@ -44,9 +34,11 @@ class RemoveNumericCharactersDialoguePreProcessorImpl(AbstractDialoguePreProcess
         :param figures: (FiguresDictionary) figures utils
         :return: (str) preprocessed data
         """
+        def replace(match):
+            return figures.figures_dict[match.group(0)]
         text = figures.numbers_re.sub(figures.replace_text, text)
-        return figures.figures_re.sub(cls.replace, text, figures.figures_dict)
-
+        return figures.figures_re.sub(replace, text)
+        
     def preprocess_operation(self, args):
         """
 
@@ -55,5 +47,5 @@ class RemoveNumericCharactersDialoguePreProcessorImpl(AbstractDialoguePreProcess
         (FiguresDictionary)
         :return: (list) array of preprocessed data
         """
-        return [self.remove_numeric_characters(args[self.config_pattern.properties.req_data],
-                                               args[self.config_pattern.properties.req_args])]
+        return self.remove_numeric_characters(args[self.config_pattern.properties.req_data],
+                                               args[self.config_pattern.properties.req_args])

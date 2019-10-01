@@ -14,6 +14,7 @@ corrects spellings of words (cactos to cactus, etc.)
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.RemovePunctuationDialoguePreProcessorImpl import RemovePunctuationDialoguePreProcessorImpl
 from preprocessing.utils.SpellCheckerLib import SpellCheckerLib
+import re
 
 
 class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -34,7 +35,7 @@ class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param spell_checker: (SpellCheckerLib) spell checker utils
         :return: (str) preprocessed data
         """
-        return spell_checker.spell_checker_lib.correction(text)
+        return ' '.join(spell_checker.spell_checker_lib.correction(x) for x in re.split('\W+', text))
 
     def preprocess_operation(self, args):
         """
@@ -44,5 +45,5 @@ class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (SpellCheckerLib)
         :return: (list) array of preprocessed data
         """
-        return [self.spell_check(args[self.config_pattern.properties.req_data],
-                                 args[self.config_pattern.properties.req_args])]
+        return self.spell_check(args[self.config_pattern.properties.req_data],
+                                 args[self.config_pattern.properties.req_args])

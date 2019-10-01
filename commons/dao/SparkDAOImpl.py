@@ -8,7 +8,6 @@ class SparkDAOImpl(AbstractDAO):
 
     def __init__(self):
         super().__init__()
-        self.context = SparkContext('local')
         self.spark = SparkSession.builder.getOrCreate()
 
     def load(self, args):

@@ -16,7 +16,6 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
 from commons.dao.AbstractDAOFactory import AbstractDAOFactory
 from commons.dao.SparkDAOImpl import SparkDAOImpl
-from commons.dao.ConfigDAOImpl import ConfigDAOImpl
 from commons.AbstractService import AbstractService
 from preprocessing.bl.AbstractDialoguePreProcessorHandlerFactory import AbstractDialoguePreProcessorHandlerFactory
 from preprocessing.bl.StandardFlowDialoguePreProcessorHandlerImpl import StandardFlowDialoguePreProcessorHandlerImpl
@@ -39,7 +38,9 @@ class PreProcessorService(AbstractService):
         :return: (SparkDAOImpl) DAO object to use further
         """
         dao_obj = AbstractDAOFactory.get_dao(SparkDAOImpl.__name__)
-        data_obj = dao_obj.load(args[SparkDAOImpl.__name__])
+        data_obj = dao_obj.load([
+            args[SparkDAOImpl.__name__], PreProcessorService.__name__
+        ])
 
         handler_obj = AbstractDialoguePreProcessorHandlerFactory.get_dialogue_preprocessor_handler(StandardFlowDialoguePreProcessorHandlerImpl.__name__)
         output_obj = handler_obj.perform_preprocessing({

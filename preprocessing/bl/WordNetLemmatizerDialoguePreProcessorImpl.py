@@ -15,6 +15,7 @@ from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopW
 from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.WordnetLemmatizer import WordnetLemmatizer
+import re
 
 
 class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -36,7 +37,7 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param lemmatizer: (WordnetLemmatizer) lemmatizer utils
         :return:
         """
-        return lemmatizer.lemmatizer_lib.lemmatize(text, pos=lemmatizer.lemmatizer_mode)
+        return ' '.join(lemmatizer.lemmatizer_lib.lemmatize(x, pos=lemmatizer.lemmatize_mode) for x in re.split('\W+', text))
 
     def preprocess_operation(self, args):
         """
@@ -46,5 +47,7 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (WordnetLemmatizer)
         :return: (list) array of preprocessed data
         """
-        return [self.lemmatize(args[self.config_pattern.properties.req_data],
-                               args[self.config_pattern.properties.req_args])]
+        for req_data in self.config_pattern.properties.req_data:
+            if req_data in args:
+                return self.lemmatize(args[req_data], args[self.config_pattern.properties.req_args])
+        return None
