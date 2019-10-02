@@ -35,7 +35,7 @@ class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param spell_checker: (SpellCheckerLib) spell checker utils
         :return: (str) preprocessed data
         """
-        return ' '.join(spell_checker.spell_checker_lib.correction(x) for x in re.split('\W+', text))
+        return ' '.join(spell_checker.spell_checker_lib.correction(x) if x != '' else x for x in re.split('[\s,]+', text))
 
     def preprocess_operation(self, args):
         """

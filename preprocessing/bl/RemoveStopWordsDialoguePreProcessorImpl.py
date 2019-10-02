@@ -35,7 +35,7 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param stopwords: (StopWordsDictionary) stop words utils
         :return: (str) preprocessed data
         """
-        return ''.join(x+' ' if x not in stopwords.stopwords_dict else stopwords.stopwords_replace for x in re.split('\W+', text))
+        return ''.join(x+' ' if x not in stopwords.stopwords_dict else stopwords.stopwords_replace for x in re.split('[\s,]+', text))
 
     def preprocess_operation(self, args):
         """

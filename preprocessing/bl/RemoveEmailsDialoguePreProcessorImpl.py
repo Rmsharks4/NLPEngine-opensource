@@ -35,7 +35,6 @@ class RemoveEmailsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :return: (str) preprocessed data
         """
         text = emails.standard_re.sub(emails.replace_text, text)
-        text = emails.semi_standard_re.sub(emails.replace_text, text)
         text = emails.non_standard_re.sub(emails.replace_text, text)
         return text
 

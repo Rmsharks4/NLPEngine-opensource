@@ -37,7 +37,7 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param lemmatizer: (WordnetLemmatizer) lemmatizer utils
         :return:
         """
-        return ' '.join(lemmatizer.lemmatizer_lib.lemmatize(x, pos=lemmatizer.lemmatize_mode) for x in re.split('\W+', text))
+        return ' '.join(lemmatizer.lemmatizer_lib.lemmatize(x, pos=lemmatizer.lemmatize_mode) for x in re.split('[\s,]+', text))
 
     def preprocess_operation(self, args):
         """

@@ -21,10 +21,6 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 from preprocessing.utils.UtilsFactory import UtilsFactory
 from commons.dao.SparkDAOImpl import SparkDAOImpl
-import numpy as np
-import pandas as pd
-import string
-
 
 
 class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingHandler):

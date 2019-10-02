@@ -37,7 +37,7 @@ class PorterStemmerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         :param stemmer: (PorterStemmer) stemmer utils
         :return: (str) preprocessed data
         """
-        return ' '.join(stemmer.stemmer_lib.stem(x) for x in re.split('\W+', text))
+        return ' '.join(stemmer.stemmer_lib.stem(x) for x in re.split('[\s,]+', text))
 
     def preprocess_operation(self, args):
         """
