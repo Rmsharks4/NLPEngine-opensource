@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+42,11,A,decl,24.0,stateIntent-hold,"
+so ",intent-exists-decl,availability-verify,positive,backchannel,content,oh right
+42,11,A,decl,24.0,stateIntent-hold,"
+so ",intent-exists-decl,availability-verify,positive,pause,,
+42,11,A,decl,24.0,stateIntent-hold,"
+so ",intent-exists-decl,availability-verify,positive,backchannel,content,right
+42,11,A,decl,24.0,stateIntent-hold,"
+so ",intent-exists-decl,availability-verify,positive,punc,type,stop

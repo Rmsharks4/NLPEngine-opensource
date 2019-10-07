@@ -1,0 +1,29 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,87,A,frag,148.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+39,113,A,frag,231.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+42,81,A,frag,132.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+43,87,A,frag,170.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+44,107,A,frag,216.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+46,97,A,frag,193.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+48,149,A,frag,238.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+51,115,A,frag,205.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+53,121,A,frag,263.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+54,87,A,frag,138.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+58,101,A,frag,206.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+59,93,A,frag,200.0,thank,"
+thank you for calling ",thank-intro,,,overlap,type,start
+59,93,A,frag,200.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop
+64,105,A,frag,182.0,thank,"
+thank you for calling ",thank-intro,,,punc,type,stop

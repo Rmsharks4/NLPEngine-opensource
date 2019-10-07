@@ -1,0 +1,52 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,14,B,decl,19.0,answ,"
+i'd like to leave on the 7 33 train
+",intent-closure,departure-preference-time,positive,,,
+4,47,A,decl,103.0,informIntent-hold,"
+i'll just double check that again ",intent-closure,verify,positive,pause,length,2s
+10,2,B,decl,4.0,direct,"
+er i'd like to go from Preston to London
+",intent-closure,location-to-preference-from,positive,,,
+11,4,B,decl,9.0,answElab,"
+i want to book the ticket
+",intent-closure,preference-booking-journey,positive,,,
+11,24,B,decl,44.0,answElab,"
+i'll get on the 7 15 ",intent-closure,enum,positive,vocal,content,laughter
+12,78,B,frag,129.0,direct,"
+and then i'll get Euston to Wilmslow
+",intent-closure,to-location,positive,,,
+12,85,A,decl,146.0,informIntent-hold,"
+i'm just checking that for you
+",intent-closure,verify,positive,,,
+13,14,B,decl,19.0,expressWish,"
+i want to know erm ",intent-closure,preference,positive,pause,,
+16,2,B,decl,4.0,direct,"
+erm ",intent-closure,preference-journey-month-date,positive,pause,,
+18,60,B,decl,133.0,direct,"
+erm i'll leave the return journey open yeah
+",intent-closure,fare-departure-journey,positive,,,
+22,12,B,decl,18.0,inform,"
+i want to try to take advantage of any savers that are available
+",intent-closure,preference-avail-fare,positive,,,
+22,13,A,decl,21.0,informIntent-hold,"
+",intent-closure,verify,positive,pause,length,3s
+22,13,A,decl,21.0,informIntent-hold,"
+",intent-closure,verify,positive,overlap,type,start
+24,59,A,decl,112.0,informIntent,"
+i'm just going to go over to double check what i've booked there with you ",intent-closure,booking-verify,positive,pause,,
+26,51,A,decl,115.0,inform,"
+i'm just specifying that for you ",intent-closure,,positive,pause,,
+27,2,B,decl,4.0,direct,"
+i want er two tickets to er from er Leicester to Newton Abbot
+",intent-closure,location-to-preference-from-number-journey,positive,,,
+27,6,B,decl,11.0,answ,"
+i want to travel on Tuesday the sixth
+",intent-closure,day-preference-journey,positive,,,
+33,2,B,decl,4.0,direct,"
+erm i'd like to purchase a ticket for the journey from Euston to Liverpool Lime Street
+",intent-closure,journey-location-preference-to-from,positive,,,
+34,8,B,decl,12.0,inform,"
+i'd like to travel actually return
+",intent-closure,preference-fare-journey,positive,,,
+34,13,A,decl,20.0,informIntent-hold,"
+i'll just check that for you ",intent-closure,verify,positive,pause,,

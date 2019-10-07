@@ -1,0 +1,23 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+3,48,B,decl,62.0,directElab,"
+we'll go for the er
+",abandon-closure,preference,positive,,,
+8,42,B,decl,72.0,inform,"
+er it's a corporate er
+",abandon-closure,,positive,,,
+16,6,B,decl,11.0,answ,"
+i've got a ",abandon-closure,,positive,pause,,
+22,23,A,decl,47.0,answ,"
+the advance purchase ticket is like a walk on...
+",abandon-closure,fare-journey,positive,,,
+26,68,B,frag,157.0,answ,"
+{letter}%24 {letter}%21 {letter}%12 ",abandon-closure,enum-spell,positive,event,type,tape_cuts_off
+35,8,B,frag,16.0,answ,"
+the seventeenth for er Thursd...
+",abandon-closure,,positive,,,
+35,48,B,frag,72.0,uninterpretable,"
+erm you kn...
+",abandon-closure,,positive,,,
+35,108,B,frag,173.0,uninterpretable,"
+le...
+",abandon-closure,,positive,,,

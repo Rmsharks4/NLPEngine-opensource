@@ -1,0 +1,117 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,decl,51.0,predict,"
+",predict-decl,fare-enum,positive,pause,,
+36,29,A,decl,51.0,predict,"
+",predict-decl,fare-enum,positive,punc,type,stop
+36,29,A,decl,55.0,predict,"
+so that's going to save you 21 pounds 50 there ",predict-decl,enum-fare-location,positive,punc,type,stop
+36,43,A,decl,84.0,predict,"
+",predict-decl,fare-enum,positive,pause,length,3s
+36,43,A,decl,84.0,predict,"
+",predict-decl,fare-enum,positive,punc,type,stop
+39,15,A,decl,35.0,predict,"
+you'll be able to get the train from Liverpool Lime Street at 11:35 ",predict-decl,location-time-from,positive,backchannel,content,yes
+39,15,A,decl,35.0,predict,"
+you'll be able to get the train from Liverpool Lime Street at 11:35 ",predict-decl,location-time-from,positive,punc,type,stop
+39,41,A,decl,94.0,predict,"
+the cheapest fare that's going to be available is the Super Advance Return 27 pounds ",predict-decl,fare-availability-enum,positive,punc,type,stop
+39,53,A,decl,129.0,predict,"
+",predict-decl,fare-enum,positive,pause,length,2s
+39,53,A,decl,129.0,predict,"
+",predict-decl,fare-enum,positive,punc,type,stop
+39,83,A,decl,192.0,predict,"
+that's where the ticket will be posted out to ",predict-decl,journey,positive,punc,type,stop
+39,105,A,decl,219.0,predict,"
+and the tickets will be posted out in the first class post tomorrow morning to ",predict-decl,journey-time-day,positive,overlap,type,start
+39,105,A,decl,219.0,predict,"
+and the tickets will be posted out in the first class post tomorrow morning to ",predict-decl,journey-time-day,positive,punc,type,stop
+41,51,A,decl,80.0,predict,"
+that's where the ticket will be posted out to ",predict-decl,journey,positive,punc,type,stop
+41,89,A,decl,131.0,predict,"
+and the tickets will go out in the first class post tomorrow morning to you ",predict-decl,journey-time-day,positive,punc,type,stop
+42,55,A,decl,98.0,predict,"
+that's where the ticket will be posted out to ",predict-decl,journey,positive,punc,type,stop
+42,69,A,decl,114.0,predict,"
+91 pounds will be debited from that account ",predict-decl,booking-fare-enum,positive,backchannel,content,right
+42,69,A,decl,114.0,predict,"
+91 pounds will be debited from that account ",predict-decl,booking-fare-enum,positive,punc,type,stop
+42,79,A,decl,127.0,predict,"
+and the ticket will be posted out in the first class post to you ",predict-decl,journey,positive,punc,type,stop
+43,18,B,decl,36.0,answer-predict,"
+it will be later that day ",predict-decl,time-day,positive,punc,type,stop
+43,23,A,decl,45.0,predict,"
+you'll be able to get the Virgin Value Business at 45 pounds ",predict-decl,fare-enum,positive,punc,type,stop
+44,103,A,decl,210.0,predict,"
+",predict-decl,location-journey,positive,pause,,
+44,103,A,decl,210.0,predict,"
+",predict-decl,location-journey,positive,punc,type,stop
+46,35,A,decl,76.0,elab-predict,"
+",predict-decl,time-enum-location,positive,pause,length,12s
+46,35,A,decl,76.0,elab-predict,"
+",predict-decl,time-enum-location,positive,punc,type,stop
+46,41,A,decl,92.0,predict,"
+",predict-decl,fare-enum,positive,pause,length,6s
+46,41,A,decl,92.0,predict,"
+",predict-decl,fare-enum,positive,punc,type,stop
+47,103,A,decl,209.0,reqConfirm,"
+",predict-decl,fare-enum,positive,pause,length,6s
+47,103,A,decl,209.0,reqConfirm,"
+",predict-decl,fare-enum,positive,punc,type,stop
+48,101,A,decl,170.0,predict,"
+that's where the tickets will be posted out to you ",predict-decl,journey,positive,punc,type,stop
+48,141,A,decl,223.0,predict,"
+and the tickets will be posted out in first class post to you this afternoon ",predict-decl,journey-time,positive,punc,type,stop
+49,37,A,decl,73.0,predict,"
+the cheapest fare that's going to be available ",predict-decl,fare-availability,positive,pause,,
+49,37,A,decl,73.0,predict,"
+the cheapest fare that's going to be available ",predict-decl,fare-availability,positive,unclear,length,1 syllable
+49,37,A,decl,73.0,predict,"
+the cheapest fare that's going to be available ",predict-decl,fare-availability,positive,punc,type,stop
+49,133,A,decl,240.0,predict,"
+and the ticket will be waiting there at the train station ",predict-decl,location-journey,positive,punc,type,stop
+51,31,A,decl,64.0,elab-predict,"
+it's going to be 63 pounds return ",predict-decl,fare-enum,positive,punc,type,stop
+51,87,A,decl,165.0,predict,"
+that's where the ticket will be posted out to ",predict-decl,journey,positive,punc,type,stop
+51,89,A,decl,168.0,answer-predict,"
+the ticket will go out in the first class post this afternoon ",predict-decl,journey-time,positive,punc,type,stop
+51,113,A,decl,200.0,predict,"
+and the ticket will be posted out first class post this afternoon to you ",predict-decl,journey-time,positive,punc,type,stop
+56,15,A,decl,30.0,predict,"
+it'll be the cheap Day Single at 20 pounds 40 ",predict-decl,fare-enum-day,positive,punc,type,stop
+56,17,A,decl,35.0,predict,"
+then it's going to be 20 pounds 40 ",predict-decl,fare-enum,positive,punc,type,stop
+57,53,A,decl,122.0,predict,"
+it's going to cost you 52 pounds each ",predict-decl,fare-enum,positive,punc,type,stop
+58,39,A,decl,74.0,predict,"
+then the cheapest fare that's going to be available is your Super Saver return at 50 pounds 50 ",predict-decl,fare-availability-enum,positive,punc,type,stop
+61,41,A,decl,101.0,predict,"
+so the fare's going to be 23 pounds 45 ",predict-decl,fare-enum,positive,punc,type,stop
+63,96,B,decl,206.0,promise,"
+i will be there ",predict-decl,location,positive,punc,type,stop
+64,75,A,decl,142.0,predict,"
+that's where the tickets will be posted out to ",predict-decl,journey,positive,punc,type,stop
+65,23,A,decl,40.0,predict,"
+and it's going to be 45 pounds 50 ",predict-decl,fare-enum,positive,punc,type,stop
+67,27,A,decl,46.0,predict,"
+",predict-decl,fare-enum,positive,pause,,
+67,27,A,decl,46.0,predict,"
+",predict-decl,fare-enum,positive,punc,type,stop
+68,115,A,decl,190.0,predict,"
+and the ticket will be posted out in the first class post this afternoon ",predict-decl,journey-time,positive,overlap,type,start
+68,115,A,decl,190.0,predict,"
+and the ticket will be posted out in the first class post this afternoon ",predict-decl,journey-time,positive,punc,type,stop
+69,35,A,decl,97.0,predict,"
+",predict-decl,fare,positive,pause,,
+69,35,A,decl,97.0,predict,"
+",predict-decl,fare,positive,punc,type,stop
+70,95,A,decl,175.0,predict,"
+and you'll be able to get the 10:50 going out on the ",predict-decl,enum-day,positive,pause,,
+70,95,A,decl,175.0,predict,"
+and you'll be able to get the 10:50 going out on the ",predict-decl,enum-day,positive,punc,type,stop
+70,147,A,decl,278.0,predict,"
+",predict-decl,journey,positive,pause,,
+70,147,A,decl,278.0,predict,"
+",predict-decl,journey,positive,punc,type,stop
+70,175,A,decl,310.0,predict,"
+and the ticket will be posted out first class to you this afternoon ",predict-decl,journey-time,positive,punc,type,stop

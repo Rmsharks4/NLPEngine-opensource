@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+12,75,A,frag,119.0,informIntent-hold-cont,"
+the fourth ",,,positive,pause,length,9s

@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,21,A,decl,54.0,state,"
+or i can provisionally book it and arrange for you to collect the tickets at the train station as long as you are a credit or debit card holder ",alternative-benefit-poss1-condition-decl,creditcard-booking-journey,positive,punc,type,stop

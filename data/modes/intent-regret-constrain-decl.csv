@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+50,71,A,decl,138.0,expressRegret-predict,"
+i'm afraid you... we're going to have to wait until he comes out of the meeting then and give the ring back to book this ",intent-regret-constrain-decl,booking-journey,positive,overlap,type,start
+50,71,A,decl,138.0,expressRegret-predict,"
+i'm afraid you... we're going to have to wait until he comes out of the meeting then and give the ring back to book this ",intent-regret-constrain-decl,booking-journey,positive,punc,type,stop

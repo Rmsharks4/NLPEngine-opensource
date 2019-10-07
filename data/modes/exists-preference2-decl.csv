@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+48,33,A,decl,61.0,state,"
+there's not any allocation earlier on ",exists-preference2-decl,fare-time,negative,pause,,
+48,33,A,decl,61.0,state,"
+there's not any allocation earlier on ",exists-preference2-decl,fare-time,negative,punc,type,stop

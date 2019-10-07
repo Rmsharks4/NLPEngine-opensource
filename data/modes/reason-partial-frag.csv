@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,27,A,frag,44.0,referReason,"
+because of the time that you're travelling out ",reason-partial-frag,location-journey-time,positive,pause,,
+36,27,A,frag,44.0,referReason,"
+because of the time that you're travelling out ",reason-partial-frag,location-journey-time,positive,punc,type,level

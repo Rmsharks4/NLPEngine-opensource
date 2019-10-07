@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+48,56,B,q-yn,91.0,reqInfo,"
+and is there one about fiveish on the Wednesday or not ",alternative-exists-closed-query,number-location-day,negative,punc,type,query
+53,24,B,q-yn,63.0,reqInfo,"
+or is there always tickets ",alternative-exists-closed-query,location-journey,positive,punc,type,query
+64,28,B,q-yn,70.0,reqInfo,"
+is there one earlier than the 6:34 or is that the first one out of Wigan in the morning ",alternative-exists-closed-query,number-time-location-enum,positive,punc,type,query

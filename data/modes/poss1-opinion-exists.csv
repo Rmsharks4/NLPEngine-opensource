@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+34,34,B,decl,72.0,expressPossibility,"
+there is a possibility i could do it on on Monday i suppose
+",poss1-opinion-exists,day,positive,,,

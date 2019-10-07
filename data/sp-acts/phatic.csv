@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+52,30,B,dm,50.0,phatic,"
+i mean ",,,,punc,type,level
+53,40,B,dm,114.0,phatic,"
+",,,,pause,,
+53,40,B,dm,114.0,phatic,"
+",,,,punc,type,level
+70,56,B,dm,94.0,phatic,"
+",,,,pause,length,3s

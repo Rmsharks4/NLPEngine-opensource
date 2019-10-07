@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+7,11,A,decl,18.0,informIntent,"
+i'm just going to check that cos the fares are actually off change
+",reasonIntent,fare-verify,positive,,,
+12,78,B,decl,130.0,inform,"
+cos i'll drive park my car there ",reasonIntent,,positive,pause,length,5s

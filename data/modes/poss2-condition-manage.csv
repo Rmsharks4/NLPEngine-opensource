@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,23,A,decl,35.0,hold,"
+if you can ",poss2-condition-manage,hold,positive,backchannel,content,yes

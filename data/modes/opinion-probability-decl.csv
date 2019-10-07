@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+41,50,B,frag,78.0,expressOpinion,"
+probably ",opinion-probability-decl,,positive,anonym,type,street
+41,50,B,frag,78.0,expressOpinion,"
+probably ",opinion-probability-decl,,positive,punc,type,stop
+52,22,B,frag,34.0,answer-refer,"
+probably afternoon ",opinion-probability-decl,time,positive,punc,type,stop

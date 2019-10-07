@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+44,108,B,frag,217.0,thank,"
+thanks for your help ",thank-benefit,,,punc,type,stop
+57,60,B,frag,144.0,thank,"
+",thank-benefit,,,overlap,type,start
+57,60,B,frag,144.0,thank,"
+",thank-benefit,,,punc,type,stop
+64,106,B,frag,183.0,thank,"
+thanks for your help ",thank-benefit,,,punc,type,stop

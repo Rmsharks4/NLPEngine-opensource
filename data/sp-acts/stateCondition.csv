@@ -1,0 +1,223 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,decl,53.0,stateCondition,"
+as long as you're prepared to stick to the date and time ",condition-frag,time-date,positive,backchannel,content,yes
+36,29,A,decl,53.0,stateCondition,"
+as long as you're prepared to stick to the date and time ",condition-frag,time-date,positive,punc,type,level
+36,45,A,decl,89.0,stateCondition,"
+if you miss the service i've reserved you on ",report-condition-frag,miss,positive,punc,type,level
+36,45,A,decl,94.0,stateCondition,"
+if you wanted to change the time of that travel ",preference2-condition-frag,journey-time,positive,punc,type,level
+37,33,A,decl,54.0,stateCondition,"
+if it has to be the dates and times that you specified to me ",condition-frag,date,positive,backchannel,content,ok
+37,33,A,decl,54.0,stateCondition,"
+if it has to be the dates and times that you specified to me ",condition-frag,date,positive,punc,type,level
+38,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,pause,,
+38,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,punc,type,level
+38,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,pause,,
+38,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,punc,type,level
+39,48,B,decl,123.0,stateCondition,"
+if i can get on that ",poss1-condition-frag,,positive,punc,type,level
+39,63,A,decl,158.0,stateCondition,"
+",poss2-condition-frag,journey-cancel,negative,pause,,
+39,63,A,decl,158.0,stateCondition,"
+",poss2-condition-frag,journey-cancel,negative,punc,type,level
+39,65,A,decl,162.0,stateCondition,"
+if it's after the 2 o'clock deadline ",condition-frag,time-enum,positive,punc,type,level
+39,65,A,decl,165.0,stateCondition,"
+and if you wanted to change any of the times of travel ",preference2-condition-frag,journey,positive,punc,type,level
+40,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,pause,,
+40,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,punc,type,level
+40,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,pause,,
+40,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,punc,type,level
+41,31,A,decl,53.0,stateCondition,"
+",exists-condition-frag,miss,positive,pause,,
+41,31,A,decl,53.0,stateCondition,"
+",exists-condition-frag,miss,positive,punc,type,level
+41,33,A,decl,56.0,stateCondition,"
+and if you have to cancel this ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+42,49,A,decl,86.0,stateCondition,"
+and if you miss a service that i have booked you on ",exists-condition-frag,booking-miss,positive,punc,type,level
+44,89,A,decl,181.0,stateCondition,"
+if you have to cancel ",constrain-condition-frag,cancel,positive,punc,type,level
+44,91,A,decl,184.0,stateCondition,"
+and if you miss the service that i have booked you on ",exists-condition-frag,booking-miss,positive,punc,type,level
+46,45,A,decl,98.0,stateCondition,"
+if you can't make your journey and wish to cancel ",poss2-condition-frag,journey-cancel,negative,punc,type,level
+46,45,A,decl,99.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,pause,,
+46,45,A,decl,99.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,punc,type,level
+46,45,A,decl,101.0,stateCondition,"
+if you did want to change any of the times of the travel ",condition-frag,journey,positive,punc,type,level
+47,14,B,decl,23.0,stateCondition,"
+if i could get a Super Advance Return ",poss1-condition-frag,fare,positive,punc,type,level
+47,42,B,decl,71.0,stateCondition,"
+just as long as it's not on the Friday ",condition-decl,day,negative,punc,type,stop
+47,95,A,decl,190.0,stateCondition,"
+if it if the system lets me book it ",condition-decl-disflu,booking,positive,punc,type,stop
+47,102,B,decl,206.0,stateCondition,"
+if i can do it ",poss1-condition-frag,,positive,punc,type,level
+47,121,A,decl,243.0,stateCondition,"
+if you do miss any services that i have reserved you on ",exists-condition-frag,miss,positive,punc,type,level
+47,121,A,decl,245.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,pause,,
+47,121,A,decl,245.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,punc,type,level
+48,69,A,decl,116.0,stateCondition,"
+and ",constrain-condition-frag,cancel,positive,overlap,type,end
+48,69,A,decl,116.0,stateCondition,"
+and ",constrain-condition-frag,cancel,positive,punc,type,level
+48,73,A,decl,121.0,stateCondition,"
+if you have to change any of the times of travel ",constrain-condition-frag,journey,positive,punc,type,level
+49,25,A,decl,47.0,stateCondition,"
+then if you want to get to Wrexham Central ",preference2-condition-frag,to-location,positive,punc,type,level
+49,55,A,decl,112.0,stateCondition,"
+if you miss any services that i have reserved you on ",exists-condition-frag,miss,positive,punc,type,level
+51,43,A,decl,93.0,stateCondition,"
+if you have to cancel this ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+51,43,A,decl,95.0,stateCondition,"
+",constrain-condition-frag,,positive,pause,,
+51,43,A,decl,95.0,stateCondition,"
+",constrain-condition-frag,,positive,punc,type,level
+51,43,A,decl,97.0,stateCondition,"
+if you miss any train ",condition-frag,miss,positive,punc,type,level
+52,24,B,decl,37.0,stateCondition,"
+if i book a ticket ",condition-frag,booking-journey,positive,punc,type,level
+53,7,A,decl,24.0,stateCondition,"
+if you're travelling back on a Sunday ",condition-frag,journey-day,positive,punc,type,level
+53,7,A,decl,26.0,stateCondition,"
+but if you're travelling on a weekday Monday to Friday ",constrain-condition-frag,day-to-journey,positive,punc,type,level
+53,11,A,decl,36.0,stateCondition,"
+if it's the Sunday you were travelling back ",report-condition-frag,journey-day,positive,punc,type,level
+53,25,A,decl,66.0,stateCondition,"
+if the seats were all booked or if it was busy ",condition-alternative-frag,booking,positive,punc,type,level
+53,30,B,decl,82.0,stateCondition,"
+if i book it for a certain time going down ",condition-frag,booking-time,positive,punc,type,level
+53,59,A,decl,157.0,stateCondition,"
+if it's a Sunday ",condition-frag,day,positive,punc,type,level
+53,81,A,decl,195.0,stateCondition,"
+if you have to cancel this ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+53,101,A,decl,223.0,stateCondition,"
+if you collect the tickets 90 minutes before departure time at the train station ",condition-decl,time-journey-enum-departure,positive,punc,type,stop
+54,35,A,decl,63.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,pause,,
+54,35,A,decl,63.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,punc,type,level
+54,35,A,decl,66.0,stateCondition,"
+",condition-frag,journey-time,positive,pause,,
+54,35,A,decl,66.0,stateCondition,"
+",condition-frag,journey-time,positive,punc,type,level
+56,15,A,decl,29.0,stateCondition,"
+if you needed to travel later on in the afternoon ",constrain-condition-frag,time-journey,positive,punc,type,level
+57,53,A,frag,120.0,stateCondition,"
+",condition-frag,fare-availability-time,positive,pause,,
+57,53,A,frag,120.0,stateCondition,"
+",condition-frag,fare-availability-time,positive,punc,type,level
+58,43,A,decl,81.0,stateCondition,"
+if you miss any ",condition-frag,miss,positive,pause,,
+58,43,A,decl,81.0,stateCondition,"
+if you miss any ",condition-frag,miss,positive,punc,type,level
+58,43,A,decl,83.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,pause,,
+58,43,A,decl,83.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,punc,type,level
+58,85,A,decl,173.0,stateCondition,"
+if you miss any services that i've reserved you on ",report-condition-frag,miss,positive,punc,type,level
+58,94,B,decl,191.0,stateCondition,"
+if i'm not there 50 minutes beforehand ",condition-frag,time-location-enum,negative,punc,type,level
+59,21,A,decl,46.0,stateCondition,"
+if you miss any services that i'm going to reserve you on ",intent-condition-frag,miss,positive,punc,type,level
+59,23,A,decl,51.0,stateCondition,"
+if you have to cancel your ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+59,32,B,decl,69.0,stateCondition,"
+if you need it ",constrain-condition-decl,,positive,punc,type,stop
+60,25,A,decl,40.0,stateCondition,"
+if i provisionally book you on a return service ",condition-frag,booking-fare,positive,punc,type,level
+60,25,A,decl,41.0,stateCondition,"
+",condition-frag,miss,positive,pause,,
+60,25,A,decl,41.0,stateCondition,"
+",condition-frag,miss,positive,punc,type,level
+60,31,A,decl,56.0,stateCondition,"
+if you have to cancel your ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+61,55,A,decl,161.0,stateCondition,"
+if you have to cancel ",constrain-condition-frag,cancel,positive,punc,type,level
+61,55,A,decl,162.0,stateCondition,"
+",condition-frag,time-journey-day-cancel,positive,pause,,
+61,55,A,decl,162.0,stateCondition,"
+",condition-frag,time-journey-day-cancel,positive,backchannel,content,yes
+61,55,A,decl,162.0,stateCondition,"
+",condition-frag,time-journey-day-cancel,positive,punc,type,level
+61,55,A,decl,164.0,stateCondition,"
+",constrain-condition-frag,journey-time,positive,pause,,
+61,55,A,decl,164.0,stateCondition,"
+",constrain-condition-frag,journey-time,positive,punc,type,level
+62,51,A,decl,113.0,stateCondition,"
+if you have to cancel however ",constrain-condition-frag,cancel,positive,punc,type,level
+62,51,A,decl,114.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,pause,,
+62,51,A,decl,114.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,backchannel,content,yes
+62,51,A,decl,114.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,punc,type,level
+62,53,A,decl,117.0,stateCondition,"
+if it's after the 2 o'clock deadline ",condition-frag,time-enum,positive,punc,type,level
+62,55,A,decl,121.0,stateCondition,"
+and if you needed to change any of the times of travel ",constrain-condition-frag,journey,positive,punc,type,level
+63,2,B,decl,13.0,stateCondition,"
+",condition-decl,,positive,pause,,
+63,2,B,decl,13.0,stateCondition,"
+",condition-decl,,positive,punc,type,stop
+63,129,A,decl,254.0,stateCondition,"
+if ",condition-poss2-frag,journey-cancel,positive,pause,,
+63,129,A,decl,254.0,stateCondition,"
+if ",condition-poss2-frag,journey-cancel,positive,backchannel,content,yes
+63,129,A,decl,254.0,stateCondition,"
+if ",condition-poss2-frag,journey-cancel,positive,punc,type,level
+63,129,A,decl,255.0,stateCondition,"
+if you cancel by 2 o'clock today ",condition-frag,time-enum-day-cancel,positive,punc,type,level
+63,129,A,decl,257.0,stateCondition,"
+but if you cancelled after 2'o clock today but before departure time of the train ",constrain-condition-frag,time-day-departure-cancel,positive,backchannel,content,yes
+63,129,A,decl,257.0,stateCondition,"
+but if you cancelled after 2'o clock today but before departure time of the train ",constrain-condition-frag,time-day-departure-cancel,positive,punc,type,level
+64,53,A,frag,108.0,stateCondition,"
+if you couldn't make your journey and wish to cancel ",poss2-condition-frag,journey-cancel,positive,punc,type,level
+64,53,A,decl,109.0,stateCondition,"
+if you cancel the Virgin Value ",condition-frag,cancel,positive,punc,type,level
+68,29,A,decl,46.0,stateCondition,"
+but if you re... miss the train on the return journey ",constrain-condition-frag-disflu,fare-miss-journey,positive,punc,type,level
+68,47,A,decl,88.0,stateCondition,"
+",condition-frag,miss,positive,pause,,
+68,47,A,decl,88.0,stateCondition,"
+",condition-frag,miss,positive,punc,type,level
+68,49,A,decl,95.0,stateCondition,"
+if you have to cancel ",constrain-condition-frag,cancel,positive,punc,type,level
+69,35,A,decl,95.0,stateCondition,"
+if you're returning on a Friday ",condition-frag,day-return,positive,punc,type,level
+69,43,A,decl,108.0,stateCondition,"
+if you return on a Friday ",condition-frag,fare-day,positive,punc,type,level
+69,52,B,decl,133.0,stateCondition,"
+if i could have got a Super Advance or whatever it was ",alternative-poss1-condition-frag,fare,positive,punc,type,level
+70,13,A,decl,25.0,stateCondition,"
+if you're actually buying a return ticket ",condition-frag,fare-journey,positive,punc,type,level
+70,86,B,decl,158.0,stateCondition,"
+if you see what i mean ",condition-decl,,positive,punc,type,stop
+70,113,A,decl,215.0,stateCondition,"
+if your sister calls you back and says that she doesn't want it ",condition-frag,,negative,punc,type,level
+70,115,A,decl,218.0,stateCondition,"
+if it's after the 2 o'clock deadline ",condition-frag,time-enum,positive,punc,type,level
+70,117,A,decl,222.0,stateCondition,"
+and if you needed to change any of the times of travel ",constrain-condition-frag,journey,positive,backchannel,content,yeah
+70,117,A,decl,222.0,stateCondition,"
+and if you needed to change any of the times of travel ",constrain-condition-frag,journey,positive,punc,type,level
+70,181,A,decl,334.0,stateCondition,"
+so there is 21 minutes for you ",benefit-exists-decl,time-enum,positive,punc,type,stop
+70,183,A,decl,338.0,stateCondition,"
+then if it was due to the coach ",reason-condition-frag,,positive,punc,type,level

@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+2,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+3,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+4,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+5,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+35,112,B,frag,189.0,thirdParty,"
+Wella hi
+",deixis-greet,opening,positive,,,

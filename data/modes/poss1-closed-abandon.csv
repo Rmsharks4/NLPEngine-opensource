@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+59,54,B,q-yn,126.0,reqOpt-abandon,"
+can i can mhm ",poss1-closed-abandon,,positive,punc,type,incomplete

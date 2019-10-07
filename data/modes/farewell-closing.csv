@@ -1,0 +1,205 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,88,B,frag,150.0,bye,"
+",farewell-closing,,,overlap,type,start
+36,89,A,frag,151.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+36,89,A,frag,151.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+37,37,A,frag,64.0,bye,"
+",farewell-closing,,,overlap,type,start
+37,37,A,frag,64.0,bye,"
+",farewell-closing,,,punc,type,stop
+37,38,B,frag,65.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+37,38,B,frag,65.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+38,119,A,frag,196.0,bye,"
+",farewell-closing,,,overlap,type,start
+38,119,A,frag,196.0,bye,"
+",farewell-closing,,,punc,type,stop
+38,120,B,frag,197.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+38,120,B,frag,197.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+39,113,A,frag,232.0,bye,"
+",farewell-closing,,,overlap,type,start
+39,114,B,frag,233.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+39,114,B,frag,233.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+40,119,A,frag,195.0,bye,"
+",farewell-closing,,,overlap,type,start
+40,119,A,frag,195.0,bye,"
+",farewell-closing,,,punc,type,stop
+40,120,B,frag,196.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+41,93,A,frag,136.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+41,94,B,frag,137.0,bye,"
+bye bye ",farewell-closing,,,punc,type,stop
+42,83,A,frag,134.0,bye,"
+",farewell-closing,,,overlap,type,start
+42,83,A,frag,134.0,bye,"
+",farewell-closing,,,punc,type,stop
+42,84,B,frag,135.0,bye,"
+bye bye ",farewell-closing,,,overlap,type,end
+42,84,B,frag,135.0,bye,"
+bye bye ",farewell-closing,,,punc,type,stop
+43,87,A,frag,171.0,bye,"
+",farewell-closing,,,overlap,type,start
+43,87,A,frag,171.0,bye,"
+",farewell-closing,,,punc,type,stop
+43,88,B,frag,172.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+43,88,B,frag,172.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+44,108,B,frag,218.0,bye,"
+",farewell-closing,,,overlap,type,start
+44,108,B,frag,218.0,bye,"
+",farewell-closing,,,punc,type,stop
+44,109,A,frag,219.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+44,109,A,frag,219.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+46,98,B,frag,194.0,bye,"
+bye ",farewell-closing,,,overlap,type,start
+46,98,B,frag,194.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+46,99,A,frag,195.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+46,99,A,frag,195.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+47,160,B,frag,304.0,bye,"
+",farewell-closing,,,overlap,type,start
+47,160,B,frag,304.0,bye,"
+",farewell-closing,,,punc,type,stop
+47,161,A,frag,305.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+47,161,A,frag,305.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+48,150,B,frag,240.0,bye,"
+",farewell-closing,,,overlap,type,start
+48,150,B,frag,240.0,bye,"
+",farewell-closing,,,punc,type,stop
+48,151,A,frag,241.0,bye,"
+bye bye ",farewell-closing,,,overlap,type,end
+48,151,A,frag,241.0,bye,"
+bye bye ",farewell-closing,,,punc,type,stop
+49,137,A,frag,247.0,bye,"
+",farewell-closing,,,overlap,type,start
+49,137,A,frag,247.0,bye,"
+",farewell-closing,,,punc,type,stop
+49,138,B,frag,248.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+49,138,B,frag,248.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+51,119,A,frag,212.0,bye,"
+",farewell-closing,,,overlap,type,start
+51,119,A,frag,212.0,bye,"
+",farewell-closing,,,punc,type,stop
+51,120,B,frag,213.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+51,120,B,frag,213.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+53,122,B,frag,265.0,bye,"
+",farewell-closing,,,overlap,type,start
+53,122,B,frag,265.0,bye,"
+",farewell-closing,,,punc,type,stop
+53,123,A,frag,266.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+53,123,A,frag,266.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+54,89,A,frag,140.0,bye,"
+",farewell-closing,,,overlap,type,start
+54,89,A,frag,140.0,bye,"
+",farewell-closing,,,punc,type,stop
+54,90,B,frag,141.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+54,90,B,frag,141.0,echo-bye,"
+bye ",farewell-closing,,,pause,,
+54,90,B,frag,141.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+55,28,B,frag,67.0,bye,"
+",farewell-closing,,,overlap,type,start
+55,28,B,frag,67.0,bye,"
+",farewell-closing,,,punc,type,stop
+55,29,A,frag,68.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+55,29,A,frag,68.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+56,89,A,frag,146.0,bye,"
+",farewell-closing,,,overlap,type,start
+56,89,A,frag,146.0,bye,"
+",farewell-closing,,,punc,type,stop
+56,90,B,frag,147.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+56,90,B,frag,147.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+57,61,A,frag,146.0,bye,"
+bye ",farewell-closing,,,overlap,type,end
+57,61,A,frag,146.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+58,101,A,frag,207.0,bye,"
+",farewell-closing,,,overlap,type,start
+58,101,A,frag,207.0,bye,"
+",farewell-closing,,,punc,type,stop
+58,102,B,frag,209.0,bye,"
+bye  ",farewell-closing,,,punc,type,stop
+59,95,A,frag,203.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+59,96,B,frag,205.0,echo-bye,"
+bye now ",farewell-closing,,,punc,type,stop
+60,47,A,frag,93.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+60,48,B,frag,94.0,echo-bye,"
+bye  ",farewell-closing,,,punc,type,stop
+62,129,A,frag,226.0,bye,"
+",farewell-closing,,,overlap,type,start
+62,129,A,frag,226.0,bye,"
+",farewell-closing,,,punc,type,stop
+62,130,B,frag,227.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+62,130,B,frag,227.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+63,234,B,frag,402.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+63,235,A,frag,403.0,echo-bye,"
+bye  ",farewell-closing,,,punc,type,stop
+64,107,A,frag,184.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+64,108,B,frag,186.0,bye,"
+bye bye ",farewell-closing,,,punc,type,stop
+65,31,A,frag,62.0,bye,"
+bye  ",farewell-closing,,,punc,type,stop
+65,32,B,frag,65.0,bye,"
+bye bye ",farewell-closing,,,overlap,type,end
+65,32,B,frag,65.0,bye,"
+bye bye ",farewell-closing,,,punc,type,stop
+66,16,B,frag,36.0,bye,"
+bye now ",farewell-closing,,,punc,type,stop
+66,17,A,frag,38.0,bye,"
+bye ",farewell-closing,,,overlap,type,end
+66,17,A,frag,38.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+67,52,B,frag,87.0,bye,"
+",farewell-closing,,,overlap,type,start
+67,52,B,frag,87.0,bye,"
+",farewell-closing,,,punc,type,stop
+67,53,A,frag,88.0,bye,"
+bye ",farewell-closing,,,overlap,type,end
+67,53,A,frag,88.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+68,118,B,frag,198.0,bye,"
+bye ",farewell-closing,,,overlap,type,start
+68,118,B,frag,198.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+68,119,A,frag,199.0,bye,"
+bye ",farewell-closing,,,overlap,type,end
+68,119,A,frag,199.0,bye,"
+bye ",farewell-closing,,,punc,type,stop
+69,58,B,frag,161.0,bye,"
+",farewell-closing,,,overlap,type,start
+69,58,B,frag,161.0,bye,"
+",farewell-closing,,,punc,type,stop
+69,59,A,frag,163.0,bye,"
+bye  ",farewell-closing,,,punc,type,stop

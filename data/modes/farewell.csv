@@ -1,0 +1,108 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,88,B,frag,145.0,thank-bye,"
+thanks very much ",farewell,,,overlap,type,start
+2,37,A,frag,57.0,bye,"
+",farewell,closing,positive,overlap,type,start
+3,119,A,frag,178.0,bye,"
+",farewell,closing,positive,overlap,type,start
+3,120,B,frag,179.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+4,115,A,frag,213.0,thank-bye,"
+thank you for calling ",farewell,,,overlap,type,start
+6,94,B,frag,127.0,bye,"
+bye bye 
+",farewell,closing,positive,,,
+7,83,A,frag,117.0,bye,"
+",farewell,closing,positive,overlap,type,start
+7,84,B,frag,118.0,bye,"
+bye bye ",farewell,closing,positive,overlap,type,end
+8,87,A,frag,138.0,thank,"
+thank you for calling ",farewell,,,overlap,type,start
+8,88,B,frag,139.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+9,112,B,frag,182.0,thank,"
+thanks for your help ",farewell,,,overlap,type,start
+9,113,A,frag,183.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+11,98,B,frag,168.0,bye,"
+bye ",farewell,closing,positive,overlap,type,start
+12,161,B,frag,276.0,thank,"
+cheers 
+",farewell,,,,,
+12,162,A,frag,278.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+13,150,B,frag,214.0,thank,"
+thank you ",farewell,,,overlap,type,start
+13,151,A,frag,215.0,bye,"
+bye bye ",farewell,closing,positive,overlap,type,end
+14,137,A,frag,217.0,bye,"
+",farewell,closing,positive,overlap,type,start
+14,138,B,frag,218.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+16,119,A,frag,191.0,thank-bye,"
+thanks ",farewell,,,overlap,type,start
+16,120,B,frag,192.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+18,125,A,frag,238.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+19,89,A,frag,130.0,bye,"
+",farewell,closing,positive,overlap,type,start
+19,90,B,frag,131.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+19,90,B,frag,131.0,bye,"
+bye ",farewell,closing,positive,pause,,
+20,28,B,frag,53.0,thank,"
+thanks very much ",farewell,,,overlap,type,start
+20,29,A,frag,54.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+21,89,A,frag,131.0,thank,"
+thank you for calling now ",farewell,,,overlap,type,start
+21,90,B,frag,132.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+22,61,A,frag,137.0,thank-bye,"
+thanks for calling bye ",farewell,,,overlap,type,end
+23,103,A,frag,179.0,thank-bye,"
+thank you for calling ",farewell,,,overlap,type,start
+23,104,B,frag,180.0,thank-bye,"
+thank you ",farewell,,,overlap,type,end
+24,96,B,frag,166.0,bye,"
+",farewell,closing,positive,unclear,length,9 syllables
+25,50,B,frag,83.0,bye,"
+bye 
+",farewell,closing,positive,,,
+27,129,A,frag,201.0,bye,"
+",farewell,closing,positive,overlap,type,start
+27,130,B,frag,202.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+28,234,B,frag,347.0,thank-bye,"
+thank you bye
+",farewell,,,,,
+28,235,A,frag,348.0,bye,"
+bye 
+",farewell,closing,positive,,,
+29,108,B,frag,171.0,thank-bye,"
+cheers then bye bye 
+",farewell,,,,,
+30,31,A,frag,52.0,thank,"
+thanks for calling now bye
+",farewell,,,,,
+30,32,B,frag,53.0,thank-bye,"
+thanks very much cheers bye bye ",farewell,,,overlap,type,end
+31,16,B,frag,31.0,bye,"
+bye now ",farewell,closing,positive,overlap,type,start
+31,17,A,frag,33.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+32,52,B,frag,85.0,bye,"
+",farewell,closing,positive,overlap,type,start
+32,53,A,frag,86.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+33,117,B,frag,172.0,bye,"
+bye ",farewell,closing,positive,overlap,type,start
+33,118,A,frag,173.0,bye,"
+bye ",farewell,closing,positive,overlap,type,end
+34,58,B,frag,139.0,thank-bye,"
+",farewell,,,overlap,type,end
+34,58,B,frag,139.0,thank-bye,"
+",farewell,,,overlap,type,start
+34,59,A,frag,140.0,thank-bye,"
+thanks ",farewell,,,overlap,type,end

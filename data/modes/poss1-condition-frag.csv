@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,48,B,decl,123.0,stateCondition,"
+if i can get on that ",poss1-condition-frag,,positive,punc,type,level
+47,14,B,decl,23.0,stateCondition,"
+if i could get a Super Advance Return ",poss1-condition-frag,fare,positive,punc,type,level
+47,102,B,decl,206.0,stateCondition,"
+if i can do it ",poss1-condition-frag,,positive,punc,type,level

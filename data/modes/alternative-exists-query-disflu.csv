@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+69,24,B,q-yn,56.0,reqInfo,"
+is is there any particular ",alternative-exists-query-disflu,location,positive,pause,,
+69,24,B,q-yn,56.0,reqInfo,"
+is is there any particular ",alternative-exists-query-disflu,location,positive,punc,type,query

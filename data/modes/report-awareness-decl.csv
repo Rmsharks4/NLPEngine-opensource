@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+43,14,B,decl,27.0,expressAwareness,"
+i know there used to be one about quarter to about 7 o'clock ",report-awareness-decl,number-location-time-enum,positive,punc,type,stop

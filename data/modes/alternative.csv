@@ -1,0 +1,29 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+3,21,A,decl,26.0,inform,"
+they're either 8 minutes to 9 or 8 minutes to 10
+",alternative,time,positive,,,
+4,28,B,frag,66.0,refer,"
+sort of like Manchester or anything like that
+",alternative,location,positive,,,
+11,31,A,decl,53.0,inform,"
+it's either the 22 45 train in the evening ",alternative,time-avail,positive,pause,,
+11,31,A,decl,53.0,inform,"
+it's either the 22 45 train in the evening ",alternative,time-avail,positive,backchannel,content,mm
+12,62,B,decl,95.0,inform,"
+it's on the 8 o'clock train or or close to that
+",alternative,time,positive,,,
+12,87,A,decl,149.0,inform,"
+it's either a 13 00 departure ",alternative,time-location-departure-from,positive,pause,,
+16,21,A,decl,30.0,inform,"
+it's either 6 o'clock or 9 o'clock
+",alternative,time,positive,,,
+18,11,A,decl,25.0,inform,"
+",alternative,enum-number,positive,pause,length,2s
+24,2,B,frag,5.0,directElab,"
+er leaving Liverpool at 12 either the 12 17 or 12 22 on Saturday the fourth of Oct... Saturday the third of October
+",alternative,location-departure-month-time-day-date,positive,,,
+35,48,B,frag,73.0,answ,"
+after sort of like 4 o'clockish or something ",alternative,time,positive,pause,,
+59,2,B,frag,9.0,referOpt,"
+either the 12:17 or 12:22 on Saturday the 4th of Oct...
+",alternative,enum-date-day-location-time-month,positive,,,

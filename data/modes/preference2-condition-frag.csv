@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,45,A,decl,94.0,stateCondition,"
+if you wanted to change the time of that travel ",preference2-condition-frag,journey-time,positive,punc,type,level
+39,65,A,decl,165.0,stateCondition,"
+and if you wanted to change any of the times of travel ",preference2-condition-frag,journey,positive,punc,type,level
+49,25,A,decl,47.0,stateCondition,"
+then if you want to get to Wrexham Central ",preference2-condition-frag,to-location,positive,punc,type,level

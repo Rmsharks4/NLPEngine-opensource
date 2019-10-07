@@ -1,0 +1,77 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,32,B,q-yn,48.0,reqOpt,"
+could i er ",closed-query,time-enum,positive,pause,,
+38,32,B,q-yn,48.0,reqOpt,"
+could i er ",closed-query,time-enum,positive,punc,type,query
+39,40,B,q-yn,88.0,reqOpt,"
+can i be a pain and ask you about Thursday night ",closed-query,day,positive,punc,type,query
+39,106,B,q-yn,221.0,reqOpt,"
+",request-closed-query,booking,positive,overlap,type,end
+39,106,B,q-yn,221.0,reqOpt,"
+",request-closed-query,booking,positive,punc,type,query
+40,32,B,q-yn,48.0,reqOpt,"
+could i er ",closed-query,time-enum,positive,pause,,
+40,32,B,q-yn,48.0,reqOpt,"
+could i er ",closed-query,time-enum,positive,punc,type,query
+42,20,B,q-yn,39.0,reqOpt,"
+can i leave it open please ",request-closed-query,fare-departure,positive,punc,type,query
+46,50,B,q-yn,113.0,reqOpt,"
+",closed-query,confirm-time,positive,pause,,
+46,50,B,q-yn,113.0,reqOpt,"
+",closed-query,confirm-time,positive,punc,type,query
+47,42,B,q-yn,70.0,reqOpt,"
+",closed-query,fare-departure-return,positive,pause,,
+47,42,B,q-yn,70.0,reqOpt,"
+",closed-query,fare-departure-return,positive,punc,type,query
+47,44,B,q-yn,77.0,reqOpt,"
+can i ",constrain-closed-query,fare,positive,pause,,
+47,44,B,q-yn,77.0,reqOpt,"
+can i ",constrain-closed-query,fare,positive,pause,length,4s
+47,44,B,q-yn,77.0,reqOpt,"
+can i ",constrain-closed-query,fare,positive,punc,type,query
+47,70,B,q-yn,123.0,reqOpt,"
+can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,pause,,
+47,70,B,q-yn,123.0,reqOpt,"
+can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,pause,,
+47,70,B,q-yn,123.0,reqOpt,"
+can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,pause,,
+47,70,B,q-yn,123.0,reqOpt,"
+can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,punc,type,query
+47,76,B,q-yn,139.0,reqOpt,"
+",closed,to-location,positive,pause,,
+47,76,B,q-yn,139.0,reqOpt,"
+",closed,to-location,positive,pause,,
+48,50,B,q-yn,83.0,reqOpt,"
+can i have the 19:09 then as well then on the Wednesday ",exists-query,enum-day,positive,punc,type,query
+48,52,B,q-wh,86.0,reqOpt,"
+what about the Wednesday ",closed-query,day,positive,punc,type,query
+49,88,B,q-yn,161.0,reqOpt,"
+can i just get him on the phone ",closed-frag,,positive,punc,type,level
+50,76,B,q-yn,148.0,reqOpt,"
+can i can i take your name and ring you back ",poss1-closed-query-disflu,name,positive,punc,type,query
+51,116,B,q-yn,206.0,reqOpt,"
+and can i put your name please ",request-closed-query,name,positive,punc,type,query
+53,26,B,q-yn,72.0,reqOpt,"
+can i do that ",closed-query,booking,positive,unclear,length,9_syllables
+53,26,B,q-yn,72.0,reqOpt,"
+can i do that ",closed-query,booking,positive,punc,type,query
+53,28,B,q-yn,77.0,reqOpt,"
+",closed-query,creditcard,positive,pause,,
+53,28,B,q-yn,77.0,reqOpt,"
+",closed-query,creditcard,positive,punc,type,query
+55,22,B,q-yn,54.0,reqOpt,"
+can i call back in 2 minutes and book that ",closed-query,booking-time-enum,positive,punc,type,query
+61,48,B,q-yn,117.0,reqOpt,"
+could i travel erm front facing ",request-closed-query,journey-seat,positive,pause,,
+61,48,B,q-yn,117.0,reqOpt,"
+could i travel erm front facing ",request-closed-query,journey-seat,positive,punc,type,query
+63,62,B,q-yn,142.0,reqOpt,"
+or can you do for a week ",alternative-query,,positive,punc,type,query
+64,34,B,q-yn,79.0,reqOpt,"
+can we book on that one please ",request-closed-query,booking-number,positive,punc,type,query
+70,76,B,q-yn,136.0,reqOpt,"
+can i go earlier on the Saturday ",closed-query,time-day,positive,punc,type,query
+70,106,B,q-yn,191.0,reqOpt,"
+le... can i just sorry just get a pen ",closed-query,,positive,punc,type,query
+70,176,B,q-yn,316.0,reqOpt,"
+can we just go over it one more time ",closed-query,number-time,positive,punc,type,query

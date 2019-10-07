@@ -1,0 +1,15 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,44,B,q-yn,77.0,reqOpt,"
+can i ",constrain-closed-query,fare,positive,pause,,
+47,44,B,q-yn,77.0,reqOpt,"
+can i ",constrain-closed-query,fare,positive,pause,length,4s
+47,44,B,q-yn,77.0,reqOpt,"
+can i ",constrain-closed-query,fare,positive,punc,type,query
+51,40,B,q-yn,81.0,reqInfo,"
+does Stephen actually smoke ",constrain-closed-query,,positive,pause,,
+51,40,B,q-yn,81.0,reqInfo,"
+does Stephen actually smoke ",constrain-closed-query,,positive,event,type,background voice says no
+51,40,B,q-yn,81.0,reqInfo,"
+does Stephen actually smoke ",constrain-closed-query,,positive,punc,type,query
+58,35,A,q-yn,66.0,reqInfo,"
+does it have to be 11:41 train that you get travelling out ",constrain-closed-query,journey-enum,positive,punc,type,query

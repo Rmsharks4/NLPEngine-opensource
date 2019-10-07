@@ -63,7 +63,7 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                         .apply(lambda x: preprocessor.preprocess_operation({
                             req_data: x,
                             preprocessor.config_pattern.properties.req_args: util
-                        }))
+                        }) if x is not None else x)
             else:
                 util = UtilsFactory.get_utils(preprocessor.config_pattern.properties.req_args)
                 if util is not None:
@@ -72,7 +72,7 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                     .apply(lambda x: preprocessor.preprocess_operation({
                         preprocessor.config_pattern.properties.req_data: x,
                         preprocessor.config_pattern.properties.req_args: util
-                    }))
+                    }) if x is not None else x)
         return spark.create([
             df, self.__class__.__name__
         ])

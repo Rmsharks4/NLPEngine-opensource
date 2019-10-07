@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+46,67,A,decl,157.0,expressNonAwareness,"
+",report-nonawareness-predict-alternative-condition-decl,time,negative,pause,,
+46,67,A,decl,157.0,expressNonAwareness,"
+",report-nonawareness-predict-alternative-condition-decl,time,negative,pause,,
+46,67,A,decl,157.0,expressNonAwareness,"
+",report-nonawareness-predict-alternative-condition-decl,time,negative,pause,,
+46,67,A,decl,157.0,expressNonAwareness,"
+",report-nonawareness-predict-alternative-condition-decl,time,negative,punc,type,stop

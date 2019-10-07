@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+63,2,B,decl,12.0,expressPossibility,"
+they told me you can try ",poss2-frag,,positive,punc,type,level
+68,27,A,decl,42.0,expressPossibility,"
+you can book the Virgin Value Business ",poss2-frag,booking,positive,punc,type,level
+69,25,A,decl,59.0,expressPossibility,"
+you can change at Preston before that ",poss2-frag,time-location,positive,punc,type,level

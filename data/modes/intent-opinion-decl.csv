@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+57,38,B,decl,93.0,stateIntent,"
+i think i'm going to call back later and just take a chance ",intent-opinion-decl,time,positive,punc,type,stop
+67,44,B,decl,74.0,stateIntent-expressOpinion,"
+i think i'll i'll call you back again ",intent-opinion-decl,,positive,punc,type,stop

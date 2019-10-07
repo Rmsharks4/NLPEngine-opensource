@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+42,28,B,q-yn,52.0,reqInfo,"
+is that got the the tea and coffee as well ",closed-frag,,positive,punc,type,level
+49,88,B,q-yn,161.0,reqOpt,"
+can i just get him on the phone ",closed-frag,,positive,punc,type,level
+63,15,A,q-yn,41.0,reqInfo,"
+do you hold a current railcard ",closed-frag,railcard,positive,punc,type,level

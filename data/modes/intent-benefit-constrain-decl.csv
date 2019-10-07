@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,51,A,decl,75.0,stateConstraint,"
+what i'm going to have to do is arrange for you to collect your tickets from the train station ",intent-benefit-constrain-decl,journey,positive,backchannel,content,yes
+38,51,A,decl,75.0,stateConstraint,"
+what i'm going to have to do is arrange for you to collect your tickets from the train station ",intent-benefit-constrain-decl,journey,positive,punc,type,stop
+40,51,A,decl,75.0,stateConstraint,"
+what i'm going to have to do is arrange for you to collect your tickets from the train station ",intent-benefit-constrain-decl,journey,positive,backchannel,content,yes
+40,51,A,decl,75.0,stateConstraint,"
+what i'm going to have to do is arrange for you to collect your tickets from the train station ",intent-benefit-constrain-decl,journey,positive,punc,type,stop
+46,43,A,decl,96.0,stateConstraint,"
+you must stick to the dates and the times that i'm going to book for you ",intent-benefit-constrain-decl,booking-date,positive,punc,type,stop

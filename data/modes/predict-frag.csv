@@ -1,0 +1,21 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,decl,48.0,predict,"
+and the cheapest way to do it is going to is ",predict-frag,fare,positive,punc,type,level
+39,23,A,decl,53.0,predict,"
+",predict-frag,fare-availability,positive,pause,,
+39,23,A,decl,53.0,predict,"
+",predict-frag,fare-availability,positive,punc,type,level
+46,67,A,decl,146.0,state,"
+",predict-frag,,positive,pause,length,8s
+46,67,A,decl,146.0,state,"
+",predict-frag,,positive,anonym,type,letter
+46,67,A,decl,146.0,state,"
+",predict-frag,,positive,anonym,type,alpha
+46,67,A,decl,146.0,state,"
+",predict-frag,,positive,punc,type,level
+63,37,A,decl,89.0,predict,"
+which means that the ticket would be open for a calendar month ",predict-frag,fare-journey-time,positive,backchannel,content,ah
+63,37,A,decl,89.0,predict,"
+which means that the ticket would be open for a calendar month ",predict-frag,fare-journey-time,positive,punc,type,level
+65,23,A,decl,38.0,predict,"
+the cheapest fare that's going to be available travelling tomorrow is what we call a walk-on fare ",predict-frag,fare-availability-journey-day,positive,punc,type,level

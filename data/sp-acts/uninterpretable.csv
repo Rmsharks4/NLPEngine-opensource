@@ -1,0 +1,177 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+3,64,B,frag,84.0,uninterpretable,"
+the telepho...
+",abandon,,positive,,,
+7,36,B,decl,57.0,uninterpretable,"
+i didn't ",abandon,,negative,vocal,content,laughter
+7,37,A,frag,58.0,uninterpretable,"
+",partial,,positive,vocal,content,laughter
+7,38,B,frag,59.0,uninterpretable,"
+",partial,,positive,unclear,length,9 syllables
+8,31,A,frag,54.0,uninterpretable,"
+and that
+",abandon,,positive,,,
+8,51,A,frag,88.0,uninterpretable,"
+sir ",,,positive,event,content,tape cuts off
+9,54,B,frag,96.0,uninterpretable,"
+",partial,,positive,vocal,content,coughs
+10,10,B,frag,16.0,uninterpretable,"
+wha... er
+",,,positive,,,
+11,20,B,decl,33.0,uninterpretable,"
+that's the erm
+",abandon,,positive,,,
+11,69,A,frag,131.0,uninterpretable,"
+that it ",,,positive,pause,,
+12,19,A,decl,31.0,uninterpretable,"
+the only trai...
+",constrain-abandon,,positive,,,
+12,94,B,frag,167.0,uninterpretable,"
+er i
+",abandon-partial-closure,,positive,,,
+13,32,B,frag,49.0,uninterpretable,"
+but wh...
+",constrain-abandon,,positive,,,
+13,48,B,frag,71.0,uninterpretable,"
+",abandon-partial,enum,positive,pause,,
+13,105,A,frag,154.0,uninterpretable,"
+",partial,,positive,unclear,length,0 syllables
+15,26,B,frag,51.0,uninterpretable,"
+",,,positive,pause,,
+15,26,B,frag,51.0,uninterpretable,"
+",,,positive,unclear,length,1 syllable
+16,24,B,decl,40.0,uninterpretable,"
+that's the ",abandon,,positive,pause,,
+16,45,A,frag,91.0,uninterpretable,"
+",abandon,,positive,overlap,type,start
+16,45,A,frag,91.0,uninterpretable,"
+",abandon,,positive,unclear,length,1 syllable
+16,48,B,frag,94.0,uninterpretable,"
+",partial,,positive,unclear,length,1 syllable
+16,48,B,frag,94.0,uninterpretable,"
+",partial,,positive,overlap,type,end
+16,51,A,frag,97.0,uninterpretable,"
+this ",partial,,positive,overlap,type,end
+16,61,A,frag,109.0,uninterpretable,"
+and the ",abandon,,positive,pause,,
+16,112,B,frag,180.0,uninterpretable,"
+",partial,,positive,unclear,length,1 syllable
+17,25,A,frag,34.0,uninterpretable,"
+",,fare-journey,positive,pause,,
+17,25,A,frag,34.0,uninterpretable,"
+",,fare-journey,positive,unclear,length,4 syllables
+17,34,B,frag,48.0,uninterpretable,"
+if erm ",abandon-condition,,positive,pause,length,3s
+18,26,B,frag,55.0,uninterpretable,"
+and n...
+",abandon,,positive,,,
+18,32,B,frag,74.0,uninterpretable,"
+if this erm
+",abandon,,positive,,,
+19,82,B,frag,120.0,uninterpretable,"
+",partial,,positive,unclear,length,3 syllables
+22,39,A,frag,92.0,uninterpretable,"
+you ",abandon,,positive,pause,,
+22,43,A,frag,99.0,uninterpretable,"
+but ",abandon-constrain,,positive,overlap,type,start
+22,43,A,frag,99.0,uninterpretable,"
+but ",abandon-constrain,,positive,unclear,length,3_syllables
+22,44,B,frag,100.0,uninterpretable,"
+",partial,,positive,unclear,length,7_syllables
+22,44,B,frag,100.0,uninterpretable,"
+",partial,,positive,overlap,type,end
+23,36,B,frag,55.0,uninterpretable,"
+",partial-abandon,,positive,pause,length,2s
+24,46,B,frag,76.0,uninterpretable,"
+oh sad...
+",abandon,,positive,,,
+26,54,B,decl,124.0,uninterpretable,"
+that is ",,,negative,overlap,type,start
+27,32,B,frag,57.0,uninterpretable,"
+",partial-abandon-closure,,positive,pause,,
+27,32,B,frag,57.0,uninterpretable,"
+",partial-abandon-closure,,positive,pause,,
+28,77,A,frag,141.0,uninterpretable,"
+",,,positive,overlap,type,start
+28,105,A,frag,183.0,uninterpretable,"
+and ",,,positive,pause,length,2s
+28,114,B,decl,194.0,uninterpretable,"
+you are very k...
+",abandon,,positive,,,
+28,128,B,frag,212.0,uninterpretable,"
+",partial,,positive,unclear,length,3 syllables
+28,130,B,frag,218.0,uninterpretable,"
+",partial,,positive,unclear,length,3 syllables
+31,6,B,decl,12.0,uninterpretable,"
+i did er
+",,,positive,,,
+32,12,B,frag,20.0,uninterpretable,"
+but you er ",constrain,,positive,pause,,
+32,12,B,frag,21.0,uninterpretable,"
+but er
+",partial-constrain,,positive,,,
+32,44,B,decl,74.0,uninterpretable,"
+you'll just
+",,,positive,,,
+34,48,B,frag,104.0,uninterpretable,"
+we...
+",abandon,,positive,,,
+35,48,B,frag,72.0,uninterpretable,"
+erm you kn...
+",abandon-closure,,positive,,,
+35,60,B,frag,94.0,uninterpretable,"
+every...
+",abandon,,positive,,,
+35,108,B,frag,173.0,uninterpretable,"
+le...
+",abandon-closure,,positive,,,
+42,38,B,frag,67.0,uninterpretable,"
+",,,positive,unclear,length,9 syllables
+44,50,B,frag,117.0,uninterpretable,"
+",,,positive,pause,length,8s
+44,50,B,frag,117.0,uninterpretable,"
+",,,positive,vocal,content,coughs
+48,105,A,frag,174.0,uninterpretable,"
+",,,positive,unclear,length,2 syllables
+50,26,B,frag,53.0,uninterpretable,"
+",,,positive,pause,,
+50,26,B,frag,53.0,uninterpretable,"
+",,,positive,unclear,length,1_syllable
+51,45,A,frag,101.0,uninterpretable,"
+",,,positive,pause,,
+51,45,A,frag,101.0,uninterpretable,"
+",,,positive,overlap,type,start
+51,45,A,frag,101.0,uninterpretable,"
+",,,positive,unclear,length,9 syllable
+54,82,B,frag,128.0,uninterpretable,"
+",,,,unclear,length,3 syllable
+57,43,A,frag,103.0,uninterpretable,"
+but ",constrain-decl,,positive,overlap,type,start
+57,43,A,frag,103.0,uninterpretable,"
+but ",constrain-decl,,positive,unclear,length,3_syllables
+57,43,A,frag,103.0,uninterpretable,"
+but ",constrain-decl,,positive,punc,type,stop
+57,44,B,frag,104.0,uninterpretable,"
+",decl,,positive,unclear,length,7_syllables
+57,44,B,frag,104.0,uninterpretable,"
+",decl,,positive,overlap,type,end
+57,44,B,frag,104.0,uninterpretable,"
+",decl,,positive,punc,type,stop
+59,22,B,frag,50.0,uninterpretable,"
+",decl,,positive,unclear,length,9 syllables
+59,22,B,frag,50.0,uninterpretable,"
+",decl,,positive,punc,type,stop
+59,96,B,frag,204.0,uninterpretable,"
+",,,,unclear,length,9 syllables
+63,40,B,frag,99.0,uninterpretable,"
+",decl,,positive,unclear,length,9 syllables
+63,40,B,frag,99.0,uninterpretable,"
+",decl,,positive,punc,type,stop
+63,128,B,frag,253.0,uninterpretable,"
+",decl,,positive,unclear,length,9 syllables
+63,128,B,frag,253.0,uninterpretable,"
+",decl,,positive,punc,type,stop
+63,130,B,frag,259.0,uninterpretable,"
+",decl,,positive,unclear,length,9 syllables
+63,130,B,frag,259.0,uninterpretable,"
+",decl,,positive,punc,type,stop

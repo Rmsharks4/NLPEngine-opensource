@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+70,54,B,q-wh,92.0,reqInfo,"
+",tag-poss1-query,fare,positive,pause,,
+70,54,B,q-wh,92.0,reqInfo,"
+",tag-poss1-query,fare,positive,punc,type,query

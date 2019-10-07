@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+32,40,B,q-yn,64.0,reqInfo,"
+er ",abandon-closed-exists,,positive,pause,,
+32,40,B,q-yn,64.0,reqInfo,"
+er ",abandon-closed-exists,,positive,comment,content,4s_talking_to_someone_else

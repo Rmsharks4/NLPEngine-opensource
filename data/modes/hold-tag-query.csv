@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+44,96,B,imp,196.0,hold,"
+let me just get that down ok ",hold-tag-query,,positive,punc,type,query

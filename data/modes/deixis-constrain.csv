@@ -1,0 +1,10 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,45,A,frag,90.0,refer,"
+but with the Virgin value fare
+",deixis-constrain,fare,positive,,,
+8,25,A,decl,42.0,inform,"
+with that ticket you must travel out on the time specified
+",deixis-constrain,journey-time,positive,,,
+18,103,A,decl,200.0,inform,"
+at Preston you just need to go to the travel centre
+",deixis-constrain,time-location-journey,positive,,,

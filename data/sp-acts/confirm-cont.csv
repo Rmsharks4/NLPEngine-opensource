@@ -1,0 +1,8 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+12,35,A,frag,52.0,confirm-cont,"
+",deixis,time-arrival,positive,pause,,
+12,35,A,frag,52.0,confirm-cont,"
+",deixis,time-arrival,positive,overlap,type,start
+18,57,A,frag,129.0,confirm-cont,"
+18 13
+",,enum,positive,,,

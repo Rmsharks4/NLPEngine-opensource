@@ -1,0 +1,75 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+37,28,B,decl,49.0,state,"
+",report-decl,fare-enum,positive,pause,length,9s
+37,28,B,decl,49.0,state,"
+",report-decl,fare-enum,positive,punc,type,stop
+38,40,B,decl,60.0,state,"
+i've just been quoted 19 pounds ",report-decl,fare-enum,positive,punc,type,stop
+39,12,B,decl,23.0,answer-state,"
+i don't ",report-decl,,negative,punc,type,stop
+40,40,B,decl,60.0,state,"
+i've just been quoted 19 pounds ",report-decl,fare-enum,positive,punc,type,stop
+42,11,A,decl,23.0,state,"
+and they've changed some of the ticket names ",report-decl,journey-name,positive,punc,type,stop
+44,8,B,decl,18.0,answer-state,"
+i don't ",report-decl,,negative,punc,type,stop
+44,29,A,decl,73.0,state,"
+they've just changed the name of the ticket ",report-decl,journey-name,positive,punc,type,stop
+45,6,B,decl,13.0,elab-state,"
+i don't ",report-decl,,negative,punc,type,stop
+46,10,B,decl,21.0,elab-state,"
+i don't ",report-decl,,negative,punc,type,stop
+47,48,B,decl,85.0,state,"
+i don't want to run out of time ",report-decl,time,negative,punc,type,stop
+48,120,B,decl,195.0,state,"
+i was looking at the wrong ",report-decl,number,positive,overlap,type,start
+48,120,B,decl,195.0,state,"
+i was looking at the wrong ",report-decl,number,positive,punc,type,stop
+49,30,B,decl,60.0,state,"
+so i don't need a ",report-decl,fare,negative,overlap,type,start
+49,30,B,decl,60.0,state,"
+so i don't need a ",report-decl,fare,negative,punc,type,stop
+50,8,B,decl,17.0,state,"
+i've already spoken to somebody earlier ",report-decl,time,positive,punc,type,stop
+50,60,B,decl,115.0,state,"
+",report-decl,address,negative,pause,,
+50,60,B,decl,115.0,state,"
+",report-decl,address,negative,punc,type,stop
+51,41,A,decl,90.0,state,"
+",report-decl,seat-booking,positive,pause,,
+51,41,A,decl,90.0,state,"
+",report-decl,seat-booking,positive,punc,type,stop
+52,10,B,decl,18.0,elab-state,"
+i don't ",report-decl,,negative,punc,type,stop
+56,16,B,decl,34.0,elab-state,"
+i don't ",report-decl,,negative,punc,type,stop
+57,25,A,decl,56.0,elab-state,"
+",report-decl,journey-verify,positive,pause,,
+57,25,A,decl,56.0,elab-state,"
+",report-decl,journey-verify,positive,punc,type,stop
+57,37,A,decl,82.0,elab-state,"
+",report-decl,verify,positive,pause,,
+57,37,A,decl,82.0,elab-state,"
+",report-decl,verify,positive,punc,type,stop
+59,8,B,decl,18.0,answer-state,"
+i don't ",report-decl,,negative,punc,type,stop
+61,16,B,decl,30.0,elab-state,"
+and i've been given that's 7:41 from Hertford ",report-decl,location-from-enum,positive,punc,type,stop
+62,32,B,frag,73.0,state,"
+the trouble is i've just had a ticket ",report-decl,problem-journey,positive,backchannel,content,aha
+62,32,B,frag,73.0,state,"
+the trouble is i've just had a ticket ",report-decl,problem-journey,positive,punc,type,stop
+62,32,B,decl,74.0,state,"
+and and she said she was going to put me on a table ",report-decl,,positive,punc,type,stop
+63,67,A,decl,151.0,state,"
+",report-decl,time-date,positive,pause,,
+63,67,A,decl,151.0,state,"
+",report-decl,time-date,positive,punc,type,stop
+69,14,B,decl,30.0,elab-state,"
+i don't ",report-decl,,negative,punc,type,stop
+69,24,B,decl,53.0,state,"
+i was i changed at Stafford ",report-decl,location-time,positive,punc,type,stop
+70,2,B,decl,7.0,state,"
+i've just been in touch with the 0 3 4 5 1 2 1 9 6 2 number ",report-decl,enum-number,positive,punc,type,stop
+70,2,B,decl,8.0,state,"
+and we've just established em two train times on the 19 pounds going through Rugby Super Saver Virgin ",report-decl,fare-number-location-enum,positive,punc,type,stop

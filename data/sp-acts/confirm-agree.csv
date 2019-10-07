@@ -1,0 +1,28 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+37,18,B,dm,27.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+37,24,B,dm,37.0,confirm-agree,"
+that's right
+",reassurance-tag,,,,,
+41,80,B,dm,118.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+46,51,A,dm,115.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+49,32,B,dm,62.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+54,16,B,dm,25.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+54,30,B,dm,53.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+63,213,A,dm,370.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+64,56,B,dm,116.0,confirm-agree,"
+okey doke ",,,,punc,type,stop
+64,78,B,dm,145.0,confirm-agree,"
+okey doke ",,,,punc,type,stop
+65,29,A,dm,54.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+67,32,B,decl,53.0,confirm-agree,"
+the time is right ",tag-decl,time,positive,punc,type,stop
+69,47,A,dm,117.0,confirm-agree,"
+that's correct ",,,,punc,type,stop

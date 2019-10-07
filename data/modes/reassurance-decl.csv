@@ -1,0 +1,55 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,30,B,decl,56.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+36,32,B,decl,64.0,elab-approve,"
+",reassurance-decl,,positive,overlap,type,end
+36,32,B,decl,64.0,elab-approve,"
+",reassurance-decl,,positive,punc,type,stop
+42,24,B,decl,45.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+42,78,B,decl,126.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+46,70,B,decl,161.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+47,12,B,decl,17.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+47,26,B,decl,44.0,approve,"
+",reassurance-decl,,positive,pause,,
+47,26,B,decl,44.0,approve,"
+",reassurance-decl,,positive,punc,type,stop
+49,115,A,decl,205.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+56,22,B,decl,49.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+58,22,B,decl,41.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,37,A,frag,79.0,approve,"
+that one will do fine ",reassurance-decl,number,positive,punc,type,stop
+59,56,B,decl,132.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,60,B,decl,147.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,63,A,decl,156.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+63,123,A,decl,246.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+63,145,A,decl,279.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+63,148,B,decl,286.0,approve,"
+that's ok then ",reassurance-decl,,positive,punc,type,stop
+63,167,A,decl,309.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+68,32,B,decl,52.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+68,36,B,decl,61.0,approve,"
+",reassurance-decl,,positive,overlap,type,end
+68,36,B,decl,61.0,approve,"
+",reassurance-decl,,positive,punc,type,stop
+68,50,B,decl,98.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+70,70,B,decl,129.0,approve,"
+that's fine  ",reassurance-decl,,positive,punc,type,stop
+70,94,B,decl,173.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+70,120,B,decl,232.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop

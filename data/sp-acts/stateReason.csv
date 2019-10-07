@@ -1,0 +1,43 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,decl,49.0,stateReason,"
+cos it's the normal price is gonna be standard open return at 61 pounds 50 ",reason-decl,fare-enum,positive,backchannel,content,right
+36,29,A,decl,49.0,stateReason,"
+cos it's the normal price is gonna be standard open return at 61 pounds 50 ",reason-decl,fare-enum,positive,punc,type,stop
+42,40,B,decl,72.0,stateReason,"
+cos it's normal 88 ",reason-decl,,positive,punc,type,stop
+44,27,A,decl,69.0,stateReason,"
+because the system's actually changed ",reason-constrain-frag,,positive,punc,type,level
+47,95,A,decl,193.0,stateReason,"
+because the system could a... actually cut me off trying to book ",reason-decl,booking-problem,positive,punc,type,stop
+49,34,B,decl,68.0,stateReason,"
+because i've got somebody meeting me there ",reason-exists-decl,location,positive,punc,type,stop
+51,51,A,decl,112.0,stateReason,"
+",reason-decl,fare-journey,positive,overlap,type,end
+51,51,A,decl,112.0,stateReason,"
+",reason-decl,fare-journey,positive,punc,type,stop
+53,26,B,decl,70.0,stateReason,"
+",report-reason-decl,location,positive,pause,,
+53,26,B,decl,70.0,stateReason,"
+",report-reason-decl,location,positive,punc,type,stop
+58,21,A,decl,39.0,stateReason,"
+because it's this Monday you're travelling ",reason-frag,journey-day,positive,punc,type,level
+63,187,A,decl,339.0,stateReason,"
+cos they need that while they're on the train ",report-reason-constrain-decl,,positive,punc,type,stop
+64,28,B,decl,69.0,stateReason,"
+because we need to get in London as soon as possible ",report-reason-constrain-decl,location,positive,punc,type,stop
+66,6,B,decl,14.0,stateReason,"
+cos i mucked up the last one i did ",report-reason-decl,number,positive,punc,type,stop
+69,9,A,decl,17.0,stateReason,"
+because you're travelling this Sunday ",reason-frag,journey-day,positive,punc,type,level
+69,26,B,decl,66.0,stateReason,"
+cos there's there's your road m k... railway works and things ",exists-reason-frag-disflu,,positive,punc,type,level
+70,32,B,decl,54.0,stateReason,"
+",reason-decl-disflu,day,positive,pause,,
+70,32,B,decl,54.0,stateReason,"
+",reason-decl-disflu,day,positive,punc,type,stop
+70,106,B,decl,194.0,stateReason,"
+cos that's who i'm going to go and stay with ",intent-reason-decl,,positive,punc,type,stop
+70,185,A,decl,341.0,stateReason,"
+cos the buses are from each train station ",reason-decl,,positive,event,type,tape cuts off
+70,185,A,decl,341.0,stateReason,"
+cos the buses are from each train station ",reason-decl,,positive,punc,type,stop

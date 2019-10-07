@@ -1,0 +1,603 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,10,B,frag,17.0,answer-refer,"
+one ",decl,number,positive,punc,type,stop
+36,12,B,decl,19.0,answer-refer,"
+the 8th of October ",decl,month-date,positive,punc,type,stop
+36,20,B,frag,32.0,answer-refer,"
+same day ",decl,day,positive,punc,type,stop
+36,50,B,frag,103.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+36,50,B,frag,103.0,answer-refer,"
+",decl,,positive,punc,type,stop
+36,52,B,frag,105.0,answer-refer,"
+Doctor ",decl,,positive,punc,type,stop
+36,54,B,frag,108.0,answer-refer,"
+0 1 1 1 ",decl,enum,positive,punc,type,stop
+36,60,B,frag,114.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+36,60,B,frag,114.0,answer-refer,"
+",decl,enum,positive,pause,,
+36,60,B,frag,114.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+36,60,B,frag,114.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+36,60,B,frag,114.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+36,76,B,frag,134.0,answer-refer,"
+1 ",decl,enum,positive,punc,type,stop
+36,78,B,frag,136.0,answer-refer,"
+November this year ",decl,month,positive,punc,type,stop
+37,20,B,frag,31.0,answer-refer,"
+Monday ",decl,day,positive,punc,type,stop
+37,22,B,frag,34.0,answer-refer,"
+",decl,time,positive,unclear,length,2 syllables
+37,22,B,frag,34.0,answer-refer,"
+",decl,time,positive,punc,type,stop
+38,8,B,frag,13.0,answer-refer,"
+two ",decl,number,positive,punc,type,stop
+38,12,B,frag,18.0,answer-refer,"
+3rd of October ",decl,month-date,positive,punc,type,stop
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,pause,,
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+38,56,B,frag,83.0,answer-refer,"
+",decl,,positive,punc,type,stop
+38,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+38,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+38,68,B,frag,102.0,answer-refer,"
+",frag,,positive,punc,type,level
+39,4,B,frag,9.0,answer-refer,"
+Edinburgh ",decl,location,positive,punc,type,stop
+39,41,A,frag,90.0,answer-refer,"
+",partial-frag,day,positive,pause,length,16s
+39,41,A,frag,90.0,answer-refer,"
+",partial-frag,day,positive,punc,type,level
+39,45,A,frag,108.0,answer-refer,"
+10:31 on Friday the 9th of October from Wigan Northwestern ",decl,month-from-date-enum-day,positive,punc,type,stop
+39,57,A,frag,139.0,answer-refer,"
+19:57 ",decl,,positive,punc,type,stop
+39,60,B,frag,150.0,answer-refer,"
+non ",decl,,positive,punc,type,stop
+39,68,B,frag,172.0,answer-refer,"
+",decl,,positive,anonym,type,name
+39,68,B,frag,172.0,answer-refer,"
+",decl,,positive,punc,type,stop
+39,70,B,frag,175.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+39,70,B,frag,175.0,answer-refer,"
+",decl,,positive,punc,type,stop
+39,72,B,frag,177.0,answer-refer,"
+0 1 0 6 ",frag,enum,positive,punc,type,level
+39,78,B,frag,183.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+39,78,B,frag,183.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+39,86,B,frag,195.0,answer-refer,"
+worldwide Master card ",decl,creditcard,positive,punc,type,stop
+40,8,B,frag,13.0,answer-refer,"
+two ",decl,number,positive,punc,type,stop
+40,12,B,frag,18.0,answer-refer,"
+3rd of October ",decl,month-date,positive,punc,type,stop
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,pause,,
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+40,56,B,frag,83.0,answer-refer,"
+",decl,,positive,punc,type,stop
+40,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+40,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+40,68,B,frag,102.0,answer-refer,"
+",frag,,positive,punc,type,level
+41,8,B,frag,12.0,answer-refer,"
+one ",decl,number,positive,punc,type,stop
+41,12,B,frag,17.0,answer-refer,"
+14:19 ",decl,,positive,punc,type,stop
+41,21,A,frag,34.0,answer-refer,"
+39 pounds 50 ",decl,fare-enum,positive,punc,type,stop
+41,38,B,frag,64.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+41,38,B,frag,64.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+41,38,B,frag,64.0,answer-refer,"
+",decl,,positive,punc,type,stop
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,punc,type,level
+41,66,B,frag,100.0,answer-refer,"
+8 ",decl,enum,positive,punc,type,stop
+41,68,B,frag,102.0,answer-refer,"
+7 2000 ",decl,enum,positive,punc,type,stop
+42,36,B,frag,63.0,answer-refer,"
+Mr ",decl,,positive,punc,type,stop
+43,10,B,frag,14.0,answer-refer,"
+just myself ",decl,,positive,punc,type,stop
+43,14,B,frag,23.0,answer-refer,"
+early morning ",decl,time,positive,punc,type,stop
+43,30,B,frag,57.0,answer-refer,"
+sort of facing or with my back to the direction of movement ",alternative-decl,seat,positive,punc,type,stop
+43,38,B,frag,78.0,answer-refer,"
+",decl,,positive,anonym,type,name
+43,38,B,frag,78.0,answer-refer,"
+",decl,,positive,punc,type,stop
+43,40,B,frag,81.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+43,40,B,frag,81.0,answer-refer,"
+",decl,,positive,punc,type,stop
+43,64,B,frag,131.0,answer-refer,"
+0 1 9 4 4 ",frag,enum,positive,punc,type,level
+43,80,B,frag,152.0,answer-refer,"
+2 7 ",decl,enum,positive,punc,type,stop
+44,36,B,frag,88.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+44,36,B,frag,88.0,answer-refer,"
+",decl,,positive,anonym,type,alpha
+44,36,B,frag,88.0,answer-refer,"
+",decl,,positive,punc,type,stop
+44,44,B,frag,105.0,answer-refer,"
+Miss ",decl,,positive,punc,type,stop
+44,66,B,frag,146.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+44,66,B,frag,146.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+44,66,B,frag,146.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+44,66,B,frag,146.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+44,66,B,frag,146.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+44,86,B,frag,175.0,answer-refer,"
+12 4 ",decl,enum,positive,punc,type,stop
+45,4,B,frag,10.0,answer-refer,"
+credit card ",decl,creditcard,positive,punc,type,stop
+45,8,B,frag,15.0,answer-refer,"
+just one ",decl,number,positive,punc,type,stop
+46,28,B,decl,62.0,answer-refer,"
+something like 6:15 ",decl,,positive,punc,type,stop
+46,33,A,frag,72.0,answer-refer,"
+22:45 ",decl,,positive,punc,type,stop
+46,48,B,frag,110.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+46,48,B,frag,110.0,answer-refer,"
+",decl,,positive,punc,type,stop
+46,54,B,frag,121.0,answer-refer,"
+0 1 4 0 ",frag,enum,positive,punc,type,level
+46,58,B,frag,125.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+46,58,B,frag,125.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+46,58,B,frag,125.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+46,58,B,frag,125.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+46,58,B,frag,125.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+46,64,B,frag,135.0,answer-refer,"
+facing towards the journey ",decl,direction-journey-seat,positive,punc,type,stop
+46,74,B,frag,166.0,answer-refer,"
+Visa ",decl,creditcard,positive,punc,type,stop
+46,76,B,frag,168.0,answer-refer,"
+3 1 6 1 ",frag,enum,positive,punc,type,level
+46,84,B,frag,177.0,answer-refer,"
+ni... em 6 99 ",decl,enum,positive,punc,type,stop
+47,8,B,frag,12.0,answer-refer,"
+one ",decl,number,positive,punc,type,stop
+47,10,B,frag,14.0,answer-refer,"
+tomorrow ",decl,day,positive,punc,type,stop
+47,58,B,frag,102.0,answer-refer,"
+on Sunday ",partial-decl,day,positive,punc,type,stop
+47,100,B,frag,204.0,answer-refer,"
+from ",partial-decl,location-from,positive,pause,,
+47,100,B,frag,204.0,answer-refer,"
+from ",partial-decl,location-from,positive,punc,type,stop
+47,109,A,frag,217.0,answer-refer,"
+",frag,,positive,pause,length,10s
+47,109,A,frag,217.0,answer-refer,"
+",frag,,positive,punc,type,level
+47,136,B,frag,269.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+47,136,B,frag,269.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+47,136,B,frag,269.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+47,136,B,frag,269.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+47,140,B,frag,273.0,answer-refer,"
+",decl,creditcard,positive,pause,,
+47,140,B,frag,273.0,answer-refer,"
+",decl,creditcard,positive,punc,type,stop
+47,150,B,frag,284.0,answer-refer,"
+9th 99 ",decl,,positive,punc,type,stop
+48,8,B,frag,13.0,answer-refer,"
+4 ",decl,number,positive,punc,type,stop
+48,31,A,frag,55.0,answer-refer,"
+20:26 ",decl,,positive,punc,type,stop
+48,43,A,frag,72.0,answer-refer,"
+19:09 ",decl,,positive,punc,type,stop
+48,90,B,frag,154.0,answer-refer,"
+Mrs ",decl,,positive,punc,type,stop
+48,92,B,frag,156.0,answer-refer,"
+0 1 8 double 6 ",frag,enum,positive,punc,type,level
+48,98,B,frag,163.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+48,98,B,frag,163.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+48,98,B,frag,163.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+48,98,B,frag,163.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+48,98,B,frag,163.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+48,108,B,frag,178.0,answer-refer,"
+Barclay card ",partial-decl,,positive,punc,type,stop
+48,110,B,frag,180.0,answer-refer,"
+8 6 0 6 ",frag,enum,positive,punc,type,level
+49,8,B,frag,14.0,answer-refer,"
+London ",decl,location,positive,punc,type,stop
+49,18,B,frag,35.0,answer-refer,"
+1 ",decl,number,positive,punc,type,stop
+49,20,B,frag,37.0,answer-refer,"
+tomorrow ",decl,day,positive,punc,type,stop
+49,50,B,frag,96.0,answer-refer,"
+not really ",decl,,negative,punc,type,stop
+49,72,B,frag,139.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+49,72,B,frag,139.0,answer-refer,"
+",decl,,positive,punc,type,stop
+49,74,B,frag,141.0,answer-refer,"
+Mrs ",decl,,positive,punc,type,stop
+49,82,B,frag,150.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+49,82,B,frag,150.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+49,100,B,frag,189.0,answer-refer,"
+Fizzwhizz Merchandising ",partial-decl,,positive,punc,type,stop
+49,104,B,frag,193.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+49,104,B,frag,193.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+49,104,B,frag,193.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+49,104,B,frag,193.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+49,104,B,frag,193.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+49,104,B,frag,193.0,answer-refer,"
+",decl,,positive,punc,type,stop
+49,110,B,frag,199.0,answer-refer,"
+40 to 43 ",decl,enum,positive,punc,type,stop
+50,10,B,frag,20.0,answer-refer,"
+5 adults and 4 children ",decl,enum,positive,punc,type,stop
+50,18,B,frag,42.0,answer-refer,"
+Sunday ",decl,day,positive,punc,type,stop
+50,20,B,frag,45.0,answer-refer,"
+15:35 ",decl,,positive,punc,type,stop
+50,44,B,frag,89.0,answer-refer,"
+",decl,,positive,anonym,type,name
+50,44,B,frag,89.0,answer-refer,"
+",decl,,positive,punc,type,stop
+50,46,B,frag,91.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+50,46,B,frag,91.0,answer-refer,"
+",decl,,positive,punc,type,stop
+50,48,B,frag,93.0,answer-refer,"
+Mr ",decl,,positive,punc,type,stop
+51,20,B,frag,31.0,answer-refer,"
+7 a m ",decl,enum,positive,punc,type,stop
+51,36,B,frag,73.0,answer-refer,"
+17:30 ",decl,,positive,punc,type,stop
+51,56,B,frag,117.0,answer-refer,"
+",decl,,positive,anonym,type,name
+51,56,B,frag,117.0,answer-refer,"
+",decl,,positive,punc,type,stop
+51,58,B,frag,120.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+51,58,B,frag,120.0,answer-refer,"
+",decl,,positive,punc,type,stop
+51,62,B,frag,127.0,answer-refer,"
+Mrs ",decl,,positive,punc,type,stop
+51,64,B,frag,130.0,answer-refer,"
+0 1 6 double 2 ",frag,enum,positive,punc,type,level
+51,80,B,frag,156.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+51,80,B,frag,156.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+51,80,B,frag,156.0,answer-refer,"
+",decl,,positive,punc,type,stop
+51,94,B,frag,177.0,answer-refer,"
+",frag,enum,positive,pause,,
+51,94,B,frag,177.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+51,102,B,frag,186.0,answer-refer,"
+8 99 ",decl,enum,positive,punc,type,stop
+52,6,B,frag,13.0,answer-refer,"
+debit card ",decl,creditcard,positive,punc,type,stop
+52,8,B,frag,15.0,answer-refer,"
+just 1 ",decl,number,positive,punc,type,stop
+52,14,B,frag,22.0,answer-refer,"
+10th ",decl,,positive,punc,type,stop
+52,22,B,frag,34.0,answer-refer,"
+probably afternoon ",opinion-probability-decl,time,positive,punc,type,stop
+52,64,B,frag,105.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+52,64,B,frag,105.0,answer-refer,"
+",decl,,positive,anonym,type,alpha
+52,64,B,frag,105.0,answer-refer,"
+",decl,,positive,punc,type,stop
+53,32,B,frag,89.0,answer-refer,"
+Friday ",decl,day,positive,punc,type,stop
+53,46,B,frag,127.0,answer-refer,"
+",decl,,positive,anonym,type,name
+53,46,B,frag,127.0,answer-refer,"
+",decl,,positive,punc,type,stop
+53,48,B,frag,130.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+53,48,B,frag,130.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+53,48,B,frag,130.0,answer-refer,"
+",decl,,positive,punc,type,stop
+53,50,B,frag,132.0,answer-refer,"
+Miss ",decl,,positive,punc,type,stop
+54,8,B,frag,13.0,answer-refer,"
+2 ",decl,enum,positive,punc,type,stop
+54,34,B,frag,60.0,answer-refer,"
+with with a table if possible ",condition-partial-decl-disflu,,positive,punc,type,stop
+54,46,B,frag,81.0,answer-refer,"
+is ",decl,,positive,anonym,type,letter
+54,46,B,frag,81.0,answer-refer,"
+is ",decl,,positive,punc,type,stop
+54,50,B,frag,86.0,answer-refer,"
+is 0 1 6 3 ",frag,enum,positive,punc,type,level
+54,74,B,frag,116.0,answer-refer,"
+05 99 ",decl,enum,positive,punc,type,stop
+56,10,B,frag,19.0,answer-refer,"
+sort of late afternoon ",decl,time,positive,punc,type,stop
+56,21,A,frag,47.0,answer-refer,"
+11:50 ",decl,,positive,punc,type,stop
+56,44,B,frag,83.0,answer-refer,"
+",decl,,positive,anonym,type,name
+56,44,B,frag,83.0,answer-refer,"
+",decl,,positive,punc,type,stop
+56,46,B,frag,86.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+56,46,B,frag,86.0,answer-refer,"
+",decl,,positive,punc,type,stop
+56,48,B,frag,88.0,answer-refer,"
+Miss ",decl,,positive,punc,type,stop
+56,54,B,frag,97.0,answer-refer,"
+24 ",frag,,positive,punc,type,level
+57,6,B,frag,12.0,answer-refer,"
+7 ",decl,enum,positive,punc,type,stop
+58,6,B,frag,11.0,answer-refer,"
+7 ",decl,enum,positive,punc,type,stop
+58,24,B,decl,45.0,answer-refer,"
+the next Thursday ",decl,day,positive,punc,type,stop
+58,52,B,frag,98.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,52,B,frag,98.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,52,B,frag,98.0,answer-refer,"
+",decl,,positive,punc,type,stop
+58,54,B,frag,100.0,answer-refer,"
+Mrs ",decl,,positive,punc,type,stop
+58,60,B,frag,109.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,60,B,frag,109.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,60,B,frag,109.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,60,B,frag,109.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,60,B,frag,109.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+58,60,B,frag,109.0,answer-refer,"
+",decl,,positive,punc,type,stop
+58,80,B,frag,146.0,answer-refer,"
+12 99 ",decl,enum,positive,punc,type,stop
+58,84,B,frag,156.0,answer-refer,"
+possibly facing forward ",opinion-partial-decl,seat,positive,punc,type,stop
+59,14,B,frag,30.0,answer-refer,"
+Sunday ",decl,day,positive,punc,type,stop
+59,28,B,frag,59.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+59,28,B,frag,59.0,answer-refer,"
+",decl,,positive,anonym,type,alpha
+59,28,B,frag,59.0,answer-refer,"
+",decl,,positive,punc,type,stop
+59,40,B,frag,84.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+59,40,B,frag,84.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+59,40,B,frag,84.0,answer-refer,"
+",decl,enum,positive,anonym,type,letter
+59,40,B,frag,84.0,answer-refer,"
+",decl,enum,positive,punc,type,stop
+60,16,B,frag,27.0,answer-refer,"
+tomorrow as well ",decl,day,positive,punc,type,stop
+60,42,B,frag,83.0,answer-refer,"
+private ",decl,,positive,punc,type,stop
+61,4,B,frag,10.0,answer-refer,"
+Hertford in Cheshire ",decl,location,positive,punc,type,stop
+61,8,B,frag,15.0,answer-refer,"
+Saturday the 24th of October ",decl,month-date-day,positive,punc,type,stop
+61,10,B,frag,18.0,answer-refer,"
+just for 1 person ",partial-decl,enum,positive,punc,type,stop
+61,14,B,frag,22.0,answer-refer,"
+a senior ",decl,,positive,punc,type,stop
+61,22,B,frag,40.0,answer-refer,"
+10:35 Taunton ",frag,location-enum,positive,punc,type,level
+61,48,B,frag,112.0,answer-refer,"
+going ",frag,,positive,punc,type,level
+61,60,B,frag,174.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+61,60,B,frag,174.0,answer-refer,"
+",decl,,positive,anonym,type,alpha
+61,60,B,frag,174.0,answer-refer,"
+",decl,,positive,punc,type,stop
+61,62,B,frag,176.0,answer-refer,"
+Mrs ",decl,,positive,punc,type,stop
+61,64,B,frag,179.0,answer-refer,"
+4 4 0 1 4 1 ",frag,enum,positive,punc,type,level
+61,68,B,frag,183.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+61,68,B,frag,183.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+61,68,B,frag,183.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+61,68,B,frag,183.0,answer-refer,"
+",decl,,positive,punc,type,stop
+62,18,B,frag,34.0,answer-refer,"
+and then on the Thursday ",partial-frag,day,positive,punc,type,level
+62,20,B,frag,38.0,answer-refer,"
+12:21 ",decl,,positive,punc,type,stop
+62,60,B,frag,130.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+62,60,B,frag,130.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+62,60,B,frag,130.0,answer-refer,"
+",decl,,positive,punc,type,stop
+62,64,B,frag,134.0,answer-refer,"
+2 ",decl,enum,positive,punc,type,stop
+63,4,B,frag,17.0,answer-refer,"
+from Euston to London ",partial-decl,location-to-from,positive,punc,type,stop
+63,27,A,frag,60.0,answer-refer,"
+return fare to date ",decl,fare-date,positive,backchannel,content,yeah
+63,27,A,frag,60.0,answer-refer,"
+return fare to date ",decl,fare-date,positive,punc,type,stop
+63,71,A,frag,164.0,answer-refer,"
+16th ",decl,,positive,punc,type,stop
+63,78,B,frag,174.0,answer-refer,"
+about ",partial-decl,enum,positive,overlap,type,end
+63,78,B,frag,174.0,answer-refer,"
+about ",partial-decl,enum,positive,punc,type,stop
+63,87,A,frag,188.0,answer-refer,"
+14:18 in the afternoon ",decl,time-enum,positive,punc,type,stop
+63,142,B,frag,276.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+63,142,B,frag,276.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+63,142,B,frag,276.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+63,142,B,frag,276.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+63,142,B,frag,276.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+63,142,B,frag,276.0,answer-refer,"
+",decl,,positive,punc,type,stop
+63,158,B,frag,297.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+63,158,B,frag,297.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+63,158,B,frag,297.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+65,4,B,frag,7.0,answer-refer,"
+Euston ",decl,location,positive,punc,type,stop
+67,4,B,frag,7.0,answer-refer,"
+from Manchester Picadilly ",partial-decl,location-from,positive,punc,type,stop
+67,18,B,frag,30.0,answer-refer,"
+2 ",decl,number,positive,punc,type,stop
+67,20,B,frag,32.0,answer-refer,"
+early ",decl,time,positive,unclear,length,5 syllables
+67,20,B,frag,32.0,answer-refer,"
+early ",decl,time,positive,punc,type,stop
+68,4,B,frag,8.0,answer-refer,"
+credit card ",decl,creditcard,positive,punc,type,stop
+68,6,B,frag,10.0,answer-refer,"
+1 ",decl,number,positive,punc,type,stop
+68,8,B,frag,13.0,answer-refer,"
+6th of October ",decl,month-date,positive,punc,type,stop
+68,12,B,frag,18.0,answer-refer,"
+",partial-decl,time,positive,unclear,length,7 syllables
+68,12,B,frag,18.0,answer-refer,"
+",partial-decl,time,positive,overlap,type,end
+68,12,B,frag,18.0,answer-refer,"
+",partial-decl,time,positive,punc,type,stop
+68,14,B,frag,21.0,answer-refer,"
+the same day ",decl,day,positive,punc,type,stop
+68,54,B,frag,104.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+68,54,B,frag,104.0,answer-refer,"
+",decl,,positive,punc,type,stop
+68,58,B,frag,116.0,answer-refer,"
+Mr ",decl,,positive,punc,type,stop
+68,60,B,frag,120.0,answer-refer,"
+0 1 0 6 1 ",frag,enum,positive,punc,type,level
+68,68,B,frag,131.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+68,68,B,frag,131.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+68,68,B,frag,131.0,answer-refer,"
+",frag,,positive,punc,type,level
+68,74,B,frag,138.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+68,74,B,frag,138.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+68,74,B,frag,138.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+68,74,B,frag,138.0,answer-refer,"
+",decl,,positive,punc,type,stop
+68,86,B,frag,153.0,answer-refer,"
+14 to 15 ",frag,enum,positive,punc,type,level
+68,102,B,frag,175.0,answer-refer,"
+5 99 ",decl,enum,positive,punc,type,stop
+69,6,B,frag,10.0,answer-refer,"
+just myself ",decl,,positive,punc,type,stop
+69,53,A,frag,135.0,answer-refer,"
+54 pounds return ",decl,fare-enum,positive,punc,type,stop
+70,4,B,frag,10.0,answer-refer,"
+Euston to erm ",frag,to-location,positive,pause,,
+70,4,B,frag,10.0,answer-refer,"
+Euston to erm ",frag,to-location,positive,punc,type,level
+70,31,A,frag,51.0,answer-refer,"
+",decl,time-enum,positive,pause,length,4s
+70,31,A,frag,51.0,answer-refer,"
+",decl,time-enum,positive,punc,type,stop
+70,44,B,frag,74.0,answer-refer,"
+Su... Sunday the 18th ",decl-disflu,day,positive,punc,type,stop
+70,46,B,frag,77.0,answer-refer,"
+you kn... after sort of like 4 o'clockish or something ",alternative-decl,time-enum,positive,punc,type,stop
+70,87,A,frag,161.0,answer-refer,"
+on the 10:50 train ",partial-decl,enum,positive,punc,type,stop
+70,132,B,frag,257.0,answer-refer,"
+",decl,,positive,anonym,type,letter
+70,132,B,frag,257.0,answer-refer,"
+",decl,,positive,punc,type,stop
+70,134,B,frag,259.0,answer-refer,"
+Miss ",decl,,positive,punc,type,stop
+70,142,B,frag,270.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+70,142,B,frag,270.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+70,142,B,frag,270.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+70,181,A,decl,332.0,answer-refer,"
+the train from Wilmslow at 16:46 ",frag,time-from,positive,punc,type,level

@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,39,A,decl,77.0,state,"
+",effect-benefit-decl,booking,positive,pause,length,3s
+36,39,A,decl,77.0,state,"
+",effect-benefit-decl,booking,positive,punc,type,stop

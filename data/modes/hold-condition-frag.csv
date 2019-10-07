@@ -1,0 +1,17 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+44,33,A,decl,81.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,punc,type,level
+50,13,A,decl,34.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,punc,type,level
+50,39,A,decl,77.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,punc,type,level
+50,74,B,decl,144.0,hold,"
+if you hold on ",hold-condition-frag,,positive,punc,type,level
+53,3,A,decl,16.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,backchannel,content,yes
+53,3,A,decl,16.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,punc,type,level
+57,55,A,decl,128.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,punc,type,level
+62,25,A,decl,46.0,hold,"
+if you just bear with me ",hold-condition-frag,,positive,punc,type,level

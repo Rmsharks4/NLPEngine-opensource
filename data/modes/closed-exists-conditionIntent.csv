@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+23,94,B,q-yn,163.0,reqInfo,"
+if i'm not there 20 minutes beforehand is there going to be a major problem
+",closed-exists-conditionIntent,time,negative,,,

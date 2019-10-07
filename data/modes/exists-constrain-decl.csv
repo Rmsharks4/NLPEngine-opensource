@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+50,60,B,decl,114.0,state,"
+the only thing i've got is his number ",exists-constrain-decl,number,positive,punc,type,stop
+70,53,A,decl,90.0,state,"
+but there's not any allocation for the Virgin Value fare ",exists-constrain-decl,fare,negative,punc,type,stop

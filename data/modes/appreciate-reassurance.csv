@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+24,50,B,frag,92.0,accept,"
+that that's fine that's ",appreciate-reassurance,,negative,overlap,type,start
+24,50,B,frag,92.0,accept,"
+that that's fine that's ",appreciate-reassurance,,negative,unclear,length,1_syllable

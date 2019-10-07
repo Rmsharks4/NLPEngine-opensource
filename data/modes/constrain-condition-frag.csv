@@ -1,0 +1,75 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,pause,,
+38,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,punc,type,level
+38,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,pause,,
+38,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,punc,type,level
+40,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,pause,,
+40,107,A,decl,168.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,punc,type,level
+40,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,pause,,
+40,107,A,decl,171.0,stateCondition,"
+",constrain-condition-frag,journey,positive,punc,type,level
+41,33,A,decl,56.0,stateCondition,"
+and if you have to cancel this ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+44,89,A,decl,181.0,stateCondition,"
+if you have to cancel ",constrain-condition-frag,cancel,positive,punc,type,level
+47,121,A,decl,245.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,pause,,
+47,121,A,decl,245.0,stateCondition,"
+",constrain-condition-frag,cancel,positive,punc,type,level
+48,69,A,decl,116.0,stateCondition,"
+and ",constrain-condition-frag,cancel,positive,overlap,type,end
+48,69,A,decl,116.0,stateCondition,"
+and ",constrain-condition-frag,cancel,positive,punc,type,level
+48,73,A,decl,121.0,stateCondition,"
+if you have to change any of the times of travel ",constrain-condition-frag,journey,positive,punc,type,level
+51,43,A,decl,93.0,stateCondition,"
+if you have to cancel this ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+51,43,A,decl,95.0,stateCondition,"
+",constrain-condition-frag,,positive,pause,,
+51,43,A,decl,95.0,stateCondition,"
+",constrain-condition-frag,,positive,punc,type,level
+53,7,A,decl,26.0,stateCondition,"
+but if you're travelling on a weekday Monday to Friday ",constrain-condition-frag,day-to-journey,positive,punc,type,level
+53,81,A,decl,195.0,stateCondition,"
+if you have to cancel this ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+54,35,A,decl,63.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,pause,,
+54,35,A,decl,63.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,punc,type,level
+56,15,A,decl,29.0,stateCondition,"
+if you needed to travel later on in the afternoon ",constrain-condition-frag,time-journey,positive,punc,type,level
+58,43,A,decl,83.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,pause,,
+58,43,A,decl,83.0,stateCondition,"
+",constrain-condition-frag,journey-cancel,positive,punc,type,level
+59,23,A,decl,51.0,stateCondition,"
+if you have to cancel your ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+60,31,A,decl,56.0,stateCondition,"
+if you have to cancel your ticket ",constrain-condition-frag,journey-cancel,positive,punc,type,level
+61,55,A,decl,161.0,stateCondition,"
+if you have to cancel ",constrain-condition-frag,cancel,positive,punc,type,level
+61,55,A,decl,164.0,stateCondition,"
+",constrain-condition-frag,journey-time,positive,pause,,
+61,55,A,decl,164.0,stateCondition,"
+",constrain-condition-frag,journey-time,positive,punc,type,level
+62,51,A,decl,113.0,stateCondition,"
+if you have to cancel however ",constrain-condition-frag,cancel,positive,punc,type,level
+62,55,A,decl,121.0,stateCondition,"
+and if you needed to change any of the times of travel ",constrain-condition-frag,journey,positive,punc,type,level
+63,129,A,decl,257.0,stateCondition,"
+but if you cancelled after 2'o clock today but before departure time of the train ",constrain-condition-frag,time-day-departure-cancel,positive,backchannel,content,yes
+63,129,A,decl,257.0,stateCondition,"
+but if you cancelled after 2'o clock today but before departure time of the train ",constrain-condition-frag,time-day-departure-cancel,positive,punc,type,level
+68,49,A,decl,95.0,stateCondition,"
+if you have to cancel ",constrain-condition-frag,cancel,positive,punc,type,level
+70,117,A,decl,222.0,stateCondition,"
+and if you needed to change any of the times of travel ",constrain-condition-frag,journey,positive,backchannel,content,yeah
+70,117,A,decl,222.0,stateCondition,"
+and if you needed to change any of the times of travel ",constrain-condition-frag,journey,positive,punc,type,level

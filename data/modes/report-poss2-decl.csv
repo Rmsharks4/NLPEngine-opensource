@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,59,A,decl,156.0,expressPossibility,"
+you can leave it open for the calendar month ",report-poss2-decl,fare-time-departure,positive,pause,,
+53,59,A,decl,156.0,expressPossibility,"
+you can leave it open for the calendar month ",report-poss2-decl,fare-time-departure,positive,punc,type,stop

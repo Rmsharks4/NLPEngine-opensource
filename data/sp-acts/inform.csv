@@ -1,0 +1,2466 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,17,A,decl,25.0,inform,"
+there's the 7 33 from Birmingham New Street
+",exists,location-enum-from,positive,,,
+1,17,A,frag,26.0,inform,"
+arriving at 9 05 in Euston
+",deixis,location-time-arrival,positive,,,
+1,27,A,frag,40.0,inform,"
+because of the time that you're travelling out ",reason,time-location-journey,positive,pause,,
+1,27,A,decl,41.0,inform,"
+there's not any advance purchase tickets left ",exists,fare-journey,negative,pause,,
+1,27,A,decl,42.0,inform,"
+they've now been booked up
+",,avail,positive,,,
+1,29,A,decl,45.0,inform,"
+cos it's the normal price
+",reason,,positive,,,
+1,29,A,decl,47.0,inform,"
+but you reduce that slightly ",constrain,fare,positive,pause,,
+1,29,A,decl,48.0,inform,"
+you'll be able to get the standard open single at 33 pounds on your outward service
+",,fare,positive,,,
+1,29,A,decl,50.0,inform,"
+as long as you're prepared to stick to the date and time ",condition,time-date,positive,backchannel,content,yes
+1,29,A,decl,51.0,inform,"
+you can get the Virgin value single at 7 pounds ",poss2,fare,positive,backchannel,content,right
+1,29,A,decl,53.0,inform,"
+that's going to save you 21 pounds 50 there
+",,fare,positive,,,
+1,31,A,decl,59.0,inform,"
+we say it's a return journey
+",,fare-journey,positive,,,
+1,31,A,decl,60.0,inform,"
+but it's classed as two ",constrain,number-fare,positive,overlap,type,start
+1,39,A,decl,74.0,inform,"
+that's booked for you
+",benefit,booking,positive,,,
+1,45,A,decl,86.0,inform,"
+if you miss the service i've reserved you on
+",condition,miss,positive,,,
+1,45,A,decl,87.0,inform,"
+you are able to get the next available train ",poss2,avail,positive,backchannel,content,right
+1,45,A,decl,88.0,inform,"
+and it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+1,45,A,decl,89.0,inform,"
+if you have to cancel ",condition-constrain,cancel,positive,backchannel,content,right
+1,45,A,decl,91.0,inform,"
+you must stick to the date and time that you book ",constrain,time-date-booking,positive,backchannel,content,right
+1,45,A,decl,92.0,inform,"
+if you wanted to change the time of that travel
+",condition,preference-time-journey,positive,,,
+1,45,A,decl,93.0,inform,"
+you must do so by 6 o'clock the day before your outward journey ",constrain,time-day-journey,positive,backchannel,content,yeah
+1,45,A,decl,94.0,inform,"
+and it's subject to availability and 5 pounds charge
+",constrain,avail-fare,positive,,,
+1,76,B,frag,130.0,inform,"
+2
+",partial,enum,positive,,,
+1,78,B,frag,132.0,inform,"
+November this year
+",,month,positive,,,
+1,79,A,decl,134.0,inform,"
+this is your reference number your tickets have been booked under
+",,booking-number-journey,positive,,,
+1,81,A,decl,136.0,inform,"
+it's {letter}%25 for %alpha {letter}%22 for %alpha ",,spell-name,positive,pause,,
+1,83,A,frag,138.0,inform,"
+{letter}%13 for %alpha the number 5 ",deixis,spell-name,positive,pause,,
+1,85,A,decl,140.0,inform,"
+and 40 pounds exactly's been debited from your debit card
+",deixis,fare-booking-creditcard,positive,,,
+1,85,A,decl,141.0,inform,"
+and the two tickets will be posted out first class to you this afternoon
+",,time-number-journey,positive,,,
+2,14,B,decl,18.0,inform,"
+i'm not sure what time the trains are
+",doubt-report-closure,time,negative,,,
+2,15,A,decl,21.0,inform,"
+the trains run at 10 to the hour every hour
+",closure,time,positive,,,
+2,17,A,frag,24.0,inform,"
+arriving at 17 30
+",deixis,time-arrival,positive,,,
+2,23,A,frag,31.0,inform,"
+on the half hour
+",deixis,time,positive,,,
+2,25,A,decl,37.0,inform,"
+there's a train at 14 30 from Manchester Picadilly ",exists,time-location-from,positive,pause,,
+2,25,A,decl,38.0,inform,"
+you arrive in London Euston for 17 hundred
+",,arrival-location-time,positive,,,
+2,28,B,decl,44.0,inform,"
+i was quoted 19 pounds
+",report,fare,positive,,,
+2,29,A,decl,45.0,inform,"
+the 19 pounds is not available at the dates and times specified
+",,date-avail-fare,negative,,,
+2,31,A,decl,47.0,inform,"
+you'd need to travel out an hour later on Saturday and come back on the 19 59 train in the evening on Monday
+",constrain,time-day-journey,positive,,,
+2,33,A,decl,49.0,inform,"
+if it has to be the dates and times that you specified to me ",condition-constrain,date,positive,backchannel,content,ok
+2,33,A,decl,50.0,inform,"
+that's a super advance return at 30 pounds
+",,fare,positive,,,
+3,19,A,decl,23.0,inform,"
+the train going out on Saturday the trains run at 8 minutes to the hour
+",,time-day,positive,,,
+3,21,A,decl,26.0,inform,"
+they're either 8 minutes to 9 or 8 minutes to 10
+",alternative,time,positive,,,
+3,25,A,frag,30.0,inform,"
+",,time-location-departure-arrival,positive,pause,length,3s
+3,31,A,decl,38.0,inform,"
+the trains run on the hour from Euston to Macclesfield
+",,location-time-to-from,positive,,,
+3,35,A,frag,44.0,inform,"
+arriving in Macclesfield at 16 03
+",deixis,time-arrival,positive,,,
+3,39,A,decl,50.0,inform,"
+the cheapest fare for the dates and times specified is going to be your super advance return at 30 pounds each
+",,fare-date,positive,,,
+3,40,B,decl,52.0,inform,"
+i've just been quoted 19 pounds
+",report,fare,positive,,,
+3,41,A,frag,53.0,inform,"
+the 19 pounds Virgin value fare ",,fare-time-day-avail,negative,backchannel,content,yes
+3,51,A,decl,68.0,inform,"
+and you need to take your credit card with you
+",constrain,creditcard,positive,,,
+3,90,B,frag,116.0,inform,"
+1 8
+",,enum,positive,,,
+3,93,A,frag,121.0,inform,"
+60 pounds will be debited from that account ",deixis-closure,fare-booking,positive,pause,,
+3,97,A,decl,128.0,inform,"
+the best available i can book you is in smoking ",poss1,avail-booking-seat,positive,pause,,
+3,97,A,decl,129.0,inform,"
+there's not any non smoking seats left
+",exists,seat,negative,,,
+3,99,A,decl,133.0,inform,"
+you'll be travelling in coach {letter}%14 as in %alpha seat number 47 and 48
+",,spell-name-number-journey,positive,,,
+3,99,A,decl,134.0,inform,"
+and that's forward facing seats ",,seat,positive,backchannel,content,yes
+3,105,A,decl,144.0,inform,"
+and it's coach {letter}%22 as in %alpha ",,spell-name-number,positive,backchannel,content,yes
+3,105,A,decl,144.0,inform,"
+and it's coach {letter}%22 as in %alpha ",,spell-name-number,positive,backchannel,content,fine
+3,105,A,decl,145.0,inform,"
+and that's backwards seats this time
+",,time,positive,,,
+3,105,A,decl,146.0,inform,"
+but it is non smoking
+",constrain,seat,positive,,,
+3,107,A,decl,151.0,inform,"
+you've got to stick to the dates and times that you've booked ",constrain,date-booking,positive,pause,,
+3,107,A,decl,152.0,inform,"
+if you have to cancel
+",condition-constrain,cancel,positive,,,
+3,107,A,decl,153.0,inform,"
+and you cancel by 2 o'clock the day before travel
+",condition,cancel-day-time-fare-journey,positive,,,
+3,107,A,decl,154.0,inform,"
+it's a full refund less 5 pounds ",,refund,positive,pause,,
+3,107,A,decl,155.0,inform,"
+if you need to change any of the times of travel
+",constrain-condition,journey,positive,,,
+3,107,A,decl,156.0,inform,"
+you must do so by 2 o'clock the day before again subject to availability and 5 pounds charge ",constrain,time-day-avail-fare,positive,backchannel,content,yes
+3,107,A,decl,158.0,inform,"
+this is your reference number to quote at the train station on Saturday
+",,day-number-booking,positive,,,
+3,109,A,decl,161.0,inform,"
+it's 9 8 4 1
+",,enum,positive,,,
+3,111,A,frag,163.0,inform,"
+1 1 8 8
+",,enum,positive,,,
+3,113,A,decl,165.0,inform,"
+then it's {letter}%8 as in %alpha
+",,spell-name,positive,,,
+3,115,A,decl,171.0,inform,"
+and your two sets of tickets will be waiting there
+",,ticket,positive,,,
+4,14,B,frag,25.0,inform,"
+saying actually i've got a couple of queries first ",deixis-report-closure,,positive,pause,,
+4,14,B,decl,26.0,inform,"
+me friends are going up
+",,,positive,,,
+4,14,B,decl,27.0,inform,"
+and they're leaving from Wigan at 12 28 to Edinburgh
+",,time-location-departure-to-from,positive,,,
+4,14,B,decl,28.0,inform,"
+but they said there wasn't ",constrain-report,location-day-from-number,negative,pause,,
+4,14,B,decl,30.0,inform,"
+that's why i wanna know what time the one from Liverpool is
+",reason,location-time-preference-from-number,positive,,,
+4,15,A,decl,32.0,inform,"
+you'll be able to get the train from Liverpool Lime Street at 11 35 ",,time-location-from,positive,backchannel,content,yes
+4,15,A,decl,33.0,inform,"
+you have to change at Wigan Northwestern anyway ",constrain,time-arrival,positive,backchannel,content,right
+4,15,A,decl,34.0,inform,"
+then it's the 12 28 from Wigan to arrive in Edinburgh at 15 30
+",,location-time-arrival-from,positive,,,
+4,23,A,decl,49.0,inform,"
+",exists,fare-journey,negative,pause,length,14s
+4,23,A,decl,49.0,inform,"
+",exists,fare-journey,negative,pause,,
+4,23,A,decl,50.0,inform,"
+the cheapest fare that's going to be available is the saver return
+",,fare-avail,positive,,,
+4,23,A,decl,51.0,inform,"
+and that's 65 pounds 30
+",,fare,positive,,,
+4,25,A,frag,54.0,inform,"
+all the advance ",abandon,fare,positive,pause,,
+4,25,A,frag,55.0,inform,"
+the only ",abandon-constrain,,positive,pause,,
+4,25,A,decl,56.0,inform,"
+there's a 10 31 arriving at 13 30
+",exists,time-arrival,positive,,,
+4,25,A,decl,57.0,inform,"
+and that's for ",,fare,positive,pause,length,4s
+4,35,A,frag,75.0,inform,"
+in ",deixis,time,positive,overlap,type,end
+4,43,A,decl,91.0,inform,"
+the cheapest fare that's going to be available is the super advance return 27 pounds
+",,fare-avail,positive,,,
+4,46,B,decl,100.0,inform,"
+if that's ok
+",condition-reassurance,,positive,,,
+4,50,B,decl,114.0,inform,"
+cos it's ",reason,,positive,unclear,length,2 syllable
+4,50,B,decl,115.0,inform,"
+they're on the 12 28
+",,enum,positive,,,
+4,50,B,decl,118.0,inform,"
+if i can get on that
+",poss1-condition,,positive,,,
+4,55,A,decl,124.0,inform,"
+",,fare,positive,pause,length,2s
+4,55,A,decl,124.0,inform,"
+",,fare,positive,pause,,
+4,65,A,decl,146.0,inform,"
+the dates times and seat numbers are printed on the tickets for you ",benefit,number-date-journey,positive,pause,,
+4,65,A,decl,147.0,inform,"
+you must stick the dates and times that you book ",constrain,date-booking,positive,pause,,
+4,65,A,decl,148.0,inform,"
+if you can't make your journey and wish to cancel ",poss2-condition,cancel-preference-journey,negative,pause,,
+4,65,A,decl,149.0,inform,"
+you must cancel by 2 o'clock the day before travel
+",constrain,cancel-day-time-journey,positive,,,
+4,65,A,decl,150.0,inform,"
+and it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+4,67,A,decl,152.0,inform,"
+if it's after the 2 o'clock deadline
+",condition,time,positive,,,
+4,67,A,frag,153.0,inform,"
+but before departure time of the train
+",constrain,departure-time,positive,,,
+4,67,A,decl,154.0,inform,"
+it's a 50 per cent refund less 5 pounds ",,refund-fare,positive,backchannel,content,right
+4,67,A,decl,155.0,inform,"
+and if you wanted to change any of the times of travel
+",condition,preference-journey,positive,,,
+4,67,A,decl,156.0,inform,"
+you must do so by 2 o'clock the day before again subject to availability and 5 pounds charge
+",constrain,time-day-avail-fare,positive,,,
+4,85,A,decl,176.0,inform,"
+that's where the ticket will be posted out to
+",,ticket,positive,,,
+4,99,A,frag,192.0,inform,"
+27 pounds will be debited from that account
+",deixis,fare-booking,positive,,,
+4,101,A,decl,196.0,inform,"
+this is your reference number your tickets are being booked under ",,booking-number-journey,positive,pause,,
+4,101,A,decl,197.0,inform,"
+and it's {letter}%18 for %alpha {letter}%14 for %alpha
+",,spell-name,positive,,,
+4,103,A,frag,199.0,inform,"
+{letter}%16 for %alpha 4 0 0
+",deixis,spell-name,positive,,,
+4,105,A,frag,201.0,inform,"
+7 {letter}%9 for %alpha
+",,spell-name,positive,,,
+4,107,A,decl,203.0,inform,"
+and the tickets will be posted out in the first class post tomorrow morning to ",,time-day-journey,positive,overlap,type,start
+4,110,B,frag,207.0,inform,"
+{letter}%18 {letter}%14 {letter}%16
+",,enum-spell,positive,,,
+4,112,B,frag,209.0,inform,"
+4 0 0 7 {letter}%9
+",,enum-spell,positive,,,
+5,8,B,decl,12.0,inform,"
+erm i've got a Network SouthEast card but erm
+",constrain-closure-closure,number,positive,,,
+5,21,A,decl,27.0,inform,"
+there's not any advance purchase tickets for you for Saturday
+",exists-benefit,fare-day-journey,negative,,,
+5,23,A,decl,30.0,inform,"
+the cheapest fare that's going to be available is the saver return at 33 pounds 50 now
+",,fare-avail,positive,,,
+5,25,A,decl,34.0,inform,"
+there's certainly none more in the evening ",exists,time,negative,pause,length,4s
+5,25,A,decl,35.0,inform,"
+the first one available is 16 05 arriving at 17 50
+",,time-arrival-number-avail,positive,,,
+5,35,A,decl,52.0,inform,"
+there's only the 7 35 in the morning that has availability now ",exists-constrain,time-avail,positive,pause,length,2s
+5,35,A,frag,53.0,inform,"
+arriving at 9 49 for the Virgin value fare
+",deixis,time-arrival-fare,positive,,,
+5,41,A,decl,66.0,inform,"
+that's a saver return at 33 pounds 50
+",,fare,positive,,,
+5,43,A,decl,69.0,inform,"
+you can buy that before you board the train
+",poss2,,positive,,,
+6,17,A,decl,22.0,inform,"
+unfortunately all the tickets on the 14 19 for advance purchase have now been booked up
+",,fare-avail-journey,positive,,,
+6,17,A,decl,23.0,inform,"
+they're no longer available
+",,avail,negative,,,
+6,31,A,decl,46.0,inform,"
+the dates times and seat numbers are printed on the tickets for you ",,number-date-journey,positive,pause,,
+6,31,A,decl,47.0,inform,"
+if you miss any services that i have reserved you on ",poss2-condition,miss-avail,positive,pause,,
+6,31,A,decl,48.0,inform,"
+you are able to get the next available service
+",,,,,,
+6,33,A,decl,50.0,inform,"
+and if you have to cancel this ticket
+",condition-constrain,cancel-journey,positive,,,
+6,33,A,decl,51.0,inform,"
+it's a full refund less five pounds
+",,refund-number-fare,positive,,,
+6,51,A,decl,72.0,inform,"
+that's where the ticket will be posted out to
+",,journey,positive,,,
+6,54,B,decl,76.0,inform,"
+i'm looking at a switch card 
+",,,,,,
+6,69,A,decl,96.0,inform,"
+it's not been recognised
+",,,negative,,,
+6,73,A,frag,100.0,inform,"
+0 8 zero
+",,enum,positive,,,
+6,81,A,decl,111.0,inform,"
+39 pounds 50 will be debited from that account
+",,fare-booking,positive,,,
+6,81,A,decl,112.0,inform,"
+and this is the reference number your tickets have been booked under
+",,booking-number-journey,positive,,,
+6,83,A,decl,114.0,inform,"
+it's {letter}%7 for %alpha {letter}%1 for %alpha
+",,enum-spell,positive,,,
+6,85,A,frag,116.0,inform,"
+{letter}%18 for %alpha {letter}%25 for %alpha
+",,enum-spell,positive,,,
+6,87,A,frag,118.0,inform,"
+{letter}%18 for %alpha {letter}%0 for %alpha the number's 4 {letter}%25 for %alpha
+",,enum-spell-number,positive,,,
+6,89,A,decl,121.0,inform,"
+and the tickets will go out in the first class post tomorrow morning to you
+",,day-time-journey,positive,,,
+7,11,A,decl,19.0,inform,"
+and they've changed some of the ticket names so ",,name-journey,positive,backchannel,content,oh right
+7,11,A,decl,21.0,inform,"
+but it's a different name
+",constrain,name,positive,,,
+7,23,A,frag,39.0,inform,"
+the 9 19 for Wolverhampton arrives in Euston 11 20
+",,arrival-location-time,positive,,,
+7,27,A,decl,44.0,inform,"
+of course that will also include your zone 7 on underground and your complimentary car parking voucher as well
+",,enum,positive,,,
+7,36,B,decl,56.0,inform,"
+it's not for me
+",,,negative,,,
+7,40,B,decl,62.0,inform,"
+that's gone up then ",,,positive,pause,,
+7,40,B,decl,64.0,inform,"
+cos it's normal 88
+",reason-closure,,positive,,,
+7,47,A,decl,72.0,inform,"
+it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+7,47,A,decl,73.0,inform,"
+if you have to cancel this ticket
+",condition-constrain,cancel-journey,positive,,,
+7,49,A,decl,75.0,inform,"
+and if you miss a service that i have booked you on
+",condition,miss-booking,positive,,,
+7,49,A,decl,76.0,inform,"
+you are able to get the next available one
+",poss2,number-avail,positive,,,
+7,55,A,decl,83.0,inform,"
+that's where the ticket will be posted out to
+",,journey,positive,,,
+7,69,A,decl,99.0,inform,"
+91 pounds will be debited from that account ",,fare-booking,positive,backchannel,content,right
+7,69,A,decl,100.0,inform,"
+and this is the reference number the ticket has been booked under
+",,booking-number-journey,positive,,,
+7,71,A,frag,102.0,inform,"
+5 1 1
+",,enum,positive,,,
+7,73,A,frag,104.0,inform,"
+{letter}%8 for %alpha {letter}%4 for %alpha
+",,enum-spell,positive,,,
+7,75,A,frag,106.0,inform,"
+the number 1 {letter}%15 for %alpha
+",,enum-spell-number,positive,,,
+7,77,A,frag,108.0,inform,"
+{letter}%12 for %alpha
+",,enum-spell,positive,,,
+8,14,B,decl,20.0,inform,"
+er i m unfortunately i haven't got a copy of the a current copy of the timetable with me
+",,,negative,,,
+8,14,B,decl,22.0,inform,"
+i know there used to be one about quarter to about 7 o clock
+",closed-exists-awareness,time-number,positive,,,
+8,23,A,decl,39.0,inform,"
+you'll be able to get the Virgin value business at 45 pounds
+",,fare,positive,,,
+8,25,A,decl,42.0,inform,"
+with that ticket you must travel out on the time specified
+",deixis-constrain,journey-time,positive,,,
+8,25,A,decl,43.0,inform,"
+but you're able to return on any train of your choice
+",poss2-constrain,,positive,,,
+8,31,A,decl,52.0,inform,"
+you'll be travelling in coach %14 as in foxtrot seat number 33
+",,enum-number-journey,positive,,,
+8,31,A,decl,53.0,inform,"
+and that's a forward facing seat in non smoking ",,seat,positive,overlap,type,start
+8,42,B,decl,72.0,inform,"
+er it's a corporate er
+",abandon-closure,,positive,,,
+8,44,B,decl,77.0,inform,"
+company corporate
+",,,,,,
+8,52,B,decl,89.0,inform,"
+it's erm Fanshawe Cottage that's if just want the postcode or
+",condition-alternative,preference-address,positive,,,
+8,67,A,decl,110.0,inform,"
+it's a full refund
+",,refund,positive,,,
+8,67,A,decl,111.0,inform,"
+if you have to cancel this ticket less five pounds
+",condition-constrain,cancel-number-fare-journey,positive,,,
+8,81,A,decl,129.0,inform,"
+this is your reference number to quote tomorrow at the booking office ",,booking-day-time-number,positive,backchannel,content,yeah
+8,81,A,decl,130.0,inform,"
+you need to take your credit card with you as well ",constrain,creditcard,positive,backchannel,content,yes
+8,81,A,decl,131.0,inform,"
+and it's 4 4 2 1
+",,enum,positive,,,
+8,83,A,frag,133.0,inform,"
+1 1 4 8 ",,enum-spell,positive,pause,,
+9,13,A,decl,24.0,inform,"
+there's a train at 15 05 from Crewe
+",exists,time-from,positive,,,
+9,13,A,decl,25.0,inform,"
+and you'd arrive ",abandon,arrival,positive,pause,,
+9,13,A,decl,28.0,inform,"
+and you would arrive in Crewe at 17 05
+",,time-arrival,positive,,,
+9,21,A,decl,41.0,inform,"
+there's a first open return at a hundred and 33 pounds
+",exists,fare-time,positive,,,
+9,21,A,decl,42.0,inform,"
+and there's also what we call er business class tickets called Virgin business
+",exists,journey,positive,,,
+9,23,A,decl,44.0,inform,"
+that is the same price
+",,fare,positive,,,
+9,23,A,frag,45.0,inform,"
+a hundred and 33 pounds ",,fare,positive,pause,,
+9,23,A,frag,46.0,inform,"
+but that also includes any tea and coffee complimentary meal you can get your... any snacks tea and coffee beverages
+",poss2-constrain,,positive,,,
+9,27,A,decl,54.0,inform,"
+because the system's actually changed
+",reason,fare,positive,,,
+9,27,A,decl,55.0,inform,"
+it used to be business advance
+",,fare,positive,,,
+9,27,A,decl,56.0,inform,"
+	now it's called Virgin value business
+",,fare,positive,,,
+9,29,A,decl,58.0,inform,"
+they've just changed the name of the ticket
+",,name-fare,positive,,,
+9,29,A,decl,59.0,inform,"
+they've not actually got the appropriate ticket on their booking system
+",,booking-journey,negative,,,
+9,31,A,decl,63.0,inform,"
+you just need to be at the train station for about half an hour before departure time of the train
+",constrain,time-departure,positive,,,
+9,33,A,frag,65.0,inform,"
+to collect the ticket
+",,journey,positive,,,
+9,38,B,decl,73.0,inform,"
+er i should be on your system
+",,,positive,,,
+9,38,B,decl,74.0,inform,"
+because i've bought these every quite often
+",reason,,positive,,,
+9,39,A,decl,75.0,inform,"
+we we don't actually have a database as such
+",,,negative,,,
+9,41,A,decl,77.0,inform,"
+the name comes up
+",,name,positive,,,
+9,41,A,decl,78.0,inform,"
+but just it's a complete new booking
+",constrain,booking,positive,,,
+9,55,A,decl,98.0,inform,"
+you'll be travelling in coach {letter}%12 as in %alpha seat number 6
+",,enum-spell-number-journey,positive,,,
+9,55,A,decl,99.0,inform,"
+and that's a forward facing seat smoking
+",,seat,positive,,,
+9,63,A,frag,109.0,inform,"
+",,departure-arrival-time,positive,pause,length,11s
+9,65,A,decl,113.0,inform,"
+and it's coach %letter as in %alpha
+",,booking,positive,,,
+9,67,A,frag,115.0,inform,"
+seat number 8
+",,seat,positive,,,
+9,67,A,decl,116.0,inform,"
+and that's a forward facing seat smoking
+",,seat,positive,,,
+9,91,A,decl,149.0,inform,"
+a hundred and 33 pounds will be debited from that account
+",,creditcard,positive,,,
+9,93,A,decl,152.0,inform,"
+if you have to cancel it's a full refund less 5 pounds
+",condition-constrain,cancel-refund-fare,positive,,,
+9,95,A,decl,154.0,inform,"
+and if you miss the service that i have booked you on
+",condition,miss-booking,positive,,,
+9,95,A,decl,155.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+9,97,A,decl,160.0,inform,"
+",,location-enum-booking,positive,overlap,type,end
+9,97,A,decl,161.0,inform,"
+and they're signposted telesales collection
+",,,positive,,,
+9,99,A,decl,163.0,inform,"
+and you just need to quote this reference number
+",constrain,number-booking,positive,,,
+9,101,A,decl,167.0,inform,"
+it's 7 3 4 2
+",,enum,positive,,,
+9,103,A,frag,169.0,inform,"
+2 2 8 8
+",,enum,positive,,,
+9,105,A,frag,171.0,inform,"
+and {letter}%10 for %alpha
+",,enum-spell,positive,,,
+9,107,A,decl,174.0,inform,"
+you just need to quote that reference number show your credit card ",constrain,number-booking-creditcard,positive,pause,,
+9,107,A,decl,175.0,inform,"
+and the ticket will be waiting there with your supplement as well
+",,journey,positive,,,
+10,16,B,frag,24.0,inform,"
+i don't know the ",,time,negative,overlap,type,start
+10,16,B,frag,24.0,inform,"
+i don't know the ",,time,negative,overlap,type,end
+10,17,A,decl,26.0,inform,"
+there's a train from Preston at 16 31 arriving at 19 48 or the one before that 16 20 arriving 18 51
+",exists-alternative,location-time-arrival-from-number,positive,,,
+10,27,A,decl,38.0,inform,"
+",,time-arrival,positive,pause,length,16s
+10,31,A,decl,47.0,inform,"
+there's not an advance purchase tickets available now
+",exists,fare-avail-journey,negative,,,
+10,31,A,decl,48.0,inform,"
+they have been booked up
+",,avail,positive,,,
+10,33,A,decl,51.0,inform,"
+you would need to get the 16 31 ",constrain,enum,positive,event,content,tape_cuts_off
+11,2,B,decl,4.0,inform,"
+i'm interested in purchasing a ticket
+",report-closure,journey,positive,,,
+11,2,B,frag,5.0,inform,"
+erm a supersaver value leaving Birmingham New Street on Saturday and returning on the Sunday from London Euston
+",,return-location-day-departure-from-fare,positive,,,
+11,15,A,frag,26.0,inform,"
+for the Virgin value fare at 14 pounds return
+",deixis,fare,positive,,,
+11,17,A,decl,28.0,inform,"
+the first train that you're ab...  a... able to use is on the 10 45 from Birmingham New Street arriving in Euston at 12 32
+",,location-time-arrival-from,positive,,,
+11,19,A,frag,31.0,inform,"
+the earlier trains are all booked up now
+",closure,avail,positive,,,
+11,23,A,decl,41.0,inform,"
+there's a 7 15 in the morning
+",exists,time,positive,,,
+11,25,A,frag,46.0,inform,"
+7 15 arriving at 9 05
+",,time-arrival,positive,,,
+11,31,A,decl,53.0,inform,"
+it's either the 22 45 train in the evening ",alternative,time-avail,positive,pause,,
+11,31,A,decl,53.0,inform,"
+it's either the 22 45 train in the evening ",alternative,time-avail,positive,backchannel,content,mm
+11,31,A,decl,56.0,inform,"
+it's 10 35 in the morning ",,time-return,positive,pause,,
+11,31,A,decl,56.0,inform,"
+it's 10 35 in the morning ",,time-return,positive,pause,,
+11,31,A,decl,57.0,inform,"
+those are the only two available
+",constrain,number-avail,positive,,,
+11,35,A,decl,62.0,inform,"
+it's going to get into London 60 minutes past 12 in the evening ",,time-location-to,positive,pause,,
+11,41,A,decl,75.0,inform,"
+",,fare,positive,pause,length,6s
+11,43,A,decl,78.0,inform,"
+with this ticket you must stick to the dates and the times that i'm going to book for you
+",deixisIntent-constrain-report,date-booking-journey,positive,,,
+11,45,A,decl,80.0,inform,"
+if you can't make your journey and wish to cancel ",poss2-condition,cancel-preference-journey,negative,pause,,
+11,45,A,decl,81.0,inform,"
+as long as you cancel by 6 o'clock day before travel
+",condition,cancel-time-day-journey,positive,,,
+11,45,A,decl,82.0,inform,"
+it's a 50 per cent refund less 5 pounds ",,refund-fare,positive,backchannel,content,ok
+11,45,A,decl,83.0,inform,"
+if you did want to change any of the times of the travel
+",condition,preference-journey,positive,,,
+11,45,A,decl,84.0,inform,"
+you must do so by 6 o clock the day before again subject to availability and 5 pounds charge ",constrain,day-time-avail-fare,positive,pause,,
+11,65,A,decl,116.0,inform,"
+you'll be travelling in coach {letter}%9 as in %alpha seat number 22
+",,enum-spell-number-journey,positive,,,
+11,65,A,decl,117.0,inform,"
+and that's a forward facing seat in non smoking
+",,seat,positive,,,
+11,67,A,decl,121.0,inform,"
+and it's going to be coach %9 for delta seat number 27
+",,enum-number,positive,,,
+11,67,A,decl,122.0,inform,"
+and that's forward facing non smoking ",,seat,positive,backchannel,content,right
+11,67,A,decl,124.0,inform,"
+due to emergency engineering works on Sunday this service that you're actually booked on is going to be diverted between Birmingham and Wolverhampton
+",reason,day-location-booking,positive,,,
+11,67,A,decl,126.0,inform,"
+once you get off at Birmingham it could be ok
+",poss3,time-location-number,positive,,,
+11,67,A,decl,128.0,inform,"
+but it's supposed to be starting ",opinion-constrain,location-from,positive,pause,,
+11,67,A,decl,128.0,inform,"
+but it's supposed to be starting ",opinion-constrain,location-from,positive,pause,,
+11,67,A,decl,129.0,inform,"
+i don't know if it's going to be ",condition-alternative,,negative,pause,,
+11,67,A,decl,129.0,inform,"
+i don't know if it's going to be ",condition-alternative,,negative,pause,,
+11,69,A,decl,132.0,inform,"
+it says here it's going to put an extra 40 minutes on
+",,time,positive,,,
+11,85,A,decl,153.0,inform,"
+you need to take your credit card with you
+",constrain,creditcard,positive,,,
+11,85,A,decl,154.0,inform,"
+and you need to quote this reference number
+",constrain,number-booking,positive,,,
+11,87,A,decl,156.0,inform,"
+it's 2 1 2 0
+",,enum,positive,,,
+11,89,A,frag,158.0,inform,"
+0 0 6 6
+",,enum,positive,,,
+11,91,A,frag,160.0,inform,"
+then it's {letter}%21 as in %alpha
+",,enum-spell,positive,,,
+11,93,A,decl,162.0,inform,"
+and the total cost is 14 pounds return
+",,fare,positive,,,
+12,48,B,decl,73.0,inform,"
+cos i'm not sure about that ",reason-doubtIntent,,negative,pause,,
+12,50,B,decl,77.0,inform,"
+it's getting close to 2 o'clock
+",,time,positive,,,
+12,62,B,decl,95.0,inform,"
+it's on the 8 o'clock train or or close to that
+",alternative,time,positive,,,
+12,66,B,decl,101.0,inform,"
+it ",,,positive,overlap,type,end
+12,66,B,decl,102.0,inform,"
+if you put it
+",condition,,positive,,,
+12,69,A,decl,109.0,inform,"
+you can't do that with an advance purchase ticket
+",poss2,fare-journey,negative,,,
+12,75,A,decl,121.0,inform,"
+ due to engineering works what you're going to have to do ",constrain,to-location-from,positive,pause,,
+12,75,A,decl,122.0,inform,"
+and there's going to be a bus service from Wilmslow to Stockport
+",exists,to-from,positive,,,
+12,77,A,decl,124.0,inform,"
+",abandon-constrain,,positive,pause,,
+12,78,B,decl,130.0,inform,"
+cos i'll drive park my car there ",reasonIntent,,positive,pause,length,5s
+12,79,A,decl,132.0,inform,"
+i'm afraid that's not possible with that type of ticket for travelling tomorrow
+",,journey-day,negative,,,
+12,87,A,decl,149.0,inform,"
+it's either a 13 00 departure ",alternative,time-location-departure-from,positive,pause,,
+12,95,A,frag,169.0,inform,"
+",,booking,positive,overlap,type,end
+12,97,A,decl,174.0,inform,"
+i've already booked out one
+",,number-booking,positive,,,
+12,97,A,decl,175.0,inform,"
+but it just depends on what the system's going to let me book the return ",constrain,fare-booking,positive,pause,,
+12,97,A,decl,176.0,inform,"
+because it is past the booking deadline
+",reason,booking,positive,,,
+12,97,A,decl,177.0,inform,"
+because the system could a... actually cut me off trying to book
+",reason,booking,positive,,,
+12,99,A,decl,181.0,inform,"
+you can't get the 19 00 ",poss2,enum,negative,pause,,
+12,99,A,frag,182.0,inform,"
+not with the super advance
+",,fare,negative,,,
+12,100,B,decl,185.0,inform,"
+and if i can get out ",poss1-condition,,positive,pause,,
+12,105,A,decl,193.0,inform,"
+the fare's going to be 30 pounds 70
+",closure,fare,positive,,,
+12,119,A,decl,216.0,inform,"
+there's only smoking
+",exists-constrain,seat,positive,,,
+12,119,A,frag,217.0,inform,"
+best available that i can reserve you in ",poss1,day-enum-avail,positive,pause,,
+12,121,A,decl,221.0,inform,"
+the dates times and seat numbers are printed on the ticket for you
+",,number-date-journey,positive,,,
+12,123,A,decl,224.0,inform,"
+if you do miss any services that i have reserved you on ",condition,miss,positive,pause,,
+12,123,A,decl,225.0,inform,"
+you are able to get the next available train ",poss2,avail,positive,pause,,
+12,123,A,decl,226.0,inform,"
+if you have to cancel ",condition-constrain,cancel,positive,pause,,
+12,123,A,decl,227.0,inform,"
+it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+12,153,A,frag,263.0,inform,"
+30 pounds 70's going to be de... deducted from that card ",,fare,positive,pause,,
+12,153,A,decl,264.0,inform,"
+you need to take your credit card with you tomorrow ",constrain,day-creditcard,positive,pause,,
+12,153,A,decl,265.0,inform,"
+and you have to be at the train station for 20 minutes before departure time of the train ",constrain,time-departure,positive,pause,,
+12,153,A,decl,266.0,inform,"
+and it's the booking office that you go into
+",,booking,positive,,,
+12,155,A,decl,268.0,inform,"
+and ",,time-number-booking,positive,pause,,
+12,157,A,decl,270.0,inform,"
+it's {letter}%12 for %alpha {letter}%3 for %alpha ",,enum-spell,positive,pause,,
+12,157,A,decl,270.0,inform,"
+it's {letter}%12 for %alpha {letter}%3 for %alpha ",,enum-spell,positive,pause,,
+12,157,A,decl,270.0,inform,"
+it's {letter}%12 for %alpha {letter}%3 for %alpha ",,enum-spell,positive,pause,,
+12,158,A,decl,272.0,inform,"
+and you just ",,number-booking-creditcard,positive,pause,,
+12,158,A,decl,273.0,inform,"
+and the ticket will be waiting there tomorrow ok Mr {surname}%22'Dowd
+",,day-name-journey,positive,,,
+13,19,A,frag,28.0,inform,"
+the twenty seventh is a Tuesday ",,day,positive,backchannel,content,mhm
+13,21,A,decl,33.0,inform,"
+you arrive in Leeds at 10 11
+",,time-arrival,positive,,,
+13,27,A,decl,41.0,inform,"
+the cheapest fare that i'm checking for is the Virgin value return which is 12 pounds each
+",report,fare-verify,positive,,,
+13,29,A,decl,44.0,inform,"
+the only availability with that fare in the evening is on the 19 09 train from Leeds arriving at 20 26
+",constrain,time-arrival-from-avail-fare,positive,,,
+13,35,A,frag,55.0,inform,"
+the ",,time-number,positive,overlap,type,end
+13,44,B,decl,66.0,inform,"
+",,enum-number,positive,pause,,
+13,44,B,decl,66.0,inform,"
+",,enum-number,positive,pause,,
+13,53,A,decl,80.0,inform,"
+",,day-avail,positive,pause,length,8s
+13,67,A,decl,101.0,inform,"
+the dates times and seat numbers will be printed on the tickets for you
+",,number-date-journey,positive,,,
+13,69,A,decl,104.0,inform,"
+if you have to cancel
+",condition-constrain,cancel,positive,,,
+13,69,A,decl,105.0,inform,"
+you must cancel by 6 o clock the day before travel
+",constrain,cancel-time-day-journey,positive,,,
+13,71,A,decl,107.0,inform,"
+it's 50 per cent refund less five pounds
+",,refund-number-fare,positive,,,
+13,73,A,decl,109.0,inform,"
+if you have to change any of the times of travel
+",condition-constrain,journey,positive,,,
+13,73,A,decl,110.0,inform,"
+you must do so by ",constrain,day-time-journey,positive,pause,,
+13,75,A,decl,112.0,inform,"
+and it's 50 sorry 5 pounds charge subject to availability
+",,avail-fare,positive,,,
+13,87,A,decl,132.0,inform,"
+that's what i meant
+",,,positive,,,
+13,100,B,decl,148.0,inform,"
+it's 33 %street Street Hallington ",,location-enum,positive,pause,,
+13,101,A,decl,150.0,inform,"
+that's where the tickets will be posted out to you
+",,journey,positive,,,
+13,103,A,decl,152.0,inform,"
+the total price is forty eight pounds
+",,number-fare,positive,,,
+13,120,B,decl,175.0,inform,"
+i was looking at the wrong ",report,time-number,positive,overlap,type,start
+13,130,B,decl,188.0,inform,"
+it's 05 stroke double 3
+",,enum,positive,,,
+13,133,A,decl,193.0,inform,"
+this is your reference number to which your 4 tickets are being booked under
+",,booking-enum-number-journey,positive,,,
+13,135,A,decl,196.0,inform,"
+it's 6 8 0
+",,enum,positive,,,
+13,137,A,frag,198.0,inform,"
+{letter}%1 for %alpha {letter}%24 for %alpha
+",,enum-spell,positive,,,
+13,139,A,frag,200.0,inform,"
+0 0 ",,enum-spell,positive,pause,,
+13,141,A,decl,202.0,inform,"
+and the tickets will be posted out in first class post to you this afternoon
+",,time-journey,positive,,,
+14,12,B,decl,17.0,inform,"
+er ",constrain-opinion-closure,number,positive,pause,length,2s
+14,25,A,decl,38.0,inform,"
+you arrive in Birmingham New Street for 12 50 ",,arrival-location-time,positive,backchannel,content,mhm
+14,25,A,decl,39.0,inform,"
+you depart Birmingham New Street at 13 18 ",,time-location,positive,backchannel,content,yep
+14,25,A,decl,40.0,inform,"
+you arrive in Wrexham General at 14 55 ",,location-time-arrival,positive,backchannel,content,yeah
+14,25,A,decl,41.0,inform,"
+if you want to get to Wrexham Central
+",condition,location-preference-to,positive,,,
+14,25,A,decl,42.0,inform,"
+the next train departs at 15 26 arriving at 15 29
+",,time-arrival,positive,,,
+14,27,A,decl,45.0,inform,"
+if that's going to be the best station for you
+",condition,,positive,,,
+14,30,B,decl,49.0,inform,"
+i'm actually coming back by car
+",closure,,positive,,,
+14,30,B,frag,51.0,inform,"
+i don't need a ",constrain,fare,negative,overlap,type,start
+14,34,B,decl,59.0,inform,"
+because i've got somebody meeting me there
+",reason,,positive,,,
+14,35,A,decl,60.0,inform,"
+it's the same price anyway
+",,,positive,,,
+14,37,A,decl,63.0,inform,"
+the cheapest fare that's going to be available ",,fare-avail,positive,pause,,
+14,37,A,decl,63.0,inform,"
+the cheapest fare that's going to be available ",,fare-avail,positive,unclear,length,1 syllable
+14,37,A,decl,65.0,inform,"
+there's not any advance purchase tickets
+",exists,fare-journey,negative,,,
+14,39,A,decl,68.0,inform,"
+you're talking about a saver single
+",,fare,positive,,,
+14,41,A,decl,70.0,inform,"
+and ",,fare,positive,pause,,
+14,47,A,decl,79.0,inform,"
+the only train that i'm able to book is in between Euston and Birmingham New Street
+",poss1-constrainIntent,location-booking,positive,,,
+14,47,A,decl,81.0,inform,"
+it's departing tomorrow 11 15 from Euston
+",,location-departure-day-time-from,positive,,,
+14,52,B,decl,88.0,inform,"
+but i'm not really fussy
+",constrain,,negative,,,
+14,52,B,frag,89.0,inform,"
+never had the option before
+",,,negative,,,
+14,53,A,frag,93.0,inform,"
+then it's from Birmingham New Street 13 18
+",,location-enum-from,positive,,,
+14,53,A,decl,94.0,inform,"
+you arrive in Wrexham General 14 55
+",,arrival-location-time,positive,,,
+14,53,A,frag,95.0,inform,"
+then there's a connecting service from Wrexham General 15 26 to arrive in Wrexham Central at 15 29
+",exists,location-time-arrival-from,positive,,,
+14,55,A,decl,98.0,inform,"
+if you miss any services that i have reserved you on ",condition,miss,positive,pause,,
+14,55,A,decl,99.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+14,57,A,decl,101.0,inform,"
+and it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+14,57,A,decl,102.0,inform,"
+if you have to cancel your journey
+",condition-constrain,cancel-journey,positive,,,
+14,63,A,decl,109.0,inform,"
+and it's the booking office in Euston windows 1 to 4
+",,location-enum-booking,positive,,,
+14,63,A,decl,110.0,inform,"
+and they're signposted telesales collection
+",,,positive,,,
+14,82,B,decl,133.0,inform,"
+actually i'm giving you this as a company card i'm giving you
+",reportIntent,,positive,,,
+14,87,A,decl,140.0,inform,"
+you need a letter of authorisation then from
+",abandon-constrain,,positive,,,
+14,88,B,decl,144.0,inform,"
+we've done this before over the over the phone with a company credit card
+",closure,creditcard,positive,,,
+14,89,A,decl,149.0,inform,"
+it's just so long as you have the letter of authorisation giving you permission to use the company credit card on like off... official headed paper that's ok
+",reassurance,miss-creditcard,positive,,,
+14,90,B,decl,151.0,inform,"
+i can't actually take it with me
+",poss1,,negative,,,
+14,91,A,decl,155.0,inform,"
+what i'm saying is you don't need to take the card
+",constrain-reportIntent-closure,,negative,,,
+14,93,A,decl,159.0,inform,"
+and it must be on the company headed paper
+",constrain,,positive,,,
+14,127,A,decl,201.0,inform,"
+45 pounds 50 will be debited from that account ",,fare-booking,positive,backchannel,content,ok
+14,127,A,decl,202.0,inform,"
+and this is your reference number to quote tomorrow at Euston station
+",,location-time-day-number-booking,positive,,,
+14,129,A,decl,205.0,inform,"
+it's {letter}%25 for %alpha
+",,enum-spell,positive,,,
+14,131,A,frag,207.0,inform,"
+{letter}%22 ",,enum-spell-number,positive,overlap,type,end
+14,131,A,frag,207.0,inform,"
+{letter}%22 ",,enum-spell-number,positive,pause,,
+14,133,A,frag,209.0,inform,"
+and you just collect your tickets half an hour before departure time tomorrow ",,time-departure-day-journey,positive,pause,,
+14,133,A,decl,211.0,inform,"
+and the ticket will be waiting there at the train station
+",,time-journey,positive,,,
+15,10,B,frag,19.0,inform,"
+ ",,,,unclear,length,5 syllables
+15,10,B,frag,19.0,inform,"
+ ",,,,pause,,
+15,10,B,decl,20.0,inform,"
+the rest of the adults pay 30 pounds 70
+",,fare,positive,,,
+15,10,B,decl,21.0,inform,"
+and it's ",,fare,positive,unclear,length,2 syllables
+15,10,B,decl,21.0,inform,"
+and it's ",,fare,positive,pause,,
+15,12,B,frag,28.0,inform,"
+arriving at 11 15
+",,time-arrival,positive,,,
+15,23,A,decl,47.0,inform,"
+the 15 35 on Sunday from Euston arrives back in Warrington Bank Quay at 18 03
+",,arrival-location-day-time-from,positive,,,
+15,25,A,decl,49.0,inform,"
+then the outward service tomorrow in 8 34 arrives at London 11 15
+",,day,positive,,,
+15,29,A,decl,56.0,inform,"
+",poss2-constrain,enum,positive,pause,,
+15,30,B,decl,58.0,inform,"
+but then there's the ",exists-constrain,fare,positive,unclear,length,1 syllable
+15,30,B,decl,58.0,inform,"
+but then there's the ",exists-constrain,fare,positive,unclear,length,2 syllables
+15,31,A,decl,62.0,inform,"
+4 of them will go on the railcard
+",,enum-railcard,positive,,,
+15,37,A,decl,70.0,inform,"
+and the total cost is going to be 155 pounds for the four adults and four children
+",,number-fare,positive,,,
+15,41,A,decl,77.0,inform,"
+we need to actually fill out the form twice because it's classed as two separate journeys ",reason-constrain,number-journey,positive,pause,,
+15,41,A,frag,78.0,inform,"
+with it being 1 with a railcard you know
+",,enum-railcard,positive,,,
+15,41,A,frag,79.0,inform,"
+1 family railcard and 1 without
+",,enum-railcard,positive,,,
+15,57,A,decl,104.0,inform,"
+i need the full credit card address
+",constrain,creditcard-address,positive,,,
+15,62,B,decl,110.0,inform,"
+the only thing i've got is his number ",constrain,number,positive,pause,,
+15,62,B,decl,111.0,inform,"
+i don't have an address
+",,address,negative,,,
+15,63,A,decl,112.0,inform,"
+but we do need the credit card address details
+",constrain,creditcard-address,positive,,,
+15,65,A,decl,114.0,inform,"
+we ",,booking,negative,overlap,type,end
+15,68,B,decl,118.0,inform,"
+it's i've got it
+",,,positive,,,
+15,68,B,decl,119.0,inform,"
+it's American Express
+",,,positive,,,
+15,69,A,decl,121.0,inform,"
+i'm afraid i can't take the booking until you find the appropriate address
+",poss1-apology,booking-address,negative,,,
+15,73,A,decl,132.0,inform,"
+i'm afraid you... we're going to have to wait until he comes out of the meeting then and give the ring back to book this ",constrain,booking-journey,positive,overlap,type,start
+15,75,A,decl,135.0,inform,"
+we need the full credit card details address ",constrain,creditcard-address,positive,pause,,
+15,75,A,frag,136.0,inform,"
+the full address plus the postcode
+",,address,positive,,,
+16,2,B,frag,5.0,inform,"
+erm the 8 a m from Derby
+",,time-location-from,positive,,,
+16,4,B,frag,7.0,inform,"
+arriving at St Pancreas 8 50
+",,time-arrival,positive,,,
+16,4,B,frag,8.0,inform,"
+and the 17 30 from St Pancreas to Derby
+",constrain,to-location-enum-from,positive,,,
+16,21,A,decl,29.0,inform,"
+",exists,fare-time-journey,negative,pause,length,4s
+16,21,A,decl,29.0,inform,"
+",exists,fare-time-journey,negative,pause,,
+16,21,A,decl,30.0,inform,"
+it's either 6 o'clock or 9 o'clock
+",alternative,time,positive,,,
+16,27,A,decl,49.0,inform,"
+you've got to book beforehand
+",constrain,booking,positive,,,
+16,27,A,decl,50.0,inform,"
+but that's only available in the dates and times
+",constrain,date-avail,positive,,,
+16,29,A,decl,53.0,inform,"
+the super saver is not valid at that time in the morning
+",,time-fare,negative,,,
+16,41,A,decl,82.0,inform,"
+and i've booked forward facing non smoking table seats
+",,seat-booking,positive,,,
+16,41,A,decl,83.0,inform,"
+and the dates times and seat numbers will be printed on the tickets for you
+",,number-date-journey,positive,,,
+16,43,A,decl,85.0,inform,"
+if you have to cancel this ticket
+",condition-constrain,cancel-journey,positive,,,
+16,43,A,decl,86.0,inform,"
+it's a full refund less 5 pounds ",,refund-fare,positive,pause,,
+16,43,A,decl,87.0,inform,"
+if you needed to change any times you can do so
+",condition-constrain,,positive,,,
+16,43,A,decl,88.0,inform,"
+if you miss any train you can get the next available service
+",poss2-condition,miss-avail,positive,,,
+16,53,A,frag,100.0,inform,"
+63 pounds return
+",,fare,positive,,,
+16,82,B,frag,140.0,inform,"
+",,enum,positive,pause,,
+16,86,B,frag,144.0,inform,"
+Leicestershire
+",partial,,positive,,,
+16,87,A,decl,146.0,inform,"
+that's where the ticket will be posted out to
+",,journey,positive,,,
+16,103,A,decl,170.0,inform,"
+this is the reference number the ticket has been booked under
+",,booking-number-journey,positive,,,
+16,105,A,decl,172.0,inform,"
+and it's 0 then it's treble {letter}%6 as in %alpha
+",,enum-spell,positive,,,
+16,106,B,frag,174.0,inform,"
+0 treble {letter}%6
+",,enum-spell,positive,,,
+16,109,A,frag,177.0,inform,"
+0 7 0
+",,enum,positive,,,
+16,111,A,frag,179.0,inform,"
+{letter}%23 for %alpha
+",,enum-spell,positive,,,
+16,113,A,decl,181.0,inform,"
+and the ticket will be posted out first class post this afternoon to you ok now
+",,time-journey,positive,,,
+17,12,B,decl,16.0,inform,"
+i... it's just a single ticket
+",closure,fare-journey,positive,,,
+17,23,A,decl,31.0,inform,"
+the trains run at quarter past and quarter to the hour
+",,time,positive,,,
+17,27,A,decl,38.0,inform,"
+the cheapest single fare is 7 pounds
+",,fare,positive,,,
+17,27,A,decl,39.0,inform,"
+and that's your Virgin Value single
+",,fare,positive,,,
+17,29,A,decl,41.0,inform,"
+but you've got to stick to the date and time that you book
+",constrain,time-date-booking,positive,,,
+17,35,A,decl,52.0,inform,"
+there's a train at 13 15 from Birmingham New Street ",exists,time-location-from,positive,pause,,
+17,35,A,decl,53.0,inform,"
+you arrive in London Euston at 15 hundred
+",,location-time-arrival,positive,,,
+17,39,A,decl,58.0,inform,"
+and that's 7 pounds for your single
+",,fare,positive,,,
+18,7,A,decl,17.0,inform,"
+with the saver ticket you can travel on any train after 6 20
+",deixis-poss2,journey-fare,positive,,,
+18,9,A,decl,20.0,inform,"
+if you're travelling back on a Sunday
+",condition,day-journey,positive,,,
+18,9,A,decl,21.0,inform,"
+it's any train
+",,,positive,,,
+18,9,A,decl,22.0,inform,"
+but if you're travelling on a weekday Monday to Friday ",condition-constrain,day-to-journey,positive,pause,,
+18,9,A,decl,23.0,inform,"
+you can travel on the train after ",poss2,time-journey,positive,pause,,
+18,11,A,decl,25.0,inform,"
+",alternative,enum-number,positive,pause,length,2s
+18,23,A,decl,50.0,inform,"
+as long as you are a credit or debit card holder
+",condition-alternative,creditcard,positive,,,
+18,28,B,decl,64.0,inform,"
+cos that i'd know what train i was taking down there
+",reason-report,,positive,,,
+18,32,B,decl,75.0,inform,"
+if i book it for a certain time going down ",poss1-condition-alternativeIntent,time-preference-number-booking,negative,pause,,
+18,39,A,frag,93.0,inform,"
+15 20 from Preston arriving in Euston at 18 13
+",,location-time-arrival-from,positive,,,
+18,53,A,decl,117.0,inform,"
+the only seat that i can reserve you in is in the smoking coach ",poss1-constrain,seat,positive,pause,,
+18,53,A,decl,118.0,inform,"
+that train must be particularly booked ",constrain,booking,positive,pause,,
+18,55,A,decl,121.0,inform,"
+the only seats are left are in smoking
+",constrain,seat,positive,,,
+18,57,A,decl,124.0,inform,"
+you'll be travelling in coach {letter}%17 as in %alpha seat number 38
+",,enum-spell-number-journey,positive,,,
+18,61,A,decl,137.0,inform,"
+if it's a Sunday you're coming back
+",condition,day,positive,,,
+18,83,A,decl,171.0,inform,"
+if you have to cancel this ticket
+",condition-constrain,cancel-journey,positive,,,
+18,83,A,decl,172.0,inform,"
+it's a full refund less 5 pounds admin charge
+",,refund-fare,positive,,,
+18,103,A,decl,198.0,inform,"
+if you collect the tickets 90 minutes before departure time at the train station ",condition,time-departure-journey,positive,pause,,
+18,103,A,decl,200.0,inform,"
+at Preston you just need to go to the travel centre
+",deixis-constrain,time-location-journey,positive,,,
+18,103,A,decl,201.0,inform,"
+and you'll have the tickets there ",,journey,positive,pause,,
+18,103,A,decl,203.0,inform,"
+you'll need to quote this reference number
+",constrain,number-booking,positive,,,
+18,105,A,decl,207.0,inform,"
+it's  8 8 0 9
+",,enum,positive,,,
+18,107,A,frag,209.0,inform,"
+3 3 9 3
+",,enum,positive,,,
+18,109,A,frag,211.0,inform,"
+{letter}%12 as in %alpha
+",,enum-spell,positive,,,
+18,111,A,decl,217.0,inform,"
+and the ticket will be waiting there for you
+",,journey,positive,,,
+18,114,B,decl,225.0,inform,"
+it's just getting out of work on time but ",constrain,time,positive,pause,,
+18,119,A,decl,232.0,inform,"
+they're 20 past the hour apart from there's one at 16 31
+",exists,time-number,positive,,,
+19,15,A,frag,21.0,inform,"
+",,time-arrival,positive,pause,length,4s
+19,23,A,decl,33.0,inform,"
+the 17 25 returns arrives in Euston at 19 08
+",,location-time-arrival,positive,,,
+19,25,A,decl,36.0,inform,"
+the cheapest fare is 14 pounds for the Virgin value fare each
+",,fare,positive,,,
+19,25,A,decl,37.0,inform,"
+but that 9 05 is booked up on the outward service
+",constrain,enum-avail,positive,,,
+19,27,A,decl,40.0,inform,"
+there's the 8 05 or it's the 9 35
+",exists-alternative,enum,positive,,,
+19,29,A,frag,44.0,inform,"
+arriving in Birmingham International 11 07
+",,arrival-location-time,positive,,,
+19,35,A,decl,56.0,inform,"
+the dates times and seat numbers will be printed on the tickets for you ",,number-date-journey,positive,pause,,
+19,35,A,decl,57.0,inform,"
+if you have to cancel your journey
+",condition-constrain,cancel-journey,positive,,,
+19,35,A,decl,58.0,inform,"
+you must cancel by 6 o'clock the day before travel ",constrain,cancel-time-day-journey,positive,pause,,
+19,35,A,decl,59.0,inform,"
+you would receive a 50 percent refund less 5 pounds ",,refund-fare,positive,pause,,
+19,35,A,decl,60.0,inform,"
+if you had to change in the time of travel
+",condition-constrain,time-journey,positive,,,
+19,35,A,decl,61.0,inform,"
+you must do so by 6 o'clock the day before again subject to availability and 5 pounds charge
+",constrain,day-time-avail-fare,positive,,,
+19,61,A,decl,91.0,inform,"
+that's where the 2 tickets will be posted out to
+",,enum-journey,positive,,,
+19,75,A,decl,110.0,inform,"
+",,booking-number-journey,positive,pause,,
+19,75,A,decl,110.0,inform,"
+",,booking-number-journey,positive,pause,,
+19,77,A,decl,114.0,inform,"
+it's {letter}%4 for %alpha {letter}%7 for %alpha
+",,enum-spell,positive,,,
+19,79,A,frag,116.0,inform,"
+{letter}%15 for %alpha 9
+",,enum-spell,positive,,,
+19,81,A,frag,118.0,inform,"
+{letter}%2 for %alpha {letter}%24 for %alpha 1 2
+",,enum-spell,positive,,,
+20,13,A,decl,23.0,inform,"
+the first train that is available is the 15 50 in the afternoon ",,time-avail,positive,pause,,
+20,13,A,frag,24.0,inform,"
+arriving at 18 33
+",,time-arrival,positive,,,
+20,23,A,decl,46.0,inform,"
+that is subject to availability ",closure,avail,positive,backchannel,content,right
+20,23,A,decl,47.0,inform,"
+and you must book that by 6 o'clock the day before travel
+",constrain,day-time-booking-journey,positive,,,
+21,13,A,decl,21.0,inform,"
+the cheapest fare is the Virgin value single at 7 pounds
+",,fare,positive,,,
+21,13,A,decl,22.0,inform,"
+but the only train that is available is the 7 56 in the morning ",constrain,time-avail,positive,pause,,
+21,13,A,frag,23.0,inform,"
+arriving at 9 49
+",,time-arrival,positive,,,
+21,15,A,decl,26.0,inform,"
+if you needed to travel later on in the afternoon
+",condition-constrain,time-journey,positive,,,
+21,15,A,decl,27.0,inform,"
+it'll be the cheap day single at 20 pounds 40 ",,fare-day,positive,pause,,
+21,17,A,frag,32.0,inform,"
+then it's going to be 20 pounds 40
+",,fare,positive,,,
+21,19,A,decl,34.0,inform,"
+",,time-avail,positive,pause,length,7s
+21,19,A,decl,34.0,inform,"
+",,time-avail,positive,pause,,
+21,19,A,frag,35.0,inform,"
+arriving 11 50
+",,arrival-time,positive,,,
+21,35,A,decl,62.0,inform,"
+i've booked that for you
+",,booking,positive,,,
+21,35,A,decl,64.0,inform,"
+the date time and seat number will be printed on the ticket for you ",,time-number-date-journey,positive,backchannel,content,ok
+21,35,A,decl,66.0,inform,"
+you must stick to the date and time that you book
+",constrain,time-date-booking,positive,,,
+21,56,B,frag,90.0,inform,"
+0 {letter}%20 {letter}%11
+",,enum-spell,positive,,,
+21,75,A,frag,114.0,inform,"
+7 pounds will be debited from that account
+",,fare-booking,positive,,,
+21,77,A,decl,116.0,inform,"
+and this is your reference number to quote at the train station
+",,time-number-booking,positive,,,
+21,79,A,decl,119.0,inform,"
+it's the number 5
+",,number,positive,,,
+21,81,A,frag,121.0,inform,"
+treble {letter}%2 as in ",,enum-spell,positive,overlap,type,start
+21,83,A,frag,123.0,inform,"
+6 5
+",,enum,positive,,,
+21,85,A,frag,125.0,inform,"
+{letter}%2 for %alpha ",,enum-spell,positive,pause,,
+21,87,A,decl,128.0,inform,"
+you just collect your tickets 50 minutes before departure time on Monday ok Miss {surname}%18%15%20%18%13
+",,time-departure-day-name-journey,positive,,,
+22,12,B,decl,18.0,inform,"
+i want to try to take advantage of any savers that are available
+",intent-closure,preference-avail-fare,positive,,,
+22,17,A,decl,27.0,inform,"
+the cheapest fare the is available travelling that day now ",,fare-day-avail-journey,positive,pause,,
+22,17,A,decl,27.0,inform,"
+the cheapest fare the is available travelling that day now ",,fare-day-avail-journey,positive,pause,,
+22,17,A,decl,29.0,inform,"
+the only time that i can get availability on ",poss1-constrain,time-location-from-avail-journey,positive,pause,,
+22,17,A,decl,29.0,inform,"
+the only time that i can get availability on ",poss1-constrain,time-location-from-avail-journey,positive,backchannel,content,mhm
+22,17,A,frag,30.0,inform,"
+changing at Preston ",,time-location,positive,backchannel,content,mm
+22,17,A,frag,31.0,inform,"
+arriving in Blackpool North for 13 24
+",,arrival-location-time,positive,,,
+22,19,A,decl,33.0,inform,"
+there's an afternoon train aval... available at 13 35 ",exists,time-avail,positive,pause,,
+22,19,A,frag,34.0,inform,"
+changing at Preston ",,time-location,positive,pause,,
+22,19,A,decl,35.0,inform,"
+you arrive at 16 28
+",,time-arrival,positive,,,
+22,19,A,frag,36.0,inform,"
+depart at 16 56
+",,time,positive,,,
+22,19,A,frag,37.0,inform,"
+then you arrive in Blackpool North at 17 24
+",,location-time-arrival,positive,,,
+22,25,A,decl,53.0,inform,"
+this is called a super advance return ",,fare,positive,pause,,
+22,25,A,decl,54.0,inform,"
+the first ticket ticket i checked for was a Virgin value
+",,journey-verify,positive,,,
+22,25,A,decl,55.0,inform,"
+that's the cheapest ",,fare,positive,backchannel,content,mm
+22,25,A,decl,56.0,inform,"
+that's been booked up
+",,avail,positive,,,
+22,25,A,decl,57.0,inform,"
+then i checked the Apex ",,verify,positive,backchannel,content,mm
+22,25,A,decl,58.0,inform,"
+and that's been booked up
+",,avail,positive,,,
+22,25,A,decl,60.0,inform,"
+the super advance is the the ",,fare-number,positive,backchannel,content,unclear 3 syllables
+22,28,B,frag,65.0,inform,"
+say from 4 o'clock onwards
+",,time,positive,,,
+22,33,A,decl,71.0,inform,"
+the only train that i can get availability on is the 16 34 ",poss1-constrain,location-enum-from-avail,positive,backchannel,content,yeah
+22,33,A,decl,71.0,inform,"
+the only train that i can get availability on is the 16 34 ",poss1-constrain,location-enum-from-avail,positive,pause,,
+22,33,A,frag,72.0,inform,"
+changing at Bla... sorry changing at Preston ",,time-location,positive,backchannel,content,mm
+22,33,A,decl,73.0,inform,"
+and you arrive in Blackpool North for 20 15
+",,arrival-location-time,positive,,,
+22,37,A,decl,79.0,inform,"
+the direct services are all ",,avail,positive,overlap,type,start
+22,37,A,decl,79.0,inform,"
+the direct services are all ",,avail,positive,pause,,
+22,37,A,decl,80.0,inform,"
+i've checked them first of all
+",,verify,positive,,,
+22,38,B,decl,87.0,inform,"
+i don't know what to do
+",,,negative,,,
+22,39,A,decl,94.0,inform,"
+you must book by 2 o'clock the day before travel
+",constrain,day-time-booking-journey,positive,,,
+22,41,A,decl,97.0,inform,"
+and ",,avail,positive,overlap,type,end
+22,49,A,decl,108.0,inform,"
+the twoso... ",,number-avail-journey,negative,pause,,
+22,51,A,decl,110.0,inform,"
+it's a Virgin groupie
+",,,positive,,,
+22,51,A,decl,111.0,inform,"
+and it has to be 2 or 4 people travelling
+",constrain-alternative,enum-journey,positive,,,
+22,53,A,decl,114.0,inform,"
+every super advance return is booked up by the time you call back ",,fare-time-avail,positive,pause,,
+22,53,A,decl,116.0,inform,"
+it's going to cost you 52 pounds each
+",,fare,positive,,,
+22,54,B,decl,119.0,inform,"
+if there's er 3 of us travelling ",exists-condition,enum-journey,positive,pause,,
+22,57,A,decl,127.0,inform,"
+",,avail-journey,positive,pause,length,37s
+22,57,A,decl,127.0,inform,"
+",,avail-journey,positive,pause,,
+22,57,A,decl,128.0,inform,"
+it is 59 pounds ",,fare,positive,backchannel,content,mhm
+22,57,A,decl,128.0,inform,"
+it is 59 pounds ",,fare,positive,pause,,
+22,57,A,frag,129.0,inform,"
+2 to 4 people return
+",,fare,positive,,,
+22,57,A,decl,130.0,inform,"
+but there's none available for the dates and times on the twenty ninth or the thirtieth
+",exists-constrain-alternative,date-avail,negative,,,
+23,13,A,decl,20.0,inform,"
+it's the fifth of October
+",,month-date,positive,,,
+23,19,A,frag,27.0,inform,"
+",closure,time-arrival,positive,pause,length,4s
+23,21,A,decl,32.0,inform,"
+because it's this Monday you're travelling %5'm going to have to arrange for you to collect your tickets from the train station
+",reason-constrain,journey-day,positive,,,
+23,27,A,decl,43.0,inform,"
+then it's ",,number,positive,pause,,
+23,27,A,decl,44.0,inform,"
+it's the eighth ",,day,positive,pause,,
+23,31,A,frag,48.0,inform,"
+",,time-arrival,positive,pause,length,3s
+23,37,A,decl,58.0,inform,"
+the only advance purchase ticket is available is on the train after ",constrain-closure,fare-avail-journey,positive,pause,,
+23,37,A,decl,59.0,inform,"
+and that's the 15 41 in the ",,time,positive,overlap,type,start
+23,38,B,decl,61.0,inform,"
+i've got ",constrain,enum,positive,overlap,type,end
+23,39,A,decl,62.0,inform,"
+then the cheapest fare that's going to be available is your super saver return at 50 pounds 50
+",,fare-avail,positive,,,
+23,43,A,decl,69.0,inform,"
+if you miss any ",condition,time-miss,positive,pause,,
+23,43,A,decl,70.0,inform,"
+you are able to get the next available service ",poss2,avail,positive,pause,,
+23,43,A,decl,71.0,inform,"
+and if you have to cancel this ticket
+",condition-constrain,cancel-journey,positive,,,
+23,43,A,decl,72.0,inform,"
+it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+23,47,A,decl,77.0,inform,"
+and you need to take your credit card with you
+",constrain,creditcard,positive,,,
+23,62,B,decl,97.0,inform,"
+it's a company credit card
+",,creditcard,positive,,,
+23,84,B,decl,133.0,inform,"
+but i don't mind
+",constrain,,negative,,,
+23,85,A,decl,142.0,inform,"
+and it's coach {letter}%16 for %alpha seat number 41 and once again that's smoking ",,,positive,pause,,
+23,85,A,decl,144.0,inform,"
+if you miss any services that i've reserved you on
+",condition,miss,positive,,,
+23,85,A,decl,145.0,inform,"
+you are able to get the next available service ",poss2,avail,positive,pause,,
+23,85,A,decl,146.0,inform,"
+it's a full refund less 5 pounds ",,refund-fare,positive,pause,,
+23,85,A,decl,147.0,inform,"
+if you have to cancel your ticket
+",condition-constrain,cancel-journey,positive,,,
+23,87,A,decl,150.0,inform,"
+and this is your reference number to quote ",,number-booking,positive,pause,,
+23,87,A,decl,152.0,inform,"
+you need to be there for 20 minutes before departure time ",constrain,time-departure,positive,pause,,
+23,87,A,decl,153.0,inform,"
+and you just need to quote this reference number ",constrain,number-booking,positive,pause,,
+23,87,A,decl,154.0,inform,"
+it's 0 7 9 7
+",,enum,positive,,,
+23,89,A,frag,156.0,inform,"
+7 7 1 8
+",,enum,positive,,,
+23,91,A,frag,158.0,inform,"
+{letter}%10 as in %alpha
+",,enum-spell,positive,,,
+23,93,A,decl,161.0,inform,"
+and you need to take your credit card with you
+",constrain,creditcard,positive,,,
+23,95,A,decl,165.0,inform,"
+we do say 20 minutes
+",closure,time,positive,,,
+23,95,A,decl,167.0,inform,"
+you get enough time to collect your tickets and board your train
+",,time-journey,positive,,,
+23,95,A,decl,169.0,inform,"
+you don't miss your train
+",,miss,negative,,,
+23,97,A,decl,171.0,inform,"
+but it's in case there was any queue ",reason-constrain,,positive,pause,,
+24,19,A,decl,31.0,inform,"
+the cheapest fare is 41 pounds 40 return
+",,fare,positive,,,
+24,19,A,decl,32.0,inform,"
+and that's your super saver
+",,fare,positive,,,
+24,21,A,decl,36.0,inform,"
+if you miss any services that i'm going to reserve you on
+",intent-condition-report,miss,positive,,,
+24,21,A,decl,37.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+24,23,A,decl,39.0,inform,"
+if you have to cancel your ticket
+",condition-constrain,cancel-journey,positive,,,
+24,23,A,decl,40.0,inform,"
+it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+24,32,B,decl,55.0,inform,"
+if you need it
+",condition-constrain,,positive,,,
+24,44,B,frag,73.0,inform,"
+number 13 ",,enum-number,positive,pause,,
+24,44,B,frag,73.0,inform,"
+number 13 ",,enum-number,positive,pause,,
+24,44,B,frag,73.0,inform,"
+number 13 ",,enum-number,positive,pause,,
+24,49,A,frag,88.0,inform,"
+be coach {letter}%13 for %alpha seat number 34 ",,,positive,pause,,
+24,49,A,decl,90.0,inform,"
+it's actually booking me in non smoking ",,booking-seat,positive,pause,,
+24,49,A,decl,91.0,inform,"
+that's the best available that i can get
+",poss1,avail,positive,,,
+24,61,A,decl,118.0,inform,"
+41 pounds 40 ",,fare,positive,pause,,
+24,61,A,decl,118.0,inform,"
+41 pounds 40 ",,fare,positive,backchannel,content,mm
+24,80,B,frag,142.0,inform,"
+is 12 99
+",,enum,positive,,,
+24,81,A,decl,145.0,inform,"
+you need to take your credit card with you
+",constrain,creditcard,positive,,,
+24,83,A,decl,147.0,inform,"
+you collect your tickets 45 minutes before departure time ",,time-location-departure-booking-journey,positive,pause,,
+24,83,A,decl,147.0,inform,"
+you collect your tickets 45 minutes before departure time ",,time-location-departure-booking-journey,positive,pause,,
+24,83,A,decl,148.0,inform,"
+and you need to take your credit card and quote this reference number ",constrain,number-booking-creditcard,positive,pause,,
+24,85,A,frag,153.0,inform,"
+5 7 7 4
+",,enum,positive,,,
+24,87,A,frag,155.0,inform,"
+4 4 8 5
+",,enum,positive,,,
+24,89,A,frag,157.0,inform,"
+stroke {letter}%13 as in %alpha
+",,enum-spell,positive,,,
+25,19,A,frag,27.0,inform,"
+",,time-arrival,positive,pause,,
+25,23,A,decl,31.0,inform,"
+",poss1,fare-time,positive,pause,length,2s
+25,25,A,decl,35.0,inform,"
+you must go out on the 7 55 in the morning
+",constrain,time,positive,,,
+25,27,A,decl,38.0,inform,"
+if i provisionally book you on a return service ",condition,fare-booking,positive,pause,,
+25,27,A,decl,39.0,inform,"
+if you miss that
+",condition,miss,positive,,,
+25,27,A,decl,40.0,inform,"
+you're able to get the next available service or you don't need to book a return ",poss2-constrain-alternative,avail-fare-booking,negative,pause,,
+25,27,A,decl,41.0,inform,"
+you can leave that open
+",poss2,departure-fare,positive,,,
+25,33,A,decl,52.0,inform,"
+if you have to cancel your ticket
+",condition-constrain,cancel-journey,positive,,,
+25,33,A,decl,53.0,inform,"
+it's a full refund less 5 pounds
+",,refund-fare,positive,,,
+25,35,A,decl,55.0,inform,"
+and like i said ",,preference,positive,pause,,
+25,35,A,decl,55.0,inform,"
+and like i said ",,preference,positive,pause,,
+25,35,A,decl,56.0,inform,"
+you've got to travel out on the 7 55 tomorrow ",constrain,day-enum-journey,positive,pause,,
+25,35,A,decl,57.0,inform,"
+but you can come back at any time that suits yourself
+",poss2-constrain,time,positive,,,
+25,40,B,decl,65.0,inform,"
+it's erm a college card
+",,,positive,,,
+25,41,A,decl,67.0,inform,"
+it has to be the credit card holder that collects the tickets from the train station
+",constrain,creditcard-journey,positive,,,
+25,45,A,decl,77.0,inform,"
+unfortunately it has to be the the person who collects the tickets that signs for the cre... credit card holder has to sign for them
+",constrain,creditcard-journey,positive,,,
+26,4,B,frag,7.0,inform,"
+Hertford in Cheshire
+",deixis,location,positive,,,
+26,16,B,decl,24.0,inform,"
+i've just checked these train times
+",closure,verify,positive,,,
+26,16,B,decl,25.0,inform,"
+and i've been given that's 7 41 from Hertford
+",report,location-enum-from,positive,,,
+26,18,B,decl,27.0,inform,"
+and it it's a through train
+",,,positive,,,
+26,18,B,decl,28.0,inform,"
+and it arrives in Taunton at 14 28
+",,location-time-arrival,positive,,,
+26,22,B,decl,34.0,inform,"
+and then the connection from Crewe is 14 52 ",,,,pause,,
+26,22,B,frag,35.0,inform,"
+arriving Hertford 15 03
+",,arrival-location-time,positive,,,
+26,24,B,decl,39.0,inform,"
+i... it's a through train ",,,positive,pause,,
+26,24,B,decl,40.0,inform,"
+there's no changing on it ",exists-abandon,,negative,unclear,length,7 syllables
+26,24,B,decl,40.0,inform,"
+there's no changing on it ",exists-abandon,,negative,pause,,
+26,25,A,decl,45.0,inform,"
+i've got the train departing at 10 35 from Taunton ",,location-departure-time-from,positive,backchannel,content,mm
+26,25,A,decl,46.0,inform,"
+but you're changing at Birmingham New Street ",constrain,time-location,positive,pause,length,2s
+26,25,A,decl,47.0,inform,"
+you arrive in ",abandon,arrival,positive,overlap,type,start
+26,26,B,decl,48.0,inform,"
+i ",,,negative,overlap,type,end
+26,26,B,decl,48.0,inform,"
+i ",,,negative,pause,length,2s
+26,29,A,decl,56.0,inform,"
+i've got the one from ",,to-location-from-number,positive,pause,,
+26,29,A,decl,56.0,inform,"
+i've got the one from ",,to-location-from-number,positive,backchannel,content,mm
+26,37,A,decl,72.0,inform,"
+i was just actually double checking that 
+",,journey-verify,positive,,,
+26,37,A,decl,73.0,inform," 
+because ",reason,,,pause,,
+26,37,A,decl,74.0,inform,"
+but the last part from ",constrain,to-location-from,positive,pause,,
+26,37,A,decl,74.0,inform,"
+but the last part from ",constrain,to-location-from,positive,pause,,
+26,37,A,decl,75.0,inform,"
+it's a local connection ",,,positive,pause,,
+26,37,A,decl,77.0,inform,"
+i'm just making sure it's going to be valid on the kind of ticket ",intent,journey,positive,pause,,
+26,37,A,decl,77.0,inform,"
+i'm just making sure it's going to be valid on the kind of ticket ",intent,journey,positive,overlap,type,start
+26,37,A,decl,79.0,inform,"
+i'm just double checking
+",,verify,positive,,,
+26,38,B,decl,81.0,inform,"
+because normally i've travelled erm i i've done this before
+",reason,,positive,,,
+26,39,A,decl,83.0,inform,"
+it's just that there's been new restrictions been added ",exists,month-date,positive,overlap,type,start
+26,41,A,decl,87.0,inform,"
+but i've checked that out
+",constrain,verify,positive,,,
+26,41,A,decl,88.0,inform,"
+and that's ok ",reassurance,,positive,backchannel,content,yes
+26,41,A,decl,90.0,inform,"
+the fare's going to be 23 pounds 45
+",,fare,positive,,,
+26,43,A,decl,92.0,inform,"
+and that's with your senior railcard discount
+",,railcard,positive,,,
+26,51,A,decl,115.0,inform,"
+i'm just specifying that for you ",intent-closure,,positive,pause,,
+26,55,A,decl,137.0,inform,"
+you must stick to the dates and the times that you book ",constrain,date,positive,backchannel,content,yes right
+26,55,A,decl,138.0,inform,"
+if you have to cancel ",condition-constrain,cancel,positive,pause,,
+26,55,A,decl,139.0,inform,"
+if you cancel by 2 o clock the day before travel ",condition,cancel-time-day-journey,positive,backchannel,content,yes
+26,55,A,decl,140.0,inform,"
+you would just leave a full refund less 5 pounds ",,refund-departure-time-fare,positive,pause,,
+26,55,A,decl,141.0,inform,"
+if you needed to change any of the time of travel
+",condition-constrain,time-journey,positive,,,
+26,55,A,decl,142.0,inform,"
+you must do so by 2 o clock the day before as well ",constrain,day-time-avail-fare,positive,backchannel,content,yes
+26,55,A,decl,142.0,inform,"
+you must do so by 2 o clock the day before as well ",constrain,day-time-avail-fare,positive,pause,,
+27,14,B,decl,23.0,inform,"
+and erm ",,location-time-to,positive,pause,,
+27,14,B,decl,23.0,inform,"
+and erm ",,location-time-to,positive,pause,,
+27,23,A,decl,36.0,inform,"
+that's arriving in Birmingham New Street for 15 42 then departing there at 16 06 to arrive in Leicester at 17 01
+",,time-location-departure-arrival,positive,,,
+27,27,A,decl,47.0,inform,"
+the 9 18 changing at Birmingham New Street arriving in Newton Abbot is ok
+",,location-time-arrival,positive,,,
+27,27,A,frag,50.0,inform,"
+the 12 21 ",,enum,positive,pause,length,4s
+27,27,A,decl,52.0,inform,"
+that's available as well
+",,avail,positive,,,
+27,32,B,frag,60.0,inform,"
+as long as i...
+",condition-abandon,,positive,,,
+27,32,B,decl,63.0,inform,"
+the trouble is i've just had a ticket ",closed,journey,positive,backchannel,content,aha
+27,32,B,decl,64.0,inform,"
+and she said she was going to put me on a table
+",closure,,positive,,,
+27,32,B,decl,65.0,inform,"
+but the er when i've had just received them
+",constrain,time,positive,,,
+27,32,B,decl,66.0,inform,"
+they're the wrong ",,date,positive,pause,,
+27,32,B,decl,68.0,inform,"
+i've got to send these back ",constrain,,positive,backchannel,content,right
+27,47,A,decl,94.0,inform,"
+the dates times and seat numbers will be printed on the tickets for you ",,number-date-journey,positive,backchannel,content,yes
+27,47,A,decl,95.0,inform,"
+the total cost is 83 pounds return
+",,fare,positive,,,
+27,49,A,decl,99.0,inform,"
+you must stick to the dates and the times that you book
+",constrain,date-booking,positive,,,
+27,51,A,decl,101.0,inform,"
+if you have to cancel however ",condition-constrain,cancel,positive,pause,,
+27,51,A,decl,102.0,inform,"
+if you cancel by 2 o'clock the day before travel ",condition,cancel-time-day-journey,positive,backchannel,content,yes
+27,51,A,decl,103.0,inform,"
+it's a full refund less 5 pounds admin charge
+",,refund-fare,positive,,,
+27,53,A,decl,105.0,inform,"
+if it's after the 2 o'clock deadline but before departure time of the train
+",condition,time,positive,,,
+27,53,A,decl,106.0,inform,"
+it's a 50 per cent refund less 5 pounds
+",,refund-fare,positive,,,
+27,55,A,decl,108.0,inform,"
+and if you needed to change any of the times of travel
+",condition-constrain,journey-time,positive,,,
+27,55,A,decl,109.0,inform,"
+you must do so by 2'o clock the day before travel as well subject to availability and 5 pounds charge per ticket
+",constrain,journey-day-time-avail-fare,positive,,,
+27,66,B,frag,122.0,inform,"
+4
+",partial,enum,positive,,,
+27,68,B,frag,124.0,inform,"
+2 ",partial,enum,positive,overlap,type,end
+27,70,B,frag,126.0,inform,"
+double 6
+",,,positive,,,
+27,72,B,frag,128.0,inform,"
+6 0
+",,enum,positive,,,
+27,74,B,frag,130.0,inform,"
+1 4
+",,enum,positive,,,
+27,82,B,decl,139.0,inform,"
+it's 7 2 2 ",,location-enum,positive,pause,,
+27,83,A,decl,141.0,inform,"
+that's where the two tickets will be posted out to
+",,number-journey,positive,,,
+27,101,A,frag,160.0,inform,"
+5 5 5 
+",,enum-creditcard,positive,,,
+27,103,A,frag,165.0,inform,"
+83 pounds will be debited from that card
+",,fare-booking,positive,,,
+27,110,B,decl,175.0,inform,"
+i've got one now
+",,number,positive,,,
+27,111,A,decl,177.0,inform,"
+this is the reference number that your tickets have been booked ",,booking-number-journey,positive,overlap,type,start
+27,113,A,decl,180.0,inform,"
+and it's 8 4 2
+",,enum,positive,,,
+27,115,A,frag,182.0,inform,"
+{letter}%5 for %alpha {letter}%18 for %alpha
+",,enum-spell,positive,,,
+27,117,A,frag,184.0,inform,"
+{letter}%8 for %alpha
+",,enum-spell,positive,,,
+27,119,A,frag,186.0,inform,"
+{letter}%21 for %alpha
+",,enum-spell,positive,,,
+27,121,A,frag,188.0,inform,"
+and the number 2
+",,number,positive,,,
+27,123,A,decl,191.0,inform,"
+the tickets will go out in the first class post for you this afternoon ok Mrs Nunn
+",,time-journey,positive,,,
+27,125,A,decl,196.0,inform,"
+it's on the envelope uh uh enclosed when the tickets arrive
+",,time-arrival-journey,positive,,,
+28,2,B,decl,5.0,inform,"
+er i'm a disabled person
+",,,positive,,,
+28,2,B,decl,7.0,inform,"
+er they told me you can try ",poss2,,positive,pause,,
+28,2,B,decl,8.0,inform,"
+if it is possible darling ",condition,,positive,pause,,
+28,23,A,decl,40.0,inform,"
+there's a 10 30 train from Stockport tomorrow ",exists,day-enum-from,positive,pause,,
+28,23,A,decl,41.0,inform,"
+and you arrive in London Euston for 13 hundred
+",,arrival-location-time,positive,,,
+28,27,A,frag,47.0,inform,"
+return fare to date ",abandon,fare-date,positive,backchannel,content,yeah
+28,29,A,decl,52.0,inform,"
+",constrain,fare-avail-verify,positive,pause,,
+28,33,A,decl,58.0,inform,"
+unless you can specify a date and a time
+",poss2-condition,time-date,positive,,,
+28,33,A,decl,59.0,inform,"
+you're not able to get an advance purchase ticket
+",,fare-journey,negative,,,
+28,35,A,decl,66.0,inform,"
+you would need to buy a saver return which is classed as a walk on fare
+",constrain,fare,positive,,,
+28,37,A,decl,69.0,inform,"
+with the disabled railcard discount works out to 30 pounds 70 which means that the ticket would be open for a calendar month ",deixis,fare-journey-railcard,positive,backchannel,content,ah
+28,37,A,decl,70.0,inform,"
+and you could come back at any time within the time restrictions
+",poss2,time,positive,,,
+28,38,B,decl,73.0,inform,"
+they told me 20 pounds
+",,fare,positive,,,
+28,41,A,decl,76.0,inform,"
+",,fare,positive,pause,,
+28,41,A,decl,77.0,inform,"
+and that's fully booked for tomorrow now
+",,day-booking,positive,,,
+28,43,A,decl,79.0,inform,"
+there is no any availability
+",exists,avail,negative,,,
+28,45,A,decl,85.0,inform,"
+there's no railcard discount with your Virgin value return
+",exists,fare-railcard,negative,,,
+28,45,A,decl,87.0,inform,"
+you get the railcard discount which works out to 19 pounds 80
+",,fare-railcard,positive,,,
+28,47,A,decl,90.0,inform,"
+you're actually 80 pence you have to pay more
+",constrain,enum,positive,,,
+28,47,A,decl,91.0,inform,"
+but you'll be able to travel tomorrow at 10 38 from Stockport
+",constrain,day-time-from-journey,positive,,,
+28,49,A,frag,93.0,inform,"
+arriving at 13 hundred
+",,time-arrival,positive,,,
+28,50,B,decl,95.0,inform,"
+and the fare ",,fare,positive,pause,,
+28,51,A,decl,97.0,inform,"
+but you've got to book your return
+",constrain,fare-booking,positive,,,
+28,53,A,decl,99.0,inform,"
+you must book your return
+",constrain,fare-booking,positive,,,
+28,55,A,decl,102.0,inform,"
+you've got to book it
+",constrain,booking,positive,,,
+28,67,A,decl,121.0,inform,"
+you can come back within the calendar month as well ",poss2,,positive,pause,,
+28,67,A,decl,122.0,inform,"
+you've just got to stipulate the date and time
+",,time-date,positive,,,
+28,74,B,decl,137.0,inform,"
+i've got no idea ",closure,,negative,pause,,
+28,78,B,frag,142.0,inform,"
+about ",,enum,positive,overlap,type,end
+28,79,A,decl,143.0,inform,"
+the trains run from Euston on the hour ",,time-location-from,positive,pause,,
+28,79,A,decl,145.0,inform,"
+there's availability on the 10 11 and 12 o'clock train ",exists,time-avail,positive,pause,,
+28,95,A,decl,168.0,inform,"
+but the credit card holder must be at the train station to collect the ticket
+",constrain,time-creditcard-journey,positive,,,
+28,113,A,decl,192.0,inform,"
+i've managed to book you non smoking
+",,booking-seat,positive,,,
+28,117,A,decl,197.0,inform,"
+and the dates times and seat numbers will be printed on the tickets for you
+",,number-date-journey,positive,,,
+28,127,A,decl,211.0,inform,"
+you must stick to the dates and the times that you have booked
+",constrain,date,positive,,,
+28,129,A,frag,213.0,inform,"
+if ",poss2-condition,journey-cancel-preference,positive,pause,,
+28,129,A,frag,213.0,inform,"
+if ",poss2-condition,journey-cancel-preference,positive,backchannel,content,yes
+28,129,A,decl,214.0,inform,"
+if you cancel by 2 o'clock today you would receive a full refund less 5 pounds ",condition,cancel-time-refund-day-fare,positive,backchannel,content,right
+28,129,A,frag,215.0,inform,"
+but if you cancelled after 2 o'clock today
+",condition,cancel-time-day,positive,,,
+28,129,A,frag,216.0,inform,"
+but before departure time of the train ",constrain,departure-time,positive,backchannel,content,yes
+28,129,A,decl,217.0,inform,"
+it's 50 per cent refund less 5 pounds
+",,refund-fare,positive,,,
+28,152,B,frag,246.0,inform,"
+9 2 3
+",,enum,positive,,,
+28,154,B,frag,248.0,inform,"
+7 8  7
+",,enum,positive,,,
+28,185,A,frag,283.0,inform,"
+you collect them from the booking office in London Euston ",,location-booking,positive,pause,,
+28,187,A,decl,289.0,inform,"
+cos they need that while they're on the train
+",reason-constrain,,positive,,,
+28,189,A,decl,291.0,inform,"
+and you just need to quote this reference number
+",constrain,number-booking,positive,,,
+28,191,A,decl,293.0,inform,"
+it's {letter}%18 for %alpha
+",,enum-spell,positive,,,
+28,193,A,frag,296.0,inform,"
+need to get a pen
+",constrain,,positive,,,
+28,195,A,frag,301.0,inform,"
+{letter}%18 as in %alpha
+",,enum-spell,positive,,,
+28,197,A,frag,303.0,inform,"
+{letter}%20 as in %alpha
+",,enum-spell,positive,,,
+28,199,A,frag,305.0,inform,"
+{letter}%15 as in %alpha
+",,enum-spell,positive,,,
+28,201,A,frag,307.0,inform,"
+9 6
+",,enum,positive,,,
+28,203,A,frag,309.0,inform,"
+3 ",partial,enum,positive,overlap,type,end
+28,205,A,frag,311.0,inform,"
+3
+",partial,enum,positive,,,
+28,207,A,frag,313.0,inform,"
+{letter}%9 as in %alpha
+",,enum-spell,positive,,,
+28,209,A,frag,315.0,inform,"
+and {letter}%15 as in %alpha tango
+",,enum-spell,positive,,,
+28,215,A,decl,322.0,inform,"
+and you just collect your tickets 20 minutes before departure time tomorrow ",,time-day-departure-journey,positive,overlap,type,start
+28,226,B,decl,335.0,inform,"
+she has to collect hers from Euston ",constrain,location-from,positive,overlap,type,start
+28,229,A,frag,342.0,inform,"
+you don't have to collect it again
+",constrain,,negative,,,
+29,23,A,decl,37.0,inform,"
+the last direct service i have from Euston to Wigan is the 18 25
+",,to-location-enum-from,positive,,,
+29,23,A,frag,38.0,inform,"
+arriving at 21 06
+",,time-arrival,positive,,,
+29,25,A,decl,50.0,inform,"
+the fare the cheapest fare that i'm checking for is 19 pounds Virgin value fare ",report-closure,fare-verify,positive,pause,,
+29,28,B,decl,61.0,inform,"
+because we need to get in London as soon as possible
+",reason-constrain,location,positive,,,
+29,31,A,decl,66.0,inform,"
+",exists,enum-from,positive,pause,length,2s
+29,31,A,frag,67.0,inform,"
+arriving at 8 30
+",,time-arrival,positive,,,
+29,43,A,decl,84.0,inform,"
+it's 19 pounds each for the Virgin value fare
+",,fare,positive,,,
+29,51,A,decl,95.0,inform,"
+the dates times and seat numbers are printed on the tickets ",,number-date-journey,positive,pause,,
+29,51,A,decl,96.0,inform,"
+you must stick to the dates and the times that you book
+",constrain,date,positive,,,
+29,53,A,decl,98.0,inform,"
+if you couldn't make your journey and wish to cancel
+",poss2-condition,cancel-preference-journey,positive,,,
+29,53,A,decl,99.0,inform,"
+if you cancel the Virgin value
+",condition,cancel,positive,,,
+29,53,A,decl,100.0,inform,"
+you must cancel by 6 o'clock the day before your outward travel ",constrain,cancel-time-day-journey,positive,backchannel,content,aha
+29,53,A,decl,101.0,inform,"
+it's a 50 percent refund less 5 pounds admin charge
+",,refund-fare,positive,,,
+29,55,A,decl,103.0,inform,"
+if you have to change any of the times of travel
+",condition-constrain,journey,positive,,,
+29,55,A,decl,104.0,inform,"
+it's by 6 o'clock the day before again subject to availability and 5 pounds charge
+",constrain,day-time-avail-fare,positive,,,
+29,66,B,frag,117.0,inform,"
+8 9 3
+",,enum,positive,,,
+29,68,B,frag,119.0,inform,"
+3 5 3
+",,enum,positive,,,
+29,75,A,decl,128.0,inform,"
+that's where the tickets will be posted out to
+",,journey,positive,,,
+29,77,A,decl,130.0,inform,"
+i need your long number across your swi... your credit card
+",constrain,number-creditcard,positive,,,
+29,80,B,frag,134.0,inform,"
+5 1 3 3
+",,enum,positive,,,
+29,82,B,frag,136.0,inform,"
+6 3 2 9
+",,enum,positive,,,
+29,84,B,frag,138.0,inform,"
+2 8 3 3
+",,enum,positive,,,
+29,86,B,frag,141.0,inform,"
+double 3 7 3
+",,enum,positive,,,
+29,88,B,frag,143.0,inform,"
+6 9 8
+",,enum,positive,,,
+29,93,A,decl,152.0,inform,"
+this is your reference number your tickets have been booked under
+",,booking-number-journey,positive,,,
+29,97,A,decl,157.0,inform,"
+it's {letter}%9 for %alpha {letter}%7 for %alpha
+",,enum-spell,positive,,,
+29,99,A,frag,159.0,inform,"
+{letter}%14 for %alpha {letter}%17 for %alpha
+",,enum-spell,positive,,,
+29,101,A,frag,161.0,inform,"
+{letter}%14 for %alpha {letter}%7 for %alpha 9 9
+",,enum-spell,positive,,,
+29,103,A,decl,164.0,inform,"
+the total amount debited is 38 pounds 
+",,,positive,,,
+29,103,A,decl,165.0,inform,"
+and your two tickets will be posted out first class to you this afternoon
+",,time-number-fare-booking-journey,positive,,,
+30,10,B,decl,17.0,inform,"
+i won't be returning
+",,return,negative,,,
+30,10,B,decl,18.0,inform,"
+i'm going up there this afternoon
+",reportIntent,time,positive,,,
+30,23,A,decl,37.0,inform,"
+the cheapest fare that's going to be available travelling tomorrow is what we call a walk on fare which is a saver single
+",,fare-day-avail-journey,positive,,,
+30,23,A,decl,38.0,inform,"
+and it's going to be 45 pounds 50
+",,fare,positive,,,
+30,24,B,decl,39.0,inform,"
+is it ah my wife was told it was 9 50
+",closed-constrain,enum,positive,,,
+30,25,A,decl,40.0,inform,"
+that's the Virgin value fare 
+",,,,,,
+30,25,A,decl,41.0,inform,"
+but unfortunately that has now being booked up for tomorrow
+",constrain-closure,day-avail-fare,positive,,,
+30,27,A,decl,43.0,inform,"
+it's no longer available
+",,avail,negative,,,
+31,6,B,decl,11.0,inform,"
+cos i mucked up the last one 
+",reason,number,positive,,,
+31,12,B,decl,23.0,inform,"
+oh i've just had a thought
+",opinion-constrain,,positive,,,
+32,7,A,decl,11.0,inform,"
+i need to arrange for you to collect your ticket from the train station
+",constrain,journey,positive,,,
+32,10,B,decl,14.0,inform,"
+i just want to find out about the cheap train you know
+",closure,preference-fare,positive,,,
+32,10,B,frag,15.0,inform,"
+the cheap cheap cheap fare ",,fare-to-location,positive,pause,,
+32,12,B,decl,18.0,inform,"
+yeah i do
+",,booking,positive,,,
+32,12,B,decl,19.0,inform,"
+i do want to book
+",,preference-booking,positive,,,
+32,12,B,decl,22.0,inform,"
+but what happen is that two ",open-constrain,number-journey,positive,pause,,
+32,12,B,decl,22.0,inform,"
+but what happen is that two ",open-constrain,number-journey,positive,pause,,
+32,14,B,decl,25.0,inform,"
+i'm just booking it for them
+",closure,booking,positive,,,
+32,15,A,decl,27.0,inform,"
+the credit card holder must be at the train station to collect and sign for the tickets
+",constrain-closure,time-creditcard-journey,positive,,,
+32,21,A,decl,36.0,inform,"
+the 19 pounds Virgin value fare is now fully booked up for tomorrow
+",,fare-day-avail,positive,,,
+32,23,A,decl,39.0,inform,"
+the next cheapest fare that i can offer you is the ",poss1,fare,positive,backchannel,content,unclear 3 syllables
+32,27,A,decl,46.0,inform,"
+",,fare,positive,pause,,
+32,27,A,decl,47.0,inform,"
+and the first train that i can actually get you booked on is on the ten thirty from Manchester Picadilly
+",poss1,location-from-number-booking,positive,,,
+32,29,A,frag,49.0,inform,"
+arriving at 13 hundred in London Euston
+",,location-time-arrival,positive,,,
+32,33,A,decl,55.0,inform,"
+",,fare-day-journey,positive,pause,,
+32,40,B,decl,67.0,inform,"
+they they do some cheap one as well
+",,number-fare,positive,,,
+32,41,A,decl,69.0,inform,"
+the ",,fare-day-journey,positive,overlap,type,end
+32,43,A,decl,71.0,inform,"
+the 30 pounds each ",,fare-day-journey,positive,backchannel,content,yes
+32,44,B,decl,75.0,inform,"
+i do ",opinion,,positive,pause,,
+32,45,A,decl,77.0,inform,"
+this ticket must be booked by 2'o clock today
+",constrain,day-time-booking-journey,positive,,,
+32,47,A,decl,79.0,inform,"
+and it is subject to availability
+",constrain,avail,positive,,,
+33,23,A,frag,29.0,inform,"
+that 7 o'clock train doesn't have ",,fare-time,positive,pause,,
+33,23,A,frag,29.0,inform,"
+that 7 o'clock train doesn't have ",,fare-time,positive,backchannel,content,right
+33,29,A,decl,37.0,inform,"
+you must stick to the outward train
+",constrain,,positive,,,
+33,29,A,decl,38.0,inform,"
+but if you re... miss the train on the return journey
+",condition,miss-fare-journey,positive,,,
+33,31,A,decl,40.0,inform,"
+you can get the next available ",poss2,number-avail,positive,overlap,type,start
+33,35,A,decl,50.0,inform,"
+but i have to book you on the one going ",constrain,number-booking,positive,overlap,type,start
+33,36,B,decl,56.0,inform,"
+coming back it's not so important
+",,,negative,,,
+33,41,A,frag,66.0,inform,"
+arriving in Liverpool Lime Street at 10 50
+",,location-time-arrival,positive,,,
+33,43,A,frag,70.0,inform,"
+just ",,booking,positive,pause,,
+33,43,A,frag,70.0,inform,"
+just ",,booking,positive,pause,,
+33,47,A,frag,75.0,inform,"
+remembering with that ticket ",,journey,positive,pause,,
+33,47,A,decl,76.0,inform,"
+if you miss that service
+",condition,miss,positive,,,
+33,47,A,decl,77.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+33,49,A,decl,82.0,inform,"
+if you have to cancel
+",condition-constrain,cancel,positive,,,
+33,49,A,decl,83.0,inform,"
+then it's a full refund less 5 pounds admin charge
+",,refund-fare,positive,,,
+33,56,B,decl,92.0,inform,"
+it's a company ",abandon,,positive,pause,,
+33,84,B,decl,131.0,inform,"
+erm it's the address is the next bit
+",,address,positive,,,
+33,103,A,frag,155.0,inform,"
+75 pounds will be debited ",,fare-booking,positive,backchannel,content,yeah
+33,105,A,decl,157.0,inform,"
+and this is the reference number the tickets have been booked under
+",,booking-number-journey,positive,,,
+33,107,A,decl,159.0,inform,"
+it's 1 7 1
+",,enum,positive,,,
+33,109,A,frag,161.0,inform,"
+{letter}%4 for %alpha {letter}%8 for %alpha
+",,enum-spell,positive,,,
+33,111,A,decl,163.0,inform,"
+the number 4
+",,number,positive,,,
+33,113,A,frag,165.0,inform,"
+{letter}%10 for %alpha the number 2
+",,enum-spell-number,positive,,,
+33,115,A,decl,167.0,inform,"
+and the ticket will be posted out in the first class post this afternoon ",,time-journey,positive,overlap,type,start
+34,8,B,decl,12.0,inform,"
+i'd like to travel actually return
+",intent-closure,preference-fare-journey,positive,,,
+34,9,A,decl,15.0,inform,"
+because you're travelling this Sunday
+",reason,day-journey,positive,,,
+34,14,B,decl,25.0,inform,"
+in the past when i've done this journey i think i i got a super advance or a super saver or something like that
+",deixis-opinion-alternative,fare-time-journey,positive,,,
+34,14,B,decl,26.0,inform,"
+i can't remember
+",poss1,,negative,,,
+34,19,A,decl,33.0,inform,"
+there's a train at 14 58 from Edinburgh
+",exists,time-from,positive,,,
+34,21,A,decl,35.0,inform,"
+you have to change at Wigan North Western ",constrain,time,positive,pause,,
+34,21,A,decl,36.0,inform,"
+and you arrive in Milton Keynes for 20 05
+",,arrival-location-time,positive,,,
+34,24,B,decl,40.0,inform,"
+again when i last did that i was i changed at Stafford
+",,time-location,positive,,,
+34,26,B,decl,50.0,inform,"
+if i miss that ",condition,miss,positive,pause,,
+34,26,B,decl,51.0,inform,"
+obviously cos there's there's your road m k... railway works and things
+",exists-reason,,positive,,,
+34,26,B,decl,52.0,inform,"
+i was a bit concerned that erm ",,number,positive,pause,,
+34,26,B,decl,53.0,inform,"
+i... if i miss that connection
+",condition,miss,positive,,,
+34,27,A,decl,57.0,inform,"
+unfortunately at that time the super advance is fully booked up ",deixis,time-avail-fare,positive,pause,,
+34,27,A,decl,58.0,inform,"
+i'm just checking throughout the day when that is available
+",intent,day-time-avail-verify,positive,,,
+34,29,A,frag,63.0,inform,"
+not on the super advance ticket
+",,fare-journey,negative,,,
+34,31,A,decl,66.0,inform,"
+unfortunately the super advance is now fully booked up the entire day
+",,day-avail-fare,positive,,,
+34,35,A,decl,76.0,inform,"
+if it's if you're not returning on a Friday
+",condition,,positive,,,
+34,35,A,decl,77.0,inform,"
+it's 61 pounds 50
+",,fare,positive,,,
+34,35,A,decl,78.0,inform,"
+if you're returning on a Friday
+",condition,day-return,positive,,,
+34,35,A,decl,79.0,inform,"
+it's si... 70 pounds 50 ",,fare,positive,pause,,
+34,35,A,decl,80.0,inform,"
+that's going to be the cheapest fare to you
+",,fare,positive,,,
+34,43,A,decl,92.0,inform,"
+if you return on a Friday
+",condition,day-fare,positive,,,
+34,43,A,decl,93.0,inform,"
+it's 70 pounds 50
+",,fare,positive,,,
+34,45,A,decl,95.0,inform,"
+and these are walk on tickets that we can keep it for you or you can buy at the train station before you board the train
+",poss2-alternative,time-journey,positive,,,
+34,47,A,decl,101.0,inform,"
+if you ",poss2-condition,time-preference,negative,pause,,
+34,47,A,decl,102.0,inform,"
+then you can do so
+",,time-preference,positive,,,
+34,52,B,decl,115.0,inform,"
+if i could have got a super advance or whatever it was
+",poss1-condition-alternative,fare,positive,,,
+34,55,A,decl,127.0,inform,"
+you can leave the return journey open
+",poss2,fare-departure-journey,positive,,,
+34,55,A,decl,129.0,inform,"
+you can return back within in a calendar month
+",poss2,fare,positive,,,
+35,2,B,decl,5.0,inform,"
+em i've just been in touch with the 0 3 4 5 1 2 1 9 6 2 number
+",,enum-number,positive,,,
+35,2,B,decl,6.0,inform,"
+and we've just established em two train times on the 19 pounds going through Rugby supersaver Virgin
+",,fare-location-number,positive,,,
+35,4,B,decl,10.0,inform,"
+and i've got all the times here and everything
+",,,positive,,,
+35,13,A,decl,23.0,inform,"
+if you're actually buying a return ticket
+",condition,fare-journey,positive,,,
+35,17,A,decl,28.0,inform,"
+you can't go from Euston to Macclesfield then Wilmslow to Euston
+",poss2,to-location-from,negative,,,
+35,19,A,decl,30.0,inform,"
+ what ",poss2-condition,fare,positive,overlap,type,end
+35,21,A,decl,32.0,inform,"
+which will enable you use that journey that way
+",,journey,positive,,,
+35,24,B,decl,37.0,inform,"
+cos i was quoted 19 pounds which is ",reason-report,fare,positive,overlap,type,start
+35,27,A,decl,41.0,inform,"
+the trains don't run at half past the hour on a Saturday
+",,time-day,negative,,,
+35,29,A,decl,43.0,inform,"
+it's 10 to the hour
+",,time,positive,,,
+35,29,A,decl,45.0,inform,"
+it's 10 50
+",,enum,positive,,,
+35,31,A,decl,47.0,inform,"
+and there's not any availability there for the Virgin value fare
+",exists,avail-fare,negative,,,
+35,34,B,frag,52.0,inform,"
+cos it it's anything that's that's possible at all at that day
+",reason,day,positive,,,
+35,41,A,decl,63.0,inform,"
+and that's 9 pounds 50
+",,fare,positive,,,
+35,49,A,decl,77.0,inform,"
+there's not any Virgin value fares
+",exists,fare,negative,,,
+35,55,A,decl,84.0,inform,"
+there's engineering works going on at the moment
+",exists,time,positive,,,
+35,55,A,decl,86.0,inform,"
+you need to get ",constrain,to-location-from,positive,pause,,
+35,55,A,decl,87.0,inform,"
+but there's not any allocation for the Virgin value fare
+",exists-constrain,fare,negative,,,
+35,58,B,decl,91.0,inform,"
+",condition-alternative-closure,to,positive,pause,length,3s
+35,61,A,decl,98.0,inform,"
+i'm just checking Sunday ",,day-verify,positive,overlap,type,start
+35,63,A,frag,101.0,inform,"
+on the Sunday ",deixis-exists,day-time-from,positive,backchannel,content,m
+35,65,A,decl,103.0,inform,"
+you arrive in Wilmslow for 16 25 ",,arrival-time,positive,pause,,
+35,65,A,decl,104.0,inform,"
+then it's a train from Wilmslow at 16 46
+",,time-from,positive,,,
+35,68,B,frag,108.0,inform,"
+",,,positive,pause,length,14s
+35,68,B,frag,108.0,inform,"
+",,,positive,event,type,tape_cuts_off
+35,68,B,frag,108.0,inform,"
+",,,positive,comment,content,laughs
+35,71,A,decl,114.0,inform,"
+the cheapest fare available is going to be the Apex at 26 pounds 50 return ",,fare-avail,positive,pause,,
+35,71,A,decl,117.0,inform,"
+it's a bus from Macclesfield to Wilmslow
+",,to-from,positive,,,
+35,71,A,frag,118.0,inform,"
+departing 15 55
+",,departure-time,positive,,,
+35,73,A,decl,120.0,inform,"
+then it's a train from Wilmslow at 16 46
+",,time-from,positive,,,
+35,75,A,frag,122.0,inform,"
+arriving in Euston at 19 13
+",,location-time-arrival,positive,,,
+35,77,A,decl,124.0,inform,"
+and that's going out on the Saturday the seventeenth at 13 50
+",,day-time,positive,,,
+35,79,A,decl,131.0,inform,"
+it's the 7 45 in the morning
+",,time,positive,,,
+35,79,A,decl,132.0,inform,"
+it's the best available
+",,avail,positive,,,
+35,81,A,decl,135.0,inform,"
+they've all now being booked up
+",,avail,positive,,,
+35,95,A,decl,155.0,inform,"
+that's for an extra 3 pounds 50 ",closure,fare,positive,overlap,type,start
+35,97,A,decl,158.0,inform,"
+and you'll be able to get the 10 50 going out on the ",,day-enum,positive,pause,,
+35,99,A,decl,160.0,inform,"
+and you arrive at 13 03 in Macclesfield
+",,time-arrival,positive,,,
+35,105,A,decl,168.0,inform,"
+and it's the 16 46 from Wilmslow to Euston ",,to-location-enum-from,positive,pause,,
+35,105,A,frag,169.0,inform,"
+arriving at 19 13
+",,time-arrival,positive,,,
+35,108,B,decl,177.0,inform,"
+cos that's who i'm going to go and stay with 6 em 2 6 5 5 6 8
+",intent-reason-report,enum,positive,,,
+35,108,B,frag,178.0,inform,"
+and then i can just ca...
+",poss1-abandon,,positive,,,
+35,108,B,frag,180.0,inform,"
+then it'll be great
+",,,positive,,,
+35,108,B,frag,181.0,inform,"
+then i can just ",poss1,,positive,overlap,type,start
+35,108,B,frag,181.0,inform,"
+then i can just ",poss1,,positive,unclear,length,3_syllables
+35,115,A,frag,196.0,inform,"
+if your sister calls you back and says that she doesn't want it
+",open-condition,preference,positive,,,
+35,115,A,decl,197.0,inform,"
+you get a full refund less 5 pounds ",closure,refund-fare,positive,backchannel,content,ok
+35,115,A,decl,198.0,inform,"
+if you cancel by 2 o'clock the day before the outward ",condition,cancel-time-day-journey,positive,pause,,
+35,117,A,decl,200.0,inform,"
+if it's after the 2 o'clock deadline
+",condition,time,positive,,,
+35,117,A,frag,201.0,inform,"
+but before departure time of the train
+",condition-constrain,departure-time,positive,,,
+35,117,A,decl,202.0,inform,"
+it's 50 per cent refund less 5 pounds
+",,refund-fare,positive,,,
+35,119,A,decl,204.0,inform,"
+and if you needed to change any of the times of travel ",condition-constrain,journey,positive,backchannel,content,yeah
+35,119,A,decl,205.0,inform,"
+you must do so by 2 o clock the day before again ",constrain,day-time-avail-fare,positive,backchannel,content,ok
+35,123,A,decl,211.0,inform,"
+i can get a window seat
+",poss1,,positive,,,
+35,123,A,decl,212.0,inform,"
+but it's backward travel at a table ",constrain,time-journey,positive,pause,,
+35,123,A,decl,213.0,inform,"
+but it is non smoking
+",constrain,seat,positive,,,
+35,125,A,decl,216.0,inform,"
+the train from Wilmslow from 15 46 is forward facing at the window non smoking
+",,seat-time-from,positive,,,
+35,127,A,decl,219.0,inform,"
+the total cost is 30 pounds return
+",,fare,positive,,,
+35,132,B,decl,227.0,inform,"
+i think this is her ",opinion,,positive,overlap,type,start
+35,134,B,frag,230.0,inform,"
+",partial,,positive,pause,length,2s
+35,151,A,decl,254.0,inform,"
+that's where the ticket will be posted out to
+",,journey,positive,,,
+35,158,B,decl,264.0,inform,"
+it is 8 o... 8 9 6 1
+",,enum,positive,,,
+35,160,B,frag,266.0,inform,"
+2 4 6 1
+",,enum,positive,,,
+35,162,B,frag,268.0,inform,"
+1 8
+",,enum,positive,,,
+35,164,B,frag,270.0,inform,"
+2 2 3 6
+",,enum,positive,,,
+35,166,B,frag,272.0,inform,"
+expiry 11 ",,enum-creditcard,positive,pause,,
+35,167,A,decl,274.0,inform,"
+this is your booking reference number that the ticket has been booked under
+",,booking-number-journey,positive,,,
+35,171,A,decl,278.0,inform,"
+it's {letter}%17 for %alpha {letter}%2 for %alpha
+",,enum-spell,positive,,,
+35,173,A,frag,280.0,inform,"
+{letter}%13 for %alpha {letter}%2 for %alpha
+",,enum-spell,positive,,,
+35,175,A,frag,282.0,inform,"
+9 1 5
+",,enum,positive,,,
+35,177,A,frag,284.0,inform,"
+{letter}%13 ",,enum-spell,positive,overlap,type,end
+35,179,A,decl,286.0,inform,"
+and the ticket will be posted out first class to you this afternoon ok Miss ",,time-name-journey,positive,overlap,type,start
+35,187,A,decl,307.0,inform,"
+you get in at 16 25
+",,time,positive,,,
+35,187,A,decl,309.0,inform,"
+there is 21 minutes for you t...
+",abandon-exists-abandon,time,positive,,,
+35,187,A,decl,310.0,inform,"
+the buses that we've put on is specifically for ",,,positive,pause,,
+35,189,A,decl,313.0,inform,"
+if there was any problems with connections then
+",condition,,positive,,,

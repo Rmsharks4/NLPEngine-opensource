@@ -1,0 +1,53 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+43,50,B,frag,102.0,hold,"
+just a moment ",hold-decl,,positive,punc,type,stop
+44,96,B,imp,197.0,hold,"
+hold on ",hold-decl,,positive,punc,type,stop
+46,67,A,decl,145.0,hold,"
+",hold-decl,booking,positive,pause,,
+46,67,A,decl,145.0,hold,"
+",hold-decl,booking,positive,punc,type,stop
+47,71,A,decl,126.0,hold,"
+i'm just checking availability on the return on Sunday ",hold-decl,fare-availability-verify-day,positive,punc,type,stop
+50,39,A,imp,82.0,hold,"
+just bear with me ",hold-decl,,positive,punc,type,stop
+50,56,B,imp,110.0,hold,"
+hold on a second ",hold-decl,,positive,punc,type,stop
+50,64,B,imp,120.0,hold,"
+hold on a second ",hold-decl,,positive,punc,type,stop
+51,40,B,imp,80.0,hold,"
+hold on ",hold-decl,,positive,punc,type,stop
+58,10,B,imp,20.0,hold,"
+hang on ",hold-decl,,positive,punc,type,stop
+58,64,B,decl,119.0,hold,"
+i'm just checking it now ",hold-decl,verify,positive,punc,type,stop
+58,85,A,decl,159.0,hold,"
+i'm just reserving your seat now ",hold-decl,,positive,punc,type,stop
+61,48,B,dm,114.0,hold,"
+",hold-decl,,positive,pause,,
+61,48,B,dm,114.0,hold,"
+",hold-decl,,positive,punc,type,stop
+61,50,B,dm,125.0,hold,"
+",hold-decl,,positive,pause,,
+61,50,B,dm,125.0,hold,"
+",hold-decl,,positive,punc,type,stop
+62,27,A,decl,58.0,hold,"
+i'm just checking for the Thursday on the return ",hold-decl,fare-verify-day,positive,backchannel,content,thank you
+62,27,A,decl,58.0,hold,"
+i'm just checking for the Thursday on the return ",hold-decl,fare-verify-day,positive,punc,type,stop
+67,14,B,decl,24.0,state,"
+so i'm just booking it for them ",hold-decl,booking,positive,punc,type,stop
+70,59,A,decl,102.0,hold,"
+i'm just checking Sunday ",hold-decl,verify-day,positive,overlap,type,start
+70,59,A,decl,102.0,hold,"
+i'm just checking Sunday ",hold-decl,verify-day,positive,punc,type,stop
+70,64,B,imp,115.0,hold,"
+hold the line ",hold-decl,,positive,punc,type,stop
+70,76,B,imp,137.0,hold,"
+",hold-decl,,positive,pause,,
+70,76,B,imp,137.0,hold,"
+",hold-decl,,positive,punc,type,stop
+70,128,B,imp,245.0,hold,"
+just hold the line ",hold-decl,,positive,punc,type,stop
+70,128,B,imp,247.0,hold,"
+hold on ",hold-decl,,positive,punc,type,stop

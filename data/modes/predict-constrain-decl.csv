@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+46,22,B,decl,49.0,predict,"
+",predict-constrain-decl,,positive,pause,length,3s
+46,22,B,decl,49.0,predict,"
+",predict-constrain-decl,,positive,punc,type,stop
+63,47,A,decl,117.0,predict,"
+but you'll be able to travel tomorrow at 10:38 from Stockport ",predict-constrain-decl,location-journey-time-from-enum-day,positive,punc,type,stop

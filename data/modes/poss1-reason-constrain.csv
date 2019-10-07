@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+22,54,B,decl,120.0,expressPossibility,"
+cos i mean i might have to end up booking the other people's tickets as well so
+",poss1-reason-constrain,booking-journey,positive,,,

@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+63,212,B,frag,369.0,elab-reqConfirm,"
+",decl,enum,positive,anonym,type,letter
+63,212,B,frag,369.0,elab-reqConfirm,"
+",decl,enum,positive,anonym,type,letter
+63,212,B,frag,369.0,elab-reqConfirm,"
+",decl,enum,positive,anonym,type,letter
+63,212,B,frag,369.0,elab-reqConfirm,"
+",decl,enum,positive,anonym,type,letter
+63,212,B,frag,369.0,elab-reqConfirm,"
+",decl,enum,positive,anonym,type,letter
+63,212,B,frag,369.0,elab-reqConfirm,"
+",decl,enum,positive,punc,type,stop

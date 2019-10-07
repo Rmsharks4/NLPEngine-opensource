@@ -1,0 +1,17 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,107,A,decl,167.0,stateConstraint,"
+you've got to stick to the dates and times that you've booked ",report-constrain-decl,booking-date,positive,punc,type,stop
+40,107,A,decl,167.0,stateConstraint,"
+you've got to stick to the dates and times that you've booked ",report-constrain-decl,booking-date,positive,punc,type,stop
+50,55,A,decl,108.0,direct-state,"
+i need the full credit card address ",report-constrain-decl,creditcard-address,positive,punc,type,stop
+50,73,A,decl,141.0,answer-stateConstraint,"
+we need the full credit card details address ",report-constrain-decl,creditcard-address,positive,punc,type,stop
+52,51,A,decl,92.0,stateConstraint,"
+and you must stick to the date and the time that you've booked with this kind of ticket ",report-constrain-decl,booking-journey-time-date,positive,punc,type,stop
+58,84,B,decl,157.0,elab-state,"
+but i don't mind ",report-constrain-decl,,negative,punc,type,stop
+61,41,A,decl,99.0,state,"
+but i've checked that out ",report-constrain-decl,verify,positive,punc,type,stop
+64,77,A,decl,144.0,reqConfirm,"
+i need your long number across your swi... your credit card ",report-constrain-decl,number-creditcard,positive,punc,type,stop

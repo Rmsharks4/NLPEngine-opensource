@@ -1,0 +1,31 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,38,B,frag,75.0,answer-state,"
+facing the way the train's going if possible ",condition-decl,seat,positive,punc,type,stop
+47,42,B,decl,71.0,stateCondition,"
+just as long as it's not on the Friday ",condition-decl,day,negative,punc,type,stop
+53,25,A,decl,68.0,state,"
+and it's what you'd always be charged as long as you're travelling at the appropriate times ",condition-decl,journey,positive,punc,type,stop
+53,101,A,decl,223.0,stateCondition,"
+if you collect the tickets 90 minutes before departure time at the train station ",condition-decl,time-journey-enum-departure,positive,punc,type,stop
+56,41,A,decl,79.0,direct-state,"
+if you be there for quarter of an hour before departure time of the train ",condition-decl,time-location-departure,positive,punc,type,stop
+63,2,B,decl,13.0,stateCondition,"
+",condition-decl,,positive,pause,,
+63,2,B,decl,13.0,stateCondition,"
+",condition-decl,,positive,punc,type,stop
+63,14,B,decl,37.0,elab-stateCondition,"
+if it is possible after ",condition-decl,time,positive,unclear,length,1 syllable
+63,14,B,decl,37.0,elab-stateCondition,"
+if it is possible after ",condition-decl,time,positive,punc,type,stop
+63,92,B,decl,195.0,direct-stateCondition,"
+if if i'm ",condition-decl,,positive,punc,type,stop
+70,86,B,decl,158.0,stateCondition,"
+if you see what i mean ",condition-decl,,positive,punc,type,stop
+70,113,A,decl,216.0,state,"
+you get a full refund less 5 pounds ",condition-decl,time-enum-fare-refund-journey-day-cancel,positive,backchannel,content,ok
+70,113,A,decl,216.0,state,"
+you get a full refund less 5 pounds ",condition-decl,time-enum-fare-refund-journey-day-cancel,positive,pause,,
+70,113,A,decl,216.0,state,"
+you get a full refund less 5 pounds ",condition-decl,time-enum-fare-refund-journey-day-cancel,positive,punc,type,stop
+70,153,A,decl,286.0,elab-stateCondition,"
+if you give me the number ",condition-decl,number,positive,punc,type,stop

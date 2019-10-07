@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+45,16,B,decl,30.0,expressNonAwareness,"
+i don't know the ",report-nonawareness-decl,time,negative,overlap,type,start
+45,16,B,decl,30.0,expressNonAwareness,"
+i don't know the ",report-nonawareness-decl,time,negative,punc,type,stop
+51,25,A,decl,48.0,expressNonAwareness-abandon,"
+i don't know what you ",report-nonawareness-decl,,negative,punc,type,stop
+57,38,B,decl,91.0,expressNonAwareness,"
+i don't know what to do ",report-nonawareness-decl,,negative,punc,type,stop

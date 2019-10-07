@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+42,27,A,dm,49.0,expressConviction,"
+of course
+",conviction,,,,,
+69,26,B,dm,65.0,expressConviction,"
+",conviction,,,pause,,

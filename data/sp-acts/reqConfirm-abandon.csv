@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,54,B,decl,132.0,reqConfirm-abandon,"
+i leave on the 9th 10:31 from Wigan arrive to Edinburgh a... ",interruption,to-location-from-enum-departure-arrival,positive,punc,type,incomplete
+44,104,B,decl,212.0,reqConfirm-abandon,"
+that was a 100 and 30... ",interruption,,positive,punc,type,incomplete
+51,49,A,q-wh,108.0,reqConfirm-abandon,"
+",exclaim-partial-interruption,,positive,pause,,
+51,49,A,q-wh,108.0,reqConfirm-abandon,"
+",exclaim-partial-interruption,,positive,punc,type,incomplete
+52,11,A,q-wh,19.0,reqConfirm-abandon,"
+and what ",interruption,,positive,punc,type,incomplete

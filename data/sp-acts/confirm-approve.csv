@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,86,B,decl,147.0,confirm-approve,"
+that's brilliant ",decl,,positive,punc,type,stop
+48,148,B,decl,235.0,confirm-approve,"
+that's lovely ",decl,,positive,punc,type,stop

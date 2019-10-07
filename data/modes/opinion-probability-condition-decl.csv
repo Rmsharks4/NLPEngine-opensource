@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,pause,,
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,pause,,
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,pause,,
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,punc,type,stop
+57,47,A,decl,110.0,answer-state,"
+it was the probably a twosome if it was two people ",opinion-probability-condition-decl,number,positive,punc,type,stop

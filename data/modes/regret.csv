@@ -1,0 +1,234 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,17,A,dm,22.0,expressRegret,"
+sorry
+",regret,,,,,
+8,34,B,dm,57.0,pardon,"
+sorry
+",regret,,,,,
+8,34,B,dm,59.0,pardon,"
+sorry
+",regret,,,,,
+8,59,A,dm,98.0,pardon,"
+sorry
+",regret,,,,,
+9,13,A,dm,26.0,pardon,"
+sorry
+",regret,,,,,
+9,44,B,dm,84.0,pardon,"
+sorry
+",regret,,,,,
+11,31,A,dm,55.0,expressRegret,"
+sorry
+",regret,,,,,
+11,35,A,dm,63.0,expressRegret,"
+sorry
+",regret,,,,,
+12,67,A,dm,103.0,expressRegret,"
+sorry
+",regret,,,,,
+12,67,A,dm,106.0,expressRegret,"
+sorry
+",regret,,,,,
+12,72,B,frag,115.0,expressRegret,"
+sorry about that
+",regret,,positive,,,
+12,78,B,frag,131.0,expressRegret,"
+sorry about this
+",regret,,positive,,,
+13,52,B,dm,79.0,expressRegret,"
+sorry
+",regret,,,,,
+13,120,B,dm,172.0,expressRegret,"
+sorry
+",regret,,,,,
+13,120,B,dm,174.0,expressRegret,"
+sorry
+",regret,,,,,
+15,4,B,dm,7.0,pardon,"
+sorry
+",regret,,,,,
+15,8,B,dm,13.0,expressRegret,"
+sorry
+",regret,,,,,
+15,16,B,dm,38.0,pardon,"
+sorry
+",regret,,,,,
+15,44,B,dm,86.0,pardon,"
+sorry
+",regret,,,,,
+16,10,B,dm,17.0,pardon,"
+sorry
+",regret,,,,,
+16,25,A,dm,42.0,pardon,"
+",regret,,,pause,length,4s
+16,75,A,dm,132.0,pardon,"
+sorry
+",regret,,,,,
+17,45,A,dm,66.0,pardon,"
+",regret,,,pause,,
+24,55,A,dm,101.0,expressRegret,"
+sorry ",regret,,,overlap,type,start
+28,139,A,dm,230.0,pardon,"
+sorry
+",regret,,,,,
+28,185,A,dm,284.0,expressRegret,"
+sorry
+",regret,,,,,
+31,12,B,decl,26.0,express-regret,"
+i'm sorry about that
+",regret,,positive,,,
+31,14,B,dm,28.0,expressRegret,"
+sorry about that
+",regret,,,,,
+31,16,B,dm,32.0,expressRegret,"
+sorry
+",regret,,,,,
+32,42,B,dm,70.0,pardon,"
+pardon
+",regret,,,,,
+33,58,B,decl,98.0,express-regret,"
+oh i'm sorry 
+",regret,details,positive,,,
+33,58,B,decl,100.0,express-regret,"
+i'm ",regret,,positive,overlap,type,start
+34,16,B,dm,28.0,pardon,"
+sorry
+",regret,,,,,
+34,28,B,dm,61.0,pardon,"
+sorry
+",regret,,,,,
+34,52,B,dm,114.0,expressRegret,"
+sorry
+",regret,,,,,
+35,37,A,dm,56.0,expressRegret,"
+sorry
+",regret,,,,,
+35,78,B,dm,128.0,expressRegret,"
+sorry
+",regret,,,,,
+35,132,B,dm,225.0,expressRegret,"
+sorry
+",regret,,,,,
+35,134,B,dm,232.0,expressRegret,"
+sorry
+",regret,,,,,
+36,17,A,dm,24.0,apologise,"
+sorry ",regret,,,punc,type,stop
+38,62,B,dm,92.0,pardon,"
+sorry ",regret,,,punc,type,stop
+40,62,B,dm,92.0,pardon,"
+sorry ",regret,,,punc,type,stop
+43,4,B,dm,8.0,pardon,"
+pardon ",regret,,,punc,type,query
+43,34,B,dm,67.0,pardon,"
+sorry ",regret,,,punc,type,stop
+43,34,B,dm,69.0,apologise,"
+sorry ",regret,,,punc,type,stop
+43,59,A,dm,120.0,pardon,"
+sorry ",regret,,,punc,type,stop
+44,13,A,dm,32.0,apologise,"
+",regret,,,pause,,
+44,42,B,dm,102.0,pardon,"
+sorry ",regret,,,punc,type,stop
+46,31,A,dm,68.0,apologise,"
+",regret,,,pause,length,18s
+46,35,A,dm,77.0,apologise,"
+",regret,,,pause,,
+46,35,A,dm,77.0,apologise,"
+",regret,,,punc,type,stop
+47,20,B,dm,34.0,pardon,"
+sorry ",regret,,,punc,type,stop
+47,56,B,dm,100.0,apologise,"
+",regret,,,overlap,type,start
+47,56,B,dm,100.0,apologise,"
+",regret,,,punc,type,stop
+47,58,B,dm,103.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,65,A,dm,113.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,65,A,dm,115.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,70,B,dm,124.0,apologise,"
+",regret,,,pause,length,7s
+47,70,B,dm,124.0,apologise,"
+",regret,,,punc,type,stop
+48,52,B,dm,87.0,apologise,"
+",regret,,,pause,,
+48,52,B,dm,87.0,apologise,"
+",regret,,,punc,type,stop
+48,75,A,dm,125.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,87,A,dm,150.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,120,B,dm,192.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,120,B,dm,194.0,apologise,"
+sorry ",regret,,,punc,type,stop
+50,4,B,dm,9.0,pardon,"
+sorry ",regret,,,punc,type,stop
+50,8,B,dm,15.0,pardon,"
+sorry ",regret,,,punc,type,query
+50,16,B,dm,40.0,pardon,"
+sorry ",regret,,,punc,type,query
+50,42,B,dm,87.0,pardon,"
+sorry ",regret,,,punc,type,query
+51,10,B,dm,20.0,pardon,"
+sorry ",regret,,,punc,type,query
+51,25,A,dm,47.0,apologise,"
+",regret,,,pause,length,4s
+51,25,A,dm,47.0,apologise,"
+",regret,,,punc,type,query
+51,75,A,dm,150.0,pardon,"
+sorry ",regret,,,punc,type,query
+52,45,A,dm,77.0,pardon,"
+",regret,,,pause,,
+52,45,A,dm,77.0,pardon,"
+",regret,,,punc,type,query
+57,23,A,dm,48.0,apologise,"
+sorry ",regret,,,punc,type,stop
+57,33,A,dm,74.0,apologise,"
+sorry ",regret,,,punc,type,stop
+59,49,A,dm,107.0,apologise,"
+sorry ",regret,,,punct,type,stop
+59,55,A,dm,128.0,apologise,"
+sorry ",regret,,,punc,type,stop
+63,52,B,dm,124.0,pardon,"
+",regret,,,pause,,
+63,52,B,dm,124.0,pardon,"
+",regret,,,punc,type,stop
+63,139,A,dm,273.0,pardon,"
+sorry ",regret,,,punc,type,stop
+63,140,B,dm,274.0,pardon,"
+pardon ",regret,,,punc,type,query
+63,164,B,dm,304.0,pardon,"
+pardon ",regret,,,punc,type,query
+63,185,A,dm,334.0,apologise,"
+",regret,,,pause,,
+63,185,A,dm,334.0,apologise,"
+",regret,,,punc,type,stop
+64,12,B,dm,22.0,pardon,"
+sorry ",regret,,,punc,type,stop
+66,14,B,dm,33.0,apologise,"
+sorry about that ",regret,,,punc,type,stop
+66,16,B,dm,37.0,apologise,"
+",regret,,,overlap,type,start
+66,16,B,dm,37.0,apologise,"
+",regret,,,punc,type,stop
+67,42,B,dm,70.0,pardon,"
+pardon ",regret,,,punc,type,query
+69,16,B,dm,37.0,pardon,"
+sorry ",regret,,,punc,type,query
+69,28,B,dm,76.0,pardon,"
+sorry ",regret,,,punc,type,stop
+69,52,B,dm,132.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,35,A,dm,58.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,61,A,dm,108.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,76,B,dm,138.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,128,B,dm,244.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,130,B,dm,252.0,apologise,"
+sorry ",regret,,,punc,type,stop

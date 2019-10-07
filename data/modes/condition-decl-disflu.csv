@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,64,B,decl,112.0,state,"
+it ",condition-decl-disflu,,positive,overlap,type,end
+47,64,B,decl,112.0,state,"
+it ",condition-decl-disflu,,positive,punc,type,stop
+47,95,A,decl,190.0,stateCondition,"
+if it if the system lets me book it ",condition-decl-disflu,booking,positive,punc,type,stop

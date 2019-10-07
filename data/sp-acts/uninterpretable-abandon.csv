@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+61,24,B,frag,49.0,uninterpretable-abandon,"
+",abandon-decl,,positive,unclear,length,7 syllables
+61,24,B,frag,49.0,uninterpretable-abandon,"
+",abandon-decl,,positive,pause,,
+61,24,B,frag,49.0,uninterpretable-abandon,"
+",abandon-decl,,positive,punc,type,stop

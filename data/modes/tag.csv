@@ -1,0 +1,443 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,39,A,dm,76.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+36,40,B,dm,80.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+36,80,B,dm,139.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+37,26,B,dm,44.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+37,37,A,dm,62.0,acknowledge,"
+ok then
+",tag,,,,,
+38,44,B,dm,65.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+38,98,B,dm,144.0,init,"
+ok
+",tag,,,,,
+38,115,A,decl,188.0,predict,"
+and your two sets of tickets will be waiting there
+",tag,number-location-journey,positive,,,
+38,118,B,dm,194.0,acknowledge,"
+ok
+",tag,,,,,
+39,18,B,dm,41.0,acknowledge,"
+alright
+",tag,,,,,
+39,39,A,dm,86.0,confirm-acknowledge,"
+that's correct ",tag,,,punc,type,stop
+39,44,B,dm,99.0,acknowledge,"
+",tag,,,pause,,
+39,58,B,dm,140.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+39,66,B,dm,169.0,acknowledge,"
+ok
+",tag,,,,,
+39,84,B,dm,193.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+39,106,B,dm,220.0,acknowledge,"
+ok
+",tag,,,,,
+39,111,A,dm,226.0,agree,"
+that's correct ",tag,,,punc,type,stop
+39,112,B,dm,229.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+40,44,B,dm,65.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+40,98,B,dm,144.0,init,"
+ok
+",tag,,,,,
+40,115,A,frag,188.0,reqConfirm,"
+and your two sets of tickets will be waiting there 
+",tag,number-location-journey,positive,,,
+40,118,B,dm,193.0,acknowledge,"
+ok
+",tag,,,,,
+41,20,B,dm,32.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+41,24,B,dm,37.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+41,89,A,dm,129.0,agree,"
+that's correct ",tag,,,punc,type,stop
+41,90,B,dm,132.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+43,26,B,dm,51.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+43,36,B,dm,76.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+43,85,A,dm,166.0,agree,"
+that's correct
+",tag,,,,,
+44,5,A,dm,13.0,acknowledge,"
+ok now ",tag,,,punct,type,level
+44,19,A,dm,48.0,reqConfirm,"
+",tag,,,overlap,type,start
+44,19,A,dm,48.0,reqConfirm,"
+",tag,,,punc,type,query
+44,20,B,dm,50.0,acknowledge,"
+",tag,,,overlap,type,end
+44,20,B,dm,50.0,acknowledge,"
+",tag,,,punc,type,stop
+44,27,A,dm,66.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,32,B,dm,79.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,40,B,dm,96.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,52,B,dm,122.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,71,A,dm,154.0,acknowledge,"
+ok ",tag,,,punct,type,stop
+44,96,B,dm,199.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,102,B,dm,206.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,104,B,dm,211.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,106,B,dm,214.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+45,30,B,dm,58.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+45,32,B,dm,62.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,18,B,frag,35.0,exclaim,"
+oh
+",tag,,positive,,,
+46,20,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,22,B,dm,51.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,36,B,dm,83.0,acknowledge,"
+",tag,,,pause,,
+46,36,B,dm,83.0,acknowledge,"
+",tag,,,punc,type,stop
+46,38,B,dm,88.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,51,A,dm,115.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+46,52,B,dm,117.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,68,B,dm,158.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,70,B,dm,160.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,71,A,dm,162.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,72,B,dm,163.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,92,B,dm,187.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,96,B,dm,191.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+47,26,B,dm,43.0,acknowledge,"
+",tag,,,pause,,
+47,26,B,dm,43.0,acknowledge,"
+",tag,,,punc,type,stop
+47,44,B,dm,75.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,46,B,dm,81.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,74,B,dm,133.0,acknowledge,"
+ok
+",tag,,,,,
+47,82,B,dm,150.0,acknowledge,"
+ok ",tag,,,punc,type,level
+47,96,B,dm,194.0,acknowledge,"
+ok ",tag,,,punc,type,level
+47,112,B,dm,228.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,118,B,dm,237.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,122,B,dm,248.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,125,A,dm,253.0,acknowledge,"
+",tag,,,pause,length,4s
+47,125,A,dm,253.0,acknowledge,"
+",tag,,,punc,type,stop
+48,19,A,dm,31.0,acknowledge,"
+",tag,,,pause,,
+48,19,A,dm,31.0,acknowledge,"
+",tag,,,punct,type,level
+48,80,B,dm,136.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+48,148,B,dm,236.0,acknowledge,"
+",tag,,,overlap,type,end
+48,148,B,dm,236.0,acknowledge,"
+",tag,,,punc,type,stop
+49,36,B,dm,71.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,42,B,dm,81.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,51,A,dm,98.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,92,B,dm,178.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,94,B,dm,182.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,117,A,dm,211.0,acknowledge,"
+",tag,,,pause,length,6s
+49,117,A,dm,211.0,acknowledge,"
+",tag,,,punc,type,stop
+49,134,B,dm,243.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+50,7,A,dm,13.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+50,14,B,dm,36.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+50,40,B,dm,83.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+51,7,A,dm,15.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+51,22,B,dm,38.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+51,50,B,dm,110.0,acknowledge,"
+",tag,,,overlap,type,start
+51,50,B,dm,110.0,acknowledge,"
+",tag,,,punc,type,stop
+51,85,A,dm,162.0,acknowledge,"
+",tag,,,pause,length,2s
+51,85,A,dm,162.0,acknowledge,"
+",tag,,,punc,type,stop
+51,113,A,dm,201.0,acknowledge,"
+ok now ",tag,,,punc,type,query
+51,118,B,dm,209.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+52,30,B,dm,47.0,acknowledge,"
+ok ",tag,,,pause,,
+52,30,B,dm,47.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+52,34,B,dm,56.0,acknowledge,"
+ok ",tag,,,pause,,
+52,34,B,dm,56.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+53,37,A,dm,103.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+53,42,B,dm,119.0,acknowledge,"
+",tag,,,overlap,type,start
+53,42,B,dm,119.0,acknowledge,"
+",tag,,,punc,type,stop
+53,60,B,dm,161.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+53,82,B,dm,197.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+53,109,A,dm,239.0,acknowledge,"
+ok now ",tag,,,punc,type,level
+53,122,B,dm,264.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,16,B,dm,25.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+54,22,B,dm,35.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,28,B,dm,46.0,acknowledge,"
+",tag,,,pause,,
+54,28,B,dm,46.0,acknowledge,"
+",tag,,,punc,type,stop
+54,35,A,dm,61.0,acknowledge,"
+ok now ",tag,,,punct,type,level
+54,36,B,dm,69.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,62,B,dm,100.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,64,B,dm,102.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,82,B,dm,127.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,83,A,dm,131.0,agree,"
+that's correct ",tag,,,punc,type,stop
+54,84,B,dm,134.0,acknowledge,"
+",tag,,,overlap,type,end
+54,84,B,dm,134.0,acknowledge,"
+",tag,,,punc,type,stop
+55,27,A,dm,64.0,acknowledge,"
+ok then ",tag,,,punc,type,level
+56,12,B,dm,22.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,20,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,26,B,dm,53.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,35,A,dm,68.0,acknowledge,"
+",tag,,,pause,length,3s
+56,35,A,dm,68.0,acknowledge,"
+",tag,,,punc,type,stop
+56,38,B,dm,76.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,76,B,dm,127.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,78,B,dm,129.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,86,B,dm,138.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,88,B,dm,143.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+57,16,B,dm,27.0,acknowledge,"
+",tag,,,pause,,
+57,16,B,dm,27.0,acknowledge,"
+",tag,,,punc,type,stop
+57,40,B,dm,100.0,acknowledge,"
+",tag,,,overlap,type,start
+57,40,B,dm,100.0,acknowledge,"
+",tag,,,punc,type,stop
+57,52,B,dm,119.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+57,58,B,dm,140.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+57,59,A,dm,142.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+57,60,B,dm,143.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+58,40,B,dm,75.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+58,85,A,dm,158.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+58,93,A,dm,188.0,agree,"
+that's correct ",tag,,,punc,type,stop
+58,100,B,dm,204.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+59,29,A,dm,60.0,acknowledge,"
+",tag,,,pause,length,7s
+59,29,A,dm,60.0,acknowledge,"
+",tag,,,punc,type,stop
+59,38,B,dm,81.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+59,52,B,dm,122.0,acknowledge,"
+",tag,,,pause,,
+59,52,B,dm,122.0,acknowledge,"
+",tag,,,punc,type,stop
+59,92,B,dm,198.0,confirm-acknowledge,"
+ok then ",tag,,,punc,type,stop
+60,22,B,dm,34.0,accept,"
+ok ",tag,,,punc,type,stop
+60,26,B,dm,45.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+60,27,A,dm,48.0,acknowledge,"
+",tag,,,pause,,
+60,27,A,dm,48.0,acknowledge,"
+",tag,,,punc,type,stop
+60,34,B,dm,63.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+60,40,B,dm,75.0,acknowledge,"
+",tag,,,pause,,
+60,40,B,dm,75.0,acknowledge,"
+",tag,,,punc,type,stop
+60,45,A,dm,90.0,confirm-acknowledge,"
+ok now ",tag,,,punc,type,query
+60,46,B,dm,91.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+61,19,A,dm,34.0,acknowledge,"
+",tag,,,pause,length,3s
+61,19,A,dm,34.0,acknowledge,"
+",tag,,,punc,type,stop
+62,33,A,dm,81.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+63,13,A,dm,33.0,acknowledge,"
+ok now ",tag,,,punct,type,level
+63,58,B,dm,132.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+63,85,A,dm,184.0,acknowledge,"
+",tag,,,pause,,
+63,85,A,dm,184.0,acknowledge,"
+",tag,,,punc,type,stop
+63,97,A,dm,208.0,acknowledge,"
+ok ",tag,,,backchannel,content,yes
+63,97,A,dm,208.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+63,213,A,dm,370.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+64,17,A,dm,31.0,acknowledge,"
+",tag,,,pause,,
+64,17,A,dm,31.0,acknowledge,"
+",tag,,,punct,type,level
+64,21,A,dm,38.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,22,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,35,A,dm,80.0,stateOpt-acknowledge,"
+ok ",tag,,,punc,type,stop
+64,44,B,dm,93.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,50,B,dm,103.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,52,B,dm,107.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,54,B,dm,112.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,76,B,dm,143.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,94,B,dm,167.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+65,29,A,dm,54.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+65,30,B,dm,56.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+65,31,A,dm,59.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+66,13,A,dm,31.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+66,16,B,dm,35.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+67,45,A,dm,77.0,acknowledge,"
+ok
+",tag,,,,,
+68,50,B,dm,97.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+68,104,B,dm,178.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+68,106,B,dm,180.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+68,114,B,dm,189.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+68,116,B,dm,194.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,10,B,dm,19.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,18,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,24,B,dm,49.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,44,B,dm,111.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,52,B,dm,129.0,acknowledge,"
+",tag,,,pause,,
+69,52,B,dm,129.0,acknowledge,"
+",tag,,,punc,type,stop
+69,54,B,dm,137.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,56,B,dm,149.0,acknowledge,"
+",tag,,,pause,,
+69,56,B,dm,149.0,acknowledge,"
+",tag,,,punc,type,stop
+69,57,A,dm,157.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+69,58,B,dm,159.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,18,B,dm,32.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,20,B,dm,34.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,34,B,dm,57.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,36,B,dm,61.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,37,A,dm,65.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+70,40,B,dm,70.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,74,B,dm,133.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,96,B,dm,176.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,100,B,dm,181.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,116,B,dm,221.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,124,B,dm,238.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,129,A,dm,248.0,acknowledge,"
+ok ",tag,,,overlap,type,end
+70,129,A,dm,248.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,131,A,dm,254.0,confirm-acknowledge,"
+ok then ",tag,,,punc,type,stop
+70,184,B,dm,340.0,acknowledge,"
+ok ",tag,,,punc,type,stop

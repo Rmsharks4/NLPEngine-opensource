@@ -1,0 +1,326 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,decl,50.0,state,"
+but you reduce that slightly ",constrain-decl,fare,positive,punc,type,stop
+36,31,A,decl,62.0,state,"
+but it's classed as two ",constrain-decl,fare-number,positive,overlap,type,start
+36,31,A,decl,62.0,state,"
+but it's classed as two ",constrain-decl,fare-number,positive,punc,type,stop
+36,45,A,decl,93.0,stateConstraint,"
+you must stick to the date and time that you book ",constrain-decl,booking-time-date,positive,backchannel,content,right
+36,45,A,decl,93.0,stateConstraint,"
+you must stick to the date and time that you book ",constrain-decl,booking-time-date,positive,punc,type,stop
+36,45,A,decl,96.0,state,"
+and it's subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+37,31,A,decl,52.0,stateConstraint,"
+you'd need to travel out an hour later on Saturday and come back on the 19:59 train in the evening on Monday ",constrain-decl,time-day-journey-enum,positive,punc,type,stop
+38,51,A,decl,77.0,direct-state,"
+and you need to take your credit card with you ",constrain-decl,creditcard,positive,punc,type,stop
+38,105,A,decl,162.0,state,"
+but it is non-smoking ",constrain-decl,seat,positive,punc,type,stop
+38,107,A,decl,172.0,stateConstraint,"
+you must do so by 2 o'clock the day before again ",constrain-decl,time-enum-day,positive,punc,type,stop
+38,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,backchannel,content,yes
+38,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+39,15,A,decl,36.0,stateConstraint,"
+you have to change at Wigan Northwestern anyway ",constrain-decl,time-arrival,positive,backchannel,content,right
+39,15,A,decl,36.0,stateConstraint,"
+you have to change at Wigan Northwestern anyway ",constrain-decl,time-arrival,positive,punc,type,stop
+39,63,A,decl,157.0,stateConstraint,"
+",constrain-decl,booking-date,positive,pause,,
+39,63,A,decl,157.0,stateConstraint,"
+",constrain-decl,booking-date,positive,punc,type,stop
+39,63,A,decl,159.0,stateConstraint,"
+",constrain-decl,time-journey-enum-day-cancel,positive,pause,,
+39,63,A,decl,159.0,stateConstraint,"
+",constrain-decl,time-journey-enum-day-cancel,positive,punc,type,stop
+39,65,A,frag,167.0,refer,"
+again subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+40,51,A,decl,77.0,direct-state,"
+and you need to take your credit card with you ",constrain-decl,creditcard,positive,punc,type,stop
+40,105,A,decl,162.0,state,"
+but it is non-smoking ",constrain-decl,seat,positive,punc,type,stop
+40,107,A,decl,172.0,stateConstraint,"
+you must do so by 2 o'clock the day before again ",constrain-decl,time-enum-day,positive,punc,type,stop
+40,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,backchannel,content,yes
+40,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+41,17,A,decl,26.0,state,"
+all the tickets on the 14:19 for advance purchase have now been booked up ",constrain-decl,fare-availability-journey-enum,positive,punc,type,stop
+42,11,A,decl,25.0,state,"
+but it's a different name ",constrain-decl,name,positive,punc,type,stop
+43,25,A,decl,49.0,stateConstraint,"
+you must travel out on the time specified ",constrain-decl,journey-time,positive,punc,type,stop
+43,81,A,decl,158.0,direct-state,"
+you need to take your credit card with you as well ",constrain-decl,creditcard,positive,backchannel,content,yes
+43,81,A,decl,158.0,direct-state,"
+you need to take your credit card with you as well ",constrain-decl,creditcard,positive,punc,type,stop
+44,23,A,decl,58.0,state,"
+",constrain-decl,,positive,pause,,
+44,23,A,decl,58.0,state,"
+",constrain-decl,,positive,punc,type,stop
+44,29,A,decl,74.0,stateConstraint,"
+they've not actually got the appropriate ticket on their booking system ",constrain-decl,booking-journey,negative,punc,type,stop
+44,31,A,decl,78.0,direct-state,"
+you just need to be at the train station for about half an hour before departure time of the train ",constrain-decl,time-journey-departure,positive,backchannel,content,ok
+44,31,A,decl,78.0,direct-state,"
+you just need to be at the train station for about half an hour before departure time of the train ",constrain-decl,time-journey-departure,positive,punc,type,stop
+44,39,A,decl,95.0,state,"
+but just it's a complete new booking ",constrain-decl,booking,positive,punc,type,stop
+44,95,A,decl,194.0,direct-state,"
+and you just need to quote this reference number ",constrain-decl,booking-number,positive,punc,type,stop
+45,35,A,decl,69.0,stateConstraint,"
+you would need to get the 16:31 ",constrain-decl,,positive,punc,type,stop
+46,31,A,decl,70.0,stateConstraint,"
+",constrain-decl,availability-number,positive,pause,,
+46,31,A,decl,70.0,stateConstraint,"
+",constrain-decl,availability-number,positive,punc,type,stop
+46,45,A,decl,102.0,stateConstraint,"
+you must do so by 6 o'clock the day before ",constrain-decl,time-enum-day,positive,punc,type,stop
+46,45,A,frag,103.0,refer,"
+again subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+46,67,A,decl,154.0,state,"
+but the journey might be rerouted
+",constrain-decl,journey,positive,,,
+46,67,A,decl,156.0,expressOpinion,"
+but it's supposed to be starting ",constrain-decl,location-from,positive,pause,,
+46,67,A,decl,156.0,expressOpinion,"
+but it's supposed to be starting ",constrain-decl,location-from,positive,punc,type,stop
+46,85,A,decl,179.0,direct-state,"
+you need to take your credit card with you ",constrain-decl,creditcard,positive,punc,type,stop
+46,85,A,decl,180.0,direct-state,"
+and you need to quote this reference number ",constrain-decl,booking-number,positive,punc,type,stop
+47,21,A,decl,38.0,stateConstraint,"
+",constrain-decl,availability-number,positive,pause,length,3s
+47,21,A,decl,38.0,stateConstraint,"
+",constrain-decl,availability-number,positive,punc,type,stop
+47,43,A,decl,74.0,elab-stateConstraint,"
+",constrain-decl,fare,positive,pause,,
+47,43,A,decl,74.0,elab-stateConstraint,"
+",constrain-decl,fare,positive,unclear,length,8 syllables
+47,43,A,decl,74.0,elab-stateConstraint,"
+",constrain-decl,fare,positive,punc,type,stop
+47,45,A,decl,79.0,elab-stateConstraint,"
+and you've got to stick to that ",constrain-decl,,positive,punc,type,stop
+47,73,A,decl,130.0,stateConstraint,"
+what you're going to have to do ",constrain-decl,to-location-from,positive,pause,,
+47,73,A,decl,130.0,stateConstraint,"
+what you're going to have to do ",constrain-decl,to-location-from,positive,punc,type,stop
+47,89,A,decl,170.0,stateConstraint,"
+you're going to have to get the Saver Return which is 30 pounds ",constrain-decl,fare-enum-railcard,positive,pause,,
+47,89,A,decl,170.0,stateConstraint,"
+you're going to have to get the Saver Return which is 30 pounds ",constrain-decl,fare-enum-railcard,positive,punc,type,stop
+48,69,A,decl,117.0,stateConstraint,"
+you must cancel by 6 o'clock the day before travel ",constrain-decl,time-journey-enum-day-cancel,positive,punc,type,stop
+48,73,A,decl,122.0,stateConstraint,"
+you must do so by ",constrain-decl,time-journey-enum-day,positive,pause,,
+48,73,A,decl,122.0,stateConstraint,"
+you must do so by ",constrain-decl,time-journey-enum-day,positive,punc,type,stop
+48,75,A,frag,127.0,refer,"
+subject to availability ",constrain-decl,availability,positive,punc,type,stop
+49,31,A,decl,61.0,reqConfirm,"
+so ",constrain-decl,fare,positive,overlap,type,end
+49,31,A,decl,61.0,reqConfirm,"
+so ",constrain-decl,fare,positive,punc,type,stop
+49,52,B,decl,99.0,state,"
+but i'm not really fussy ",constrain-decl,,negative,punc,type,stop
+49,93,A,decl,180.0,stateConstraint,"
+and it must be on the company headed paper ",constrain-decl,,positive,punc,type,stop
+50,61,A,decl,116.0,stateConstraint,"
+but we do need the credit card address details ",constrain-decl,creditcard-address,positive,punc,type,stop
+51,27,A,decl,54.0,stateConstraint,"
+you've got to book beforehand ",constrain-decl,booking-time,positive,punc,type,stop
+51,27,A,decl,55.0,stateConstraint,"
+but that's only available in the dates and times ",constrain-decl,availability-date,positive,punc,type,stop
+51,117,A,decl,208.0,elab-state,"
+but it's also printed on the tickets as well ",constrain-decl,journey,positive,punc,type,stop
+52,29,A,decl,46.0,stateConstraint,"
+but you've got to stick to the date and time that you book ",constrain-decl,booking-time-date,positive,punc,type,stop
+53,21,A,decl,53.0,elab-stateConstraint,"
+you need to buy it at the booking office before your board the train ",constrain-decl,booking-time,positive,punc,type,stop
+53,25,A,decl,67.0,state,"
+",constrain-decl,fare,positive,pause,,
+53,25,A,decl,67.0,state,"
+",constrain-decl,fare,positive,punc,type,stop
+53,36,B,decl,102.0,stateConstraint,"
+but it won't be earlier than that ",constrain-decl,time,negative,punc,type,stop
+53,51,A,decl,135.0,expressOpinion,"
+",constrain-decl,booking,positive,pause,,
+53,51,A,decl,135.0,expressOpinion,"
+",constrain-decl,booking,positive,punc,type,stop
+53,51,A,decl,136.0,expressOpinion,"
+",constrain-decl,,positive,pause,,
+53,51,A,decl,136.0,expressOpinion,"
+",constrain-decl,,positive,punc,type,stop
+53,53,A,decl,138.0,stateConstraint,"
+so the only seats are left are in smoking ",constrain-decl,seat,positive,punc,type,stop
+53,101,A,decl,229.0,direct-state,"
+you'll need to quote this reference number ",constrain-decl,booking-number,positive,punc,type,stop
+54,25,A,decl,41.0,stateConstraint,"
+but that 9:05 is booked up on the outward service ",constrain-decl,availability-enum,positive,punc,type,stop
+54,35,A,decl,64.0,stateConstraint,"
+you must cancel by 6 o'clock the day before travel ",constrain-decl,time-journey-enum-day-cancel,positive,punc,type,stop
+54,35,A,decl,67.0,stateConstraint,"
+you must do so by 6 o'clock the day before ",constrain-decl,time-enum-day,positive,punc,type,stop
+54,35,A,frag,68.0,refer,"
+again subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+55,23,A,decl,58.0,stateConstraint,"
+and you must book that by 6 o'clock the day before travel ",constrain-decl,time-booking-journey-enum-day,positive,punc,type,stop
+56,35,A,decl,73.0,stateConstraint,"
+you must stick to the date and time that you book ",constrain-decl,booking-time-date,positive,punc,type,stop
+57,39,A,decl,98.0,stateConstraint,"
+you must book by 2 o'clock the day before travel ",constrain-decl,time-booking-journey-enum-day,positive,punc,type,stop
+57,41,A,decl,101.0,state,"
+and ",constrain-decl,availability,positive,overlap,type,end
+57,41,A,decl,101.0,state,"
+and ",constrain-decl,availability,positive,punc,type,stop
+57,43,A,frag,103.0,uninterpretable,"
+but ",constrain-decl,,positive,overlap,type,start
+57,43,A,frag,103.0,uninterpretable,"
+but ",constrain-decl,,positive,unclear,length,3_syllables
+57,43,A,frag,103.0,uninterpretable,"
+but ",constrain-decl,,positive,punc,type,stop
+57,57,A,decl,135.0,stateConstraint,"
+that ticket's fully booked up as well ",constrain-decl,availability-journey,positive,punc,type,stop
+58,37,A,decl,70.0,answer-stateConstraint,"
+",constrain-decl,fare-availability-journey-time,positive,pause,,
+58,37,A,decl,70.0,answer-stateConstraint,"
+",constrain-decl,fare-availability-journey-time,positive,punc,type,stop
+58,38,B,decl,73.0,stateConstraint,"
+i've got ",constrain-decl,,positive,overlap,type,end
+58,38,B,decl,73.0,stateConstraint,"
+i've got ",constrain-decl,,positive,punc,type,stop
+58,47,A,decl,91.0,direct-state,"
+and you need to take your credit card with you ",constrain-decl,creditcard,positive,punc,type,stop
+58,87,A,decl,181.0,direct-state,"
+",constrain-decl,booking-number,positive,pause,,
+58,87,A,decl,181.0,direct-state,"
+",constrain-decl,booking-number,positive,punc,type,stop
+58,93,A,decl,189.0,state,"
+and you need to take your credit card with you ",constrain-decl,creditcard,positive,punc,type,stop
+59,49,A,decl,115.0,state,"
+it's actually booking me in non-smoking ",constrain-decl,booking-seat,positive,punc,type,stop
+59,57,A,decl,137.0,expressOpinion,"
+",constrain-decl,availability-seat,positive,pause,,
+59,57,A,decl,137.0,expressOpinion,"
+",constrain-decl,availability-seat,positive,pause,,
+59,57,A,decl,137.0,expressOpinion,"
+",constrain-decl,availability-seat,positive,punc,type,stop
+59,81,A,decl,179.0,direct-state,"
+you need to take your credit card with you ",constrain-decl,creditcard,positive,punc,type,stop
+59,83,A,decl,182.0,direct-state,"
+",constrain-decl,booking-number-creditcard,positive,pause,,
+59,83,A,decl,182.0,direct-state,"
+",constrain-decl,booking-number-creditcard,positive,punc,type,stop
+60,23,A,decl,37.0,stateConstraint,"
+you must go out on the 7:55 in the morning ",constrain-decl,time-enum,positive,punc,type,stop
+60,33,A,decl,61.0,stateConstraint,"
+",constrain-decl,journey-enum-day,positive,pause,,
+60,33,A,decl,61.0,stateConstraint,"
+",constrain-decl,journey-enum-day,positive,punc,type,stop
+60,40,B,decl,79.0,stateConstraint,"
+",constrain-decl,cancel,positive,pause,,
+60,40,B,decl,79.0,stateConstraint,"
+",constrain-decl,cancel,positive,pause,,
+60,40,B,decl,79.0,stateConstraint,"
+",constrain-decl,cancel,positive,punc,type,stop
+61,25,A,decl,56.0,state,"
+but you're changing at Birmingham New Street ",constrain-decl,location-time,positive,punc,type,stop
+61,37,A,decl,85.0,state,"
+but the last part from ",constrain-decl,to-location-from,positive,pause,,
+61,37,A,decl,85.0,state,"
+but the last part from ",constrain-decl,to-location-from,positive,pause,,
+61,37,A,decl,85.0,state,"
+but the last part from ",constrain-decl,to-location-from,positive,punc,type,stop
+61,55,A,decl,160.0,stateConstraint,"
+you must stick to the dates and the times that you book ",constrain-decl,booking-date,positive,backchannel,content,yes right
+61,55,A,decl,160.0,stateConstraint,"
+you must stick to the dates and the times that you book ",constrain-decl,booking-date,positive,punc,type,stop
+61,55,A,frag,166.0,refer,"
+subject to availability ",constrain-decl,fare-availability-enum,positive,pause,,
+61,55,A,frag,166.0,refer,"
+subject to availability ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+62,49,A,decl,110.0,stateConstraint,"
+you must stick to the dates and the times that you book ",constrain-decl,booking-date,positive,punc,type,stop
+62,55,A,decl,122.0,stateConstraint,"
+you must do so by 2 o'clock the day before travel as well ",constrain-decl,time-journey-enum-day,positive,punc,type,stop
+62,55,A,frag,123.0,refer,"
+subject to availability and 5 pounds charge per ticket ",constrain-decl,fare-availability-journey-enum,positive,punc,type,stop
+63,35,A,decl,83.0,answer-stateConstraint,"
+you would need to buy a Saver Return ",constrain-decl,fare,positive,punc,type,stop
+63,51,A,decl,123.0,stateConstraint,"
+but you've got to book your return ",constrain-decl,booking-fare,positive,punc,type,stop
+63,53,A,decl,125.0,stateConstraint,"
+you must book your return ",constrain-decl,booking-fare,positive,punc,type,stop
+63,55,A,decl,128.0,stateConstraint,"
+you've got to book it ",constrain-decl,booking,positive,punc,type,stop
+63,95,A,decl,203.0,elab-stateConstraint,"
+but the credit card holder must be at the train station to collect the ticket ",constrain-decl,journey-creditcard,positive,punc,type,stop
+63,127,A,decl,252.0,stateConstraint,"
+you must stick to the dates and the times that you have booked ",constrain-decl,booking-date,positive,punc,type,stop
+63,183,A,decl,331.0,direct-state,"
+tomorrow you need your credit card with you when you collect the tickets ",constrain-decl,journey-time-day-creditcard,positive,punc,type,stop
+63,189,A,decl,341.0,direct-state,"
+and you just need to quote this reference number ",constrain-decl,booking-number,positive,punc,type,stop
+63,193,A,frag,346.0,state,"
+need to get a pen ",constrain-decl,,positive,punc,type,stop
+63,229,A,decl,395.0,state,"
+so ",constrain-decl,,negative,overlap,type,end
+63,229,A,decl,395.0,state,"
+so ",constrain-decl,,negative,punc,type,stop
+64,25,A,decl,60.0,state,"
+but the next train's available ",constrain-decl,availability,positive,punc,type,stop
+64,48,B,decl,101.0,state,"
+but it's preferable a table ",constrain-decl,,positive,punc,type,stop
+64,51,A,decl,106.0,stateConstraint,"
+",constrain-decl,booking-date,positive,pause,,
+64,51,A,decl,106.0,stateConstraint,"
+",constrain-decl,booking-date,positive,punc,type,stop
+64,53,A,decl,110.0,stateConstraint,"
+you must cancel by 6 o'clock the day before your outward travel ",constrain-decl,time-journey-enum-day-cancel,positive,backchannel,content,aha
+64,53,A,decl,110.0,stateConstraint,"
+you must cancel by 6 o'clock the day before your outward travel ",constrain-decl,time-journey-enum-day-cancel,positive,punc,type,stop
+64,55,A,frag,115.0,state,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+67,15,A,decl,26.0,answer-stateConstraint,"
+the credit card holder must be at the train station to collect and sign for the tickets ",constrain-decl,journey-creditcard,positive,punc,type,stop
+67,32,B,decl,54.0,state,"
+but it's just the fare ",constrain-decl,fare,positive,punc,type,stop
+67,45,A,decl,79.0,stateConstraint,"
+this ticket must be booked by 2 o'clock today ",constrain-decl,booking-journey-time-enum-day,positive,punc,type,stop
+67,47,A,decl,81.0,state,"
+and it is subject to availability ",constrain-decl,availability,positive,punc,type,stop
+68,29,A,decl,45.0,stateConstraint,"
+you must stick to the outward train ",constrain-decl,,positive,punc,type,stop
+68,35,A,decl,59.0,stateConstraint,"
+but i have to book you on the one going ",constrain-decl,booking-number,positive,overlap,type,start
+68,35,A,decl,59.0,stateConstraint,"
+but i have to book you on the one going ",constrain-decl,booking-number,positive,punc,type,stop
+69,21,A,decl,45.0,direct-state,"
+you have to change at Wigan North Western ",constrain-decl,time,positive,punc,type,stop
+69,31,A,decl,82.0,stateConstraint,"
+the Super Advance is now fully booked up the entire day ",constrain-decl,fare-availability-day,positive,punc,type,stop
+69,56,B,decl,154.0,state,"
+i really need ",constrain-decl,,positive,punc,type,stop
+70,13,A,decl,26.0,stateConstraint,"
+you must return from the station ",constrain-decl,fare,positive,backchannel,content,yes
+70,13,A,decl,26.0,stateConstraint,"
+you must return from the station ",constrain-decl,fare,positive,punc,type,stop
+70,53,A,decl,89.0,stateConstraint,"
+so you need to get ",constrain-decl,to-location-from,positive,pause,,
+70,53,A,decl,89.0,stateConstraint,"
+so you need to get ",constrain-decl,to-location-from,positive,punc,type,stop
+70,117,A,decl,223.0,stateConstraint,"
+you must do so by 2 o'clock the day before again ",constrain-decl,time-enum-day,positive,backchannel,content,ok
+70,117,A,decl,223.0,stateConstraint,"
+you must do so by 2 o'clock the day before again ",constrain-decl,time-enum-day,positive,punc,type,stop
+70,117,A,frag,224.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+70,119,A,decl,230.0,state,"
+but it's backward travel at a table ",constrain-decl,journey-time,positive,punc,type,stop
+70,119,A,decl,231.0,state,"
+",constrain-decl,seat,positive,pause,,
+70,119,A,decl,231.0,state,"
+",constrain-decl,seat,positive,punc,type,stop

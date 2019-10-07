@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,107,A,yes,222.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+42,21,A,yes,40.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+47,45,A,yes,78.0,stateOpt-acknowledge,"
+yeah ",,,,punc,type,stop
+53,27,A,yes,73.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+53,29,A,yes,78.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+64,35,A,dm,80.0,stateOpt-acknowledge,"
+ok ",tag,,,punc,type,stop
+70,77,A,yes,139.0,stateOpt-acknowledge,"
+yeah ",,,,punc,type,stop
+70,153,A,yes,285.0,stateOpt-acknowledge,"
+yeah ",,,,punc,type,stop
+70,177,A,yes,317.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop

@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+59,50,B,decl,118.0,agree,"
+that's ",agree-decl,problem,negative,overlap,type,start
+59,50,B,decl,118.0,agree,"
+that's ",agree-decl,problem,negative,unclear,length,1_syllable
+59,50,B,decl,118.0,agree,"
+that's ",agree-decl,problem,negative,punc,type,stop

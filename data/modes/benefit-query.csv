@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,27,A,decl,45.0,reqConfirm,"
+you want me to book that for you ",benefit-query,booking,positive,punc,type,query
+52,37,A,decl,65.0,reqConfirm,"
+you want me to book that ticket ",benefit-query,booking-journey,positive,overlap,type,start
+52,37,A,decl,65.0,reqConfirm,"
+you want me to book that ticket ",benefit-query,booking-journey,positive,punc,type,query
+53,39,A,decl,109.0,reqInfo,"
+you want me to book that one for you ",benefit-query,booking-number,positive,punc,type,query

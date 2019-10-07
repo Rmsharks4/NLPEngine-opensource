@@ -1,0 +1,37 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+2,28,B,decl,44.0,inform,"
+i was quoted 19 pounds
+",report,fare,positive,,,
+3,40,B,decl,52.0,inform,"
+i've just been quoted 19 pounds
+",report,fare,positive,,,
+4,62,B,decl,141.0,answElab,"
+em i'm not no actually non
+",report,,negative,,,
+13,27,A,decl,41.0,inform,"
+the cheapest fare that i'm checking for is the Virgin value return which is 12 pounds each
+",report,fare-verify,positive,,,
+13,120,B,decl,175.0,inform,"
+i was looking at the wrong ",report,time-number,positive,overlap,type,start
+26,16,B,decl,25.0,inform,"
+and i've been given that's 7 41 from Hertford
+",report,location-enum-from,positive,,,
+27,27,A,decl,43.0,informIntent-hold,"
+i'm checking for the super advance return at 41 pounds 50 each
+",report,fare-verify,positive,,,
+27,27,A,decl,45.0,informIntent-hold,"
+i'm checking availability there ",report,avail-verify,positive,pause,length,7s
+27,32,B,decl,69.0,informIntent,"
+and i'm re... reordering now the right date
+",report,date,positive,,,
+34,34,B,decl,71.0,answElab,"
+i'm going on Sunday
+",report,day,positive,,,
+35,71,A,frag,116.0,init,"
+like i was saying ",report,,positive,pause,,
+39,14,B,dm,28.0,init,"
+actually
+",report,,,,,
+39,60,B,dm,149.0,init,"
+actually
+",report,,,,,

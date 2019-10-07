@@ -1,0 +1,583 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,21,A,frag,34.0,reqConfirm,"
+",query,time-arrival,positive,pause,length,7s
+36,21,A,frag,34.0,reqConfirm,"
+",query,time-arrival,positive,punc,type,query
+36,25,A,decl,41.0,reqConfirm,"
+and that's for the 8th of October ",query,month-date,positive,punc,type,query
+36,31,A,decl,61.0,reqConfirm,"
+we say it's a return journey ",tag-frag,fare-journey,positive,punc,type,level
+36,41,A,frag,82.0,reqConfirm,"
+",partial-query,departure,positive,pause,length,2s
+36,41,A,frag,82.0,reqConfirm,"
+",partial-query,departure,positive,punc,type,query
+36,85,A,dm,146.0,reqConfirm,"
+ok now ",,,,punc,type,query
+37,17,A,frag,26.0,reqConfirm,"
+arriving at 17:30 ",decl,time-arrival,positive,punc,type,stop
+37,23,A,decl,36.0,reqConfirm,"
+and that's Monday the 5th yeah ",query,day,positive,punc,type,query
+38,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,pause,,
+38,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,punc,type,query
+38,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,pause,length,3s
+38,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,punc,type,query
+38,115,A,dm,189.0,reqConfirm,"
+ok
+",,,,,,
+39,16,B,decl,39.0,reqConfirm,"
+so the train from Liverpool goes to Wigan anyway yeah ",query,to-location-from,positive,punc,type,query
+39,19,A,decl,45.0,reqConfirm,"
+you want a ticket from Wigan now ",query,journey-from,positive,punc,type,query
+39,24,B,decl,55.0,reqConfirm,"
+that's the cheapest ",query,fare,positive,punc,type,query
+39,26,B,decl,63.0,reqConfirm,"
+",exists-query,,negative,pause,length,3s
+39,26,B,decl,63.0,reqConfirm,"
+",exists-query,,negative,punc,type,query
+39,32,B,decl,77.0,reqConfirm,"
+that's a return ",query,fare,positive,pause,,
+39,32,B,decl,77.0,reqConfirm,"
+that's a return ",query,fare,positive,punc,type,query
+39,34,B,decl,79.0,reqConfirm,"
+and that's leaving Manchester at 6:11 ",query,location-time-departure,positive,pause,,
+39,34,B,decl,79.0,reqConfirm,"
+and that's leaving Manchester at 6:11 ",query,location-time-departure,positive,overlap,type,start
+39,34,B,decl,79.0,reqConfirm,"
+and that's leaving Manchester at 6:11 ",query,location-time-departure,positive,punc,type,query
+39,36,B,decl,83.0,reqConfirm,"
+and the other one's ",query,number-time-from-enum-departure,positive,pause,,
+39,36,B,decl,83.0,reqConfirm,"
+and the other one's ",query,number-time-from-enum-departure,positive,punc,type,query
+39,38,B,decl,85.0,reqConfirm,"
+and that's 27 50 return as well ",query,enum-fare,positive,punc,type,query
+39,42,B,decl,96.0,reqConfirm,"
+so it's the same ",decl,,positive,punc,type,stop
+39,44,B,decl,103.0,reqConfirm,"
+if that's ok ",reassurance-tag-condition-frag,,positive,punc,type,level
+39,46,B,frag,114.0,reqConfirm,"
+31 ",query,,positive,punc,type,query
+39,49,A,decl,125.0,reqConfirm,"
+",query,location-from-enum,positive,pause,length,12s
+39,49,A,decl,125.0,reqConfirm,"
+",query,location-from-enum,positive,punc,type,query
+39,51,A,frag,127.0,reqConfirm,"
+arriving in Wigan Northwestern at 19:57 ",query,time-arrival,positive,punc,type,query
+39,56,B,decl,137.0,reqConfirm,"
+i leave at 5 o'clock ",frag,time-enum-departure,positive,punc,type,level
+39,61,A,frag,152.0,reqConfirm,"
+no smoking ",query,seat,negative,punc,type,query
+39,111,A,dm,227.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+40,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,pause,,
+40,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,punc,type,query
+40,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,pause,length,3s
+40,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,punc,type,query
+40,115,A,frag,188.0,reqConfirm,"
+and your two sets of tickets will be waiting there 
+",tag,number-location-journey,positive,,,
+41,79,A,frag,116.0,reqConfirm,"
+the issue number is 8 ",query,number,positive,punc,type,query
+41,79,A,decl,117.0,reqConfirm,"
+and it's 07 zero zero ",query,enum,positive,punc,type,query
+42,17,A,decl,35.0,reqConfirm,"
+and it's just for one ",query,number,positive,punc,type,query
+42,79,A,dm,128.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+43,15,A,frag,32.0,reqConfirm,"
+arriving at 8:30 ",query,time-arrival,positive,punc,type,query
+43,19,A,decl,38.0,reqConfirm,"
+so you prefer to leave that open ",preference2-query,fare-departure,positive,punc,type,query
+43,33,A,decl,66.0,reqConfirm,"
+",query,journey,positive,pause,,
+43,33,A,decl,66.0,reqConfirm,"
+",query,journey,positive,punc,type,query
+43,85,A,dm,168.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+44,19,A,dm,48.0,reqConfirm,"
+",tag,,,overlap,type,start
+44,19,A,dm,48.0,reqConfirm,"
+",tag,,,punc,type,query
+44,59,A,decl,133.0,reqConfirm,"
+",frag,enum-departure,positive,pause,length,11s
+44,59,A,decl,133.0,reqConfirm,"
+",frag,enum-departure,positive,punc,type,level
+44,59,A,frag,134.0,reqConfirm,"
+arriving 11:32 ",partial-query,arrival,positive,punc,type,query
+45,11,A,decl,21.0,reqConfirm,"
+the 9th ",query,,positive,punc,type,query
+45,13,A,frag,24.0,reqConfirm,"
+of October ",partial-query,month,positive,punc,type,query
+45,23,A,decl,47.0,reqConfirm,"
+the 16:20 ",query,,positive,punc,type,query
+45,27,A,frag,53.0,reqConfirm,"
+Sunday the 11th ",query,day,positive,punc,type,query
+46,29,A,decl,63.0,reqConfirm,"
+and that's Sunday the 4th of October ",query,month-date-day,positive,punc,type,query
+46,36,B,frag,85.0,reqConfirm,"
+10:45 ",query,,positive,punc,type,query
+46,39,A,decl,90.0,reqConfirm,"
+the 10:35 ",frag,,positive,punc,type,level
+46,50,B,decl,114.0,reqConfirm,"
+i'm leaving 7:15 a m from Birmingham New Street and leaving London Euston at 10:35 a m on Sunday ",intent-query,location-enum-departure-time-from-day,positive,punc,type,query
+46,52,B,q-yn,116.0,reqConfirm,"
+is that correct ",tag-closed-query,,positive,punc,type,query
+46,95,A,dm,190.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+47,3,A,frag,6.0,reqConfirm,"
+Stockport to Watford Junction ",decl,location-to,positive,punc,type,stop
+47,22,B,q-yn,39.0,reqConfirm,"
+is that Super ",query,fare,positive,pause,,
+47,22,B,q-yn,39.0,reqConfirm,"
+is that Super ",query,fare,positive,punc,type,query
+47,27,A,decl,45.0,reqConfirm,"
+you want me to book that for you ",benefit-query,booking,positive,punc,type,query
+47,40,B,decl,65.0,reqConfirm,"
+it's 8 hours isn't it ",tag-query,enum,negative,punc,type,query
+47,50,B,decl,89.0,reqConfirm,"
+",alternative-tag-query,enum,positive,pause,,
+47,50,B,decl,89.0,reqConfirm,"
+",alternative-tag-query,enum,positive,punc,type,query
+47,55,A,decl,96.0,reqConfirm,"
+",query,time-enum,positive,pause,,
+47,55,A,decl,96.0,reqConfirm,"
+",query,time-enum,positive,punc,type,query
+47,59,A,decl,104.0,reqConfirm,"
+the 4th ",query,,positive,punc,type,query
+47,86,B,decl,164.0,reqConfirm,"
+there's nothing else ",exists-query,,negative,punc,type,query
+47,103,A,decl,209.0,reqConfirm,"
+",predict-decl,fare-enum,positive,pause,length,6s
+47,103,A,decl,209.0,reqConfirm,"
+",predict-decl,fare-enum,positive,punc,type,stop
+47,123,A,dm,249.0,reqConfirm,"
+now ",query,,,punc,type,query
+47,128,B,q-wh,258.0,reqConfirm,"
+what ",exclaim-partial-query,,positive,punc,type,query
+47,157,A,dm,299.0,reqConfirm,"
+ok ",,,,punc,type,query
+48,48,B,decl,79.0,reqConfirm,"
+that's 10 to 3 isn't it ",tag-query,enum,negative,punc,type,query
+48,51,A,decl,84.0,reqConfirm,"
+",query,day,negative,pause,length,2s
+48,51,A,decl,84.0,reqConfirm,"
+",query,day,negative,punc,type,query
+48,61,A,decl,100.0,reqConfirm,"
+",query,,positive,pause,length,3s
+48,61,A,decl,100.0,reqConfirm,"
+",query,,positive,punc,type,query
+48,77,A,decl,130.0,reqConfirm,"
+and you said it's your credit card you're paying by ",report-query,creditcard,positive,punc,type,query
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,anonym,type,letter
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,anonym,type,letter
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,anonym,type,letter
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,punc,type,query
+48,129,A,decl,206.0,reqConfirm,"
+and it's 05 ",query,,positive,punc,type,query
+48,143,A,frag,225.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+48,144,B,decl,228.0,reqConfirm,"
+but when the seats come ",constrain,time,positive,punc,type,level
+48,144,B,decl,229.0,reqConfirm,"
+the 4 of us will be sat together won't we ",tag-query,enum,negative,punc,type,query
+48,147,A,dm,234.0,reqConfirm,"
+",query,,,overlap,type,start
+48,147,A,dm,234.0,reqConfirm,"
+",query,,,punc,type,query
+49,5,A,decl,10.0,reqConfirm,"
+and you say you're travelling from Wrexham ",query,location-journey-from,positive,punc,type,query
+49,31,A,decl,61.0,reqConfirm,"
+so ",constrain-decl,fare,positive,overlap,type,end
+49,31,A,decl,61.0,reqConfirm,"
+so ",constrain-decl,fare,positive,punc,type,stop
+49,64,B,frag,126.0,reqConfirm,"
+6 to 9 ",query,enum,positive,punc,type,query
+49,88,B,decl,162.0,reqConfirm,"
+and i give you his him to give you the details then shall i ",tag-query,,positive,punc,type,query
+49,134,B,frag,242.0,reqConfirm,"
+right ",tag-decl,,positive,punc,type,stop
+50,10,B,q-yn,24.0,reqConfirm,"
+",tag-closed-query,,positive,pause,,
+50,10,B,q-yn,24.0,reqConfirm,"
+",tag-closed-query,,positive,punc,type,query
+50,11,A,decl,28.0,reqConfirm,"
+you said 8:44 ",report-query,,positive,punc,type,query
+50,21,A,decl,46.0,reqConfirm,"
+",query,day,positive,pause,length,7s
+50,21,A,decl,46.0,reqConfirm,"
+",query,day,positive,punc,type,query
+50,27,A,decl,55.0,reqConfirm,"
+it's 4 adults and 4 children on 6 family railcard ",query,enum-railcard,positive,punc,type,query
+50,30,B,q-yn,61.0,reqConfirm,"
+is that right ",tag-closed-query,,positive,punc,type,query
+50,49,A,decl,95.0,reqConfirm,"
+",query,journey-day,positive,pause,,
+50,49,A,decl,95.0,reqConfirm,"
+",query,journey-day,positive,anonym,type,name
+50,49,A,decl,95.0,reqConfirm,"
+",query,journey-day,positive,punc,type,query
+50,52,B,frag,100.0,reqConfirm,"
+the railcard ",query,railcard,positive,punc,type,query
+51,15,A,decl,26.0,reqConfirm,"
+it's going from ",query,to-location-from,positive,pause,,
+51,15,A,decl,26.0,reqConfirm,"
+it's going from ",query,to-location-from,positive,pause,,
+51,15,A,decl,26.0,reqConfirm,"
+it's going from ",query,to-location-from,positive,punc,type,query
+51,22,B,decl,40.0,reqConfirm,"
+",tag-query,fare,positive,pause,,
+51,22,B,decl,40.0,reqConfirm,"
+",tag-query,fare,positive,punc,type,query
+51,24,B,decl,44.0,reqConfirm,"
+",tag-query,fare-number,negative,pause,,
+51,24,B,decl,44.0,reqConfirm,"
+",tag-query,fare-number,negative,punc,type,query
+51,47,A,dm,105.0,reqConfirm,"
+",,,,overlap,type,start
+51,47,A,dm,105.0,reqConfirm,"
+",,,,punc,type,level
+51,75,A,q-yn,151.0,reqConfirm,"
+is that ",closed-query,,positive,anonym,type,letter
+51,75,A,q-yn,151.0,reqConfirm,"
+is that ",closed-query,,positive,anonym,type,alpha
+51,75,A,q-yn,151.0,reqConfirm,"
+is that ",closed-query,,positive,punc,type,query
+51,77,A,frag,153.0,reqConfirm,"
+",decl,,positive,anonym,type,letter
+51,77,A,frag,153.0,reqConfirm,"
+",decl,,positive,anonym,type,alpha
+51,77,A,frag,153.0,reqConfirm,"
+",decl,,positive,punc,type,stop
+51,90,B,decl,169.0,reqConfirm,"
+so i should get it tomorrow ",suggest-query,day,positive,punc,type,query
+52,17,A,frag,28.0,reqConfirm,"
+of October ",partial-query,month,positive,punc,type,query
+52,37,A,decl,65.0,reqConfirm,"
+you want me to book that ticket ",benefit-query,booking-journey,positive,overlap,type,start
+52,37,A,decl,65.0,reqConfirm,"
+you want me to book that ticket ",benefit-query,booking-journey,positive,punc,type,query
+53,2,B,frag,7.0,reqConfirm,"
+to get the Saver Return to London erm from Preston ",tag-query,fare-location-to-from,positive,pause,,
+53,2,B,frag,7.0,reqConfirm,"
+to get the Saver Return to London erm from Preston ",tag-query,fare-location-to-from,positive,punc,type,query
+53,12,B,decl,40.0,reqConfirm,"
+i can't travel down after 6 in the morning ",poss1-query,time-journey-enum,negative,punc,type,query
+53,37,A,frag,106.0,reqConfirm,"
+arriving in Euston at 18:13 ",query,location-time-arrival,positive,punc,type,query
+53,40,B,decl,116.0,reqConfirm,"
+but it won't matter if the ticket says that time will it ",tag-constrain-condition-query,journey-time,negative,punc,type,query
+53,119,A,dm,261.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+54,15,A,frag,24.0,reqConfirm,"
+arriving at 10:40 ",query,time-arrival,positive,punc,type,query
+54,29,A,frag,48.0,reqConfirm,"
+",frag,location-from-enum,positive,pause,length,6s
+54,29,A,frag,48.0,reqConfirm,"
+",frag,location-from-enum,positive,punc,type,level
+54,47,A,frag,82.0,reqConfirm,"
+as in ",correct-partial-query,,positive,anonym,type,alpha
+54,47,A,frag,82.0,reqConfirm,"
+as in ",correct-partial-query,,positive,punc,type,query
+54,82,B,q-yn,129.0,reqConfirm,"
+is that ",closed-query,,positive,anonym,type,letter
+54,82,B,q-yn,129.0,reqConfirm,"
+is that ",closed-query,,positive,anonym,type,letter
+54,82,B,q-yn,129.0,reqConfirm,"
+is that ",closed-query,,positive,punc,type,query
+55,7,A,q-yn,17.0,reqConfirm,"
+and is it Saturday the 3rd ",closed-query,day,positive,punc,type,query
+55,14,B,frag,33.0,reqConfirm,"
+",query,,positive,pause,length,2s
+55,14,B,frag,33.0,reqConfirm,"
+",query,,positive,punc,type,query
+55,16,B,decl,37.0,reqConfirm,"
+and that gets in at 18:33 ",query,time,positive,punc,type,query
+55,18,B,decl,40.0,reqConfirm,"
+and that's for 19 ",query,fare-enum,positive,pause,,
+55,18,B,decl,40.0,reqConfirm,"
+and that's for 19 ",query,fare-enum,positive,punc,type,query
+56,5,A,q-yn,11.0,reqConfirm,"
+and is it Sunday the 4th ",closed-query,month-date-day,positive,pause,,
+56,5,A,q-yn,11.0,reqConfirm,"
+and is it Sunday the 4th ",closed-query,month-date-day,positive,overlap,type,start
+56,5,A,q-yn,11.0,reqConfirm,"
+and is it Sunday the 4th ",closed-query,month-date-day,positive,punc,type,query
+56,23,A,decl,50.0,reqConfirm,"
+and that's for Monday the 5th now ",query,day,positive,punc,type,query
+56,36,B,q-wh,74.0,reqConfirm,"
+i must what ",query-constrain-exclaim-partial-query,,positive,punc,type,query
+56,87,A,frag,141.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+57,18,B,decl,34.0,reqConfirm,"
+and that's all that's available ",query,availability,positive,punc,type,query
+57,24,B,decl,53.0,reqConfirm,"
+so there's no Super Savers available or anything on that on there ",alternative-exists-query,fare-availability-location,negative,punc,type,query
+57,27,A,decl,63.0,reqConfirm,"
+",query,,positive,pause,length,2s
+57,27,A,decl,63.0,reqConfirm,"
+",query,,positive,punc,type,query
+57,29,A,decl,67.0,reqConfirm,"
+",query,fare,positive,pause,length,35s
+57,29,A,decl,67.0,reqConfirm,"
+",query,fare,positive,punc,type,query
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,length,2s
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,,
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,,
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,,
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,punc,type,query
+57,34,B,decl,77.0,reqConfirm,"
+and that's the only available one there ",constrain-query,availability-number-location,positive,punc,type,query
+57,50,B,q-yn,115.0,reqConfirm,"
+isn't it ",tag-closed-query,,negative,punc,type,query
+58,11,A,frag,23.0,reqConfirm,"
+this Monday coming ",query,day,positive,punc,type,query
+58,14,B,q-yn,26.0,reqConfirm,"
+is it ",tag-closed-query,,positive,punc,type,query
+58,19,A,frag,34.0,reqConfirm,"
+",query,time-enum-arrival,positive,pause,length,4s
+58,19,A,frag,34.0,reqConfirm,"
+",query,time-enum-arrival,positive,punc,type,query
+58,26,B,frag,52.0,reqConfirm,"
+",query,day,positive,vocal,type,laugh
+58,26,B,frag,52.0,reqConfirm,"
+",query,day,positive,pause,,
+58,26,B,frag,52.0,reqConfirm,"
+",query,day,positive,punc,type,query
+58,27,A,frag,56.0,reqConfirm,"
+",partial-query,day,positive,pause,,
+58,27,A,frag,56.0,reqConfirm,"
+",partial-query,day,positive,punc,type,query
+58,31,A,frag,60.0,reqConfirm,"
+",query,time-arrival,positive,pause,length,3s
+58,31,A,frag,60.0,reqConfirm,"
+",query,time-arrival,positive,punc,type,query
+58,32,B,q-yn,61.0,reqConfirm,"
+is it 15:39 ",closed-query,,positive,punc,type,query
+58,99,A,frag,202.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+59,11,A,decl,23.0,reqConfirm,"
+and that's Saturday the 3rd of October ",query,month-date-day,positive,punc,type,query
+59,11,A,frag,24.0,reqConfirm,"
+this Saturday ",query,day,positive,punc,type,query
+59,15,A,frag,34.0,reqConfirm,"
+",query,day,positive,pause,length,8s
+59,15,A,frag,34.0,reqConfirm,"
+",query,day,positive,punc,type,query
+59,17,A,frag,36.0,reqConfirm,"
+",query,time-from-enum-departure,positive,pause,,
+59,17,A,frag,36.0,reqConfirm,"
+",query,time-from-enum-departure,positive,pause,length,3s
+59,17,A,frag,36.0,reqConfirm,"
+",query,time-from-enum-departure,positive,punc,type,query
+59,17,A,frag,37.0,reqConfirm,"
+",query,location-time-enum-arrival,positive,pause,,
+59,17,A,frag,37.0,reqConfirm,"
+",query,location-time-enum-arrival,positive,punc,type,query
+59,91,A,frag,196.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+60,13,A,frag,22.0,reqConfirm,"
+",partial-query,time,positive,pause,length,2s
+60,13,A,frag,22.0,reqConfirm,"
+",partial-query,time,positive,punc,type,query
+60,37,A,decl,67.0,reqConfirm,"
+you said yourself it's a credit card holder ",report-query,creditcard,positive,punc,type,query
+61,27,A,decl,62.0,reqConfirm,"
+you don't want to ",query,,negative,punc,type,query
+61,48,B,decl,120.0,reqConfirm,"
+because we're going all the way that way aren't we ",intent-reason-tag-query,,positive,punc,type,query
+62,7,A,frag,13.0,reqConfirm,"
+of October ",partial-query,month,positive,punc,type,query
+62,15,A,decl,29.0,reqConfirm,"
+and it's the 11 o'clock train from Birmingham ",frag,location-time-from-enum,positive,punc,type,level
+62,15,A,frag,30.0,reqConfirm,"
+arriving in Newton Abbot for 14:02 ",query,location-arrival,positive,punc,type,query
+62,21,A,frag,39.0,reqConfirm,"
+",partial-query,location-from,positive,pause,length,2s
+62,21,A,frag,39.0,reqConfirm,"
+",partial-query,location-from,positive,punc,type,query
+62,37,A,decl,92.0,reqConfirm,"
+you're travelling from Leicester at 9:18 in the morning ",query,time-journey-from-enum,positive,punc,type,query
+62,79,A,frag,152.0,reqConfirm,"
+",decl,,positive,anonym,type,letter
+62,79,A,frag,152.0,reqConfirm,"
+",decl,,positive,anonym,type,alpha
+62,79,A,frag,152.0,reqConfirm,"
+",decl,,positive,punc,type,stop
+62,106,B,frag,187.0,reqConfirm,"
+a pen ",query,,positive,punc,type,query
+62,123,A,frag,214.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+63,5,A,frag,19.0,reqConfirm,"
+from Euston London ",partial-decl,location-from,positive,punc,type,stop
+63,7,A,frag,25.0,reqConfirm,"
+from Stockport to London Euston ",partial-query,location-to-from,positive,punc,type,query
+63,17,A,frag,44.0,reqConfirm,"
+a railcard ",query,railcard,positive,punc,type,query
+63,21,A,frag,50.0,reqConfirm,"
+a disabled railcard ",query,railcard,positive,punc,type,query
+63,28,B,frag,64.0,reqConfirm,"
+i... i... i... is still 20 pounds ",query,fare-enum,positive,punc,type,query
+63,50,B,decl,121.0,reqConfirm,"
+and the fare ",decl,fare-enum,positive,pause,,
+63,50,B,decl,121.0,reqConfirm,"
+and the fare ",decl,fare-enum,positive,punc,type,query
+63,56,B,decl,130.0,reqConfirm,"
+19 pound 80 is a Return innit ",tag-query,fare-enum,positive,punc,type,query
+63,60,B,frag,139.0,reqConfirm,"
+same day innit ",tag-query,day,positive,punc,type,query
+63,61,A,decl,140.0,reqConfirm,"
+the same day ",query,day,positive,punc,type,query
+63,64,B,frag,145.0,reqConfirm,"
+for the same price ",partial-query,,positive,punc,type,query
+63,69,A,frag,156.0,reqConfirm,"
+2 weeks ",query,enum,positive,punc,type,query
+63,69,A,q-yn,157.0,reqConfirm,"
+is it 2 weeks on Friday ",closed-query,enum-day,positive,punc,type,query
+63,81,A,frag,179.0,reqConfirm,"
+10 o'clock ",query,time-enum,positive,punc,type,query
+63,92,B,frag,196.0,reqConfirm,"
+now ",,,,punc,type,query
+63,102,B,frag,219.0,reqConfirm,"
+10:30 ",query,,positive,punc,type,query
+63,109,A,frag,226.0,reqConfirm,"
+on the 16th of October ",partial-query,month-date,positive,punc,type,query
+63,119,A,decl,239.0,reqConfirm,"
+you say that the person's travelling has a disabled railcard ",decl,journey-railcard,positive,punc,type,stop
+63,131,A,frag,260.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+63,143,A,frag,277.0,reqConfirm,"
+",query,,positive,anonym,type,letter
+63,143,A,frag,277.0,reqConfirm,"
+",query,,positive,anonym,type,alpha
+63,143,A,frag,277.0,reqConfirm,"
+",query,,positive,punc,type,query
+63,146,B,decl,281.0,reqConfirm,"
+and the ticket will be in my middle name right ",predict-tag-query,journey-name,positive,punc,type,query
+63,194,B,frag,349.0,reqConfirm,"
+",query,,positive,anonym,type,letter
+63,194,B,frag,349.0,reqConfirm,"
+",query,,positive,punc,type,query
+63,216,B,frag,374.0,reqConfirm,"
+from ",partial-query,location-from,positive,overlap,type,end
+63,216,B,frag,374.0,reqConfirm,"
+from ",partial-query,location-from,positive,punc,type,query
+63,216,B,frag,375.0,reqConfirm,"
+",partial-query,location-from,positive,overlap,type,start
+63,216,B,frag,375.0,reqConfirm,"
+",partial-query,location-from,positive,punc,type,query
+63,219,A,frag,378.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+63,219,A,dm,380.0,reqConfirm,"
+now ",query,,,punc,type,query
+63,231,A,dm,397.0,reqConfirm,"
+ok ",,,,overlap,type,end
+63,231,A,dm,397.0,reqConfirm,"
+ok ",,,,punct,type,query
+64,55,A,decl,113.0,reqConfirm,"
+if you have to change any of the times of travel ",constrain-condition-decl,journey,positive,punc,type,stop
+64,77,A,decl,144.0,reqConfirm,"
+i need your long number across your swi... your credit card ",report-constrain-decl,number-creditcard,positive,punc,type,stop
+65,7,A,decl,12.0,reqConfirm,"
+and that's 5:30 in the afternoon ",query,time-enum,positive,punc,type,query
+65,11,A,decl,22.0,reqConfirm,"
+so it's just a Single ",query,fare,positive,punc,type,query
+65,13,A,frag,24.0,reqConfirm,"
+for tomorrow ",query,day,positive,punc,type,query
+65,24,B,q-yn,41.0,reqConfirm,"
+is it ",tag-closed-query,,positive,punc,type,query
+65,28,B,frag,52.0,reqConfirm,"
+so that's the regular price from Manchester innit ",tag-query,location-from,positive,punc,type,query
+67,11,A,decl,19.0,reqConfirm,"
+so you don't want to book a ticket just now ",query,booking-journey,negative,punc,type,query
+67,22,B,decl,37.0,reqConfirm,"
+it's fully booked up ",decl,availability,positive,punc,type,stop
+67,31,A,q-yn,52.0,reqConfirm,"
+is that a suitable time ",closed-query,time,positive,punc,type,query
+67,49,A,dm,83.0,reqConfirm,"
+ok now ",,,,punc,type,stop
+68,56,B,decl,109.0,reqConfirm,"
+i'll give you the company name shall i ",intent-tag-query,name,positive,punc,type,query
+68,75,A,frag,139.0,reqConfirm,"
+",query,,positive,anonym,type,letter
+68,75,A,frag,139.0,reqConfirm,"
+",query,,positive,anonym,type,alpha
+68,75,A,frag,139.0,reqConfirm,"
+",query,,positive,punc,type,query
+68,89,A,frag,159.0,reqConfirm,"
+",query,,positive,pause,,
+68,89,A,frag,159.0,reqConfirm,"
+",query,,positive,punc,type,query
+68,115,A,dm,191.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+69,26,B,decl,67.0,reqConfirm,"
+i was a bit concerned that erm ",report-tag-exists-condition-query,number-miss-location-time,negative,pause,,
+69,26,B,decl,67.0,reqConfirm,"
+i was a bit concerned that erm ",report-tag-exists-condition-query,number-miss-location-time,negative,punc,type,query
+69,28,B,decl,77.0,reqConfirm,"
+you're saying i can't go on the 14:58 anyway ",poss1-query,enum,negative,punc,type,query
+69,34,B,decl,91.0,reqConfirm,"
+so i'd have to a full price ticket would i ",constrain-query,journey-day,positive,pause,,
+69,34,B,decl,91.0,reqConfirm,"
+so i'd have to a full price ticket would i ",constrain-query,journey-day,positive,overlap,type,start
+69,34,B,decl,91.0,reqConfirm,"
+so i'd have to a full price ticket would i ",constrain-query,journey-day,positive,unclear,length,9 syllables
+69,34,B,decl,91.0,reqConfirm,"
+so i'd have to a full price ticket would i ",constrain-query,journey-day,positive,punc,type,query
+69,38,B,decl,101.0,reqConfirm,"
+it's sixty... sixty ",condition-query,,positive,overlap,type,start
+69,38,B,decl,101.0,reqConfirm,"
+it's sixty... sixty ",condition-query,,positive,punc,type,query
+69,40,B,decl,104.0,reqConfirm,"
+it's not return on a ",query,fare-day,negative,pause,,
+69,40,B,decl,104.0,reqConfirm,"
+it's not return on a ",query,fare-day,negative,punc,type,query
+69,46,B,decl,116.0,reqConfirm,"
+i can get any any train i want ",intent-preference1-poss1-query,,positive,punc,type,query
+69,54,B,decl,144.0,reqConfirm,"
+you don't have to book the the next leg in advance or anything like that do ",alternative-tag-constrain-query,booking-fare,negative,overlap,type,start
+69,54,B,decl,144.0,reqConfirm,"
+you don't have to book the the next leg in advance or anything like that do ",alternative-tag-constrain-query,booking-fare,negative,punc,type,query
+70,23,A,frag,40.0,reqConfirm,"
+the ",query,fare,positive,overlap,type,end
+70,23,A,frag,40.0,reqConfirm,"
+the ",query,fare,positive,punc,type,query
+70,36,B,decl,64.0,reqConfirm,"
+",query,,positive,pause,length,3s
+70,36,B,decl,64.0,reqConfirm,"
+",query,,positive,punc,type,query
+70,41,A,frag,71.0,reqConfirm,"
+from Wilmslow to Euston ",partial-query,to-location-from,positive,punc,type,query
+70,48,B,frag,82.0,reqConfirm,"
+at all ",partial-query,,positive,punc,type,query
+70,52,B,frag,86.0,reqConfirm,"
+nothing ",query,,negative,punc,type,query
+70,80,B,frag,146.0,reqConfirm,"
+07:45 ",query,,positive,punc,type,query
+70,84,B,decl,154.0,reqConfirm,"
+",query,fare-enum,positive,pause,,
+70,84,B,decl,154.0,reqConfirm,"
+",query,fare-enum,positive,punc,type,query
+70,98,B,decl,178.0,reqConfirm,"
+that's thir... 13:03 ",query,,positive,punc,type,query
+70,125,A,decl,239.0,reqConfirm,"
+and you said it's yourself as the credit card holder ",report-query,creditcard,positive,punc,type,query
+70,175,A,frag,311.0,reqConfirm,"
+ok ",tag-query,,positive,punc,type,query
+70,178,B,frag,320.0,reqConfirm,"
+getting on at 13:03 ",query,time,positive,punc,type,query

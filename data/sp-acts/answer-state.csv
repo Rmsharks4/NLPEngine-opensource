@@ -1,0 +1,338 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,16,B,frag,23.0,answer-state,"
+New Street ",decl,,positive,punc,type,stop
+36,38,B,frag,75.0,answer-state,"
+facing the way the train's going if possible ",condition-decl,seat,positive,punc,type,stop
+36,64,B,decl,120.0,answer-state,"
+it's a debit card ",decl,creditcard,positive,backchannel,content,aha
+36,64,B,decl,120.0,answer-state,"
+it's a debit card ",decl,creditcard,positive,punc,type,stop
+37,10,B,decl,15.0,answer-state,"
+the Saturday which is the 3rd i think ",opinion-decl,day,positive,punc,type,stop
+37,15,A,decl,23.0,answer-state,"
+the trains run at 10 to the hour every hour ",decl,time-enum,positive,punc,type,stop
+38,74,B,decl,112.0,answer-state,"
+it's Visa ",decl,creditcard,positive,punc,type,stop
+38,76,B,decl,114.0,answer-state,"
+it's 9 9 ",frag,enum,positive,punc,type,level
+39,10,B,decl,18.0,answer-state,"
+it is ",decl,,positive,punc,type,stop
+39,12,B,decl,23.0,answer-state,"
+i don't ",report-decl,,negative,punc,type,stop
+39,29,A,decl,72.0,answer-state,"
+there's a 6:11 train in the morning arriving 10:31 ",exists-decl,time-enum-arrival,positive,punc,type,stop
+39,96,B,decl,206.0,answer-state,"
+it's 7th 2000 ",decl,,positive,punc,type,stop
+39,98,B,decl,211.0,answer-state,"
+i certainly do ",decl,,positive,punc,type,stop
+40,74,B,decl,112.0,answer-state,"
+it's Visa ",decl,creditcard,positive,punc,type,stop
+40,76,B,decl,114.0,answer-state,"
+it's 9 9 ",frag,enum,positive,punc,type,level
+41,54,B,decl,84.0,answer-state,"
+i'm looking at a Switch card ",decl,time-creditcard,positive,punc,type,stop
+41,55,A,decl,86.0,answer-state,"
+Switch is fine ",decl,,positive,punc,type,stop
+42,8,B,frag,15.0,answer-state,"
+just one ",decl,number,positive,punc,type,stop
+42,10,B,decl,17.0,answer-state,"
+it's the erm the 6th of October ",decl,month-date,positive,punc,type,stop
+42,34,B,decl,61.0,answer-state,"
+it's ",decl,,positive,anonym,type,letter
+42,34,B,decl,61.0,answer-state,"
+it's ",decl,,positive,anonym,type,alpha
+42,34,B,decl,61.0,answer-state,"
+it's ",decl,,positive,anonym,type,letter
+42,34,B,decl,61.0,answer-state,"
+it's ",decl,,positive,anonym,type,alpha
+42,34,B,decl,61.0,answer-state,"
+it's ",decl,,positive,punc,type,stop
+42,44,B,frag,80.0,answer-state,"
+is 0 1 9 8 0 ",frag,enum,positive,punc,type,level
+42,52,B,decl,91.0,answer-state,"
+it's ",decl,enum,positive,anonym,type,letter
+42,52,B,decl,91.0,answer-state,"
+it's ",decl,enum,positive,anonym,type,letter
+42,52,B,decl,91.0,answer-state,"
+it's ",decl,enum,positive,pause,,
+42,52,B,decl,91.0,answer-state,"
+it's ",decl,enum,positive,anonym,type,letter
+42,52,B,decl,91.0,answer-state,"
+it's ",decl,enum,positive,anonym,type,letter
+42,52,B,decl,91.0,answer-state,"
+it's ",decl,enum,positive,punc,type,stop
+42,58,B,decl,101.0,answer-state,"
+it's Visa ",decl,creditcard,positive,punc,type,stop
+42,68,B,decl,112.0,answer-state,"
+it's 0 of 2000 ",decl,enum,positive,punc,type,stop
+43,42,B,decl,84.0,answer-state,"
+it's a corporate ",decl,,positive,punc,type,stop
+43,58,B,decl,119.0,answer-state,"
+it's ",decl,,positive,anonym,type,letter
+43,58,B,decl,119.0,answer-state,"
+it's ",decl,,positive,anonym,type,letter
+43,58,B,decl,119.0,answer-state,"
+it's ",decl,,positive,anonym,type,letter
+43,58,B,decl,119.0,answer-state,"
+it's ",decl,,positive,punc,type,stop
+43,60,B,frag,122.0,answer-state,"
+company name is ",decl,name,positive,anonym,type,letter
+43,60,B,frag,122.0,answer-state,"
+company name is ",decl,name,positive,anonym,type,letter
+43,60,B,frag,122.0,answer-state,"
+company name is ",decl,name,positive,anonym,type,letter
+43,60,B,frag,122.0,answer-state,"
+company name is ",decl,name,positive,punc,type,stop
+44,4,B,decl,12.0,answer-state,"
+i've got a current em yeah debit card ",exists-decl,creditcard,positive,punc,type,stop
+44,6,B,decl,15.0,answer-state,"
+it's for one ",decl,number,positive,punc,type,stop
+44,8,B,decl,18.0,answer-state,"
+i don't ",report-decl,,negative,punc,type,stop
+44,70,B,decl,153.0,answer-state,"
+it's a Midland business card which is a Mastercard ",decl,,positive,punc,type,stop
+44,78,B,frag,165.0,answer-state,"
+is 7 2 7 2 ",frag,enum,positive,punc,type,level
+46,12,B,yes,25.0,answer-state,"
+yes ",,,,punc,type,stop
+46,19,A,decl,39.0,answer-state,"
+the earlier trains are all booked up now ",decl,availability-time,positive,punc,type,stop
+47,25,A,decl,42.0,answer-state,"
+",decl-disflu,enum-fare-railcard,positive,pause,,
+47,25,A,decl,42.0,answer-state,"
+",decl-disflu,enum-fare-railcard,positive,pause,,
+47,25,A,decl,42.0,answer-state,"
+",decl-disflu,enum-fare-railcard,positive,punc,type,stop
+47,32,B,decl,52.0,answer-state,"
+a table would be good ",decl,,positive,punc,type,stop
+47,53,A,decl,93.0,answer-state,"
+that's with the discount ",decl,,positive,punc,type,stop
+47,93,A,decl,186.0,answer-state,"
+",decl,booking,positive,overlap,type,end
+47,93,A,decl,186.0,answer-state,"
+",decl,booking,positive,punc,type,stop
+47,126,B,frag,255.0,answer-state,"
+is erm ",decl,,positive,anonym,type,letter
+47,126,B,frag,255.0,answer-state,"
+is erm ",decl,,positive,anonym,type,alpha
+47,126,B,frag,255.0,answer-state,"
+is erm ",decl,,positive,punc,type,stop
+47,142,B,frag,275.0,answer-state,"
+is 9 4 7 1 ",frag,enum,positive,punc,type,level
+48,81,A,yes,138.0,answer-state,"
+yes ",,,,punc,type,stop
+48,88,B,decl,152.0,answer-state,"
+it's ",decl,,positive,anonym,type,letter
+48,88,B,decl,152.0,answer-state,"
+it's ",decl,,positive,punc,type,stop
+48,120,B,decl,190.0,answer-state,"
+it's the 2nd 98 ",frag,,positive,punc,type,level
+49,4,B,decl,9.0,answer-state,"
+i do ",decl,,positive,punc,type,stop
+49,13,A,decl,25.0,answer-state,"
+",decl,,positive,pause,,
+49,13,A,decl,25.0,answer-state,"
+",decl,,positive,punc,type,stop
+49,30,B,decl,59.0,answer-state,"
+i'm actually coming back by car ",decl,,positive,punc,type,stop
+49,76,B,frag,143.0,answer-state,"
+is 0 1 5 8 ",frag,enum,positive,punc,type,level
+49,86,B,decl,157.0,answer-state,"
+i am ",decl,,positive,punc,type,stop
+50,70,B,no,133.0,answer-state,"
+no ",,,,punc,type,stop
+51,6,B,decl,14.0,answer-state,"
+i've got a ",exists-decl,creditcard,positive,pause,,
+51,6,B,decl,14.0,answer-state,"
+i've got a ",exists-decl,creditcard,positive,punc,type,stop
+51,26,B,decl,50.0,answer-state,"
+ah there's two there's two types i'm told ",exists-report-decl,number,positive,punc,type,stop
+51,31,A,frag,63.0,answer-state,"
+",frag,journey-time-enum,positive,pause,length,2s
+51,31,A,frag,63.0,answer-state,"
+",frag,journey-time-enum,positive,punc,type,level
+51,41,A,decl,85.0,answer-state,"
+it's the 6th of October ",frag,month-date,positive,punc,type,level
+51,60,B,decl,122.0,answer-state,"
+it's er Barclay card ",decl,,positive,punc,type,stop
+52,48,B,yes,83.0,answer-state,"
+yes ",,,,punc,type,stop
+53,3,A,decl,15.0,answer-state,"
+there is s... some restrictions with the Saver Return ",exists-decl-disflu,fare,positive,punc,type,stop
+53,23,A,yes,59.0,answer-state,"
+yeah ",,,,punc,type,stop
+53,86,B,decl,203.0,answer-state,"
+it's a Mastercard ",decl,,positive,punc,type,stop
+53,88,B,decl,205.0,answer-state,"
+it's 7 8 3 3 ",frag,enum,positive,punc,type,level
+53,96,B,decl,214.0,answer-state,"
+it's the 4 of the 1st ",decl,number,positive,punc,type,stop
+54,4,B,decl,8.0,answer-state,"
+i do ",decl,,positive,punc,type,stop
+54,6,B,decl,11.0,answer-state,"
+it's Saturday October the 31stt ",decl,month-day,positive,punc,type,stop
+54,20,B,decl,31.0,answer-state,"
+that's the same day ",decl,day,positive,punc,type,stop
+54,56,B,frag,92.0,answer-state,"
+is ",decl,,positive,anonym,type,letter
+54,56,B,frag,92.0,answer-state,"
+is ",decl,,positive,anonym,type,letter
+54,56,B,frag,92.0,answer-state,"
+is ",decl,,positive,punc,type,stop
+55,6,B,decl,16.0,answer-state,"
+it's a debit card ",decl,creditcard,positive,punc,type,stop
+55,10,B,decl,22.0,answer-state,"
+it's for 1 ",decl,,positive,punc,type,stop
+56,60,B,decl,106.0,answer-state,"
+it's a ",decl,creditcard,positive,pause,,
+56,60,B,decl,106.0,answer-state,"
+it's a ",decl,creditcard,positive,punc,type,stop
+56,62,B,decl,109.0,answer-state,"
+it's 0 5 6 5 ",frag,enum,positive,punc,type,level
+56,72,B,decl,120.0,answer-state,"
+it's ",decl,,positive,punc,type,stop
+56,74,B,decl,123.0,answer-state,"
+it's erm April 01 ",decl,month,positive,punc,type,stop
+57,23,A,decl,46.0,answer-state,"
+the advance purchase ticket is like a Walk-on ",decl,fare-journey,positive,punc,type,stop
+57,37,A,decl,81.0,answer-state,"
+the direct services are all ",decl,availability,positive,overlap,type,start
+57,37,A,decl,81.0,answer-state,"
+the direct services are all ",decl,availability,positive,punc,type,stop
+57,47,A,decl,110.0,answer-state,"
+it was the probably a twosome if it was two people ",opinion-probability-condition-decl,number,positive,punc,type,stop
+58,4,B,decl,9.0,answer-state,"
+i've got a credit card ",exists-decl,creditcard,positive,punc,type,stop
+58,68,B,frag,130.0,answer-state,"
+ ",decl,,positive,anonym,type,name
+58,68,B,frag,130.0,answer-state,"
+ ",decl,,positive,punc,type,stop
+58,70,B,decl,133.0,answer-state,"
+it's a Visa ",decl,creditcard,positive,punc,type,stop
+58,95,A,decl,194.0,answer-state,"
+we do say 50 minutes ",frag,time-enum,positive,punc,type,level
+59,4,B,decl,13.0,answer-state,"
+i do ",decl,,positive,punc,type,stop
+59,8,B,decl,18.0,answer-state,"
+i don't ",report-decl,,negative,punc,type,stop
+59,18,B,decl,38.0,answer-state,"
+that's the one ",decl,number,positive,punc,type,stop
+59,42,B,decl,86.0,answer-state,"
+that's the one ",decl,number,positive,punc,type,stop
+59,62,B,decl,152.0,answer-state,"
+it's Barclays Connect Visa card ",decl,creditcard,positive,punc,type,stop
+59,80,B,frag,176.0,answer-state,"
+is 12 99 ",decl,enum,positive,punc,type,stop
+60,4,B,frag,9.0,answer-state,"
+credit card ",decl,creditcard,positive,punc,type,stop
+60,6,B,decl,11.0,answer-state,"
+just the 1 ",decl,,positive,punc,type,stop
+60,8,B,decl,13.0,answer-state,"
+tomorrow the 2nd ",decl,day,positive,punc,type,stop
+60,38,B,decl,70.0,answer-state,"
+it's erm  ",decl,,positive,anonym,type,name
+60,38,B,decl,70.0,answer-state,"
+it's erm  ",decl,,positive,punc,type,stop
+61,6,B,decl,13.0,answer-state,"
+i have an Access ",exists-decl,,positive,punc,type,stop
+61,12,B,decl,20.0,answer-state,"
+i have an O A P railcard ",exists-decl,railcard,positive,punc,type,stop
+61,37,A,yes,83.0,answer-state,"
+yeah ",,,,punc,type,stop
+62,32,B,frag,68.0,answer-state,"
+not really ",decl,,negative,punc,type,stop
+62,76,B,frag,149.0,answer-state,"
+is ",frag,,positive,anonym,type,letter
+62,76,B,frag,149.0,answer-state,"
+is ",frag,,positive,anonym,type,letter
+62,76,B,frag,149.0,answer-state,"
+is ",frag,,positive,punc,type,level
+62,86,B,decl,163.0,answer-state,"
+it's a Visa ",decl,creditcard,positive,punc,type,stop
+62,102,B,decl,181.0,answer-state,"
+it it's it's er the 10th of er 98 ",decl-disflu,,positive,punc,type,stop
+63,12,B,decl,32.0,answer-state,"
+i got er a ",decl,,positive,unclear,length,9 syllables
+63,12,B,decl,32.0,answer-state,"
+i got er a ",decl,,positive,punc,type,stop
+63,16,B,decl,43.0,answer-state,"
+i have a card here ",exists-decl,location,positive,punc,type,stop
+63,20,B,decl,49.0,answer-state,"
+it's a disabled card ",decl,,positive,punc,type,stop
+63,29,A,decl,65.0,answer-state,"
+i need to check availability on the return to see what fare we can offer you ",report-offer-poss1-constrain-decl,fare-availability-verify,positive,punc,type,stop
+63,170,B,decl,314.0,answer-state,"
+it's a connect Barclay Visa ",decl,creditcard,positive,punc,type,stop
+63,172,B,decl,318.0,answer-state,"
+it's 6 9 3 7 ",frag,enum,positive,punc,type,level
+64,4,B,frag,8.0,answer-state,"
+a Switch ",decl,,positive,punc,type,stop
+64,8,B,frag,14.0,answer-state,"
+Saturday the 24thh of October ",decl,month-date-day,positive,punc,type,stop
+64,25,A,decl,57.0,answer-state,"
+the fare the cheapest fare that i'm checking for is 19 pounds Virgin Value fare
+",,fare-verify-enum,positive,,,
+64,26,B,frag,64.0,answer-state,"
+7:34 ",frag,,positive,punc,type,level
+64,60,B,frag,122.0,answer-state,"
+",decl,,positive,anonym,type,letter
+64,60,B,frag,122.0,answer-state,"
+",decl,,positive,anonym,type,letter
+64,60,B,frag,122.0,answer-state,"
+",decl,,positive,punc,type,stop
+64,70,B,frag,133.0,answer-state,"
+",frag,enum,positive,anonym,type,letter
+64,70,B,frag,133.0,answer-state,"
+",frag,enum,positive,anonym,type,letter
+64,70,B,frag,133.0,answer-state,"
+",frag,enum,positive,punc,type,level
+64,90,B,decl,161.0,answer-state,"
+it does indeed ",decl,,positive,punc,type,stop
+64,92,B,frag,164.0,answer-state,"
+2 3 double 2 ",decl,enum,positive,punc,type,stop
+65,25,A,decl,44.0,answer-state,"
+that's the Virgin Value fare ",decl,fare,positive,punc,type,stop
+66,4,B,decl,9.0,answer-state,"
+i do ",decl,,positive,punc,type,stop
+66,10,B,decl,22.0,answer-state,"
+it is just for 1 ",decl,number,positive,punc,type,stop
+67,41,A,decl,69.0,answer-state,"
+the ",decl-disflu,fare-journey-enum-day,positive,overlap,type,end
+67,41,A,decl,69.0,answer-state,"
+the ",decl-disflu,fare-journey-enum-day,positive,punc,type,stop
+68,52,B,decl,102.0,answer-state,"
+that's ",decl,,positive,anonym,type,letter
+68,52,B,decl,102.0,answer-state,"
+that's ",decl,,positive,anonym,type,letter
+68,52,B,decl,102.0,answer-state,"
+that's ",decl,,positive,anonym,type,letter
+68,52,B,decl,102.0,answer-state,"
+that's ",decl,,positive,anonym,type,letter
+68,52,B,decl,102.0,answer-state,"
+that's ",decl,,positive,punc,type,stop
+68,56,B,decl,107.0,answer-state,"
+it's a company ",decl,,positive,punc,type,stop
+68,92,B,decl,163.0,answer-state,"
+it's er a Visa ",decl,creditcard,positive,punc,type,stop
+68,94,B,decl,165.0,answer-state,"
+it it's 1 2 7 0 ",frag-disflu,enum,positive,punc,type,level
+69,25,A,decl,57.0,answer-state,"
+it's just been giving me the quickest change time ",benefit-decl,time,positive,pause,,
+69,25,A,decl,57.0,answer-state,"
+it's just been giving me the quickest change time ",benefit-decl,time,positive,punc,type,stop
+69,37,A,frag,99.0,answer-state,"
+for ",partial-decl,journey-day,positive,overlap,type,end
+69,37,A,frag,99.0,answer-state,"
+for ",partial-decl,journey-day,positive,punc,type,stop
+69,49,A,decl,125.0,answer-state,"
+the 61 pounds 50 is called a Super Saver ",decl,fare-enum,positive,punc,type,stop
+70,6,B,decl,16.0,answer-state,"
+i do ",decl,,positive,punc,type,stop
+70,8,B,decl,18.0,answer-state,"
+the 17th ",decl,,positive,punc,type,stop
+70,10,B,decl,21.0,answer-state,"
+it's for 1 ",decl,number,positive,punc,type,stop
+70,33,A,decl,55.0,answer-state,"
+13:50 departing Euston ",frag,location-enum-departure,positive,backchannel,content,yeah
+70,33,A,decl,55.0,answer-state,"
+13:50 departing Euston ",frag,location-enum-departure,positive,punc,type,level

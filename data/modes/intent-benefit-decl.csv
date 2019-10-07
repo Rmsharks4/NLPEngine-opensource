@@ -1,0 +1,29 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,21,A,decl,49.0,stateIntent-hold,"
+",intent-benefit-decl,verify,positive,pause,length,5s
+39,21,A,decl,49.0,stateIntent-hold,"
+",intent-benefit-decl,verify,positive,punc,type,stop
+44,29,A,decl,75.0,stateIntent,"
+what i'm going to do is arrange for you to collect your ticket on the day of travel ",intent-benefit-decl,journey-day,positive,punc,type,stop
+44,33,A,decl,82.0,stateIntent,"
+i'm going to book that for you ",intent-benefit-decl,booking,positive,punc,type,stop
+49,59,A,decl,117.0,stateIntent,"
+and i'm going to arrange for you to collect your tickets tomorrow from London Euston ",intent-benefit-decl,location-journey-from-day,positive,punc,type,stop
+53,3,A,decl,17.0,stateIntent-hold,"
+i'll get them for you ",intent-benefit-decl,,positive,punc,type,stop
+56,39,A,decl,77.0,stateIntent,"
+i'm going to arrange for you to collect your ticket from the train station ",intent-benefit-decl,journey,positive,punc,type,stop
+57,13,A,decl,23.0,stateIntent-hold,"
+",intent-benefit-decl,verify,positive,pause,length,3s
+57,13,A,decl,23.0,stateIntent-hold,"
+",intent-benefit-decl,verify,positive,overlap,type,start
+57,13,A,decl,23.0,stateIntent-hold,"
+",intent-benefit-decl,verify,positive,punc,type,stop
+63,45,A,decl,109.0,stateIntent-hold,"
+i'll check Saturday for you ",intent-benefit-decl,verify-day,positive,punc,type,stop
+64,49,A,decl,102.0,stateIntent,"
+i'll try and book that for you ",intent-benefit-decl,booking,positive,punc,type,stop
+69,17,A,decl,38.0,stateIntent,"
+",intent-benefit-decl,verify,positive,pause,,
+69,17,A,decl,38.0,stateIntent,"
+",intent-benefit-decl,verify,positive,punc,type,stop

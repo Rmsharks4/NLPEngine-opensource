@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+57,56,B,frag,133.0,elab-direct,"
+please ",request-decl,,positive,punc,type,stop

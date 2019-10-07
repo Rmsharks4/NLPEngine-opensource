@@ -1,0 +1,14 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+2,10,B,decl,13.0,answ,"
+the Saturday which is the third i think
+",opinion-closure,day,positive,,,
+22,46,B,decl,104.0,confirm,"
+they're all gone as well i suppose
+",opinion-closure,,positive,,,
+23,24,B,frag,36.0,answ,"
+erm the next Thursday the Thursday after ",opinion-closure,day,positive,pause,length,2s
+23,24,B,frag,36.0,answ,"
+erm the next Thursday the Thursday after ",opinion-closure,day,positive,pause,length,7s
+27,36,B,frag,77.0,answ,"
+yes
+",opinion-closure,,positive,,,

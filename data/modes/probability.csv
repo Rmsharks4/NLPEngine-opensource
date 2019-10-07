@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+6,50,B,frag,70.0,answElab,"
+er probably %street Road
+",probability,,positive,,,
+22,47,A,decl,105.0,answ,"
+er it was the probably a twosome
+",probability,number,positive,,,

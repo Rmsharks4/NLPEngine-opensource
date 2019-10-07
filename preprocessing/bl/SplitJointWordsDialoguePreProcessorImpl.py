@@ -34,7 +34,10 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
         :param splits: (SplitsDictionary) splits utils
         :return: (str) preprocessed data
         """
-        return text if text not in splits.splits_dict else splits.splits_replace
+
+        def replace(match):
+            return splits.splits_dict[match.group(0)]
+        return splits.splits_re.sub(replace, text)
 
     def preprocess_operation(self, args):
         """

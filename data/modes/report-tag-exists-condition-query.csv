@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+69,26,B,decl,67.0,reqConfirm,"
+i was a bit concerned that erm ",report-tag-exists-condition-query,number-miss-location-time,negative,pause,,
+69,26,B,decl,67.0,reqConfirm,"
+i was a bit concerned that erm ",report-tag-exists-condition-query,number-miss-location-time,negative,punc,type,query

@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+46,34,B,decl,74.0,reqInfo,"
+and that's going to get into Birmingham at ",predict-query,location,positive,punc,type,query
+47,157,A,decl,298.0,predict,"
+and the ticket will be waiting there tomorrow
+",predict-query,location-journey-day,positive,,,

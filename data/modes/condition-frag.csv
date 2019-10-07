@@ -1,0 +1,103 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,decl,53.0,stateCondition,"
+as long as you're prepared to stick to the date and time ",condition-frag,time-date,positive,backchannel,content,yes
+36,29,A,decl,53.0,stateCondition,"
+as long as you're prepared to stick to the date and time ",condition-frag,time-date,positive,punc,type,level
+37,33,A,decl,54.0,stateCondition,"
+if it has to be the dates and times that you specified to me ",condition-frag,date,positive,backchannel,content,ok
+37,33,A,decl,54.0,stateCondition,"
+if it has to be the dates and times that you specified to me ",condition-frag,date,positive,punc,type,level
+38,51,A,decl,76.0,direct-state,"
+if i ask you to be there for 60 minutes before departure time on the day of travel ",condition-frag,time-location-journey-enum-day-departure,positive,backchannel,content,yes
+38,51,A,decl,76.0,direct-state,"
+if i ask you to be there for 60 minutes before departure time on the day of travel ",condition-frag,time-location-journey-enum-day-departure,positive,punc,type,level
+39,31,A,frag,75.0,answer-stateCondition,"
+",condition-frag,fare-availability-location,positive,pause,length,10s
+39,31,A,frag,75.0,answer-stateCondition,"
+",condition-frag,fare-availability-location,positive,punc,type,level
+39,65,A,decl,162.0,stateCondition,"
+if it's after the 2 o'clock deadline ",condition-frag,time-enum,positive,punc,type,level
+40,51,A,decl,76.0,direct-state,"
+if i ask you to be there for 60 minutes before departure time on the day of travel ",condition-frag,time-location-journey-enum-day-departure,positive,backchannel,content,yes
+40,51,A,decl,76.0,direct-state,"
+if i ask you to be there for 60 minutes before departure time on the day of travel ",condition-frag,time-location-journey-enum-day-departure,positive,punc,type,level
+46,45,A,decl,99.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,pause,,
+46,45,A,decl,99.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,punc,type,level
+46,45,A,decl,101.0,stateCondition,"
+if you did want to change any of the times of the travel ",condition-frag,journey,positive,punc,type,level
+49,61,A,decl,120.0,direct-state,"
+if i ask you to be there for half an hour before departure time of the train ",condition-frag,time-location-departure,positive,punc,type,level
+51,43,A,decl,97.0,stateCondition,"
+if you miss any train ",condition-frag,miss,positive,punc,type,level
+52,24,B,decl,37.0,stateCondition,"
+if i book a ticket ",condition-frag,booking-journey,positive,punc,type,level
+53,7,A,decl,24.0,stateCondition,"
+if you're travelling back on a Sunday ",condition-frag,journey-day,positive,punc,type,level
+53,30,B,decl,82.0,stateCondition,"
+if i book it for a certain time going down ",condition-frag,booking-time,positive,punc,type,level
+53,59,A,decl,157.0,stateCondition,"
+if it's a Sunday ",condition-frag,day,positive,punc,type,level
+54,35,A,decl,66.0,stateCondition,"
+",condition-frag,journey-time,positive,pause,,
+54,35,A,decl,66.0,stateCondition,"
+",condition-frag,journey-time,positive,punc,type,level
+57,53,A,frag,120.0,stateCondition,"
+",condition-frag,fare-availability-time,positive,pause,,
+57,53,A,frag,120.0,stateCondition,"
+",condition-frag,fare-availability-time,positive,punc,type,level
+58,43,A,decl,81.0,stateCondition,"
+if you miss any ",condition-frag,miss,positive,pause,,
+58,43,A,decl,81.0,stateCondition,"
+if you miss any ",condition-frag,miss,positive,punc,type,level
+58,94,B,decl,191.0,stateCondition,"
+if i'm not there 50 minutes beforehand ",condition-frag,time-location-enum,negative,punc,type,level
+60,25,A,decl,40.0,stateCondition,"
+if i provisionally book you on a return service ",condition-frag,booking-fare,positive,punc,type,level
+60,25,A,decl,41.0,stateCondition,"
+",condition-frag,miss,positive,pause,,
+60,25,A,decl,41.0,stateCondition,"
+",condition-frag,miss,positive,punc,type,level
+61,55,A,decl,162.0,stateCondition,"
+",condition-frag,time-journey-day-cancel,positive,pause,,
+61,55,A,decl,162.0,stateCondition,"
+",condition-frag,time-journey-day-cancel,positive,backchannel,content,yes
+61,55,A,decl,162.0,stateCondition,"
+",condition-frag,time-journey-day-cancel,positive,punc,type,level
+62,51,A,decl,114.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,pause,,
+62,51,A,decl,114.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,backchannel,content,yes
+62,51,A,decl,114.0,stateCondition,"
+",condition-frag,time-journey-enum-day-cancel,positive,punc,type,level
+62,53,A,decl,117.0,stateCondition,"
+if it's after the 2 o'clock deadline ",condition-frag,time-enum,positive,punc,type,level
+63,129,A,decl,255.0,stateCondition,"
+if you cancel by 2 o'clock today ",condition-frag,time-enum-day-cancel,positive,punc,type,level
+64,53,A,decl,109.0,stateCondition,"
+if you cancel the Virgin Value ",condition-frag,cancel,positive,punc,type,level
+68,47,A,decl,88.0,stateCondition,"
+",condition-frag,miss,positive,pause,,
+68,47,A,decl,88.0,stateCondition,"
+",condition-frag,miss,positive,punc,type,level
+69,35,A,decl,93.0,elab-stateCondition,"
+",condition-frag,day-return,negative,overlap,type,end
+69,35,A,decl,93.0,elab-stateCondition,"
+",condition-frag,day-return,negative,punc,type,level
+69,35,A,decl,95.0,stateCondition,"
+if you're returning on a Friday ",condition-frag,day-return,positive,punc,type,level
+69,43,A,decl,108.0,stateCondition,"
+if you return on a Friday ",condition-frag,fare-day,positive,punc,type,level
+69,47,A,decl,118.0,elab-stateCondition,"
+if you ",condition-frag,time,negative,pause,,
+69,47,A,decl,118.0,elab-stateCondition,"
+if you ",condition-frag,time,negative,punc,type,level
+70,13,A,decl,25.0,stateCondition,"
+if you're actually buying a return ticket ",condition-frag,fare-journey,positive,punc,type,level
+70,113,A,decl,215.0,stateCondition,"
+if your sister calls you back and says that she doesn't want it ",condition-frag,,negative,punc,type,level
+70,115,A,decl,218.0,stateCondition,"
+if it's after the 2 o'clock deadline ",condition-frag,time-enum,positive,punc,type,level
+70,183,A,decl,337.0,state,"
+so if there was any problems with connections ",condition-frag,problem-location,positive,punc,type,level

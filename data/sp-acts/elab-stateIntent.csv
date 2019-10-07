@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+46,4,B,decl,12.0,elab-stateIntent,"
+i want to book the ticket ",intent-preference1-decl,booking-journey,positive,punc,type,stop
+46,24,B,decl,55.0,elab-stateIntent,"
+i'll get on the 7:15 ",intent-decl,,positive,vocal,content,laughter
+46,24,B,decl,55.0,elab-stateIntent,"
+i'll get on the 7:15 ",intent-decl,,positive,punc,type,stop
+53,36,B,decl,100.0,elab-stateIntent,"
+i wanted to get on the 3:20 if possible ",intent-report-preference1-condition-decl,enum,positive,punc,type,stop
+62,124,B,decl,217.0,elab-stateIntent,"
+i'll send these others back now then ",intent-decl,,positive,punc,type,stop

@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,47,A,frag,99.0,direct-refer,"
+your surname please ",request-frag,name,positive,punc,type,level
+36,61,A,imp,115.0,direct,"
+and confirm that address for me please ",request-frag,confirm-address,positive,punc,type,level

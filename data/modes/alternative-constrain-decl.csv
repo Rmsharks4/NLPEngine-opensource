@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+41,19,A,decl,31.0,stateOpt,"
+it'll either have to either be the 13:20 departing Preston or the 16:31 ",alternative-constrain-decl,location-enum-departure,positive,punc,type,stop
+60,25,A,decl,43.0,state,"
+or you don't need to book a return ",alternative-constrain-decl,booking-fare,negative,punc,type,stop

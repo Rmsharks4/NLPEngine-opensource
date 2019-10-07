@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+37,16,B,decl,25.0,predictPossibility,"
+",opinion-predict-decl,enum,positive,pause,,
+37,16,B,decl,25.0,predictPossibility,"
+",opinion-predict-decl,enum,positive,punc,type,stop

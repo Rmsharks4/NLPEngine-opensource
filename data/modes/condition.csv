@@ -1,0 +1,136 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,29,A,decl,50.0,inform,"
+as long as you're prepared to stick to the date and time ",condition,time-date,positive,backchannel,content,yes
+1,45,A,decl,86.0,inform,"
+if you miss the service i've reserved you on
+",condition,miss,positive,,,
+1,45,A,decl,92.0,inform,"
+if you wanted to change the time of that travel
+",condition,preference-time-journey,positive,,,
+3,51,A,decl,67.0,direct,"
+if i ask you to be there for 60 minutes before departure time on the day of travel ",condition,time-day-departure-journey,positive,backchannel,content,yes
+3,107,A,decl,153.0,inform,"
+and you cancel by 2 o'clock the day before travel
+",condition,cancel-day-time-fare-journey,positive,,,
+4,67,A,decl,152.0,inform,"
+if it's after the 2 o'clock deadline
+",condition,time,positive,,,
+4,67,A,decl,155.0,inform,"
+and if you wanted to change any of the times of travel
+",condition,preference-journey,positive,,,
+7,49,A,decl,75.0,inform,"
+and if you miss a service that i have booked you on
+",condition,miss-booking,positive,,,
+8,34,B,decl,61.0,answElab,"
+if you have it please
+",condition,,positive,,,
+9,95,A,decl,154.0,inform,"
+and if you miss the service that i have booked you on
+",condition,miss-booking,positive,,,
+11,45,A,decl,81.0,inform,"
+as long as you cancel by 6 o'clock day before travel
+",condition,cancel-time-day-journey,positive,,,
+11,45,A,decl,83.0,inform,"
+if you did want to change any of the times of the travel
+",condition,preference-journey,positive,,,
+12,66,B,decl,102.0,inform,"
+if you put it
+",condition,,positive,,,
+12,97,A,decl,173.0,answElab,"
+if it if the system lets me book it ",condition,,positive,pause,,
+12,123,A,decl,224.0,inform,"
+if you do miss any services that i have reserved you on ",condition,miss,positive,pause,,
+14,13,A,decl,23.0,informIntent,"
+we'll try that one first of all to see if that's going to suit your times
+",condition,number,positive,,,
+14,25,A,decl,41.0,inform,"
+if you want to get to Wrexham Central
+",condition,location-preference-to,positive,,,
+14,27,A,decl,45.0,inform,"
+if that's going to be the best station for you
+",condition,,positive,,,
+14,55,A,decl,98.0,inform,"
+if you miss any services that i have reserved you on ",condition,miss,positive,pause,,
+14,61,A,decl,107.0,direct,"
+if i ask you to be there for half an hour before departure time of the train
+",condition,time-departure,positive,,,
+17,24,B,q-yn,33.0,reqInfo,"
+if i book a ticket does it have a specific time that i get on
+",condition,booking-journey-time,positive,,,
+18,9,A,decl,20.0,inform,"
+if you're travelling back on a Sunday
+",condition,day-journey,positive,,,
+18,27,A,decl,62.0,answElab,"
+and it's what you'd always be charged as long as you're travelling at the appropriate times
+",condition,time-journey,positive,,,
+18,61,A,decl,137.0,inform,"
+if it's a Sunday you're coming back
+",condition,day,positive,,,
+18,103,A,decl,198.0,inform,"
+if you collect the tickets 90 minutes before departure time at the train station ",condition,time-departure-journey,positive,pause,,
+21,41,A,decl,72.0,suggest,"
+if you be there for quarter of an hour before departure time of the train
+",condition,time-departure,positive,,,
+22,47,A,decl,106.0,answElab,"
+if it was two people
+",condition,number,positive,,,
+23,43,A,decl,69.0,inform,"
+if you miss any ",condition,time-miss,positive,pause,,
+23,85,A,decl,144.0,inform,"
+if you miss any services that i've reserved you on
+",condition,miss,positive,,,
+25,27,A,decl,38.0,inform,"
+if i provisionally book you on a return service ",condition,fare-booking,positive,pause,,
+25,27,A,decl,39.0,inform,"
+if you miss that
+",condition,miss,positive,,,
+26,55,A,decl,139.0,inform,"
+if you cancel by 2 o clock the day before travel ",condition,cancel-time-day-journey,positive,backchannel,content,yes
+27,51,A,decl,102.0,inform,"
+if you cancel by 2 o'clock the day before travel ",condition,cancel-time-day-journey,positive,backchannel,content,yes
+27,53,A,decl,105.0,inform,"
+if it's after the 2 o'clock deadline but before departure time of the train
+",condition,time,positive,,,
+28,2,B,decl,8.0,inform,"
+if it is possible darling ",condition,,positive,pause,,
+28,14,B,decl,26.0,directElab,"
+if it is possible after ",condition,,positive,unclear,length,1 syllable
+28,129,A,decl,214.0,inform,"
+if you cancel by 2 o'clock today you would receive a full refund less 5 pounds ",condition,cancel-time-refund-day-fare,positive,backchannel,content,right
+28,129,A,frag,215.0,inform,"
+but if you cancelled after 2 o'clock today
+",condition,cancel-time-day,positive,,,
+29,53,A,decl,99.0,inform,"
+if you cancel the Virgin value
+",condition,cancel,positive,,,
+33,29,A,decl,38.0,inform,"
+but if you re... miss the train on the return journey
+",condition,miss-fare-journey,positive,,,
+33,47,A,decl,76.0,inform,"
+if you miss that service
+",condition,miss,positive,,,
+34,26,B,decl,50.0,inform,"
+if i miss that ",condition,miss,positive,pause,,
+34,26,B,decl,53.0,inform,"
+i... if i miss that connection
+",condition,miss,positive,,,
+34,35,A,decl,76.0,inform,"
+if it's if you're not returning on a Friday
+",condition,,positive,,,
+34,35,A,decl,78.0,inform,"
+if you're returning on a Friday
+",condition,day-return,positive,,,
+34,43,A,decl,92.0,inform,"
+if you return on a Friday
+",condition,day-fare,positive,,,
+35,13,A,decl,23.0,inform,"
+if you're actually buying a return ticket
+",condition,fare-journey,positive,,,
+35,115,A,decl,198.0,inform,"
+if you cancel by 2 o'clock the day before the outward ",condition,cancel-time-day-journey,positive,pause,,
+35,117,A,decl,200.0,inform,"
+if it's after the 2 o'clock deadline
+",condition,time,positive,,,
+35,189,A,decl,313.0,inform,"
+if there was any problems with connections then
+",condition,,positive,,,

@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+42,41,A,frag,73.0,answer-state-abandon,"
+they wen... ",abandon,,positive,punc,type,incomplete
+52,31,A,decl,52.0,answer-state-abandon,"
+",abandon,,positive,pause,length,2s
+52,31,A,decl,52.0,answer-state-abandon,"
+",abandon,,positive,punc,type,incomplete
+66,6,B,decl,12.0,answer-state-abandon,"
+i am travelling on ",abandon,journey,positive,punc,type,incomplete

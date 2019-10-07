@@ -1,0 +1,10 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+15,60,B,frag,108.0,greet,"
+hello
+",partial-greet,,positive,,,
+15,61,A,frag,109.0,greet,"
+hello
+",partial-greet,,positive,,,
+15,79,A,frag,144.0,greet,"
+hello
+",partial-greet,,positive,,,

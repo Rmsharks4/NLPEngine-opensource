@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,2,B,decl,4.0,direct,"
+erm i  want em a Virgin val... value fare from London to Birmingham please
+",intent-closure-closure,location-preference-to-from-fare,positive,,,
+9,10,B,decl,17.0,direct,"
+em i want to be up in Crewe by about 9
+",intent-closure-closure,preference,positive,,,

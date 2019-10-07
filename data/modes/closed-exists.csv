@@ -1,0 +1,43 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+4,6,B,q-yn,11.0,reqInfo,"
+em is there a train from Liverpool
+",closed-exists,location-from,positive,,,
+4,28,B,q-yn,65.0,reqInfo,"
+is there any going from ",closed-exists,,positive,pause,,
+4,28,B,q-yn,65.0,reqInfo,"
+is there any going from ",closed-exists,,positive,pause,,
+8,29,A,q-yn,48.0,reqDirect,"
+",closed-exists,preference-booking-seat,positive,pause,length,4s
+11,18,B,q-yn,30.0,reqInfo,"
+erm ",closed-exists,,negative,pause,,
+12,31,A,q-yn,47.0,reqDirect,"
+and is there any seat prefrence
+",closed-exists,,positive,,,
+12,44,B,q-yn,63.0,reqInfo,"
+erm is there any faster one just ",closed-exists,number,positive,pause,,
+12,110,B,q-yn,199.0,reqInfo,"
+erm is there a one is there a train before the 20 13
+",closed-exists,enum-number,positive,,,
+14,49,A,q-yn,84.0,reqInfo,"
+is there any seat preference
+",closed-exists,preference-booking-seat,positive,,,
+22,36,B,q-yn,77.0,reqInfo,"
+are there no trains that go directly to Blackpool
+",closed-exists,to-location,negative,,,
+25,31,A,q-yn,48.0,reqInfo,"
+is there any seat preference
+",closed-exists,preference-booking-seat,positive,,,
+26,47,A,q-yn,98.0,reqDirect,"
+is there any seat preference
+",closed-exists,preference-booking-seat,positive,,,
+27,31,A,q-yn,56.0,reqDirect,"
+",closed-exists,preference-booking-seat,positive,pause,,
+29,24,B,q-yn,48.0,reqInfo,"
+is there availability on that ",closed-exists,number-avail,positive,pause,,
+34,12,B,q-yn,19.0,reqInfo,"
+is there one sort of er twoish er 2 somewhere between 2 and 3
+",closed-exists,number-enum,positive,,,
+35,32,B,q-yn,48.0,reqInfo,"
+would it do they do they have an earlier one where there is a value f... ",closed-exists,number,positive,pause,,
+35,88,B,q-yn,144.0,reqInfo,"
+is there anything a little is there anything available more expensively if you see what i mean ",closed-exists,avail,positive,pause,,

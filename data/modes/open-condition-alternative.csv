@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+35,186,B,q-wh,303.0,reqInfo,"
+what if the coach Ma... is is not running properly or something
+",open-condition-alternative,,negative,,,

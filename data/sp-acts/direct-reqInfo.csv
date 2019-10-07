@@ -1,0 +1,55 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,18,B,q-yn,44.0,direct-reqInfo,"
+can you tell me ",query,,positive,punc,type,query
+41,69,A,q-yn,104.0,direct-reqInfo,"
+can you repeat that long number across your card ",query,number,positive,punc,type,query
+43,69,A,q-yn,138.0,direct-reqInfo,"
+and could you give me the long number across your credit card ",query,number-creditcard,positive,punc,type,query
+44,48,B,q-yn,114.0,direct-reqInfo,"
+",request-query,seat,positive,pause,,
+44,48,B,q-yn,114.0,direct-reqInfo,"
+",request-query,seat,positive,punc,type,query
+44,71,A,q-yn,156.0,direct-reqInfo,"
+could you give me your contact telephone number ",query,telephone-number,positive,punc,type,query
+48,121,A,q-yn,197.0,direct-reqInfo,"
+can you repeat your number again please ",request-query,number,positive,punc,type,query
+51,69,A,q-yn,138.0,direct-reqInfo,"
+have you got the got the postcode first of all please ",request-closed-query,address,positive,punc,type,query
+53,61,A,q-yn,164.0,direct-reqInfo,"
+can you give me your full address please ",request-query,address,positive,punc,type,query
+53,73,A,q-yn,185.0,direct-reqInfo,"
+could you give me a contact telephone number please ",request-query,telephone-number,positive,punc,type,query
+53,112,B,q-yn,248.0,direct-reqInfo,"
+could you check it ",query,verify,positive,punc,type,query
+54,65,A,q-yn,104.0,direct-reqInfo,"
+could you give me your credit card number ",query,number-creditcard,positive,punc,type,query
+56,20,B,q-yn,43.0,direct-reqInfo,"
+can you just let me ",query,,positive,pause,,
+56,20,B,q-yn,43.0,direct-reqInfo,"
+can you just let me ",query,,positive,punc,type,query
+56,49,A,q-yn,90.0,direct-reqInfo,"
+could you give me your contact telephone number please ",request-query,telephone-number,positive,punc,type,query
+57,26,B,q-yn,62.0,direct-reqInfo,"
+would you mind try... er checking for me then erm to travel on the Thursday ",query,journey-verify-time-day,positive,pause,,
+57,26,B,q-yn,62.0,direct-reqInfo,"
+would you mind try... er checking for me then erm to travel on the Thursday ",query,journey-verify-time-day,positive,punc,type,query
+57,54,B,q-yn,124.0,direct-reqInfo,"
+",exists-condition-query,journey-enum,positive,pause,,
+57,54,B,q-yn,124.0,direct-reqInfo,"
+",exists-condition-query,journey-enum,positive,punc,type,query
+58,55,A,q-yn,102.0,direct-reqInfo,"
+can you give me your contact telephone number please ",request-query,telephone-number,positive,punc,type,query
+59,29,A,q-yn,62.0,direct-reqInfo,"
+could you give me a contact telephone number please ",request-query,telephone-number,positive,punc,type,query
+61,50,B,q-yn,131.0,direct-reqInfo,"
+could i have front facing from Taunton to erm ",exists-query,location-from-seat,positive,punc,type,query
+63,163,A,q-yn,303.0,direct-reqInfo,"
+can you confirm that address for me please ",request-query,confirm-address,positive,punc,type,query
+63,165,A,q-yn,305.0,direct-reqInfo,"
+can you confirm your address for me ",query,confirm-address,positive,punc,type,query
+64,24,B,q-yn,55.0,direct-reqInfo,"
+can you do can is there availability on that ",exists-query,availability-number-location,positive,pause,,
+64,24,B,q-yn,55.0,direct-reqInfo,"
+can you do can is there availability on that ",exists-query,availability-number-location,positive,punc,type,query
+70,135,A,q-yn,261.0,direct-reqInfo,"
+could you give me your contact telephone number please ",request-query,telephone-number,positive,punc,type,query

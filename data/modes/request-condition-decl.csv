@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+43,34,B,frag,70.0,direct-refer,"
+rear facing if you have it please ",request-condition-decl,seat,positive,punc,type,stop
+52,34,B,frag,57.0,direct-referCondition,"
+if erm ",request-condition-decl,time-enum,positive,pause,length,3s
+52,34,B,frag,57.0,direct-referCondition,"
+if erm ",request-condition-decl,time-enum,positive,pause,,
+52,34,B,frag,57.0,direct-referCondition,"
+if erm ",request-condition-decl,time-enum,positive,punc,type,stop

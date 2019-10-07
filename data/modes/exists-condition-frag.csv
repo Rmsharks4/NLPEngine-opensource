@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+41,31,A,decl,53.0,stateCondition,"
+",exists-condition-frag,miss,positive,pause,,
+41,31,A,decl,53.0,stateCondition,"
+",exists-condition-frag,miss,positive,punc,type,level
+42,49,A,decl,86.0,stateCondition,"
+and if you miss a service that i have booked you on ",exists-condition-frag,booking-miss,positive,punc,type,level
+44,91,A,decl,184.0,stateCondition,"
+and if you miss the service that i have booked you on ",exists-condition-frag,booking-miss,positive,punc,type,level
+47,121,A,decl,243.0,stateCondition,"
+if you do miss any services that i have reserved you on ",exists-condition-frag,miss,positive,punc,type,level
+49,55,A,decl,112.0,stateCondition,"
+if you miss any services that i have reserved you on ",exists-condition-frag,miss,positive,punc,type,level

@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,6,B,q-yn,13.0,reqInfo,"
+is there a train from Liverpool ",exists-closed-query,location-from,positive,punc,type,query
+47,108,B,q-yn,216.0,reqInfo,"
+is there a one is there a train before the 20:13 ",exists-closed-query,location-number-time,positive,punc,type,query
+57,36,B,q-yn,79.0,reqInfo,"
+so are there no trains that go directly to Blackpool ",exists-closed-query,location-to,negative,punc,type,query
+58,94,B,q-yn,192.0,reqInfo,"
+is there going to be a major problem ",exists-closed-query,problem-location,positive,punc,type,query
+69,12,B,q-yn,23.0,reqInfo,"
+is there one sort of er twoish ",exists-closed-query,number-location,positive,punc,type,query
+70,86,B,q-yn,157.0,reqInfo,"
+is there anything available more expensively ",exists-closed-query,availability-location,positive,punc,type,query

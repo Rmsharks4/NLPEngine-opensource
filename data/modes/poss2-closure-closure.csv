@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+7,21,A,decl,36.0,accept,"
+you can
+",poss2-closure-closure,,positive,,,

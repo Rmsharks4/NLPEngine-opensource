@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,28,B,frag,70.0,reqInfo,"
+",alternative-query,location,positive,pause,,
+39,28,B,frag,70.0,reqInfo,"
+",alternative-query,location,positive,punc,type,query
+63,62,B,q-yn,142.0,reqOpt,"
+or can you do for a week ",alternative-query,,positive,punc,type,query

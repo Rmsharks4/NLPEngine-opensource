@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+68,25,A,decl,37.0,state,"
+the cheapest fare that i can offer you going out at that time and returning at 6:45 ",offer-poss1-frag,fare-time-return,positive,punc,type,level

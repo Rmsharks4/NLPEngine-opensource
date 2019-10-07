@@ -1,0 +1,63 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,20,B,frag,29.0,answ,"
+em same day on the em 17 15
+",deixis-closure,day-enum,positive,,,
+3,2,B,frag,4.0,direct,"
+er from Macclesfield to London Euston return
+",deixis-closure,to-location-from-fare,positive,,,
+3,18,B,frag,21.0,direct,"
+er ",deixis-closure,day-time-month-date,positive,pause,,
+3,18,B,frag,21.0,direct,"
+er ",deixis-closure,day-time-month-date,positive,pause,,
+3,93,A,frag,121.0,inform,"
+60 pounds will be debited from that account ",deixis-closure,fare-booking,positive,pause,,
+6,2,B,frag,4.0,direct,"
+Preston to Rugby
+",deixis-closure,to-location,positive,,,
+8,2,B,frag,4.0,direct,"
+er from Nuneaton to Euston
+",deixis-closure,to-location-from,positive,,,
+11,50,B,frag,92.0,answ,"
+Miss ",deixis-closure,,positive,pause,,
+12,60,B,frag,92.0,answ,"
+on Sunday sorry
+",deixis-closure,day,positive,,,
+13,108,B,frag,158.0,answ,"
+Barclay card
+",deixis-closure,,positive,,,
+15,2,B,frag,4.0,direct,"
+erm erm Warrington to London tomorrow morning on the 8 44
+",deixis-closure,to-location-day-time,positive,,,
+15,18,B,frag,40.0,answ,"
+Sunday ",deixis-closure,day,positive,pause,,
+17,2,B,frag,4.0,direct,"
+erm Birmingham to Euston ",deixis-closure,to-location,positive,unclear,length,2 syllables
+18,13,A,frag,28.0,inform-cont,"
+Monday to Friday ",deixis-closure,day-to,positive,pause,,
+22,2,B,frag,4.0,direct,"
+erm from London to Blackpool
+",deixis-closure,to-location-from,positive,,,
+23,2,B,frag,4.0,direct,"
+erm ",deixis-closure,to-location-from,positive,pause,,
+23,33,A,frag,51.0,answElab,"
+in Oxenholme
+",deixis-closure,,positive,,,
+24,14,B,frag,21.0,answ,"
+er Sunday ",deixis-closure,day,positive,pause,,
+26,20,B,frag,31.0,direct,"
+er on Friday the thirtieth of October
+",deixis-closure,month-day-date,positive,,,
+28,4,B,frag,11.0,answ,"
+from Euston to London ",deixis-closure,to-location-from,positive,pause,,
+28,14,B,frag,25.0,direct,"
+er in the morning
+",deixis-closure,time,positive,,,
+29,33,A,frag,69.0,complete,"
+Virgin value
+",deixis-closure,,positive,,,
+30,2,B,frag,4.0,direct,"
+er Manchester Picadilly
+",deixis-closure,location,positive,,,
+31,2,B,frag,4.0,direct,"
+erm Manchester Picadilly to Birmingham N E C
+",deixis-closure,to-location,positive,,,

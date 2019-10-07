@@ -1,0 +1,77 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+3,97,A,decl,128.0,inform,"
+the best available i can book you is in smoking ",poss1,avail-booking-seat,positive,pause,,
+4,18,B,decl,41.0,informIntent,"
+i may as well get on with them in Wigan then
+",poss1,,positive,,,
+5,36,B,decl,55.0,reqInfo,"
+i can't get another one
+",poss1,number,negative,,,
+5,42,B,decl,68.0,confirm,"
+and i can just get that on the day
+",poss1,day,positive,,,
+8,50,B,decl,84.0,informIntent-hold,"
+the the er yeah just a moment i've got i can give you a registered address
+",poss1,address,positive,,,
+12,97,A,decl,171.0,answ,"
+",poss1,booking,positive,pause,,
+12,119,A,frag,217.0,inform,"
+best available that i can reserve you in ",poss1,day-enum-avail,positive,pause,,
+13,36,B,decl,58.0,reqInfo,"
+i can still leave during this 8 53
+",poss1,departure-time,positive,,,
+13,58,B,decl,87.0,informIntent,"
+i can come home on the 19 09
+",poss1,enum,positive,,,
+14,90,B,decl,151.0,inform,"
+i can't actually take it with me
+",poss1,,negative,,,
+15,76,B,decl,139.0,informIntent-disc,"
+i can get it off anoth... another person
+",poss1,,positive,,,
+16,33,A,decl,63.0,answElab,"
+i can do that for you
+",poss1,,positive,,,
+18,14,B,decl,35.0,confirm,"
+i can't travel down after 6 in the morning
+",poss1,time-journey,negative,,,
+18,42,B,decl,99.0,directElab,"
+just so i can make sure i've got a seat on there ",poss1,,positive,pause,,
+24,36,B,decl,62.0,offer,"
+mhm i can give you a home phone number as well if you want
+",poss1,number,positive,,,
+24,49,A,decl,91.0,inform,"
+that's the best available that i can get
+",poss1,avail,positive,,,
+25,23,A,decl,31.0,inform,"
+",poss1,fare-time,positive,pause,length,2s
+25,42,B,decl,70.0,express-possibility,"
+i can't do that
+",poss1,,negative,,,
+28,32,B,decl,56.0,express-possibility,"
+i might come back in a week's time you know
+",poss1,time,positive,,,
+28,63,A,decl,116.0,answElab,"
+i can
+",poss1,,positive,,,
+32,23,A,decl,39.0,inform,"
+the next cheapest fare that i can offer you is the ",poss1,fare,positive,backchannel,content,unclear 3 syllables
+32,27,A,decl,47.0,inform,"
+and the first train that i can actually get you booked on is on the ten thirty from Manchester Picadilly
+",poss1,location-from-number-booking,positive,,,
+33,25,A,decl,31.0,refer,"
+the cheapest fare that i can offer you going out at that time and returning at the 14 45
+",poss1,time-fare-return,positive,,,
+34,14,B,decl,26.0,inform,"
+i can't remember
+",poss1,,negative,,,
+34,28,B,decl,62.0,confirm,"
+you're saying i can't go on the 14 58 anyway
+",poss1,enum,negative,,,
+35,108,B,frag,181.0,inform,"
+then i can just ",poss1,,positive,overlap,type,start
+35,108,B,frag,181.0,inform,"
+then i can just ",poss1,,positive,unclear,length,3_syllables
+35,123,A,decl,211.0,inform,"
+i can get a window seat
+",poss1,,positive,,,

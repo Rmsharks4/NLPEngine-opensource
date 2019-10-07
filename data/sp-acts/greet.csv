@@ -1,0 +1,222 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+2,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+3,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+4,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+4,2,B,frag,4.0,greet,"
+hi
+",partial-greet-closure,opening,positive,,,
+5,1,A,frag,1.0,greet,"
+good afternoon
+",deixis-greet,opening,positive,,,
+5,27,A,frag,40.0,greet,"
+hello
+",greet,,positive,,,
+6,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+7,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+8,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+9,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+9,2,B,frag,4.0,greet,"
+hi
+",partial-greet-closure-closure,opening,positive,,,
+10,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+11,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+12,1,A,frag,1.0,greet,"
+good afternoon Virgin trainlines Sandra speaking
+",greet,opening,positive,,,
+13,1,A,frag,1.0,greet,"
+good afternoon
+",,,,,,
+14,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+15,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+15,60,B,frag,108.0,greet,"
+hello
+",partial-greet,,positive,,,
+15,61,A,frag,109.0,greet,"
+hello
+",partial-greet,,positive,,,
+15,79,A,frag,144.0,greet,"
+hello
+",partial-greet,,positive,,,
+16,1,A,frag,1.0,greet,"
+good afternoon 
+",greet,opening,positive,,,
+17,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+19,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+20,1,A,frag,1.0,greet,"
+good afternoon     
+",greet,opening,positive,,,
+20,2,B,frag,4.0,greet,"
+hi
+",partial-greet-closure,opening,positive,,,
+20,2,B,frag,5.0,greet,"
+good afternoon Sandra
+",greet,opening,positive,,,
+21,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+21,2,B,frag,4.0,greet,"
+hello
+",partial-greet-closure,,positive,,,
+22,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+23,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+24,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+25,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+26,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+27,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+28,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+28,2,B,frag,4.0,greet,"
+er good morning love ",greet-closure,opening,positive,pause,,
+29,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+30,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+31,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+32,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+33,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+34,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+35,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+35,2,B,frag,4.0,greet,"
+em hi
+",partial-greet-closure,opening,positive,,,
+36,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+37,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+38,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+39,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+39,2,B,frag,5.0,greet,"
+hi ",greet-opening,,,punc,type,level
+40,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+41,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+42,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+43,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+44,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+44,2,B,frag,5.0,greet,"
+hi ",greet-opening,,,punc,type,stop
+45,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+46,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+47,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+48,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+49,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+50,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+51,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+52,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+54,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+55,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+55,2,B,frag,5.0,greet,"
+hi ",greet-opening,,,punc,type,stop
+55,2,B,frag,6.0,greet,"
+good afternoon
+",greet-opening,,,,,
+56,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+56,2,B,frag,5.0,greet,"
+hello ",greet,,,punc,type,stop
+57,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+58,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+59,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+60,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+61,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+61,2,B,frag,6.0,greet,"
+good afternoon ",greet-opening-decl,,positive,punc,type,stop
+62,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+63,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+63,2,B,frag,6.0,greet,"
+good morning ",greet-opening,,,punc,type,stop
+64,1,A,frag,1.0,greet,"
+good morning ",greet-opening,,,punc,type,stop
+65,1,A,frag,1.0,greet,"
+good morning ",greet-opening,,,punc,type,stop
+66,1,A,frag,1.0,greet,"
+good morning ",greet-opening,,,punc,type,stop
+67,1,A,frag,1.0,greet,"
+good morning ",greet-opening,,,punc,type,stop
+68,1,A,frag,1.0,greet,"
+good morning ",greet-opening,,,punc,type,stop
+69,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+70,1,A,frag,1.0,greet,"
+good afternoon ",greet-opening,,,punc,type,stop
+70,2,B,frag,5.0,greet,"
+hi ",greet-opening,,,punc,type,stop
+70,110,B,frag,208.0,greet,"
+hi ",greet-opening,,,punc,type,stop

@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,67,A,decl,119.0,expressImPossibility,"
+you can't do that with an advance purchase ticket ",poss2-decl,fare-journey,negative,punc,type,stop
+47,97,A,decl,197.0,expressImPossibility,"
+you can't get the 19:00 ",poss2-decl,,negative,punc,type,stop
+50,63,A,decl,118.0,expressImPossibility,"
+we ",poss1-decl,booking,negative,overlap,type,end
+50,63,A,decl,118.0,expressImPossibility,"
+we ",poss1-decl,booking,negative,punc,type,stop
+60,40,B,decl,77.0,expressImPossibility,"
+i can't do that ",poss1-decl,,negative,punc,type,stop

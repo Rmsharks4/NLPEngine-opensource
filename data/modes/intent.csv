@@ -1,0 +1,189 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,31,A,decl,57.0,informIntent,"
+i'll just gonna book ",intent,booking,positive,pause,,
+3,98,B,decl,131.0,informIntent,"
+i'll go for a smoking then
+",intent,preference-seat,positive,,,
+4,2,B,decl,5.0,direct,"
+i wanna buy em a ticket for Edinburgh
+",intent,preference-location-journey,positive,,,
+4,46,B,decl,98.0,informIntent,"
+erm i'll book on the ",intent,time-day-number-booking,positive,pause,,
+4,50,B,decl,119.0,informIntent,"
+i'll go on that
+",intent,,positive,,,
+5,38,B,decl,59.0,informIntent,"
+i'll have just get a normal return
+",intent,fare,positive,,,
+6,24,B,decl,34.0,informIntent,"
+i'll do that
+",intent,,positive,,,
+7,25,A,decl,41.0,informIntent,"
+i'm just going to book your seat
+",intent,booking,positive,,,
+8,23,A,decl,37.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available to you ",intent,fare-avail-verify,positive,pause,length,18s
+8,31,A,decl,50.0,informIntent-hold,"
+",intent,,positive,pause,,
+8,31,A,decl,50.0,informIntent-hold,"
+",intent,,positive,pause,length,17s
+9,19,A,decl,37.0,informIntent-hold,"
+i'm just going to check to see what's the cheapest fare available with the first class ticket ",intent,fare-avail-journey-verify,positive,overlap,type,start
+9,26,B,decl,50.0,informIntent,"
+i'll go for that one please yeah
+",intent,number,positive,,,
+9,51,A,decl,93.0,informIntent,"
+i'm just going to book your seat going out from Euston to Crewe
+",intent,to-location-from-booking,positive,,,
+9,65,A,decl,112.0,informIntent,"
+i'm just going to book your seat again ",intent,booking,positive,pause,length,2s
+10,20,B,decl,31.0,direct,"
+i'll have this one then
+",intent,number,positive,,,
+10,29,A,decl,43.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available to you
+",intent,fare-avail-verify,positive,,,
+11,61,A,decl,107.0,informIntent-hold,"
+i'm just writing this down ",intent,,positive,pause,length,12s
+12,68,B,decl,108.0,expressWish,"
+i s... want to go from Euston
+",intent,preference-location-from,positive,,,
+12,77,A,decl,125.0,informIntent-hold,"
+i'm just checking that from Euston
+",intent,location-from-verify,positive,,,
+12,84,B,decl,141.0,informIntent,"
+i'll just catch a cab from Wilmslow
+",intent,from,positive,,,
+12,98,B,decl,180.0,expressWish,"
+em i want to try and book that coming back on the on the 19 00
+",intent,preference-enum-booking,positive,,,
+12,100,B,decl,184.0,informIntent,"
+i'll pay the extra money ",intent,,positive,pause,length,5s
+12,120,B,decl,219.0,informIntent,"
+i'll just chance it then
+",intent,,positive,,,
+14,34,B,decl,58.0,informIntent,"
+em ",intent,day-number-verify,positive,pause,,
+15,13,A,decl,33.0,informIntent,"
+i'm just going to get a booking form to fill in refax to the train station
+",intent,booking,positive,,,
+15,39,A,decl,72.0,informIntent,"
+",intent,number-booking,positive,pause,length,6s
+18,5,A,decl,14.0,informIntent,"
+i'll get them for you
+",intent,,positive,,,
+18,39,A,decl,92.0,informIntent-hold,"
+i'll just check the time ",intent,time-verify,positive,pause,length,4s
+18,47,A,decl,109.0,informIntent,"
+i'm just going to book your seat now
+",intent,booking,positive,,,
+19,21,A,decl,30.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available to you
+",intent,fare-avail-verify,positive,,,
+19,27,A,decl,39.0,informIntent-hold,"
+i'm just checking to see what's the nearest time to that is a... is available ",intent,time-avail-verify,positive,pause,length,2s
+19,28,B,decl,42.0,informIntent,"
+i'll go for the 9 35
+",intent,enum,positive,,,
+20,4,B,decl,9.0,answ,"
+                  erm ",intent,preference-booking,positive,overlap,type,end
+20,26,B,decl,51.0,informIntent,"
+i'll call back in 2 minutes
+",intent,time,positive,,,
+21,11,A,decl,18.0,informIntent-hold,"
+i'm just going to check to see what's the cheapest fare available to you
+",intent,fare-avail-verify,positive,,,
+22,55,A,decl,123.0,informIntent,"
+i'll just check availability ",intent,avail-verify,positive,pause,length,2s
+23,21,A,decl,30.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available ",intent,fare-avail-verify,positive,pause,,
+23,62,B,frag,96.0,informIntent-hold,"
+just one moment i'll check ",intent,number-verify,positive,pause,length,3s
+23,83,A,decl,129.0,informIntent-hold,"
+i'll just going to reserve your seats ",intent,,positive,pause,,
+24,9,A,decl,15.0,informIntent-hold,"
+i'm just going to check the 12 17 from Liverpool Lime Street arrives in Newcastle
+",intent,arrival-location-time-from-verify,positive,,,
+24,45,A,decl,75.0,informIntent-hold,"
+i'm just writing this down
+",intent,,positive,,,
+26,29,A,decl,54.0,informIntent-hold,"
+i'll specify Crewe and see what it brings up ",intent,,positive,pause,length,12s
+26,33,A,frag,64.0,thank,"
+",intent,,,event,type,tape_cuts_off
+26,37,A,decl,77.0,inform,"
+i'm just making sure it's going to be valid on the kind of ticket ",intent,journey,positive,pause,,
+26,37,A,decl,77.0,inform,"
+i'm just making sure it's going to be valid on the kind of ticket ",intent,journey,positive,overlap,type,start
+26,51,A,decl,116.0,informIntent,"
+i'm just going to go over the dates ",intent,date,positive,overlap,type,start
+26,53,A,decl,122.0,informIntent,"
+i'll put forward facing ",intent,seat,positive,overlap,type,end
+27,25,A,decl,40.0,informIntent,"
+i'm just going to check to see what's the cheapest fare available to you
+",intent,fare-avail-verify,positive,,,
+27,124,B,decl,193.0,informIntent,"
+i'll send these others back now then
+",intent,,positive,,,
+28,2,B,decl,6.0,expressWish,"
+and i want to go on a value place tomorrow ",intent,day-preference,positive,pause,,
+28,15,A,decl,28.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available to you ",intent,fare-avail-journey-verify,positive,backchannel,content,alright
+28,15,A,decl,28.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available to you ",intent,fare-avail-journey-verify,positive,backchannel,content,alright alright
+28,45,A,decl,83.0,informIntent-hold,"
+i'll check Saturday for you ",intent,day-verify,positive,pause,length,4s
+28,85,A,decl,154.0,informIntent,"
+i'm just selecting that service for you
+",intent,,positive,,,
+28,132,B,decl,220.0,accept,"
+i'm not bothered by that
+",intent,,negative,,,
+29,17,A,decl,27.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available to you
+",intent,fare-avail-verify,positive,,,
+29,21,A,decl,34.0,informIntent-hold,"
+i'm just checking that out for you
+",intent,verify,positive,,,
+29,49,A,decl,92.0,informIntent,"
+i'll try and book that for you
+",intent,booking,positive,,,
+30,10,B,decl,19.0,expressWish,"
+i want to come back tomorrow evening ",intent,time-preference-day,positive,pause,,
+30,17,A,decl,29.0,informIntent-hold,"
+and i'm just checking to see what's your cheapest fare available to you
+",intent,fare-avail-verify,positive,,,
+30,30,B,decl,50.0,informIntent,"
+i'll just turn up at Manchester
+",intent,time-location,positive,,,
+32,20,B,decl,34.0,expressWish,"
+i want to get the cheap fare
+",intent,fare-preference,positive,,,
+33,21,A,decl,26.0,informIntent-hold,"
+i'm just going to check to see what's your cheapest fare available ",intent,fare-avail-verify,positive,backchannel,content,ok
+33,25,A,decl,32.0,informIntent-hold,"
+i'm just checking that for you
+",intent,verify,positive,,,
+33,33,A,decl,48.0,informIntent,"
+i'll provisionally book you on the one returning
+",intent,return-number-booking,positive,,,
+34,8,B,decl,13.0,direct,"
+i'd like to travel out on Sunday the fourth of October 
+",intent,preference-day-month-date-journey,positive,,,
+34,17,A,decl,29.0,informIntent-hold,"
+",intent,verify,positive,pause,,
+34,27,A,decl,55.0,informIntent-hold,"
+i'm just checking that for you ",intent,verify,positive,pause,length,7s
+34,27,A,decl,58.0,inform,"
+i'm just checking throughout the day when that is available
+",intent,day-time-avail-verify,positive,,,
+34,56,B,decl,135.0,informIntent,"
+i'll get back to that one
+",intent,number,positive,,,
+35,41,A,decl,65.0,informIntent-hold,"
+i'm just going to check ",intent,fare-verify,positive,pause,,
+35,111,A,decl,187.0,accept,"
+i'm sure we'll find that for you ",intent,,positive,overlap,type,end
+36,31,A,decl,59.0,stateIntent,"
+i'll just gonna book
+",intent,booking,positive,,,

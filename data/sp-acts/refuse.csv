@@ -1,0 +1,29 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+16,22,B,no,31.0,refuse,"
+no
+",,,,,,
+16,22,B,decl,32.0,refuse,"
+that's no good ",,,negative,pause,,
+21,14,B,no,24.0,refuse,"
+no
+",,,,,,
+21,14,B,decl,25.0,refuse,"
+that's too early
+",reject-constrain,time,positive,,,
+22,20,B,no,38.0,refuse,"
+no
+",,,,,,
+22,20,B,decl,39.0,refuse,"
+that's too late erm ",reject-constrain,time,positive,pause,length,4s
+24,37,A,decl,64.0,refuse,"
+that one will do fine sir
+",,number,positive,,,
+33,57,A,no,95.0,refuse,"
+no
+",,,,,,
+38,48,B,no,70.0,refuse,"
+no ",,,,punc,type,stop
+40,48,B,no,70.0,refuse,"
+no ",,,,punc,type,stop
+58,38,B,no,72.0,refuse,"
+no ",,,,punc,type,stop

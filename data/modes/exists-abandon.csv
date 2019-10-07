@@ -1,0 +1,15 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+26,24,B,decl,40.0,inform,"
+there's no changing on it ",exists-abandon,,negative,unclear,length,7 syllables
+26,24,B,decl,40.0,inform,"
+there's no changing on it ",exists-abandon,,negative,pause,,
+34,54,B,decl,121.0,reqInfo,"
+the other two there's there's no condi...
+",exists-abandon,number,negative,,,
+34,54,B,decl,124.0,reqInfo,"
+there's no other conditions in terms of a...
+",exists-abandon,,negative,,,
+61,50,B,q-yn,124.0,direct-reqInfo-abandon,"
+",exists-abandon,,positive,pause,,
+61,50,B,q-yn,124.0,direct-reqInfo-abandon,"
+",exists-abandon,,positive,punc,type,incomplete

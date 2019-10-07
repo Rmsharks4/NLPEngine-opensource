@@ -1,0 +1,21 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+3,23,A,q-wh,28.0,reqDirect,"
+but when would you prefer
+",open-constrain,time-preference,positive,,,
+12,94,B,q-wh,166.0,reqInfo,"
+when when do i have to book this by ",open-constrain,time-booking,positive,pause,,
+12,94,B,q-wh,166.0,reqInfo,"
+when when do i have to book this by ",open-constrain,time-booking,positive,overlap,type,start
+13,144,B,q-wh,205.0,reqInfo,"
+em but when the seats come the four of us will be sat together won't we
+",open-constrain,time-number,positive,,,
+14,85,A,q-wh,137.0,reqInfo,"
+but who's it that's travelling tomorrow
+",open-constrain,day-journey,positive,,,
+21,36,B,q-wh,67.0,reqInfo,"
+i must what
+",open-constrain,,positive,,,
+32,12,B,decl,22.0,inform,"
+but what happen is that two ",open-constrain,number-journey,positive,pause,,
+32,12,B,decl,22.0,inform,"
+but what happen is that two ",open-constrain,number-journey,positive,pause,,

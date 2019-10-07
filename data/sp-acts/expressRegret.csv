@@ -1,0 +1,108 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,17,A,dm,22.0,expressRegret,"
+sorry
+",regret,,,,,
+9,43,A,frag,81.0,expressRegret,"
+unfortunately ",partial,,positive,overlap,type,end
+11,31,A,dm,55.0,expressRegret,"
+sorry
+",regret,,,,,
+11,35,A,dm,63.0,expressRegret,"
+sorry
+",regret,,,,,
+12,67,A,dm,103.0,expressRegret,"
+sorry
+",regret,,,,,
+12,67,A,dm,106.0,expressRegret,"
+sorry
+",regret,,,,,
+12,72,B,frag,115.0,expressRegret,"
+sorry about that
+",regret,,positive,,,
+12,78,B,frag,131.0,expressRegret,"
+sorry about this
+",regret,,positive,,,
+13,52,B,dm,79.0,expressRegret,"
+sorry
+",regret,,,,,
+13,87,A,dm,133.0,expressRegret,"
+sorry ",,,,pause,,
+13,120,B,dm,172.0,expressRegret,"
+sorry
+",regret,,,,,
+13,120,B,dm,174.0,expressRegret,"
+sorry
+",regret,,,,,
+15,8,B,dm,13.0,expressRegret,"
+sorry
+",regret,,,,,
+16,72,B,dm,127.0,expressRegret,"
+oh sorry
+",,,,,,
+23,16,B,dm,23.0,expressRegret,"
+oh sorry
+",,,,,,
+24,55,A,dm,101.0,expressRegret,"
+sorry ",regret,,,overlap,type,start
+28,185,A,dm,284.0,expressRegret,"
+sorry
+",regret,,,,,
+31,14,B,dm,28.0,expressRegret,"
+sorry about that
+",regret,,,,,
+31,16,B,dm,32.0,expressRegret,"
+sorry
+",regret,,,,,
+33,68,B,dm,111.0,expressRegret,"
+oh sorry
+",,,,,,
+34,52,B,dm,114.0,expressRegret,"
+sorry
+",regret,,,,,
+35,37,A,dm,56.0,expressRegret,"
+sorry
+",regret,,,,,
+35,66,B,dm,105.0,expressRegret,"
+oh sorry
+",,,,,,
+35,78,B,dm,128.0,expressRegret,"
+sorry
+",regret,,,,,
+35,132,B,dm,225.0,expressRegret,"
+sorry
+",regret,,,,,
+35,134,B,dm,232.0,expressRegret,"
+sorry
+",regret,,,,,
+41,17,A,dm,25.0,expressRegret,"
+unfortunately
+",,,,,,
+44,41,A,dm,99.0,expressRegret,"
+unfortunately ",,,,punc,type,stop
+47,65,A,decl,116.0,expressRegret,"
+that was my mistake there ",decl,location,positive,backchannel,content,yeah
+47,65,A,decl,116.0,expressRegret,"
+that was my mistake there ",decl,location,positive,punc,type,stop
+50,67,A,decl,126.0,expressRegret,"
+i'm afraid i can't take the booking until you find the appropriate address ",regret-poss1-decl,booking-address,negative,punc,type,stop
+57,57,A,dm,134.0,expressRegret,"
+",,,,pause,length,37s
+59,46,B,frag,97.0,expressRegret,"
+sad ",decl,,positive,punc,type,stop
+60,43,A,dm,85.0,expressRegret,"
+unfortunately
+",,,,,,
+65,25,A,dm,45.0,expressRegret,"
+but unfortunately
+",,,,,,
+69,27,A,dm,70.0,expressRegret,"
+unfortunately
+",,,,,,
+69,31,A,dm,81.0,expressRegret,"
+",,,,pause,length,13s
+70,47,A,decl,80.0,expressRegret,"
+i'm afraid on the Wilmslow to Euston route ",regret-frag,to-location,positive,punc,type,level
+70,51,A,decl,85.0,expressRegret,"
+",regret-exists-decl,availability-day,negative,pause,length,22s
+70,51,A,decl,85.0,expressRegret,"
+",regret-exists-decl,availability-day,negative,punc,type,stop

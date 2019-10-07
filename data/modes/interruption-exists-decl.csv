@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+70,110,B,decl,210.0,state-abandon,"
+",interruption-exists-decl,,positive,pause,,
+70,110,B,decl,210.0,state-abandon,"
+",interruption-exists-decl,,positive,punc,type,stop

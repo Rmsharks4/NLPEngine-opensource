@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,76,B,decl,140.0,stateIntent,"
+and then i'll get Euston to Wilmslow cos i'll drive park my car there ",intent-reason-decl,location-to,positive,punc,type,stop
+70,106,B,decl,194.0,stateReason,"
+cos that's who i'm going to go and stay with ",intent-reason-decl,,positive,punc,type,stop

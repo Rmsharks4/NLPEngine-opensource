@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+49,12,B,dm,21.0,init,"
+actually
+",report-constrain,,,,,
+49,82,B,dm,151.0,init,"
+",report-constrain,,,pause,,
+69,8,B,dm,13.0,init,"
+actually
+",report-constrain,,,,,

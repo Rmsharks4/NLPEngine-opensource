@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,25,A,frag,57.0,elab-refer-abandon,"
+all the advance ",abandon,fare,positive,punc,type,incomplete

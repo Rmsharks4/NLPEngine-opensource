@@ -1,0 +1,14 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+15,41,A,decl,77.0,inform,"
+we need to actually fill out the form twice because it's classed as two separate journeys ",reason-constrain,number-journey,positive,pause,,
+23,21,A,decl,32.0,inform,"
+because it's this Monday you're travelling %5'm going to have to arrange for you to collect your tickets from the train station
+",reason-constrain,journey-day,positive,,,
+23,97,A,decl,171.0,inform,"
+but it's in case there was any queue ",reason-constrain,,positive,pause,,
+28,187,A,decl,289.0,inform,"
+cos they need that while they're on the train
+",reason-constrain,,positive,,,
+29,28,B,decl,61.0,inform,"
+because we need to get in London as soon as possible
+",reason-constrain,location,positive,,,

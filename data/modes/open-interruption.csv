@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,10,B,q-wh,32.0,reqInfo-abandon,"
+how much is ",open-interruption,,positive,overlap,type,end
+53,10,B,q-wh,32.0,reqInfo-abandon,"
+how much is ",open-interruption,,positive,punc,type,incomplete

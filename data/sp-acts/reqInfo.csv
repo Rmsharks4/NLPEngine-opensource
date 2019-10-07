@@ -1,0 +1,3037 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,3,A,q-yn,5.0,reqInfo,"
+is that Birmingham New Street
+",closed,location,positive,,,
+1,5,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card
+",closed-alternative,creditcard,positive,,,
+1,7,A,q-yn,12.0,reqInfo,"
+do you have a rail card
+",closed,railcard,positive,,,
+1,9,A,q-wh,14.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+1,11,A,q-wh,16.0,reqInfo,"
+and what date is it you're travelling out
+",open,date-journey,positive,,,
+1,13,A,frag,18.0,reqInfo,"
+",open,time-departure,positive,pause,,
+1,19,A,q-wh,28.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+1,47,A,frag,97.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+1,49,A,frag,99.0,reqInfo,"
+",open,name,positive,pause,,
+1,51,A,frag,101.0,reqInfo,"
+and your title
+",open,name,positive,,,
+1,53,A,frag,103.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+1,59,A,frag,109.0,reqInfo,"
+",open,creditcard-address,positive,pause,length,2s
+1,63,A,decl,115.0,reqInfo,"
+and ",,number-creditcard,positive,pause,,
+1,75,A,frag,129.0,reqInfo,"
+and the issue number
+",,number,positive,,,
+1,77,A,frag,131.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+2,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+2,5,A,q-yn,8.0,reqInfo,"
+do you have a railcard at all
+",closed,railcard,positive,,,
+2,7,A,q-wh,10.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+2,9,A,q-wh,12.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+2,13,A,q-wh,17.0,reqInfo,"
+departing at what time from London Euston
+",open,time-location-departure-from,positive,,,
+2,14,B,q-yn,19.0,reqInfo,"
+do you know
+",closed,,positive,,,
+2,19,A,q-wh,27.0,reqInfo,"
+when are you returning
+",open,time-return,positive,,,
+2,21,A,frag,29.0,reqInfo,"
+departing at what time
+",open,time-departure,positive,,,
+3,3,A,q-yn,6.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+3,5,A,q-yn,8.0,reqInfo,"
+do you have a rail card at all
+",closed,railcard,positive,,,
+3,7,A,q-wh,10.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+3,9,A,q-yn,12.0,reqInfo,"
+is that two adults
+",closed,number,positive,,,
+3,11,A,q-wh,14.0,reqInfo,"
+and what date is it you're departing
+",open,departure-date,positive,,,
+3,53,A,frag,71.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+3,55,A,q-wh,73.0,reqInfo,"
+and how do you spell that
+",open,,positive,,,
+3,57,A,frag,75.0,reqInfo,"
+",open,name,positive,pause,,
+3,59,A,frag,78.0,reqInfo,"
+your contact telephone number please
+",open,telephone-number,positive,,,
+3,67,A,frag,90.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard,positive,,,
+3,71,A,frag,94.0,reqInfo,"
+",,confirm-address,positive,pause,,
+3,73,A,q-wh,99.0,reqInfo,"
+what type of credit card is that you hold
+",open,creditcard,positive,,,
+3,75,A,decl,101.0,reqInfo,"
+and the Visa number
+",,number-creditcard,positive,,,
+3,91,A,frag,118.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+4,3,A,frag,7.0,reqInfo,"
+travelling to
+",,journey-to,positive,,,
+4,5,A,frag,9.0,reqInfo,"
+from
+",partial,from,positive,,,
+4,6,B,q-yn,11.0,reqInfo,"
+em is there a train from Liverpool
+",closed-exists,location-from,positive,,,
+4,7,A,q-yn,13.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+4,9,A,q-yn,15.0,reqInfo,"
+and is it just for one person
+",closed,number,positive,,,
+4,11,A,q-yn,20.0,reqInfo,"
+do you have a railcard at all
+",closed,railcard,positive,,,
+4,18,B,q-wh,42.0,reqInfo,"
+how much is the ticket
+",open,journey,positive,,,
+4,18,B,q-yn,43.0,reqInfo,"
+can you tell me
+",closed,,positive,,,
+4,28,B,q-yn,65.0,reqInfo,"
+is there any going from ",closed-exists,,positive,pause,,
+4,28,B,q-yn,65.0,reqInfo,"
+is there any going from ",closed-exists,,positive,pause,,
+4,30,B,q-wh,70.0,reqInfo,"
+how much is that
+",open,,positive,,,
+4,40,B,q-yn,83.0,reqInfo,"
+can i be a pain and ask you about Thursday night
+",closed,day,positive,,,
+4,40,B,decl,84.0,reqInfo,"
+if there's anything Thursday night
+",exists-condition,day,positive,,,
+4,46,B,q-yn,101.0,reqInfo,"
+is that a supersaver advance yes
+",closed,fare,positive,,,
+4,47,A,q-yn,108.0,reqInfo,"
+is it you're returning
+",abandon-closed,return,positive,,,
+4,48,B,q-wh,109.0,reqInfo,"
+erm ",open-alternative,departure-time,positive,pause,,
+4,61,A,q-yn,139.0,reqInfo,"
+is it smoking or non smoking
+",closed-alternative,seat,positive,,,
+4,69,A,frag,159.0,reqInfo,"
+your surname
+",open,name,positive,,,
+4,71,A,frag,161.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+4,73,A,frag,163.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+4,79,A,frag,169.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+4,87,A,q-wh,178.0,reqInfo,"
+and what type of credit card is that you hold
+",open,creditcard,positive,,,
+4,89,A,decl,180.0,reqInfo,"
+and the number please
+",,number,positive,,,
+4,97,A,frag,189.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+4,99,A,q-yn,194.0,reqInfo,"
+do you have a pen handy
+",closed,,positive,,,
+5,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+5,5,A,q-wh,9.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+5,7,A,q-yn,11.0,reqInfo,"
+do you have a current rail card
+",closed,railcard,positive,,,
+5,13,A,q-wh,18.0,reqInfo,"
+what date is it you're travelling
+",open,date-journey,positive,,,
+5,17,A,q-wh,22.0,reqInfo,"
+departing from Euston at what time
+",open,time-location-departure-from,positive,,,
+5,21,A,q-wh,28.0,reqInfo,"
+when is it you're returning
+",open,time-return,positive,,,
+5,24,B,decl,32.0,reqInfo,"
+you don't have any at any time on Saturday
+",,time-day,negative,,,
+5,29,A,q-wh,43.0,reqInfo,"
+",open,time-return,positive,pause,length,5s
+5,36,B,decl,55.0,reqInfo,"
+i can't get another one
+",poss1,number,negative,,,
+6,3,A,q-yn,6.0,reqInfo,"
+do you hold a current credit or debit or credit card
+",closed,creditcard,positive,,,
+6,5,A,q-yn,8.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+6,7,A,q-wh,10.0,reqInfo,"
+and how many people are travelling
+",open,number-journey,positive,,,
+6,11,A,q-wh,14.0,reqInfo,"
+departing Preston at what time
+",open,time-location-departure,positive,,,
+6,18,B,q-wh,25.0,reqInfo,"
+what about the 15 20
+",open,enum,positive,,,
+6,20,B,q-wh,29.0,reqInfo,"
+what's the cost for that ",open,fare-booking,positive,pause,,
+6,22,B,frag,31.0,reqInfo,"
+",partial,fare,positive,pause,,
+6,35,A,frag,54.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+6,37,A,frag,56.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+6,39,A,frag,58.0,reqInfo,"
+and your contact telephone number please
+",open,telephone-number,positive,,,
+6,45,A,frag,64.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+6,53,A,q-wh,74.0,reqInfo,"
+and what type of credit card is that do you hold
+",open,creditcard,positive,,,
+6,54,B,q-yn,77.0,reqInfo,"
+or do you need a credit card
+",closed-constrain-alternative-report,creditcard-time,positive,,,
+6,55,A,frag,79.0,reqInfo,"
+the long number across the switch card
+",,number-creditcard,positive,,,
+6,65,A,frag,90.0,reqInfo,"
+and the issue number
+",,number,positive,,,
+6,67,A,frag,92.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+6,69,A,q-yn,95.0,reqInfo,"
+can you repeat that long number across your card
+",closed,number,positive,,,
+7,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+7,5,A,q-yn,9.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+7,7,A,q-wh,11.0,reqInfo,"
+how many people's travelling
+",open,number-journey,positive,,,
+7,9,A,q-wh,13.0,reqInfo,"
+and what date you travelling out
+",open,date-journey,positive,,,
+7,28,B,q-yn,46.0,reqInfo,"
+is that got the the tea and coffee as well
+",closed,,positive,,,
+7,31,A,frag,50.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+7,33,A,frag,52.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+7,35,A,frag,54.0,reqInfo,"
+and your title
+",open,name,positive,,,
+7,40,B,q-yn,63.0,reqInfo,"
+have they had a price increase
+",closed,,positive,,,
+7,43,A,frag,67.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+7,51,A,frag,78.0,reqInfo,"
+and your postcode to where the credit card is registered to
+",open,creditcard-address,positive,,,
+7,57,A,q-wh,85.0,reqInfo,"
+",open,creditcard,positive,pause,,
+7,59,A,decl,87.0,reqInfo,"
+",,number-creditcard,positive,pause,length,5s
+7,67,A,frag,96.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+8,3,A,q-yn,6.0,reqInfo,"
+is it yourself as is a credit and debit card holder
+",closed,creditcard,positive,,,
+8,5,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+8,7,A,q-yn,10.0,reqInfo,"
+",closed,railcard,positive,pause,length,7s
+8,9,A,q-wh,12.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+8,13,A,frag,18.0,reqInfo,"
+travelling at what time tomorrow from Nuneaton
+",open,time-day-location-from-journey,positive,,,
+8,14,B,q-yn,23.0,reqInfo,"
+is there ",,time,positive,pause,,
+8,17,A,q-wh,27.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+8,21,A,q-yn,34.0,reqInfo,"
+and is it standard class
+",closed,,positive,,,
+8,32,B,frag,55.0,reqInfo,"
+oh you ",,seat,negative,overlap,type,end
+8,33,A,decl,56.0,reqInfo,"
+",,preference-journey,positive,pause,,
+8,37,A,frag,67.0,reqInfo,"
+and your surname
+",open,name,positive,,,
+8,39,A,frag,69.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+8,41,A,frag,71.0,reqInfo,"
+",open,creditcard-address,positive,pause,,
+8,42,B,q-yn,73.0,reqInfo,"
+do you take accept American Express
+",closed,,positive,,,
+8,45,A,frag,79.0,reqInfo,"
+the postcode
+",,address,positive,,,
+8,46,B,frag,80.0,reqInfo,"
+of the company
+",deixis,,positive,,,
+8,49,A,q-yn,83.0,reqInfo,"
+or do you have the full address
+",closed-alternative,address,positive,,,
+8,57,A,decl,96.0,reqInfo,"
+yep and then it's
+",,,,,,
+8,59,A,q-wh,99.0,reqInfo,"
+it's what
+",open,,positive,,,
+8,63,A,frag,105.0,reqInfo,"
+your contact telephone number
+",open,telephone-number,positive,,,
+8,69,A,q-yn,113.0,reqInfo,"
+and could you give me the long number across your credit card
+",closed,number-creditcard,positive,,,
+8,79,A,frag,125.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+9,3,A,q-yn,7.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+9,5,A,q-yn,11.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+9,7,A,q-yn,14.0,reqInfo,"
+do you have a railcard
+",closed,railcard,positive,,,
+9,17,A,q-yn,34.0,reqInfo,"
+have you been quoted a fare for the journey
+",closed,fare-journey,positive,,,
+9,35,A,frag,69.0,reqInfo,"
+and your surname is please
+",open,name,positive,,,
+9,37,A,frag,71.0,reqInfo,"
+",,name,positive,pause,,
+9,43,A,frag,83.0,reqInfo,"
+your title
+",open,name,positive,,,
+9,45,A,frag,85.0,reqInfo,"
+your title
+",open-closure-closure,name,positive,,,
+9,61,A,q-wh,107.0,reqInfo,"
+what was the time on the eighth that you wanted to come back around
+",open,time-preference,positive,,,
+9,69,A,frag,119.0,reqInfo,"
+your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+9,73,A,q-wh,124.0,reqInfo,"
+what type of credit card is that you hold
+",open,creditcard,positive,,,
+9,75,A,q-yn,128.0,reqInfo,"
+could you give me your contact telephone number
+",closed,telephone-number,positive,,,
+9,81,A,frag,136.0,reqInfo,"
+and the credit card number
+",,number-creditcard,positive,,,
+9,89,A,frag,145.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+9,96,B,decl,158.0,reqInfo,"
+i just need to turn up to the advance ticket ",constrain,fare-journey,positive,overlap,type,start
+10,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+10,5,A,q-yn,8.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+10,7,A,q-wh,11.0,reqInfo,"
+and how many people are travelling
+",open,number-journey,positive,,,
+10,15,A,q-wh,21.0,reqInfo,"
+travelling from Preston at what time
+",open,time-location-from-journey,positive,,,
+10,24,B,q-wh,35.0,reqInfo,"
+er on er well... when's the last train on the Sunday
+",closure,day-time,positive,,,
+11,3,A,q-yn,7.0,reqInfo,"
+do you want to book your ticket just now or are you just wanting information
+",closed-alternative,preference-booking-journey,positive,,,
+11,5,A,q-yn,11.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+11,7,A,q-yn,14.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+11,9,A,q-yn,16.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+11,11,A,q-wh,20.0,reqInfo,"
+what time is it Saturday the third ",open,time-day-month-date-journey,positive,pause,,
+11,11,A,q-wh,20.0,reqInfo,"
+what time is it Saturday the third ",open,time-day-month-date-journey,positive,overlap,type,start
+11,13,A,q-wh,23.0,reqInfo,"
+what time do you like to depart from ",open,location-time-preference-from,positive,pause,,
+11,18,B,q-yn,30.0,reqInfo,"
+erm ",closed-exists,,negative,pause,,
+11,20,B,q-wh,34.0,reqInfo,"
+what is it again the 9
+",open,,positive,,,
+11,23,A,q-yn,42.0,reqInfo,"
+or is that going to be too early
+",closed-alternative,time,positive,,,
+11,27,A,q-wh,48.0,reqInfo,"
+and what time on the Sunday
+",open,day-time,positive,,,
+11,32,B,q-wh,58.0,reqInfo,"
+what's the one in the night
+",open,number,positive,,,
+11,34,B,decl,60.0,reqInfo,"
+and that's going to get into Birmingham at
+",,location-time-to,positive,,,
+11,36,B,q-wh,68.0,reqInfo,"
+what was that mor... morning one again 10 45
+",open,time-number,positive,,,
+11,45,A,frag,86.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+11,47,A,frag,89.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+11,49,A,frag,91.0,reqInfo,"
+and your title
+",open,name,positive,,,
+11,50,B,q-yn,93.0,reqInfo,"
+can we just confirm the times i'm leaving
+",closed-report,departure-confirm,positive,,,
+11,52,B,q-yn,96.0,reqInfo,"
+is that correct ok
+",closed,,positive,,,
+11,53,A,frag,98.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+11,57,A,frag,102.0,reqInfo,"
+",open,creditcard-address,positive,pause,,
+11,63,A,q-yn,111.0,reqInfo,"
+and do you have any seat preference
+",closed,preference-booking-seat,positive,,,
+11,73,A,q-wh,139.0,reqInfo,"
+what type of credit card
+",open,creditcard,positive,,,
+11,75,A,decl,141.0,reqInfo,"
+and the Visa number
+",,number-creditcard,positive,,,
+11,83,A,frag,150.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+12,5,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card
+",closed-alternative,creditcard,positive,,,
+12,7,A,q-wh,10.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+12,9,A,q-wh,12.0,reqInfo,"
+and what date is it you're travelling out
+",open,date-journey,positive,,,
+12,15,A,q-yn,25.0,reqInfo,"
+do you have a railcard
+",closed,railcard,positive,,,
+12,17,A,frag,27.0,reqInfo,"
+that a young person's railcard
+",,railcard,positive,,,
+12,20,B,q-wh,33.0,reqInfo,"
+what what have you got
+",open,,positive,,,
+12,22,B,q-yn,36.0,reqInfo,"
+is that super ",closed,fare,positive,pause,,
+12,24,B,q-wh,38.0,reqInfo,"
+what ",open,,positive,overlap,type,end
+12,41,A,q-wh,59.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+12,42,B,decl,61.0,reqInfo,"
+it's 8 hours isn't it
+",closure,enum,negative,,,
+12,44,B,q-yn,63.0,reqInfo,"
+erm is there any faster one just ",closed-exists,number,positive,pause,,
+12,48,B,q-wh,74.0,reqInfo,"
+what's the next fare for erm
+",open,fare,positive,,,
+12,52,B,decl,80.0,reqInfo,"
+it's 26 05 or something is it
+",closed-alternative,enum,positive,,,
+12,54,B,frag,83.0,reqInfo,"
+with the discount
+",deixis,,positive,,,
+12,58,B,q-yn,90.0,reqInfo,"
+can you can you return at 18 hundred or ",closed-poss2-alternative,time-fare,positive,overlap,type,start
+12,59,A,q-wh,91.0,reqInfo,"
+what ",open,return-date,positive,overlap,type,end
+12,64,B,q-yn,98.0,reqInfo,"
+is that better
+",closed,,positive,,,
+12,64,B,q-yn,99.0,reqInfo,"
+is that easier
+",closed,,positive,,,
+12,70,B,q-wh,110.0,reqInfo,"
+why not
+",open,,negative,,,
+12,80,B,q-wh,133.0,reqInfo,"
+",open,,negative,pause,,
+12,84,B,q-wh,143.0,reqInfo,"
+what time will i get into Wilmslow ",open,time-to,positive,pause,,
+12,84,B,q-wh,145.0,reqInfo,"
+what what what availability do you have er from Euston to Wilmslow
+",open,to-location-from-avail,positive,,,
+12,88,B,decl,151.0,reqInfo,"
+there's nothing else
+",exists,,positive,,,
+12,90,B,q-wh,153.0,reqInfo,"
+what about the next ",open,enum,positive,pause,,
+12,92,B,q-wh,160.0,reqInfo,"
+21 00 gets me into what Wilmslow at what time
+",,time,positive,,,
+12,94,B,q-wh,166.0,reqInfo,"
+when when do i have to book this by ",open-constrain,time-booking,positive,pause,,
+12,94,B,q-wh,166.0,reqInfo,"
+when when do i have to book this by ",open-constrain,time-booking,positive,overlap,type,start
+12,96,B,q-yn,170.0,reqInfo,"
+complete are you going to let me do it
+",closed,,positive,,,
+12,101,A,frag,187.0,reqInfo,"
+from
+",partial,,positive,,,
+12,104,B,decl,190.0,reqInfo,"
+if i can do it ",poss1-condition,,positive,pause,,
+12,104,B,q-wh,191.0,reqInfo,"
+erm ",open,enum-number,positive,pause,length,3s
+12,110,B,q-yn,199.0,reqInfo,"
+erm is there a one is there a train before the 20 13
+",closed-exists,enum-number,positive,,,
+12,125,A,frag,231.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+12,127,A,frag,234.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+12,129,A,frag,236.0,reqInfo,"
+and your contact telephone number is
+",open,telephone-number,positive,,,
+12,137,A,frag,244.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+12,141,A,q-wh,248.0,reqInfo,"
+",open,creditcard,positive,pause,length,16s
+12,143,A,decl,250.0,reqInfo,"
+and the Visa number
+",,number-creditcard,positive,,,
+12,151,A,frag,259.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+13,5,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+13,7,A,q-wh,10.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+13,9,A,q-yn,12.0,reqInfo,"
+is that four adults
+",closed,number,positive,,,
+13,11,A,q-yn,15.0,reqInfo,"
+does anyone have a railcard
+",closed,railcard,positive,,,
+13,13,A,q-wh,17.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+13,15,A,q-wh,21.0,reqInfo,"
+what date is it you're travelling
+",open,date-journey,positive,,,
+13,23,A,q-wh,35.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+13,30,B,decl,46.0,reqInfo,"
+and you arrive in Durham at
+",,location-time-arrival,positive,,,
+13,32,B,q-wh,51.0,reqInfo,"
+what about for the Wednesday
+",open,day,positive,,,
+13,36,B,decl,58.0,reqInfo,"
+i can still leave during this 8 53
+",poss1,departure-time,positive,,,
+13,46,B,q-wh,68.0,reqInfo,"
+15 what
+",open,enum,positive,,,
+13,48,B,decl,72.0,reqInfo,"
+that's 10 to 3 isn't it
+",,enum,negative,,,
+13,50,B,q-yn,75.0,reqInfo,"
+can i have the 19 09 then as well then on the Wednesday
+",closed,day-enum,positive,,,
+13,51,A,frag,76.0,reqInfo,"
+",closure,day,negative,pause,length,2s
+13,52,B,q-wh,78.0,reqInfo,"
+what about the Wednesday ",open,day,positive,pause,,
+13,56,B,q-yn,83.0,reqInfo,"
+and is there one about fiveish on the Wednesday or not
+",closed-exists-alternative,number-day,negative,,,
+13,78,B,q-wh,117.0,reqInfo,"
+how do i get my tickets now
+",open,journey,positive,,,
+13,80,B,q-yn,119.0,reqInfo,"
+but do they
+",abandon-closed-constrain,,positive,,,
+13,83,A,frag,126.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+13,87,A,frag,134.0,reqInfo,"
+your initial
+",open,name,positive,,,
+13,89,A,frag,136.0,reqInfo,"
+and your title
+",open,name,positive,,,
+13,91,A,frag,138.0,reqInfo,"
+and your contact telephone number is
+",open,telephone-number,positive,,,
+13,97,A,frag,145.0,reqInfo,"
+your postcode
+",open,address,positive,,,
+13,107,A,q-wh,157.0,reqInfo,"
+what type of credit card is that you hold
+",open,creditcard,positive,,,
+13,109,A,decl,159.0,reqInfo,"
+and the Barclay card number is
+",,number,positive,,,
+13,119,A,frag,169.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+13,121,A,q-yn,177.0,reqInfo,"
+can you repeat your number again please
+",closed,number,positive,,,
+13,129,A,decl,187.0,reqInfo,"
+what's your expiry date
+",,creditcard,positive,,,
+13,131,A,q-yn,191.0,reqInfo,"
+do you have a pen handy
+",closed,,positive,,,
+13,144,B,q-wh,205.0,reqInfo,"
+em but when the seats come the four of us will be sat together won't we
+",open-constrain,time-number,positive,,,
+14,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed-alternative,creditcard,positive,,,
+14,7,A,frag,11.0,reqInfo,"
+to Wrexham from
+",deixis,to-location,positive,,,
+14,9,A,q-yn,13.0,reqInfo,"
+is that London Euston
+",closed,location,positive,,,
+14,11,A,q-yn,16.0,reqInfo,"
+is it Wrexham Central or General
+",closed-alternative,location,positive,,,
+14,12,B,q-yn,18.0,reqInfo,"
+",abandon-closed,,positive,pause,length,2s
+14,15,A,q-yn,26.0,reqInfo,"
+do you have a railcard at all
+",closed,railcard,positive,,,
+14,17,A,q-wh,28.0,reqInfo,"
+how many people's travelling
+",open,number-journey,positive,,,
+14,19,A,q-wh,30.0,reqInfo,"
+",open,date-journey,positive,pause,,
+14,29,A,q-wh,48.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+14,32,B,q-yn,55.0,reqInfo,"
+is it the same price to go on to Wrexham Central
+",closed,to-location,positive,,,
+14,49,A,q-yn,84.0,reqInfo,"
+is there any seat preference
+",closed-exists,preference-booking-seat,positive,,,
+14,67,A,frag,117.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+14,71,A,frag,121.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+14,73,A,frag,123.0,reqInfo,"
+and your title
+",open,name,positive,,,
+14,75,A,frag,125.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+14,81,A,frag,131.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+14,83,A,decl,134.0,reqInfo,"
+it's a company card in your name
+",,name,positive,,,
+14,85,A,q-wh,137.0,reqInfo,"
+but who's it that's travelling tomorrow
+",open-constrain,day-journey,positive,,,
+14,90,B,q-yn,153.0,reqInfo,"
+or do i have to do that o...
+",closed-constrain-alternative-abandon,,positive,,,
+14,95,A,frag,162.0,reqInfo,"
+the postcode please
+",,address,positive,,,
+14,99,A,decl,166.0,reqInfo,"
+",,name,positive,pause,length,3s
+14,103,A,q-wh,170.0,reqInfo,"
+and what was the next word
+",open,,positive,,,
+14,109,A,frag,176.0,reqInfo,"
+and the next line of the address
+",,address,positive,,,
+14,115,A,frag,184.0,reqInfo,"
+is the credit card got a specific name on the card
+",,name-creditcard,positive,,,
+14,117,A,decl,189.0,reqInfo,"
+the credit card number please
+",,number-creditcard,positive,,,
+14,125,A,frag,198.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+15,3,A,q-yn,6.0,reqInfo,"
+is it yourself that is the credit card holder
+",closed,creditcard,positive,,,
+15,5,A,q-yn,8.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+15,7,A,q-yn,12.0,reqInfo,"
+and does the person have a railcard who's travelling
+",closed,journey-railcard,positive,,,
+15,9,A,q-wh,17.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+15,10,B,q-yn,22.0,reqInfo,"
+is that right
+",closed,,positive,,,
+15,11,A,q-wh,25.0,reqInfo,"
+what time tomorrow
+",open,day-time,positive,,,
+15,15,A,q-wh,37.0,reqInfo,"
+when is it they're returning
+",open,time-return,positive,,,
+15,17,A,q-wh,39.0,reqInfo,"
+when is it they're returning
+",open,time-return,positive,,,
+15,19,A,q-wh,42.0,reqInfo,"
+",open,day-time,positive,pause,length,2s
+15,30,B,q-yn,59.0,reqInfo,"
+is that right
+",closed,,positive,,,
+15,43,A,frag,85.0,reqInfo,"
+the surname of the credit card holder
+",,name-creditcard,positive,,,
+15,45,A,frag,87.0,reqInfo,"
+the surname of the credit card holder
+",,name-creditcard,positive,,,
+15,47,A,frag,89.0,reqInfo,"
+and the initial
+",,name,positive,,,
+15,49,A,frag,91.0,reqInfo,"
+and the title
+",,name,positive,,,
+15,53,A,frag,97.0,reqInfo,"
+the postcode to where the credit card is registered to
+",,creditcard-address,positive,,,
+15,69,A,q-yn,122.0,reqInfo,"
+do you not know the person who you're booking the travel for
+",closed,booking-journey,negative,,,
+15,71,A,q-yn,126.0,reqInfo,"
+do you not know where the bill and address is the bill's sent to ",closed,address,negative,pause,,
+15,71,A,q-yn,127.0,reqInfo,"
+is he there just now
+",closure,,positive,,,
+16,5,A,q-yn,10.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+16,8,B,decl,14.0,reqInfo,"
+erm i'm wondering if there's any erm seats available on the super saver
+",exists-condition-doubt-report,avail-fare,positive,,,
+16,9,A,q-yn,16.0,reqInfo,"
+do you hold a railcard at all
+",closed,railcard,positive,,,
+16,11,A,q-yn,18.0,reqInfo,"
+do you hold a railcard
+",closed,railcard,positive,,,
+16,13,A,q-yn,20.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+16,19,A,q-wh,27.0,reqInfo,"
+",open,time-departure,positive,pause,length,2s
+16,22,B,frag,34.0,reqInfo,"
+and the super saver ",,fare,positive,pause,,
+16,22,B,decl,35.0,reqInfo,"
+that is a super saver is it
+",closed,fare,positive,,,
+16,24,B,decl,39.0,reqInfo,"
+you have a you have a super saver one as well don't you ",closed,number-fare,negative,pause,,
+16,24,B,q-yn,41.0,reqInfo,"
+is that the same thing
+",closed,,positive,,,
+16,30,B,q-wh,57.0,reqInfo,"
+how much is the cost of the train journey then please
+",open,journey,positive,,,
+16,32,B,frag,61.0,reqInfo,"
+and and to book a seat
+",,booking,positive,,,
+16,35,A,q-wh,65.0,reqInfo,"
+and what was the time you were wanting on the return
+",open-report,time-preference-fare,positive,,,
+16,46,B,q-wh,92.0,reqInfo,"
+                if you ",open-poss2,cancel-time,positive,overlap,type,end
+16,55,A,frag,102.0,reqInfo,"
+and the surname of the credit card holder
+",,name-creditcard,positive,,,
+16,57,A,frag,104.0,reqInfo,"
+and the initial
+",,name,positive,,,
+16,59,A,frag,106.0,reqInfo,"
+and the title
+",,name,positive,,,
+16,61,A,q-yn,110.0,reqInfo,"
+is it a Mr or Mrs
+",closed-alternative,,positive,,,
+16,63,A,frag,114.0,reqInfo,"
+the contact telephone number
+",,telephone-number,positive,,,
+16,67,A,frag,119.0,reqInfo,"
+the postcode to where the credit card is registered to
+",,creditcard-address,positive,,,
+16,69,A,q-yn,122.0,reqInfo,"
+have you got the got the postcode first of all please
+",closed,address,positive,,,
+16,73,A,q-wh,130.0,reqInfo,"
+what was the name of the business
+",open,name,positive,,,
+16,75,A,q-yn,133.0,reqInfo,"
+is that {letter}%0 for %alpha
+",closed,enum-spell,positive,,,
+16,79,A,q-wh,137.0,reqInfo,"
+and what was after that
+",open,,positive,,,
+16,88,B,q-wh,147.0,reqInfo,"
+and when will we get that
+",open,time,positive,,,
+16,93,A,decl,158.0,reqInfo,"
+the credit card number is
+",,number-creditcard,positive,,,
+16,101,A,frag,167.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+16,116,B,q-yn,186.0,reqInfo,"
+and can i put your name please
+",closed,name,positive,,,
+17,3,A,q-yn,6.0,reqInfo,"
+is that Birmingham New Street
+",closed,location,positive,,,
+17,5,A,q-yn,8.0,reqInfo,"
+and is it ",closed-abandon,,positive,pause,,
+17,7,A,q-wh,10.0,reqInfo,"
+and ",open,number-journey,positive,pause,,
+17,9,A,q-yn,12.0,reqInfo,"
+do you have a railcard at all
+",closed,railcard,positive,,,
+17,13,A,q-wh,17.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+17,19,A,q-wh,27.0,reqInfo,"
+what time would you like to depart from Birmingham New Street
+",open,location-preference-time-from,positive,,,
+17,20,B,q-yn,28.0,reqInfo,"
+do you have the times ",closed,,positive,pause,,
+17,21,A,q-yn,29.0,reqInfo,"
+was it a morning or afternoon departure
+",closed-alternative,time-departure,positive,,,
+17,24,B,q-yn,33.0,reqInfo,"
+if i book a ticket does it have a specific time that i get on
+",condition,booking-journey-time,positive,,,
+17,30,B,q-wh,43.0,reqInfo,"
+erm ",open,number-journey,positive,pause,length,2s
+17,46,B,q-wh,68.0,reqInfo,"
+what do you mean
+",open,,positive,,,
+17,47,A,q-wh,69.0,reqInfo,"
+what is it forward facing
+",open,seat,positive,,,
+17,53,A,frag,80.0,reqInfo,"
+and your surname please
+",open,name,positive,,,
+17,63,A,frag,90.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+17,65,A,frag,92.0,reqInfo,"
+and your t... ",open,,positive,event,type,tape_cuts_off
+18,2,B,q-yn,7.0,reqInfo,"
+do i need to specify train times ",abandonclosed-constrain-alternative,,positive,pause,,
+18,2,B,q-yn,7.0,reqInfo,"
+do i need to specify train times ",abandonclosed-constrain-alternative,,positive,pause,,
+18,2,B,q-yn,8.0,reqInfo,"
+can i just get it for that d...
+",closed-abandon,,positive,,,
+18,12,B,q-wh,27.0,reqInfo,"
+how much is ",abandon-open,,positive,overlap,type,end
+18,18,B,q-wh,39.0,reqInfo,"
+or ",open-alternative,time,positive,pause,,
+18,22,B,q-yn,46.0,reqInfo,"
+and do i actually purchase those tickets at the station or d... on the train or
+",closed-alternative,time-fare-journey,positive,,,
+18,24,B,q-yn,52.0,reqInfo,"
+yeah is it is this the booking offices are they in the train stations
+",closed,booking,positive,,,
+18,26,B,q-yn,56.0,reqInfo,"
+do they sell out usually or is there always tickets
+",closed-exists-alternative,journey,positive,,,
+18,28,B,q-yn,66.0,reqInfo,"
+can i do that ",closed,booking,positive,unclear,length,2_syllables
+18,32,B,q-yn,76.0,reqInfo,"
+is is that alright
+",closed,,positive,,,
+18,33,A,q-wh,80.0,reqInfo,"
+what date is it you're travelling
+",open,date-journey,positive,,,
+18,37,A,q-wh,86.0,reqInfo,"
+what time do you want to travel from Preston at
+",open,time-location-preference-from-journey,positive,,,
+18,42,B,decl,102.0,reqInfo,"
+but it won't matter if the ticket says that time will it
+",condition-constrain,time-journey,positive,,,
+18,45,A,q-yn,107.0,reqInfo,"
+is it smoking or non smoking
+",closed-alternative,seat,positive,,,
+18,47,A,q-wh,110.0,reqInfo,"
+what's your surname please
+",,name,positive,,,
+18,49,A,frag,112.0,reqInfo,"
+and your initials
+",open,name,positive,,,
+18,51,A,frag,114.0,reqInfo,"
+and your title
+",open,name,positive,,,
+18,63,A,q-yn,143.0,reqInfo,"
+can you give me your full address please
+",closed,address,positive,,,
+18,75,A,q-yn,161.0,reqInfo,"
+could you give me a contact telephone number please
+",closed,telephone-number,positive,,,
+18,87,A,q-wh,177.0,reqInfo,"
+and what type of credit card is that you hold
+",open,creditcard,positive,,,
+18,89,A,decl,179.0,reqInfo,"
+and the Mastercard number is
+",,number,positive,,,
+18,97,A,frag,188.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+18,103,A,q-yn,204.0,reqInfo,"
+do you have a pen handy
+",closed,,positive,,,
+18,112,B,q-wh,220.0,reqInfo,"
+what is the next train after that
+",open,,positive,,,
+19,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+19,5,A,q-wh,9.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+19,7,A,q-wh,11.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+19,9,A,q-yn,13.0,reqInfo,"
+is that 2 adults
+",closed,enum,positive,,,
+19,11,A,q-yn,17.0,reqInfo,"
+does anyone who's travelling have a railcard
+",,journey-railcard,positive,,,
+19,13,A,q-wh,19.0,reqInfo,"
+and what time would you like to depart
+",open,preference-time,positive,,,
+19,19,A,q-yn,26.0,reqInfo,"
+is that the same day sir
+",closed,day,positive,,,
+19,31,A,q-yn,51.0,reqInfo,"
+would you like smoking or non smoking
+",closed-alternative,preference-seat,positive,,,
+19,37,A,frag,64.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+19,45,A,frag,72.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+19,49,A,frag,77.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+19,55,A,frag,83.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+19,65,A,q-yn,96.0,reqInfo,"
+could you give me your credit card number
+",closed,number-creditcard,positive,,,
+19,73,A,frag,107.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+19,75,A,q-yn,111.0,reqInfo,"
+do you have a ",closed,,positive,pause,,
+19,82,B,q-yn,121.0,reqInfo,"
+is that {letter}%4 {letter}%7
+",closed,enum-spell,positive,,,
+20,2,B,decl,6.0,reqInfo,"
+i want to know if there's any cheap tickets still available from Euston to Manchester ",exists-conditionIntent,location-to-preference-from-avail-fare-journey,positive,pause,length,2s
+20,2,B,decl,6.0,reqInfo,"
+i want to know if there's any cheap tickets still available from Euston to Manchester ",exists-conditionIntent,location-to-preference-from-avail-fare-journey,positive,overlap,type,start
+20,3,A,q-yn,8.0,reqInfo,"
+do you want to book a ticket or are you just enquiring  ",closed-alternative,time-preference-booking-journey,positive,overlap,type,start
+20,5,A,q-yn,12.0,reqInfo,"
+do you still... do you hold a credit a debit card
+",closed,creditcard,positive,,,
+20,7,A,q-yn,14.0,reqInfo,"
+and is it Saturday the third
+",closed,day,positive,,,
+20,9,A,q-yn,17.0,reqInfo,"
+is it just for 2
+",closed,,positive,,,
+20,19,A,q-yn,35.0,reqInfo,"
+do you hold a current rail card
+",closed,railcard,positive,,,
+21,3,A,q-yn,7.0,reqInfo,"
+do you hold a current debit card or credit ",closed,creditcard,positive,overlap,type,start
+21,5,A,q-yn,9.0,reqInfo,"
+and is it Sunday the fourth ",closed,month-day-date,positive,pause,,
+21,5,A,q-yn,9.0,reqInfo,"
+and is it Sunday the fourth ",closed,month-day-date,positive,overlap,type,start
+21,7,A,q-yn,13.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+21,9,A,q-wh,15.0,reqInfo,"
+departing at what time
+",open,time-departure,positive,,,
+21,15,A,q-yn,29.0,reqInfo,"
+do you have a rail card at all
+",closed,railcard,positive,,,
+21,18,B,q-wh,33.0,reqInfo,"
+erm what about Monday morning ",open,time-day,positive,pause,,
+21,20,B,q-wh,41.0,reqInfo,"
+that that 10 ",,time,positive,pause,,
+21,36,B,q-wh,67.0,reqInfo,"
+i must what
+",open-constrain,,positive,,,
+21,43,A,frag,75.0,reqInfo,"
+your surname
+",open,name,positive,,,
+21,45,A,frag,77.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+21,47,A,frag,79.0,reqInfo,"
+and your title
+",open,name,positive,,,
+21,49,A,q-yn,82.0,reqInfo,"
+could you give me your contact telephone number please
+",closed,telephone-number,positive,,,
+21,53,A,frag,87.0,reqInfo,"
+your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+21,59,A,q-wh,94.0,reqInfo,"
+what type of credit card is that you hold
+",open,creditcard,positive,,,
+21,61,A,decl,97.0,reqInfo,"
+and the long number across the centre of the card
+",,number,positive,,,
+21,71,A,q-yn,108.0,reqInfo,"
+is that a Delta card
+",closed,,positive,,,
+21,73,A,frag,110.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+22,3,A,q-yn,6.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+22,5,A,q-wh,9.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+22,7,A,q-yn,11.0,reqInfo,"
+and does anyone have a railcard
+",closed,railcard,positive,,,
+22,12,B,q-yn,20.0,reqInfo,"
+is that after 10
+",closed,,positive,,,
+22,22,B,q-wh,44.0,reqInfo,"
+what does that mean then ",open,,positive,pause,,
+22,22,B,q-wh,45.0,reqInfo,"
+what if i book
+",open-condition,booking,positive,,,
+22,24,B,decl,51.0,reqInfo,"
+there's no supersavers available or anything on that on there
+",exists-alternative,avail-fare,negative,,,
+22,36,B,q-yn,77.0,reqInfo,"
+are there no trains that go directly to Blackpool
+",closed-exists,to-location,negative,,,
+22,46,B,q-wh,102.0,reqInfo,"
+cos what's the other one the other one we got before
+",open-reason,number,positive,,,
+22,46,B,q-yn,103.0,reqInfo,"
+was it a twin a value twin or something ",closed-alternative,,positive,pause,,
+22,54,B,q-yn,118.0,reqInfo,"
+can you just give me a price
+",closed,,positive,,,
+23,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+23,5,A,q-wh,8.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+23,7,A,q-yn,10.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+23,14,B,q-yn,21.0,reqInfo,"
+is it
+",closed,,positive,,,
+23,23,A,q-wh,35.0,reqInfo,"
+when would you be returning
+",open,time-return,positive,,,
+23,29,A,q-wh,46.0,reqInfo,"
+",open,time,positive,pause,,
+23,32,B,q-yn,49.0,reqInfo,"
+is it 15 39
+",closed,enum,positive,,,
+23,35,A,q-yn,54.0,reqInfo,"
+does it have to be 11 41 train that you get travelling out
+",constrain,enum-journey,positive,,,
+23,36,B,q-wh,56.0,reqInfo,"
+why what's the choice
+",open,,positive,,,
+23,49,A,decl,80.0,reqInfo,"
+your surname is please
+",open,name,positive,,,
+23,51,A,frag,82.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+23,53,A,frag,84.0,reqInfo,"
+and your title
+",open,name,positive,,,
+23,55,A,q-yn,87.0,reqInfo,"
+can you give me your contact telephone number please
+",closed,telephone-number,positive,,,
+23,59,A,frag,91.0,reqInfo,"
+",open,creditcard-address,positive,pause,length,3s
+23,63,A,q-wh,99.0,reqInfo,"
+and where the the statement is addressed to
+",open,address,positive,,,
+23,67,A,q-wh,109.0,reqInfo,"
+what's the name of the business please
+",open,name,positive,,,
+23,69,A,q-wh,111.0,reqInfo,"
+",open,creditcard,positive,pause,length,8s
+23,71,A,frag,114.0,reqInfo,"
+the number across the Visa please
+",,number-creditcard,positive,,,
+23,79,A,frag,123.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+23,94,B,q-yn,163.0,reqInfo,"
+if i'm not there 20 minutes beforehand is there going to be a major problem
+",closed-exists-conditionIntent,time,negative,,,
+24,3,A,q-yn,7.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+24,5,A,q-yn,9.0,reqInfo,"
+and is it just for 1
+",closed,,positive,,,
+24,7,A,q-yn,11.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+24,13,A,q-wh,20.0,reqInfo,"
+when is it you're returning
+",open,time-return,positive,,,
+24,25,A,frag,43.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+24,27,A,frag,45.0,reqInfo,"
+",open,name,positive,pause,length,2s
+24,29,A,q-yn,49.0,reqInfo,"
+could you give me a contact telephone number please
+",closed,telephone-number,positive,,,
+24,39,A,frag,67.0,reqInfo,"
+your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+24,61,A,q-wh,119.0,reqInfo,"
+and what type of credit card is that you hold
+",open,creditcard,positive,,,
+24,63,A,frag,124.0,reqInfo,"
+the number please
+",,number,positive,,,
+24,79,A,frag,141.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+24,83,A,q-yn,150.0,reqInfo,"
+do you have your pen ready
+",closed,,positive,,,
+25,3,A,q-yn,6.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+25,5,A,q-wh,8.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+25,7,A,q-wh,10.0,reqInfo,"
+and what date is it you're travelling out
+",open,date-journey,positive,,,
+25,13,A,frag,19.0,reqInfo,"
+",deixis,time,positive,pause,length,2s
+25,15,A,q-wh,22.0,reqInfo,"
+",open,time-return,positive,pause,length,7s
+25,21,A,q-yn,29.0,reqInfo,"
+and is it standard class
+",closed,,positive,,,
+25,31,A,q-yn,48.0,reqInfo,"
+is there any seat preference
+",closed-exists,preference-booking-seat,positive,,,
+25,39,A,frag,63.0,reqInfo,"
+your surname
+",open,name,positive,,,
+25,43,A,q-yn,74.0,reqInfo,"
+is it a private card or a business card
+",closed-alternative,,positive,,,
+26,3,A,frag,6.0,reqInfo,"
+from
+",partial,,positive,,,
+26,5,A,q-yn,9.0,reqInfo,"
+do you hold a current credit card or debit card
+",closed,creditcard,positive,,,
+26,7,A,q-wh,11.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+26,9,A,q-yn,14.0,reqInfo,"
+is it just for 1
+",closed,,positive,,,
+26,11,A,q-yn,16.0,reqInfo,"
+and do you have a railcard at all
+",closed,railcard,positive,,,
+26,13,A,frag,18.0,reqInfo,"
+senior
+",partial,,positive,,,
+26,21,A,q-wh,32.0,reqInfo,"
+",open,time-departure,positive,pause,length,3s
+26,36,B,decl,69.0,reqInfo,"
+er are those train times ok then
+",,,positive,,,
+26,57,A,frag,146.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+26,59,A,frag,148.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+26,61,A,frag,150.0,reqInfo,"
+and your title
+",open,name,positive,,,
+26,63,A,frag,152.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+26,67,A,frag,156.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+27,3,A,q-yn,7.0,reqInfo,"
+is it yourself that is the credit card holder
+",closed,creditcard,positive,,,
+27,5,A,q-wh,10.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+27,9,A,q-yn,15.0,reqInfo,"
+does anyone have a railcard who's travelling
+",closed,journey-railcard,positive,,,
+27,15,A,q-yn,24.0,reqInfo,"
+is that changing at Birmingham ",closed,time-location,positive,backchannel,content,yes
+27,17,A,q-wh,28.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+27,19,A,frag,31.0,reqInfo,"
+departing at what time
+",open,time-departure,positive,,,
+27,57,A,frag,113.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+27,59,A,frag,115.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+27,61,A,frag,117.0,reqInfo,"
+and your title please
+",open,name,positive,,,
+27,63,A,frag,119.0,reqInfo,"
+and your contact telephone number
+",open,telephone-number,positive,,,
+27,75,A,frag,132.0,reqInfo,"
+and the postcode to where the credit card is registered to
+",,creditcard-address,positive,,,
+27,85,A,q-wh,144.0,reqInfo,"
+what type of credit card is that you hold
+",open,creditcard,positive,,,
+27,87,A,frag,146.0,reqInfo,"
+and the long number across the Visa please
+",,number-creditcard,positive,,,
+27,101,A,frag,161.0,reqInfo,"
+and your expiry date
+",,,,,,
+27,105,A,q-yn,167.0,reqInfo,"
+do you have a pen handy
+",closed,,positive,,,
+28,3,A,q-wh,10.0,reqInfo,"
+where
+",open,,positive,,,
+28,9,A,q-yn,19.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+28,11,A,q-yn,21.0,reqInfo,"
+and do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+28,15,A,q-yn,29.0,reqInfo,"
+do you hold a current railcard
+",closed,railcard,positive,,,
+28,19,A,q-wh,35.0,reqInfo,"
+what type of railcard
+",open,railcard,positive,,,
+28,25,A,q-wh,44.0,reqInfo,"
+when is it you're returning
+",open,time-return,positive,,,
+28,26,B,q-yn,46.0,reqInfo,"
+i... i... is this a Saturday
+",closure,day,positive,,,
+28,31,A,q-wh,54.0,reqInfo,"
+what date is it you're returning
+",open,return-date,positive,,,
+28,34,B,q-wh,65.0,reqInfo,"
+w... what's your advice
+",,,positive,,,
+28,44,B,q-wh,81.0,reqInfo,"
+when when is it next i can get ",open-poss1,time,positive,pause,,
+28,62,B,q-yn,114.0,reqInfo,"
+same day or can you do for a week
+",closed-alternative,day,positive,,,
+28,64,B,frag,117.0,reqInfo,"
+for the same price
+",deixis,,positive,,,
+28,68,B,q-yn,125.0,reqInfo,"
+can you do for 2 weeks
+",closed,enum,positive,,,
+28,69,A,q-yn,127.0,reqInfo,"
+is it 2 weeks on Friday
+",closed,day-enum,positive,,,
+28,70,B,decl,131.0,reqInfo,"
+and the 2 weeks will be what
+",,enum,positive,,,
+28,73,A,frag,135.0,reqInfo,"
+departing ",open,time-departure,positive,overlap,type,end
+28,86,B,q-wh,156.0,reqInfo,"
+what time is the reach to Stockport
+",open,time-to,positive,,,
+28,97,A,q-yn,173.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+28,99,A,q-yn,175.0,reqInfo,"
+and ",closed-alternative,seat,positive,pause,length,2s
+28,119,A,q-yn,201.0,reqInfo,"
+do they require assistance at all
+",closed,,positive,,,
+28,133,A,decl,222.0,reqInfo,"
+i need the surname of the credit card holder please
+",constrain,name-creditcard,positive,,,
+28,139,A,q-wh,229.0,reqInfo,"
+what was the last letter there
+",open,,positive,,,
+28,141,A,frag,232.0,reqInfo,"
+after {letter}%11
+",closure,spell,positive,,,
+28,146,B,decl,237.0,reqInfo,"
+and the ticket will be in my middle name right
+",,name-journey,positive,,,
+28,149,A,frag,243.0,reqInfo,"
+your contact telephone number please
+",open,telephone-number,positive,,,
+28,157,A,frag,251.0,reqInfo,"
+and your postcode to where your credit card's registered to
+",open,creditcard-address,positive,,,
+28,163,A,q-yn,258.0,reqInfo,"
+can you confirm that address for me please
+",closed,confirm-address,positive,,,
+28,165,A,q-yn,260.0,reqInfo,"
+can you confirm your address for me
+",closed,confirm-address,positive,,,
+28,169,A,q-wh,264.0,reqInfo,"
+and what type of credit card was that you said you hold
+",open,creditcard,positive,,,
+28,171,A,frag,267.0,reqInfo,"
+your Visa number
+",open,number-creditcard,positive,,,
+28,181,A,frag,277.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+29,3,A,q-yn,6.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+29,5,A,q-wh,9.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+29,7,A,q-wh,11.0,reqInfo,"
+and what date is that you're travelling out
+",open,date-journey,positive,,,
+29,11,A,q-yn,16.0,reqInfo,"
+is that in the morning
+",closed,time,positive,,,
+29,19,A,q-yn,30.0,reqInfo,"
+does anyone who's travelling have a railcard
+",,journey-railcard,positive,,,
+29,24,B,q-yn,48.0,reqInfo,"
+is there availability on that ",closed-exists,number-avail,positive,pause,,
+29,25,A,q-yn,56.0,reqInfo,"
+is that going to be a suitable time for you
+",closed,time,positive,,,
+29,28,B,q-yn,62.0,reqInfo,"
+is there one earlier than the 6 34 or is that the first one out of Wigan in the morning
+",closed-exists-alternative,time-number,positive,,,
+29,32,B,q-yn,68.0,reqInfo,"
+and can that be erm
+",abandon-closed,,positive,,,
+29,57,A,frag,107.0,reqInfo,"
+your surname please
+",open,name,positive,,,
+29,59,A,frag,109.0,reqInfo,"
+and your initial
+",open,name,positive,,,
+29,61,A,frag,111.0,reqInfo,"
+and your title please
+",open,name,positive,,,
+29,63,A,frag,114.0,reqInfo,"
+your contact telephone number
+",open,telephone-number,positive,,,
+29,69,A,frag,120.0,reqInfo,"
+and your postcode to where the credit card is registered to
+",open,creditcard-address,positive,,,
+29,89,A,q-yn,146.0,reqInfo,"
+does it have an issue number
+",,number,positive,,,
+29,91,A,frag,149.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+29,95,A,decl,154.0,reqInfo,"
+you've got your pen ready
+",,,positive,,,
+30,3,A,frag,6.0,reqInfo,"
+to
+",partial,,positive,,,
+30,5,A,q-yn,9.0,reqInfo,"
+is it yourself that holds the credit or debit card
+",closed,creditcard,positive,,,
+30,19,A,q-yn,32.0,reqInfo,"
+are you travelling by train today
+",closed,day-journey,positive,,,
+31,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+31,5,A,q-wh,8.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+31,9,A,q-yn,18.0,reqInfo,"
+is it just for one
+",closed,number,positive,,,
+32,3,A,frag,5.0,reqInfo,"
+from
+",partial,,positive,,,
+32,5,A,q-yn,8.0,reqInfo,"
+do you hold a current credit or debit card
+",closed,creditcard,positive,,,
+32,14,B,q-yn,26.0,reqInfo,"
+is that ok for the credit card
+",closed,creditcard,positive,,,
+32,17,A,q-wh,30.0,reqInfo,"
+how many people's travelling tomorrow
+",open,day-number-journey,positive,,,
+32,19,A,q-wh,32.0,reqInfo,"
+and what time around
+",open,time,positive,,,
+32,25,A,q-yn,43.0,reqInfo,"
+does anyone hold a current railcard
+",closed,railcard,positive,,,
+32,31,A,q-yn,52.0,reqInfo,"
+is that a suitable time
+",closed,time,positive,,,
+32,34,B,decl,56.0,reqInfo,"
+you haven't got anything in ",abandon,time,negative,pause,,
+32,40,B,q-yn,64.0,reqInfo,"
+er ",abandon-closed-exists,,positive,pause,,
+32,40,B,q-yn,64.0,reqInfo,"
+er ",abandon-closed-exists,,positive,comment,content,4s_talking_to_someone_else
+32,40,B,q-yn,68.0,reqInfo,"
+can you do that ",closed,number,positive,overlap,type,start
+33,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+33,5,A,q-wh,8.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+33,7,A,q-wh,10.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+33,11,A,frag,14.0,reqInfo,"
+in the morning or ",deixis-alternative,time,positive,overlap,type,start
+33,13,A,q-wh,16.0,reqInfo,"
+and when is it you're returning
+",open,time-return,positive,,,
+33,17,A,q-yn,20.0,reqInfo,"
+and is it standard class
+",closed,,positive,,,
+33,19,A,q-yn,22.0,reqInfo,"
+do you hold a current railcard
+",closed,railcard,positive,,,
+33,37,A,q-yn,60.0,reqInfo,"
+is it smoking or non smoking
+",closed-alternative,seat,positive,,,
+33,51,A,frag,86.0,reqInfo,"
+and the surname of the credit card holder
+",,name-creditcard,positive,,,
+33,53,A,frag,88.0,reqInfo,"
+and the initial
+",,name,positive,,,
+33,55,A,frag,90.0,reqInfo,"
+and the title
+",,name,positive,,,
+33,57,A,frag,96.0,reqInfo,"
+title
+",,name,positive,,,
+33,57,A,q-yn,97.0,reqInfo,"
+is it a Miss Mrs
+",closed,,positive,,,
+33,59,A,frag,101.0,reqInfo,"
+and ",,telephone-number,positive,overlap,type,end
+33,65,A,frag,108.0,reqInfo,"
+the postcode to where the credit card is registered to
+",,creditcard-address,positive,,,
+33,67,A,q-yn,110.0,reqInfo,"
+have you got your postcode first of all
+",closed,address,positive,,,
+33,73,A,decl,118.0,reqInfo,"
+the name of the business is
+",,name,positive,,,
+33,83,A,frag,130.0,reqInfo,"
+and the next line
+",,,positive,,,
+33,91,A,q-wh,141.0,reqInfo,"
+and what type of credit card
+",open,creditcard,positive,,,
+33,93,A,frag,143.0,reqInfo,"
+and the Visa number
+",,number-creditcard,positive,,,
+33,101,A,frag,152.0,reqInfo,"
+and the expiry date
+",,creditcard,positive,,,
+34,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card
+",closed-alternative,creditcard,positive,,,
+34,5,A,q-wh,9.0,reqInfo,"
+and how many people's travelling
+",open,number-journey,positive,,,
+34,12,B,q-yn,19.0,reqInfo,"
+is there one sort of er twoish er 2 somewhere between 2 and 3
+",closed-exists,number-enum,positive,,,
+34,13,A,q-yn,22.0,reqInfo,"
+do you hold a current railcard
+",closed,railcard,positive,,,
+34,24,B,q-yn,42.0,reqInfo,"
+is is there any particular ",closed-exists-alternative,location-number,positive,pause,,
+34,26,B,decl,54.0,reqInfo,"
+there's another one fairly soon after isn't there
+",exists,number,negative,,,
+34,33,A,q-wh,68.0,reqInfo,"
+when is it you're in... was intending on returning
+",open,time-return,positive,,,
+34,36,B,q-wh,81.0,reqInfo,"
+",open,,positive,pause,,
+34,36,B,q-wh,81.0,reqInfo,"
+",open,,positive,overlap,type,start
+34,48,B,q-yn,105.0,reqInfo,"
+are these ",abandon,,positive,pause,,
+34,48,B,q-wh,106.0,reqInfo,"
+what sort of tickets are these ones called
+",open,number-journey,positive,,,
+34,52,B,q-wh,113.0,reqInfo,"
+erm ",open-abandon,,positive,pause,,
+34,52,B,q-wh,116.0,reqInfo,"
+how much would that cost
+",open,,positive,,,
+34,54,B,decl,121.0,reqInfo,"
+the other two there's there's no condi...
+",exists-abandon,number,negative,,,
+34,54,B,decl,124.0,reqInfo,"
+there's no other conditions in terms of a...
+",exists-abandon,,negative,,,
+34,54,B,decl,125.0,reqInfo,"
+erm you don't have to book the the next leg in advance or anything like that do ",constrain-alternative,fare-booking,negative,overlap,type,start
+35,3,A,frag,7.0,reqInfo,"
+travelling from
+",,journey,positive,,,
+35,5,A,q-yn,13.0,reqInfo,"
+do you hold a current debit or credit card
+",closed,creditcard,positive,,,
+35,7,A,q-wh,15.0,reqInfo,"
+and what date is it you're travelling
+",open,date-journey,positive,,,
+35,32,B,q-yn,48.0,reqInfo,"
+would it do they do they have an earlier one where there is a value f... ",closed-exists,number,positive,pause,,
+35,34,B,frag,51.0,reqInfo,"
+ anything a bit later ",,,positive,pause,,
+35,45,A,q-wh,69.0,reqInfo,"
+what date is it you're returning
+",open,return-date,positive,,,
+35,47,A,q-wh,71.0,reqInfo,"
+",open,departure-time,positive,pause,length,2s
+35,52,B,q-wh,80.0,reqInfo,"
+what about erm ",open,,positive,pause,,
+35,52,B,q-wh,80.0,reqInfo,"
+what about erm ",open,,positive,pause,,
+35,56,B,q-wh,89.0,reqInfo,"
+what's the cheapest fare i could do it
+",open-poss1,fare,positive,,,
+35,69,A,q-yn,110.0,reqInfo,"
+do you have a railcard at all
+",closed,railcard,positive,,,
+35,78,B,q-yn,126.0,reqInfo,"
+can i go earlier on the Saturday ",closed,day,positive,pause,,
+35,84,B,frag,139.0,reqInfo,"
+what even to to any one of those stations
+",closure,number,positive,,,
+35,88,B,q-yn,144.0,reqInfo,"
+is there anything a little is there anything available more expensively if you see what i mean ",closed-exists,avail,positive,pause,,
+35,89,A,frag,147.0,reqInfo,"
+on the 10 50 train
+",deixis,enum,positive,,,
+35,109,A,q-yn,184.0,reqInfo,"
+is it smoking or non smoking
+",closed-alternative,seat,positive,,,
+35,131,A,frag,223.0,reqInfo,"
+and your surname please
+",open,name,positive,,,
+35,135,A,frag,235.0,reqInfo,"
+now your initial
+",,name,positive,,,
+35,137,A,frag,237.0,reqInfo,"
+and your title
+",open,name,positive,,,
+35,139,A,q-yn,240.0,reqInfo,"
+could you give me your contact telephone number please
+",closed,telephone-number,positive,,,
+35,145,A,frag,247.0,reqInfo,"
+and your postcode to where your credit card is registered to
+",open,creditcard-address,positive,,,
+35,149,A,frag,251.0,reqInfo,"
+and that address for me please
+",,address,positive,,,
+35,153,A,q-wh,256.0,reqInfo,"
+and what type of credit is that you hold
+",open,creditcard,positive,,,
+35,154,B,q-yn,257.0,reqInfo,"
+do you take Diner's or American Express or anything like that
+",closed-alternative,,positive,,,
+35,169,A,q-yn,276.0,reqInfo,"
+do you have a pen handy
+",closed,,positive,,,
+35,186,B,q-wh,303.0,reqInfo,"
+what if the coach Ma... is is not running properly or something
+",open-condition-alternative,,negative,,,
+35,186,B,q-wh,304.0,reqInfo,"
+what happens
+",open,,positive,,,
+36,3,A,q-yn,7.0,reqInfo,"
+is that Birmingham New Street ",closed-query,location,positive,punc,type,query
+36,5,A,q-yn,10.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+36,7,A,q-yn,14.0,reqInfo,"
+",closed-query,railcard,positive,pause,,
+36,7,A,q-yn,14.0,reqInfo,"
+",closed-query,railcard,positive,punc,type,query
+36,9,A,q-wh,16.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+36,11,A,q-wh,18.0,reqInfo,"
+and what date is it you're travelling out ",open-query,journey-date,positive,punc,type,query
+36,13,A,frag,20.0,reqInfo,"
+",query-open-query,time-departure,positive,pause,,
+36,13,A,frag,20.0,reqInfo,"
+",query-open-query,time-departure,positive,punc,type,query
+36,15,A,frag,22.0,reqInfo,"
+from Birmingham International ",partial-query,location-from,positive,punc,type,query
+36,19,A,q-wh,30.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+36,37,A,q-yn,73.0,reqInfo,"
+and ",closed-query,booking-seat,positive,overlap,type,end
+36,37,A,q-yn,73.0,reqInfo,"
+and ",closed-query,booking-seat,positive,punc,type,query
+36,49,A,frag,102.0,reqInfo,"
+",query,name,positive,pause,,
+36,49,A,frag,102.0,reqInfo,"
+",query,name,positive,punc,type,query
+36,51,A,frag,104.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+36,53,A,frag,106.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+36,59,A,frag,113.0,reqInfo,"
+",query,creditcard-address,positive,pause,length,2s
+36,59,A,frag,113.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+36,63,A,frag,119.0,reqInfo,"
+",query,number-creditcard,positive,pause,,
+36,63,A,frag,119.0,reqInfo,"
+",query,number-creditcard,positive,pause,,
+36,63,A,frag,119.0,reqInfo,"
+",query,number-creditcard,positive,punc,type,query
+36,75,A,frag,133.0,reqInfo,"
+and the issue number ",query,number,positive,punc,type,query
+36,77,A,frag,135.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+37,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+37,5,A,q-yn,10.0,reqInfo,"
+do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+37,7,A,q-wh,12.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+37,9,A,q-wh,14.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+37,13,A,frag,19.0,reqInfo,"
+departing at what time from London Euston ",open-query,location-time-from-departure,positive,punc,type,query
+37,14,B,q-yn,21.0,reqInfo,"
+do you know ",closed-query,,positive,punc,type,query
+37,19,A,q-wh,29.0,reqInfo,"
+when are you returning ",open-query,time-return,positive,punc,type,query
+37,21,A,frag,32.0,reqInfo,"
+departing at what time ",query-open-query,time-departure,positive,punc,type,query
+37,34,B,q-yn,59.0,reqInfo,"
+",condition-closed-query,cancel,positive,pause,,
+37,34,B,q-yn,59.0,reqInfo,"
+",condition-closed-query,cancel,positive,punc,type,query
+37,35,A,decl,60.0,reqInfo,"
+you don't want to book at all ",query,booking,negative,punc,type,query
+38,3,A,q-yn,8.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+38,5,A,q-yn,10.0,reqInfo,"
+do you have a rail card at all ",closed-query,railcard,positive,punc,type,query
+38,7,A,q-wh,12.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+38,9,A,q-yn,14.0,reqInfo,"
+is that two adults ",closed-query,number,positive,punc,type,query
+38,11,A,q-wh,16.0,reqInfo,"
+and what date is it you're departing ",open-query,date-departure,positive,punc,type,query
+38,13,A,frag,19.0,reqInfo,"
+Saturday ",query,day,positive,punc,type,query
+38,55,A,q-wh,82.0,reqInfo,"
+and how do you spell that ",open-query,,positive,punc,type,query
+38,57,A,frag,84.0,reqInfo,"
+",query,name,positive,pause,,
+38,57,A,frag,84.0,reqInfo,"
+",query,name,positive,punc,type,query
+38,62,B,frag,91.0,reqInfo,"
+got that ",query,,positive,punc,type,query
+38,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+38,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+38,73,A,q-wh,111.0,reqInfo,"
+what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+38,75,A,decl,113.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+38,91,A,frag,130.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+38,95,A,q-yn,137.0,reqInfo,"
+do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+39,3,A,frag,8.0,reqInfo,"
+travelling to ",query,journey,positive,punc,type,query
+39,5,A,frag,10.0,reqInfo,"
+from ",query,,positive,punc,type,query
+39,6,B,q-yn,13.0,reqInfo,"
+is there a train from Liverpool ",exists-closed-query,location-from,positive,punc,type,query
+39,7,A,q-yn,15.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+39,9,A,q-yn,17.0,reqInfo,"
+and is it just for one person ",closed-query,number,positive,punc,type,query
+39,11,A,q-yn,22.0,reqInfo,"
+",closed-query,railcard,positive,pause,,
+39,11,A,q-yn,22.0,reqInfo,"
+",closed-query,railcard,positive,punc,type,query
+39,18,B,q-wh,43.0,reqInfo,"
+how much is the ticket ",query-open-query,journey,positive,punc,type,query
+39,28,B,q-yn,69.0,reqInfo,"
+",exists-closed,location,positive,pause,,
+39,28,B,q-yn,69.0,reqInfo,"
+",exists-closed,location,positive,pause,,
+39,28,B,q-yn,69.0,reqInfo,"
+",exists-closed,location,positive,punc,type,query
+39,28,B,frag,70.0,reqInfo,"
+",alternative-query,location,positive,pause,,
+39,28,B,frag,70.0,reqInfo,"
+",alternative-query,location,positive,punc,type,query
+39,30,B,q-wh,74.0,reqInfo,"
+",query-open-query,,positive,pause,,
+39,30,B,q-wh,74.0,reqInfo,"
+",query-open-query,,positive,punc,type,query
+39,40,B,decl,89.0,reqInfo,"
+if there's anything Thursday night ",exists-condition-query,day,positive,backchannel,content,ok
+39,40,B,decl,89.0,reqInfo,"
+if there's anything Thursday night ",exists-condition-query,day,positive,pause,,
+39,40,B,decl,89.0,reqInfo,"
+if there's anything Thursday night ",exists-condition-query,day,positive,punc,type,query
+39,44,B,q-yn,104.0,reqInfo,"
+is that a Super Saver Advance yes ",closed-query,fare,positive,punc,type,query
+39,45,A,q-yn,111.0,reqInfo,"
+is it you're returning ",closed-query,return,positive,punc,type,query
+39,46,B,q-wh,113.0,reqInfo,"
+what time does it the train leave or something ",alternative-open-query,time-departure,positive,punc,type,query
+39,56,B,decl,138.0,reqInfo,"
+",query,arrival,positive,pause,,
+39,56,B,decl,138.0,reqInfo,"
+",query,arrival,positive,punc,type,query
+39,59,A,q-yn,144.0,reqInfo,"
+is it smoking or non-smoking ",alternative-closed-query,seat,positive,punc,type,query
+39,67,A,frag,171.0,reqInfo,"
+your surname ",query,name,positive,punc,type,query
+39,69,A,frag,174.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+39,71,A,frag,176.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+39,77,A,frag,182.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+39,85,A,q-wh,194.0,reqInfo,"
+and what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+39,95,A,frag,205.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+39,97,A,q-yn,210.0,reqInfo,"
+do you have a pen handy ",closed-query,,positive,punc,type,query
+40,3,A,q-yn,8.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+40,5,A,q-yn,10.0,reqInfo,"
+do you have a rail card at all ",closed-query,railcard,positive,punc,type,query
+40,7,A,q-wh,12.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+40,9,A,q-yn,14.0,reqInfo,"
+is that two adults ",closed-query,number,positive,punc,type,query
+40,11,A,q-wh,16.0,reqInfo,"
+and what date is it you're departing ",open-query,date-departure,positive,punc,type,query
+40,13,A,frag,19.0,reqInfo,"
+Saturday ",query,day,positive,punc,type,query
+40,55,A,q-wh,82.0,reqInfo,"
+and how do you spell that ",open-query,,positive,punc,type,query
+40,57,A,frag,84.0,reqInfo,"
+",query,name,positive,pause,,
+40,57,A,frag,84.0,reqInfo,"
+",query,name,positive,punc,type,query
+40,62,B,frag,91.0,reqInfo,"
+got that ",query,,positive,punc,type,query
+40,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+40,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+40,73,A,q-wh,111.0,reqInfo,"
+what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+40,75,A,decl,113.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+40,91,A,frag,130.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+40,95,A,q-yn,137.0,reqInfo,"
+do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+41,3,A,q-yn,7.0,reqInfo,"
+do you hold a current credit or debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+41,5,A,q-yn,9.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+41,7,A,q-wh,11.0,reqInfo,"
+and how many people are travelling ",query-open-query,number-journey,positive,punc,type,query
+41,11,A,frag,16.0,reqInfo,"
+departing Preston at what time ",query-partial-query,time-location-departure,positive,punc,type,query
+41,20,B,q-wh,33.0,reqInfo,"
+what's the cost for that ",open-query,booking-fare,positive,pause,,
+41,20,B,q-wh,33.0,reqInfo,"
+what's the cost for that ",open-query,booking-fare,positive,punc,type,query
+41,22,B,frag,35.0,reqInfo,"
+",query,fare,positive,pause,,
+41,22,B,frag,35.0,reqInfo,"
+",query,fare,positive,punc,type,query
+41,29,A,q-yn,49.0,reqInfo,"
+do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+41,37,A,frag,63.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+41,45,A,frag,71.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+41,53,A,q-wh,82.0,reqInfo,"
+and what type of credit card is that do you hold ",open-query,creditcard,positive,punc,type,query
+41,54,B,q-yn,85.0,reqInfo,"
+or do you need a credit card ",alternative-constrain-closed-decl,creditcard,positive,punc,type,stop
+41,55,A,decl,87.0,reqInfo,"
+the long number across the switch card ",query,number-creditcard,positive,punc,type,query
+41,65,A,frag,99.0,reqInfo,"
+and the issue number ",query,number,positive,punc,type,query
+41,67,A,frag,101.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+42,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+42,5,A,q-yn,11.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+42,7,A,q-wh,13.0,reqInfo,"
+how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+42,9,A,q-wh,16.0,reqInfo,"
+and what date you travelling out ",open-query,journey-date,positive,punc,type,query
+42,28,B,q-yn,52.0,reqInfo,"
+is that got the the tea and coffee as well ",closed-frag,,positive,punc,type,level
+42,33,A,frag,60.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+42,35,A,frag,62.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+42,40,B,q-yn,71.0,reqInfo,"
+",closed-query,,positive,pause,,
+42,40,B,q-yn,71.0,reqInfo,"
+",closed-query,,positive,punc,type,query
+42,43,A,frag,79.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+42,51,A,frag,90.0,reqInfo,"
+and your postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+42,57,A,q-wh,100.0,reqInfo,"
+",open-query,creditcard,positive,pause,,
+42,57,A,q-wh,100.0,reqInfo,"
+",open-query,creditcard,positive,punc,type,query
+42,67,A,frag,111.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+43,3,A,q-yn,7.0,reqInfo,"
+",closed-query,creditcard,positive,pause,length,3s
+43,3,A,q-yn,7.0,reqInfo,"
+",closed-query,creditcard,positive,pause,,
+43,3,A,q-yn,7.0,reqInfo,"
+",closed-query,creditcard,positive,punc,type,query
+43,5,A,q-yn,9.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+43,7,A,q-yn,11.0,reqInfo,"
+",closed-query,railcard,positive,pause,length,7s
+43,7,A,q-yn,11.0,reqInfo,"
+",closed-query,railcard,positive,punc,type,query
+43,9,A,q-wh,13.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+43,13,A,frag,21.0,reqInfo,"
+",open-query,time-location-journey-from-day,positive,pause,length,3s
+43,13,A,frag,21.0,reqInfo,"
+",open-query,time-location-journey-from-day,positive,punc,type,query
+43,14,B,q-yn,28.0,reqInfo,"
+is there ",tag-exists-closed-query,location,positive,punc,type,query
+43,14,B,frag,29.0,reqInfo,"
+",partial-query,time,positive,pause,,
+43,14,B,frag,29.0,reqInfo,"
+",partial-query,time,positive,punc,type,query
+43,17,A,q-wh,34.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+43,21,A,q-yn,40.0,reqInfo,"
+and is it standard class ",closed-query,,positive,punc,type,query
+43,29,A,q-yn,55.0,reqInfo,"
+",exists-closed,booking-location-seat,positive,pause,length,4s
+43,29,A,q-yn,55.0,reqInfo,"
+",exists-closed,booking-location-seat,positive,punc,type,query
+43,32,B,decl,65.0,reqInfo,"
+you ",query,seat,positive,overlap,type,end
+43,32,B,decl,65.0,reqInfo,"
+you ",query,seat,positive,punc,type,query
+43,37,A,frag,77.0,reqInfo,"
+and your surname ",query,name,positive,punc,type,query
+43,39,A,frag,80.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+43,41,A,frag,82.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+43,41,A,frag,82.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+43,42,B,q-yn,86.0,reqInfo,"
+do you take accept American Express ",closed-query,,positive,punc,type,query
+43,45,A,decl,94.0,reqInfo,"
+the postcode ",query,address,positive,punc,type,query
+43,46,B,frag,95.0,reqInfo,"
+of the company ",query,,positive,punc,type,query
+43,49,A,q-yn,99.0,reqInfo,"
+or do you have the full address ",alternative-closed-query,address,positive,punc,type,query
+43,57,A,decl,118.0,reqInfo,"
+and then it's ",query,,positive,punc,type,query
+43,59,A,q-wh,121.0,reqInfo,"
+it's what ",query-exclaim-partial-query,,positive,punc,type,query
+43,63,A,frag,129.0,reqInfo,"
+your contact telephone number ",query,telephone-number,positive,punc,type,query
+43,79,A,frag,150.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+44,3,A,q-yn,10.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+44,5,A,q-yn,14.0,reqInfo,"
+is it just for one ",closed-query,number,positive,punc,type,query
+44,7,A,q-yn,17.0,reqInfo,"
+do you have a railcard ",closed-query,railcard,positive,punc,type,query
+44,17,A,q-yn,44.0,reqInfo,"
+have you been quoted a fare for the journey ",tag-closed-decl,fare-journey,positive,punc,type,stop
+44,24,B,frag,60.0,reqInfo,"
+and parking at Euston ",query,location-time,positive,punc,type,query
+44,35,A,frag,86.0,reqInfo,"
+",query,name,positive,pause,,
+44,35,A,frag,86.0,reqInfo,"
+",query,name,positive,punc,type,query
+44,41,A,frag,101.0,reqInfo,"
+your title ",query,name,positive,punc,type,query
+44,43,A,frag,103.0,reqInfo,"
+your title ",query,name,positive,punc,type,query
+44,65,A,frag,144.0,reqInfo,"
+your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+44,69,A,q-wh,152.0,reqInfo,"
+what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+44,77,A,decl,164.0,reqInfo,"
+and the credit card number ",query,number-creditcard,positive,punc,type,query
+44,85,A,frag,173.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+44,92,B,decl,188.0,reqInfo,"
+i just need to turn up to the advance ticket ",constrain-query,fare-journey,positive,overlap,type,start
+44,92,B,decl,188.0,reqInfo,"
+i just need to turn up to the advance ticket ",constrain-query,fare-journey,positive,punc,type,query
+45,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+45,5,A,q-yn,11.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+45,7,A,q-wh,14.0,reqInfo,"
+and how many people are travelling ",query-open-query,number-journey,positive,punc,type,query
+45,15,A,frag,27.0,reqInfo,"
+travelling from Preston at what time ",query-query,time-location-journey-from,positive,punc,type,query
+45,17,B,frag,31.0,reqInfo,"
+in ",partial-query,time,positive,overlap,type,end
+45,17,B,frag,31.0,reqInfo,"
+in ",partial-query,time,positive,punc,type,query
+45,26,B,q-wh,52.0,reqInfo,"
+when's the last train on the Sunday ",open-query,time-day,positive,punc,type,query
+46,5,A,q-yn,14.0,reqInfo,"
+is it just for one ",closed-query,number,positive,punc,type,query
+46,7,A,q-yn,17.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+46,9,A,q-yn,19.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+46,11,A,q-yn,24.0,reqInfo,"
+is it Saturday the 3rd ",closed-query,journey-month-date-day,positive,pause,,
+46,11,A,q-yn,24.0,reqInfo,"
+is it Saturday the 3rd ",closed-query,journey-month-date-day,positive,overlap,type,start
+46,11,A,q-yn,24.0,reqInfo,"
+is it Saturday the 3rd ",closed-query,journey-month-date-day,positive,punc,type,query
+46,18,B,q-yn,38.0,reqInfo,"
+ ",alternative-reject-exists-closed-query,location-time,negative,pause,,
+46,18,B,q-yn,38.0,reqInfo,"
+ ",alternative-reject-exists-closed-query,location-time,negative,punc,type,query
+46,20,B,q-wh,42.0,reqInfo,"
+what is it again ",open-query,,positive,punc,type,query
+46,23,A,q-yn,53.0,reqInfo,"
+or is that going to be too early ",alternative-closed-query,time,positive,punc,type,query
+46,27,A,q-wh,60.0,reqInfo,"
+and what time on the Sunday ",open-query,time-day,positive,punc,type,query
+46,32,B,q-wh,71.0,reqInfo,"
+what's the one in the night ",open-query,number,positive,punc,type,query
+46,34,B,decl,74.0,reqInfo,"
+and that's going to get into Birmingham at ",predict-query,location,positive,punc,type,query
+46,36,B,q-wh,84.0,reqInfo,"
+what was that mor... morning one again ",open-query,number-time,positive,punc,type,query
+46,47,A,frag,109.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+46,49,A,frag,111.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+46,53,A,frag,119.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+46,57,A,frag,124.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+46,57,A,frag,124.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+46,63,A,q-yn,133.0,reqInfo,"
+and do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+46,73,A,q-wh,165.0,reqInfo,"
+what type of credit card ",open-query,creditcard,positive,punc,type,query
+46,75,A,decl,167.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+46,83,A,frag,176.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+47,5,A,q-yn,9.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+47,7,A,q-wh,11.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+47,9,A,q-wh,13.0,reqInfo,"
+and what date is it you're travelling out ",open-query,journey-date,positive,punc,type,query
+47,15,A,q-yn,26.0,reqInfo,"
+do you have a railcard ",closed-query,railcard,positive,punc,type,query
+47,17,A,frag,28.0,reqInfo,"
+that a young person's railcard ",query,railcard,positive,punc,type,query
+47,20,B,q-wh,35.0,reqInfo,"
+",open-query-disflu,,positive,pause,,
+47,20,B,q-wh,35.0,reqInfo,"
+",open-query-disflu,,positive,punc,type,query
+47,24,B,q-wh,41.0,reqInfo,"
+what ",open-query-disflu,,positive,overlap,type,end
+47,24,B,q-wh,41.0,reqInfo,"
+what ",open-query-disflu,,positive,punc,type,query
+47,29,A,q-yn,48.0,reqInfo,"
+is it smoking or non-smoking ",alternative-closed-query,seat,positive,punc,type,query
+47,31,A,frag,50.0,reqInfo,"
+and is there any seat prefrence ",exists-query,location,positive,punc,type,query
+47,39,A,q-wh,62.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+47,42,B,frag,68.0,reqInfo,"
+is there any faster one ",exists-query,number-location,positive,punc,type,query
+47,46,B,q-wh,83.0,reqInfo,"
+",open-query,fare,positive,pause,,
+47,46,B,q-wh,83.0,reqInfo,"
+",open-query,fare,positive,punc,type,query
+47,52,B,frag,92.0,reqInfo,"
+with the discount ",partial-query,,positive,punc,type,query
+47,57,A,q-wh,101.0,reqInfo,"
+what ",open-query,date-return,positive,overlap,type,end
+47,57,A,q-wh,101.0,reqInfo,"
+what ",open-query,date-return,positive,punc,type,query
+47,61,A,frag,107.0,reqInfo,"
+",partial-query,location-to-from,positive,pause,,
+47,61,A,frag,107.0,reqInfo,"
+",partial-query,location-to-from,positive,punc,type,query
+47,62,B,q-yn,109.0,reqInfo,"
+is that better ",query,,positive,punc,type,query
+47,62,B,q-yn,110.0,reqInfo,"
+is that easier ",closed-query,,positive,punc,type,query
+47,65,A,decl,114.0,reqInfo,"
+it's from Watford yes ",query,location-from,positive,punc,type,query
+47,68,B,q-wh,120.0,reqInfo,"
+why not ",closed-partial-query,,negative,punc,type,query
+47,76,B,q-yn,138.0,reqInfo,"
+",query,from,positive,pause,,
+47,76,B,q-yn,138.0,reqInfo,"
+",query,from,positive,punc,type,query
+47,78,B,q-wh,143.0,reqInfo,"
+",closed-partial-query,,negative,pause,,
+47,78,B,q-wh,143.0,reqInfo,"
+",closed-partial-query,,negative,punc,type,query
+47,82,B,q-wh,157.0,reqInfo,"
+what what what availability do you have er from Euston to Wilmslow ",open-query-disflu,to-availability-location-from,positive,punc,type,query
+47,90,B,decl,174.0,reqInfo,"
+21:00 gets me into what Wilmslow at what time ",query-query,time-enum,positive,punc,type,query
+47,92,B,q-wh,181.0,reqInfo,"
+when when do i have to book this by ",constrain-open-query-disflu,time-booking,positive,punc,type,query
+47,92,B,dm,182.0,reqInfo,"
+",,,,pause,,
+47,92,B,dm,182.0,reqInfo,"
+",,,,punct,type,query
+47,94,B,q-yn,187.0,reqInfo,"
+are you going to let me do it ",tag-closed-query,,positive,punc,type,query
+47,98,B,q-yn,202.0,reqInfo,"
+",tag-query,journey,positive,pause,,
+47,98,B,q-yn,202.0,reqInfo,"
+",tag-query,journey,positive,punc,type,query
+47,99,A,frag,203.0,reqInfo,"
+from ",query,,positive,punc,type,query
+47,102,B,q-wh,208.0,reqInfo,"
+what's the one earlier than the 20:13 ",open-query,number-time,positive,punc,type,query
+47,105,A,q-wh,212.0,reqInfo,"
+what time around did you initially want to get ",open-query,time-name,positive,punc,type,query
+47,106,B,frag,213.0,reqInfo,"
+going out ",query,,positive,punc,type,query
+47,108,B,q-yn,216.0,reqInfo,"
+is there a one is there a train before the 20:13 ",exists-closed-query,location-number-time,positive,punc,type,query
+47,115,A,frag,232.0,reqInfo,"
+non-smoking ",query,seat,positive,overlap,type,end
+47,115,A,frag,232.0,reqInfo,"
+non-smoking ",query,seat,positive,punc,type,query
+47,125,A,frag,254.0,reqInfo,"
+",query,name,positive,pause,length,4s
+47,125,A,frag,254.0,reqInfo,"
+",query,name,positive,punc,type,query
+47,127,A,frag,256.0,reqInfo,"
+and your contact telephone number is ",query,telephone-number,positive,punc,type,query
+47,135,A,frag,268.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+47,139,A,q-wh,272.0,reqInfo,"
+",open-query,creditcard,positive,pause,length,16s
+47,139,A,q-wh,272.0,reqInfo,"
+",open-query,creditcard,positive,punc,type,query
+47,141,A,decl,274.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+47,149,A,frag,283.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+48,5,A,q-yn,10.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+48,7,A,q-wh,12.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+48,9,A,q-yn,14.0,reqInfo,"
+is that 4 adults ",closed-query,number,positive,punc,type,query
+48,11,A,q-yn,17.0,reqInfo,"
+does anyone have a railcard ",closed-query,railcard,positive,punc,type,query
+48,13,A,q-wh,19.0,reqInfo,"
+and what date is it you're travelling
+",open,journey-date,positive,,,
+48,15,A,q-wh,25.0,reqInfo,"
+what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+48,23,A,q-wh,40.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+48,25,A,decl,43.0,reqInfo,"
+the same day ",query,day,positive,punc,type,query
+48,30,B,decl,54.0,reqInfo,"
+and you arrive in Durham at ",query,location-arrival,positive,punc,type,query
+48,32,B,q-wh,59.0,reqInfo,"
+what about for the Wednesday ",closed-query,day,positive,punc,type,query
+48,36,B,decl,65.0,reqInfo,"
+so i can still leave during this 6:53 ",poss1-query,departure,positive,punc,type,query
+48,38,B,frag,67.0,reqInfo,"
+on the Wednesday ",partial-query,day,positive,punc,type,query
+48,40,B,frag,69.0,reqInfo,"
+and ",query,time-arrival,positive,overlap,type,end
+48,40,B,frag,69.0,reqInfo,"
+and ",query,time-arrival,positive,pause,,
+48,40,B,frag,69.0,reqInfo,"
+and ",query,time-arrival,positive,punc,type,query
+48,42,B,decl,71.0,reqInfo,"
+and ",poss1-query,departure,positive,overlap,type,end
+48,42,B,decl,71.0,reqInfo,"
+and ",poss1-query,departure,positive,punc,type,query
+48,46,B,frag,75.0,reqInfo,"
+15 what ",query-open-query,enum,positive,punc,type,query
+48,54,B,frag,89.0,reqInfo,"
+at 19:09 ",partial-query,time,positive,punc,type,query
+48,56,B,q-yn,91.0,reqInfo,"
+and is there one about fiveish on the Wednesday or not ",alternative-exists-closed-query,number-location-day,negative,punc,type,query
+48,78,B,q-wh,133.0,reqInfo,"
+how do i get my tickets now ",open-query,journey,positive,punc,type,query
+48,80,B,decl,137.0,reqInfo,"
+they come through the post ",query,,positive,punc,type,query
+48,87,A,frag,151.0,reqInfo,"
+",query,name,positive,pause,,
+48,87,A,frag,151.0,reqInfo,"
+",query,name,positive,punc,type,query
+48,89,A,frag,153.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+48,91,A,frag,155.0,reqInfo,"
+and your contact telephone number is ",query,telephone-number,positive,punc,type,query
+48,97,A,frag,162.0,reqInfo,"
+your postcode ",query,address,positive,punc,type,query
+48,107,A,q-wh,177.0,reqInfo,"
+what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+48,109,A,decl,179.0,reqInfo,"
+and the Barclay card number is ",query,number,positive,punc,type,query
+48,119,A,frag,189.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+48,129,A,q-wh,207.0,reqInfo,"
+",open-query,creditcard,positive,pause,,
+48,129,A,q-wh,207.0,reqInfo,"
+",open-query,creditcard,positive,punc,type,query
+48,131,A,q-yn,212.0,reqInfo,"
+do you have a pen handy ",closed-query,,positive,punc,type,query
+49,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+49,7,A,frag,13.0,reqInfo,"
+to Wrexham from ",partial-query,to-location,positive,punc,type,query
+49,9,A,q-yn,15.0,reqInfo,"
+is that London Euston ",closed-query,location,positive,punc,type,query
+49,11,A,q-yn,18.0,reqInfo,"
+is it Wrexham Central or General ",alternative-closed-query,location,positive,punc,type,query
+49,15,A,q-yn,32.0,reqInfo,"
+do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+49,17,A,q-wh,34.0,reqInfo,"
+how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+49,19,A,q-wh,36.0,reqInfo,"
+",open-query,journey-date,positive,pause,,
+49,19,A,q-wh,36.0,reqInfo,"
+",open-query,journey-date,positive,punc,type,query
+49,21,A,decl,38.0,reqInfo,"
+and that's the 2nd ",query,,positive,punc,type,query
+49,26,B,decl,54.0,reqInfo,"
+so really i could get off at Wrexham General ",suggest-poss1-query,location-time,positive,punc,type,query
+49,29,A,q-wh,58.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+49,32,B,q-yn,63.0,reqInfo,"
+",closed-query,to-location,positive,pause,length,8s
+49,32,B,q-yn,63.0,reqInfo,"
+",closed-query,to-location,positive,punc,type,query
+49,49,A,q-yn,95.0,reqInfo,"
+is there any seat preference ",exists-closed,booking-location-seat,positive,punc,type,query
+49,64,B,q-wh,125.0,reqInfo,"
+what ",exclaim-partial-query,,positive,punc,type,query
+49,71,A,frag,138.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+49,73,A,frag,140.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+49,75,A,frag,142.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+49,81,A,frag,148.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+49,83,A,decl,153.0,reqInfo,"
+it's a company card in your name ",query,name,positive,punc,type,query
+49,85,A,q-wh,156.0,reqInfo,"
+but who's it that's travelling tomorrow ",constrain-open-query,journey-day,positive,punc,type,query
+49,99,A,decl,188.0,reqInfo,"
+",query,name,positive,pause,length,3s
+49,99,A,decl,188.0,reqInfo,"
+",query,name,positive,punc,type,query
+49,103,A,q-wh,192.0,reqInfo,"
+and what was the next word ",open-query,,positive,punc,type,query
+49,107,A,frag,196.0,reqInfo,"
+",query,,positive,pause,length,3s
+49,107,A,frag,196.0,reqInfo,"
+",query,,positive,punc,type,query
+49,109,A,decl,198.0,reqInfo,"
+and the next line of the address ",query,address,positive,punc,type,query
+49,115,A,q-yn,207.0,reqInfo,"
+is the credit card got a specific name on the card ",closed,name-creditcard,positive,punc,type,query
+49,125,A,frag,222.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+50,3,A,q-yn,8.0,reqInfo,"
+is it yourself that is the credit card holder ",closed-query,creditcard,positive,punc,type,query
+50,5,A,q-yn,10.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+50,7,A,q-yn,14.0,reqInfo,"
+",closed-query,journey-railcard,positive,pause,,
+50,7,A,q-yn,14.0,reqInfo,"
+",closed-query,journey-railcard,positive,punc,type,query
+50,9,A,q-wh,19.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+50,11,A,q-wh,27.0,reqInfo,"
+what time tomorrow ",open-query,time-day,positive,punc,type,query
+50,15,A,q-wh,39.0,reqInfo,"
+when is it they're returning ",open-query,time-return,positive,punc,type,query
+50,17,A,q-wh,41.0,reqInfo,"
+when is it they're returning ",open-query,time-return,positive,punc,type,query
+50,19,A,q-wh,44.0,reqInfo,"
+",open-query,time-day,positive,pause,length,2s
+50,19,A,q-wh,44.0,reqInfo,"
+",open-query,time-day,positive,punc,type,query
+50,41,A,frag,86.0,reqInfo,"
+the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+50,43,A,frag,88.0,reqInfo,"
+the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+50,45,A,frag,90.0,reqInfo,"
+and the initial ",query,name,positive,punc,type,query
+50,47,A,frag,92.0,reqInfo,"
+and the title ",query,name,positive,punc,type,query
+50,51,A,decl,98.0,reqInfo,"
+the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+50,67,A,q-yn,127.0,reqInfo,"
+do you not know the person who you're booking the travel for ",query,booking-journey,negative,punc,type,query
+50,69,A,q-yn,131.0,reqInfo,"
+do you not know where the bill and address is the bill's sent to ",query,address,negative,punc,type,query
+50,69,A,q-yn,132.0,reqInfo,"
+",closed-query,location,positive,pause,,
+50,69,A,q-yn,132.0,reqInfo,"
+",closed-query,location,positive,punc,type,query
+50,72,B,decl,140.0,reqInfo,"
+you just need the credit card's address ",constrain-query,creditcard-address,positive,punc,type,query
+51,5,A,q-yn,13.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+51,8,B,decl,17.0,reqInfo,"
+i'm wondering if there's any erm seats available on the Super Saver ",doubt-exists-condition-query,fare-availability,positive,punc,type,query
+51,9,A,q-yn,19.0,reqInfo,"
+do you hold a railcard at all ",closed-query,railcard,positive,punc,type,query
+51,11,A,q-yn,21.0,reqInfo,"
+do you hold a railcard ",closed-query,railcard,positive,punc,type,query
+51,13,A,q-yn,23.0,reqInfo,"
+is it just for one ",closed-query,number,positive,punc,type,query
+51,17,A,frag,28.0,reqInfo,"
+on the 6th of October ",partial-query,month-date,positive,punc,type,query
+51,19,A,frag,30.0,reqInfo,"
+",open-query,time-departure,positive,pause,length,2s
+51,19,A,frag,30.0,reqInfo,"
+",open-query,time-departure,positive,punc,type,query
+51,22,B,decl,39.0,reqInfo,"
+",query,fare,positive,pause,,
+51,22,B,decl,39.0,reqInfo,"
+",query,fare,positive,punc,type,query
+51,24,B,q-yn,46.0,reqInfo,"
+",closed-query,,positive,pause,,
+51,24,B,q-yn,46.0,reqInfo,"
+",closed-query,,positive,punc,type,query
+51,25,A,frag,49.0,reqInfo,"
+Super Saver ",query,fare,positive,punc,type,query
+51,30,B,q-wh,62.0,reqInfo,"
+how much is the cost of the train journey then please ",request-query-open-query,journey,positive,punc,type,query
+51,32,B,frag,67.0,reqInfo,"
+",query,booking,positive,pause,,
+51,32,B,frag,67.0,reqInfo,"
+",query,booking,positive,punc,type,query
+51,34,B,frag,70.0,reqInfo,"
+and er boo... er a seat on the return ",query,fare,positive,punc,type,query
+51,35,A,q-wh,71.0,reqInfo,"
+and what was the time you were wanting on the return ",report-open-query,fare-time,positive,punc,type,query
+51,40,B,q-yn,81.0,reqInfo,"
+does Stephen actually smoke ",constrain-closed-query,,positive,pause,,
+51,40,B,q-yn,81.0,reqInfo,"
+does Stephen actually smoke ",constrain-closed-query,,positive,event,type,background voice says no
+51,40,B,q-yn,81.0,reqInfo,"
+does Stephen actually smoke ",constrain-closed-query,,positive,punc,type,query
+51,46,B,frag,102.0,reqInfo,"
+if you ",condition-constrain-query,cancel,positive,overlap,type,end
+51,46,B,frag,102.0,reqInfo,"
+if you ",condition-constrain-query,cancel,positive,punc,type,query
+51,46,B,q-wh,103.0,reqInfo,"
+what's the latest you can cancel ",poss2-open-query,time-cancel,positive,punc,type,query
+51,55,A,frag,116.0,reqInfo,"
+and the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+51,57,A,frag,119.0,reqInfo,"
+and the initial ",query,name,positive,punc,type,query
+51,59,A,frag,121.0,reqInfo,"
+and the title ",query,name,positive,punc,type,query
+51,61,A,q-yn,125.0,reqInfo,"
+",alternative-closed-query,,positive,pause,,
+51,61,A,q-yn,125.0,reqInfo,"
+",alternative-closed-query,,positive,punc,type,query
+51,63,A,decl,129.0,reqInfo,"
+",query,telephone-number-creditcard,positive,pause,,
+51,63,A,decl,129.0,reqInfo,"
+",query,telephone-number-creditcard,positive,punc,type,query
+51,67,A,decl,134.0,reqInfo,"
+the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+51,73,A,q-wh,147.0,reqInfo,"
+what was the name of the business ",open-query,name,positive,punc,type,query
+51,79,A,q-wh,155.0,reqInfo,"
+and what was after that ",open-query,time,positive,punc,type,query
+51,88,B,q-wh,166.0,reqInfo,"
+and when will we get that ",open-query,time,positive,punc,type,query
+51,93,A,decl,176.0,reqInfo,"
+the credit card number is ",query,number-creditcard,positive,punc,type,query
+51,101,A,frag,185.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+52,3,A,q-yn,8.0,reqInfo,"
+is that Birmingham New Street ",closed-query,location,positive,punc,type,query
+52,5,A,q-yn,11.0,reqInfo,"
+",alternative-closed-query,creditcard,positive,pause,,
+52,5,A,q-yn,11.0,reqInfo,"
+",alternative-closed-query,creditcard,positive,punc,type,query
+52,7,A,q-wh,14.0,reqInfo,"
+and ",query-open-query,number-journey,positive,pause,,
+52,7,A,q-wh,14.0,reqInfo,"
+and ",query-open-query,number-journey,positive,punc,type,query
+52,9,A,q-yn,16.0,reqInfo,"
+do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+52,13,A,q-wh,21.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+52,20,B,q-yn,32.0,reqInfo,"
+do you have the times ",closed-query,,positive,pause,,
+52,20,B,q-yn,32.0,reqInfo,"
+do you have the times ",closed-query,,positive,punc,type,query
+52,21,A,q-yn,33.0,reqInfo,"
+was it a morning or afternoon departure ",alternative-closed-query,time-departure,positive,punc,type,query
+52,24,B,q-yn,38.0,reqInfo,"
+does it have a specific time that i get on ",closed-decl,time,positive,punc,type,stop
+52,30,B,q-wh,49.0,reqInfo,"
+how many hours ",query-open-query,number,positive,punc,type,query
+52,30,B,q-wh,51.0,reqInfo,"
+how long's the journey ",tag-open-query,journey,positive,punc,type,query
+52,43,A,q-yn,74.0,reqInfo,"
+do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+52,46,B,q-wh,79.0,reqInfo,"
+what do you mean ",query-open-query,,positive,punc,type,query
+52,47,A,q-wh,80.0,reqInfo,"
+what is it ",tag-open-query,,positive,punc,type,query
+52,47,A,decl,81.0,reqInfo,"
+forward facing ",query,seat,positive,punc,type,query
+52,63,A,frag,104.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+53,2,B,q-yn,14.0,reqInfo,"
+do i just purchase it for that day for those days  ",closed-query,day-fare-journey-time,positive,backchannel,content,right
+53,2,B,q-yn,14.0,reqInfo,"
+do i just purchase it for that day for those days  ",closed-query,day-fare-journey-time,positive,punc,type,query
+53,20,B,q-yn,51.0,reqInfo,"
+",alternative-constrain-closed-decl,fare-journey,positive,pause,,
+53,20,B,q-yn,51.0,reqInfo,"
+",alternative-constrain-closed-decl,fare-journey,positive,punc,type,stop
+53,22,B,q-yn,58.0,reqInfo,"
+are they in the train stations ",closed-decl,,positive,punc,type,stop
+53,24,B,q-yn,62.0,reqInfo,"
+do they sell out usually ",closed-query,,positive,punc,type,query
+53,24,B,q-yn,63.0,reqInfo,"
+or is there always tickets ",alternative-exists-closed-query,location-journey,positive,punc,type,query
+53,30,B,q-yn,84.0,reqInfo,"
+is is that alright ",closed-disflu,,positive,punc,type,query
+53,31,A,q-wh,88.0,reqInfo,"
+what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+53,32,B,q-wh,92.0,reqInfo,"
+which is the ",open,,positive,punc,type,incomplete
+53,39,A,decl,109.0,reqInfo,"
+you want me to book that one for you ",benefit-query,booking-number,positive,punc,type,query
+53,43,A,q-yn,121.0,reqInfo,"
+",alternative-closed-query,seat,positive,overlap,type,end
+53,43,A,q-yn,121.0,reqInfo,"
+",alternative-closed-query,seat,positive,punc,type,query
+53,45,A,q-wh,126.0,reqInfo,"
+what's your surname please ",request-open-query,name,positive,punc,type,query
+53,47,A,frag,129.0,reqInfo,"
+and your initials ",query,name,positive,punc,type,query
+53,49,A,frag,131.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+53,85,A,q-wh,202.0,reqInfo,"
+and what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+53,87,A,decl,204.0,reqInfo,"
+and the Mastercard number is ",query,number,positive,punc,type,query
+53,95,A,frag,213.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+53,101,A,q-yn,230.0,reqInfo,"
+do you have a pen handy ",closed-query,,positive,punc,type,query
+53,110,B,q-wh,246.0,reqInfo,"
+what is the next train after that ",open-query,time,positive,punc,type,query
+54,3,A,q-yn,7.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+54,5,A,q-wh,10.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+54,7,A,q-wh,12.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+54,9,A,q-yn,14.0,reqInfo,"
+is that 2 adults ",closed-query,enum,positive,punc,type,query
+54,11,A,q-yn,18.0,reqInfo,"
+does anyone who's travelling have a railcard ",closed-query,journey-railcard,positive,punc,type,query
+54,19,A,q-yn,29.0,reqInfo,"
+is that the same day ",closed-query,day,positive,punc,type,query
+54,33,A,q-yn,58.0,reqInfo,"
+and do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+54,45,A,frag,80.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+54,49,A,frag,85.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+54,55,A,frag,91.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+54,73,A,frag,115.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+54,75,A,q-yn,119.0,reqInfo,"
+",closed-query,,positive,pause,,
+54,75,A,q-yn,119.0,reqInfo,"
+",closed-query,,positive,pause,,
+54,75,A,q-yn,119.0,reqInfo,"
+",closed-query,,positive,punc,type,query
+55,5,A,q-yn,15.0,reqInfo,"
+do you still... do you hold a credit a debit card ",closed-query-disflu,creditcard,positive,punc,type,query
+55,9,A,q-yn,21.0,reqInfo,"
+is it just for 1 ",closed-decl,,positive,punc,type,stop
+55,19,A,q-yn,43.0,reqInfo,"
+do you hold a current rail card ",closed-query,railcard,positive,punc,type,query
+56,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit card or credit ",alternative-closed-query,creditcard,positive,overlap,type,start
+56,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit card or credit ",alternative-closed-query,creditcard,positive,punc,type,query
+56,7,A,q-yn,15.0,reqInfo,"
+is it just for 1 ",closed-query,,positive,punc,type,query
+56,9,A,frag,17.0,reqInfo,"
+departing at what time ",query-open-query,time-departure,positive,punc,type,query
+56,15,A,q-yn,32.0,reqInfo,"
+do you have a rail card at all ",closed-query,railcard,positive,punc,type,query
+56,20,B,decl,46.0,reqInfo,"
+that that 10 ",query-disflu,time-enum,positive,pause,,
+56,20,B,decl,46.0,reqInfo,"
+that that 10 ",query-disflu,time-enum,positive,punc,type,query
+56,33,A,q-yn,64.0,reqInfo,"
+do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+56,43,A,frag,82.0,reqInfo,"
+your surname ",query,name,positive,punc,type,query
+56,45,A,frag,85.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+56,47,A,frag,87.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+56,53,A,frag,95.0,reqInfo,"
+your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+56,59,A,q-wh,104.0,reqInfo,"
+what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+56,61,A,decl,108.0,reqInfo,"
+",query,number,positive,pause,,
+56,61,A,decl,108.0,reqInfo,"
+",query,number,positive,punc,type,query
+56,71,A,q-yn,119.0,reqInfo,"
+is that a Delta card ",closed-query,,positive,punc,type,query
+56,73,A,frag,122.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+57,3,A,q-yn,8.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+57,5,A,q-wh,11.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+57,7,A,q-yn,13.0,reqInfo,"
+and does anyone have a railcard ",closed-query,railcard,positive,punc,type,query
+57,11,A,frag,18.0,reqInfo,"
+",open-query,time-departure,positive,pause,,
+57,11,A,frag,18.0,reqInfo,"
+",open-query,time-departure,positive,punc,type,query
+57,12,B,q-yn,22.0,reqInfo,"
+is that after 10 ",closed-query,time,positive,punc,type,query
+57,22,B,q-wh,43.0,reqInfo,"
+what does that mean then ",open-query,,positive,punc,type,query
+57,36,B,q-yn,79.0,reqInfo,"
+so are there no trains that go directly to Blackpool ",exists-closed-query,location-to,negative,punc,type,query
+57,36,B,decl,80.0,reqInfo,"
+you always have to change ",constrain-query,,positive,punc,type,query
+57,46,B,q-wh,106.0,reqInfo,"
+cos what's the other one ",reason-open-query,number,positive,punc,type,query
+58,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+58,5,A,q-wh,10.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+58,7,A,q-yn,12.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+58,10,B,q-yn,18.0,reqInfo,"
+is it the 8th ",closed-query,,positive,punc,type,query
+58,10,B,frag,21.0,reqInfo,"
+",query,month-date-day,positive,pause,,
+58,10,B,frag,21.0,reqInfo,"
+",query,month-date-day,positive,punc,type,query
+58,23,A,q-wh,43.0,reqInfo,"
+when would you be returning ",open-query,time-return,positive,punc,type,query
+58,29,A,q-wh,58.0,reqInfo,"
+",open-query,time,positive,pause,,
+58,29,A,q-wh,58.0,reqInfo,"
+",open-query,time,positive,punc,type,query
+58,35,A,q-yn,66.0,reqInfo,"
+does it have to be 11:41 train that you get travelling out ",constrain-closed-query,journey-enum,positive,punc,type,query
+58,36,B,q-wh,67.0,reqInfo,"
+",exclaim-partial-query,,positive,pause,length,2s
+58,36,B,q-wh,67.0,reqInfo,"
+",exclaim-partial-query,,positive,punc,type,query
+58,36,B,q-wh,68.0,reqInfo,"
+what's the choice ",open-query,,positive,punc,type,query
+58,51,A,frag,97.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+58,53,A,frag,99.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+58,59,A,frag,107.0,reqInfo,"
+",query,creditcard-address,positive,pause,length,3s
+58,59,A,frag,107.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+58,67,A,q-wh,129.0,reqInfo,"
+what's the name of the business please ",request-open-query,name,positive,punc,type,query
+58,69,A,q-wh,132.0,reqInfo,"
+",open-query,creditcard,positive,pause,length,8s
+58,69,A,q-wh,132.0,reqInfo,"
+",open-query,creditcard,positive,punc,type,query
+58,79,A,frag,144.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+58,83,A,q-yn,154.0,reqInfo,"
+do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+58,94,B,q-yn,192.0,reqInfo,"
+is there going to be a major problem ",exists-closed-query,problem-location,positive,punc,type,query
+59,3,A,q-yn,12.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+59,5,A,q-yn,14.0,reqInfo,"
+and is it just for 1 ",closed-query,,positive,punc,type,query
+59,7,A,q-yn,16.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+59,13,A,q-wh,28.0,reqInfo,"
+when is it you're returning ",open-query,time-return,positive,punc,type,query
+59,27,A,frag,58.0,reqInfo,"
+",query,name,positive,pause,length,2s
+59,27,A,frag,58.0,reqInfo,"
+",query,name,positive,punc,type,query
+59,39,A,frag,83.0,reqInfo,"
+your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+59,54,B,decl,127.0,reqInfo,"
+you just said Saturday the 4th ",report-query,day,positive,punc,type,query
+59,61,A,q-wh,151.0,reqInfo,"
+and what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+59,79,A,frag,175.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+59,83,A,q-yn,184.0,reqInfo,"
+do you have your pen ready ",closed-query,,positive,punc,type,query
+60,3,A,q-yn,8.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+60,5,A,q-wh,10.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+60,7,A,q-wh,12.0,reqInfo,"
+and what date is it you're travelling out ",open-query,journey-date,positive,punc,type,query
+60,15,A,q-wh,25.0,reqInfo,"
+",open-query,time-return,positive,pause,length,7s
+60,15,A,q-wh,25.0,reqInfo,"
+",open-query,time-return,positive,punc,type,query
+60,19,A,q-yn,31.0,reqInfo,"
+and is it standard class ",closed-query,,positive,punc,type,query
+60,29,A,frag,52.0,reqInfo,"
+is there any seat preference ",exists-query,booking-location-seat,positive,punc,type,query
+60,37,A,frag,68.0,reqInfo,"
+your surname ",query,name,positive,punc,type,query
+60,41,A,q-yn,81.0,reqInfo,"
+is it a private card or a business card ",alternative-closed-query,,positive,punc,type,query
+61,3,A,frag,9.0,reqInfo,"
+from ",query,,positive,punc,type,query
+61,5,A,q-yn,12.0,reqInfo,"
+do you hold a current credit card or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+61,7,A,q-wh,14.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+61,9,A,q-yn,17.0,reqInfo,"
+is it just for 1 ",closed-query,,positive,punc,type,query
+61,11,A,q-yn,19.0,reqInfo,"
+and do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+61,13,A,frag,21.0,reqInfo,"
+senior ",query,,positive,punc,type,query
+61,21,A,frag,38.0,reqInfo,"
+",query-open-query,time-departure,positive,pause,length,3s
+61,21,A,frag,38.0,reqInfo,"
+",query-open-query,time-departure,positive,punc,type,query
+61,36,B,q-yn,81.0,reqInfo,"
+are those train times ok then ",tag-closed-query,,positive,punc,type,query
+61,36,B,decl,82.0,reqInfo,"
+the 10:35 ",query,,positive,punc,type,query
+61,47,A,frag,110.0,reqInfo,"
+is there any seat preference ",exists-query,booking-location-seat,positive,punc,type,query
+61,59,A,frag,173.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+61,61,A,frag,175.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+61,63,A,frag,177.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+61,67,A,frag,182.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+62,3,A,q-yn,8.0,reqInfo,"
+is it yourself that is the credit card holder ",closed-query,creditcard,positive,punc,type,query
+62,5,A,q-wh,11.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+62,9,A,q-yn,16.0,reqInfo,"
+",closed-query,journey-railcard,positive,pause,,
+62,9,A,q-yn,16.0,reqInfo,"
+",closed-query,journey-railcard,positive,punc,type,query
+62,15,A,q-yn,28.0,reqInfo,"
+is that changing at Birmingham ",closed-query,location-time,positive,backchannel,content,yes
+62,15,A,q-yn,28.0,reqInfo,"
+is that changing at Birmingham ",closed-query,location-time,positive,punc,type,query
+62,17,A,q-wh,33.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+62,19,A,frag,36.0,reqInfo,"
+departing at what time ",query-open-query,time-departure,positive,punc,type,query
+62,31,A,frag,65.0,reqInfo,"
+",exists-query,booking-location-seat,positive,pause,,
+62,31,A,frag,65.0,reqInfo,"
+",exists-query,booking-location-seat,positive,punc,type,query
+62,35,A,q-yn,86.0,reqInfo,"
+is it was a table you'd prefer ",closed-query,,positive,punc,type,query
+62,59,A,frag,129.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+62,63,A,frag,133.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+62,75,A,decl,148.0,reqInfo,"
+and the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+62,85,A,q-wh,162.0,reqInfo,"
+what type of credit card is that you hold ",open-query,creditcard,positive,punc,type,query
+62,101,A,frag,180.0,reqInfo,"
+and your expiry date ",query,creditcard,positive,punc,type,query
+62,105,A,q-yn,186.0,reqInfo,"
+do you have a pen handy ",closed-query,,positive,punc,type,query
+63,3,A,q-wh,16.0,reqInfo,"
+where ",query-exclaim-partial-query,,positive,punc,type,query
+63,9,A,q-yn,28.0,reqInfo,"
+is it just for 1 ",closed-query,number,positive,punc,type,query
+63,11,A,q-yn,30.0,reqInfo,"
+and do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+63,15,A,q-yn,41.0,reqInfo,"
+do you hold a current railcard ",closed-frag,railcard,positive,punc,type,level
+63,19,A,q-wh,47.0,reqInfo,"
+what type of railcard ",open-query,railcard,positive,punc,type,query
+63,25,A,q-wh,57.0,reqInfo,"
+when is it you're returning ",open-query,time-return,positive,punc,type,query
+63,26,B,q-yn,59.0,reqInfo,"
+i... i... is this a Saturday ",closed-query,day,positive,punc,type,query
+63,31,A,q-wh,68.0,reqInfo,"
+what date is it you're returning ",open-query,date-return,positive,punc,type,query
+63,34,B,q-wh,82.0,reqInfo,"
+w... what's your advice ",open-query,,positive,punc,type,query
+63,44,B,q-wh,107.0,reqInfo,"
+when when is it next i can get ",poss1-open-disflu,time,positive,punc,type,query
+63,44,B,frag,108.0,reqInfo,"
+",query,day,positive,pause,,
+63,44,B,frag,108.0,reqInfo,"
+",query,day,positive,punc,type,query
+63,70,B,decl,163.0,reqInfo,"
+and the 2 weeks will be what ",query-query,enum,positive,punc,type,query
+63,73,A,frag,167.0,reqInfo,"
+departing ",open-query,time-departure,positive,overlap,type,end
+63,73,A,frag,167.0,reqInfo,"
+departing ",open-query,time-departure,positive,punc,type,query
+63,86,B,q-wh,187.0,reqInfo,"
+",open-query,to-location-time,positive,pause,length,4s
+63,86,B,q-wh,187.0,reqInfo,"
+",open-query,to-location-time,positive,punc,type,query
+63,94,B,decl,201.0,reqInfo,"
+i give you my credit card number ",decl,number-creditcard,positive,punc,type,query
+63,97,A,q-yn,210.0,reqInfo,"
+is it just for 1 ",closed-query,number,positive,punc,type,query
+63,99,A,q-yn,213.0,reqInfo,"
+and ",alternative-closed-query,seat,positive,pause,length,2s
+63,99,A,q-yn,213.0,reqInfo,"
+and ",alternative-closed-query,seat,positive,punc,type,query
+63,119,A,q-yn,240.0,reqInfo,"
+",closed-query,,positive,pause,,
+63,119,A,q-yn,240.0,reqInfo,"
+",closed-query,,positive,punc,type,query
+63,139,A,q-wh,272.0,reqInfo,"
+what was the last letter there ",open-query,location,positive,punc,type,query
+63,141,A,frag,275.0,reqInfo,"
+after ",query,time,positive,anonym,type,letter
+63,141,A,frag,275.0,reqInfo,"
+after ",query,time,positive,punc,type,query
+63,157,A,frag,296.0,reqInfo,"
+and your postcode to where your credit card's registered to ",query,creditcard-address,positive,punc,type,query
+63,169,A,q-wh,312.0,reqInfo,"
+and what type of credit card was that you said you hold ",report-open-query,creditcard,positive,punc,type,query
+63,171,A,frag,316.0,reqInfo,"
+your Visa number ",query,number-creditcard,positive,punc,type,query
+63,181,A,frag,327.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+63,226,B,decl,389.0,reqInfo,"
+she has to collect hers from Euston ",query,location-from,negative,overlap,type,start
+63,226,B,decl,389.0,reqInfo,"
+she has to collect hers from Euston ",query,location-from,negative,punc,type,query
+64,3,A,q-yn,7.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+64,5,A,q-wh,10.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+64,7,A,q-wh,13.0,reqInfo,"
+and what date is that you're travelling out ",open-query,journey-date,positive,punc,type,query
+64,11,A,q-yn,19.0,reqInfo,"
+is that in the morning ",closed-query,time,positive,punc,type,query
+64,15,A,frag,29.0,reqInfo,"
+19:25 in the evening ",query,time-enum,positive,punc,type,query
+64,19,A,q-yn,35.0,reqInfo,"
+does anyone who's travelling have a railcard ",closed-query,journey-railcard,positive,punc,type,query
+64,24,B,decl,49.0,reqInfo,"
+but there's road er road works listen me engineering works isn't there or something ",alternative-exists-constrain-query,location,negative,punc,type,query
+64,25,A,q-yn,63.0,reqInfo,"
+",benefit-closed-query,time,positive,pause,,
+64,25,A,q-yn,63.0,reqInfo,"
+",benefit-closed-query,time,positive,punc,type,query
+64,28,B,q-yn,70.0,reqInfo,"
+is there one earlier than the 6:34 or is that the first one out of Wigan in the morning ",alternative-exists-closed-query,number-time-location-enum,positive,punc,type,query
+64,32,B,q-yn,76.0,reqInfo,"
+and can that be erm ",closed-query,,positive,punc,type,query
+64,33,A,frag,77.0,reqInfo,"
+Virgin Value ",query,,positive,punc,type,query
+64,47,A,q-yn,96.0,reqInfo,"
+and do you have any seat preference ",closed-query,booking-seat,positive,punc,type,query
+64,59,A,frag,121.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+64,63,A,frag,126.0,reqInfo,"
+your contact telephone number ",query,telephone-number,positive,punc,type,query
+64,69,A,frag,132.0,reqInfo,"
+and your postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+64,89,A,q-yn,160.0,reqInfo,"
+does it have an issue number ",closed-query,number,positive,punc,type,query
+64,91,A,frag,163.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+64,95,A,decl,168.0,reqInfo,"
+you've got your pen ready ",query,,positive,punc,type,query
+65,3,A,frag,6.0,reqInfo,"
+to ",query,,positive,punc,type,query
+65,5,A,q-yn,9.0,reqInfo,"
+is it yourself that holds the credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+65,19,A,q-yn,32.0,reqInfo,"
+are you travelling by train today ",closed-query,journey-day,positive,punc,type,query
+66,3,A,q-yn,8.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+66,5,A,q-wh,10.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+66,9,A,q-yn,21.0,reqInfo,"
+is it just for 1 ",closed-query,number,positive,punc,type,query
+67,3,A,frag,6.0,reqInfo,"
+from ",query,,positive,punc,type,query
+67,5,A,q-yn,9.0,reqInfo,"
+do you hold a current credit or debit card ",alternative-closed-query,creditcard,positive,punc,type,query
+67,14,B,q-yn,25.0,reqInfo,"
+is that ok for the credit card ",closed-query,creditcard,positive,punc,type,query
+67,17,A,q-wh,29.0,reqInfo,"
+how many people's travelling tomorrow ",query-open-query,number-journey-day,positive,punc,type,query
+67,19,A,q-wh,31.0,reqInfo,"
+and what time around ",open-decl,time,positive,punc,type,stop
+67,25,A,q-yn,43.0,reqInfo,"
+does anyone hold a current railcard ",closed-query,railcard,positive,punc,type,query
+67,34,B,decl,56.0,reqInfo,"
+you haven't got anything in ",query,time-enum,positive,pause,,
+67,34,B,decl,56.0,reqInfo,"
+you haven't got anything in ",query,time-enum,positive,punc,type,query
+67,40,B,q-yn,65.0,reqInfo,"
+",exists-closed-decl,location,positive,pause,,
+67,40,B,q-yn,65.0,reqInfo,"
+",exists-closed-decl,location,positive,comment,content,1s_talking_to_someone_else
+67,40,B,q-yn,65.0,reqInfo,"
+",exists-closed-decl,location,positive,punc,type,stop
+67,40,B,q-yn,68.0,reqInfo,"
+can you do that ",query,number,positive,overlap,type,start
+67,40,B,q-yn,68.0,reqInfo,"
+can you do that ",query,number,positive,punc,type,query
+68,3,A,q-yn,7.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+68,5,A,q-wh,9.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+68,7,A,q-wh,11.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+68,11,A,frag,17.0,reqInfo,"
+in the morning or ",alternative-partial-query,time,positive,overlap,type,start
+68,11,A,frag,17.0,reqInfo,"
+in the morning or ",alternative-partial-query,time,positive,punc,type,query
+68,13,A,q-wh,19.0,reqInfo,"
+and when is it you're returning ",open-query,time-return,positive,punc,type,query
+68,17,A,q-yn,26.0,reqInfo,"
+and is it standard class ",closed-query,,positive,punc,type,query
+68,19,A,q-yn,28.0,reqInfo,"
+do you hold a current railcard ",closed-query,railcard,positive,punc,type,query
+68,37,A,q-yn,70.0,reqInfo,"
+is it smoking or non-smoking ",alternative-closed-query,seat,positive,punc,type,query
+68,51,A,frag,99.0,reqInfo,"
+and the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+68,53,A,frag,103.0,reqInfo,"
+and the initial ",query,name,positive,punc,type,query
+68,55,A,frag,105.0,reqInfo,"
+and the title ",query,name,positive,punc,type,query
+68,57,A,q-yn,113.0,reqInfo,"
+is it a Miss Mrs ",closed-query,,positive,punc,type,query
+68,59,A,frag,119.0,reqInfo,"
+and ",query,telephone-number,positive,overlap,type,end
+68,59,A,frag,119.0,reqInfo,"
+and ",query,telephone-number,positive,punc,type,query
+68,65,A,decl,126.0,reqInfo,"
+the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+68,67,A,q-yn,128.0,reqInfo,"
+have you got your postcode first of all ",closed-query,address,positive,punc,type,query
+68,73,A,decl,137.0,reqInfo,"
+the name of the business is ",query,name,positive,punc,type,query
+68,83,A,decl,149.0,reqInfo,"
+",query,,positive,pause,,
+68,83,A,decl,149.0,reqInfo,"
+",query,,positive,punc,type,query
+68,91,A,q-wh,162.0,reqInfo,"
+and what type of credit card ",open-query,creditcard,positive,punc,type,query
+68,93,A,decl,164.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+68,101,A,frag,173.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+69,3,A,q-yn,6.0,reqInfo,"
+do you hold a current debit or credit card ",alternative-closed-query,creditcard,positive,punc,type,query
+69,5,A,q-wh,9.0,reqInfo,"
+and how many people's travelling ",query-open-query,number-journey,positive,punc,type,query
+69,12,B,q-yn,23.0,reqInfo,"
+is there one sort of er twoish ",exists-closed-query,number-location,positive,punc,type,query
+69,12,B,frag,25.0,reqInfo,"
+2 ",query,enum,positive,punc,type,query
+69,12,B,frag,26.0,reqInfo,"
+somewhere between 2 and 3 ",query,enum,positive,punc,type,query
+69,13,A,q-yn,28.0,reqInfo,"
+do you hold a current railcard ",closed-query,railcard,positive,punc,type,query
+69,22,B,frag,47.0,reqInfo,"
+",query,number,positive,pause,,
+69,22,B,frag,47.0,reqInfo,"
+",query,number,positive,punc,type,query
+69,24,B,q-yn,56.0,reqInfo,"
+is is there any particular ",alternative-exists-query-disflu,location,positive,pause,,
+69,24,B,q-yn,56.0,reqInfo,"
+is is there any particular ",alternative-exists-query-disflu,location,positive,punc,type,query
+69,33,A,q-wh,85.0,reqInfo,"
+when is it you're in... was intending on returning ",open-query,time-return,positive,punc,type,query
+69,36,B,q-wh,98.0,reqInfo,"
+",query-open-query,,positive,pause,,
+69,36,B,q-wh,98.0,reqInfo,"
+",query-open-query,,positive,overlap,type,start
+69,36,B,q-wh,98.0,reqInfo,"
+",query-open-query,,positive,punc,type,query
+69,46,B,decl,115.0,reqInfo,"
+so these are open on both going and coming ",query,fare,positive,punc,type,query
+69,48,B,q-wh,123.0,reqInfo,"
+what sort of tickets are these ones called ",open-query,journey,positive,punc,type,query
+69,52,B,q-wh,134.0,reqInfo,"
+how much would that cost ",query-open-query,,positive,punc,type,query
+70,3,A,frag,9.0,reqInfo,"
+travelling from ",query,journey,positive,punc,type,query
+70,5,A,q-yn,15.0,reqInfo,"
+",alternative-closed-query,creditcard,positive,pause,,
+70,5,A,q-yn,15.0,reqInfo,"
+",alternative-closed-query,creditcard,positive,punc,type,query
+70,7,A,q-wh,17.0,reqInfo,"
+and what date is it you're travelling ",open-query,journey-date,positive,punc,type,query
+70,9,A,decl,20.0,reqInfo,"
+and it's for 2 ",query,number,positive,punc,type,query
+70,30,B,q-yn,50.0,reqInfo,"
+do they do they have an earlier one where there is a Value f... ",exists-closed-query-disflu,number-time,positive,pause,,
+70,30,B,q-yn,50.0,reqInfo,"
+do they do they have an earlier one where there is a Value f... ",exists-closed-query-disflu,number-time,positive,punc,type,query
+70,32,B,frag,53.0,reqInfo,"
+",query,time,positive,pause,,
+70,32,B,frag,53.0,reqInfo,"
+",query,time,positive,punc,type,query
+70,43,A,q-wh,73.0,reqInfo,"
+what date is it you're returning ",open-query,date-return,positive,punc,type,query
+70,45,A,frag,75.0,reqInfo,"
+",open-query,time-departure,positive,pause,length,2s
+70,45,A,frag,75.0,reqInfo,"
+",open-query,time-departure,positive,punc,type,query
+70,54,B,q-wh,92.0,reqInfo,"
+",tag-poss1-query,fare,positive,pause,,
+70,54,B,q-wh,92.0,reqInfo,"
+",tag-poss1-query,fare,positive,punc,type,query
+70,67,A,q-yn,119.0,reqInfo,"
+do you have a railcard at all ",closed-query,railcard,positive,punc,type,query
+70,78,B,frag,143.0,reqInfo,"
+but abouts there's nothing at 8 o'clockish ",exists-constrain-query,time-enum,negative,punc,type,query
+70,82,B,q-wh,149.0,reqInfo,"
+",,,,vocal,content,laughter
+70,82,B,decl,150.0,reqInfo,"
+even to to any one of those stations ",query,number,positive,punc,type,query
+70,86,B,q-yn,157.0,reqInfo,"
+is there anything available more expensively ",exists-closed-query,availability-location,positive,punc,type,query
+70,86,B,decl,159.0,reqInfo,"
+",query-query,time,positive,pause,,
+70,86,B,decl,159.0,reqInfo,"
+",query-query,time,positive,punc,type,query
+70,107,A,q-yn,202.0,reqInfo,"
+is it smoking or non-smoking ",alternative-closed-query,seat,positive,punc,type,query
+70,111,A,decl,212.0,reqInfo,"
+you want me to go ahead ",query,,positive,punc,type,query
+70,131,A,frag,256.0,reqInfo,"
+your initial ",query,name,positive,punc,type,query
+70,133,A,frag,258.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+70,141,A,frag,268.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+70,149,A,q-wh,280.0,reqInfo,"
+and what type of credit is that you hold ",open-query,creditcard,positive,punc,type,query
+70,150,B,q-yn,281.0,reqInfo,"
+do you take Diner's or American Express or anything like that ",alternative-closed-query,,positive,punc,type,query
+70,165,A,q-yn,300.0,reqInfo,"
+do you have a pen handy ",closed-query,,positive,punc,type,query
+70,180,B,decl,330.0,reqInfo,"
+what happens ",query,,positive,punc,type,query

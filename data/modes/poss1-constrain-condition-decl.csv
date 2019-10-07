@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+57,17,A,decl,31.0,stateConstraint,"
+the only time that i can get availability on ",poss1-constrain-condition-decl,time-availability-location-journey-from-enum,positive,pause,,
+57,17,A,decl,31.0,stateConstraint,"
+the only time that i can get availability on ",poss1-constrain-condition-decl,time-availability-location-journey-from-enum,positive,backchannel,content,mhm
+57,17,A,decl,31.0,stateConstraint,"
+the only time that i can get availability on ",poss1-constrain-condition-decl,time-availability-location-journey-from-enum,positive,punc,type,stop

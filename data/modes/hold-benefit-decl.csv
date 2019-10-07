@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+57,15,A,decl,26.0,hold,"
+i'm just checking through the day for you for an advance purchase ticket ",hold-benefit-decl,fare-journey-verify-day,positive,punc,type,stop

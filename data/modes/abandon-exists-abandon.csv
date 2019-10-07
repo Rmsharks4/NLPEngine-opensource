@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+35,187,A,decl,309.0,inform,"
+there is 21 minutes for you t...
+",abandon-exists-abandon,time,positive,,,
+69,54,B,decl,142.0,state-abandon,"
+there's no other conditions in terms of a... ",abandon-exists-abandon,,negative,punc,type,incomplete

@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+18,28,B,decl,64.0,inform,"
+cos that i'd know what train i was taking down there
+",reason-report,,positive,,,
+35,24,B,decl,37.0,inform,"
+cos i was quoted 19 pounds which is ",reason-report,fare,positive,overlap,type,start

@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+63,44,B,q-wh,107.0,reqInfo,"
+when when is it next i can get ",poss1-open-disflu,time,positive,punc,type,query

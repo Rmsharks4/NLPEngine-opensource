@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,26,B,decl,70.0,stateReason,"
+",report-reason-decl,location,positive,pause,,
+53,26,B,decl,70.0,stateReason,"
+",report-reason-decl,location,positive,punc,type,stop
+66,6,B,decl,14.0,stateReason,"
+cos i mucked up the last one i did ",report-reason-decl,number,positive,punc,type,stop
+70,22,B,decl,38.0,elab-stateReason,"
+",report-reason-decl,fare-enum,positive,pause,length,4s
+70,22,B,decl,38.0,elab-stateReason,"
+",report-reason-decl,fare-enum,positive,punc,type,stop

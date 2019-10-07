@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,36,B,decl,101.0,state,"
+",poss3-alternative-decl,number-time,positive,pause,length,5s
+53,36,B,decl,101.0,state,"
+",poss3-alternative-decl,number-time,positive,punc,type,stop

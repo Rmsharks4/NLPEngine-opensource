@@ -1,0 +1,28 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+9,100,B,imp,165.0,informIntent-hold,"
+let me just get that down ok hold on yeah ok
+",manage,hold,positive,,,
+15,41,A,imp,81.0,hold,"
+just bear with me
+",manage,hold,positive,,,
+15,58,B,imp,106.0,hold,"
+hold on a second
+",manage,hold,positive,,,
+15,66,B,imp,116.0,hold,"
+hold on a second
+",manage,hold,positive,,,
+16,40,B,imp,72.0,hold,"
+erm hold on
+",manage,hold,positive,,,
+35,66,B,imp,106.0,hold,"
+hold the line
+",manage,hold,positive,,,
+35,78,B,imp,127.0,hold,"
+just hold the line
+",manage,hold,positive,,,
+35,132,B,imp,226.0,hold,"
+just hold the line
+",manage,hold,positive,,,
+35,132,B,imp,228.0,hold,"
+hold on
+",manage,hold,positive,,,

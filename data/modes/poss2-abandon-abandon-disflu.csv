@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+63,60,B,decl,138.0,state-abandon,"
+i i i tell the guy you can do any a... ",poss2-abandon-abandon-disflu,,positive,punc,type,incomplete

@@ -1,0 +1,101 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,17,A,dm,24.0,apologise,"
+sorry ",regret,,,punc,type,stop
+43,34,B,dm,69.0,apologise,"
+sorry ",regret,,,punc,type,stop
+44,13,A,dm,32.0,apologise,"
+",regret,,,pause,,
+46,31,A,dm,68.0,apologise,"
+",regret,,,pause,length,18s
+46,35,A,dm,77.0,apologise,"
+",regret,,,pause,,
+46,35,A,dm,77.0,apologise,"
+",regret,,,punc,type,stop
+47,56,B,dm,100.0,apologise,"
+",regret,,,overlap,type,start
+47,56,B,dm,100.0,apologise,"
+",regret,,,punc,type,stop
+47,58,B,dm,103.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,65,A,dm,113.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,65,A,dm,115.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,70,B,dm,124.0,apologise,"
+",regret,,,pause,length,7s
+47,70,B,dm,124.0,apologise,"
+",regret,,,punc,type,stop
+47,76,B,dm,141.0,apologise,"
+",,,,pause,length,5s
+47,76,B,dm,141.0,apologise,"
+",,,,punc,type,stop
+48,52,B,dm,87.0,apologise,"
+",regret,,,pause,,
+48,52,B,dm,87.0,apologise,"
+",regret,,,punc,type,stop
+48,75,A,dm,125.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,87,A,dm,150.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,120,B,dm,192.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,120,B,dm,194.0,apologise,"
+sorry ",regret,,,punc,type,stop
+51,25,A,dm,47.0,apologise,"
+",regret,,,pause,length,4s
+51,25,A,dm,47.0,apologise,"
+",regret,,,punc,type,query
+51,72,B,imp,142.0,apologise,"
+excuse a moment ",regret-decl,,positive,vocal,type,coughs
+51,72,B,imp,142.0,apologise,"
+excuse a moment ",regret-decl,,positive,punc,type,stop
+51,72,B,frag,144.0,apologise,"
+sorry ",decl,,positive,punc,type,stop
+57,23,A,dm,48.0,apologise,"
+sorry ",regret,,,punc,type,stop
+57,33,A,dm,74.0,apologise,"
+sorry ",regret,,,punc,type,stop
+58,16,B,dm,29.0,apologise,"
+sorry ",decl,,positive,punc,type,stop
+59,49,A,dm,107.0,apologise,"
+sorry ",regret,,,punct,type,stop
+59,55,A,dm,128.0,apologise,"
+sorry ",regret,,,punc,type,stop
+63,185,A,dm,334.0,apologise,"
+",regret,,,pause,,
+63,185,A,dm,334.0,apologise,"
+",regret,,,punc,type,stop
+63,185,A,frag,336.0,apologise,"
+my mistake there ",decl,location,positive,punc,type,stop
+66,12,B,decl,30.0,apologise,"
+",regret-decl,,positive,pause,,
+66,12,B,decl,30.0,apologise,"
+",regret-decl,,positive,punc,type,stop
+66,14,B,dm,33.0,apologise,"
+sorry about that ",regret,,,punc,type,stop
+66,16,B,dm,37.0,apologise,"
+",regret,,,overlap,type,start
+66,16,B,dm,37.0,apologise,"
+",regret,,,punc,type,stop
+68,58,B,decl,115.0,apologise,"
+i'm sorry ",regret-decl,,positive,punc,type,stop
+68,58,B,decl,118.0,apologise,"
+i'm ",regret-decl,,positive,overlap,type,start
+68,58,B,decl,118.0,apologise,"
+i'm ",regret-decl,,positive,punc,type,stop
+68,68,B,frag,130.0,apologise,"
+sorry ",decl,,positive,punc,type,stop
+69,52,B,dm,132.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,35,A,dm,58.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,61,A,dm,108.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,64,B,dm,114.0,apologise,"
+sorry ",,,,punc,type,stop
+70,76,B,dm,138.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,128,B,dm,244.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,130,B,dm,252.0,apologise,"
+sorry ",regret,,,punc,type,stop

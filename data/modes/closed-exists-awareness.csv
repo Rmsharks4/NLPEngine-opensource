@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+8,14,B,decl,22.0,inform,"
+i know there used to be one about quarter to about 7 o clock
+",closed-exists-awareness,time-number,positive,,,

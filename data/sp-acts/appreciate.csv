@@ -1,0 +1,130 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,30,B,decl,54.0,appreciate,"
+that's fine
+",reassurance-appreciate,,positive,,,
+1,32,B,decl,62.0,appreciate,"
+",reassurance-appreciate,,positive,overlap,type,end
+1,86,B,decl,143.0,appreciate,"
+that's brilliant
+",appreciate,,positive,,,
+2,26,B,decl,40.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+4,114,B,dm,212.0,appreciate,"
+ok excellent
+",,,positive,,,
+7,26,B,dm,42.0,appreciate,"
+lovely
+",,,positive,,,
+7,30,B,decl,48.0,appreciate,"
+that's great yes
+",appreciate,,positive,,,
+7,56,B,decl,84.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+7,80,B,decl,113.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+9,56,B,dm,100.0,appreciate,"
+ok lovely
+",,,positive,,,
+9,68,B,dm,117.0,appreciate,"
+lovely
+",,,positive,,,
+9,110,B,decl,180.0,appreciate,"
+that's lovely
+",appreciate,,positive,,,
+11,96,B,decl,166.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+13,82,B,decl,123.0,appreciate,"
+oh that's wonderful
+",appreciate,,positive,,,
+13,82,B,decl,124.0,appreciate,"
+that's ",appreciate,,positive,overlap,type,start
+13,102,B,decl,151.0,appreciate,"
+that's lovely
+",appreciate,,positive,,,
+13,104,B,dm,153.0,appreciate,"
+lovely
+",,,positive,,,
+13,140,B,dm,201.0,appreciate,"
+lovely
+",,,positive,,,
+13,146,B,decl,209.0,appreciate,"
+ah that's wonderful
+",appreciate,,positive,,,
+13,148,B,decl,211.0,appreciate,"
+that's lovely ",appreciate,,positive,overlap,type,end
+16,92,B,dm,155.0,appreciate,"
+fine
+",,,positive,,,
+16,114,B,dm,183.0,appreciate,"
+lovely
+",,,positive,,,
+18,22,B,decl,45.0,appreciate,"
+oh that's good ",,,positive,pause,,
+19,86,B,decl,127.0,appreciate,"
+that's lovely
+",appreciate,,positive,,,
+24,12,B,frag,18.0,appreciate,"
+mhm ",,,positive,pause,,
+24,18,B,frag,29.0,appreciate,"
+great
+",partial,,positive,,,
+24,22,B,decl,38.0,appreciate,"
+oh that's good ",,,positive,unclear,length,9 syllables
+24,94,B,decl,163.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+26,56,B,decl,144.0,appreciate,"
+that's ",appreciate,,positive,overlap,type,start
+27,42,B,dm,86.0,appreciate,"
+lovely
+",,,positive,,,
+27,46,B,dm,92.0,appreciate,"
+lovely
+",,,positive,,,
+28,116,B,decl,196.0,appreciate,"
+you are very kind
+",,,positive,,,
+29,18,B,frag,28.0,appreciate,"
+brilliant
+",partial,,positive,,,
+29,42,B,decl,82.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+29,102,B,decl,162.0,appreciate,"
+that's brilliant
+",appreciate,,positive,,,
+29,104,B,decl,166.0,appreciate,"
+that's brilliant
+",appreciate,,positive,,,
+33,32,B,decl,41.0,appreciate,"
+ah ",appreciate,,positive,overlap,type,end
+33,32,B,decl,42.0,appreciate,"
+that'd be great
+",appreciate,,positive,,,
+33,36,B,decl,58.0,appreciate,"
+that's great
+",appreciate,,positive,,,
+33,116,B,decl,169.0,appreciate,"
+that's lovely then
+",appreciate,,positive,,,
+35,120,B,frag,206.0,appreciate,"
+great
+",partial,,positive,,,
+35,126,B,frag,217.0,appreciate,"
+great
+",partial,,positive,,,
+35,152,B,frag,255.0,appreciate,"
+great
+",partial,,positive,,,
+35,176,B,frag,283.0,appreciate,"
+",,,positive,overlap,type,start
+35,178,B,frag,285.0,appreciate,"
+great
+",partial,,positive,,,
+35,180,B,decl,288.0,appreciate,"
+that's great
+",appreciate,,positive,,,

@@ -1,0 +1,27 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,17,A,decl,27.0,state,"
+",exists-frag,location-from-enum,positive,pause,length,10s
+36,17,A,decl,27.0,state,"
+",exists-frag,location-from-enum,positive,punc,type,level
+38,33,A,decl,50.0,stateOpt,"
+there's a train at 14 hundred from Euston ",exists-frag,location-time-from-enum,positive,punc,type,level
+40,33,A,decl,50.0,stateOpt,"
+there's a train at 14 hundred from Euston ",exists-frag,location-time-from-enum,positive,punc,type,level
+45,19,A,decl,35.0,state,"
+there's a train from Preston at 16:31 ",exists-frag,location-time-from,positive,punc,type,level
+54,27,A,decl,44.0,stateOpt,"
+",exists-frag,,positive,pause,length,2s
+54,27,A,decl,44.0,stateOpt,"
+",exists-frag,,positive,punc,type,level
+61,25,A,decl,55.0,state,"
+i've got the train departing at 10:35 from Taunton ",exists-frag,location-time-from-enum-departure,positive,backchannel,content,mm
+61,25,A,decl,55.0,state,"
+i've got the train departing at 10:35 from Taunton ",exists-frag,location-time-from-enum-departure,positive,punc,type,level
+63,166,B,decl,306.0,state,"
+i've got 12 1 70 ",exists-frag,enum-address,positive,anonym,type,street
+63,166,B,decl,306.0,state,"
+i've got 12 1 70 ",exists-frag,enum-address,positive,punc,type,level
+64,31,A,decl,74.0,state,"
+",exists-frag,enum-from,positive,pause,length,2s
+64,31,A,decl,74.0,state,"
+",exists-frag,enum-from,positive,punc,type,level

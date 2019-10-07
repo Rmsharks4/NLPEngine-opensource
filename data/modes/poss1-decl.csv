@@ -1,0 +1,35 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,97,A,decl,141.0,expressPossibility,"
+the best available i can book you is in smoking ",poss1-decl,booking-availability-seat,positive,punc,type,stop
+39,18,B,decl,42.0,expressPossibility,"
+so  i may as well get on with them in Wigan then ",poss1-decl,,positive,punc,type,stop
+40,97,A,decl,141.0,expressPossibility,"
+the best available i can book you is in smoking ",poss1-decl,booking-availability-seat,positive,punc,type,stop
+48,58,B,decl,96.0,expressPossibility,"
+i can come home on the 19:09 ",poss1-decl,,positive,punc,type,stop
+49,90,B,decl,171.0,state,"
+i can't actually take it with me ",poss1-decl,,negative,punc,type,stop
+50,63,A,decl,118.0,expressImPossibility,"
+we ",poss1-decl,booking,negative,overlap,type,end
+50,63,A,decl,118.0,expressImPossibility,"
+we ",poss1-decl,booking,negative,punc,type,stop
+59,49,A,decl,116.0,expressPossibility,"
+",poss1-decl,availability,positive,pause,,
+59,49,A,decl,116.0,expressPossibility,"
+",poss1-decl,availability,positive,punc,type,stop
+60,40,B,decl,77.0,expressImPossibility,"
+i can't do that ",poss1-decl,,negative,punc,type,stop
+63,32,B,decl,71.0,expressPossibility,"
+",poss1-decl,time,positive,pause,,
+63,32,B,decl,71.0,expressPossibility,"
+",poss1-decl,time,positive,punc,type,stop
+63,63,A,decl,144.0,expressPossibility,"
+i can ",poss1-decl,,positive,punc,type,stop
+69,14,B,decl,35.0,expressNonAwareness,"
+i can't remember ",poss1-decl,,negative,punc,type,stop
+70,106,B,decl,199.0,expressPossibility,"
+then i can just ",poss1-decl,,positive,overlap,type,start
+70,106,B,decl,199.0,expressPossibility,"
+then i can just ",poss1-decl,,positive,unclear,length,6 syllables
+70,106,B,decl,199.0,expressPossibility,"
+then i can just ",poss1-decl,,positive,punc,type,stop

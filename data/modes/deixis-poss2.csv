@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+18,7,A,decl,17.0,inform,"
+with the saver ticket you can travel on any train after 6 20
+",deixis-poss2,journey-fare,positive,,,

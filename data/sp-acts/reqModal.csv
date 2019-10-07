@@ -1,0 +1,52 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+2,34,B,q-yn,53.0,reqModal,"
+do you mind if i cancel
+",closed,,positive,,,
+4,108,B,q-yn,205.0,reqModal,"
+can i just repeat the reference please
+",closed,booking,positive,,,
+5,28,B,q-yn,42.0,reqModal,"
+can i book a ticket on that one the 16 05
+",closed,enum-number-booking-journey,positive,,,
+7,20,B,q-yn,34.0,reqModal,"
+can i leave it open please
+",closed,departure-fare,positive,,,
+12,44,B,q-yn,64.0,reqModal,"
+can we leave it open for returning just as long as it's not on the Friday
+",closed-condition,return-departure-day-fare,negative,,,
+12,46,B,q-yn,69.0,reqModal,"
+can i ",abandon-closed,,positive,pause,,
+12,46,B,q-yn,69.0,reqModal,"
+can i ",abandon-closed,,positive,pause,length,4s
+14,88,B,q-yn,142.0,reqModal,"
+can i just get him on the phone
+",closed,,positive,,,
+14,88,B,q-yn,143.0,reqModal,"
+and i give you his him to give you the details then shall i ",closed,,positive,pause,,
+15,80,B,q-yn,145.0,reqModal,"
+can i can i take your name and ring you back ",closed-poss1,name,positive,event,type,tape_cuts_off
+20,22,B,q-yn,43.0,reqModal,"
+can i call back in 2 minutes and book that
+",closed,time-booking,positive,,,
+21,20,B,q-yn,37.0,reqModal,"
+can you
+",abandon-closed,,positive,,,
+21,20,B,q-yn,39.0,reqModal,"
+can you just let me ",closed,,positive,pause,,
+21,20,B,q-yn,39.0,reqModal,"
+can you just let me ",closed,,positive,pause,length,2s
+21,20,B,q-yn,39.0,reqModal,"
+can you just let me ",closed,,positive,pause,length,1s
+24,54,B,q-yn,99.0,reqModal,"
+mhm can i can mm
+",abandon-closed-poss1,,positive,,,
+26,48,B,q-yn,99.0,reqModal,"
+erm ",abandon-closed,,positive,pause,length,3s
+26,48,B,q-yn,99.0,reqModal,"
+erm ",abandon-closed,,positive,pause,,
+35,156,B,q-yn,260.0,reqModal,"
+can i put it on my Diner's then please
+",closed,,positive,,,
+35,180,B,q-yn,290.0,reqModal,"
+can we just go over it one more time
+",closed,time-number,positive,,,

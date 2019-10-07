@@ -1,0 +1,297 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,20,B,frag,33.0,elab-refer,"
+on the em 17:15 ",partial-decl,,positive,punc,type,stop
+36,41,A,frag,81.0,refer,"
+on the 8th again ",partial-decl,,positive,punc,type,stop
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,pause,,
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,punc,type,stop
+37,23,A,frag,35.0,refer,"
+on the half hour ",partial-decl,time,positive,punc,type,stop
+38,2,B,frag,6.0,direct-refer,"
+from Macclesfield to London Euston return ",partial-decl,location-to-fare-from,positive,punc,type,stop
+38,16,B,frag,23.0,direct-refer,"
+about 9 o'clock ",partial-decl,time-enum,positive,punc,type,stop
+38,18,B,frag,26.0,direct-refer,"
+on ",partial-decl,month-date-day,positive,pause,,
+38,18,B,frag,26.0,direct-refer,"
+on ",partial-decl,month-date-day,positive,punc,type,stop
+38,99,A,frag,148.0,refer,"
+seat number 47 and 48 ",partial-decl,number-enum,positive,punc,type,stop
+38,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,pause,,
+38,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,punc,type,stop
+39,35,A,frag,80.0,confirm-refer,"
+in ",partial-decl,time,positive,overlap,type,end
+39,35,A,frag,80.0,confirm-refer,"
+in ",partial-decl,time,positive,punc,type,stop
+40,2,B,frag,6.0,direct-refer,"
+from Macclesfield to London Euston return ",partial-decl,location-to-fare-from,positive,punc,type,stop
+40,16,B,frag,23.0,direct-refer,"
+about 9 o'clock ",partial-decl,time-enum,positive,punc,type,stop
+40,18,B,frag,26.0,direct-refer,"
+on ",partial-decl,month-date-day,positive,pause,,
+40,18,B,frag,26.0,direct-refer,"
+on ",partial-decl,month-date-day,positive,punc,type,stop
+40,99,A,frag,148.0,refer,"
+seat number 47 and 48 ",partial-decl,number-enum,positive,punc,type,stop
+40,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,pause,,
+40,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,punc,type,stop
+41,14,B,frag,20.0,direct-state,"
+leaving erm ",partial-decl,enum-location-day-departure,positive,pause,,
+41,14,B,frag,20.0,direct-state,"
+leaving erm ",partial-decl,enum-location-day-departure,positive,punc,type,stop
+41,25,A,frag,41.0,state,"
+arriving Rugby at 16:05 ",partial-decl,location-time-arrival,positive,backchannel,content,yeah
+41,25,A,frag,41.0,state,"
+arriving Rugby at 16:05 ",partial-decl,location-time-arrival,positive,punc,type,stop
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,punc,type,stop
+43,2,B,frag,6.0,direct-refer,"
+from Nuneaton to Euston ",partial-decl,location-to-from,positive,punc,type,stop
+43,31,A,frag,61.0,refer,"
+seat number 33 ",partial-decl,number,positive,punc,type,stop
+43,35,A,frag,72.0,refer,"
+seat number 15 ",partial-decl,number,positive,backchannel,content,right
+43,35,A,frag,72.0,refer,"
+seat number 15 ",partial-decl,number,positive,punc,type,stop
+44,13,A,frag,33.0,correctSelf,"
+from Euston ",partial-decl,location-from,positive,backchannel,content,yes
+44,13,A,frag,33.0,correctSelf,"
+from Euston ",partial-decl,location-from,positive,punc,type,stop
+44,16,B,frag,40.0,elab-refer,"
+on the 8th ",partial-decl,,positive,punc,type,stop
+44,51,A,frag,120.0,refer,"
+seat number 6 ",partial-decl,number,positive,punc,type,stop
+44,63,A,frag,140.0,refer,"
+seat number 8 ",partial-decl,number,positive,punc,type,stop
+45,14,B,frag,25.0,echo-confirm,"
+of October ",partial-decl,month,positive,punc,type,stop
+45,18,A,frag,32.0,answer-echo-refer,"
+in ",partial-decl,time,positive,overlap,type,end
+45,18,A,frag,32.0,answer-echo-refer,"
+in ",partial-decl,time,positive,punc,type,stop
+45,19,A,frag,39.0,state,"
+arriving 18:51 ",partial-decl,arrival,positive,punc,type,stop
+46,2,B,frag,8.0,state,"
+leaving Birmingham New Street on Saturday and returning on the Sunday from London Euston ",partial-decl,location-day-from-departure-return,positive,punc,type,stop
+46,14,B,frag,29.0,direct-refer,"
+about 9 o'clock ",partial-decl,time-enum,positive,punc,type,stop
+46,36,B,frag,82.0,refer,"
+at 12 midnight ",partial-decl,time-enum,positive,backchannel,content,yeah
+46,36,B,frag,82.0,refer,"
+at 12 midnight ",partial-decl,time-enum,positive,punc,type,stop
+46,60,B,frag,127.0,refer,"
+",partial-decl,,positive,anonym,type,letter
+46,60,B,frag,127.0,refer,"
+",partial-decl,,positive,anonym,type,alpha
+46,60,B,frag,127.0,refer,"
+",partial-decl,,positive,punc,type,stop
+46,65,A,frag,137.0,refer,"
+on Saturday 3rd of October from Birmingham New Street to London Euston ",partial-decl,location-to-month-from-date-day,positive,punc,type,stop
+46,65,A,frag,140.0,refer,"
+seat number 22 ",partial-decl,number,positive,punc,type,stop
+46,67,A,frag,144.0,state,"
+departing 10:35 ",partial-decl,departure,positive,punc,type,stop
+46,67,A,frag,147.0,refer,"
+seat number 27 ",partial-decl,number,positive,punc,type,stop
+47,58,B,frag,102.0,answer-refer,"
+on Sunday ",partial-decl,day,positive,punc,type,stop
+47,100,B,frag,204.0,answer-refer,"
+from ",partial-decl,location-from,positive,pause,,
+47,100,B,frag,204.0,answer-refer,"
+from ",partial-decl,location-from,positive,punc,type,stop
+48,100,B,frag,168.0,refer,"
+County Durham ",partial-decl,location,positive,punc,type,stop
+48,108,B,frag,178.0,answer-refer,"
+Barclay card ",partial-decl,,positive,punc,type,stop
+49,6,B,frag,12.0,elab-correct,"
+to Wrexham ",partial-decl,to-location,positive,punc,type,stop
+49,24,B,frag,41.0,direct-refer,"
+about 11:15 ",partial-decl,,positive,punc,type,stop
+49,53,A,frag,104.0,state,"
+departing 11:15 ",partial-decl,departure,positive,backchannel,content,mhm
+49,53,A,frag,104.0,state,"
+departing 11:15 ",partial-decl,departure,positive,punc,type,stop
+49,100,B,frag,189.0,answer-refer,"
+Fizzwhizz Merchandising ",partial-decl,,positive,punc,type,stop
+51,49,A,frag,107.0,refer,"
+on the day of travel ",partial-decl,journey-day,positive,punc,type,stop
+52,49,A,frag,90.0,state,"
+arriving London Euston at 15 hundred ",partial-decl,location-time-enum-arrival,positive,punc,type,stop
+53,15,A,frag,43.0,complete,"
+",partial-decl,time,positive,unclear,length,3 syllable
+53,15,A,frag,43.0,complete,"
+",partial-decl,time,positive,pause,,
+53,15,A,frag,43.0,complete,"
+",partial-decl,time,positive,punc,type,stop
+53,55,A,frag,142.0,refer,"
+seat number 38 ",partial-decl,number,positive,punc,type,stop
+54,18,B,frag,28.0,direct-refer,"
+leaving ",partial-decl,location-time-departure,positive,pause,,
+54,18,B,frag,28.0,direct-refer,"
+leaving ",partial-decl,location-time-departure,positive,punc,type,stop
+56,19,A,frag,39.0,refer,"
+",partial-decl,arrival,positive,pause,,
+56,19,A,frag,39.0,refer,"
+",partial-decl,arrival,positive,punc,type,stop
+56,29,A,frag,57.0,refer,"
+arriving ",partial-decl,location-enum-arrival,positive,overlap,type,end
+56,29,A,frag,57.0,refer,"
+arriving ",partial-decl,location-enum-arrival,positive,punc,type,stop
+57,2,B,frag,6.0,direct-refer,"
+from London to Blackpool ",partial-decl,location-to-from,positive,punc,type,stop
+58,2,B,frag,6.0,direct-refer,"
+from Oxenholme to Euston ",partial-decl,to-location-from,positive,punc,type,stop
+58,33,A,frag,63.0,elab-refer,"
+in Oxenholme ",partial-decl,,positive,punc,type,stop
+58,64,B,frag,121.0,refer,"
+ ",partial-decl,,positive,anonym,type,address
+58,64,B,frag,121.0,refer,"
+ ",partial-decl,,positive,punc,type,stop
+58,85,A,frag,162.0,state,"
+departing 11:41 ",partial-decl,departure,positive,punc,type,stop
+58,85,A,frag,165.0,refer,"
+seat number 13 ",partial-decl,number,positive,punc,type,stop
+58,85,A,frag,170.0,refer,"
+seat number 41 ",partial-decl,number,positive,punc,type,stop
+59,44,B,frag,93.0,refer,"
+",partial-decl,,positive,pause,,
+59,44,B,frag,93.0,refer,"
+",partial-decl,,positive,punc,type,stop
+59,49,A,frag,113.0,refer,"
+seat number 34 ",partial-decl,number,positive,punc,type,stop
+59,57,A,frag,135.0,refer,"
+seat number 34 ",partial-decl,number,positive,punc,type,stop
+59,59,A,frag,146.0,state,"
+returning Sunday the 4th of October from Newcastle to Liver... Liverpool Lime Street at 17:20 ",partial-decl,to-location-time-month-from-date-day-return,positive,punc,type,stop
+61,10,B,frag,18.0,answer-refer,"
+just for 1 person ",partial-decl,enum,positive,punc,type,stop
+61,20,B,frag,37.0,direct-refer,"
+on Friday the30th of October ",partial-decl,month-date-day,positive,punc,type,stop
+61,22,B,frag,41.0,elab-state,"
+",partial-decl,arrival,positive,pause,,
+61,22,B,frag,41.0,elab-state,"
+",partial-decl,arrival,positive,punc,type,stop
+61,22,B,frag,43.0,state,"
+",partial-decl,location-arrival,positive,pause,,
+61,22,B,frag,43.0,state,"
+",partial-decl,location-arrival,positive,punc,type,stop
+61,24,B,frag,51.0,refer,"
+with the new timetable ",partial-decl,,positive,punc,type,stop
+61,50,B,frag,133.0,refer,"
+from Taunton ",partial-decl,location-from,positive,punc,type,stop
+61,55,A,frag,151.0,refer,"
+from Hertford 7:41 ",partial-decl,location-to-from-enum,positive,backchannel,content,yes
+61,55,A,frag,151.0,refer,"
+from Hertford 7:41 ",partial-decl,location-to-from-enum,positive,backchannel,content,yes
+61,55,A,frag,151.0,refer,"
+from Hertford 7:41 ",partial-decl,location-to-from-enum,positive,punc,type,stop
+61,55,A,frag,152.0,state,"
+arriving 14:28 ",partial-decl,arrival,positive,backchannel,content,yes
+61,55,A,frag,152.0,state,"
+arriving 14:28 ",partial-decl,arrival,positive,punc,type,stop
+62,3,A,frag,6.0,echo-refer,"
+from Leicester to Newton Abbot ",partial-decl,to-location-from,positive,punc,type,stop
+62,49,A,frag,109.0,refer,"
+with the Super Advance ticket ",partial-decl,fare-journey,positive,punc,type,stop
+62,123,A,address,215.0,refer,"
+Mrs Nunn ",partial-decl,,positive,punc,type,stop
+63,4,B,frag,17.0,answer-refer,"
+from Euston to London ",partial-decl,location-to-from,positive,punc,type,stop
+63,5,A,frag,19.0,reqConfirm,"
+from Euston London ",partial-decl,location-from,positive,punc,type,stop
+63,14,B,frag,36.0,direct-refer,"
+in the morning ",partial-decl,time,positive,punc,type,stop
+63,50,B,frag,120.0,echo-refer,"
+arriving 13 hundred ",partial-decl,enum-arrival,positive,punc,type,stop
+63,65,A,frag,146.0,confirm-refer,"
+for the same price ",partial-decl,,positive,punc,type,stop
+63,78,B,frag,174.0,answer-refer,"
+about ",partial-decl,enum,positive,overlap,type,end
+63,78,B,frag,174.0,answer-refer,"
+about ",partial-decl,enum,positive,punc,type,stop
+63,106,B,frag,223.0,complete-reqConfirm,"
+",partial-decl,time-enum,positive,pause,length,2s
+63,106,B,frag,223.0,complete-reqConfirm,"
+",partial-decl,time-enum,positive,punc,type,query
+63,110,B,frag,227.0,confirm-refer,"
+on 16th of October as well ",partial-decl,month-date,positive,punc,type,stop
+63,217,A,frag,376.0,confirm-state,"
+from Stockport ",partial-decl,booking-location-from,positive,overlap,type,end
+63,217,A,frag,376.0,confirm-state,"
+from Stockport ",partial-decl,booking-location-from,positive,backchannel,content,yes
+63,217,A,frag,376.0,confirm-state,"
+from Stockport ",partial-decl,booking-location-from,positive,punc,type,stop
+65,2,B,frag,5.0,refer,"
+Manchester Picadilly 5:30 tomorrow evening ",partial-decl,location-time-enum-day,positive,punc,type,stop
+66,2,B,frag,6.0,direct-refer,"
+Manchester Picadilly to Birmingham 9 am ",partial-decl,location-to-enum,positive,punc,type,stop
+67,4,B,frag,7.0,answer-refer,"
+from Manchester Picadilly ",partial-decl,location-from,positive,punc,type,stop
+67,10,B,frag,18.0,refer,"
+cheap fare to London ",partial-decl,fare-to-location,positive,punc,type,stop
+68,12,B,frag,18.0,answer-refer,"
+",partial-decl,time,positive,unclear,length,7 syllables
+68,12,B,frag,18.0,answer-refer,"
+",partial-decl,time,positive,overlap,type,end
+68,12,B,frag,18.0,answer-refer,"
+",partial-decl,time,positive,punc,type,stop
+68,14,B,frag,22.0,elab-refer,"
+",partial-decl,time,positive,pause,,
+68,14,B,frag,22.0,elab-refer,"
+",partial-decl,time,positive,punc,type,stop
+68,43,A,frag,82.0,refer,"
+",partial-decl,time,positive,pause,,
+68,43,A,frag,82.0,refer,"
+",partial-decl,time,positive,punc,type,stop
+69,37,A,frag,99.0,answer-state,"
+for ",partial-decl,journey-day,positive,overlap,type,end
+69,37,A,frag,99.0,answer-state,"
+for ",partial-decl,journey-day,positive,punc,type,stop
+69,42,B,frag,107.0,echo-refer,"
+on a Friday ",partial-decl,day,positive,punc,type,stop
+70,8,B,frag,19.0,elab-refer,"
+for er Thursd... Saturday the 17th of October ",partial-decl,month-date-day,positive,punc,type,stop
+70,11,A,frag,22.0,echo-refer,"
+for 1 ",partial-decl,number,positive,punc,type,stop
+70,87,A,frag,161.0,answer-refer,"
+on the 10:50 train ",partial-decl,enum,positive,punc,type,stop
+70,103,A,frag,185.0,refer,"
+from Macclesfield to Wilmslow ",partial-decl,to-from,positive,punc,type,stop
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,anonym,type,letter
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,overlap,type,end
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,anonym,type,alpha
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,punc,type,stop

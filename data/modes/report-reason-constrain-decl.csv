@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+63,187,A,decl,339.0,stateReason,"
+cos they need that while they're on the train ",report-reason-constrain-decl,,positive,punc,type,stop
+64,28,B,decl,69.0,stateReason,"
+because we need to get in London as soon as possible ",report-reason-constrain-decl,location,positive,punc,type,stop

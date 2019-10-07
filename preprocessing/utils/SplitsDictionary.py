@@ -12,17 +12,22 @@ reads splits regex from file
 """
 
 from preprocessing.utils.AbstractUtils import AbstractUtils
+import re
 
 
 class SplitsDictionary(AbstractUtils):
 
     splits_dict = None
-    splits_replace = None
+    splits_re = None
 
     @staticmethod
     def load():
         """
         initializes static function load for Splits Dict Class
         """
-        SplitsDictionary.splits_dict = ['-', '_']
-        SplitsDictionary.splits_replace = ' '
+        SplitsDictionary.splits_dict = {
+            '-': ' ',
+            '_': ' '
+        }
+        # '\'s' -> ''
+        SplitsDictionary.splits_re = re.compile(r'\b(%s)\b' % '|'.join(SplitsDictionary.splits_dict.keys()))

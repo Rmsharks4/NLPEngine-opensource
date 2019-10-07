@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+49,50,B,frag,97.0,elab-expressOpinion,"
+",opinion-decl,number,positive,pause,,
+49,50,B,frag,97.0,elab-expressOpinion,"
+",opinion-decl,number,positive,punc,type,stop
+59,8,B,decl,19.0,elab-expressOpinion,"
+",report-opinion-constrain-decl,fare,positive,pause,length,3s
+59,8,B,decl,19.0,elab-expressOpinion,"
+",report-opinion-constrain-decl,fare,positive,punc,type,stop
+62,18,B,decl,35.0,elab-expressOpinion,"
+i think it's the 8th ",opinion-decl,,positive,punc,type,stop
+62,36,B,decl,89.0,elab-expressOpinion,"
+i think so ",opinion-decl,,positive,punc,type,stop

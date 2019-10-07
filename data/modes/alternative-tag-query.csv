@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,50,B,decl,89.0,reqConfirm,"
+",alternative-tag-query,enum,positive,pause,,
+47,50,B,decl,89.0,reqConfirm,"
+",alternative-tag-query,enum,positive,punc,type,query
+51,91,A,frag,170.0,confirm-stateOpt,"
+or Saturday ",alternative-tag-query,time-day,positive,pause,,
+51,91,A,frag,170.0,confirm-stateOpt,"
+or Saturday ",alternative-tag-query,time-day,positive,overlap,type,start
+51,91,A,frag,170.0,confirm-stateOpt,"
+or Saturday ",alternative-tag-query,time-day,positive,punc,type,query

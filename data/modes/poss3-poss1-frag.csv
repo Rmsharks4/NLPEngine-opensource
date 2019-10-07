@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,40,B,decl,115.0,expressPossibility,"
+it might i might be going on a later train ",poss3-poss1-frag,time,positive,punc,type,level

@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+35,108,B,decl,177.0,inform,"
+cos that's who i'm going to go and stay with 6 em 2 6 5 5 6 8
+",intent-reason-report,enum,positive,,,

@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+26,2,B,frag,4.0,direct,"
+oh good afternoon erm
+",greet-closure,opening,positive,,,
+28,2,B,frag,4.0,greet,"
+er good morning love ",greet-closure,opening,positive,pause,,

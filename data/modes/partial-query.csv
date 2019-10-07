@@ -1,0 +1,75 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,15,A,frag,22.0,reqInfo,"
+from Birmingham International ",partial-query,location-from,positive,punc,type,query
+36,41,A,frag,82.0,reqConfirm,"
+",partial-query,departure,positive,pause,length,2s
+36,41,A,frag,82.0,reqConfirm,"
+",partial-query,departure,positive,punc,type,query
+43,14,B,frag,29.0,reqInfo,"
+",partial-query,time,positive,pause,,
+43,14,B,frag,29.0,reqInfo,"
+",partial-query,time,positive,punc,type,query
+44,59,A,frag,134.0,reqConfirm,"
+arriving 11:32 ",partial-query,arrival,positive,punc,type,query
+45,13,A,frag,24.0,reqConfirm,"
+of October ",partial-query,month,positive,punc,type,query
+45,17,B,frag,31.0,reqInfo,"
+in ",partial-query,time,positive,overlap,type,end
+45,17,B,frag,31.0,reqInfo,"
+in ",partial-query,time,positive,punc,type,query
+47,52,B,frag,92.0,reqInfo,"
+with the discount ",partial-query,,positive,punc,type,query
+47,61,A,frag,107.0,reqInfo,"
+",partial-query,location-to-from,positive,pause,,
+47,61,A,frag,107.0,reqInfo,"
+",partial-query,location-to-from,positive,punc,type,query
+48,3,A,frag,7.0,echo-reqConfirm,"
+",partial-query,to-location-from,positive,pause,,
+48,3,A,frag,7.0,echo-reqConfirm,"
+",partial-query,to-location-from,positive,punc,type,query
+48,38,B,frag,67.0,reqInfo,"
+on the Wednesday ",partial-query,day,positive,punc,type,query
+48,54,B,frag,89.0,reqInfo,"
+at 19:09 ",partial-query,time,positive,punc,type,query
+49,7,A,frag,13.0,reqInfo,"
+to Wrexham from ",partial-query,to-location,positive,punc,type,query
+51,17,A,frag,28.0,reqInfo,"
+on the 6th of October ",partial-query,month-date,positive,punc,type,query
+52,17,A,frag,28.0,reqConfirm,"
+of October ",partial-query,month,positive,punc,type,query
+58,27,A,frag,56.0,reqConfirm,"
+",partial-query,day,positive,pause,,
+58,27,A,frag,56.0,reqConfirm,"
+",partial-query,day,positive,punc,type,query
+60,13,A,frag,22.0,reqConfirm,"
+",partial-query,time,positive,pause,length,2s
+60,13,A,frag,22.0,reqConfirm,"
+",partial-query,time,positive,punc,type,query
+62,7,A,frag,13.0,reqConfirm,"
+of October ",partial-query,month,positive,punc,type,query
+62,21,A,frag,39.0,reqConfirm,"
+",partial-query,location-from,positive,pause,length,2s
+62,21,A,frag,39.0,reqConfirm,"
+",partial-query,location-from,positive,punc,type,query
+63,7,A,frag,25.0,reqConfirm,"
+from Stockport to London Euston ",partial-query,location-to-from,positive,punc,type,query
+63,64,B,frag,145.0,reqConfirm,"
+for the same price ",partial-query,,positive,punc,type,query
+63,75,A,frag,171.0,echo-reqConfirm,"
+in the morning ",partial-query,time,positive,punc,type,query
+63,109,A,frag,226.0,reqConfirm,"
+on the 16th of October ",partial-query,month-date,positive,punc,type,query
+63,216,B,frag,374.0,reqConfirm,"
+from ",partial-query,location-from,positive,overlap,type,end
+63,216,B,frag,374.0,reqConfirm,"
+from ",partial-query,location-from,positive,punc,type,query
+63,216,B,frag,375.0,reqConfirm,"
+",partial-query,location-from,positive,overlap,type,start
+63,216,B,frag,375.0,reqConfirm,"
+",partial-query,location-from,positive,punc,type,query
+63,223,A,q-wh,386.0,echo-reqInfo,"
+when ",partial-query,time,positive,punc,type,incomplete
+70,41,A,frag,71.0,reqConfirm,"
+from Wilmslow to Euston ",partial-query,to-location-from,positive,punc,type,query
+70,48,B,frag,82.0,reqConfirm,"
+at all ",partial-query,,positive,punc,type,query

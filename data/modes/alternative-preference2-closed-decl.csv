@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,57,A,q-yn,150.0,reqDirect,"
+do you want to book the return or leave the return journey open ",alternative-preference2-closed-decl,fare-booking-journey-departure,positive,punc,type,stop

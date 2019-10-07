@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+37,8,B,frag,13.0,answer-direct-refer,"
+just one please ",request-decl,number,positive,punc,type,stop
+52,44,B,frag,76.0,answer-direct-refer,"
+by the window please ",request-decl,,positive,punc,type,stop
+53,44,B,frag,123.0,answer-direct-refer,"
+non-smoking please ",request-decl,seat,positive,punc,type,stop
+64,6,B,frag,12.0,answer-direct-refer,"
+two adults please ",request-decl,number,positive,punc,type,stop
+68,38,B,frag,72.0,answer-direct-refer,"
+non-smoking please ",request-decl,seat,positive,punc,type,stop

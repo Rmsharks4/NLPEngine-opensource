@@ -1,0 +1,25 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,45,A,decl,83.0,informIntent,"
+i'm going to book you a forward facing seat again ",intent-report,seat-booking,positive,pause,length,2s
+6,15,A,decl,19.0,informIntent-hold,"
+what i'm going to do is i'm going to check to see what's the cheapest fare available ",intent-report,fare-date-avail-verify,positive,backchannel,content,right
+9,29,A,decl,60.0,informIntent,"
+what i'm going to do is arrange for you to collect your ticket on the day of travel
+",intent-report,journey-day,positive,,,
+14,59,A,decl,104.0,informIntent,"
+and i'm going to arrange for you to collect your tickets tomorrow from London Euston
+",intent-report,day-location-from-journey,positive,,,
+14,90,B,decl,152.0,informIntent,"
+i'm going to give you the details
+",intent-report,,positive,,,
+23,45,A,decl,75.0,informIntent,"
+what i'm going to do just now is fill out a booking form ",intent-report,time-departure-day-from-booking-journey,positive,pause,,
+23,45,A,decl,75.0,informIntent,"
+what i'm going to do just now is fill out a booking form ",intent-report,time-departure-day-from-booking-journey,positive,pause,,
+25,9,A,decl,12.0,informIntent,"
+",intent-report,day-journey,positive,pause,,
+25,9,A,decl,12.0,informIntent,"
+",intent-report,day-journey,positive,pause,,
+34,15,A,decl,27.0,informIntent,"
+i'm going to check availability once we've established train times
+",intent-report,number-avail-verify,positive,,,

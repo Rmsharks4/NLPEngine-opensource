@@ -1,0 +1,68 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,29,A,decl,51.0,inform,"
+you can get the Virgin value single at 7 pounds ",poss2,fare,positive,backchannel,content,right
+1,45,A,decl,87.0,inform,"
+you are able to get the next available train ",poss2,avail,positive,backchannel,content,right
+5,43,A,decl,69.0,inform,"
+you can buy that before you board the train
+",poss2,,positive,,,
+7,49,A,decl,76.0,inform,"
+you are able to get the next available one
+",poss2,number-avail,positive,,,
+9,95,A,decl,155.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+12,45,A,decl,66.0,answ,"
+you can't leave that ticket open ",poss2,departure-fare-journey,negative,pause,,
+12,69,A,decl,109.0,inform,"
+you can't do that with an advance purchase ticket
+",poss2,fare-journey,negative,,,
+12,99,A,decl,181.0,inform,"
+you can't get the 19 00 ",poss2,enum,negative,pause,,
+12,123,A,decl,225.0,inform,"
+you are able to get the next available train ",poss2,avail,positive,pause,,
+14,55,A,decl,99.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+16,47,A,decl,93.0,answ,"
+you can cancel cancel that any time ",poss2,cancel-time,positive,overlap,type,start
+18,9,A,decl,23.0,inform,"
+you can travel on the train after ",poss2,time-journey,positive,pause,,
+18,15,A,decl,36.0,ackn,"
+",poss2,,negative,overlap,type,start
+18,61,A,decl,136.0,confirm,"
+you can leave it open for the calendar month ",poss2,departure-fare,positive,pause,,
+23,43,A,decl,70.0,inform,"
+you are able to get the next available service ",poss2,avail,positive,pause,,
+23,85,A,decl,145.0,inform,"
+you are able to get the next available service ",poss2,avail,positive,pause,,
+24,21,A,decl,37.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+25,27,A,decl,41.0,inform,"
+you can leave that open
+",poss2,departure-fare,positive,,,
+28,2,B,decl,7.0,inform,"
+er they told me you can try ",poss2,,positive,pause,,
+28,37,A,decl,70.0,inform,"
+and you could come back at any time within the time restrictions
+",poss2,time,positive,,,
+28,67,A,decl,121.0,inform,"
+you can come back within the calendar month as well ",poss2,,positive,pause,,
+33,31,A,decl,40.0,inform,"
+you can get the next available ",poss2,number-avail,positive,overlap,type,start
+33,47,A,decl,77.0,inform,"
+you are able to get the next available train
+",poss2,avail,positive,,,
+34,25,A,decl,44.0,answElab,"
+the system works out what mean then what you can change at Preston before that
+",poss2,time-location,positive,,,
+34,55,A,decl,127.0,inform,"
+you can leave the return journey open
+",poss2,fare-departure-journey,positive,,,
+34,55,A,decl,129.0,inform,"
+you can return back within in a calendar month
+",poss2,fare,positive,,,
+35,17,A,decl,28.0,inform,"
+you can't go from Euston to Macclesfield then Wilmslow to Euston
+",poss2,to-location-from,negative,,,

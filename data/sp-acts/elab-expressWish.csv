@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+67,12,B,decl,21.0,elab-expressWish,"
+i do i do want to book ",decl-disflu,booking,positive,punc,type,stop
+67,20,B,decl,33.0,elab-expressWish,"
+i want to get the cheap fare ",intent-preference1-decl,fare,positive,punc,type,stop

@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+9,27,A,decl,53.0,informIntent,"
+what i'm going to do is 
+",abandonIntent-reason-report,fare,positive,,,

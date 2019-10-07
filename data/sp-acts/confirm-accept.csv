@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+43,20,B,yes,39.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+47,4,B,yes,7.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+47,28,B,yes,46.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+48,78,B,yes,131.0,confirm-accept,"
+yes please ",request,,,punc,type,stop

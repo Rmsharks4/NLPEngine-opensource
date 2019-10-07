@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,20,B,q-wh,35.0,reqInfo,"
+",open-query-disflu,,positive,pause,,
+47,20,B,q-wh,35.0,reqInfo,"
+",open-query-disflu,,positive,punc,type,query
+47,24,B,q-wh,41.0,reqInfo,"
+what ",open-query-disflu,,positive,overlap,type,end
+47,24,B,q-wh,41.0,reqInfo,"
+what ",open-query-disflu,,positive,punc,type,query
+47,82,B,q-wh,157.0,reqInfo,"
+what what what availability do you have er from Euston to Wilmslow ",open-query-disflu,to-availability-location-from,positive,punc,type,query

@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+18,23,A,decl,49.0,offer,"
+or i can provisionally book it and arrange for you to collect the tickets at the train station
+",poss1-alternative,booking,positive,,,

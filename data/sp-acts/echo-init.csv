@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+50,59,A,frag,113.0,echo-init,"
+hello ",greet,,,punc,type,stop

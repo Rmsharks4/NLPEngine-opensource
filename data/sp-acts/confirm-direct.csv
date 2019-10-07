@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+52,38,B,frag,66.0,confirm-direct,"
+please ",request-decl,,positive,punc,type,stop
+56,37,A,imp,75.0,confirm-direct,"
+stick to the date and ",decl,booking-time-date,positive,backchannel,content,yes
+56,37,A,imp,75.0,confirm-direct,"
+stick to the date and ",decl,booking-time-date,positive,punc,type,stop

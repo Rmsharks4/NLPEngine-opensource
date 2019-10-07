@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,95,A,decl,188.0,answer-expressPossibility,"
+",suggest-poss1-decl,booking,positive,pause,,
+47,95,A,decl,188.0,answer-expressPossibility,"
+",suggest-poss1-decl,booking,positive,punc,type,stop

@@ -1,0 +1,15 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+43,86,B,frag,169.0,confirm-thank,"
+thank you very much ",thank-decl,,positive,punc,type,stop
+47,158,B,frag,301.0,confirm-thank,"
+thank you very much ",thank-decl,,positive,punc,type,stop
+49,135,A,frag,245.0,confirm-thank,"
+thank you for calling then ",thank,,,punc,type,stop
+53,120,B,frag,262.0,confirm-thank,"
+thank you very much ",thank-decl,,positive,punc,type,stop
+62,124,B,frag,216.0,confirm-thank,"
+thank you ",thank-decl,,positive,punc,type,stop
+70,176,B,frag,313.0,confirm-thank,"
+thank you ",thank-decl,,positive,overlap,type,end
+70,176,B,frag,313.0,confirm-thank,"
+thank you ",thank-decl,,positive,punc,type,stop

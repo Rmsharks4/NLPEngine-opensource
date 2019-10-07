@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+46,69,A,decl,159.0,state,"
+that it ",predict-report-condition-decl-disflu,location-time-enum,positive,pause,,
+46,69,A,decl,159.0,state,"
+that it ",predict-report-condition-decl-disflu,location-time-enum,positive,pause,,
+46,69,A,decl,159.0,state,"
+that it ",predict-report-condition-decl-disflu,location-time-enum,positive,punc,type,stop

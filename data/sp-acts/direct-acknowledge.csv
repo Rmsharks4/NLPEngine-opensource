@@ -1,0 +1,18 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,46,B,yes,68.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+40,46,B,yes,68.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+48,18,B,yes,30.0,direct-acknowledge,"
+yes ",,,,punc,type,stop
+53,36,B,yes,99.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+57,56,B,yes,132.0,direct-acknowledge,"
+yeah
+",,,,,,
+63,212,B,yes,368.0,direct-acknowledge,"
+yes ",,,,punc,type,stop
+64,79,A,yes,147.0,direct-acknowledge,"
+yes ",,,,punc,type,stop
+70,106,B,yes,190.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop

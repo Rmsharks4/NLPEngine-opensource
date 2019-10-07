@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+54,34,B,frag,60.0,answer-refer,"
+with with a table if possible ",condition-partial-decl-disflu,,positive,punc,type,stop

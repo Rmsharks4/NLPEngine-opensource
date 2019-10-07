@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,56,B,q-yn,99.0,reqInfo-abandon,"
+",poss2-alternative-abandon-disflu,fare-time-enum,positive,pause,,
+47,56,B,q-yn,99.0,reqInfo-abandon,"
+",poss2-alternative-abandon-disflu,fare-time-enum,positive,punc,type,incomplete

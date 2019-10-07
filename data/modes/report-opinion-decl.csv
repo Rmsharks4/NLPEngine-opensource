@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,48,B,decl,118.0,expressOpinion,"
+i think they've booked ",report-opinion-decl,booking,positive,punc,type,stop
+59,46,B,decl,99.0,expressOpinion,"
+",report-opinion-decl,confirm-location-time,positive,pause,,
+59,46,B,decl,99.0,expressOpinion,"
+",report-opinion-decl,confirm-location-time,positive,punc,type,stop
+64,24,B,decl,52.0,state,"
+i think somebody did mention it when i enquired the other day actually ",report-opinion-decl,time-day,positive,punc,type,stop
+66,12,B,decl,27.0,state,"
+i've just had a thought ",report-opinion-decl,,positive,punc,type,stop
+69,26,B,decl,64.0,expressOpinion,"
+i guess the go... thing i was worrying about on the Sunday is i miss that ",report-opinion-decl,miss-day,positive,punc,type,stop

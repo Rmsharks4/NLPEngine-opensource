@@ -1,0 +1,42 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+2,16,B,decl,23.0,express-opinion,"
+and that'll be the 14 50 i think then
+",opinion,enum,positive,,,
+4,50,B,decl,113.0,express-opinion,"
+erm ",opinion,booking,positive,pause,length,3s
+4,50,B,decl,116.0,express-opinion,"
+and i think they're coming back on Sunday the eleventh at 5 o'clock ",opinion,time-day,positive,pause,,
+23,62,B,decl,95.0,express-opinion,"
+erm ",opinion,,positive,pause,,
+23,62,B,decl,95.0,express-opinion,"
+erm ",opinion,,positive,pause,,
+24,8,B,decl,13.0,express-opinion,"
+it's a supersaver return i think i need
+",opinion-constrain,fare,positive,,,
+24,46,B,decl,77.0,express-opinion,"
+i thought thought you'd ",opinion-constrain,,positive,pause,,
+24,46,B,decl,78.0,express-opinion,"
+when you said confirm it i thought it'd come up on your screen there
+",opinion-constrain,time-confirm,positive,,,
+26,24,B,decl,41.0,express-opinion,"
+it's a new one i think with the new timetable
+",opinion,number,positive,,,
+26,38,B,decl,80.0,express-opinion,"
+i think ",opinion,journey,positive,overlap,type,end
+26,52,B,decl,118.0,express-opinion,"
+to be perfectly honest it doesn't really matter ",,,positive,pause,,
+26,52,B,decl,118.0,express-opinion,"
+to be perfectly honest it doesn't really matter ",,,positive,pause,,
+27,18,B,decl,30.0,express-opinion,"
+i think it's the eighth
+",opinion,,positive,,,
+29,14,B,decl,22.0,express-opinion,"
+i think there's one at 7 25 Eus... London Euston
+",exists-opinion,time-location-number,positive,,,
+29,24,B,decl,45.0,express-opinion,"
+i think somebody did mention it when i enquired the other day actually ",opinion,day-time,positive,pause,,
+29,48,B,decl,90.0,express-opinion,"
+but it doesn't matter if you can't
+",constrain,,positive,,,
+34,24,B,decl,41.0,express-opinion,"
+and i think it's the same train just stops at lots of ",opinion,time,positive,pause,,

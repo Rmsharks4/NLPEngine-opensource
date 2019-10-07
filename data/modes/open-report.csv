@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+16,35,A,q-wh,65.0,reqInfo,"
+and what was the time you were wanting on the return
+",open-report,time-preference-fare,positive,,,

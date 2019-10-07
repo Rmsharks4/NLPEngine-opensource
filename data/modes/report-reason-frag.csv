@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+61,37,A,decl,84.0,elab-stateReason,"
+i was just actually double checking that because ",report-reason-frag,journey-verify,positive,pause,,
+61,37,A,decl,84.0,elab-stateReason,"
+i was just actually double checking that because ",report-reason-frag,journey-verify,positive,punc,type,level

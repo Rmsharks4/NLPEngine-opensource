@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+61,26,B,decl,58.0,state-abandon,"
+i ",report-abandon,,negative,overlap,type,end
+61,26,B,decl,58.0,state-abandon,"
+i ",report-abandon,,negative,punc,type,incomplete
+69,34,B,decl,88.0,elab-state-abandon,"
+i was intending ",report-abandon,,positive,punc,type,incomplete

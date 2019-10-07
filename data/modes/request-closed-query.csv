@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,106,B,q-yn,221.0,reqOpt,"
+",request-closed-query,booking,positive,overlap,type,end
+39,106,B,q-yn,221.0,reqOpt,"
+",request-closed-query,booking,positive,punc,type,query
+42,20,B,q-yn,39.0,reqOpt,"
+can i leave it open please ",request-closed-query,fare-departure,positive,punc,type,query
+51,69,A,q-yn,138.0,direct-reqInfo,"
+have you got the got the postcode first of all please ",request-closed-query,address,positive,punc,type,query
+51,116,B,q-yn,206.0,reqOpt,"
+and can i put your name please ",request-closed-query,name,positive,punc,type,query
+61,48,B,q-yn,117.0,reqOpt,"
+could i travel erm front facing ",request-closed-query,journey-seat,positive,pause,,
+61,48,B,q-yn,117.0,reqOpt,"
+could i travel erm front facing ",request-closed-query,journey-seat,positive,punc,type,query
+64,34,B,q-yn,79.0,reqOpt,"
+can we book on that one please ",request-closed-query,booking-number,positive,punc,type,query
+70,152,B,q-yn,284.0,reqOpt-direct,"
+can i put it on my Diner's then please ",request-closed-query,,positive,punc,type,query

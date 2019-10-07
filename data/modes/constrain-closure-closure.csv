@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,8,B,decl,12.0,inform,"
+erm i've got a Network SouthEast card but erm
+",constrain-closure-closure,number,positive,,,

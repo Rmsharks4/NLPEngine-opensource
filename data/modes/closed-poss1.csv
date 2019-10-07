@@ -1,0 +1,14 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+12,72,B,q-yn,114.0,direct,"
+can i can i change the the start to ",closed-poss1,to-location-from,positive,pause,,
+12,72,B,q-yn,114.0,direct,"
+can i can i change the the start to ",closed-poss1,to-location-from,positive,pause,,
+12,72,B,q-yn,114.0,direct,"
+can i can i change the the start to ",closed-poss1,to-location-from,positive,pause,,
+12,72,B,q-yn,114.0,direct,"
+can i can i change the the start to ",closed-poss1,to-location-from,positive,pause,length,7s
+15,80,B,q-yn,145.0,reqModal,"
+can i can i take your name and ring you back ",closed-poss1,name,positive,event,type,tape_cuts_off
+24,58,B,decl,110.0,accept,"
+i can i can manage that
+",closed-poss1,,positive,,,

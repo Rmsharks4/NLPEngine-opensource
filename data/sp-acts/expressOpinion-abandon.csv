@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+49,26,B,decl,53.0,expressOpinion-abandon,"
+i suppose that's that's ",opinion-abandon,,positive,punc,type,incomplete
+53,100,B,decl,220.0,expressOpinion-abandon,"
+it sounds funny when they ",abandon,time,positive,overlap,type,start
+53,100,B,decl,220.0,expressOpinion-abandon,"
+it sounds funny when they ",abandon,time,positive,vocal,content,laughter
+53,100,B,decl,220.0,expressOpinion-abandon,"
+it sounds funny when they ",abandon,time,positive,punc,type,incomplete
+59,46,B,decl,98.0,expressOpinion-abandon,"
+i thought thought you'd ",opinion-report-abandon,,positive,punc,type,incomplete
+61,38,B,decl,90.0,expressOpinion-abandon,"
+i think ",opinion-report-reason-abandon-disflu,journey,positive,overlap,type,end
+61,38,B,decl,90.0,expressOpinion-abandon,"
+i think ",opinion-report-reason-abandon-disflu,journey,positive,punc,type,incomplete
+63,114,B,decl,233.0,expressOpinion-abandon,"
+",interruption,,positive,pause,length,32s
+63,114,B,decl,233.0,expressOpinion-abandon,"
+",interruption,,positive,punc,type,incomplete

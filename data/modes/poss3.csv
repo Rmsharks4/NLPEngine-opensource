@@ -1,0 +1,6 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+11,67,A,decl,126.0,inform,"
+once you get off at Birmingham it could be ok
+",poss3,time-location-number,positive,,,
+46,67,A,decl,155.0,expressPossibility,"
+which might extend the journey by 40 minutes ",poss3,journey-time-enum,positive,punc,type,stop

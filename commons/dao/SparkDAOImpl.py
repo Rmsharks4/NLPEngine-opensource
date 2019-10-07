@@ -21,7 +21,7 @@ class SparkDAOImpl(AbstractDAO):
         return df
 
     def save(self, args):
-        args[0].toPandas().to_csv(args[1])
+        args[0].toPandas().to_csv(args[1], index=None)
 
     def query(self, args):
         df = self.spark.sql(args[0])

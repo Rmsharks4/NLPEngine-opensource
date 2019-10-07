@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+31,12,B,decl,26.0,express-regret,"
+i'm sorry about that
+",regret,,positive,,,
+33,58,B,decl,98.0,express-regret,"
+oh i'm sorry 
+",regret,details,positive,,,
+33,58,B,decl,100.0,express-regret,"
+i'm ",regret,,positive,overlap,type,start

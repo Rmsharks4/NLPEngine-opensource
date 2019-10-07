@@ -1,0 +1,101 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,27,A,frag,40.0,greet,"
+hello
+",greet,,positive,,,
+6,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+7,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+8,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+9,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+10,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+11,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+12,1,A,frag,1.0,greet,"
+good afternoon Virgin trainlines Sandra speaking
+",greet,opening,positive,,,
+13,1,A,frag,2.0,identifySelf,"
+ Virgin trainlines Sandra speaking
+",greet,intro-opening,positive,,,
+14,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+15,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+16,1,A,frag,1.0,greet,"
+good afternoon 
+",greet,opening,positive,,,
+17,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+19,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+19,1,A,frag,2.0,identifySelf,"
+ Virgin trainlines Sandra speaking
+",greet,intro,positive,,,
+20,1,A,frag,1.0,greet,"
+good afternoon     
+",greet,opening,positive,,,
+20,2,B,frag,5.0,greet,"
+good afternoon Sandra
+",greet,opening,positive,,,
+21,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+22,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+23,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+24,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+25,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+26,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+27,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+28,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+29,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+30,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+31,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+32,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+33,1,A,frag,1.0,greet,"
+good morning
+",greet,opening,positive,,,
+34,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+35,1,A,frag,1.0,greet,"
+good afternoon
+",greet,opening,positive,,,
+50,59,A,frag,113.0,echo-init,"
+hello ",greet,,,punc,type,stop
+56,2,B,frag,5.0,greet,"
+hello ",greet,,,punc,type,stop

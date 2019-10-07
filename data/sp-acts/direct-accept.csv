@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+49,44,B,yes,84.0,direct-accept,"
+yes please ",request,,,punc,type,stop
+51,38,B,yes,76.0,direct-accept,"
+yes please ",request,,,punc,type,stop
+58,42,B,yes,78.0,direct-accept,"
+yes please ",request,,,punc,type,stop

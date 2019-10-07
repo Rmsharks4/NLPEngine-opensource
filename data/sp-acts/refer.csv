@@ -1,0 +1,2100 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,29,A,frag,49.0,refer,"
+then on the return
+",deixis,fare,positive,,,
+1,45,A,frag,85.0,refer,"
+with the standard open single
+",deixis,fare,positive,,,
+1,45,A,frag,90.0,refer,"
+but with the Virgin value fare
+",deixis-constrain,fare,positive,,,
+3,97,A,frag,127.0,refer,"
+the 9 52 train on Saturday morning
+",,time-day,positive,,,
+3,107,A,frag,150.0,refer,"
+with this ticket
+",deixis,journey,positive,,,
+4,28,B,frag,66.0,refer,"
+sort of like Manchester or anything like that
+",alternative,location,positive,,,
+4,42,B,frag,86.0,refer,"
+",closure,from,positive,pause,,
+4,43,A,frag,87.0,refer,"
+",deixis,month-day-date,positive,pause,length,16s
+4,43,A,frag,90.0,refer,"
+and from ",deixis,from,positive,pause,,
+4,46,B,frag,99.0,refer,"
+10 30
+",,enum,positive,,,
+4,48,B,frag,110.0,refer,"
+31
+",closure,,positive,,,
+4,58,B,frag,131.0,refer,"
+and on the eleventh
+",deixis,,positive,,,
+9,93,A,frag,151.0,refer,"
+with this ticket
+",deixis,journey,positive,,,
+10,31,A,frag,46.0,refer,"
+on that outward service on the 16 20
+",deixis,enum,positive,,,
+10,33,A,frag,50.0,refer,"
+to get an advance purchase ticket
+",,fare-journey,positive,,,
+12,83,A,frag,138.0,refer,"
+now with the super advance
+",deixis,fare,positive,,,
+12,91,A,frag,155.0,refer,"
+to get the 19 00 train ",,enum,positive,backchannel,content,yes
+12,119,A,frag,215.0,refer,"
+that going out
+",,,positive,,,
+12,123,A,frag,223.0,refer,"
+with this ticket
+",deixis,journey,positive,,,
+14,25,A,frag,37.0,refer,"
+the 11 15
+",,enum,positive,,,
+15,31,A,frag,61.0,refer,"
+they ",closure,,positive,pause,,
+15,31,A,frag,61.0,refer,"
+they ",closure,,positive,pause,,
+16,27,A,decl,48.0,refer,"
+the super advance
+",,fare,positive,,,
+16,63,A,frag,113.0,refer,"
+and the credit card
+",,creditcard,positive,,,
+18,2,B,frag,5.0,refer,"
+erm to get the saver return to London erm from Preston ",,fare-to-location-day-departure-from,positive,pause,,
+18,2,B,frag,5.0,refer,"
+erm to get the saver return to London erm from Preston ",,fare-to-location-day-departure-from,positive,pause,,
+18,2,B,frag,6.0,refer,"
+erm the 51 pounds ",,fare,positive,pause,,
+18,9,A,frag,19.0,refer,"
+on the return
+",deixis,fare,positive,,,
+18,14,B,frag,34.0,refer,"
+the the Friday
+",,day,positive,,,
+20,13,A,frag,22.0,refer,"
+for the 19 pounds Virgin value fare
+",deixis,fare,positive,,,
+22,21,A,frag,42.0,refer,"
+with an advance purchase ticket
+",,fare-journey,positive,,,
+22,39,A,frag,93.0,refer,"
+the super advance return
+",,fare,positive,,,
+22,53,A,frag,115.0,refer,"
+then travelling on the Friday
+",,day-journey,positive,,,
+23,43,A,frag,68.0,refer,"
+with the super saver return
+",deixis,fare,positive,,,
+24,21,A,frag,35.0,refer,"
+with this ticket
+",deixis,journey,positive,,,
+25,25,A,frag,34.0,refer,"
+with this ticket
+",deixis,journey,positive,,,
+26,24,B,frag,37.0,refer,"
+",,number,positive,pause,,
+26,24,B,frag,37.0,refer,"
+",,number,positive,pause,,
+26,24,B,frag,38.0,refer,"
+the the Hertford to Taunton
+",,to-location,positive,,,
+26,25,A,frag,44.0,refer,"
+on the return
+",deixis,fare,positive,,,
+26,50,B,frag,108.0,refer,"
+and coming back ",,,positive,pause,,
+27,49,A,frag,98.0,refer,"
+with the super advance ticket
+",deixis,fare-journey,positive,,,
+27,125,A,frag,195.0,refer,"
+just the address
+",,address,positive,,,
+28,45,A,frag,86.0,refer,"
+but with your super advance return
+",constrain,fare,positive,,,
+28,67,A,frag,120.0,refer,"
+this ticket
+",,journey,positive,,,
+28,127,A,frag,210.0,refer,"
+with this ticket
+",deixis,journey,positive,,,
+28,222,B,q-wh,331.0,refer,"
+wh... wh... when she comes back
+",,time,positive,,,
+28,224,B,frag,333.0,refer,"
+my wife
+",closure,,positive,,,
+32,40,B,frag,66.0,refer,"
+the northern the northern line train ",,,positive,unclear,length,5 syllables
+33,25,A,decl,31.0,refer,"
+the cheapest fare that i can offer you going out at that time and returning at the 14 45
+",poss1,time-fare-return,positive,,,
+33,49,A,frag,81.0,refer,"
+with the Virgin value business ",deixis,,positive,backchannel,content,yes
+34,54,B,frag,123.0,refer,"
+apart from the travelling on a Friday
+",,day-journey,positive,,,
+35,49,A,decl,76.0,refer,"
+i'm afraid on the Wilmslow to Euston route
+",,to-location,positive,,,
+35,71,A,frag,115.0,refer,"
+and on the return
+",deixis,fare,positive,,,
+35,103,A,frag,164.0,refer,"
+and returning
+",,return,positive,,,
+35,125,A,frag,215.0,refer,"
+on the return on the eighteenth
+",deixis,fare,positive,,,
+35,187,A,frag,306.0,refer,"
+the train from Wilmslow at 16 46
+",closure,time-from,positive,,,
+36,1,A,frag,2.0,refer,"
+Virgin Trainline ",partial-frag,,positive,punc,type,level
+36,17,A,frag,25.0,refer,"
+Birmingham New Street ",decl,location,positive,punc,type,stop
+36,29,A,frag,52.0,refer,"
+then on the return ",frag,fare,positive,punc,type,level
+36,33,A,frag,67.0,refer,"
+on the 8th October ",partial-frag,month,positive,punc,type,level
+36,41,A,frag,81.0,refer,"
+on the 8th again ",partial-decl,,positive,punc,type,stop
+36,45,A,frag,88.0,refer,"
+with the Standard Open Single ",partial-frag,fare,positive,punc,type,level
+36,45,A,frag,92.0,refer,"
+but with the Virgin Value fare ",constrain-partial-frag,fare,positive,punc,type,level
+36,48,B,frag,100.0,refer,"
+",decl,,positive,anonym,type,name
+36,48,B,frag,100.0,refer,"
+",decl,,positive,punc,type,stop
+36,48,B,frag,101.0,refer,"
+",decl,,positive,anonym,type,spell
+36,48,B,frag,101.0,refer,"
+",decl,,positive,punc,type,stop
+36,56,B,frag,110.0,refer,"
+1 3 5 ",frag,enum,positive,punc,type,level
+36,58,B,frag,112.0,refer,"
+1 3 1 8 ",decl,enum,positive,punc,type,stop
+36,66,B,frag,123.0,refer,"
+5 3 1 ",frag,enum,positive,punc,type,level
+36,68,B,frag,125.0,refer,"
+1 5 1 ",frag,enum,positive,punc,type,level
+36,70,B,frag,127.0,refer,"
+8 6 1 ",frag,enum,positive,punc,type,level
+36,72,B,frag,129.0,refer,"
+9 1 1 ",frag,enum,positive,punc,type,level
+36,74,B,frag,131.0,refer,"
+0 1 5 ",decl,enum,positive,punc,type,stop
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,pause,,
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,punc,type,level
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,pause,,
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+36,83,A,frag,142.0,refer,"
+",partial-decl,number-enum,positive,punc,type,stop
+37,1,A,frag,2.0,refer,"
+Virgin Trainline ",partial-frag,,positive,punc,type,level
+37,23,A,frag,35.0,refer,"
+on the half hour ",partial-decl,time,positive,punc,type,stop
+37,37,A,address,63.0,refer,"
+Sir
+",,,,,,
+38,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+38,54,B,decl,81.0,refer,"
+it's ",decl,,positive,anonym,type,name
+38,54,B,decl,81.0,refer,"
+it's ",decl,,positive,punc,type,stop
+38,58,B,frag,86.0,refer,"
+",,,positive,anonym,type,letter
+38,58,B,frag,86.0,refer,"
+",,,positive,punc,type,stop
+38,64,B,frag,97.0,refer,"
+8 4 1 ",frag,enum,positive,punc,type,level
+38,66,B,frag,99.0,refer,"
+treble 9 ",decl,,positive,punc,type,stop
+38,70,B,frag,104.0,refer,"
+4 ",decl,enum,positive,anonym,type,letter
+38,70,B,frag,104.0,refer,"
+4 ",decl,enum,positive,anonym,type,letter
+38,70,B,frag,104.0,refer,"
+4 ",decl,enum,positive,punc,type,stop
+38,72,B,frag,108.0,refer,"
+Macclesfield ",decl,,positive,punc,type,stop
+38,78,B,frag,116.0,refer,"
+9 0 ",frag,enum,positive,punc,type,level
+38,80,B,frag,118.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+38,82,B,frag,120.0,refer,"
+1 6 ",frag,enum,positive,punc,type,level
+38,84,B,frag,122.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+38,86,B,frag,124.0,refer,"
+6 5 ",frag,enum,positive,punc,type,level
+38,88,B,frag,126.0,refer,"
+8 9 ",frag,enum,positive,punc,type,level
+38,90,B,frag,128.0,refer,"
+1 9 ",decl,enum,positive,punc,type,stop
+38,97,A,frag,140.0,refer,"
+the 9:52 train on Saturday morning ",frag,time-enum-day,positive,punc,type,level
+38,99,A,frag,148.0,refer,"
+seat number 47 and 48 ",partial-decl,number-enum,positive,punc,type,stop
+38,100,B,frag,151.0,refer,"
+9:32 ",frag,,positive,punc,type,level
+38,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,pause,,
+38,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,punc,type,stop
+38,107,A,frag,166.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+38,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,backchannel,content,yes
+38,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+38,111,A,frag,180.0,refer,"
+1 1 8 8 ",frag,enum,positive,punc,type,level
+38,115,A,address,190.0,refer,"
+Sir
+",,,,,,
+39,1,A,frag,2.0,refer,"
+Virgin Trainline ",partial-frag,,positive,punc,type,level
+39,14,B,frag,27.0,refer,"
+saying ",frag,,positive,punc,type,level
+39,20,B,frag,48.0,refer,"
+12:28 ",decl,,positive,punc,type,stop
+39,41,A,frag,93.0,refer,"
+and from ",partial-frag,from,positive,pause,,
+39,41,A,frag,93.0,refer,"
+and from ",partial-frag,from,positive,punc,type,level
+39,44,B,frag,98.0,refer,"
+same price ",decl,,positive,punc,type,stop
+39,44,B,frag,102.0,refer,"
+10:30 ",decl,,positive,punc,type,stop
+39,56,B,frag,136.0,refer,"
+and on the 11th ",partial-frag,,positive,punc,type,level
+39,65,A,frag,163.0,refer,"
+but before departure time of the train ",constrain-frag,time-departure,positive,punc,type,level
+39,65,A,frag,167.0,refer,"
+again subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+39,74,B,frag,179.0,refer,"
+6 0 7 ",frag,enum,positive,punc,type,level
+39,76,B,frag,181.0,refer,"
+0 7 0 0 ",decl,enum,positive,punc,type,stop
+39,80,B,frag,185.0,refer,"
+0 ",decl,enum,positive,anonym,type,letter
+39,80,B,frag,185.0,refer,"
+0 ",decl,enum,positive,anonym,type,letter
+39,80,B,frag,185.0,refer,"
+0 ",decl,enum,positive,punc,type,stop
+39,82,B,frag,187.0,refer,"
+70 ",frag,enum,positive,anonym,type,street
+39,82,B,frag,187.0,refer,"
+70 ",frag,enum,positive,punc,type,level
+39,82,B,frag,188.0,refer,"
+",frag,,positive,anonym,type,street
+39,82,B,frag,188.0,refer,"
+",frag,,positive,punc,type,level
+39,82,B,frag,189.0,refer,"
+Prescott ",frag,,positive,punc,type,level
+39,82,B,frag,190.0,refer,"
+Merseyside ",decl,,positive,punc,type,stop
+39,88,B,frag,197.0,refer,"
+0 0 7 2 ",frag,enum,positive,punc,type,level
+39,90,B,frag,199.0,refer,"
+4 0 double 2 ",frag,enum,positive,punc,type,level
+39,92,B,frag,201.0,refer,"
+0 5 1 5 ",frag,enum,positive,punc,type,level
+39,94,B,frag,203.0,refer,"
+4 6 2 7 ",decl,enum,positive,punc,type,stop
+39,101,A,frag,215.0,refer,"
+",frag,,positive,anonym,type,letter
+39,101,A,frag,215.0,refer,"
+",frag,,positive,anonym,type,alpha
+39,101,A,frag,215.0,refer,"
+",frag,,positive,punc,type,level
+39,103,A,frag,217.0,refer,"
+7 ",decl,enum,positive,anonym,type,letter
+39,103,A,frag,217.0,refer,"
+7 ",decl,enum,positive,anonym,type,alpha
+39,103,A,frag,217.0,refer,"
+7 ",decl,enum,positive,punc,type,stop
+39,108,B,frag,223.0,refer,"
+",frag,,positive,anonym,type,letter
+39,108,B,frag,223.0,refer,"
+",frag,,positive,anonym,type,letter
+39,108,B,frag,223.0,refer,"
+",frag,,positive,anonym,type,letter
+39,108,B,frag,223.0,refer,"
+",frag,,positive,punc,type,level
+39,110,B,frag,225.0,refer,"
+4 0 0 7 ",decl,enum,positive,anonym,type,letter
+39,110,B,frag,225.0,refer,"
+4 0 0 7 ",decl,enum,positive,punc,type,stop
+39,111,A,address,228.0,refer,"
+Sir
+",,,,,,
+40,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+40,54,B,decl,81.0,refer,"
+it's ",decl,,positive,anonym,type,name
+40,54,B,decl,81.0,refer,"
+it's ",decl,,positive,punc,type,stop
+40,58,B,frag,86.0,refer,"
+",,,positive,anonym,type,letter
+40,58,B,frag,86.0,refer,"
+",,,positive,punc,type,stop
+40,64,B,frag,97.0,refer,"
+8 4 1 ",frag,enum,positive,punc,type,level
+40,66,B,frag,99.0,refer,"
+treble 9 ",decl,,positive,punc,type,stop
+40,70,B,frag,104.0,refer,"
+4 ",decl,enum,positive,anonym,type,letter
+40,70,B,frag,104.0,refer,"
+4 ",decl,enum,positive,anonym,type,letter
+40,70,B,frag,104.0,refer,"
+4 ",decl,enum,positive,punc,type,stop
+40,72,B,frag,108.0,refer,"
+Macclesfield ",decl,,positive,punc,type,stop
+40,78,B,frag,116.0,refer,"
+9 0 ",frag,enum,positive,punc,type,level
+40,80,B,frag,118.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+40,82,B,frag,120.0,refer,"
+1 6 ",frag,enum,positive,punc,type,level
+40,84,B,frag,122.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+40,86,B,frag,124.0,refer,"
+6 5 ",frag,enum,positive,punc,type,level
+40,88,B,frag,126.0,refer,"
+8 9 ",frag,enum,positive,punc,type,level
+40,90,B,frag,128.0,refer,"
+1 9 ",decl,enum,positive,punc,type,stop
+40,97,A,frag,140.0,refer,"
+the 9:52 train on Saturday morning ",frag,time-enum-day,positive,punc,type,level
+40,99,A,frag,148.0,refer,"
+seat number 47 and 48 ",partial-decl,number-enum,positive,punc,type,stop
+40,100,B,frag,151.0,refer,"
+9:32 ",frag,,positive,punc,type,level
+40,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,pause,,
+40,105,A,frag,159.0,refer,"
+",partial-decl,to-location-from,positive,punc,type,stop
+40,107,A,frag,166.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+40,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,backchannel,content,yes
+40,107,A,frag,173.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+40,111,A,frag,180.0,refer,"
+1 1 8 8 ",frag,enum,positive,punc,type,level
+40,115,A,address,189.0,refer,"
+Sir
+",,,,,,
+41,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+41,36,B,frag,61.0,refer,"
+",decl,,positive,anonym,type,name
+41,36,B,frag,61.0,refer,"
+",decl,,positive,punc,type,stop
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,anonym,type,letter
+41,36,B,frag,62.0,refer,"
+",decl,,positive,punc,type,stop
+41,40,B,frag,66.0,refer,"
+0 1 double 4 8 ",frag,enum,positive,punc,type,level
+41,42,B,frag,68.0,refer,"
+3 3 4 ",frag,enum,positive,punc,type,level
+41,44,B,frag,70.0,refer,"
+8 double 0 ",decl,enum,positive,punc,type,stop
+41,48,B,frag,74.0,refer,"
+2 ",decl,enum,positive,anonym,type,letter
+41,48,B,frag,74.0,refer,"
+2 ",decl,enum,positive,anonym,type,letter
+41,48,B,frag,74.0,refer,"
+2 ",decl,enum,positive,punc,type,stop
+41,50,B,frag,76.0,refer,"
+Bridge Cottage ",partial-frag,,positive,punc,type,level
+41,56,B,frag,89.0,refer,"
+7 4 4 ",frag,enum,positive,punc,type,level
+41,58,B,frag,91.0,refer,"
+0 8 4 ",frag,enum,positive,punc,type,level
+41,60,B,frag,93.0,refer,"
+4 4 8 4 ",frag,enum,positive,punc,type,level
+41,62,B,frag,95.0,refer,"
+8 8 4 8 ",frag,enum,positive,punc,type,level
+41,64,B,frag,97.0,refer,"
+0 2 7 0 ",decl,enum,positive,punc,type,stop
+41,70,B,frag,106.0,refer,"
+7 4 4 ",frag,enum,positive,punc,type,level
+41,72,B,frag,108.0,refer,"
+0 8 4 ",frag,enum,positive,punc,type,level
+41,74,B,frag,110.0,refer,"
+4 4 8 4 ",frag,enum,positive,punc,type,level
+41,76,B,frag,112.0,refer,"
+8 8 4 8 ",frag,enum,positive,punc,type,level
+41,78,B,frag,114.0,refer,"
+0 2 7 0 ",decl,enum,positive,punc,type,stop
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,punc,type,level
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,letter
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,alpha
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,letter
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,alpha
+41,85,A,frag,125.0,refer,"
+",frag,,positive,punc,type,level
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,letter
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,anonym,type,alpha
+41,87,A,frag,127.0,refer,"
+",partial-decl,number-enum,positive,punc,type,stop
+41,89,A,address,130.0,refer,"
+Mr ",decl,,positive,anonym,type,name
+41,89,A,address,130.0,refer,"
+Mr ",decl,,positive,backchannel,content,right
+41,89,A,address,130.0,refer,"
+Mr ",decl,,positive,punc,type,stop
+42,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+42,32,B,frag,59.0,refer,"
+",decl,,positive,anonym,type,letter
+42,32,B,frag,59.0,refer,"
+",decl,,positive,anonym,type,letter
+42,32,B,frag,59.0,refer,"
+",decl,,positive,anonym,type,letter
+42,32,B,frag,59.0,refer,"
+",decl,,positive,anonym,type,letter
+42,32,B,frag,59.0,refer,"
+",decl,,positive,punc,type,stop
+42,39,A,frag,68.0,refer,"
+91 pounds exactly ",decl,fare-enum,positive,punc,type,stop
+42,46,B,frag,82.0,refer,"
+9 1 5 ",decl,enum,positive,pause,,
+42,46,B,frag,82.0,refer,"
+9 1 5 ",decl,enum,positive,punc,type,stop
+42,54,B,frag,94.0,refer,"
+79 ",frag,enum-address,positive,anonym,type,street
+42,54,B,frag,94.0,refer,"
+79 ",frag,enum-address,positive,punc,type,level
+42,54,B,frag,95.0,refer,"
+Coxhoe ",frag,,positive,punc,type,level
+42,54,B,frag,96.0,refer,"
+Wolverhampton ",decl,location,positive,punc,type,stop
+42,62,B,frag,105.0,refer,"
+5 0 double 5 ",frag,enum,positive,punc,type,level
+42,64,B,frag,107.0,refer,"
+0 800 ",frag,enum,positive,punc,type,level
+42,66,B,frag,109.0,refer,"
+1 1 6 9 ",decl,enum,positive,punc,type,stop
+42,71,A,frag,117.0,refer,"
+5 1 1 ",frag,enum,positive,punc,type,level
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,letter
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,alpha
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,letter
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,alpha
+42,73,A,frag,119.0,refer,"
+",frag,,positive,punc,type,level
+42,75,A,decl,121.0,refer,"
+the number 1 ",frag,number,positive,punc,type,level
+42,75,A,frag,122.0,refer,"
+",frag,,positive,anonym,type,letter
+42,75,A,frag,122.0,refer,"
+",frag,,positive,anonym,type,alpha
+42,75,A,frag,122.0,refer,"
+",frag,,positive,punc,type,level
+42,77,A,frag,124.0,refer,"
+",decl,,positive,anonym,type,letter
+42,77,A,frag,124.0,refer,"
+",decl,,positive,anonym,type,alpha
+42,77,A,frag,124.0,refer,"
+",decl,,positive,punc,type,stop
+43,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+43,13,A,address,20.0,refer,"
+Sir
+",,,,,,
+43,15,A,frag,31.0,refer,"
+",decl,,positive,pause,length,3s
+43,15,A,frag,31.0,refer,"
+",decl,,positive,punc,type,stop
+43,25,A,frag,48.0,refer,"
+with that ticket ",partial-frag,journey,positive,punc,type,level
+43,31,A,frag,61.0,refer,"
+seat number 33 ",partial-decl,number,positive,punc,type,stop
+43,35,A,frag,72.0,refer,"
+seat number 15 ",partial-decl,number,positive,backchannel,content,right
+43,35,A,frag,72.0,refer,"
+seat number 15 ",partial-decl,number,positive,punc,type,stop
+43,44,B,frag,92.0,refer,"
+company corporate ",decl,,positive,punc,type,stop
+43,51,A,address,107.0,refer,"
+Sir
+",,,,,,
+43,54,B,frag,113.0,refer,"
+",frag,enum,positive,anonym,type,letter
+43,54,B,frag,113.0,refer,"
+",frag,enum,positive,punc,type,level
+43,62,B,frag,125.0,refer,"
+Fanshawe Cottage ",partial-frag,,positive,punc,type,level
+43,62,B,frag,126.0,refer,"
+",frag,,positive,anonym,type,street
+43,62,B,frag,126.0,refer,"
+",frag,,positive,punc,type,level
+43,62,B,frag,127.0,refer,"
+Redwich ",decl,,positive,punc,type,stop
+43,66,B,frag,133.0,refer,"
+4 8 4 4 2 9 ",decl,enum,positive,punc,type,stop
+43,67,A,frag,136.0,refer,"
+less five pounds ",decl,fare-number,positive,punc,type,stop
+43,70,B,frag,140.0,refer,"
+8 4 9 7 ",frag,enum,positive,punc,type,level
+43,72,B,frag,142.0,refer,"
+9 8 4 ",frag,enum,positive,punc,type,level
+43,74,B,frag,144.0,refer,"
+4 4 4 ",frag,enum,positive,punc,type,level
+43,76,B,frag,146.0,refer,"
+7 1 4 ",frag,enum,positive,punc,type,level
+43,78,B,frag,148.0,refer,"
+7 8 ",decl,enum,positive,punc,type,stop
+43,80,B,frag,154.0,refer,"
+2 2
+",,,,,,
+43,83,A,frag,161.0,refer,"
+1 1 4 8 ",decl,enum,positive,punc,type,stop
+43,83,A,frag,162.0,refer,"
+",decl,,positive,pause,,
+43,83,A,frag,162.0,refer,"
+",decl,,positive,anonym,type,letter
+43,83,A,frag,162.0,refer,"
+",decl,,positive,anonym,type,alpha
+43,83,A,frag,162.0,refer,"
+",decl,,positive,punc,type,stop
+43,84,B,frag,163.0,refer,"
+4 4 2 1 ",frag,enum,positive,punc,type,level
+43,84,B,frag,164.0,refer,"
+",frag,enum,positive,pause,,
+43,84,B,frag,164.0,refer,"
+",frag,enum,positive,punc,type,level
+43,84,B,frag,165.0,refer,"
+",decl,,positive,anonym,type,letter
+43,84,B,frag,165.0,refer,"
+",decl,,positive,punc,type,stop
+43,85,A,address,167.0,refer,"
+Mr ",decl,,positive,anonym,type,name
+43,85,A,address,167.0,refer,"
+Mr ",decl,,positive,punc,type,stop
+44,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+44,2,B,frag,8.0,refer,"
+the 7th of October ",decl,month-date,positive,punc,type,stop
+44,10,B,frag,24.0,refer,"
+looking at the timetable ",abandon,,positive,punc,type,incomplete
+44,11,A,frag,27.0,refer,"
+five in the afternoon ",decl,number-time,positive,punc,type,stop
+44,16,B,frag,42.0,refer,"
+9:30 ",decl,,positive,punc,type,stop
+44,23,A,frag,57.0,refer,"
+a 100 and 33 pounds ",decl,fare-enum,positive,punc,type,stop
+44,49,A,frag,115.0,refer,"
+on the 15:05 ",partial-frag,,positive,punc,type,level
+44,51,A,frag,120.0,refer,"
+seat number 6 ",partial-decl,number,positive,punc,type,stop
+44,63,A,frag,140.0,refer,"
+seat number 8 ",partial-decl,number,positive,punc,type,stop
+44,68,B,frag,149.0,refer,"
+",partial-frag,,positive,pause,,
+44,68,B,frag,149.0,refer,"
+",partial-frag,,positive,punc,type,level
+44,68,B,frag,150.0,refer,"
+London ",decl,location,positive,punc,type,stop
+44,72,B,frag,158.0,refer,"
+0 1 3 2 ",frag,enum,positive,punc,type,level
+44,74,B,frag,160.0,refer,"
+8 5 7 ",frag,enum,positive,punc,type,level
+44,76,B,frag,162.0,refer,"
+6 9 8 2 ",decl,enum,positive,punc,type,stop
+44,80,B,frag,167.0,refer,"
+8 9 8 2 ",frag,enum,positive,punc,type,level
+44,82,B,frag,169.0,refer,"
+2 7 3 6 ",frag,enum,positive,punc,type,level
+44,84,B,frag,171.0,refer,"
+8 9 2 2 ",decl,enum,positive,punc,type,stop
+44,89,A,frag,180.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+44,93,A,frag,191.0,refer,"
+windows 2 to 7 ",decl,enum,positive,punc,type,stop
+44,99,A,frag,203.0,refer,"
+2 2 8 8 ",frag,enum,positive,punc,type,level
+44,101,A,frag,205.0,refer,"
+and ",decl,,positive,anonym,type,letter
+44,101,A,frag,205.0,refer,"
+and ",decl,,positive,anonym,type,alpha
+44,101,A,frag,205.0,refer,"
+and ",decl,,positive,punc,type,stop
+45,1,A,frag,2.0,refer,"
+Virgin trainlines ",frag,,positive,punc,type,level
+45,19,A,frag,38.0,refer,"
+16:20 ",decl,,positive,punc,type,stop
+45,20,B,frag,41.0,refer,"
+",partial-frag,time,positive,pause,,
+45,20,B,frag,41.0,refer,"
+",partial-frag,time,positive,unclear,length,5 syllables
+45,20,B,frag,41.0,refer,"
+",partial-frag,time,positive,punc,type,level
+45,33,A,frag,64.0,refer,"
+on that outward service on the 16:20 ",partial-frag,,positive,punc,type,level
+46,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+46,2,B,frag,7.0,refer,"
+a Super Saver Value ",frag,fare,positive,punc,type,level
+46,15,A,frag,31.0,refer,"
+for the Virgin Value fare at 14 pounds return ",partial-frag,fare-enum,positive,punc,type,level
+46,36,B,frag,81.0,refer,"
+evening ",frag,time,positive,punc,type,level
+46,36,B,frag,82.0,refer,"
+at 12 midnight ",partial-decl,time-enum,positive,backchannel,content,yeah
+46,36,B,frag,82.0,refer,"
+at 12 midnight ",partial-decl,time-enum,positive,punc,type,stop
+46,43,A,frag,95.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+46,45,A,frag,103.0,refer,"
+again subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+46,46,B,decl,107.0,refer,"
+it's ",decl,,positive,anonym,type,name
+46,46,B,decl,107.0,refer,"
+it's ",decl,,positive,punc,type,stop
+46,50,B,frag,112.0,refer,"
+Miss ",decl,,positive,punc,type,stop
+46,56,B,frag,123.0,refer,"
+",decl,enum,positive,pause,,
+46,56,B,frag,123.0,refer,"
+",decl,enum,positive,punc,type,stop
+46,60,B,frag,127.0,refer,"
+",partial-decl,,positive,anonym,type,letter
+46,60,B,frag,127.0,refer,"
+",partial-decl,,positive,anonym,type,alpha
+46,60,B,frag,127.0,refer,"
+",partial-decl,,positive,punc,type,stop
+46,65,A,frag,137.0,refer,"
+on Saturday 3rd of October from Birmingham New Street to London Euston ",partial-decl,location-to-month-from-date-day,positive,punc,type,stop
+46,65,A,frag,140.0,refer,"
+seat number 22 ",partial-decl,number,positive,punc,type,stop
+46,67,A,frag,147.0,refer,"
+seat number 27 ",partial-decl,number,positive,punc,type,stop
+46,78,B,frag,170.0,refer,"
+5 3 6 ",frag,enum,positive,punc,type,level
+46,80,B,frag,172.0,refer,"
+3 6 0 ",frag,enum,positive,punc,type,level
+46,82,B,frag,174.0,refer,"
+4 3 2 ",decl,enum,positive,punc,type,stop
+46,89,A,frag,184.0,refer,"
+0 0 6 6 ",decl,enum,positive,punc,type,stop
+47,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+47,65,A,frag,117.0,refer,"
+Watford ",decl,location,positive,punc,type,stop
+47,73,A,decl,128.0,refer,"
+the 4th ",,,positive,pause,length,9s
+47,73,A,decl,128.0,refer,"
+the 4th ",,,positive,punct,type,level
+47,81,A,frag,149.0,refer,"
+with the Super Advance ",partial-frag,fare,positive,punc,type,level
+47,97,A,frag,198.0,refer,"
+",decl,fare,negative,pause,,
+47,97,A,frag,198.0,refer,"
+",decl,fare,negative,punc,type,stop
+47,111,A,frag,224.0,refer,"
+",frag,fare-day,positive,pause,,
+47,111,A,frag,224.0,refer,"
+",frag,fare-day,positive,punc,type,level
+47,121,A,frag,242.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+47,128,B,frag,259.0,refer,"
+0 1 4 7 ",frag,enum,positive,punc,type,level
+47,130,B,frag,261.0,refer,"
+8 ",frag,enum,positive,punc,type,level
+47,130,B,frag,263.0,refer,"
+8 8 4 ",frag,enum,positive,punc,type,level
+47,132,B,frag,265.0,refer,"
+0 9 1 8 ",decl,enum,positive,punc,type,stop
+47,138,B,frag,271.0,refer,"
+7 4 16 ",decl,enum,positive,anonym,type,street
+47,138,B,frag,271.0,refer,"
+7 4 16 ",decl,enum,positive,punc,type,stop
+47,144,B,frag,277.0,refer,"
+8 0 9 0 ",frag,enum,positive,punc,type,level
+47,146,B,frag,279.0,refer,"
+1 1 0 7 ",frag,enum,positive,punc,type,level
+47,148,B,frag,281.0,refer,"
+9 4 8 7 ",decl,enum,positive,punc,type,stop
+47,157,A,address,300.0,refer,"
+Mr ",decl,,positive,anonym,type,name
+47,157,A,address,300.0,refer,"
+Mr ",decl,,positive,punc,type,stop
+48,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+48,30,B,frag,52.0,refer,"
+19:09 ",frag,,positive,punc,type,level
+48,30,B,frag,53.0,refer,"
+19:09 ",decl,,positive,punc,type,stop
+48,75,A,frag,127.0,refer,"
+subject to availability ",constrain-decl,availability,positive,punc,type,stop
+48,94,B,frag,158.0,refer,"
+6 0 6 ",frag,enum,positive,punc,type,level
+48,96,B,frag,160.0,refer,"
+8 0 8 ",decl,enum,positive,punc,type,stop
+48,100,B,frag,166.0,refer,"
+Willington ",frag,location,positive,punc,type,level
+48,100,B,frag,167.0,refer,"
+",frag,,positive,pause,,
+48,100,B,frag,167.0,refer,"
+",frag,,positive,punc,type,level
+48,100,B,frag,168.0,refer,"
+County Durham ",partial-decl,location,positive,punc,type,stop
+48,112,B,frag,182.0,refer,"
+9 8 0 ",frag,enum,positive,punc,type,level
+48,114,B,frag,184.0,refer,"
+3 0 8 ",frag,enum,positive,punc,type,level
+48,116,B,frag,186.0,refer,"
+0 8 0 ",decl,enum,positive,punc,type,stop
+48,122,B,frag,198.0,refer,"
+8 6 0 6 ",frag,enum,positive,punc,type,level
+48,124,B,frag,200.0,refer,"
+9 8 0 ",frag,enum,positive,punc,type,level
+48,126,B,frag,202.0,refer,"
+3 0 8 ",frag,enum,positive,punc,type,level
+48,128,B,frag,204.0,refer,"
+0 8 9 ",decl,enum,positive,punc,type,stop
+48,137,A,frag,219.0,refer,"
+",decl,,positive,anonym,type,letter
+48,137,A,frag,219.0,refer,"
+",decl,,positive,anonym,type,alpha
+48,137,A,frag,219.0,refer,"
+",decl,,positive,anonym,type,letter
+48,137,A,frag,219.0,refer,"
+",decl,,positive,anonym,type,alpha
+48,137,A,frag,219.0,refer,"
+",decl,,positive,punc,type,stop
+48,139,A,frag,221.0,refer,"
+0 0 ",decl,enum,positive,pause,,
+48,139,A,frag,221.0,refer,"
+0 0 ",decl,enum,positive,anonym,type,letter
+48,139,A,frag,221.0,refer,"
+0 0 ",decl,enum,positive,anonym,type,alpha
+48,139,A,frag,221.0,refer,"
+0 0 ",decl,enum,positive,punc,type,stop
+48,143,A,address,226.0,refer,"
+Mrs ",,,positive,anonym,type,name
+49,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+49,25,A,decl,43.0,refer,"
+the 11:15 ",frag,,positive,punc,type,level
+49,63,A,frag,123.0,refer,"
+windows 6 to 9 ",decl,enum,positive,punc,type,stop
+49,66,B,frag,130.0,refer,"
+6 to 9 ",decl,enum,positive,punc,type,stop
+49,68,B,frag,134.0,refer,"
+",,,positive,anonym,type,name
+49,68,B,frag,134.0,refer,"
+",,,positive,punc,type,stop
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,anonym,type,letter
+49,68,B,frag,135.0,refer,"
+",decl,,positive,punc,type,stop
+49,70,B,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+49,70,B,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+49,70,B,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+49,70,B,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+49,70,B,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+49,70,B,frag,137.0,refer,"
+",decl,,positive,punc,type,stop
+49,78,B,frag,145.0,refer,"
+8 1 5 ",frag,enum,positive,punc,type,level
+49,80,B,frag,147.0,refer,"
+7 1 8 1 ",decl,enum,positive,punc,type,stop
+49,96,B,frag,185.0,refer,"
+",frag,enum,positive,anonym,type,letter
+49,96,B,frag,185.0,refer,"
+",frag,enum,positive,punc,type,level
+49,98,B,frag,187.0,refer,"
+5 ",decl,enum,positive,anonym,type,letter
+49,98,B,frag,187.0,refer,"
+5 ",decl,enum,positive,anonym,type,letter
+49,98,B,frag,187.0,refer,"
+5 ",decl,enum,positive,punc,type,stop
+49,101,A,frag,190.0,refer,"
+Fizz ",decl,,positive,anonym,type,letter
+49,101,A,frag,190.0,refer,"
+Fizz ",decl,,positive,anonym,type,letter
+49,101,A,frag,190.0,refer,"
+Fizz ",decl,,positive,anonym,type,letter
+49,101,A,frag,190.0,refer,"
+Fizz ",decl,,positive,anonym,type,letter
+49,101,A,frag,190.0,refer,"
+Fizz ",decl,,positive,punc,type,stop
+49,106,B,frag,195.0,refer,"
+Merchandising ",decl,,positive,punc,type,stop
+49,112,B,frag,201.0,refer,"
+",decl,,positive,anonym,type,street
+49,112,B,frag,201.0,refer,"
+",decl,,positive,punc,type,stop
+49,112,B,frag,202.0,refer,"
+",decl,,positive,anonym,type,letter
+49,112,B,frag,202.0,refer,"
+",decl,,positive,anonym,type,letter
+49,112,B,frag,202.0,refer,"
+",decl,,positive,anonym,type,letter
+49,112,B,frag,202.0,refer,"
+",decl,,positive,anonym,type,letter
+49,112,B,frag,202.0,refer,"
+",decl,,positive,anonym,type,letter
+49,112,B,frag,202.0,refer,"
+",decl,,positive,punc,type,stop
+49,117,A,frag,210.0,refer,"
+",decl,,positive,pause,,
+49,117,A,frag,210.0,refer,"
+",decl,,positive,anonym,type,letter
+49,117,A,frag,210.0,refer,"
+",decl,,positive,anonym,type,letter
+49,117,A,frag,210.0,refer,"
+",decl,,positive,punc,type,stop
+49,118,B,frag,214.0,refer,"
+1 7 8 7 ",frag,enum,positive,punc,type,level
+49,120,B,frag,216.0,refer,"
+7 7 8 8 ",frag,enum,positive,punc,type,level
+49,122,B,frag,218.0,refer,"
+5 5 8 7 ",frag,enum,positive,punc,type,level
+49,124,B,frag,220.0,refer,"
+1 7 7 8 ",decl,enum,positive,punc,type,stop
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,232.0,refer,"
+",frag,,positive,overlap,type,end
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,232.0,refer,"
+",frag,,positive,punc,type,level
+49,131,A,decl,233.0,refer,"
+",frag,number,positive,pause,,
+49,131,A,decl,233.0,refer,"
+",frag,number,positive,punc,type,level
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,234.0,refer,"
+",frag,,positive,punc,type,level
+49,131,A,decl,235.0,refer,"
+the number 7 ",decl,number,positive,punc,type,stop
+50,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+50,31,A,frag,66.0,refer,"
+46 ",decl,fare-enum,positive,backchannel,content,yeah
+50,31,A,frag,66.0,refer,"
+46 ",decl,fare-enum,positive,punc,type,stop
+50,38,B,frag,74.0,refer,"
+",decl,,positive,pause,,
+50,38,B,frag,74.0,refer,"
+",decl,,positive,punc,type,stop
+50,39,A,frag,80.0,refer,"
+1 family railcard and 1 without ",decl,enum-railcard,positive,punc,type,stop
+51,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+51,49,A,frag,107.0,refer,"
+on the day of travel ",partial-decl,journey-day,positive,punc,type,stop
+51,51,A,frag,111.0,refer,"
+this ",decl,,positive,punc,type,stop
+51,53,A,frag,114.0,refer,"
+63 pounds return ",decl,fare-enum,positive,punc,type,stop
+51,66,B,frag,132.0,refer,"
+double 8 double 6 0 0 ",decl,enum,positive,punc,type,stop
+51,68,B,frag,136.0,refer,"
+",,,positive,pause,,
+51,68,B,frag,136.0,refer,"
+",,,positive,anonym,type,letter
+51,68,B,frag,136.0,refer,"
+",,,positive,anonym,type,letter
+51,68,B,frag,136.0,refer,"
+",,,positive,anonym,type,letter
+51,68,B,frag,136.0,refer,"
+",,,positive,anonym,type,letter
+51,68,B,frag,136.0,refer,"
+",,,positive,anonym,type,letter
+51,68,B,frag,136.0,refer,"
+",,,positive,punc,type,stop
+51,70,B,frag,139.0,refer,"
+",frag,,positive,anonym,type,letter
+51,70,B,frag,139.0,refer,"
+",frag,,positive,anonym,type,letter
+51,70,B,frag,139.0,refer,"
+",frag,,positive,punc,type,level
+51,72,B,frag,141.0,refer,"
+2 ",decl,enum,positive,anonym,type,letter
+51,72,B,frag,141.0,refer,"
+2 ",decl,enum,positive,anonym,type,letter
+51,72,B,frag,141.0,refer,"
+2 ",decl,enum,positive,punc,type,stop
+51,74,B,frag,149.0,refer,"
+",,spell,positive,anonym,type,letter
+51,74,B,frag,149.0,refer,"
+",,spell,positive,anonym,type,letter
+51,74,B,frag,149.0,refer,"
+",,spell,positive,anonym,type,letter
+51,74,B,frag,149.0,refer,"
+",,spell,positive,anonym,type,letter
+51,74,B,frag,149.0,refer,"
+",,spell,positive,anonym,type,letter
+51,74,B,frag,149.0,refer,"
+",,spell,positive,punc,type,stop
+51,82,B,frag,158.0,refer,"
+",decl,enum,positive,pause,,
+51,82,B,frag,158.0,refer,"
+",decl,enum,positive,anonym,type,street
+51,82,B,frag,158.0,refer,"
+",decl,enum,positive,punc,type,stop
+51,84,B,frag,160.0,refer,"
+",decl,,positive,pause,,
+51,84,B,frag,160.0,refer,"
+",decl,,positive,anonym,type,street
+51,84,B,frag,160.0,refer,"
+",decl,,positive,punc,type,stop
+51,84,B,frag,161.0,refer,"
+",decl,,positive,pause,length,6s
+51,84,B,frag,161.0,refer,"
+",decl,,positive,punc,type,stop
+51,86,B,frag,163.0,refer,"
+Leicestershire ",decl,,positive,punc,type,stop
+51,96,B,frag,179.0,refer,"
+5 6 7 6 ",frag,enum,positive,punc,type,level
+51,98,B,frag,181.0,refer,"
+8 6 9 8 ",frag,enum,positive,punc,type,level
+51,100,B,frag,183.0,refer,"
+2 6 6 8 ",decl,enum,positive,punc,type,stop
+51,109,A,frag,196.0,refer,"
+0 7 0 ",frag,enum,positive,punc,type,level
+51,111,A,frag,198.0,refer,"
+",decl,,positive,anonym,type,letter
+51,111,A,frag,198.0,refer,"
+",decl,,positive,anonym,type,alpha
+51,111,A,frag,198.0,refer,"
+",decl,,positive,punc,type,stop
+52,1,A,frag,2.0,refer,"
+Virgin trainlines ",frag,,positive,punc,type,level
+52,49,A,frag,88.0,refer,"
+Saturday ",decl,day,positive,punc,type,stop
+52,57,A,frag,98.0,refer,"
+",decl,,positive,anonym,type,letter
+52,57,A,frag,98.0,refer,"
+",decl,,positive,anonym,type,alpha
+52,57,A,frag,98.0,refer,"
+",decl,,positive,punc,type,stop
+52,60,B,frag,101.0,refer,"
+",decl,,positive,anonym,type,letter
+52,60,B,frag,101.0,refer,"
+",decl,,positive,anonym,type,alpha
+52,60,B,frag,101.0,refer,"
+",decl,,positive,punc,type,stop
+52,62,B,frag,103.0,refer,"
+",decl,,positive,anonym,type,letter
+52,62,B,frag,103.0,refer,"
+",decl,,positive,anonym,type,alpha
+52,62,B,frag,103.0,refer,"
+",decl,,positive,anonym,type,letter
+52,62,B,frag,103.0,refer,"
+",decl,,positive,anonym,type,alpha
+52,62,B,frag,103.0,refer,"
+",decl,,positive,punc,type,stop
+53,1,A,frag,1.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+53,2,B,decl,11.0,refer,"
+the 51 pounds ",frag,fare-enum,positive,punc,type,level
+53,5,A,frag,20.0,refer,"
+with the Saver ticket ",partial-frag,fare-journey,positive,punc,type,level
+53,7,A,frag,23.0,refer,"
+on the return ",frag,fare,positive,punc,type,level
+53,11,A,frag,33.0,refer,"
+Monday to Friday ",decl,day-to,positive,punc,type,stop
+53,12,B,frag,39.0,refer,"
+and so the the Friday ",frag,day,positive,punc,type,level
+53,17,A,frag,45.0,refer,"
+any time after 6:20 ",decl,time,positive,punc,type,stop
+53,32,B,frag,91.0,refer,"
+this Friday ",decl,day,positive,punc,type,stop
+53,37,A,frag,105.0,refer,"
+",frag,location-from-enum,positive,pause,length,4s
+53,37,A,frag,105.0,refer,"
+",frag,location-from-enum,positive,punc,type,level
+53,55,A,frag,142.0,refer,"
+seat number 38 ",partial-decl,number,positive,punc,type,stop
+53,55,A,frag,147.0,refer,"
+18:13 ",decl,,positive,punc,type,stop
+53,62,B,decl,166.0,refer,"
+it's 7 ",frag,,positive,punc,type,level
+53,64,B,frag,169.0,refer,"
+",decl,,positive,anonym,type,street
+53,64,B,frag,169.0,refer,"
+",decl,,positive,punc,type,stop
+53,66,B,frag,172.0,refer,"
+View ",decl,,positive,anonym,type,letter
+53,66,B,frag,172.0,refer,"
+View ",decl,,positive,anonym,type,letter
+53,66,B,frag,172.0,refer,"
+View ",decl,,positive,anonym,type,letter
+53,66,B,frag,172.0,refer,"
+View ",decl,,positive,anonym,type,letter
+53,66,B,frag,172.0,refer,"
+View ",decl,,positive,punc,type,stop
+53,67,A,frag,175.0,refer,"
+",decl,,positive,anonym,type,street
+53,67,A,frag,175.0,refer,"
+",decl,,positive,punc,type,stop
+53,68,B,frag,176.0,refer,"
+",decl,,positive,anonym,type,location
+53,68,B,frag,176.0,refer,"
+",decl,,positive,punc,type,stop
+53,70,B,frag,179.0,refer,"
+",decl,,positive,anonym,type,location
+53,70,B,frag,179.0,refer,"
+",decl,,positive,punc,type,stop
+53,76,B,frag,189.0,refer,"
+0 7 3 ",frag,enum,positive,punc,type,level
+53,78,B,frag,191.0,refer,"
+8 6 3 ",decl,enum,positive,punc,type,stop
+53,90,B,frag,207.0,refer,"
+6 6 3 0 ",frag,enum,positive,punc,type,level
+53,92,B,frag,209.0,refer,"
+0 5 8 4 ",frag,enum,positive,punc,type,level
+53,94,B,frag,211.0,refer,"
+0 8 3 9 ",decl,enum,positive,punc,type,stop
+53,98,B,frag,217.0,refer,"
+April ",decl,month,positive,punc,type,stop
+53,101,A,frag,225.0,refer,"
+at Preston ",partial-frag,location-time,positive,punc,type,level
+53,105,A,frag,235.0,refer,"
+3 3 9 3 ",frag,enum,positive,punc,type,level
+53,107,A,frag,237.0,refer,"
+",correct-decl,,positive,anonym,type,letter
+53,107,A,frag,237.0,refer,"
+",correct-decl,,positive,anonym,type,alpha
+53,107,A,frag,237.0,refer,"
+",correct-decl,,positive,punc,type,stop
+53,115,A,frag,257.0,refer,"
+then 17:20 ",decl,,positive,punc,type,stop
+54,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+54,19,A,address,30.0,refer,"
+Sir ",,,,punc,type,stop
+54,35,A,frag,68.0,refer,"
+again subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+54,38,B,frag,73.0,refer,"
+",decl,,positive,anonym,type,letter
+54,38,B,frag,73.0,refer,"
+",decl,,positive,anonym,type,letter
+54,38,B,frag,73.0,refer,"
+",decl,,positive,anonym,type,letter
+54,38,B,frag,73.0,refer,"
+",decl,,positive,punc,type,stop
+54,40,B,frag,75.0,refer,"
+",decl,,positive,anonym,type,letter
+54,40,B,frag,75.0,refer,"
+",decl,,positive,anonym,type,letter
+54,40,B,frag,75.0,refer,"
+",decl,,positive,punc,type,stop
+54,42,B,frag,77.0,refer,"
+",decl,,positive,anonym,type,letter
+54,42,B,frag,77.0,refer,"
+",decl,,positive,anonym,type,letter
+54,42,B,frag,77.0,refer,"
+",decl,,positive,punc,type,stop
+54,44,B,frag,79.0,refer,"
+",decl,,positive,anonym,type,letter
+54,44,B,frag,79.0,refer,"
+",decl,,positive,anonym,type,letter
+54,44,B,frag,79.0,refer,"
+",decl,,positive,anonym,type,letter
+54,44,B,frag,79.0,refer,"
+",decl,,positive,anonym,type,letter
+54,44,B,frag,79.0,refer,"
+",decl,,positive,anonym,type,letter
+54,44,B,frag,79.0,refer,"
+",decl,,positive,anonym,type,letter
+54,44,B,frag,79.0,refer,"
+",decl,,positive,punc,type,stop
+54,52,B,frag,88.0,refer,"
+2 4 5 ",frag,enum,positive,punc,type,level
+54,54,B,frag,90.0,refer,"
+1 1 1 3 ",decl,enum,positive,punc,type,stop
+54,58,B,frag,94.0,refer,"
+9 ",decl,enum,positive,anonym,type,letter
+54,58,B,frag,94.0,refer,"
+9 ",decl,enum,positive,anonym,type,letter
+54,58,B,frag,94.0,refer,"
+9 ",decl,enum,positive,punc,type,stop
+54,60,B,frag,96.0,refer,"
+5 9 36 ",decl,enum,positive,anonym,type,street
+54,60,B,frag,96.0,refer,"
+5 9 36 ",decl,enum,positive,punc,type,stop
+54,68,B,frag,109.0,refer,"
+3 4 5 2 ",frag,enum,positive,punc,type,level
+54,70,B,frag,111.0,refer,"
+9 1 5 2 ",frag,enum,positive,punc,type,level
+54,72,B,frag,113.0,refer,"
+9 9 1 5 ",decl,enum,positive,punc,type,stop
+54,79,A,frag,124.0,refer,"
+",partial-frag,,positive,anonym,type,letter
+54,79,A,frag,124.0,refer,"
+",partial-frag,,positive,anonym,type,alpha
+54,79,A,frag,124.0,refer,"
+",partial-frag,,positive,punc,type,level
+54,81,A,frag,126.0,refer,"
+",decl,enum,positive,anonym,type,letter
+54,81,A,frag,126.0,refer,"
+",decl,enum,positive,anonym,type,alpha
+54,81,A,frag,126.0,refer,"
+",decl,enum,positive,anonym,type,letter
+54,81,A,frag,126.0,refer,"
+",decl,enum,positive,anonym,type,alpha
+54,81,A,frag,126.0,refer,"
+",decl,enum,positive,punc,type,stop
+54,83,A,address,132.0,refer,"
+",,,,overlap,type,start
+54,83,A,address,132.0,refer,"
+",,,,punc,type,stop
+55,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+55,2,B,address,7.0,refer,"
+Sandra ",decl,,positive,punc,type,stop
+55,12,B,frag,28.0,refer,"
+about lunch time ",decl,time,positive,punc,type,stop
+55,13,A,frag,30.0,refer,"
+for the 19 pounds Virgin Value fare ",partial-frag,fare-enum,positive,punc,type,level
+55,27,A,address,65.0,refer,"
+Sir ",,,,punc,type,stop
+56,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+56,19,A,frag,39.0,refer,"
+",partial-decl,arrival,positive,pause,,
+56,19,A,frag,39.0,refer,"
+",partial-decl,arrival,positive,punc,type,stop
+56,29,A,frag,57.0,refer,"
+arriving ",partial-decl,location-enum-arrival,positive,overlap,type,end
+56,29,A,frag,57.0,refer,"
+arriving ",partial-decl,location-enum-arrival,positive,punc,type,stop
+56,50,B,frag,91.0,refer,"
+0 2 6 5 0 ",frag,enum,positive,punc,type,level
+56,52,B,frag,93.0,refer,"
+5 double 5 ",decl,enum,positive,pause,,
+56,52,B,frag,93.0,refer,"
+5 double 5 ",decl,enum,positive,punc,type,stop
+56,56,B,frag,99.0,refer,"
+0 ",decl,enum,positive,anonym,type,letter
+56,56,B,frag,99.0,refer,"
+0 ",decl,enum,positive,anonym,type,letter
+56,56,B,frag,99.0,refer,"
+0 ",decl,enum,positive,punc,type,stop
+56,58,B,frag,101.0,refer,"
+50 ",frag,enum-address,positive,anonym,type,street
+56,58,B,frag,101.0,refer,"
+50 ",frag,enum-address,positive,punc,type,level
+56,58,B,frag,102.0,refer,"
+",decl,,positive,unclear,length,6_syllables
+56,58,B,frag,102.0,refer,"
+",decl,,positive,punc,type,stop
+56,64,B,frag,111.0,refer,"
+2 6 5 0 ",frag,enum,positive,punc,type,level
+56,66,B,frag,113.0,refer,"
+0 6 5 6 ",frag,enum,positive,punc,type,level
+56,68,B,frag,115.0,refer,"
+5 double 0 5 ",decl,enum,positive,punc,type,stop
+56,81,A,frag,133.0,refer,"
+treble ",correct-decl,,positive,anonym,type,letter
+56,81,A,frag,133.0,refer,"
+treble ",correct-decl,,positive,overlap,type,start
+56,81,A,frag,133.0,refer,"
+treble ",correct-decl,,positive,anonym,type,alpha
+56,81,A,frag,133.0,refer,"
+treble ",correct-decl,,positive,punc,type,stop
+56,83,A,frag,135.0,refer,"
+6 5 ",frag,enum,positive,punc,type,level
+56,85,A,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+56,85,A,frag,137.0,refer,"
+",decl,,positive,anonym,type,alpha
+56,85,A,frag,137.0,refer,"
+",decl,,positive,pause,,
+56,85,A,frag,137.0,refer,"
+",decl,,positive,anonym,type,letter
+56,85,A,frag,137.0,refer,"
+",decl,,positive,anonym,type,alpha
+56,85,A,frag,137.0,refer,"
+",decl,,positive,punc,type,stop
+56,87,A,address,142.0,refer,"
+Miss ",,,,anonym,type,name
+56,87,A,address,142.0,refer,"
+Miss ",,,,punc,type,stop
+57,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+57,21,A,frag,41.0,refer,"
+with an advance purchase ticket ",partial-frag,fare-journey,positive,punc,type,level
+57,39,A,decl,97.0,refer,"
+the Super Advance Return ",frag,fare,positive,punc,type,level
+58,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+58,43,A,frag,80.0,refer,"
+with the Super Saver return ",partial-frag,fare,positive,punc,type,level
+58,50,B,frag,95.0,refer,"
+",decl,,positive,anonym,type,name
+58,50,B,frag,95.0,refer,"
+",decl,,positive,punc,type,stop
+58,50,B,frag,96.0,refer,"
+",decl,,positive,anonym,type,letter
+58,50,B,frag,96.0,refer,"
+",decl,,positive,anonym,type,letter
+58,50,B,frag,96.0,refer,"
+",decl,,positive,anonym,type,letter
+58,50,B,frag,96.0,refer,"
+",decl,,positive,punc,type,stop
+58,58,B,frag,106.0,refer,"
+5 7 ",decl,enum,positive,pause,,
+58,58,B,frag,106.0,refer,"
+5 7 ",decl,enum,positive,punc,type,stop
+58,64,B,frag,121.0,refer,"
+ ",partial-decl,,positive,anonym,type,address
+58,64,B,frag,121.0,refer,"
+ ",partial-decl,,positive,punc,type,stop
+58,66,B,frag,124.0,refer,"
+Red Gail Head ",partial,,positive,punct,type,level
+58,66,B,frag,125.0,refer,"
+",,,positive,pause,length,4s
+58,66,B,frag,125.0,refer,"
+",,,positive,punct,type,level
+58,72,B,frag,136.0,refer,"
+7 1 0 0 ",frag,enum,positive,punc,type,level
+58,74,B,frag,138.0,refer,"
+0 7 1 2 ",frag,enum,positive,punc,type,level
+58,76,B,frag,140.0,refer,"
+2 0 8 7 ",frag,enum,positive,punc,type,level
+58,78,B,frag,142.0,refer,"
+9 9 0 8 ",decl,enum,positive,punc,type,stop
+58,85,A,frag,165.0,refer,"
+seat number 13 ",partial-decl,number,positive,punc,type,stop
+58,85,A,frag,170.0,refer,"
+seat number 41 ",partial-decl,number,positive,punc,type,stop
+58,89,A,frag,184.0,refer,"
+7 7 1 8 ",frag,enum,positive,punc,type,level
+58,91,A,frag,186.0,refer,"
+",correct-decl,,positive,anonym,type,letter
+58,91,A,frag,186.0,refer,"
+",correct-decl,,positive,anonym,type,alpha
+58,91,A,frag,186.0,refer,"
+",correct-decl,,positive,punc,type,stop
+58,99,A,address,203.0,refer,"
+Mrs ",decl,,positive,anonym,type,name
+58,99,A,address,203.0,refer,"
+Mrs ",decl,,positive,punc,type,stop
+59,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+59,21,A,frag,45.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+59,26,B,frag,56.0,refer,"
+",decl,,positive,anonym,type,name
+59,26,B,frag,56.0,refer,"
+",decl,,positive,punc,type,stop
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,anonym,type,letter
+59,26,B,frag,57.0,refer,"
+",decl,,positive,punc,type,stop
+59,31,A,frag,67.0,refer,"
+0 1 1 4 ",decl,enum,positive,punc,type,stop
+59,34,B,frag,73.0,refer,"
+4 7 4 7 ",decl,enum,positive,punc,type,stop
+59,37,A,address,80.0,refer,"
+Sir ",,,,punc,type,stop
+59,44,B,frag,89.0,refer,"
+number 13 ",frag,number,positive,punc,type,level
+59,44,B,frag,90.0,refer,"
+",frag,,positive,pause,,
+59,44,B,frag,90.0,refer,"
+",frag,,positive,anonym,type,street
+59,44,B,frag,90.0,refer,"
+",frag,,positive,punc,type,level
+59,44,B,frag,91.0,refer,"
+",frag,,positive,pause,,
+59,44,B,frag,91.0,refer,"
+",frag,,positive,punc,type,level
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,punc,type,level
+59,44,B,frag,93.0,refer,"
+",partial-decl,,positive,pause,,
+59,44,B,frag,93.0,refer,"
+",partial-decl,,positive,punc,type,stop
+59,47,A,address,101.0,refer,"
+Sir ",,,,punc,type,stop
+59,49,A,frag,108.0,refer,"
+Saturday the ",frag,month-date-day,positive,pause,,
+59,49,A,frag,108.0,refer,"
+Saturday the ",frag,month-date-day,positive,punc,type,level
+59,49,A,frag,113.0,refer,"
+seat number 34 ",partial-decl,number,positive,punc,type,stop
+59,57,A,frag,135.0,refer,"
+seat number 34 ",partial-decl,number,positive,punc,type,stop
+59,59,A,frag,145.0,refer,"
+departing 12:22 ",partial-frag,departure,positive,punc,type,level
+59,66,B,frag,161.0,refer,"
+8 3 ",frag,enum,positive,punc,type,level
+59,68,B,frag,163.0,refer,"
+7 3 ",frag,enum,positive,punc,type,level
+59,70,B,frag,165.0,refer,"
+double 5 ",frag,,positive,punc,type,level
+59,72,B,frag,167.0,refer,"
+4 9 ",frag,enum,positive,punc,type,level
+59,74,B,frag,169.0,refer,"
+4 1 ",frag,enum,positive,punc,type,level
+59,76,B,frag,171.0,refer,"
+double 3 ",frag,,positive,punc,type,level
+59,78,B,frag,173.0,refer,"
+0 5 ",decl,enum,positive,punc,type,stop
+59,85,A,frag,187.0,refer,"
+5 7 7 4 ",frag,enum,positive,punc,type,level
+59,87,A,frag,189.0,refer,"
+4 4 8 5 ",frag,enum,positive,punc,type,level
+59,89,A,frag,191.0,refer,"
+stroke ",correct-decl,,positive,anonym,type,letter
+59,89,A,frag,191.0,refer,"
+stroke ",correct-decl,,positive,anonym,type,alpha
+59,89,A,frag,191.0,refer,"
+stroke ",correct-decl,,positive,punc,type,stop
+59,90,B,frag,193.0,refer,"
+",frag,enum,positive,pause,,
+59,90,B,frag,193.0,refer,"
+",frag,enum,positive,punc,type,level
+59,90,B,frag,194.0,refer,"
+",frag,enum,positive,pause,,
+59,90,B,frag,194.0,refer,"
+",frag,enum,positive,punc,type,level
+59,90,B,frag,195.0,refer,"
+stroke ",decl,,positive,anonym,type,letter
+59,90,B,frag,195.0,refer,"
+stroke ",decl,,positive,punc,type,stop
+59,91,A,address,197.0,refer,"
+Mr ",decl,,positive,anonym,type,name
+59,91,A,address,197.0,refer,"
+Mr ",decl,,positive,punc,type,stop
+60,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+60,10,B,frag,15.0,refer,"
+from Euston ",partial-frag,location-from,positive,punc,type,level
+60,23,A,frag,36.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+61,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+61,24,B,decl,45.0,refer,"
+",frag,number,positive,pause,,
+61,24,B,decl,45.0,refer,"
+",frag,number,positive,punc,type,level
+61,24,B,decl,46.0,refer,"
+",frag-disflu,location-to,positive,pause,,
+61,24,B,decl,46.0,refer,"
+",frag-disflu,location-to,positive,punc,type,level
+61,24,B,frag,51.0,refer,"
+with the new timetable ",partial-decl,,positive,punc,type,stop
+61,25,A,frag,54.0,refer,"
+on the return ",frag,fare,positive,punc,type,level
+61,48,B,frag,116.0,refer,"
+",frag,,positive,pause,,
+61,48,B,frag,116.0,refer,"
+",frag,,positive,punc,type,level
+61,50,B,frag,123.0,refer,"
+and coming back ",frag,,positive,punc,type,level
+61,50,B,frag,133.0,refer,"
+from Taunton ",partial-decl,location-from,positive,punc,type,stop
+61,55,A,frag,150.0,refer,"
+",frag,month-date-day,positive,pause,,
+61,55,A,frag,150.0,refer,"
+",frag,month-date-day,positive,punc,type,level
+61,55,A,frag,151.0,refer,"
+from Hertford 7:41 ",partial-decl,location-to-from-enum,positive,backchannel,content,yes
+61,55,A,frag,151.0,refer,"
+from Hertford 7:41 ",partial-decl,location-to-from-enum,positive,backchannel,content,yes
+61,55,A,frag,151.0,refer,"
+from Hertford 7:41 ",partial-decl,location-to-from-enum,positive,punc,type,stop
+61,55,A,frag,166.0,refer,"
+subject to availability ",constrain-decl,fare-availability-enum,positive,pause,,
+61,55,A,frag,166.0,refer,"
+subject to availability ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+61,58,B,frag,172.0,refer,"
+",,name,positive,anonym,type,name
+61,58,B,frag,172.0,refer,"
+",,name,positive,punc,type,stop
+61,66,B,frag,181.0,refer,"
+8 8 0 4 0 ",decl,enum,positive,punc,type,stop
+62,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+62,12,B,frag,24.0,refer,"
+6:18
+",,time,positive,,,
+62,27,A,decl,54.0,refer,"
+the 9:18 ",frag,,positive,punc,type,level
+62,27,A,decl,59.0,refer,"
+the 12:21 ",decl,,positive,punc,type,stop
+62,32,B,decl,80.0,refer,"
+the right date ",decl,date,positive,punc,type,stop
+62,49,A,frag,109.0,refer,"
+with the Super Advance ticket ",partial-decl,fare-journey,positive,punc,type,stop
+62,53,A,frag,118.0,refer,"
+but before departure time of the train ",constrain-frag,time-departure,positive,punc,type,level
+62,55,A,frag,123.0,refer,"
+subject to availability and 5 pounds charge per ticket ",constrain-decl,fare-availability-journey-enum,positive,punc,type,stop
+62,62,B,frag,132.0,refer,"
+Mrs ",decl,,positive,punc,type,stop
+62,64,B,frag,136.0,refer,"
+0 1 7 ",frag,enum,positive,punc,type,level
+62,66,B,frag,138.0,refer,"
+4 ",frag,enum,positive,punc,type,level
+62,68,B,frag,140.0,refer,"
+2 ",frag,enum,positive,overlap,type,end
+62,68,B,frag,140.0,refer,"
+2 ",frag,enum,positive,punc,type,level
+62,70,B,frag,142.0,refer,"
+double 6 ",frag,,positive,punc,type,level
+62,72,B,frag,144.0,refer,"
+6 0 ",decl,enum,positive,punc,type,stop
+62,74,B,frag,146.0,refer,"
+1 4 ",decl,enum,positive,punc,type,stop
+62,78,B,frag,151.0,refer,"
+2 ",decl,enum,positive,anonym,type,letter
+62,78,B,frag,151.0,refer,"
+2 ",decl,enum,positive,anonym,type,letter
+62,78,B,frag,151.0,refer,"
+2 ",decl,enum,positive,punc,type,stop
+62,82,B,frag,156.0,refer,"
+Winston ",frag,location,positive,punc,type,level
+62,82,B,frag,157.0,refer,"
+Leicester ",decl,,positive,punc,type,stop
+62,92,B,frag,170.0,refer,"
+0 1 ",frag,enum,positive,punc,type,level
+62,94,B,frag,172.0,refer,"
+7 8 ",frag,enum,positive,punc,type,level
+62,96,B,frag,174.0,refer,"
+7 1 ",frag,enum,positive,punc,type,level
+62,98,B,frag,176.0,refer,"
+0 ",frag,enum,positive,punc,type,level
+62,100,B,frag,178.0,refer,"
+4 4 4 ",decl,enum,positive,punc,type,stop
+62,108,B,frag,190.0,refer,"
+not at the moment ",decl,,negative,punc,type,stop
+62,108,B,frag,194.0,refer,"
+quickly ",decl,,positive,punc,type,stop
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,letter
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,alpha
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,letter
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,alpha
+62,115,A,frag,204.0,refer,"
+",frag,,positive,punc,type,level
+62,117,A,frag,206.0,refer,"
+",frag,,positive,anonym,type,letter
+62,117,A,frag,206.0,refer,"
+",frag,,positive,anonym,type,alpha
+62,117,A,frag,206.0,refer,"
+",frag,,positive,punc,type,level
+62,119,A,frag,208.0,refer,"
+",decl,,positive,anonym,type,letter
+62,119,A,frag,208.0,refer,"
+",decl,,positive,anonym,type,alpha
+62,119,A,frag,208.0,refer,"
+",decl,,positive,punc,type,stop
+62,121,A,decl,210.0,refer,"
+and the number 2 ",decl,number,positive,punc,type,stop
+62,122,B,decl,211.0,refer,"
+and the 2 ",decl,,positive,punc,type,stop
+62,123,A,address,215.0,refer,"
+Mrs Nunn ",partial-decl,,positive,punc,type,stop
+63,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+63,2,B,address,7.0,refer,"
+Love ",,,,punc,type,stop
+63,2,B,address,14.0,refer,"
+Darling ",,,,punc,type,stop
+63,14,B,address,38.0,refer,"
+Love ",,,,punc,type,stop
+63,30,B,address,67.0,refer,"
+Darling ",,,,punc,type,stop
+63,37,A,frag,87.0,refer,"
+with the disabled railcard ",,railcard,positive,punct,type,level
+63,45,A,frag,112.0,refer,"
+but with your Super Advance return ",constrain-frag,fare,positive,punc,type,level
+63,67,A,frag,149.0,refer,"
+this ticket ",frag,journey,positive,punc,type,level
+63,70,B,frag,161.0,refer,"
+Friday
+",,day,positive,,,
+63,70,B,frag,162.0,refer,"
+Friday the 2nd ",decl,day-date,positive,punc,type,stop
+63,92,B,address,197.0,refer,"
+Good Lady
+",,,,,,
+63,96,B,address,207.0,refer,"
+Darling ",,,,punc,type,stop
+63,98,B,address,212.0,refer,"
+Love ",,,,punc,type,stop
+63,100,B,address,216.0,refer,"
+Love ",,,,punc,type,stop
+63,108,B,frag,225.0,refer,"
+and coming back ",decl,,positive,punc,type,stop
+63,115,A,decl,234.0,refer,"
+forward facing seats ",decl,seat,positive,punc,type,stop
+63,127,A,frag,251.0,refer,"
+with this ticket ",partial-frag,journey,positive,punc,type,level
+63,134,B,frag,267.0,refer,"
+",decl,,positive,anonym,type,letter
+63,134,B,frag,267.0,refer,"
+",decl,,positive,anonym,type,letter
+63,134,B,frag,267.0,refer,"
+",decl,,positive,anonym,type,letter
+63,134,B,frag,267.0,refer,"
+",decl,,positive,anonym,type,letter
+63,134,B,frag,267.0,refer,"
+",decl,,positive,anonym,type,letter
+63,134,B,frag,267.0,refer,"
+",decl,,positive,anonym,type,letter
+63,134,B,frag,267.0,refer,"
+",decl,,positive,punc,type,stop
+63,136,B,frag,269.0,refer,"
+",decl,,positive,anonym,type,letter
+63,136,B,frag,269.0,refer,"
+",decl,,positive,anonym,type,name
+63,136,B,frag,269.0,refer,"
+",decl,,positive,anonym,type,letter
+63,136,B,frag,269.0,refer,"
+",decl,,positive,anonym,type,letter
+63,136,B,frag,269.0,refer,"
+",decl,,positive,anonym,type,letter
+63,136,B,frag,269.0,refer,"
+",decl,,positive,punc,type,stop
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,letter
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,alpha
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,letter
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,alpha
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,letter
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,alpha
+63,138,B,frag,271.0,refer,"
+",decl,,positive,anonym,type,name
+63,138,B,frag,271.0,refer,"
+",decl,,positive,punc,type,stop
+63,145,A,address,280.0,refer,"
+Sir ",,,,punc,type,stop
+63,150,B,frag,289.0,refer,"
+0 1 3 1 ",frag,enum,positive,punc,type,level
+63,152,B,frag,291.0,refer,"
+9 9 3 ",frag,enum,positive,punc,type,level
+63,154,B,frag,293.0,refer,"
+7 9 6 7 ",decl,enum,positive,punc,type,stop
+63,160,B,frag,299.0,refer,"
+6 ",decl,enum,positive,anonym,type,letter
+63,160,B,frag,299.0,refer,"
+6 ",decl,enum,positive,anonym,type,letter
+63,160,B,frag,299.0,refer,"
+6 ",decl,enum,positive,punc,type,stop
+63,166,B,frag,307.0,refer,"
+",partial-frag,,positive,pause,,
+63,166,B,frag,307.0,refer,"
+",partial-frag,,positive,anonym,type,street
+63,166,B,frag,307.0,refer,"
+",partial-frag,,positive,punc,type,level
+63,166,B,frag,308.0,refer,"
+",decl,enum,positive,pause,,
+63,166,B,frag,308.0,refer,"
+",decl,enum,positive,anonym,type,letter
+63,166,B,frag,308.0,refer,"
+",decl,enum,positive,anonym,type,letter
+63,166,B,frag,308.0,refer,"
+",decl,enum,positive,anonym,type,letter
+63,166,B,frag,308.0,refer,"
+",decl,enum,positive,anonym,type,letter
+63,166,B,frag,308.0,refer,"
+",decl,enum,positive,punc,type,stop
+63,167,A,address,310.0,refer,"
+Sir ",,,,punc,type,stop
+63,174,B,frag,320.0,refer,"
+7 9 6 7 ",frag,enum,positive,punc,type,level
+63,176,B,frag,322.0,refer,"
+3 6 7 9 ",frag,enum,positive,punc,type,level
+63,178,B,frag,324.0,refer,"
+9 1 7 3 ",decl,enum,positive,punc,type,stop
+63,197,A,frag,353.0,refer,"
+",correct-decl,,positive,anonym,type,letter
+63,197,A,frag,353.0,refer,"
+",correct-decl,,positive,anonym,type,alpha
+63,197,A,frag,353.0,refer,"
+",correct-decl,,positive,punc,type,stop
+63,199,A,frag,355.0,refer,"
+",correct-decl,,positive,anonym,type,letter
+63,199,A,frag,355.0,refer,"
+",correct-decl,,positive,anonym,type,alpha
+63,199,A,frag,355.0,refer,"
+",correct-decl,,positive,punc,type,stop
+63,201,A,frag,357.0,refer,"
+9 6 ",decl,enum,positive,punc,type,stop
+63,204,B,frag,360.0,refer,"
+9 6 ",decl,enum,positive,punc,type,stop
+63,207,A,frag,363.0,refer,"
+",correct-decl,,positive,anonym,type,letter
+63,207,A,frag,363.0,refer,"
+",correct-decl,,positive,anonym,type,alpha
+63,207,A,frag,363.0,refer,"
+",correct-decl,,positive,punc,type,stop
+63,209,A,frag,365.0,refer,"
+and ",correct-decl,,positive,anonym,type,letter
+63,209,A,frag,365.0,refer,"
+and ",correct-decl,,positive,anonym,type,alpha
+63,209,A,frag,365.0,refer,"
+and ",correct-decl,,positive,punc,type,stop
+63,219,A,address,379.0,refer,"
+Sir ",,,,punc,type,stop
+63,224,B,frag,387.0,refer,"
+my wife ",frag,,positive,punc,type,level
+63,231,A,address,398.0,refer,"
+Sir ",,,,punc,type,stop
+64,1,A,frag,2.0,refer,"
+Virgin trainlines ",frag,,positive,punc,type,level
+64,27,A,frag,66.0,refer,"
+10 ",decl,enum,positive,overlap,type,end
+64,27,A,frag,66.0,refer,"
+10 ",decl,enum,positive,punc,type,stop
+64,66,B,frag,129.0,refer,"
+8 9 3 ",frag,enum,positive,punc,type,level
+64,68,B,frag,131.0,refer,"
+3 2 3 ",decl,enum,positive,punc,type,stop
+64,74,B,frag,139.0,refer,"
+",frag,location,positive,pause,,
+64,74,B,frag,139.0,refer,"
+",frag,location,positive,punc,type,level
+64,80,B,frag,148.0,refer,"
+5 2 3 3 ",frag,enum,positive,punc,type,level
+64,82,B,frag,150.0,refer,"
+6 3 5 9 ",frag,enum,positive,punc,type,level
+64,84,B,frag,152.0,refer,"
+2 8 3 3 ",decl,enum,positive,punc,type,stop
+64,88,B,frag,157.0,refer,"
+6 9 8 ",decl,enum,positive,punc,type,stop
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,letter
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,alpha
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,letter
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,alpha
+64,99,A,frag,173.0,refer,"
+",frag,,positive,punc,type,level
+64,101,A,frag,175.0,refer,"
+",decl,enum,positive,anonym,type,letter
+64,101,A,frag,175.0,refer,"
+",decl,enum,positive,anonym,type,alpha
+64,101,A,frag,175.0,refer,"
+",decl,enum,positive,anonym,type,letter
+64,101,A,frag,175.0,refer,"
+",decl,enum,positive,anonym,type,alpha
+64,101,A,frag,175.0,refer,"
+",decl,enum,positive,punc,type,stop
+65,1,A,frag,2.0,refer,"
+Virgin Trainlines ",decl,,positive,punc,type,stop
+65,2,B,frag,5.0,refer,"
+Manchester Picadilly 5:30 tomorrow evening ",partial-decl,location-time-enum-day,positive,punc,type,stop
+65,28,B,frag,53.0,refer,"
+45 50 ",query,enum,positive,punc,type,query
+65,29,A,address,55.0,refer,"
+Sir ",,,,punc,type,stop
+65,31,A,address,60.0,refer,"
+",,,,overlap,type,start
+65,31,A,address,60.0,refer,"
+",,,,punc,type,stop
+66,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+66,6,B,frag,16.0,refer,"
+October the 15th ",decl,month,positive,punc,type,stop
+66,13,A,address,32.0,refer,"
+Sir ",,,,punc,type,stop
+67,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+67,10,B,frag,17.0,refer,"
+the cheap cheap cheap fare ",frag,fare,positive,pause,,
+67,10,B,frag,17.0,refer,"
+the cheap cheap cheap fare ",frag,fare,positive,punc,type,level
+67,10,B,frag,18.0,refer,"
+cheap fare to London ",partial-decl,fare-to-location,positive,punc,type,stop
+67,40,B,frag,66.0,refer,"
+the Northern the Northern Line train ",decl-disflu,,positive,unclear,length,2 syllables
+67,40,B,frag,66.0,refer,"
+the Northern the Northern Line train ",decl-disflu,,positive,punc,type,stop
+68,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+68,14,B,frag,23.0,refer,"
+6:45 ",decl,,positive,punc,type,stop
+68,43,A,frag,82.0,refer,"
+",partial-decl,time,positive,pause,,
+68,43,A,frag,82.0,refer,"
+",partial-decl,time,positive,punc,type,stop
+68,47,A,frag,87.0,refer,"
+with that ticket ",partial-frag,journey,positive,punc,type,level
+68,49,A,frag,94.0,refer,"
+with the Virgin Value Business ",partial-frag,,positive,backchannel,content,yes
+68,49,A,frag,94.0,refer,"
+with the Virgin Value Business ",partial-frag,,positive,punc,type,level
+68,52,B,frag,101.0,refer,"
+",,name,positive,anonym,type,name
+68,52,B,frag,101.0,refer,"
+",,name,positive,punc,type,stop
+68,57,A,frag,112.0,refer,"
+title ",decl,name,positive,punc,type,stop
+68,62,B,frag,122.0,refer,"
+6 7 3 ",frag,enum,positive,punc,type,level
+68,66,B,frag,127.0,refer,"
+",decl,,positive,anonym,type,letter
+68,66,B,frag,127.0,refer,"
+",decl,,positive,anonym,type,letter
+68,66,B,frag,127.0,refer,"
+",decl,,positive,anonym,type,letter
+68,66,B,frag,127.0,refer,"
+",decl,,positive,pause,,
+68,66,B,frag,127.0,refer,"
+",decl,,positive,punc,type,stop
+68,70,B,frag,133.0,refer,"
+",decl,,positive,anonym,type,letter
+68,70,B,frag,133.0,refer,"
+",decl,,positive,anonym,type,letter
+68,70,B,frag,133.0,refer,"
+",decl,,positive,anonym,type,alpha
+68,70,B,frag,133.0,refer,"
+",decl,,positive,anonym,type,alpha
+68,70,B,frag,133.0,refer,"
+",decl,,positive,punc,type,stop
+68,72,B,frag,135.0,refer,"
+1 ",decl,enum,positive,anonym,type,letter
+68,72,B,frag,135.0,refer,"
+1 ",decl,enum,positive,anonym,type,letter
+68,72,B,frag,135.0,refer,"
+1 ",decl,enum,positive,punc,type,stop
+68,80,B,frag,145.0,refer,"
+Management ",decl,,positive,punc,type,stop
+68,82,B,frag,147.0,refer,"
+",decl,,positive,anonym,type,letter
+68,82,B,frag,147.0,refer,"
+",decl,,positive,anonym,type,letter
+68,82,B,frag,147.0,refer,"
+",decl,,positive,anonym,type,letter
+68,82,B,frag,147.0,refer,"
+",decl,,positive,punc,type,stop
+68,88,B,frag,158.0,refer,"
+Basildon ",decl,location,positive,punc,type,stop
+68,96,B,frag,167.0,refer,"
+1 7 7 0 ",frag,enum,positive,punc,type,level
+68,98,B,frag,169.0,refer,"
+0 5 3 8 ",frag,enum,positive,punc,type,level
+68,100,B,frag,171.0,refer,"
+7 1 7 1 ",decl,enum,positive,punc,type,stop
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,letter
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,alpha
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,letter
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,alpha
+68,109,A,frag,183.0,refer,"
+",frag,,positive,punc,type,level
+68,111,A,frag,185.0,refer,"
+the number 1 ",frag,number,positive,punc,type,level
+68,113,A,frag,187.0,refer,"
+",frag,,positive,anonym,type,letter
+68,113,A,frag,187.0,refer,"
+",frag,,positive,anonym,type,alpha
+68,113,A,frag,187.0,refer,"
+",frag,,positive,punc,type,level
+68,113,A,frag,188.0,refer,"
+the number 2 ",decl,number,positive,punc,type,stop
+69,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+69,8,B,frag,14.0,refer,"
+return ",decl,fare,positive,punc,type,stop
+69,14,B,frag,32.0,refer,"
+",,time,positive,pause,,
+69,27,A,frag,71.0,refer,"
+at that time ",constrain-partial-frag,time,positive,punc,type,level
+69,54,B,decl,138.0,refer,"
+so the other two ",frag,number,positive,punc,type,level
+69,54,B,frag,141.0,refer,"
+apart from the travelling on a Friday ",frag,journey-day,positive,punc,type,level
+69,57,A,address,158.0,refer,"
+",,,,overlap,type,start
+69,57,A,address,158.0,refer,"
+",,,,punc,type,stop
+70,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+70,59,A,frag,101.0,refer,"
+Saturday ",frag,day,positive,punc,type,level
+70,61,A,frag,105.0,refer,"
+on the Sunday ",partial-frag,day,positive,backchannel,content,m
+70,61,A,frag,105.0,refer,"
+on the Sunday ",partial-frag,day,positive,punc,type,level
+70,61,A,decl,109.0,refer,"
+the bus from Macclesfield at 15:55 ",decl,time-from,positive,punc,type,stop
+70,69,A,frag,126.0,refer,"
+",frag,fare,positive,pause,,
+70,69,A,frag,126.0,refer,"
+",frag,fare,positive,punc,type,level
+70,103,A,frag,185.0,refer,"
+from Macclesfield to Wilmslow ",partial-decl,to-from,positive,punc,type,stop
+70,106,B,frag,195.0,refer,"
+6 em 2 6 6 6 6 8 ",decl,enum,positive,punc,type,stop
+70,110,B,address,207.0,refer,"
+",decl,,positive,pause,length,15s
+70,110,B,address,207.0,refer,"
+",decl,,positive,punc,type,stop
+70,115,A,frag,219.0,refer,"
+but before departure time of the train ",constrain-frag,time-departure,positive,punc,type,level
+70,117,A,frag,224.0,refer,"
+subject to availability and 5 pounds charge ",constrain-decl,fare-availability-enum,positive,punc,type,stop
+70,119,A,frag,228.0,refer,"
+the 10:50 train ",frag,enum,positive,punc,type,level
+70,121,A,frag,233.0,refer,"
+on the return on the 18th ",frag,fare,positive,punc,type,level
+70,128,B,frag,242.0,refer,"
+",decl,,positive,anonym,type,name
+70,128,B,frag,242.0,refer,"
+",decl,,positive,punc,type,stop
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,anonym,type,letter
+70,128,B,frag,243.0,refer,"
+",decl,,positive,punc,type,stop
+70,136,B,frag,263.0,refer,"
+0 1 9 5 ",frag,enum,positive,punc,type,level
+70,138,B,frag,265.0,refer,"
+9 6 8 ",frag,enum,positive,punc,type,level
+70,140,B,frag,267.0,refer,"
+5 1 6 5 ",decl,enum,positive,punc,type,stop
+70,144,B,frag,272.0,refer,"
+8 ",decl,enum,positive,anonym,type,letter
+70,144,B,frag,272.0,refer,"
+8 ",decl,enum,positive,anonym,type,alpha
+70,144,B,frag,272.0,refer,"
+8 ",decl,enum,positive,anonym,type,letter
+70,144,B,frag,272.0,refer,"
+8 ",decl,enum,positive,anonym,type,alpha
+70,144,B,frag,272.0,refer,"
+8 ",decl,enum,positive,punc,type,stop
+70,146,B,frag,274.0,refer,"
+Flat 6 ",frag,,positive,punc,type,level
+70,146,B,frag,275.0,refer,"
+",frag,enum,positive,pause,,
+70,146,B,frag,275.0,refer,"
+",frag,enum,positive,anonym,type,street
+70,146,B,frag,275.0,refer,"
+",frag,enum,positive,punc,type,level
+70,146,B,frag,276.0,refer,"
+London ",decl,location-enum,positive,anonym,type,letter
+70,146,B,frag,276.0,refer,"
+London ",decl,location-enum,positive,anonym,type,letter
+70,146,B,frag,276.0,refer,"
+London ",decl,location-enum,positive,anonym,type,letter
+70,146,B,frag,276.0,refer,"
+London ",decl,location-enum,positive,anonym,type,letter
+70,146,B,frag,276.0,refer,"
+London ",decl,location-enum,positive,punc,type,stop
+70,156,B,frag,290.0,refer,"
+2 2 6 1 ",frag,enum,positive,punc,type,level
+70,158,B,frag,292.0,refer,"
+1 8 ",frag,enum,positive,punc,type,level
+70,160,B,frag,294.0,refer,"
+2 2 6 6 ",decl,enum,positive,punc,type,stop
+70,162,B,frag,296.0,refer,"
+expiry 1 ",decl,enum-creditcard,positive,pause,,
+70,162,B,frag,296.0,refer,"
+expiry 1 ",decl,enum-creditcard,positive,punc,type,stop
+70,169,A,frag,304.0,refer,"
+",decl,,positive,anonym,type,letter
+70,169,A,frag,304.0,refer,"
+",decl,,positive,anonym,type,alpha
+70,169,A,frag,304.0,refer,"
+",decl,,positive,anonym,type,letter
+70,169,A,frag,304.0,refer,"
+",decl,,positive,anonym,type,alpha
+70,169,A,frag,304.0,refer,"
+",decl,,positive,punc,type,stop
+70,171,A,frag,306.0,refer,"
+9 1 5 ",decl,enum,positive,punc,type,stop
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,anonym,type,letter
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,overlap,type,end
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,anonym,type,alpha
+70,173,A,frag,308.0,refer,"
+",partial-decl,,positive,punc,type,stop
+70,175,A,address,312.0,refer,"
+Miss ",,,,overlap,type,start
+70,175,A,address,312.0,refer,"
+Miss ",,,,anonym,type,name
+70,175,A,address,312.0,refer,"
+Miss ",,,,punc,type,stop
+70,180,B,frag,322.0,refer,"
+and then on Sunday the 18th ",partial-frag,day,positive,punc,type,level
+70,180,B,frag,324.0,refer,"
+15:55 ",frag,,positive,punc,type,level

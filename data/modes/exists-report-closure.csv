@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+13,57,A,decl,85.0,answElab,"
+i'm saying there's no allocation there at all ",exists-report-closure,time,negative,pause,,

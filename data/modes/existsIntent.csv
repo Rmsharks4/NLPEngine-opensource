@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+7,11,A,decl,20.0,informIntent,"
+i'm just double checking ",existsIntent,avail-verify,positive,pause,,
+7,11,A,decl,20.0,informIntent,"
+i'm just double checking ",existsIntent,avail-verify,positive,backchannel,content,right

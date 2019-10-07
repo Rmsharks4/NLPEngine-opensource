@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+50,39,A,decl,78.0,stateConstraint,"
+we need to actually fill out the form twice because it's classed as two separate journeys ",constrain-report-reason-decl,number-journey-enum,positive,pause,,
+50,39,A,decl,78.0,stateConstraint,"
+we need to actually fill out the form twice because it's classed as two separate journeys ",constrain-report-reason-decl,number-journey-enum,positive,punc,type,stop

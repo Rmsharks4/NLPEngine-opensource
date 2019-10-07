@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+22,38,B,decl,89.0,informIntent,"
+i think i'm going to call back later and just take a chance
+",intent-opinion-report,,positive,,,

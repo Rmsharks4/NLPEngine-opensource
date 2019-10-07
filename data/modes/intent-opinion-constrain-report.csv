@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+11,38,B,frag,72.0,accept,"
+i suppose i'm going to have to cope with that
+",intent-opinion-constrain-report,,positive,,,

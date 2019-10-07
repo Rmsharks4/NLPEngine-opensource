@@ -1,0 +1,184 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,30,B,decl,56.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+37,26,B,decl,45.0,approve,"
+that's great ",decl,,positive,punc,type,stop
+39,112,B,dm,230.0,approve,"
+excellent ",,,,punc,type,stop
+42,12,B,dm,28.0,approve,"
+fine ",,,,punc,type,stop
+42,24,B,decl,45.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+42,26,B,dm,47.0,approve,"
+lovely ",,,,punc,type,stop
+42,30,B,decl,54.0,approve,"
+that's great ",decl,,positive,punc,type,stop
+42,50,B,dm,89.0,approve,"
+fine ",,,,punc,type,stop
+42,56,B,decl,99.0,approve,"
+that's great ",decl,,positive,punc,type,stop
+42,78,B,decl,126.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+42,80,B,decl,130.0,approve,"
+that's great ",decl,,positive,punc,type,stop
+44,14,B,decl,35.0,approve,"
+oh that'd be fine ",decl,,positive,punc,type,stop
+44,40,B,dm,97.0,approve,"
+fine ",,,,punc,type,stop
+44,52,B,dm,123.0,approve,"
+lovely ",,,,punc,type,stop
+44,60,B,decl,136.0,approve,"
+that's just great ",decl,,positive,punc,type,stop
+44,64,B,dm,142.0,approve,"
+lovely ",,,,punc,type,stop
+44,92,B,dm,186.0,approve,"
+fine ",,,,punc,type,stop
+44,106,B,decl,215.0,approve,"
+that's lovely ",decl,,positive,punc,type,stop
+45,30,B,decl,59.0,approve,"
+that's good ",decl,,positive,punc,type,stop
+46,70,B,decl,161.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+47,12,B,decl,17.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+47,26,B,decl,44.0,approve,"
+",reassurance-decl,,positive,pause,,
+47,26,B,decl,44.0,approve,"
+",reassurance-decl,,positive,punc,type,stop
+47,82,B,frag,152.0,approve,"
+oh fine ",decl,,positive,punc,type,stop
+47,82,B,decl,154.0,approve,"
+that's alright ",reassurance-tag-decl,,positive,punc,type,stop
+47,110,B,decl,221.0,approve,"
+the 20:07 would be great ",decl,enum,positive,punc,type,stop
+48,82,B,decl,140.0,approve,"
+that's wonderful ",decl,,positive,punc,type,stop
+48,82,B,decl,141.0,approve,"
+that's ",decl,,positive,overlap,type,start
+48,82,B,decl,141.0,approve,"
+that's ",decl,,positive,punc,type,stop
+48,102,B,decl,171.0,approve,"
+that's lovely ",decl,,positive,punc,type,stop
+48,104,B,dm,173.0,approve,"
+lovely ",,,,punc,type,stop
+48,140,B,dm,222.0,approve,"
+lovely ",,,,punc,type,stop
+48,146,B,decl,233.0,approve,"
+that's wonderful ",decl,,positive,punc,type,stop
+49,89,A,decl,169.0,approve,"
+that's ok ",,,positive,punc,type,stop
+49,115,A,decl,205.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+51,92,B,dm,173.0,approve,"
+fine ",,,,punc,type,stop
+51,114,B,dm,203.0,approve,"
+lovely ",,,,punc,type,stop
+52,36,B,decl,64.0,approve,"
+that sounds fine ",decl,,positive,punc,type,stop
+53,20,B,decl,50.0,approve,"
+that's good ",decl,,positive,punc,type,stop
+53,54,B,decl,139.0,approve,"
+that's that's alright ",reassurance-decl-disflu,,positive,punc,type,stop
+54,86,B,decl,137.0,approve,"
+that's lovely ",decl,,positive,punc,type,stop
+55,26,B,dm,62.0,approve,"
+fine ",,,,punc,type,stop
+56,22,B,decl,49.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+58,22,B,decl,41.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,12,B,dm,26.0,approve,"
+",,,,pause,,
+59,12,B,dm,26.0,approve,"
+",,,,punc,type,stop
+59,18,B,dm,39.0,approve,"
+",,,,pause,,
+59,18,B,dm,39.0,approve,"
+",,,,punc,type,stop
+59,22,B,decl,49.0,approve,"
+that's good ",decl,,positive,punc,type,stop
+59,37,A,frag,79.0,approve,"
+that one will do fine ",reassurance-decl,number,positive,punc,type,stop
+59,47,A,decl,100.0,approve,"
+it's ok ",reassurance-tag-decl,,positive,punc,type,stop
+59,50,B,decl,117.0,approve,"
+that that's fine
+",reassurance-disflu,,positive,,,
+59,56,B,decl,132.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,60,B,decl,147.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,63,A,decl,156.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+59,94,B,decl,201.0,approve,"
+that's great ",decl,,positive,punc,type,stop
+61,56,B,decl,168.0,approve,"
+that's ",decl,,positive,overlap,type,start
+61,56,B,decl,168.0,approve,"
+that's ",decl,,positive,punc,type,stop
+62,42,B,dm,97.0,approve,"
+lovely ",,,,punc,type,stop
+62,46,B,dm,103.0,approve,"
+lovely ",,,,punc,type,stop
+63,112,B,dm,229.0,approve,"
+good ",,,,punc,type,stop
+63,123,A,decl,246.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+63,145,A,decl,279.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+63,148,B,decl,286.0,approve,"
+that's ok then ",reassurance-decl,,positive,punc,type,stop
+63,167,A,decl,309.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+64,18,B,dm,33.0,approve,"
+brilliant ",,,,punc,type,stop
+68,32,B,decl,50.0,approve,"
+",decl,,positive,overlap,type,end
+68,32,B,decl,50.0,approve,"
+",decl,,positive,punc,type,stop
+68,32,B,decl,51.0,approve,"
+that'd be great ",decl,,positive,punc,type,stop
+68,32,B,decl,52.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+68,36,B,decl,61.0,approve,"
+",reassurance-decl,,positive,overlap,type,end
+68,36,B,decl,61.0,approve,"
+",reassurance-decl,,positive,punc,type,stop
+68,36,B,decl,68.0,approve,"
+so that's great ",decl,,positive,punc,type,stop
+68,48,B,dm,91.0,approve,"
+lovely ",,,,punc,type,stop
+68,50,B,decl,98.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+68,116,B,decl,195.0,approve,"
+that's lovely then ",decl,,positive,punc,type,stop
+69,10,B,dm,20.0,approve,"
+fine ",,,,punc,type,stop
+70,22,B,decl,39.0,approve,"
+which is ",decl,,positive,overlap,type,start
+70,22,B,decl,39.0,approve,"
+which is ",decl,,positive,punc,type,stop
+70,58,B,dm,100.0,approve,"
+fine ",,,,punc,type,stop
+70,70,B,decl,129.0,approve,"
+that's fine  ",reassurance-decl,,positive,punc,type,stop
+70,94,B,decl,173.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+70,104,B,decl,188.0,approve,"
+",decl,,positive,pause,,
+70,104,B,decl,188.0,approve,"
+",decl,,positive,punc,type,stop
+70,118,B,dm,225.0,approve,"
+great ",,,,punc,type,stop
+70,120,B,decl,232.0,approve,"
+that's fine ",reassurance-decl,,positive,punc,type,stop
+70,122,B,dm,235.0,approve,"
+great ",,,,punc,type,stop
+70,148,B,dm,279.0,approve,"
+great ",,,,punc,type,stop
+70,172,B,dm,307.0,approve,"
+",,,,overlap,type,start
+70,172,B,dm,307.0,approve,"
+",,,,punc,type,stop
+70,174,B,dm,309.0,approve,"
+great ",,,,punc,type,stop

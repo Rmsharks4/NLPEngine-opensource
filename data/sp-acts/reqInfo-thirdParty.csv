@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+16,40,B,q-yn,73.0,reqInfo-thirdParty,"
+does Stephen actually smoke ",closure,,positive,pause,,
+16,40,B,q-yn,73.0,reqInfo-thirdParty,"
+does Stephen actually smoke ",closure,,positive,event,content,background voice says no

@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,82,B,q-wh,155.0,reqInfo-abandon,"
+",condition-open-abandon,time,positive,pause,,
+47,82,B,q-wh,155.0,reqInfo-abandon,"
+",condition-open-abandon,time,positive,pause,,
+47,82,B,q-wh,155.0,reqInfo-abandon,"
+",condition-open-abandon,time,positive,punc,type,incomplete

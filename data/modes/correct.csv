@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+58,85,A,decl,164.0,predict,"
+you'll be travelling in coach ",correct,journey,positive,anonym,type,letter
+58,85,A,decl,164.0,predict,"
+you'll be travelling in coach ",correct,journey,positive,anonym,type,alpha
+58,85,A,decl,164.0,predict,"
+you'll be travelling in coach ",correct,journey,positive,punct,type,level

@@ -1,0 +1,8 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+11,69,A,decl,133.0,unclassifiable,"
+if it is ",abandon-condition,,positive,pause,,
+17,34,B,frag,48.0,uninterpretable,"
+if erm ",abandon-condition,,positive,pause,length,3s
+34,38,B,decl,85.0,confirm,"
+if it is
+",abandon-condition,,positive,,,

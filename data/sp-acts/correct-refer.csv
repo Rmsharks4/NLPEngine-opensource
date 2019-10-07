@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+63,195,A,frag,351.0,correct-refer,"
+",correct-decl,,positive,anonym,type,letter
+63,195,A,frag,351.0,correct-refer,"
+",correct-decl,,positive,anonym,type,alpha
+63,195,A,frag,351.0,correct-refer,"
+",correct-decl,,positive,punc,type,stop

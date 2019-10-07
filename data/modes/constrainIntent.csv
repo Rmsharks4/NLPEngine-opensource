@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+22,38,B,decl,88.0,informIntent,"
+i'll have to check with my husband
+",constrainIntent,verify,positive,,,
+34,9,A,decl,16.0,informIntent,"
+i'll need to arrange for you to collect the tickets from the train station
+",constrainIntent,journey,positive,,,

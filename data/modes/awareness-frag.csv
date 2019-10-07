@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+61,40,B,dm,96.0,acknowledge,"
+i see ",awareness-frag,,positive,punc,type,level
+62,32,B,dm,72.0,expressAwareness,"
+i ",awareness-frag,,positive,pause,,
+62,32,B,dm,72.0,expressAwareness,"
+i ",awareness-frag,,positive,punc,type,level

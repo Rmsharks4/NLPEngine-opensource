@@ -1,0 +1,21 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,109,A,decl,178.0,state-refer,"
+it's 9 8 4 1 ",frag,enum,positive,punc,type,level
+40,109,A,decl,178.0,state-refer,"
+it's 9 8 4 1 ",frag,enum,positive,punc,type,level
+44,97,A,decl,201.0,state-refer,"
+it's 7 3 4 2 ",frag,enum,positive,punc,type,level
+48,21,A,decl,37.0,state-refer,"
+that's 6:53 from Durham ",frag,location-from-enum,positive,backchannel,content,mhm
+48,21,A,decl,37.0,state-refer,"
+that's 6:53 from Durham ",frag,location-from-enum,positive,punc,type,level
+48,71,A,decl,119.0,state-refer,"
+it's 50 percent refund less five pounds ",decl,fare-refund-number-enum,positive,punc,type,stop
+50,33,A,decl,69.0,state-refer,"
+it's 4 adults and 4 children with the family railcard discount ",decl,enum-railcard,positive,punc,type,stop
+64,43,A,decl,92.0,state-refer,"
+it's 19 pounds each for the Virgin Value fare ",decl,fare-enum,positive,punc,type,stop
+69,35,A,decl,94.0,state-refer,"
+it's 61 pounds 50 ",decl,fare-enum,positive,punc,type,stop
+69,43,A,decl,109.0,state-refer,"
+it's 70 pounds 50 ",decl,fare-enum,positive,punc,type,stop

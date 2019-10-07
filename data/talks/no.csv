@@ -1,0 +1,531 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,8,B,no,13.0,answ,"
+no
+",closure,,,,,
+2,6,B,no,9.0,answ,"
+no
+",closure,,,,,
+2,36,B,no,55.0,ackn,"
+no thank you
+",,,,,,
+3,6,B,no,9.0,answ,"
+no
+",closure,,,,,
+3,48,B,no,61.0,direct,"
+no
+",,,,,,
+3,96,B,no,125.0,direct,"
+er no
+",closure,,,,,
+4,12,B,no,22.0,answElab,"
+no
+",,,,,,
+4,26,B,no,60.0,confirm,"
+no
+",,,,,,
+4,27,A,no,62.0,ackn,"
+no
+",,,,,,
+4,64,B,no,144.0,ackn,"
+no no
+",,,,,,
+5,9,A,no,13.0,negate,"
+no
+",,,,,,
+5,11,A,no,16.0,confirm,"
+no
+",,,,,,
+5,12,B,no,17.0,echo,"
+no
+",,,,,,
+5,37,A,no,57.0,answElab,"
+no
+",,,,,,
+6,6,B,no,9.0,answ,"
+no
+",closure,,,,,
+6,30,B,no,44.0,direct,"
+no
+",closure,,,,,
+7,6,B,no,10.0,answ,"
+no
+",closure,,,,,
+8,8,B,no,11.0,answ,"
+no
+",closure,,,,,
+8,53,A,no,90.0,negate,"
+no
+",,,,,,
+9,18,B,no,35.0,answ,"
+no
+",closure,,,,,
+10,6,B,no,9.0,answ,"
+no
+",,,,,,
+11,4,B,no,8.0,answ,"
+no
+",,,,,,
+11,10,B,no,17.0,answ,"
+no
+",,,,,,
+11,21,A,no,35.0,answ,"
+no
+",closure,,,,,
+11,24,B,no,43.0,answ,"
+no
+",,,,,,
+12,53,A,no,81.0,answ,"
+",,,,pause,length,3s
+13,12,B,no,16.0,answ,"
+no
+",closure,,,,,
+13,47,A,no,69.0,negate,"
+no
+",,,,,,
+13,52,B,no,77.0,answ,"
+no
+",,,,,,
+13,57,A,no,84.0,answ,"
+no
+",,,,,,
+13,86,B,no,129.0,negate,"
+no
+",,,,,,
+13,120,B,no,171.0,negate,"
+no
+",,,,,,
+14,6,B,no,9.0,negate,"
+no
+",,,,,,
+14,16,B,no,27.0,answ,"
+no
+",closure,,,,,
+14,84,B,no,135.0,answ,"
+no
+",,,,,,
+14,89,A,no,147.0,negate,"
+no
+",,,,,,
+14,91,A,no,154.0,answ,"
+no
+",,,,,,
+15,28,B,no,54.0,negate,"
+no
+",,,,,,
+15,55,A,no,99.0,negate,"
+no no
+",,,,,,
+15,72,B,no,128.0,answ,"
+no
+",,,,,,
+16,12,B,no,19.0,answ,"
+no
+",closure,,,,,
+16,22,B,no,31.0,refuse,"
+no
+",,,,,,
+16,30,B,no,54.0,ackn,"
+no
+",,,,,,
+16,40,B,no,74.0,answ-thirdParty,"
+no
+",,,,,,
+17,10,B,no,13.0,answ,"
+no
+",,,,,,
+18,23,A,no,47.0,answ,"
+no
+",,,,,,
+18,27,A,no,57.0,answ,"
+no
+",,,,,,
+18,43,A,no,103.0,answ,"
+no
+",,,,,,
+18,44,B,no,104.0,echo,"
+no
+",,,,,,
+19,12,B,no,18.0,answ,"
+no
+",,,,,,
+20,15,A,no,26.0,negate,"
+no
+",,,,,,
+20,20,B,no,36.0,answ,"
+erm no
+",closure,,,,,
+21,14,B,no,24.0,refuse,"
+no
+",,,,,,
+21,16,B,no,30.0,answ,"
+no
+",,,,,,
+21,34,B,no,59.0,direct,"
+no
+",,,,,,
+22,8,B,no,12.0,answ,"
+no
+",closure,,,,,
+22,20,B,no,38.0,refuse,"
+no
+",,,,,,
+22,38,B,no,82.0,negate,"
+no
+",,,,,,
+23,8,B,no,11.0,answ,"
+no
+",closure,,,,,
+23,10,B,no,14.0,negate,"
+no
+",,,,,,
+23,24,B,no,37.0,negate,"
+no 
+",,,,,,
+23,38,B,no,60.0,negate,"
+no
+",,,,,,
+25,32,B,no,49.0,answ,"
+no
+",,,,,,
+26,28,B,no,52.0,ackn,"
+no
+",,,,,,
+27,10,B,no,16.0,answ,"
+er no
+",closure,,,,,
+27,11,A,no,17.0,echo,"
+no
+",,,,,,
+27,108,B,no,170.0,answ,"
+no
+",,,,,,
+28,6,B,no,13.0,negate,"
+no no
+",,,,,,
+28,6,B,no,14.0,negate,"
+no no
+",,,,,,
+28,82,B,no,149.0,negate,"
+no
+",,,,,,
+28,100,B,no,176.0,answ,"
+no
+",,,,,,
+28,120,B,no,202.0,answ,"
+no no no
+",closure,,,,,
+28,121,A,no,203.0,echo,"
+no
+",,,,,,
+28,122,B,no,204.0,negate,"
+no
+",,,,,,
+28,124,B,no,206.0,negate,"
+no
+",,,,,,
+28,147,A,no,238.0,answ,"
+no
+",,,,,,
+28,195,A,no,300.0,negate,"
+no
+",,,,,,
+28,226,B,no,336.0,negate,"
+no
+",,,,,,
+28,227,A,no,337.0,negate,"
+no
+",,,,,,
+29,20,B,no,31.0,answ,"
+no
+",,,,,,
+30,10,B,no,16.0,negate,"
+er no no
+",,,,,,
+30,20,B,no,33.0,answ,"
+no
+",closure,,,,,
+30,21,A,no,34.0,echo,"
+no
+",,,,,,
+30,22,B,no,35.0,ackn,"
+no
+",,,,,,
+32,26,B,no,44.0,answ,"
+no
+",closure,,,,,
+32,27,A,no,45.0,echo,"
+no
+",,,,,,
+33,20,B,no,23.0,answ,"
+no
+",,,,,,
+33,57,A,no,95.0,refuse,"
+no
+",,,,,,
+34,14,B,no,23.0,answ,"
+no
+",,,,,,
+34,29,A,no,64.0,ackn,"
+no
+",,,,,,
+34,39,A,no,86.0,negate,"
+no
+",,,,,,
+34,41,A,no,89.0,negate,"
+no
+",,,,,,
+34,55,A,no,126.0,answ,"
+no ",,,,overlap,type,end
+35,51,A,no,79.0,ackn,"
+no
+",,,,,,
+35,55,A,no,83.0,ackn,"
+no
+",,,,,,
+35,70,B,no,111.0,answ,"
+erm no
+",closure,,,,,
+35,71,A,no,112.0,echo,"
+no
+",,,,,,
+35,81,A,no,134.0,ackn,"
+no
+",,,,,,
+35,86,B,no,141.0,exclaim,"
+oh no
+",,,,,,
+36,8,B,no,15.0,answer-negate,"
+no ",,,,punc,type,stop
+37,6,B,no,11.0,answer-negate,"
+no ",,,,punc,type,stop
+37,36,B,no,61.0,answer-reject,"
+no thank you ",thank,,,punc,type,stop
+38,6,B,no,11.0,answer-negate,"
+no ",,,,punc,type,stop
+38,48,B,no,70.0,refuse,"
+no ",,,,punc,type,stop
+38,96,B,no,138.0,answer-negate,"
+er no ",,,,punc,type,stop
+39,12,B,no,24.0,elab-negate,"
+no ",,,,punc,type,stop
+39,27,A,no,65.0,elab-negate,"
+no ",,,,punc,type,stop
+39,60,B,no,148.0,negate,"
+no
+",,,,,,
+39,62,B,no,153.0,confirm-negate,"
+no ",,,,punc,type,stop
+39,62,B,no,154.0,elab-negate,"
+no
+",,,,,,
+40,6,B,no,11.0,answer-negate,"
+no ",,,,punc,type,stop
+40,48,B,no,70.0,refuse,"
+no ",,,,punc,type,stop
+40,96,B,no,138.0,answer-negate,"
+er no ",,,,punc,type,stop
+41,6,B,no,10.0,answer-negate,"
+no ",,,,punc,type,stop
+41,30,B,no,50.0,answer-negate,"
+no ",,,,punc,type,stop
+42,6,B,no,12.0,answer-negate,"
+no ",,,,punc,type,stop
+43,8,B,no,12.0,answer-negate,"
+no ",,,,punc,type,stop
+43,53,A,no,110.0,negate,"
+no ",,,,punc,type,stop
+44,8,B,no,19.0,elab-negate,"
+no ",,,,punc,type,stop
+44,18,B,no,45.0,answer-negate,"
+no ",,,,punc,type,stop
+45,6,B,no,12.0,answer-negate,"
+no ",,,,punc,type,stop
+46,4,B,no,11.0,direct-negate,"
+no ",,,,punc,type,stop
+46,10,B,no,20.0,answer-negate,"
+no ",,,,punc,type,level
+46,21,A,no,44.0,answer-negate,"
+no ",,,,punc,type,stop
+46,24,B,no,54.0,answer-negate,"
+no ",,,,punc,type,stop
+47,51,A,no,90.0,confirm-negate,"
+",,,,pause,length,3s
+47,51,A,no,90.0,confirm-negate,"
+",,,,punc,type,stop
+47,87,A,no,166.0,elab-negate,"
+no ",,,,punc,type,stop
+48,12,B,no,18.0,answer-negate,"
+no ",,,,punc,type,stop
+48,47,A,no,76.0,answer-negate,"
+no ",,,,punc,type,stop
+48,52,B,no,85.0,confirm--negate,"
+no ",,,,punc,type,stop
+48,57,A,no,92.0,answer-negate,"
+no ",,,,punc,type,stop
+48,86,B,no,146.0,negate,"
+no ",,,,punc,type,stop
+48,120,B,no,191.0,elab-negate,"
+",,,,pause,,
+48,120,B,no,191.0,elab-negate,"
+",,,,punc,type,stop
+49,6,B,no,11.0,negate,"
+no ",,,,punc,type,stop
+49,16,B,no,33.0,answer-negate,"
+no ",,,,punc,type,stop
+49,84,B,no,154.0,answer-negate,"
+no ",,,,punc,type,stop
+49,89,A,no,166.0,negate,"
+no ",,,,punc,type,stop
+49,91,A,no,174.0,answer-negate,"
+no ",,,,punc,type,stop
+50,28,B,no,56.0,negate,"
+no ",,,,punc,type,stop
+50,53,A,no,101.0,negate,"
+no ",,,,punc,type,stop
+50,53,A,no,102.0,elab-negate,"
+no ",,,,punc,type,stop
+50,70,B,no,133.0,answer-state,"
+no ",,,,punc,type,stop
+51,12,B,no,22.0,answer-negate,"
+no ",,,,punc,type,stop
+51,22,B,no,35.0,negate,"
+no ",,,,punc,type,stop
+51,30,B,no,59.0,negate,"
+no ",,,,punc,type,stop
+51,40,B,no,82.0,negate,"
+no ",,,,punc,type,stop
+52,10,B,no,17.0,answer-negate,"
+no ",,,,punc,type,stop
+53,21,A,no,52.0,answer-negate,"
+no ",,,,punc,type,stop
+53,25,A,no,64.0,answer-negate,"
+no ",,,,punc,type,stop
+53,41,A,no,117.0,confirm-negate,"
+no ",,,,punc,type,stop
+53,42,B,no,118.0,echo-negate,"
+no
+",,,,,,
+54,12,B,no,19.0,answer-negate,"
+no ",,,,punc,type,stop
+55,15,A,no,34.0,negate,"
+no ",,,,punc,type,stop
+55,20,B,no,45.0,answer-negate,"
+no ",,,,punc,type,stop
+56,14,B,no,27.0,negate,"
+no ",,,,punc,type,stop
+56,16,B,no,33.0,answer-negate,"
+no ",,,,punc,type,stop
+56,34,B,no,65.0,answer-negate,"
+no ",,,,punc,type,stop
+57,8,B,no,14.0,answer-negate,"
+no ",,,,punc,type,stop
+57,20,B,no,39.0,negate,"
+no ",,,,punc,type,stop
+57,38,B,no,86.0,negate,"
+no ",,,,punc,type,stop
+58,8,B,no,13.0,answer-negate,"
+no ",,,,punc,type,stop
+58,10,B,no,19.0,negate,"
+",,,,pause,,
+58,10,B,no,19.0,negate,"
+",,,,punc,type,stop
+58,24,B,no,48.0,negate,"
+",,,,pause,length,7s
+58,24,B,no,48.0,negate,"
+",,,,punc,type,stop
+58,38,B,no,72.0,refuse,"
+no ",,,,punc,type,stop
+60,30,B,no,53.0,answer-negate,"
+no ",,,,punc,type,stop
+61,28,B,no,63.0,confirm-negate,"
+no ",,,,punc,type,stop
+62,10,B,no,18.0,answer-negate,"
+no ",,,,punc,type,stop
+62,11,A,no,19.0,echo-negate,"
+no ",,,,punc,type,stop
+62,108,B,no,189.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,20.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,21.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,22.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,23.0,negate,"
+no ",,,,punc,type,stop
+63,82,B,no,180.0,answer-negate,"
+no ",,,,punc,type,stop
+63,100,B,no,214.0,answer-negate,"
+no ",,,,punc,type,stop
+63,120,B,no,241.0,answer-negate,"
+no ",,,,punc,type,stop
+63,120,B,no,242.0,elab-negate,"
+no ",,,,punc,type,stop
+63,120,B,no,243.0,negate,"
+no ",,,,punc,type,stop
+63,121,A,no,244.0,echo-reqConfirm,"
+no ",query,,,punc,type,query
+63,122,B,no,245.0,confirm-echo-negate,"
+no ",,,,punc,type,stop
+63,124,B,no,247.0,negate,"
+no ",,,,punc,type,stop
+63,147,A,no,282.0,negate,"
+no ",,,,punc,type,stop
+63,195,A,no,350.0,negate,"
+no ",,,,punc,type,stop
+63,227,A,no,390.0,answer-negate,"
+no ",,,,overlap,type,end
+63,227,A,no,390.0,answer-negate,"
+no ",,,,punc,type,stop
+63,227,A,no,391.0,elab-negate,"
+no ",,,,punc,type,stop
+64,20,B,no,36.0,answer-negate,"
+no ",,,,punc,type,stop
+65,10,B,no,16.0,reject,"
+er no ",,,,punc,type,stop
+65,10,B,no,17.0,elab-reject,"
+no ",,,,punc,type,stop
+65,20,B,no,33.0,answer-negate,"
+no ",,,,punc,type,stop
+65,21,A,no,34.0,echo-reqConfirm,"
+no ",query,,,punc,type,query
+65,22,B,no,35.0,echo-confirm-negate,"
+no ",,,,punc,type,stop
+67,26,B,no,44.0,answer-negate,"
+no ",,,,punc,type,stop
+67,27,A,no,45.0,echo-negate,"
+no ",,,,punc,type,stop
+67,31,A,no,51.0,negate,"
+no ",,,,punc,type,stop
+68,20,B,no,29.0,answer-negate,"
+no ",,,,punc,type,stop
+68,57,A,no,111.0,negate,"
+no ",,,,punc,type,stop
+69,14,B,no,29.0,answer-negate,"
+no ",,,,punc,type,stop
+69,14,B,no,31.0,negate,"
+no ",,,,punc,type,stop
+69,29,A,no,79.0,elab-negate,"
+no ",,,,punc,type,stop
+69,39,A,no,102.0,negate,"
+no ",,,,punc,type,stop
+69,41,A,no,105.0,confirm-negate,"
+no ",,,,punc,type,stop
+69,55,A,no,145.0,confirm-negate,"
+no ",,,,punc,type,stop
+69,55,A,no,146.0,elab-negate,"
+",,,,overlap,type,end
+69,55,A,no,146.0,elab-negate,"
+",,,,punc,type,stop
+70,49,A,no,83.0,confirm-negate,"
+no ",,,,punc,type,stop
+70,53,A,no,87.0,confirm-negate,"
+no ",,,,punc,type,stop
+70,68,B,no,121.0,answer-negate,"
+no ",,,,punc,type,stop
+70,69,A,no,122.0,echo-negate,"
+no ",,,,punc,type,stop
+70,79,A,no,144.0,answer-negate,"
+no ",,,,punc,type,stop
+70,84,B,no,153.0,negate-exclaim,"
+no ",,,,punc,type,stop

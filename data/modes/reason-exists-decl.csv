@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+49,34,B,decl,68.0,stateReason,"
+because i've got somebody meeting me there ",reason-exists-decl,location,positive,punc,type,stop

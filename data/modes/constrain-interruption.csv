@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,19,A,decl,32.0,stateConstraint-abandon,"
+the only trai... ",constrain-interruption,,positive,punc,type,incomplete
+49,87,A,decl,159.0,stateConstraint-abandon,"
+you need a letter of authorisation then from ",constrain-interruption,,positive,punc,type,level
+53,112,B,decl,251.0,state-abandon,"
+",constrain-interruption,time,positive,pause,,
+53,112,B,decl,251.0,state-abandon,"
+",constrain-interruption,time,positive,punc,type,incomplete

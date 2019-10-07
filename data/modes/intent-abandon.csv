@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+44,27,A,decl,68.0,state-abandon,"
+what i'm going to do is ",intent-abandon,,positive,punc,type,incomplete

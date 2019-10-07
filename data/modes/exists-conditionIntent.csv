@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+20,2,B,decl,6.0,reqInfo,"
+i want to know if there's any cheap tickets still available from Euston to Manchester ",exists-conditionIntent,location-to-preference-from-avail-fare-journey,positive,pause,length,2s
+20,2,B,decl,6.0,reqInfo,"
+i want to know if there's any cheap tickets still available from Euston to Manchester ",exists-conditionIntent,location-to-preference-from-avail-fare-journey,positive,overlap,type,start

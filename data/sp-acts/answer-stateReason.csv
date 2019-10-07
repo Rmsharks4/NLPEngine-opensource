@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,69,A,decl,121.0,answer-stateReason,"
+because you're ticket's going to stay at Watford ",reason-decl,location-journey-time,positive,punc,type,stop
+47,79,A,decl,144.0,answer-stateReason,"
+cos the last direct direct service ",reason-decl,from-enum,positive,pause,,
+47,79,A,decl,144.0,answer-stateReason,"
+cos the last direct direct service ",reason-decl,from-enum,positive,punc,type,stop

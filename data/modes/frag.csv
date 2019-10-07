@@ -1,0 +1,1475 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,29,A,frag,52.0,refer,"
+then on the return ",frag,fare,positive,punc,type,level
+36,33,A,decl,68.0,state,"
+you're travelling from Birmingham New Street at 7:33 ",frag,location-journey-time-from,positive,punc,type,level
+36,56,B,frag,110.0,refer,"
+1 3 5 ",frag,enum,positive,punc,type,level
+36,64,B,frag,121.0,elab-refer,"
+number 2 5 9 ",frag,enum-number,positive,punc,type,level
+36,65,A,frag,122.0,echo-refer,"
+2 5 9 ",frag,enum,positive,punc,type,level
+36,66,B,frag,123.0,refer,"
+5 3 1 ",frag,enum,positive,punc,type,level
+36,67,A,frag,124.0,echo-refer,"
+5 3 1 ",frag,enum,positive,punc,type,level
+36,68,B,frag,125.0,refer,"
+1 5 1 ",frag,enum,positive,punc,type,level
+36,69,A,frag,126.0,echo-refer,"
+1 5 1 ",frag,enum,positive,punc,type,level
+36,70,B,frag,127.0,refer,"
+8 6 1 ",frag,enum,positive,punc,type,level
+36,71,A,frag,128.0,echo-refer,"
+8 6 1 ",frag,enum,positive,punc,type,level
+36,72,B,frag,129.0,refer,"
+9 1 1 ",frag,enum,positive,punc,type,level
+36,73,A,frag,130.0,echo-refer,"
+9 1 1 ",frag,enum,positive,punc,type,level
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,pause,,
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+36,81,A,decl,140.0,refer,"
+it's ",frag,,positive,punc,type,level
+38,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+38,19,A,decl,29.0,state,"
+the train going out on Saturday the trains run at 8 minutes to the hour ",frag,time-enum-day,positive,punc,type,level
+38,25,A,frag,36.0,state,"
+",frag,enum-departure,positive,pause,length,3s
+38,25,A,frag,36.0,state,"
+",frag,enum-departure,positive,punc,type,level
+38,60,B,decl,89.0,state,"
+it's 0 1 5 0 5 ",frag,enum,positive,punc,type,level
+38,64,B,frag,97.0,refer,"
+8 4 1 ",frag,enum,positive,punc,type,level
+38,65,A,frag,98.0,echo-refer,"
+8 4 1 ",frag,enum,positive,punc,type,level
+38,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+38,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+38,68,B,frag,102.0,answer-refer,"
+",frag,,positive,punc,type,level
+38,72,B,decl,107.0,state,"
+it's 94 ",frag,enum-address,positive,anonym,type,street
+38,72,B,decl,107.0,state,"
+it's 94 ",frag,enum-address,positive,punc,type,level
+38,76,B,decl,114.0,answer-state,"
+it's 9 9 ",frag,enum,positive,punc,type,level
+38,77,A,frag,115.0,echo-refer,"
+9 9 ",frag,enum,positive,punc,type,level
+38,78,B,frag,116.0,refer,"
+9 0 ",frag,enum,positive,punc,type,level
+38,79,A,frag,117.0,echo-refer,"
+9 0 ",frag,enum,positive,punc,type,level
+38,80,B,frag,118.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+38,81,A,frag,119.0,echo-refer,"
+4 8 ",frag,enum,positive,punc,type,level
+38,82,B,frag,120.0,refer,"
+1 6 ",frag,enum,positive,punc,type,level
+38,83,A,frag,121.0,echo-refer,"
+1 6 ",frag,enum,positive,punc,type,level
+38,84,B,frag,122.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+38,85,A,frag,123.0,echo-refer,"
+4 8 ",frag,enum,positive,punc,type,level
+38,86,B,frag,124.0,refer,"
+6 5 ",frag,enum,positive,punc,type,level
+38,87,A,frag,125.0,echo-refer,"
+6 5 ",frag,enum,positive,punc,type,level
+38,88,B,frag,126.0,refer,"
+8 9 ",frag,enum,positive,punc,type,level
+38,89,A,frag,127.0,echo-refer,"
+8 9 ",frag,enum,positive,punc,type,level
+38,97,A,frag,140.0,refer,"
+the 9:52 train on Saturday morning ",frag,time-enum-day,positive,punc,type,level
+38,100,B,frag,151.0,refer,"
+9:32 ",frag,,positive,punc,type,level
+38,107,A,decl,169.0,state,"
+and you cancel by 2 o'clock the day before travel ",frag,time-journey-enum-day-cancel,positive,punc,type,level
+38,109,A,decl,178.0,state-refer,"
+it's 9 8 4 1 ",frag,enum,positive,punc,type,level
+38,110,B,frag,179.0,echo-refer,"
+9 8 4 1 ",frag,enum,positive,punc,type,level
+38,111,A,frag,180.0,refer,"
+1 1 8 8 ",frag,enum,positive,punc,type,level
+38,112,B,frag,181.0,echo-refer,"
+1 1 8 8 ",frag,enum,positive,punc,type,level
+39,14,B,frag,27.0,refer,"
+saying ",frag,,positive,punc,type,level
+39,41,A,decl,91.0,elab-state,"
+that's the 8th of October ",frag,month-date,positive,punc,type,level
+39,56,B,decl,137.0,reqConfirm,"
+i leave at 5 o'clock ",frag,time-enum-departure,positive,punc,type,level
+39,72,B,frag,177.0,answer-refer,"
+0 1 0 6 ",frag,enum,positive,punc,type,level
+39,74,B,frag,179.0,refer,"
+6 0 7 ",frag,enum,positive,punc,type,level
+39,78,B,frag,183.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+39,78,B,frag,183.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+39,82,B,frag,187.0,refer,"
+70 ",frag,enum,positive,anonym,type,street
+39,82,B,frag,187.0,refer,"
+70 ",frag,enum,positive,punc,type,level
+39,82,B,frag,188.0,refer,"
+",frag,,positive,anonym,type,street
+39,82,B,frag,188.0,refer,"
+",frag,,positive,punc,type,level
+39,82,B,frag,189.0,refer,"
+Prescott ",frag,,positive,punc,type,level
+39,88,B,frag,197.0,refer,"
+0 0 7 2 ",frag,enum,positive,punc,type,level
+39,89,A,frag,198.0,echo-refer,"
+0 0 7 2 ",frag,enum,positive,punc,type,level
+39,90,B,frag,199.0,refer,"
+4 0 double 2 ",frag,enum,positive,punc,type,level
+39,91,A,frag,200.0,echo-refer,"
+4 0 double 2 ",frag,enum,positive,punc,type,level
+39,92,B,frag,201.0,refer,"
+0 5 1 5 ",frag,enum,positive,punc,type,level
+39,93,A,frag,202.0,echo-refer,"
+0 5 1 5 ",frag,enum,positive,punc,type,level
+39,99,A,decl,213.0,state,"
+",frag,,positive,pause,,
+39,99,A,decl,213.0,state,"
+",frag,,positive,anonym,type,letter
+39,99,A,decl,213.0,state,"
+",frag,,positive,anonym,type,alpha
+39,99,A,decl,213.0,state,"
+",frag,,positive,anonym,type,letter
+39,99,A,decl,213.0,state,"
+",frag,,positive,anonym,type,alpha
+39,99,A,decl,213.0,state,"
+",frag,,positive,punc,type,level
+39,101,A,frag,215.0,refer,"
+",frag,,positive,anonym,type,letter
+39,101,A,frag,215.0,refer,"
+",frag,,positive,anonym,type,alpha
+39,101,A,frag,215.0,refer,"
+",frag,,positive,punc,type,level
+39,108,B,frag,223.0,refer,"
+",frag,,positive,anonym,type,letter
+39,108,B,frag,223.0,refer,"
+",frag,,positive,anonym,type,letter
+39,108,B,frag,223.0,refer,"
+",frag,,positive,anonym,type,letter
+39,108,B,frag,223.0,refer,"
+",frag,,positive,punc,type,level
+40,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+40,19,A,decl,29.0,state,"
+the train going out on Saturday the trains run at 8 minutes to the hour ",frag,time-enum-day,positive,punc,type,level
+40,25,A,frag,36.0,state,"
+",frag,enum-departure,positive,pause,length,3s
+40,25,A,frag,36.0,state,"
+",frag,enum-departure,positive,punc,type,level
+40,60,B,decl,89.0,state,"
+it's 0 1 5 0 5 ",frag,enum,positive,punc,type,level
+40,64,B,frag,97.0,refer,"
+8 4 1 ",frag,enum,positive,punc,type,level
+40,65,A,frag,98.0,echo-refer,"
+8 4 1 ",frag,enum,positive,punc,type,level
+40,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+40,68,B,frag,102.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+40,68,B,frag,102.0,answer-refer,"
+",frag,,positive,punc,type,level
+40,72,B,decl,107.0,state,"
+it's 94 ",frag,enum-address,positive,anonym,type,street
+40,72,B,decl,107.0,state,"
+it's 94 ",frag,enum-address,positive,punc,type,level
+40,76,B,decl,114.0,answer-state,"
+it's 9 9 ",frag,enum,positive,punc,type,level
+40,77,A,frag,115.0,echo-refer,"
+9 9 ",frag,enum,positive,punc,type,level
+40,78,B,frag,116.0,refer,"
+9 0 ",frag,enum,positive,punc,type,level
+40,79,A,frag,117.0,echo-refer,"
+9 0 ",frag,enum,positive,punc,type,level
+40,80,B,frag,118.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+40,81,A,frag,119.0,echo-refer,"
+4 8 ",frag,enum,positive,punc,type,level
+40,82,B,frag,120.0,refer,"
+1 6 ",frag,enum,positive,punc,type,level
+40,83,A,frag,121.0,echo-refer,"
+1 6 ",frag,enum,positive,punc,type,level
+40,84,B,frag,122.0,refer,"
+4 8 ",frag,enum,positive,punc,type,level
+40,85,A,frag,123.0,echo-refer,"
+4 8 ",frag,enum,positive,punc,type,level
+40,86,B,frag,124.0,refer,"
+6 5 ",frag,enum,positive,punc,type,level
+40,87,A,frag,125.0,echo-refer,"
+6 5 ",frag,enum,positive,punc,type,level
+40,88,B,frag,126.0,refer,"
+8 9 ",frag,enum,positive,punc,type,level
+40,89,A,frag,127.0,echo-refer,"
+8 9 ",frag,enum,positive,punc,type,level
+40,97,A,frag,140.0,refer,"
+the 9:52 train on Saturday morning ",frag,time-enum-day,positive,punc,type,level
+40,100,B,frag,151.0,refer,"
+9:32 ",frag,,positive,punc,type,level
+40,107,A,decl,169.0,state,"
+and you cancel by 2 o'clock the day before travel ",frag,time-journey-enum-day-cancel,positive,punc,type,level
+40,109,A,decl,178.0,state-refer,"
+it's 9 8 4 1 ",frag,enum,positive,punc,type,level
+40,110,B,frag,179.0,echo-refer,"
+9 8 4 1 ",frag,enum,positive,punc,type,level
+40,111,A,frag,180.0,refer,"
+1 1 8 8 ",frag,enum,positive,punc,type,level
+40,112,B,frag,181.0,echo-refer,"
+1 1 8 8 ",frag,enum,positive,punc,type,level
+41,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+41,25,A,decl,40.0,state,"
+it's the 14:19 from Preston ",frag,location-from-enum,positive,punc,type,level
+41,25,A,decl,42.0,state,"
+that's on the 9th of October ",frag,month-date,positive,backchannel,content,yeah
+41,25,A,decl,42.0,state,"
+that's on the 9th of October ",frag,month-date,positive,punc,type,level
+41,40,B,frag,66.0,refer,"
+0 1 double 4 8 ",frag,enum,positive,punc,type,level
+41,42,B,frag,68.0,refer,"
+3 3 4 ",frag,enum,positive,punc,type,level
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+41,46,B,frag,72.0,answer-refer,"
+",frag,,positive,punc,type,level
+41,56,B,frag,89.0,refer,"
+7 4 4 ",frag,enum,positive,punc,type,level
+41,57,A,frag,90.0,echo-refer,"
+7 4 4 ",frag,enum,positive,punc,type,level
+41,58,B,frag,91.0,refer,"
+0 8 4 ",frag,enum,positive,punc,type,level
+41,59,A,frag,92.0,echo-refer,"
+0 8 4 ",frag,enum,positive,punc,type,level
+41,60,B,frag,93.0,refer,"
+4 4 8 4 ",frag,enum,positive,punc,type,level
+41,61,A,frag,94.0,echo-refer,"
+4 4 8 4 ",frag,enum,positive,punc,type,level
+41,62,B,frag,95.0,refer,"
+8 8 4 8 ",frag,enum,positive,punc,type,level
+41,63,A,frag,96.0,echo-refer,"
+8 8 4 8 ",frag,enum,positive,punc,type,level
+41,70,B,frag,106.0,refer,"
+7 4 4 ",frag,enum,positive,punc,type,level
+41,71,A,frag,107.0,echo-refer,"
+7 4 4 ",frag,enum,positive,punc,type,level
+41,72,B,frag,108.0,refer,"
+0 8 4 ",frag,enum,positive,punc,type,level
+41,73,A,frag,109.0,echo-refer,"
+0 8 4 ",frag,enum,positive,punc,type,level
+41,74,B,frag,110.0,refer,"
+4 4 8 4 ",frag,enum,positive,punc,type,level
+41,75,A,frag,111.0,echo-refer,"
+4 4 8 4 ",frag,enum,positive,punc,type,level
+41,76,B,frag,112.0,refer,"
+8 8 4 8 ",frag,enum,positive,punc,type,level
+41,77,A,frag,113.0,echo-refer,"
+8 8 4 8 ",frag,enum,positive,punc,type,level
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,letter
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,anonym,type,alpha
+41,83,A,decl,123.0,refer,"
+it's ",frag,,positive,punc,type,level
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,letter
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,alpha
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,letter
+41,85,A,frag,125.0,refer,"
+",frag,,positive,anonym,type,alpha
+41,85,A,frag,125.0,refer,"
+",frag,,positive,punc,type,level
+42,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+42,44,B,frag,80.0,answer-state,"
+is 0 1 9 8 0 ",frag,enum,positive,punc,type,level
+42,54,B,frag,94.0,refer,"
+79 ",frag,enum-address,positive,anonym,type,street
+42,54,B,frag,94.0,refer,"
+79 ",frag,enum-address,positive,punc,type,level
+42,54,B,frag,95.0,refer,"
+Coxhoe ",frag,,positive,punc,type,level
+42,60,B,decl,103.0,state,"
+it's 1 1 double 9 ",frag,enum,positive,punc,type,level
+42,61,A,frag,104.0,echo-refer,"
+1 1 double 9 ",frag,enum,positive,punc,type,level
+42,62,B,frag,105.0,refer,"
+5 0 double 5 ",frag,enum,positive,punc,type,level
+42,63,A,frag,106.0,echo-refer,"
+5 0 double 5 ",frag,enum,positive,punc,type,level
+42,64,B,frag,107.0,refer,"
+0 800 ",frag,enum,positive,punc,type,level
+42,65,A,frag,108.0,echo-refer,"
+0 800 ",frag,enum,positive,punc,type,level
+42,71,A,frag,117.0,refer,"
+5 1 1 ",frag,enum,positive,punc,type,level
+42,72,B,frag,118.0,echo-refer,"
+5 1 1 ",frag,enum,positive,punc,type,level
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,letter
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,alpha
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,letter
+42,73,A,frag,119.0,refer,"
+",frag,,positive,anonym,type,alpha
+42,73,A,frag,119.0,refer,"
+",frag,,positive,punc,type,level
+42,75,A,decl,121.0,refer,"
+the number 1 ",frag,number,positive,punc,type,level
+42,75,A,frag,122.0,refer,"
+",frag,,positive,anonym,type,letter
+42,75,A,frag,122.0,refer,"
+",frag,,positive,anonym,type,alpha
+42,75,A,frag,122.0,refer,"
+",frag,,positive,punc,type,level
+43,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+43,35,A,decl,71.0,state,"
+",frag,,positive,pause,length,5s
+43,35,A,decl,71.0,state,"
+",frag,,positive,anonym,type,letter
+43,35,A,decl,71.0,state,"
+",frag,,positive,anonym,type,alpha
+43,35,A,decl,71.0,state,"
+",frag,,positive,punc,type,level
+43,54,B,frag,113.0,refer,"
+",frag,enum,positive,anonym,type,letter
+43,54,B,frag,113.0,refer,"
+",frag,enum,positive,punc,type,level
+43,55,A,frag,114.0,echo-refer,"
+",frag,enum,positive,anonym,type,letter
+43,55,A,frag,114.0,echo-refer,"
+",frag,enum,positive,punc,type,level
+43,62,B,frag,126.0,refer,"
+",frag,,positive,anonym,type,street
+43,62,B,frag,126.0,refer,"
+",frag,,positive,punc,type,level
+43,64,B,frag,131.0,answer-refer,"
+0 1 9 4 4 ",frag,enum,positive,punc,type,level
+43,70,B,frag,140.0,refer,"
+8 4 9 7 ",frag,enum,positive,punc,type,level
+43,71,A,frag,141.0,echo-refer,"
+8 4 9 7 ",frag,enum,positive,punc,type,level
+43,72,B,frag,142.0,refer,"
+9 8 4 ",frag,enum,positive,punc,type,level
+43,73,A,frag,143.0,echo-refer,"
+9 8 4 ",frag,enum,positive,punc,type,level
+43,74,B,frag,144.0,refer,"
+4 4 4 ",frag,enum,positive,punc,type,level
+43,75,A,frag,145.0,echo-refer,"
+4 4 4 ",frag,enum,positive,punc,type,level
+43,76,B,frag,146.0,refer,"
+7 1 4 ",frag,enum,positive,punc,type,level
+43,77,A,frag,147.0,echo-refer,"
+7 1 4 ",frag,enum,positive,punc,type,level
+43,81,A,decl,159.0,state,"
+and it's 4 4 2 1 ",frag,enum,positive,punc,type,level
+43,84,B,frag,163.0,refer,"
+4 4 2 1 ",frag,enum,positive,punc,type,level
+43,84,B,frag,164.0,refer,"
+",frag,enum,positive,pause,,
+43,84,B,frag,164.0,refer,"
+",frag,enum,positive,punc,type,level
+44,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+44,10,B,frag,26.0,state,"
+trying to work that out ",frag,problem,positive,punc,type,level
+44,23,A,decl,56.0,state,"
+that is the same price ",frag,,positive,punc,type,level
+44,39,A,decl,94.0,state,"
+the name comes up ",frag,name,positive,punc,type,level
+44,45,A,decl,107.0,state,"
+",frag,,negative,pause,length,2s
+44,45,A,decl,107.0,state,"
+",frag,,negative,punc,type,level
+44,59,A,decl,133.0,reqConfirm,"
+",frag,enum-departure,positive,pause,length,11s
+44,59,A,decl,133.0,reqConfirm,"
+",frag,enum-departure,positive,punc,type,level
+44,68,B,decl,148.0,state,"
+it's 15 2 54 ",frag,enum,positive,anonym,type,street
+44,68,B,decl,148.0,state,"
+it's 15 2 54 ",frag,enum,positive,punc,type,level
+44,72,B,frag,158.0,refer,"
+0 1 3 2 ",frag,enum,positive,punc,type,level
+44,73,A,frag,159.0,echo-refer,"
+0 1 3 2 ",frag,enum,positive,punc,type,level
+44,74,B,frag,160.0,refer,"
+8 5 7 ",frag,enum,positive,punc,type,level
+44,75,A,frag,161.0,echo-refer,"
+8 5 7 ",frag,enum,positive,punc,type,level
+44,78,B,frag,165.0,answer-state,"
+is 7 2 7 2 ",frag,enum,positive,punc,type,level
+44,79,A,frag,166.0,echo-refer,"
+7 2 7 2 ",frag,enum,positive,punc,type,level
+44,80,B,frag,167.0,refer,"
+8 9 8 2 ",frag,enum,positive,punc,type,level
+44,81,A,frag,168.0,echo-refer,"
+8 9 8 2 ",frag,enum,positive,punc,type,level
+44,82,B,frag,169.0,refer,"
+2 7 3 6 ",frag,enum,positive,punc,type,level
+44,83,A,frag,170.0,echo-refer,"
+2 7 3 6 ",frag,enum,positive,punc,type,level
+44,97,A,decl,201.0,state-refer,"
+it's 7 3 4 2 ",frag,enum,positive,punc,type,level
+44,98,B,frag,202.0,echo-refer,"
+7 3 4 2 ",frag,enum,positive,punc,type,level
+44,99,A,frag,203.0,refer,"
+2 2 8 8 ",frag,enum,positive,punc,type,level
+44,100,B,frag,204.0,echo-refer,"
+2 2 8 8 ",frag,enum,positive,punc,type,level
+44,103,A,imp,209.0,direct,"
+show your credit card ",frag,creditcard,positive,punc,type,level
+45,1,A,frag,2.0,refer,"
+Virgin trainlines ",frag,,positive,punc,type,level
+45,19,A,frag,36.0,state,"
+arriving at 19:48 ",frag,time-arrival,positive,punc,type,level
+45,35,A,frag,68.0,state,"
+to get an advance purchase ticket ",frag,fare-journey,positive,punc,type,level
+46,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+46,2,B,frag,7.0,refer,"
+a Super Saver Value ",frag,fare,positive,punc,type,level
+46,25,A,frag,57.0,echo,"
+7:15 ",frag,,positive,punc,type,level
+46,36,B,frag,81.0,refer,"
+evening ",frag,time,positive,punc,type,level
+46,39,A,decl,90.0,reqConfirm,"
+the 10:35 ",frag,,positive,punc,type,level
+46,54,B,frag,121.0,answer-refer,"
+0 1 4 0 ",frag,enum,positive,punc,type,level
+46,65,A,decl,139.0,state,"
+you'll be travelling in coach ",frag,journey,positive,anonym,type,letter
+46,65,A,decl,139.0,state,"
+you'll be travelling in coach ",frag,journey,positive,anonym,type,alpha
+46,65,A,decl,139.0,state,"
+you'll be travelling in coach ",frag,journey,positive,punc,type,level
+46,67,A,decl,152.0,state,"
+so once you get off at Birmingham ",frag,number-location-time,positive,punc,type,level
+46,76,B,frag,168.0,answer-refer,"
+3 1 6 1 ",frag,enum,positive,punc,type,level
+46,77,A,frag,169.0,echo-refer,"
+3 1 6 1 ",frag,enum,positive,punc,type,level
+46,78,B,frag,170.0,refer,"
+5 3 6 ",frag,enum,positive,punc,type,level
+46,79,A,frag,171.0,echo-refer,"
+5 3 6 ",frag,enum,positive,punc,type,level
+46,80,B,frag,172.0,refer,"
+3 6 0 ",frag,enum,positive,punc,type,level
+46,81,A,frag,173.0,echo-refer,"
+3 6 0 ",frag,enum,positive,punc,type,level
+46,87,A,decl,182.0,state,"
+it's 2 1 2 0 ",frag,enum,positive,punc,type,level
+46,88,B,frag,183.0,echo-refer,"
+2 1 2 0 ",frag,enum,positive,punc,type,level
+47,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+47,87,A,frag,165.0,confirm,"
+not for the Super Advance ",frag,fare,negative,punc,type,level
+47,89,A,frag,169.0,state,"
+to get the 19:00 train ",frag,enum,positive,backchannel,content,yes
+47,89,A,frag,169.0,state,"
+to get the 19:00 train ",frag,enum,positive,punc,type,level
+47,91,A,frag,175.0,hold,"
+just check ",frag,verify,positive,punc,type,level
+47,91,A,decl,177.0,state,"
+",frag,time-departure,positive,pause,,
+47,91,A,decl,177.0,state,"
+",frag,time-departure,positive,backchannel,content,h
+47,91,A,decl,177.0,state,"
+",frag,time-departure,positive,punc,type,level
+47,95,A,decl,191.0,state,"
+",frag,booking-number,positive,pause,,
+47,95,A,decl,191.0,state,"
+",frag,booking-number,positive,punc,type,level
+47,109,A,frag,217.0,answer-refer,"
+",frag,,positive,pause,length,10s
+47,109,A,frag,217.0,answer-refer,"
+",frag,,positive,punc,type,level
+47,111,A,frag,224.0,refer,"
+",frag,fare-day,positive,pause,,
+47,111,A,frag,224.0,refer,"
+",frag,fare-day,positive,punc,type,level
+47,117,A,frag,235.0,state,"
+that going out ",frag,,positive,punc,type,level
+47,128,B,frag,259.0,refer,"
+0 1 4 7 ",frag,enum,positive,punc,type,level
+47,129,A,frag,260.0,echo-refer,"
+0 1 4 7 ",frag,enum,positive,punc,type,level
+47,130,B,frag,261.0,refer,"
+8 ",frag,enum,positive,punc,type,level
+47,130,B,frag,263.0,refer,"
+8 8 4 ",frag,enum,positive,punc,type,level
+47,131,A,frag,264.0,echo-refer,"
+8 8 4 ",frag,enum,positive,punc,type,level
+47,142,B,frag,275.0,answer-state,"
+is 9 4 7 1 ",frag,enum,positive,punc,type,level
+47,143,A,frag,276.0,echo-refer,"
+9 4 7 1 ",frag,enum,positive,punc,type,level
+47,144,B,frag,277.0,refer,"
+8 0 9 0 ",frag,enum,positive,punc,type,level
+47,145,A,frag,278.0,echo-refer,"
+8 0 9 0 ",frag,enum,positive,punc,type,level
+47,146,B,frag,279.0,refer,"
+1 1 0 7 ",frag,enum,positive,punc,type,level
+47,147,A,frag,280.0,echo-refer,"
+1 1 0 7 ",frag,enum,positive,punc,type,level
+47,153,A,decl,292.0,state,"
+and ",frag,booking-number,positive,pause,,
+47,153,A,decl,292.0,state,"
+and ",frag,booking-number,positive,punc,type,level
+47,157,A,decl,296.0,direct-state,"
+and you just ",frag,booking-number,positive,pause,,
+47,157,A,decl,296.0,direct-state,"
+and you just ",frag,booking-number,positive,punc,type,level
+47,157,A,imp,297.0,direct,"
+show your credit card ",frag,creditcard,positive,punc,type,level
+48,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+48,21,A,decl,37.0,state-refer,"
+that's 6:53 from Durham ",frag,location-from-enum,positive,backchannel,content,mhm
+48,21,A,decl,37.0,state-refer,"
+that's 6:53 from Durham ",frag,location-from-enum,positive,punc,type,level
+48,30,B,frag,52.0,refer,"
+19:09 ",frag,,positive,punc,type,level
+48,63,A,decl,103.0,state,"
+it's Wednesday the 28th of October ",frag,month-date-day,positive,backchannel,content,mhm
+48,63,A,decl,103.0,state,"
+it's Wednesday the 28th of October ",frag,month-date-day,positive,punc,type,level
+48,63,A,frag,105.0,state,"
+arriving at 10:11 ",frag,time-arrival,positive,backchannel,content,aha
+48,63,A,frag,105.0,state,"
+arriving at 10:11 ",frag,time-arrival,positive,punc,type,level
+48,63,A,frag,106.0,state,"
+returning the same day at 19:09 in the evening ",frag,time-enum-day-return,positive,backchannel,content,mhm
+48,63,A,frag,106.0,state,"
+returning the same day at 19:09 in the evening ",frag,time-enum-day-return,positive,punc,type,level
+48,92,B,frag,156.0,answer-refer,"
+0 1 8 double 6 ",frag,enum,positive,punc,type,level
+48,94,B,frag,158.0,refer,"
+6 0 6 ",frag,enum,positive,punc,type,level
+48,100,B,decl,165.0,state,"
+it's 33 ",frag,enum,positive,anonym,type,street
+48,100,B,decl,165.0,state,"
+it's 33 ",frag,enum,positive,punc,type,level
+48,100,B,frag,166.0,refer,"
+Willington ",frag,location,positive,punc,type,level
+48,100,B,frag,167.0,refer,"
+",frag,,positive,pause,,
+48,100,B,frag,167.0,refer,"
+",frag,,positive,punc,type,level
+48,110,B,frag,180.0,answer-refer,"
+8 6 0 6 ",frag,enum,positive,punc,type,level
+48,111,A,frag,181.0,echo-refer,"
+8 6 0 6 ",frag,enum,positive,punc,type,level
+48,112,B,frag,182.0,refer,"
+9 8 0 ",frag,enum,positive,punc,type,level
+48,113,A,frag,183.0,echo-refer,"
+9 8 0 ",frag,enum,positive,punc,type,level
+48,114,B,frag,184.0,refer,"
+3 0 8 ",frag,enum,positive,punc,type,level
+48,115,A,frag,185.0,echo-refer,"
+3 0 8 ",frag,enum,positive,punc,type,level
+48,120,B,decl,190.0,answer-state,"
+it's the 2nd 98 ",frag,,positive,punc,type,level
+48,122,B,frag,198.0,refer,"
+8 6 0 6 ",frag,enum,positive,punc,type,level
+48,123,A,frag,199.0,echo-refer,"
+8 6 0 6 ",frag,enum,positive,punc,type,level
+48,124,B,frag,200.0,refer,"
+9 8 0 ",frag,enum,positive,punc,type,level
+48,125,A,frag,201.0,echo-refer,"
+9 8 0 ",frag,enum,positive,punc,type,level
+48,126,B,frag,202.0,refer,"
+3 0 8 ",frag,enum,positive,punc,type,level
+48,127,A,frag,203.0,echo-refer,"
+3 0 8 ",frag,enum,positive,punc,type,level
+49,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+49,25,A,decl,43.0,refer,"
+the 11:15 ",frag,,positive,punc,type,level
+49,25,A,decl,45.0,state,"
+you depart Birmingham New Street at 13:18 ",frag,location-time,positive,backchannel,content,yep
+49,25,A,decl,45.0,state,"
+you depart Birmingham New Street at 13:18 ",frag,location-time,positive,punc,type,level
+49,25,A,decl,48.0,state,"
+the next train departs at 15:26 ",frag,time,positive,punc,type,level
+49,76,B,frag,143.0,answer-state,"
+is 0 1 5 8 ",frag,enum,positive,punc,type,level
+49,78,B,frag,145.0,refer,"
+8 1 5 ",frag,enum,positive,punc,type,level
+49,96,B,frag,185.0,refer,"
+",frag,enum,positive,anonym,type,letter
+49,96,B,frag,185.0,refer,"
+",frag,enum,positive,punc,type,level
+49,118,B,frag,214.0,refer,"
+1 7 8 7 ",frag,enum,positive,punc,type,level
+49,119,A,frag,215.0,echo-refer,"
+1 7 8 7 ",frag,enum,positive,punc,type,level
+49,120,B,frag,216.0,refer,"
+7 7 8 8 ",frag,enum,positive,punc,type,level
+49,121,A,frag,217.0,echo-refer,"
+7 7 8 8 ",frag,enum,positive,punc,type,level
+49,122,B,frag,218.0,refer,"
+5 5 8 7 ",frag,enum,positive,punc,type,level
+49,123,A,frag,219.0,echo-refer,"
+5 5 8 7 ",frag,enum,positive,punc,type,level
+49,126,B,frag,224.0,answer-state-refer,"
+1 99 ",frag,enum,positive,punc,type,level
+49,127,A,decl,227.0,state,"
+and this is your reference number to quote tomorrow at Euston station ",frag,booking-number-location-time-day,positive,punc,type,level
+49,129,A,decl,230.0,state,"
+it's ",frag,,positive,anonym,type,letter
+49,129,A,decl,230.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+49,129,A,decl,230.0,state,"
+it's ",frag,,positive,punc,type,level
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,232.0,refer,"
+",frag,,positive,overlap,type,end
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,232.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,232.0,refer,"
+",frag,,positive,punc,type,level
+49,131,A,decl,233.0,refer,"
+",frag,number,positive,pause,,
+49,131,A,decl,233.0,refer,"
+",frag,number,positive,punc,type,level
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,letter
+49,131,A,frag,234.0,refer,"
+",frag,,positive,anonym,type,alpha
+49,131,A,frag,234.0,refer,"
+",frag,,positive,punc,type,level
+49,133,A,decl,237.0,state,"
+and you just collect your tickets half an hour before departure time tomorrow ",frag,time-journey-day-departure,positive,punc,type,level
+50,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+50,10,B,decl,21.0,elab-state,"
+",frag,fare-enum,positive,pause,,
+50,10,B,decl,21.0,elab-state,"
+",frag,fare-enum,positive,unclear,length,5_syllables
+50,10,B,decl,21.0,elab-state,"
+",frag,fare-enum,positive,punc,type,level
+50,23,A,decl,49.0,state,"
+the 15:35 on Sunday from Euston arrives back in Warrington Bank Quay at 18:03 ",frag,location-time-from-enum-day-arrival,positive,punc,type,level
+51,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+51,27,A,decl,53.0,state,"
+the Super Advance ",frag,fare,positive,punc,type,level
+51,31,A,frag,63.0,answer-state,"
+",frag,journey-time-enum,positive,pause,length,2s
+51,31,A,frag,63.0,answer-state,"
+",frag,journey-time-enum,positive,punc,type,level
+51,41,A,decl,85.0,answer-state,"
+it's the 6th of October ",frag,month-date,positive,punc,type,level
+51,41,A,frag,86.0,elab-state,"
+travelling from Derby at 7 a m in the morning ",frag,time-location-journey-from-enum,positive,punc,type,level
+51,64,B,frag,130.0,answer-refer,"
+0 1 6 double 2 ",frag,enum,positive,punc,type,level
+51,70,B,frag,139.0,refer,"
+",frag,,positive,anonym,type,letter
+51,70,B,frag,139.0,refer,"
+",frag,,positive,anonym,type,letter
+51,70,B,frag,139.0,refer,"
+",frag,,positive,punc,type,level
+51,94,B,frag,177.0,answer-refer,"
+",frag,enum,positive,pause,,
+51,94,B,frag,177.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+51,95,A,frag,178.0,echo-refer,"
+6 5 6 7 ",frag,enum,positive,punc,type,level
+51,96,B,frag,179.0,refer,"
+5 6 7 6 ",frag,enum,positive,punc,type,level
+51,97,A,frag,180.0,echo-refer,"
+5 6 7 6 ",frag,enum,positive,punc,type,level
+51,98,B,frag,181.0,refer,"
+8 6 9 8 ",frag,enum,positive,punc,type,level
+51,99,A,frag,182.0,echo-refer,"
+8 6 9 8 ",frag,enum,positive,punc,type,level
+51,109,A,frag,196.0,refer,"
+0 7 0 ",frag,enum,positive,punc,type,level
+51,110,B,frag,197.0,echo-refer,"
+0 7 0 ",frag,enum,positive,punc,type,level
+52,1,A,frag,2.0,refer,"
+Virgin trainlines ",frag,,positive,punc,type,level
+52,24,B,frag,36.0,echo-refer,"
+quarter past and quarter to the hour ",frag,time,positive,pause,,
+52,24,B,frag,36.0,echo-refer,"
+quarter past and quarter to the hour ",frag,time,positive,punc,type,level
+52,49,A,decl,89.0,state,"
+",frag,location-journey-time-from,positive,pause,,
+52,49,A,decl,89.0,state,"
+",frag,location-journey-time-from,positive,punc,type,level
+53,1,A,frag,1.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+53,2,B,frag,9.0,state,"
+coming back Sunday ",frag,day,positive,punc,type,level
+53,2,B,decl,11.0,refer,"
+the 51 pounds ",frag,fare-enum,positive,punc,type,level
+53,7,A,frag,23.0,refer,"
+on the return ",frag,fare,positive,punc,type,level
+53,12,B,frag,39.0,refer,"
+and so the the Friday ",frag,day,positive,punc,type,level
+53,37,A,frag,105.0,refer,"
+",frag,location-from-enum,positive,pause,length,4s
+53,37,A,frag,105.0,refer,"
+",frag,location-from-enum,positive,punc,type,level
+53,55,A,decl,144.0,state,"
+and that's on the 15:20 train tomorrow from Preston ",frag,location-from-enum-day,positive,backchannel,content,yes
+53,55,A,decl,144.0,state,"
+and that's on the 15:20 train tomorrow from Preston ",frag,location-from-enum-day,positive,punc,type,level
+53,62,B,decl,166.0,refer,"
+it's 7 ",frag,,positive,punc,type,level
+53,63,A,frag,167.0,echo-refer,"
+7 ",frag,enum,positive,punc,type,level
+53,74,B,decl,187.0,state,"
+it's 0 1 8 hundred ",frag,enum,positive,punc,type,level
+53,75,A,frag,188.0,echo-refer,"
+0 1 8 hundred ",frag,enum,positive,punc,type,level
+53,76,B,frag,189.0,refer,"
+0 7 3 ",frag,enum,positive,punc,type,level
+53,77,A,frag,190.0,echo-refer,"
+0 7 3 ",frag,enum,positive,punc,type,level
+53,88,B,decl,205.0,answer-state,"
+it's 7 8 3 3 ",frag,enum,positive,punc,type,level
+53,89,A,frag,206.0,echo-refer,"
+7 8 3 3 ",frag,enum,positive,punc,type,level
+53,90,B,frag,207.0,refer,"
+6 6 3 0 ",frag,enum,positive,punc,type,level
+53,91,A,frag,208.0,echo-refer,"
+6 6 3 0 ",frag,enum,positive,punc,type,level
+53,92,B,frag,209.0,refer,"
+0 5 8 4 ",frag,enum,positive,punc,type,level
+53,93,A,frag,210.0,echo-refer,"
+0 5 8 4 ",frag,enum,positive,punc,type,level
+53,103,A,decl,233.0,state,"
+it's  8 8 0 9 ",frag,enum,positive,punc,type,level
+53,104,B,frag,234.0,echo-refer,"
+8 8 0 9 ",frag,enum,positive,punc,type,level
+53,105,A,frag,235.0,refer,"
+3 3 9 3 ",frag,enum,positive,punc,type,level
+53,106,B,frag,236.0,echo-refer,"
+3 3 9 3 ",frag,enum,positive,punc,type,level
+53,109,A,decl,241.0,state,"
+you just quote that reference number tomorrow ",frag,booking-number-day,positive,backchannel,content,ok
+53,109,A,decl,241.0,state,"
+you just quote that reference number tomorrow ",frag,booking-number-day,positive,punc,type,level
+53,109,A,imp,242.0,direct,"
+show your credit card ",frag,creditcard,positive,punc,type,level
+54,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+54,29,A,frag,48.0,reqConfirm,"
+",frag,location-from-enum,positive,pause,length,6s
+54,29,A,frag,48.0,reqConfirm,"
+",frag,location-from-enum,positive,punc,type,level
+54,29,A,frag,49.0,state,"
+arriving in Birmingham International 11:07 ",frag,location-arrival,positive,punc,type,level
+54,29,A,frag,51.0,state,"
+",frag,time-day-return,positive,pause,,
+54,29,A,frag,51.0,state,"
+",frag,time-day-return,positive,punc,type,level
+54,50,B,frag,86.0,answer-refer,"
+is 0 1 6 3 ",frag,enum,positive,punc,type,level
+54,52,B,frag,88.0,refer,"
+2 4 5 ",frag,enum,positive,punc,type,level
+54,66,B,decl,107.0,state,"
+it's 9 5 2 3 ",frag,enum,positive,punc,type,level
+54,67,A,frag,108.0,echo-refer,"
+9 5 2 3 ",frag,enum,positive,punc,type,level
+54,68,B,frag,109.0,refer,"
+3 4 5 2 ",frag,enum,positive,punc,type,level
+54,69,A,frag,110.0,echo-refer,"
+3 4 5 2 ",frag,enum,positive,punc,type,level
+54,70,B,frag,111.0,refer,"
+9 1 5 2 ",frag,enum,positive,punc,type,level
+54,71,A,frag,112.0,echo-refer,"
+9 1 5 2 ",frag,enum,positive,punc,type,level
+54,77,A,decl,122.0,state,"
+it's ",frag,,positive,anonym,type,letter
+54,77,A,decl,122.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+54,77,A,decl,122.0,state,"
+it's ",frag,,positive,anonym,type,letter
+54,77,A,decl,122.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+54,77,A,decl,122.0,state,"
+it's ",frag,,positive,punc,type,level
+55,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+55,12,B,frag,27.0,elab-refer,"
+early afternoon ",frag,time,positive,pause,,
+55,12,B,frag,27.0,elab-refer,"
+early afternoon ",frag,time,positive,punc,type,level
+55,20,B,decl,46.0,elab-state,"
+i'm not old ",frag,,negative,punc,type,level
+56,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+56,19,A,decl,38.0,state,"
+",frag,enum-availability-time,positive,pause,length,7s
+56,19,A,decl,38.0,state,"
+",frag,enum-availability-time,positive,punc,type,level
+56,27,A,decl,54.0,state,"
+and that's Monday the 5th of October ",frag,month-date-day,positive,punc,type,level
+56,50,B,frag,91.0,refer,"
+0 2 6 5 0 ",frag,enum,positive,punc,type,level
+56,54,B,frag,97.0,answer-refer,"
+24 ",frag,,positive,punc,type,level
+56,58,B,frag,101.0,refer,"
+50 ",frag,enum-address,positive,anonym,type,street
+56,58,B,frag,101.0,refer,"
+50 ",frag,enum-address,positive,punc,type,level
+56,62,B,decl,109.0,answer-state,"
+it's 0 5 6 5 ",frag,enum,positive,punc,type,level
+56,63,A,frag,110.0,echo-refer,"
+0 5 6 5 ",frag,enum,positive,punc,type,level
+56,64,B,frag,111.0,refer,"
+2 6 5 0 ",frag,enum,positive,punc,type,level
+56,65,A,frag,112.0,echo-refer,"
+2 6 5 0 ",frag,enum,positive,punc,type,level
+56,66,B,frag,113.0,refer,"
+0 6 5 6 ",frag,enum,positive,punc,type,level
+56,67,A,frag,114.0,echo-refer,"
+0 6 5 6 ",frag,enum,positive,punc,type,level
+56,79,A,decl,131.0,state,"
+it's the number 5 ",frag,number,positive,punc,type,level
+56,83,A,frag,135.0,refer,"
+6 5 ",frag,enum,positive,punc,type,level
+57,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+57,19,A,decl,37.0,state,"
+",frag,time-enum-arrival,positive,pause,,
+57,19,A,decl,37.0,state,"
+",frag,time-enum-arrival,positive,punc,type,level
+57,39,A,decl,97.0,refer,"
+the Super Advance Return ",frag,fare,positive,punc,type,level
+57,53,A,frag,121.0,state,"
+",frag,journey-day,positive,pause,,
+57,53,A,frag,121.0,state,"
+",frag,journey-day,positive,punc,type,level
+58,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+58,24,B,decl,46.0,elab-refer,"
+the Thursday after ",frag,time-day,positive,punc,type,level
+58,27,A,decl,54.0,elab,"
+then it's ",frag,number,positive,pause,,
+58,27,A,decl,54.0,elab,"
+then it's ",frag,number,positive,punc,type,level
+58,45,A,frag,88.0,stateIntent,"
+",frag,,positive,pause,,
+58,45,A,frag,88.0,stateIntent,"
+",frag,,positive,punc,type,level
+58,56,B,decl,104.0,state,"
+which is 0 1 1 9 0 8 ",frag,enum,positive,punc,type,level
+58,72,B,frag,136.0,refer,"
+7 1 0 0 ",frag,enum,positive,punc,type,level
+58,73,A,frag,137.0,echo-refer,"
+7 1 0 0 ",frag,enum,positive,punc,type,level
+58,74,B,frag,138.0,refer,"
+0 7 1 2 ",frag,enum,positive,punc,type,level
+58,75,A,frag,139.0,echo-refer,"
+0 7 1 2 ",frag,enum,positive,punc,type,level
+58,76,B,frag,140.0,refer,"
+2 0 8 7 ",frag,enum,positive,punc,type,level
+58,77,A,frag,141.0,echo-refer,"
+2 0 8 7 ",frag,enum,positive,punc,type,level
+58,85,A,decl,167.0,state,"
+",frag,to-location-from-day-return,positive,pause,,
+58,85,A,decl,167.0,state,"
+",frag,to-location-from-day-return,positive,punc,type,level
+58,85,A,decl,169.0,state,"
+",frag,,positive,pause,,
+58,85,A,decl,169.0,state,"
+",frag,,positive,anonym,type,letter
+58,85,A,decl,169.0,state,"
+",frag,,positive,anonym,type,alpha
+58,85,A,decl,169.0,state,"
+",frag,,positive,punc,type,level
+58,87,A,decl,182.0,state,"
+",frag,enum,positive,pause,,
+58,87,A,decl,182.0,state,"
+",frag,enum,positive,punc,type,level
+58,89,A,frag,184.0,refer,"
+7 7 1 8 ",frag,enum,positive,punc,type,level
+58,95,A,decl,194.0,answer-state,"
+we do say 50 minutes ",frag,time-enum,positive,punc,type,level
+59,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+59,44,B,frag,89.0,refer,"
+number 13 ",frag,number,positive,punc,type,level
+59,44,B,frag,90.0,refer,"
+",frag,,positive,pause,,
+59,44,B,frag,90.0,refer,"
+",frag,,positive,anonym,type,street
+59,44,B,frag,90.0,refer,"
+",frag,,positive,punc,type,level
+59,44,B,frag,91.0,refer,"
+",frag,,positive,pause,,
+59,44,B,frag,91.0,refer,"
+",frag,,positive,punc,type,level
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,anonym,type,letter
+59,44,B,frag,92.0,refer,"
+",frag,,positive,punc,type,level
+59,49,A,frag,108.0,refer,"
+Saturday the ",frag,month-date-day,positive,pause,,
+59,49,A,frag,108.0,refer,"
+Saturday the ",frag,month-date-day,positive,punc,type,level
+59,49,A,frag,109.0,state,"
+",frag,time-departure,positive,pause,,
+59,49,A,frag,109.0,state,"
+",frag,time-departure,positive,punc,type,level
+59,57,A,decl,134.0,state,"
+",frag,,positive,pause,length,7s
+59,57,A,decl,134.0,state,"
+",frag,,positive,anonym,type,letter
+59,57,A,decl,134.0,state,"
+",frag,,positive,anonym,type,alpha
+59,57,A,decl,134.0,state,"
+",frag,,positive,punc,type,level
+59,64,B,decl,159.0,state,"
+it is 1 8 ",frag,enum,positive,punc,type,level
+59,65,A,frag,160.0,echo-refer,"
+1 8 ",frag,enum,positive,punc,type,level
+59,66,B,frag,161.0,refer,"
+8 3 ",frag,enum,positive,punc,type,level
+59,67,A,frag,162.0,echo-refer,"
+8 3 ",frag,enum,positive,punc,type,level
+59,68,B,frag,163.0,refer,"
+7 3 ",frag,enum,positive,punc,type,level
+59,69,A,frag,164.0,echo-refer,"
+7 3 ",frag,enum,positive,punc,type,level
+59,70,B,frag,165.0,refer,"
+double 5 ",frag,,positive,punc,type,level
+59,71,A,frag,166.0,echo-refer,"
+double 5 ",frag,,positive,punc,type,level
+59,72,B,frag,167.0,refer,"
+4 9 ",frag,enum,positive,punc,type,level
+59,73,A,frag,168.0,echo-refer,"
+4 9 ",frag,enum,positive,punc,type,level
+59,74,B,frag,169.0,refer,"
+4 1 ",frag,enum,positive,punc,type,level
+59,75,A,frag,170.0,echo-refer,"
+4 1 ",frag,enum,positive,punc,type,level
+59,76,B,frag,171.0,refer,"
+double 3 ",frag,,positive,punc,type,level
+59,77,A,frag,172.0,echo-refer,"
+double 3 ",frag,,positive,punc,type,level
+59,83,A,decl,181.0,direct-state,"
+you collect your tickets 45 minutes before departure time ",frag,time-journey-enum-departure,positive,pause,,
+59,83,A,decl,181.0,direct-state,"
+you collect your tickets 45 minutes before departure time ",frag,time-journey-enum-departure,positive,punc,type,stop
+59,85,A,frag,187.0,refer,"
+5 7 7 4 ",frag,enum,positive,punc,type,level
+59,86,B,frag,188.0,echo-refer,"
+5 7 7 4 ",frag,enum,positive,punc,type,level
+59,87,A,frag,189.0,refer,"
+4 4 8 5 ",frag,enum,positive,punc,type,level
+59,88,B,frag,190.0,echo-refer,"
+4 4 8 5 ",frag,enum,positive,punc,type,level
+59,90,B,frag,193.0,refer,"
+",frag,enum,positive,pause,,
+59,90,B,frag,193.0,refer,"
+",frag,enum,positive,punc,type,level
+59,90,B,frag,194.0,refer,"
+",frag,enum,positive,pause,,
+59,90,B,frag,194.0,refer,"
+",frag,enum,positive,punc,type,level
+60,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+61,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+61,22,B,frag,40.0,answer-refer,"
+10:35 Taunton ",frag,location-enum,positive,punc,type,level
+61,22,B,decl,42.0,state,"
+",frag,from,positive,pause,length,3s
+61,22,B,decl,42.0,state,"
+",frag,from,positive,punc,type,level
+61,24,B,decl,45.0,refer,"
+",frag,number,positive,pause,,
+61,24,B,decl,45.0,refer,"
+",frag,number,positive,punc,type,level
+61,25,A,frag,54.0,refer,"
+on the return ",frag,fare,positive,punc,type,level
+61,48,B,frag,112.0,answer-refer,"
+going ",frag,,positive,punc,type,level
+61,48,B,frag,116.0,refer,"
+",frag,,positive,pause,,
+61,48,B,frag,116.0,refer,"
+",frag,,positive,punc,type,level
+61,50,B,frag,123.0,refer,"
+and coming back ",frag,,positive,punc,type,level
+61,52,B,frag,139.0,expressOpinion,"
+",frag,,positive,overlap,type,end
+61,52,B,frag,139.0,expressOpinion,"
+",frag,,positive,punc,type,level
+61,55,A,frag,150.0,refer,"
+",frag,month-date-day,positive,pause,,
+61,55,A,frag,150.0,refer,"
+",frag,month-date-day,positive,punc,type,level
+61,55,A,decl,156.0,state,"
+then it's the 14:52 from Crewe ",frag,from-enum,positive,punc,type,level
+61,64,B,frag,179.0,answer-refer,"
+4 4 0 1 4 1 ",frag,enum,positive,punc,type,level
+62,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+62,15,A,decl,29.0,reqConfirm,"
+and it's the 11 o'clock train from Birmingham ",frag,location-time-from-enum,positive,punc,type,level
+62,23,A,decl,42.0,state,"
+that's arriving in Birmingham New Street for 15:42 ",frag,location-arrival,positive,punc,type,level
+62,27,A,decl,54.0,refer,"
+the 9:18 ",frag,,positive,punc,type,level
+62,27,A,frag,55.0,state,"
+changing at Birmingham New Street ",frag,location-time,positive,punc,type,level
+62,32,B,decl,76.0,state,"
+when i've had just received them ",frag,time,positive,punc,type,level
+62,37,A,decl,91.0,state,"
+it's the 6th of October ",frag,month-date,positive,punc,type,level
+62,39,A,decl,94.0,state,"
+you arrive in Birmingham New Street at 10:15 ",frag,location-time-arrival,positive,punc,type,level
+62,41,A,decl,96.0,state,"
+you depart Birmingham New Street 11 a m ",frag,location-time-enum-arrival,positive,pause,,
+62,41,A,decl,96.0,state,"
+you depart Birmingham New Street 11 a m ",frag,location-time-enum-arrival,positive,punc,type,level
+62,43,A,decl,99.0,state,"
+you'll be travelling at 12:21 from Newton Abbot ",frag,location-journey-time-from-enum,positive,punc,type,level
+62,64,B,frag,136.0,refer,"
+0 1 7 ",frag,enum,positive,punc,type,level
+62,65,A,frag,137.0,echo-refer,"
+0 1 7 ",frag,enum,positive,punc,type,level
+62,66,B,frag,138.0,refer,"
+4 ",frag,enum,positive,punc,type,level
+62,67,A,frag,139.0,echo-refer,"
+",frag,enum,positive,overlap,type,start
+62,67,A,frag,139.0,echo-refer,"
+",frag,enum,positive,punc,type,level
+62,68,B,frag,140.0,refer,"
+2 ",frag,enum,positive,overlap,type,end
+62,68,B,frag,140.0,refer,"
+2 ",frag,enum,positive,punc,type,level
+62,69,A,frag,141.0,echo-refer,"
+2 ",frag,enum,positive,punc,type,level
+62,70,B,frag,142.0,refer,"
+double 6 ",frag,,positive,punc,type,level
+62,71,A,frag,143.0,echo-refer,"
+double 6 ",frag,,positive,punc,type,level
+62,76,B,frag,149.0,answer-state,"
+is ",frag,,positive,anonym,type,letter
+62,76,B,frag,149.0,answer-state,"
+is ",frag,,positive,anonym,type,letter
+62,76,B,frag,149.0,answer-state,"
+is ",frag,,positive,punc,type,level
+62,82,B,decl,155.0,state,"
+it's 7 2 2 ",frag,enum,positive,pause,,
+62,82,B,decl,155.0,state,"
+it's 7 2 2 ",frag,enum,positive,anonym,type,street
+62,82,B,decl,155.0,state,"
+it's 7 2 2 ",frag,enum,positive,punc,type,level
+62,82,B,frag,156.0,refer,"
+Winston ",frag,location,positive,punc,type,level
+62,88,B,frag,166.0,state,"
+is er 1 6 ",frag,enum,positive,pause,,
+62,88,B,frag,166.0,state,"
+is er 1 6 ",frag,enum,positive,punc,type,level
+62,89,A,frag,167.0,echo-refer,"
+1 6 4 7 ",frag,enum,positive,punc,type,level
+62,90,B,frag,168.0,echo-refer,"
+6 4 ",frag,enum,positive,punc,type,level
+62,91,A,frag,169.0,echo-refer,"
+6 4 ",frag,enum,positive,punc,type,level
+62,92,B,frag,170.0,refer,"
+0 1 ",frag,enum,positive,punc,type,level
+62,93,A,frag,171.0,echo-refer,"
+0 1 ",frag,enum,positive,punc,type,level
+62,94,B,frag,172.0,refer,"
+7 8 ",frag,enum,positive,punc,type,level
+62,95,A,frag,173.0,echo-refer,"
+7 8 ",frag,enum,positive,punc,type,level
+62,96,B,frag,174.0,refer,"
+7 1 ",frag,enum,positive,punc,type,level
+62,97,A,frag,175.0,echo-refer,"
+7 1 ",frag,enum,positive,punc,type,level
+62,98,B,frag,176.0,refer,"
+0 ",frag,enum,positive,punc,type,level
+62,99,A,frag,177.0,echo-refer,"
+0 ",frag,enum,positive,punc,type,level
+62,113,A,decl,202.0,state,"
+and it's 8 4 2 ",frag,enum,positive,punc,type,level
+62,114,B,frag,203.0,echo-refer,"
+8 4 2 ",frag,enum,positive,punc,type,level
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,letter
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,alpha
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,letter
+62,115,A,frag,204.0,refer,"
+",frag,,positive,anonym,type,alpha
+62,115,A,frag,204.0,refer,"
+",frag,,positive,punc,type,level
+62,116,B,frag,205.0,echo,"
+",frag,,positive,anonym,type,letter
+62,116,B,frag,205.0,echo,"
+",frag,,positive,anonym,type,alpha
+62,116,B,frag,205.0,echo,"
+",frag,,positive,punc,type,level
+62,117,A,frag,206.0,refer,"
+",frag,,positive,anonym,type,letter
+62,117,A,frag,206.0,refer,"
+",frag,,positive,anonym,type,alpha
+62,117,A,frag,206.0,refer,"
+",frag,,positive,punc,type,level
+62,118,B,frag,207.0,echo-refer,"
+",frag,,positive,anonym,type,letter
+62,118,B,frag,207.0,echo-refer,"
+",frag,,positive,punc,type,level
+63,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+63,2,B,decl,9.0,state,"
+i'm a disabled person ",frag,,positive,punc,type,level
+63,47,A,decl,116.0,state,"
+",frag,enum,positive,pause,,
+63,47,A,decl,116.0,state,"
+",frag,enum,positive,punc,type,level
+63,67,A,frag,149.0,refer,"
+this ticket ",frag,journey,positive,punc,type,level
+63,150,B,frag,289.0,refer,"
+0 1 3 1 ",frag,enum,positive,punc,type,level
+63,151,A,frag,290.0,echo-refer,"
+0 1 3 1 ",frag,enum,positive,punc,type,level
+63,152,B,frag,291.0,refer,"
+9 9 3 ",frag,enum,positive,punc,type,level
+63,153,A,frag,292.0,echo-refer,"
+9 9 3 ",frag,enum,positive,punc,type,level
+63,158,B,frag,297.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+63,158,B,frag,297.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+63,158,B,frag,297.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+63,159,A,frag,298.0,echo-refer,"
+",frag,enum,positive,anonym,type,letter
+63,159,A,frag,298.0,echo-refer,"
+",frag,enum,positive,anonym,type,letter
+63,159,A,frag,298.0,echo-refer,"
+",frag,enum,positive,punc,type,level
+63,172,B,decl,318.0,answer-state,"
+it's 6 9 3 7 ",frag,enum,positive,punc,type,level
+63,173,A,frag,319.0,echo-refer,"
+6 9 3 7 ",frag,enum,positive,punc,type,level
+63,174,B,frag,320.0,refer,"
+7 9 6 7 ",frag,enum,positive,punc,type,level
+63,175,A,frag,321.0,echo-refer,"
+7 9 6 7 ",frag,enum,positive,punc,type,level
+63,176,B,frag,322.0,refer,"
+3 6 7 9 ",frag,enum,positive,punc,type,level
+63,177,A,frag,323.0,echo-refer,"
+3 6 7 9 ",frag,enum,positive,punc,type,level
+63,187,A,decl,338.0,state-direct,"
+and you ",frag,journey-day-railcard,positive,pause,,
+63,187,A,decl,338.0,state-direct,"
+and you ",frag,journey-day-railcard,positive,punc,type,level
+63,191,A,decl,343.0,state,"
+it's ",frag,,positive,anonym,type,letter
+63,191,A,decl,343.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+63,191,A,decl,343.0,state,"
+it's ",frag,,positive,punc,type,level
+63,215,A,decl,372.0,direct-state,"
+and you just collect your tickets 50 minutes before departure time tomorrow ",frag,time-journey-enum-day-departure,positive,punc,type,level
+63,222,B,decl,385.0,state,"
+wh... wh... when she comes back ",frag,time,positive,punc,type,level
+63,224,B,frag,387.0,refer,"
+my wife ",frag,,positive,punc,type,level
+64,1,A,frag,2.0,refer,"
+Virgin trainlines ",frag,,positive,punc,type,level
+64,15,A,frag,28.0,echo,"
+",frag,,positive,pause,length,2s
+64,15,A,frag,28.0,echo,"
+",frag,,positive,punc,type,level
+64,25,A,decl,59.0,state,"
+it's not available on the 6:34 in the morning ",frag,availability-time-enum,negative,punc,type,level
+64,25,A,decl,61.0,state,"
+it's 7:34 ",frag,,positive,punc,type,level
+64,26,B,frag,64.0,answer-state,"
+7:34 ",frag,,positive,punc,type,level
+64,35,A,decl,82.0,state,"
+it's the 24th of October ",frag,month-date,positive,punc,type,level
+64,37,A,decl,84.0,state,"
+you're travelling from Wigan North Western ",frag,journey-time-from-enum,positive,pause,,
+64,37,A,decl,84.0,state,"
+you're travelling from Wigan North Western ",frag,journey-time-from-enum,positive,punc,type,level
+64,55,A,decl,114.0,state,"
+it's by 6 o'clock the day before again ",frag,time-enum-day,positive,punc,type,level
+64,64,B,frag,127.0,answer-state-refer,"
+0 1 0 3 3 ",frag,enum,positive,punc,type,level
+64,66,B,frag,129.0,refer,"
+8 9 3 ",frag,enum,positive,punc,type,level
+64,70,B,frag,133.0,answer-state,"
+",frag,enum,positive,anonym,type,letter
+64,70,B,frag,133.0,answer-state,"
+",frag,enum,positive,anonym,type,letter
+64,70,B,frag,133.0,answer-state,"
+",frag,enum,positive,punc,type,level
+64,74,B,frag,138.0,state,"
+53 ",frag,enum,positive,pause,,
+64,74,B,frag,138.0,state,"
+53 ",frag,enum,positive,anonym,type,street
+64,74,B,frag,138.0,state,"
+53 ",frag,enum,positive,punc,type,level
+64,74,B,frag,139.0,refer,"
+",frag,location,positive,pause,,
+64,74,B,frag,139.0,refer,"
+",frag,location,positive,punc,type,level
+64,80,B,frag,148.0,refer,"
+5 2 3 3 ",frag,enum,positive,punc,type,level
+64,81,A,frag,149.0,echo-refer,"
+5 2 3 3 ",frag,enum,positive,punc,type,level
+64,82,B,frag,150.0,refer,"
+6 3 5 9 ",frag,enum,positive,punc,type,level
+64,83,A,frag,151.0,echo-refer,"
+6 3 5 9 ",frag,enum,positive,punc,type,level
+64,86,B,frag,155.0,state,"
+double 3 9 3 ",frag,enum,positive,punc,type,level
+64,87,A,frag,156.0,echo-state,"
+double 3 9 3 ",frag,enum,positive,punc,type,level
+64,97,A,decl,171.0,state,"
+it's ",frag,,positive,anonym,type,letter
+64,97,A,decl,171.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+64,97,A,decl,171.0,state,"
+it's ",frag,,positive,anonym,type,letter
+64,97,A,decl,171.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+64,97,A,decl,171.0,state,"
+it's ",frag,,positive,punc,type,level
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,letter
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,alpha
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,letter
+64,99,A,frag,173.0,refer,"
+",frag,,positive,anonym,type,alpha
+64,99,A,frag,173.0,refer,"
+",frag,,positive,punc,type,level
+65,23,A,decl,39.0,state,"
+which is a Saver Single ",frag,fare,positive,punc,type,level
+66,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+67,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+67,10,B,frag,17.0,refer,"
+the cheap cheap cheap fare ",frag,fare,positive,pause,,
+67,10,B,frag,17.0,refer,"
+the cheap cheap cheap fare ",frag,fare,positive,punc,type,level
+68,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+68,36,B,frag,66.0,state,"
+so coming back ",frag,,positive,punc,type,level
+68,39,A,decl,74.0,state,"
+it's the 6th of October ",frag,month-date,positive,backchannel,content,mhm
+68,39,A,decl,74.0,state,"
+it's the 6th of October ",frag,month-date,positive,punc,type,level
+68,43,A,frag,80.0,state,"
+returning that day ",frag,day-return,positive,punc,type,level
+68,60,B,frag,120.0,answer-refer,"
+0 1 0 6 1 ",frag,enum,positive,punc,type,level
+68,62,B,frag,122.0,refer,"
+6 7 3 ",frag,enum,positive,punc,type,level
+68,68,B,frag,131.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+68,68,B,frag,131.0,answer-refer,"
+",frag,,positive,anonym,type,letter
+68,68,B,frag,131.0,answer-refer,"
+",frag,,positive,punc,type,level
+68,86,B,frag,153.0,answer-refer,"
+14 to 15 ",frag,enum,positive,punc,type,level
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,anonym,type,letter
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,anonym,type,letter
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,anonym,type,letter
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,anonym,type,letter
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,anonym,type,letter
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,anonym,type,letter
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,pause,,
+68,86,B,decl,156.0,state,"
+it's ",frag,,positive,punc,type,level
+68,95,A,frag,166.0,echo-refer,"
+1 2 7 0 ",frag,enum,positive,punc,type,level
+68,96,B,frag,167.0,refer,"
+1 7 7 0 ",frag,enum,positive,punc,type,level
+68,97,A,frag,168.0,echo-refer,"
+1 7 7 0 ",frag,enum,positive,punc,type,level
+68,98,B,frag,169.0,refer,"
+0 5 3 8 ",frag,enum,positive,punc,type,level
+68,99,A,frag,170.0,echo-refer,"
+0 5 3 8 ",frag,enum,positive,punc,type,level
+68,107,A,decl,181.0,state,"
+it's 1 7 1 ",frag,enum,positive,punc,type,level
+68,108,B,frag,182.0,echo-refer,"
+1 7 1 ",frag,enum,positive,punc,type,level
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,letter
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,alpha
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,letter
+68,109,A,frag,183.0,refer,"
+",frag,,positive,anonym,type,alpha
+68,109,A,frag,183.0,refer,"
+",frag,,positive,punc,type,level
+68,111,A,frag,185.0,refer,"
+the number 1 ",frag,number,positive,punc,type,level
+68,113,A,frag,187.0,refer,"
+",frag,,positive,anonym,type,letter
+68,113,A,frag,187.0,refer,"
+",frag,,positive,anonym,type,alpha
+68,113,A,frag,187.0,refer,"
+",frag,,positive,punc,type,level
+69,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+69,24,B,decl,52.0,state,"
+when i last did that ",frag,time,positive,punc,type,level
+69,54,B,decl,138.0,refer,"
+so the other two ",frag,number,positive,punc,type,level
+69,54,B,frag,141.0,refer,"
+apart from the travelling on a Friday ",frag,journey-day,positive,punc,type,level
+70,1,A,frag,2.0,refer,"
+Virgin Trainlines ",frag,,positive,punc,type,level
+70,4,B,frag,10.0,answer-refer,"
+Euston to erm ",frag,to-location,positive,pause,,
+70,4,B,frag,10.0,answer-refer,"
+Euston to erm ",frag,to-location,positive,punc,type,level
+70,33,A,decl,55.0,answer-state,"
+13:50 departing Euston ",frag,location-enum-departure,positive,backchannel,content,yeah
+70,33,A,decl,55.0,answer-state,"
+13:50 departing Euston ",frag,location-enum-departure,positive,punc,type,level
+70,59,A,frag,101.0,refer,"
+Saturday ",frag,day,positive,punc,type,level
+70,69,A,frag,126.0,refer,"
+",frag,fare,positive,pause,,
+70,69,A,frag,126.0,refer,"
+",frag,fare,positive,punc,type,level
+70,71,A,decl,130.0,state,"
+then it's a train from Wilmslow at 16:46 ",frag,time-from,positive,punc,type,level
+70,101,A,frag,182.0,state,"
+and returning ",frag,return,positive,punc,type,level
+70,103,A,decl,186.0,state,"
+and it's the 16:46 from Wilmslow to Euston ",frag,to-location-from-enum,positive,punc,type,level
+70,119,A,frag,227.0,state,"
+going out on Saturday the 17th ",frag,month-date-day,positive,backchannel,content,yeah
+70,119,A,frag,227.0,state,"
+going out on Saturday the 17th ",frag,month-date-day,positive,punc,type,level
+70,119,A,frag,228.0,refer,"
+the 10:50 train ",frag,enum,positive,punc,type,level
+70,121,A,frag,233.0,refer,"
+on the return on the 18th ",frag,fare,positive,punc,type,level
+70,136,B,frag,263.0,refer,"
+0 1 9 5 ",frag,enum,positive,punc,type,level
+70,138,B,frag,265.0,refer,"
+9 6 8 ",frag,enum,positive,punc,type,level
+70,142,B,frag,270.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+70,142,B,frag,270.0,answer-refer,"
+",frag,enum,positive,anonym,type,letter
+70,142,B,frag,270.0,answer-refer,"
+",frag,enum,positive,punc,type,level
+70,146,B,frag,274.0,refer,"
+Flat 6 ",frag,,positive,punc,type,level
+70,146,B,frag,275.0,refer,"
+",frag,enum,positive,pause,,
+70,146,B,frag,275.0,refer,"
+",frag,enum,positive,anonym,type,street
+70,146,B,frag,275.0,refer,"
+",frag,enum,positive,punc,type,level
+70,154,B,decl,288.0,state,"
+it is 8 fo... 8 1 6 1 ",frag,enum,positive,punc,type,level
+70,155,A,frag,289.0,echo-refer,"
+8 1 6 1 ",frag,enum,positive,punc,type,level
+70,156,B,frag,290.0,refer,"
+2 2 6 1 ",frag,enum,positive,punc,type,level
+70,157,A,frag,291.0,echo-refer,"
+2 2 6 1 ",frag,enum,positive,punc,type,level
+70,158,B,frag,292.0,refer,"
+1 8 ",frag,enum,positive,punc,type,level
+70,159,A,frag,293.0,echo-refer,"
+1 8 ",frag,enum,positive,punc,type,level
+70,167,A,decl,302.0,state,"
+it's ",frag,,positive,anonym,type,letter
+70,167,A,decl,302.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+70,167,A,decl,302.0,state,"
+it's ",frag,,positive,anonym,type,letter
+70,167,A,decl,302.0,state,"
+it's ",frag,,positive,anonym,type,alpha
+70,167,A,decl,302.0,state,"
+it's ",frag,,positive,punc,type,level
+70,180,B,frag,324.0,refer,"
+15:55 ",frag,,positive,punc,type,level
+70,180,B,imp,325.0,direct,"
+take a coach to from Macclesfield to Wilmslow ",frag,to-from,positive,punc,type,level
+70,181,A,decl,332.0,answer-refer,"
+the train from Wilmslow at 16:46 ",frag,time-from,positive,punc,type,level

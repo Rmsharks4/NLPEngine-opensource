@@ -1,0 +1,17 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+22,38,B,frag,84.0,selfTalk,"
+",,,positive,pause,length,1s
+22,38,B,frag,84.0,selfTalk,"
+",,,positive,pause,length,4s
+28,27,A,frag,48.0,selfTalk,"
+the calendar month
+",,,positive,,,
+28,27,A,yes,49.0,selfTalk,"
+yeah
+",,,,,,
+29,24,B,frag,46.0,selfTalk,"
+er 18 25
+",,enum,positive,,,
+34,56,B,frag,134.0,selfTalk,"
+oh i really need
+",abandon-constrain,,positive,,,

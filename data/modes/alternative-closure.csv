@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+8,30,B,frag,49.0,direct,"
+erm sort of facing or with my back to the direction of movement
+",alternative-closure,seat,positive,,,
+12,111,A,frag,200.0,answ,"
+",alternative-closure,time-arrival,positive,pause,length,10s
+12,111,A,frag,200.0,answ,"
+",alternative-closure,time-arrival,positive,pause,length,3s
+13,16,B,frag,22.0,answ,"
+erm either the twenty seventh or the twenty eighth of October
+",alternative-closure,month-date,positive,,,

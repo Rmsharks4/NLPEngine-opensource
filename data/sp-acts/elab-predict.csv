@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+46,35,A,decl,76.0,elab-predict,"
+",predict-decl,time-enum-location,positive,pause,length,12s
+46,35,A,decl,76.0,elab-predict,"
+",predict-decl,time-enum-location,positive,punc,type,stop
+51,31,A,decl,64.0,elab-predict,"
+it's going to be 63 pounds return ",predict-decl,fare-enum,positive,punc,type,stop

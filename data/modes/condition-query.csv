@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+69,38,B,decl,101.0,reqConfirm,"
+it's sixty... sixty ",condition-query,,positive,overlap,type,start
+69,38,B,decl,101.0,reqConfirm,"
+it's sixty... sixty ",condition-query,,positive,punc,type,query

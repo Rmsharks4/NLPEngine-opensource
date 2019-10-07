@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+50,72,B,q-yn,139.0,reqInfo-abandon,"
+is it ",tag-closed-abandon,,positive,overlap,type,end
+50,72,B,q-yn,139.0,reqInfo-abandon,"
+is it ",tag-closed-abandon,,positive,punc,type,incomplete
+52,5,A,q-yn,10.0,reqInfo-abandon,"
+and is it ",tag-closed-abandon,,positive,punc,type,incomplete
+70,30,B,q-yn,49.0,reqModal-abandon,"
+would it ",tag-closed-abandon,,positive,punc,type,incomplete

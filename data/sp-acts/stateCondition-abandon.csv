@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+43,52,B,decl,109.0,stateCondition-abandon,"
+that's if just want the postcode or ",alternative-condition-interruption,address,positive,punc,type,incomplete
+47,98,B,decl,201.0,stateCondition-abandon,"
+",poss1-condition-abandon,,positive,pause,length,5s
+47,98,B,decl,201.0,stateCondition-abandon,"
+",poss1-condition-abandon,,positive,punc,type,incomplete
+53,40,B,decl,112.0,stateCondition-abandon,"
+if if that's poss... ",condition-abandon-abandon,,positive,punc,type,incomplete
+60,33,A,decl,60.0,stateCondition-abandon,"
+",constrain-condition-abandon,,positive,pause,,
+60,33,A,decl,60.0,stateCondition-abandon,"
+",constrain-condition-abandon,,positive,punc,type,incomplete

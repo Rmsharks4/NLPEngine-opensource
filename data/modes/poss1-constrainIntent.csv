@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+14,47,A,decl,79.0,inform,"
+the only train that i'm able to book is in between Euston and Birmingham New Street
+",poss1-constrainIntent,location-booking,positive,,,

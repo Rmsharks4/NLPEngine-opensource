@@ -1,0 +1,49 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,54,B,decl,132.0,reqConfirm-abandon,"
+i leave on the 9th 10:31 from Wigan arrive to Edinburgh a... ",interruption,to-location-from-enum-departure-arrival,positive,punc,type,incomplete
+42,36,B,decl,65.0,state-abandon,"
+i didn't ",interruption,,negative,vocal,content,laughter
+42,36,B,decl,65.0,state-abandon,"
+i didn't ",interruption,,negative,punc,type,incomplete
+43,31,A,frag,63.0,refer-abandon,"
+",interruption,,positive,overlap,type,start
+43,31,A,frag,63.0,refer-abandon,"
+",interruption,,positive,punc,type,incomplete
+44,104,B,decl,212.0,reqConfirm-abandon,"
+that was a 100 and 30... ",interruption,,positive,punc,type,incomplete
+45,20,B,frag,42.0,refer-abandon,"
+arriv... arriving at 18 ",interruption,time-arrival,positive,punc,type,incomplete
+46,20,B,decl,43.0,refer-abandon,"
+the 9 ",interruption,,positive,punc,type,incomplete
+47,33,A,frag,55.0,state-abandon,"
+",interruption,arrival,positive,overlap,type,start
+47,33,A,frag,55.0,state-abandon,"
+",interruption,arrival,positive,punc,type,incomplete
+47,92,B,frag,184.0,abandon,"
+i ",interruption,,positive,punc,type,incomplete
+49,12,B,q-yn,24.0,reqInfo-abandon,"
+do they both go on the same ",interruption,,positive,punc,type,incomplete
+52,11,A,q-wh,19.0,reqConfirm-abandon,"
+and what ",interruption,,positive,punc,type,incomplete
+53,9,A,decl,31.0,abandon,"
+",interruption,,positive,overlap,type,start
+53,9,A,decl,31.0,abandon,"
+",interruption,,positive,punc,type,incomplete
+53,14,B,frag,42.0,refer-abandon,"
+before ",interruption,time,positive,overlap,type,end
+53,14,B,frag,42.0,refer-abandon,"
+before ",interruption,time,positive,punc,type,incomplete
+61,25,A,decl,57.0,state-abandon,"
+",interruption,arrival,positive,pause,length,2s
+61,25,A,decl,57.0,state-abandon,"
+",interruption,arrival,positive,overlap,type,start
+61,25,A,decl,57.0,state-abandon,"
+",interruption,arrival,positive,punc,type,incomplete
+63,114,B,decl,233.0,expressOpinion-abandon,"
+",interruption,,positive,pause,length,32s
+63,114,B,decl,233.0,expressOpinion-abandon,"
+",interruption,,positive,punc,type,incomplete
+63,215,A,imp,373.0,direct-abandon,"
+",interruption,,positive,overlap,type,start
+63,215,A,imp,373.0,direct-abandon,"
+",interruption,,positive,punc,type,incomplete

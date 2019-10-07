@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+65,6,B,decl,10.0,answer-state-identifySelf,"
+it's me ",intro-decl,,positive,punc,type,stop
+70,110,B,decl,209.0,identifySelf,"
+it's me ",intro-decl,,positive,punc,type,stop

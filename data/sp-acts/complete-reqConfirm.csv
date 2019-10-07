@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,34,B,frag,56.0,complete-reqConfirm,"
+20 ",tag-query,enum,positive,overlap,type,end
+47,34,B,frag,56.0,complete-reqConfirm,"
+20 ",tag-query,enum,positive,punc,type,query
+63,106,B,frag,223.0,complete-reqConfirm,"
+",partial-decl,time-enum,positive,pause,length,2s
+63,106,B,frag,223.0,complete-reqConfirm,"
+",partial-decl,time-enum,positive,punc,type,query

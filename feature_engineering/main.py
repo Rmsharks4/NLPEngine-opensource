@@ -166,7 +166,7 @@ def iterate_xml(data):
         dialogues.append(dialogue)
     df = pd.DataFrame(rows, columns=['DialogueID', 'Turn-N', 'Speaker', 'Talk', 'Talk-N', 'Sp-Act', 'Text', 'Mode', 'Topic', 'Polarity',
                                      'Act', 'Key', 'Value'])
-    df.to_csv('data.csv')
+    df.to_csv('spaadia_data.csv')
     return dialogues
 
 

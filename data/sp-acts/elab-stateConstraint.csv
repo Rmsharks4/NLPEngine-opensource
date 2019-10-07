@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,43,A,decl,74.0,elab-stateConstraint,"
+",constrain-decl,fare,positive,pause,,
+47,43,A,decl,74.0,elab-stateConstraint,"
+",constrain-decl,fare,positive,unclear,length,8 syllables
+47,43,A,decl,74.0,elab-stateConstraint,"
+",constrain-decl,fare,positive,punc,type,stop
+47,45,A,decl,79.0,elab-stateConstraint,"
+and you've got to stick to that ",constrain-decl,,positive,punc,type,stop
+53,21,A,decl,53.0,elab-stateConstraint,"
+you need to buy it at the booking office before your board the train ",constrain-decl,booking-time,positive,punc,type,stop
+63,95,A,decl,203.0,elab-stateConstraint,"
+but the credit card holder must be at the train station to collect the ticket ",constrain-decl,journey-creditcard,positive,punc,type,stop

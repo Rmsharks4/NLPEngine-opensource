@@ -1,0 +1,9 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+47,11,A,decl,16.0,stateConstraint,"
+i'm going to have to arrange for you to collect your tickets tomorrow at the train station ",benefit-constrain-decl,journey-day,positive,punc,type,stop
+58,21,A,decl,40.0,stateConstraint,"
+i'm going to have to arrange for you to collect your tickets from the train station ",benefit-constrain-decl,journey,positive,punc,type,stop
+65,15,A,decl,27.0,stateConstraint,"
+i'm going to have to arrange for you to collect your ticket tomorrow from Manchester Picadilly ",benefit-constrain-decl,location-journey-from-day,positive,punc,type,stop
+69,9,A,decl,18.0,stateConstraint,"
+i'll need to arrange for you to collect the tickets from the train station ",benefit-constrain-decl,journey,positive,punc,type,stop

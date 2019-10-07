@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+22,57,A,decl,130.0,inform,"
+but there's none available for the dates and times on the twenty ninth or the thirtieth
+",exists-constrain-alternative,date-avail,negative,,,
+29,24,B,decl,42.0,confirm,"
+but there's road er road works listen me engineering works isn't there or something
+",exists-constrain-alternative,,negative,,,

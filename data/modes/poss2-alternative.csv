@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+34,45,A,decl,95.0,inform,"
+and these are walk on tickets that we can keep it for you or you can buy at the train station before you board the train
+",poss2-alternative,time-journey,positive,,,

@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+40,48,B,decl,71.0,elab-stateIntent-abandon,"
+we'll go for the er ",intent-preference1-abandon,,positive,punc,type,incomplete
+48,14,B,decl,21.0,stateIntent-abandon,"
+i want to know erm ",intent-preference1-abandon,,positive,punc,type,incomplete
+69,8,B,decl,12.0,direct-expressWish-abandon,"
+i'd like to travel ",intent-preference1-abandon,journey,positive,punc,type,incomplete

@@ -1,0 +1,18 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+4,50,B,decl,118.0,inform,"
+if i can get on that
+",poss1-condition,,positive,,,
+12,14,B,decl,20.0,directElab,"
+if i could ",poss1-condition,,positive,pause,,
+12,14,B,decl,22.0,directElab,"
+if i could get a super advance return
+",poss1-condition,fare,positive,,,
+12,100,B,decl,185.0,inform,"
+and if i can get out ",poss1-condition,,positive,pause,,
+12,104,B,decl,190.0,reqInfo,"
+if i can do it ",poss1-condition,,positive,pause,,
+35,110,B,decl,186.0,direct,"
+if i could sort of facing you know the ",poss1-condition,journey-seat,positive,overlap,type,start
+47,14,B,decl,20.0,direct-expressWisht,"
+i'd like this to be processed before 6 if i could
+",poss1-condition,time-enum,positive,,,

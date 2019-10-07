@@ -1,0 +1,27 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,88,B,frag,145.0,thank-bye,"
+thanks very much ",farewell,,,overlap,type,start
+4,115,A,frag,213.0,thank-bye,"
+thank you for calling ",farewell,,,overlap,type,start
+16,119,A,frag,191.0,thank-bye,"
+thanks ",farewell,,,overlap,type,start
+22,61,A,frag,137.0,thank-bye,"
+thanks for calling bye ",farewell,,,overlap,type,end
+23,103,A,frag,179.0,thank-bye,"
+thank you for calling ",farewell,,,overlap,type,start
+23,104,B,frag,180.0,thank-bye,"
+thank you ",farewell,,,overlap,type,end
+28,234,B,frag,347.0,thank-bye,"
+thank you bye
+",farewell,,,,,
+29,108,B,frag,171.0,thank-bye,"
+cheers then bye bye 
+",farewell,,,,,
+30,32,B,frag,53.0,thank-bye,"
+thanks very much cheers bye bye ",farewell,,,overlap,type,end
+34,58,B,frag,139.0,thank-bye,"
+",farewell,,,overlap,type,end
+34,58,B,frag,139.0,thank-bye,"
+",farewell,,,overlap,type,start
+34,59,A,frag,140.0,thank-bye,"
+thanks ",farewell,,,overlap,type,end

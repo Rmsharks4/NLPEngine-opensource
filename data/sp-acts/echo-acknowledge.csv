@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,56,B,yes,135.0,echo-acknowledge,"
+yeah ",,,,punc,type,stop
+60,11,A,yes,17.0,echo-acknowledge,"
+yeah ",,,,punc,type,stop
+63,28,B,yes,63.0,echo-acknowledge,"
+yeah ",,,,punc,type,stop

@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+17,22,B,frag,30.0,answ,"
+probably afternoon
+",probability-closure,time,positive,,,

@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+9,2,B,frag,4.0,greet,"
+hi
+",partial-greet-closure-closure,opening,positive,,,

@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+37,11,A,frag,16.0,refer-abandon,"
+3rd of Oc... ",abandon-abandon,date,positive,punc,type,incomplete
+38,40,B,frag,59.0,echo-abandon,"
+",abandon-abandon,,positive,pause,,
+38,40,B,frag,59.0,echo-abandon,"
+",abandon-abandon,,positive,punc,type,incomplete
+38,64,B,frag,95.0,refer-abandon,"
+the telepho... ",abandon-abandon,,positive,punc,type,incomplete
+40,40,B,frag,59.0,echo-abandon,"
+",abandon-abandon,,positive,pause,,
+40,40,B,frag,59.0,echo-abandon,"
+",abandon-abandon,,positive,punc,type,incomplete
+40,64,B,frag,95.0,refer-abandon,"
+the telepho... ",abandon-abandon,,positive,punc,type,incomplete
+52,65,A,frag,106.0,abandon,"
+and your t... ",abandon-abandon,,positive,punc,type,incomplete
+64,24,B,decl,44.0,abandon,"
+the 18 twe... ",abandon-abandon,enum,positive,punc,type,incomplete

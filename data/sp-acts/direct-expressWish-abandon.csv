@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+69,8,B,decl,12.0,direct-expressWish-abandon,"
+i'd like to travel ",intent-preference1-abandon,journey,positive,punc,type,incomplete

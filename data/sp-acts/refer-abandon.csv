@@ -1,0 +1,35 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+37,11,A,frag,16.0,refer-abandon,"
+3rd of Oc... ",abandon-abandon,date,positive,punc,type,incomplete
+38,64,B,frag,95.0,refer-abandon,"
+the telepho... ",abandon-abandon,,positive,punc,type,incomplete
+39,25,A,decl,58.0,refer-abandon,"
+",constrain-abandon,,positive,pause,,
+39,25,A,decl,58.0,refer-abandon,"
+",constrain-abandon,,positive,punc,type,incomplete
+40,64,B,frag,95.0,refer-abandon,"
+the telepho... ",abandon-abandon,,positive,punc,type,incomplete
+43,31,A,frag,63.0,refer-abandon,"
+",interruption,,positive,overlap,type,start
+43,31,A,frag,63.0,refer-abandon,"
+",interruption,,positive,punc,type,incomplete
+45,20,B,frag,42.0,refer-abandon,"
+arriv... arriving at 18 ",interruption,time-arrival,positive,punc,type,incomplete
+45,26,B,frag,51.0,refer-abandon,"
+on er well... ",abandon-partial-abandon,,positive,punc,type,incomplete
+46,20,B,decl,43.0,refer-abandon,"
+the 9 ",interruption,,positive,punc,type,incomplete
+47,14,B,frag,22.0,refer-abandon,"
+Stockport departing er er ",partial-frag,location-departure,positive,punc,type,level
+51,61,A,frag,124.0,refer-abandon,"
+and the ",abandon,,positive,punc,type,incomplete
+53,14,B,frag,42.0,refer-abandon,"
+before ",interruption,time,positive,overlap,type,end
+53,14,B,frag,42.0,refer-abandon,"
+before ",interruption,time,positive,punc,type,incomplete
+57,39,A,frag,96.0,refer-abandon,"
+you ",abandon,,positive,pause,,
+57,39,A,frag,96.0,refer-abandon,"
+you ",abandon,,positive,punc,type,incomplete
+62,32,B,frag,75.0,refer-abandon,"
+but the er ",constrain-abandon,,positive,punc,type,incomplete

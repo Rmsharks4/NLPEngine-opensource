@@ -1,0 +1,47 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,14,B,decl,21.0,answer-stateIntent,"
+i'd like to leave on the 7:33 train ",intent-preference1-decl,enum-departure,positive,punc,type,stop
+38,98,B,decl,145.0,stateIntent,"
+i'll go for a smoking then ",intent-preference1-decl,seat,positive,punc,type,stop
+39,2,B,decl,6.0,direct-expressWish,"
+i wanna buy em a ticket for Edinburgh ",intent-preference1-decl,location-journey,positive,punc,type,stop
+40,98,B,decl,145.0,stateIntent,"
+i'll go for a smoking then ",intent-preference1-decl,seat,positive,punc,type,stop
+44,10,B,decl,22.0,direct-expressWish,"
+i want to be up in Crewe by about 9 ",intent-preference1-decl,,positive,punc,type,stop
+45,2,B,decl,6.0,direct-expressWish,"
+i'd like to go from Preston to London ",intent-preference1-decl,location-to-from,positive,punc,type,stop
+46,4,B,decl,12.0,elab-stateIntent,"
+i want to book the ticket ",intent-preference1-decl,booking-journey,positive,punc,type,stop
+47,66,B,decl,118.0,answer-stateIntent,"
+i s... want to go from Euston ",intent-preference1-decl,location-from,positive,punc,type,stop
+47,96,B,imp,196.0,suggest,"
+let's try ",intent-preference1-decl,booking,positive,pause,,
+47,96,B,imp,196.0,suggest,"
+let's try ",intent-preference1-decl,booking,positive,punc,type,stop
+51,2,B,decl,6.0,direct-expressWisht,"
+i want to purchase a ticket for the erm the 6th of October ",intent-preference1-decl,journey-month-date,positive,punc,type,stop
+54,28,B,decl,47.0,stateIntent,"
+i'll go for the 9:35 ",intent-preference1-decl,,positive,punc,type,stop
+57,12,B,decl,20.0,answer-stateIntent,"
+i want to try to take advantage of any Savers that are available ",intent-preference1-decl,fare-availability,positive,punc,type,stop
+62,2,B,decl,5.0,direct-expressWish,"
+i want er two tickets to er from er Leicester to Newton Abbot ",intent-preference1-decl,to-number-location-journey-from,positive,punc,type,stop
+62,6,B,decl,12.0,answer-stateIntent,"
+i want to travel on Tuesday the 6th ",intent-preference1-decl,journey-day,positive,punc,type,stop
+63,2,B,decl,10.0,stateIntent,"
+and i want to go on a value place tomorrow ",intent-preference1-decl,day,positive,punc,type,stop
+65,10,B,decl,20.0,expressWish,"
+i want to come back tomorrow evening ",intent-preference1-decl,time-day,positive,punc,type,stop
+67,2,B,decl,5.0,expressWish,"
+i wish to travel to London tomorrow morning ",intent-preference1-decl,to-location-journey-time-day,positive,punc,type,stop
+67,20,B,decl,33.0,elab-expressWish,"
+i want to get the cheap fare ",intent-preference1-decl,fare,positive,punc,type,stop
+68,2,B,decl,5.0,expressWish,"
+i'd like to purchase a ticket for the journey from Euston to Liverpool Lime Street ",intent-preference1-decl,location-journey-to-from,positive,punc,type,stop
+68,32,B,decl,54.0,stateIntent,"
+we'll go for that one then ",intent-preference1-decl,number,positive,punc,type,stop
+68,36,B,decl,65.0,expressWish,"
+the one going out is especially the one we want to be on ",intent-preference1-decl,number,positive,punc,type,stop
+69,8,B,decl,15.0,expressWish,"
+i'd like to travel out on Sunday the 4th of October  ",intent-preference1-decl,journey-month-date-day,positive,punc,type,stop

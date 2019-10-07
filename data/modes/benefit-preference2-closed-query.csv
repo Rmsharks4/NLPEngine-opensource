@@ -1,0 +1,17 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,53,A,q-yn,130.0,reqDirect,"
+",benefit-preference2-closed-query,booking,positive,pause,,
+39,53,A,q-yn,130.0,reqDirect,"
+",benefit-preference2-closed-query,booking,positive,punc,type,query
+47,113,A,q-yn,230.0,reqDirect,"
+do you want me to book those seats for you ",benefit-preference2-closed-query,booking,positive,punc,type,query
+49,43,A,q-yn,83.0,reqDirect,"
+do you want me to book that ticket for you ",benefit-preference2-closed-query,booking-journey,positive,punc,type,query
+51,37,A,q-yn,75.0,reqDirect,"
+do you want me to book this ticket for you ",benefit-preference2-closed-query,booking-journey,positive,punc,type,query
+58,41,A,q-yn,77.0,reqDirect,"
+do you want me go ahead and book this ticket for you ",benefit-preference2-closed-query,booking-journey,positive,punc,type,query
+63,91,A,q-yn,193.0,reqDirect,"
+would you like me to book this ticket for you ",benefit-preference2-closed-query,booking-journey,positive,punc,type,query
+70,105,A,q-yn,189.0,reqDirect,"
+do you want me to book that for you ",benefit-preference2-closed-query,booking,positive,punc,type,query

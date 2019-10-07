@@ -1,0 +1,2292 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,4,B,yes,6.0,answ,"
+yeah
+",closure,,,,,
+1,6,B,yes,9.0,answ,"
+er yeah
+",,,,,,
+1,17,A,yes,24.0,ackn,"
+yeah ",,,,pause,length,10s
+1,18,B,yes,27.0,ackn,"
+yeah
+",,,,,,
+1,22,B,yes,31.0,ackn,"
+yeah ",,,,pause,,
+1,26,B,yes,38.0,ackn,"
+yeah
+",,,,,,
+1,30,B,yes,55.0,ackn,"
+yeah ",,,,pause,,
+1,32,B,yes,61.0,ackn,"
+yeah
+",,,,,,
+1,32,B,yes,63.0,ackn,"
+yeah
+",,,,,,
+1,34,B,yes,68.0,ackn,"
+yeah
+",,,,,,
+1,42,B,yes,80.0,ackn,"
+yep
+",,,,,,
+1,44,B,yes,82.0,ackn,"
+yep
+",,,,,,
+1,82,B,yes,137.0,ackn,"
+yeah
+",,,,,,
+2,18,B,yes,26.0,ackn,"
+yeah
+",,,,,,
+2,23,A,yes,33.0,ackn,"
+yeah
+",,,,,,
+3,4,B,yes,7.0,answ,"
+yes
+",closure,,,,,
+3,10,B,yes,13.0,answ,"
+yes
+",closure,,,,,
+3,14,B,yes,17.0,ackn,"
+yes
+",,,,,,
+3,20,B,yes,24.0,ackn,"
+yes
+",,,,,,
+3,22,B,yes,27.0,ackn,"
+yes
+",,,,,,
+3,26,B,yes,31.0,ackn,"
+yes
+",,,,,,
+3,28,B,yes,33.0,ackn,"
+yes
+",,,,,,
+3,30,B,yes,36.0,ackn,"
+yes
+",,,,,,
+3,34,B,yes,43.0,ackn,"
+yes
+",,,,,,
+3,36,B,yes,45.0,ackn,"
+",,,,pause,,
+3,38,B,yes,48.0,ackn,"
+yeah
+",,,,,,
+3,43,A,yes,55.0,ackn,"
+yeah
+",,,,,,
+3,46,B,yes,59.0,direct,"
+yeah
+",closure,,,,,
+3,50,B,yes,64.0,ackn,"
+yes
+",,,,,,
+3,52,B,yes,69.0,ackn,"
+yes
+",,,,,,
+3,64,B,yes,83.0,ackn,"
+yeah
+",,,,,,
+3,64,B,yes,85.0,ackn,"
+yeah
+",,,,,,
+3,72,B,yes,95.0,ackn,"
+yeah
+",,,,,,
+3,100,B,yes,137.0,ackn,"
+yes
+",,,,,,
+3,102,B,yes,140.0,ackn,"
+yes
+",,,,,,
+3,104,B,yes,142.0,ackn,"
+yeah
+",,,,,,
+3,106,B,yes,148.0,ackn,"
+yes
+",,,,,,
+3,108,B,yes,159.0,ackn,"
+yes
+",,,,,,
+3,114,B,yes,167.0,ackn,"
+yes
+",,,,,,
+3,116,B,yes,173.0,ackn,"
+yes
+",,,,,,
+4,8,B,yes,14.0,answ,"
+yes
+",closure,,,,,
+4,10,B,yes,17.0,answElab,"
+yes
+",,,,,,
+4,17,A,yes,38.0,ackn,"
+yeah
+",,,,,,
+4,20,B,yes,45.0,answ,"
+yeah
+",,,,,,
+4,25,A,yes,53.0,ackn,"
+yeah
+",,,,,,
+4,30,B,yes,69.0,ackn,"
+yeah ",,,,pause,,
+4,33,A,yes,73.0,ackn,"
+yes
+",,,,,,
+4,35,A,yes,76.0,ackn,"
+yeah
+",,,,,,
+4,45,A,yes,95.0,ackn,"
+",,,,pause,,
+4,47,A,yes,104.0,answ,"
+yeah
+",,,,,,
+4,49,A,yes,111.0,answ,"
+yeah
+",,,,,,
+4,52,B,yes,121.0,ackn,"
+yeah
+",,,,,,
+4,54,B,yes,123.0,ackn,"
+yeah
+",,,,,,
+4,57,A,yes,129.0,ackn,"
+yeah
+",,,,,,
+4,58,B,yes,130.0,ackn,"
+yeah
+",,,,,,
+4,60,B,yes,136.0,ackn,"
+yeah
+",,,,,,
+4,62,B,yes,140.0,answ,"
+erm ",closure,,,pause,length,5s
+4,62,B,yes,142.0,answElab,"
+yeah
+",,,,,,
+4,66,B,yes,151.0,ackn,"
+yeah
+",,,,,,
+4,102,B,yes,198.0,ackn,"
+yeah
+",,,,,,
+4,104,B,yes,200.0,ackn,"
+yeah
+",,,,,,
+4,109,A,yes,206.0,answ,"
+yes
+",closure,,,,,
+5,4,B,yes,8.0,answElab,"
+yeah
+",,,,,,
+5,20,B,yes,25.0,ackn,"
+yes
+",,,,,,
+5,27,A,yes,39.0,accept,"
+yeah sure ",,,,event,content,tape_cuts_off
+5,28,B,yes,41.0,ackn,"
+yeah
+",,,,,,
+5,31,A,yes,45.0,answ,"
+yes
+",,,,,,
+5,33,A,yes,48.0,accept,"
+yeah ",,,,event,content,tape_cuts_off
+5,39,A,yes,61.0,ackn,"
+yeah
+",,,,,,
+5,43,A,yes,70.0,ackn,"
+yeah
+",,,,,,
+6,4,B,yes,7.0,answ,"
+yes
+",closure,,,,,
+6,23,A,yes,32.0,answ,"
+yes
+",,,,,,
+6,82,B,yes,113.0,ackn,"
+yep
+",,,,,,
+6,84,B,yes,115.0,ackn,"
+yep
+",,,,,,
+6,86,B,yes,117.0,ackn,"
+yep
+",,,,,,
+7,4,B,yes,7.0,answ,"
+yeah
+",,,,,,
+7,21,A,yes,35.0,accept,"
+yes
+",,,,,,
+7,29,A,yes,47.0,answ,"
+yes
+",closure,,,,,
+7,74,B,yes,105.0,ackn,"
+yes
+",,,,,,
+7,76,B,yes,107.0,ackn,"
+yes
+",,,,,,
+8,6,B,yes,9.0,answ,"
+yes
+",closure,,,,,
+8,16,B,yes,26.0,ackn,"
+er yes
+",,,,,,
+8,20,B,yes,33.0,ackn,"
+yes please
+",,,,,,
+8,22,B,yes,35.0,answ,"
+yes
+",closure,,,,,
+8,24,B,yes,40.0,ackn,"
+yes
+",,,,,,
+8,26,B,yes,45.0,ackn,"
+yes
+",,,,,,
+8,34,B,yes,58.0,ackn,"
+yes
+",,,,,,
+8,43,A,yes,74.0,answ,"
+yes
+",closure,,,,,
+8,47,A,yes,81.0,answ,"
+yes
+",,,,,,
+8,51,A,yes,86.0,accept,"
+yes
+",,,,,,
+8,70,B,yes,114.0,ackn,"
+yeah
+",,,,,,
+8,82,B,yes,132.0,ackn,"
+yes
+",,,,,,
+9,12,B,yes,22.0,accept,"
+yeah
+",,,,,,
+9,22,B,yes,43.0,ackn,"
+yeah
+",,,,,,
+9,25,A,yes,48.0,ackn,"
+yes
+",,,,,,
+9,26,B,yes,49.0,ackn,"
+yeah yeah
+",,,,,,
+9,50,B,yes,91.0,ackn,"
+yeah
+",,,,,,
+9,58,B,yes,102.0,ackn,"
+yeah
+",,,,,,
+9,60,B,yes,104.0,ackn,"
+yep
+",,,,,,
+9,64,B,yes,110.0,ackn,"
+yeah
+",,,,,,
+9,76,B,yes,129.0,answ,"
+er yep
+",,,,,,
+9,94,B,yes,153.0,ackn,"
+yep
+",,,,,,
+9,97,A,yes,159.0,answ,"
+yes
+",,,,,,
+10,20,B,yes,30.0,ackn,"
+yeah
+",,,,,,
+10,22,B,yes,33.0,ackn,"
+yes
+",,,,,,
+10,26,B,yes,37.0,ackn,"
+yes
+",,,,,,
+10,28,B,yes,39.0,ackn,"
+yes
+",,,,,,
+11,6,B,yes,12.0,answ,"
+yes
+",closure,,,,,
+11,8,B,yes,15.0,answ,"
+yes
+",closure,,,,,
+11,12,B,yes,21.0,answ,"
+yes
+",,,,,,
+11,16,B,yes,27.0,ackn,"
+yeah
+",,,,,,
+11,26,B,yes,47.0,ackn,"
+yeah
+",,,,,,
+11,30,B,yes,51.0,ackn,"
+yeah
+",,,,,,
+11,40,B,yes,74.0,ackn,"
+yeah
+",,,,,,
+11,42,B,yes,76.0,ackn,"
+yeah
+",,,,,,
+11,44,B,yes,79.0,ackn,"
+yeah
+",,,,,,
+11,66,B,yes,118.0,ackn,"
+",,,,pause,,
+11,86,B,yes,155.0,ackn,"
+yeah
+",,,,,,
+12,4,B,yes,6.0,accept,"
+yes please
+",,,,,,
+12,6,B,yes,9.0,answ,"
+yes
+",closure,,,,,
+12,16,B,yes,26.0,answ,"
+yeah
+",closure,,,,,
+12,18,B,yes,28.0,answ,"
+yes
+",,,,,,
+12,23,A,yes,37.0,answ,"
+",closure,,,overlap,type,start
+12,28,B,yes,43.0,direct,"
+yes please
+",,,,,,
+12,38,B,yes,56.0,ackn,"
+yep
+",,,,,,
+12,40,B,yes,58.0,ackn,"
+yep
+",,,,,,
+12,43,A,yes,62.0,answ,"
+yes
+",,,,,,
+12,47,A,yes,70.0,answ,"
+yeah
+",,,,,,
+12,52,B,yes,79.0,ackn,"
+yeah ",,,,pause,,
+12,58,B,yes,88.0,direct,"
+yeah ",,,,pause,length,4s
+12,62,B,yes,94.0,ackn,"
+yeah ",,,,pause,length,4s
+12,67,A,yes,105.0,ackn,"
+yes
+",,,,,,
+12,74,B,yes,118.0,ackn,"
+yeah
+",,,,,,
+12,78,B,yes,126.0,ackn,"
+yeah ",,,,pause,,
+12,83,A,yes,136.0,ackn,"
+yeah ",,,,pause,,
+12,97,A,yes,172.0,ackn,"
+yeah
+",,,,,,
+12,100,B,yes,183.0,ackn,"
+yeah
+",,,,,,
+12,106,B,yes,194.0,ackn,"
+yeah
+",,,,,,
+12,109,A,yes,198.0,ackn,"
+yes
+",,,,,,
+12,122,B,yes,222.0,ackn,"
+yep
+",,,,,,
+12,124,B,yes,228.0,ackn,"
+yeah
+",,,,,,
+12,136,B,yes,243.0,ackn,"
+yeah
+",,,,,,
+12,154,B,yes,267.0,ackn,"
+yep
+",,,,,,
+12,156,B,yes,269.0,ackn,"
+yep
+",,,,,,
+13,4,B,yes,6.0,ackn,"
+yes
+",,,,,,
+13,6,B,yes,9.0,answ,"
+yes
+",closure,,,,,
+13,10,B,yes,13.0,answ,"
+yes
+",closure,,,,,
+13,18,B,yes,25.0,direct,"
+yes
+",closure,,,,,
+13,26,B,yes,39.0,ackn,"
+yes
+",,,,,,
+13,37,A,yes,59.0,answ,"
+yes
+",,,,,,
+13,49,A,yes,73.0,answ,"
+yeah
+",,,,,,
+13,55,A,yes,82.0,ackn,"
+yes
+",,,,,,
+13,62,B,yes,92.0,ackn,"
+yes
+",,,,,,
+13,78,B,yes,115.0,ackn,"
+yes please
+",,,,,,
+13,81,A,yes,122.0,ackn,"
+yes
+",,,,,,
+13,87,A,yes,131.0,ackn,"
+yes
+",,,,,,
+13,132,B,yes,192.0,answ,"
+yes
+",closure,,,,,
+14,10,B,yes,14.0,answ,"
+yes
+",closure,,,,,
+14,27,A,yes,46.0,accept,"
+yes
+",,,,,,
+14,28,B,yes,47.0,ackn,"
+yeah
+",,,,,,
+14,33,A,yes,56.0,answ,"
+yes
+",closure,,,,,
+14,44,B,yes,74.0,direct,"
+yes please
+",closure,,,,,
+14,62,B,yes,108.0,accept,"
+yep
+",,,,,,
+14,89,A,yes,145.0,ackn,"
+yeah
+",,,,,,
+14,102,B,yes,169.0,ackn,"
+yeah
+",,,,,,
+14,108,B,yes,175.0,ackn,"
+yeah
+",,,,,,
+14,116,B,yes,185.0,answ,"
+yes
+",,,,,,
+14,128,B,yes,203.0,ackn,"
+yes
+",,,,,,
+14,130,B,yes,206.0,ackn,"
+",,,,overlap,type,start
+15,6,B,yes,9.0,answ,"
+yes
+",,,,,,
+15,8,B,yes,14.0,answ,"
+yes
+",,,,,,
+15,12,B,yes,27.0,answ,"
+er yes ",closure,,,pause,,
+15,22,B,yes,45.0,ackn,"
+",,,,pause,,
+15,26,B,yes,50.0,ackn,"
+yeah
+",,,,,,
+15,30,B,yes,57.0,ackn,"
+yeah
+",,,,,,
+15,31,A,yes,60.0,answ,"
+",,,,pause,,
+15,32,B,yes,64.0,ackn,"
+yeah ",,,,overlap,type,end
+15,36,B,yes,69.0,ackn,"
+yes
+",,,,,,
+15,41,A,yes,74.0,ackn,"
+yeah ",,,,pause,length,7s
+15,52,B,yes,95.0,ackn,"
+yeah
+",,,,,,
+15,59,A,yes,107.0,ackn,"
+yeah ",,,,pause,length,10s
+15,67,A,yes,117.0,ackn,"
+yeah ",,,,pause,length,18s
+15,70,B,yes,123.0,answ,"
+yes
+",,,,,,
+15,77,A,yes,140.0,ackn,"
+yeah
+",,,,,,
+16,14,B,yes,21.0,answ,"
+yeah
+",closure,,,,,
+16,18,B,yes,26.0,ackn,"
+yeah
+",,,,,,
+16,24,B,yes,37.0,ackn,"
+yeah
+",,,,,,
+16,32,B,yes,60.0,ackn,"
+yes ",,,,pause,,
+16,33,A,yes,62.0,answ,"
+",,,,pause,,
+16,38,B,yes,69.0,direct,"
+yes please
+",closure,,,,,
+16,44,B,yes,89.0,ackn,"
+yes
+",,,,,,
+16,50,B,yes,96.0,ackn,"
+yeah ",,,,overlap,type,start
+16,52,B,yes,99.0,ackn,"
+yeah
+",,,,,,
+16,76,B,yes,134.0,answ,"
+yeah
+",closure,,,,,
+16,92,B,yes,153.0,ackn,"
+yeah
+",,,,,,
+16,114,B,yes,182.0,ackn,"
+yeah
+",,,,,,
+17,4,B,yes,7.0,answ,"
+yes
+",closure,,,,,
+17,15,A,yes,21.0,ackn,"
+yes
+",,,,,,
+17,16,B,yes,23.0,ackn,"
+yeah ",,,,overlap,type,end
+17,25,A,yes,35.0,answ,"
+yes
+",,,,,,
+17,33,A,yes,46.0,ackn,"
+yeah
+",,,,,,
+17,36,B,yes,54.0,ackn,"
+",,,,pause,,
+17,36,B,yes,54.0,ackn,"
+",,,,pause,,
+17,48,B,yes,70.0,answ,"
+erm yes
+",,,,,,
+17,50,B,yes,77.0,ackn,"
+yeah
+",,,,,,
+17,56,B,yes,83.0,ackn,"
+yeah
+",,,,,,
+18,2,B,yes,3.0,ackn,"
+yeah
+",,,,,,
+18,8,B,yes,18.0,ackn,"
+yeah
+",,,,,,
+18,21,A,yes,44.0,ackn,"
+yeah
+",,,,,,
+18,25,A,yes,53.0,answ,"
+yeah
+",closure,,,,,
+18,29,A,yes,67.0,answ,"
+yes
+",,,,,,
+18,31,A,yes,71.0,accept,"
+yes
+",closure,,,,,
+18,32,B,yes,73.0,ackn,"
+yes
+",,,,,,
+18,33,A,yes,77.0,answ,"
+yeah
+",,,,,,
+18,36,B,yes,84.0,ackn,"
+yeah yeah
+",,,,,,
+18,38,B,yes,87.0,ackn,"
+yeah
+",,,,,,
+18,40,B,yes,94.0,accept,"
+yeah
+",,,,,,
+18,42,B,yes,97.0,direct,"
+yeah yeah
+",,,,,,
+18,64,B,yes,144.0,answ,"
+yeah ",,,,pause,,
+18,66,B,yes,147.0,ackn,"
+yeah
+",,,,,,
+18,68,B,yes,151.0,ackn,"
+em yeah
+",,,positive,,,
+18,76,B,yes,162.0,answ,"
+yeah
+",,,,,,
+18,82,B,yes,169.0,ackn,"
+yeah
+",,,,,,
+18,100,B,yes,191.0,ackn,"
+",,,,pause,,
+18,103,A,yes,196.0,ackn,"
+yeah ",,,,overlap,type,end
+18,103,A,yes,196.0,ackn,"
+yeah ",,,,pause,,
+18,104,B,yes,205.0,answ,"
+yeah
+",,,,,,
+18,110,B,yes,212.0,ackn,"
+yeah
+",,,,,,
+18,115,A,yes,226.0,ackn,"
+",,,,pause,,
+18,115,A,yes,226.0,ackn,"
+",,,,vocal,content,laughter
+19,4,B,yes,8.0,answElab,"
+yes
+",,,,,,
+19,10,B,yes,15.0,answElab,"
+yeah
+",,,,,,
+19,16,B,yes,23.0,ackn,"
+yes
+",,,,,,
+19,20,B,yes,28.0,answElab,"
+yeah
+",,,,,,
+19,24,B,yes,35.0,ackn,"
+yeah
+",,,,,,
+19,30,B,yes,49.0,ackn,"
+yeah
+",,,,,,
+19,48,B,yes,75.0,ackn,"
+yes
+",,,,,,
+19,66,B,yes,97.0,answ,"
+yes
+",,,,,,
+19,76,B,yes,112.0,answ,"
+yes
+",,,,,,
+19,78,B,yes,115.0,ackn,"
+yeah
+",,,,,,
+19,80,B,yes,117.0,ackn,"
+yeah
+",,,,,,
+19,84,B,yes,124.0,ackn,"
+yeah
+",,,,,,
+20,8,B,yes,15.0,answ,"
+er yeah
+",closure,,,,,
+20,17,A,yes,30.0,ackn,"
+yeah
+",,,,,,
+20,19,A,yes,33.0,ackn,"
+yeah
+",,,,,,
+20,22,B,yes,42.0,init,"
+yeah
+",,,positive,,,
+20,25,A,yes,49.0,ackn,"
+yeah
+",,,,,,
+21,4,B,yes,8.0,answ,"
+yes ",,,,overlap,type,end
+21,6,B,yes,10.0,answ,"
+yes ",,,,overlap,type,end
+21,6,B,yes,10.0,answ,"
+yes ",,,,pause,,
+21,8,B,yes,14.0,answ,"
+yes
+",closure,,,,,
+21,20,B,yes,40.0,accept,"
+yeah
+",,,,,,
+21,22,B,yes,43.0,accept,"
+yeah
+",,,,,,
+21,24,B,yes,46.0,ackn,"
+yeah
+",,,,,,
+21,28,B,yes,51.0,ackn,"
+",,,,pause,length,2s
+21,28,B,yes,51.0,ackn,"
+",,,,overlap,type,start
+21,30,B,yes,53.0,ackn,"
+yeah
+",,,,,,
+21,40,B,yes,71.0,accept,"
+yes
+",,,,,,
+21,42,B,yes,73.0,ackn,"
+yes
+",,,,,,
+21,70,B,yes,106.0,ackn,"
+yeah
+",,,,,,
+21,80,B,yes,120.0,ackn,"
+yeah
+",,,,,,
+21,82,B,yes,122.0,ackn,"
+yeah ",,,,overlap,type,end
+21,84,B,yes,124.0,ackn,"
+yeah
+",,,,,,
+22,4,B,yes,7.0,answ,"
+yes
+",,,,,,
+22,21,A,yes,43.0,ackn,"
+yeah
+",,,,,,
+22,28,B,yes,63.0,ackn,"
+yeah ",,,,pause,length,2s
+22,32,B,yes,69.0,ackn,"
+yeah
+",,,,,,
+22,35,A,yes,75.0,ackn,"
+yeah
+",,,,,,
+22,40,B,yes,95.0,ackn,"
+yeah
+",,,,,,
+22,42,B,yes,98.0,ackn,"
+yeah
+",,,,,,
+22,56,B,yes,126.0,direct,"
+yeah please
+",closure,,,,,
+23,12,B,yes,19.0,ackn,"
+yes
+",,,,,,
+23,15,A,yes,22.0,answ,"
+yeah
+",closure,,,,,
+23,20,B,yes,28.0,ackn,"
+yeah
+",,,,,,
+23,27,A,yes,42.0,ackn,"
+yes
+",,,,,,
+23,28,B,yes,45.0,ackn,"
+yeah
+",,,,,,
+23,33,A,yes,50.0,answ,"
+yeah
+",,,,,,
+23,34,B,yes,52.0,ackn,"
+yeah
+",,,,,,
+23,42,B,yes,66.0,direct,"
+yes please
+",closure,,,,,
+23,64,B,yes,101.0,init,"
+er ",,,,pause,length,3s
+23,88,B,yes,155.0,ackn,"
+yeah
+",,,,,,
+23,90,B,yes,157.0,ackn,"
+yeah
+",,,,,,
+24,6,B,yes,10.0,answ,"
+yes please
+",closure,,,,,
+24,31,A,yes,52.0,ackn,"
+yeah
+",,,,,,
+24,32,B,yes,56.0,ackn,"
+yeah
+",,,,,,
+24,37,A,yes,63.0,ackn,"
+",,,,pause,,
+24,84,B,yes,151.0,answ,"
+yes
+",,,,,,
+25,10,B,yes,14.0,confirm,"
+yeah
+",,,,,,
+25,11,A,yes,15.0,ackn,"
+yeah
+",,,,,,
+25,14,B,yes,21.0,answElab,"
+yeah
+",,,,,,
+25,18,B,yes,26.0,ackn,"
+yeah
+",,,,,,
+25,20,B,yes,28.0,ackn,"
+yeah
+",,,,,,
+25,22,B,yes,30.0,answ,"
+yes
+",closure,,,,,
+25,26,B,yes,36.0,ackn,"
+yeah
+",,,,,,
+25,38,B,yes,60.0,ackn,"
+yeah
+",,,,,,
+26,14,B,yes,20.0,answElab,"
+yeah
+",,,,,,
+26,14,B,yes,21.0,answElab,"
+oh yes ",,,,comment,content,laughs
+26,25,A,yes,42.0,ackn,"
+yeah ",,,,pause,,
+26,32,B,yes,62.0,ackn,"
+yeah
+",,,,,,
+26,37,A,yes,71.0,ackn,"
+yeah
+",,,,,,
+26,39,A,yes,82.0,ackn,"
+yeah
+",,,,,,
+26,42,B,yes,91.0,ackn,"
+",,,,pause,,
+26,44,B,yes,93.0,ackn,"
+yes
+",,,,,,
+26,48,B,yes,103.0,self-talk,"
+yes
+",,,,,,
+26,50,B,yes,107.0,ackn,"
+yeah
+",,,,,,
+26,54,B,yes,123.0,ackn,"
+yes yes
+",,,,,,
+27,4,B,yes,8.0,answ,"
+yes
+",closure,,,,,
+27,8,B,yes,13.0,ackn,"
+yes
+",,,,,,
+27,14,B,yes,22.0,ackn,"
+yeah
+",,,,,,
+27,16,B,yes,27.0,ackn,"
+yes
+",,,,,,
+27,22,B,yes,34.0,ackn,"
+yes
+",,,,,,
+27,24,B,yes,37.0,ackn,"
+yes
+",,,,,,
+27,34,B,yes,73.0,accept,"
+yes
+",,,,,,
+27,38,B,yes,82.0,ackn,"
+yes
+",,,,,,
+27,40,B,yes,84.0,ackn,"
+yes
+",,,,,,
+27,44,B,yes,89.0,ackn,"
+yes
+",,,,,,
+27,48,B,yes,96.0,ackn,"
+yes
+",,,,,,
+27,50,B,yes,100.0,ackn,"
+oh yes
+",,,,,,
+27,56,B,yes,111.0,ackn,"
+yes
+",,,,,,
+27,80,B,yes,137.0,ackn,"
+yes
+",,,,,,
+27,104,B,yes,166.0,ackn,"
+yes
+",,,,,,
+27,107,A,yes,169.0,ackn,"
+yes
+",,,,,,
+27,125,A,yes,194.0,ackn,"
+yes
+",,,,,,
+28,8,B,yes,17.0,ackn,"
+yes
+",,,,,,
+28,10,B,yes,20.0,answ,"
+yes
+",closure,,,,,
+28,18,B,yes,33.0,answ,"
+yes
+",,,,,,
+28,22,B,yes,38.0,ackn,"
+yes
+",,,,,,
+28,27,A,yes,49.0,selfTalk,"
+yeah
+",,,,,,
+28,28,B,yes,50.0,ackn,"
+yeah
+",,,,,,
+28,40,B,yes,75.0,ackn,"
+yes ",,,,unclear,length,3 syllables
+28,42,B,yes,78.0,ackn,"
+yes
+",,,,,,
+28,46,B,yes,88.0,ackn,"
+yeah
+",,,,,,
+28,51,A,yes,96.0,ackn,"
+yeah
+",,,,,,
+28,55,A,yes,101.0,ackn,"
+yeah
+",,,,,,
+28,57,A,yes,105.0,ackn,"
+yes
+",,,,,,
+28,63,A,yes,115.0,answ,"
+yes
+",,,,,,
+28,70,B,yes,128.0,answ,"
+yes
+",,,,,,
+28,72,B,yes,134.0,ackn,"
+yes
+",,,,,,
+28,76,B,yes,140.0,ackn,"
+yes
+",,,,,,
+28,84,B,yes,152.0,ackn,"
+yes
+",,,,,,
+28,86,B,yes,155.0,ackn,"
+yes ",,,,pause,length,4s
+28,95,A,yes,167.0,ackn,"
+yeah
+",,,,,,
+28,96,B,yes,169.0,ackn,"
+oh yes
+",,,,,,
+28,98,B,yes,174.0,answ,"
+yes love
+",,,,,,
+28,104,B,yes,182.0,ackn,"
+yes
+",,,,,,
+28,107,A,yes,185.0,ackn,"
+yes
+",,,,,,
+28,114,B,yes,193.0,ackn,"
+yes ",,,,pause,length,32s
+28,126,B,yes,209.0,ackn,"
+yes
+",,,,,,
+28,134,B,yes,223.0,ackn,"
+yes
+",,,,,,
+28,144,B,yes,235.0,ackn,"
+yes
+",,,,,,
+28,162,B,yes,256.0,ackn,"
+yeah
+",,,,,,
+28,168,B,yes,263.0,ackn,"
+yes
+",,,,,,
+28,180,B,yes,276.0,ackn,"
+yes
+",,,,,,
+28,186,B,yes,287.0,ackn,"
+yes
+",,,,,,
+28,194,B,yes,297.0,ackn,"
+yeah ",,,,pause,,
+28,194,B,yes,298.0,ackn,"
+yeah
+",,,,,,
+28,212,B,yes,318.0,accept,"
+yes
+",,,,,,
+29,4,B,yes,8.0,answElab,"
+yes
+",,,,,,
+29,12,B,yes,17.0,answ,"
+yes
+",closure,,,,,
+29,12,B,yes,19.0,answElab,"
+yeah
+",,,,,,
+29,16,B,yes,24.0,ackn,"
+yes please
+",,,,,,
+29,33,A,yes,70.0,answ,"
+yes
+",,,,,,
+29,36,B,yes,75.0,ackn,"
+yeah
+",,,,,,
+29,38,B,yes,78.0,ackn,"
+yes
+",,,,,,
+29,79,A,yes,133.0,direct,"
+yes
+",closure,,,,,
+29,86,B,yes,140.0,ackn,"
+yeah
+",,,,,,
+29,96,B,yes,155.0,answ,"
+yeah
+",,,,,,
+29,98,B,yes,158.0,ackn,"
+yeah
+",,,,,,
+29,100,B,yes,160.0,ackn,"
+yeah
+",,,,,,
+30,6,B,yes,11.0,answElab,"
+yeah
+",,,,,,
+30,8,B,yes,13.0,ackn,"
+yep
+",,,,,,
+30,14,B,yes,25.0,ackn,"
+yeah
+",,,,,,
+30,16,B,yes,28.0,ackn,"
+yeah
+",,,,,,
+31,8,B,yes,15.0,ackn,"
+yeah
+",,,,,,
+32,6,B,yes,9.0,answ,"
+yes
+",closure,,,,,
+32,8,B,yes,12.0,ackn,"
+yes
+",,,,,,
+32,16,B,yes,28.0,ackn,"
+yes
+",,,,,,
+32,23,A,yes,38.0,ackn,"
+yeah
+",,,,,,
+32,28,B,yes,48.0,ackn,"
+yes
+",,,,,,
+32,30,B,yes,50.0,ackn,"
+yes
+",,,,,,
+32,37,A,yes,61.0,accept,"
+yeah
+",,,,,,
+32,46,B,yes,78.0,ackn,"
+yes
+",,,,,,
+32,48,B,yes,80.0,ackn,"
+yes
+",,,,,,
+33,18,B,yes,21.0,answ,"
+yep
+",closure,,,,,
+33,30,B,yes,39.0,ackn,"
+yeah
+",,,,,,
+33,32,B,yes,44.0,accept,"
+yeah
+",,,,,,
+33,34,B,yes,49.0,ackn,"
+yes
+",,,,,,
+33,36,B,yes,51.0,ackn,"
+yes
+",,,,,,
+33,40,B,yes,65.0,ackn,"
+yes
+",,,,,,
+33,42,B,yes,67.0,ackn,"
+yes
+",,,,,,
+33,44,B,yes,72.0,ackn,"
+yes
+",,,,,,
+33,48,B,yes,78.0,accept,"
+yes lovely
+",,,,,,
+33,76,B,yes,121.0,ackn,"
+yeah
+",,,,,,
+33,78,B,yes,124.0,ackn,"
+yeah
+",,,,,,
+33,90,B,yes,139.0,ackn,"
+yeah
+",,,,,,
+33,110,B,yes,162.0,ackn,"
+yeah
+",,,,,,
+33,112,B,yes,164.0,ackn,"
+yeah
+",,,,,,
+34,4,B,yes,7.0,answ,"
+yes
+",,,,,,
+34,20,B,yes,34.0,ackn,"
+yeah
+",,,,,,
+34,23,A,yes,38.0,ackn,"
+yeah
+",,,,,,
+34,34,B,yes,69.0,init,"
+erm yeah
+",closure,,,,,
+34,35,A,yes,75.0,ackn,"
+yeah ",,,,overlap,type,end
+35,12,B,yes,21.0,ackn,"
+yes
+",,,,,,
+35,14,B,yes,25.0,ackn,"
+yes
+",,,,,,
+35,26,B,yes,39.0,ackn,"
+",,,,overlap,type,start
+35,40,B,yes,62.0,ackn,"
+yeah
+",,,,,,
+35,44,B,yes,68.0,ackn,"
+yeah
+",,,,,,
+35,60,B,yes,93.0,ackn,"
+",,,,pause,length,2s
+35,60,B,yes,95.0,ackn,"
+yeah
+",,,,,,
+35,64,B,yes,102.0,ackn,"
+yeah
+",,,,,,
+35,67,A,yes,107.0,accept,"
+yeah
+",,,,,,
+35,74,B,yes,121.0,ackn,"
+yes
+",,,,,,
+35,79,A,yes,129.0,answ,"
+yeah ",closure,,,pause,,
+35,83,A,yes,137.0,ackn,"
+",,,,overlap,type,start
+35,90,B,yes,148.0,answ,"
+yeah
+",,,,,,
+35,92,B,yes,151.0,ackn,"
+yeah
+",,,,,,
+35,104,B,yes,166.0,ackn,"
+yeah
+",,,,,,
+35,108,B,yes,172.0,direct,"
+yeah
+",,,,,,
+35,114,B,yes,194.0,direct,"
+yes
+",,,,,,
+35,116,B,yes,199.0,ackn,"
+yeah
+",,,,,,
+35,122,B,yes,209.0,ackn,"
+yeah
+",,,,,,
+35,130,B,yes,222.0,ackn,"
+yeah
+",,,,,,
+35,140,B,yes,241.0,answ,"
+yes
+",,,,,,
+35,155,A,yes,258.0,answ,"
+yes
+",,,,,,
+35,157,A,yes,261.0,answ,"
+yeah
+",,,,,,
+35,158,B,yes,263.0,ackn,"
+yep
+",,,,,,
+35,168,B,yes,275.0,ackn,"
+yeah
+",,,,,,
+35,170,B,yes,277.0,answ,"
+yeah
+",closure,,,,,
+35,172,B,yes,279.0,ackn,"
+yeah
+",,,,,,
+35,174,B,yes,281.0,ackn,"
+yeah
+",,,,,,
+35,181,A,yes,291.0,accept,"
+yes
+",closure,,,,,
+35,183,A,yes,293.0,ackn,"
+yep
+",,,,,,
+35,188,B,yes,311.0,ackn,"
+yeah
+",,,,,,
+36,4,B,yes,8.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+36,6,B,yes,11.0,answer-acknowledge,"
+er yeah
+",,,,,,
+36,17,A,yes,26.0,acknowledge,"
+yeah ",,,,punc,type,stop
+36,18,B,yes,29.0,acknowledge,"
+yeah ",,,,punc,type,stop
+36,22,B,yes,35.0,confirm-acknowledge,"
+",,,,pause,,
+36,22,B,yes,35.0,confirm-acknowledge,"
+",,,,punc,type,stop
+36,26,B,yes,42.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+36,30,B,yes,57.0,acknowledge,"
+yeah ",,,,punc,type,stop
+36,32,B,yes,63.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+36,32,B,yes,65.0,acknowledge,"
+yeah ",,,,punc,type,stop
+36,34,B,yes,70.0,acknowledge,"
+yeah ",,,,punc,type,stop
+36,42,B,yes,83.0,confirm-acknowledge,"
+yep ",,,,punc,type,stop
+36,44,B,yes,85.0,acknowledge,"
+yep ",,,,punc,type,stop
+36,82,B,yes,141.0,acknowledge,"
+yeah ",,,,punc,type,stop
+37,18,B,yes,28.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+37,24,B,yes,38.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+38,4,B,yes,9.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+38,10,B,yes,15.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+38,14,B,yes,20.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+38,20,B,yes,30.0,acknowledge,"
+yes ",,,,punc,type,level
+38,22,B,yes,32.0,acknowledge,"
+yes ",,,,punc,type,stop
+38,26,B,yes,38.0,acknowledge,"
+yes ",,,,punc,type,stop
+38,28,B,yes,40.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+38,30,B,yes,43.0,confirm-acknowledge,"
+yes
+",,,,,,
+38,34,B,yes,51.0,acknowledge,"
+yes ",,,,punc,type,stop
+38,36,B,yes,53.0,acknowledge,"
+",,,,pause,,
+38,36,B,yes,53.0,acknowledge,"
+",,,,punc,type,stop
+38,38,B,yes,56.0,acknowledge,"
+yeah ",,,,punc,type,stop
+38,43,A,yes,63.0,acknowledge,"
+yeah ",,,,punc,type,stop
+38,46,B,yes,68.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+38,50,B,yes,73.0,acknowledge,"
+yes ",,,,punc,type,stop
+38,52,B,yes,78.0,acknowledge,"
+yes ",,,,punc,type,stop
+38,64,B,yes,94.0,confirm-acknowledge,"
+yeah
+",,,,,,
+38,64,B,yes,96.0,acknowledge,"
+yeah ",,,,punc,type,stop
+38,72,B,yes,106.0,acknowledge,"
+yeah ",,,,punc,type,stop
+38,100,B,yes,152.0,acknowledge,"
+yes
+",,,,,,
+38,102,B,yes,155.0,acknowledge,"
+yes
+",,,,,,
+38,104,B,yes,158.0,acknowledge,"
+yeah ",,,,punc,type,stop
+38,106,B,yes,164.0,acknowledge,"
+yes
+",,,,,,
+38,108,B,yes,176.0,acknowledge,"
+yes
+",,,,,,
+38,114,B,yes,184.0,acknowledge,"
+yes
+",,,,,,
+38,116,B,yes,191.0,confirm-acknowledge,"
+yes
+",,,,,,
+39,8,B,yes,16.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+39,10,B,yes,19.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+39,17,A,yes,40.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+39,20,B,yes,46.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+39,25,A,yes,56.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+39,30,B,yes,73.0,acknowledge,"
+yeah
+",,,,,,
+39,33,A,yes,78.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+39,35,A,yes,81.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+39,43,A,yes,97.0,confirm-acknowledge,"
+",,,,pause,,
+39,43,A,yes,97.0,confirm-acknowledge,"
+",,,,punc,type,stop
+39,45,A,yes,107.0,acknowledge,"
+",,,,pause,length,2s
+39,45,A,yes,107.0,acknowledge,"
+",,,,punc,type,stop
+39,47,A,yes,115.0,confirm-state,"
+yeah ",,,,punc,type,stop
+39,50,B,yes,126.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+39,52,B,yes,128.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+39,55,A,yes,134.0,acknowledge,"
+yeah ",,,,punc,type,stop
+39,56,B,yes,135.0,echo-acknowledge,"
+yeah ",,,,punc,type,stop
+39,58,B,yes,141.0,acknowledge,"
+yeah ",,,,punc,type,stop
+39,60,B,yes,145.0,answer-acknowledge,"
+erm ",,,,pause,length,5s
+39,60,B,yes,151.0,acknowledge,"
+yeah ",,,,punc,type,stop
+39,64,B,yes,161.0,acknowledge,"
+yeah ",,,,punc,type,stop
+39,100,B,yes,214.0,acknowledge,"
+yeah ",,,,punc,type,stop
+39,102,B,yes,216.0,acknowledge,"
+yeah ",,,,punc,type,stop
+39,107,A,yes,222.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+40,4,B,yes,9.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+40,10,B,yes,15.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+40,14,B,yes,20.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+40,20,B,yes,30.0,acknowledge,"
+yes ",,,,punc,type,level
+40,22,B,yes,32.0,acknowledge,"
+yes ",,,,punc,type,stop
+40,26,B,yes,38.0,acknowledge,"
+yes ",,,,punc,type,stop
+40,28,B,yes,40.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+40,30,B,yes,43.0,confirm-acknowledge,"
+yes
+",,,,,,
+40,34,B,yes,51.0,acknowledge,"
+yes ",,,,punc,type,stop
+40,36,B,yes,53.0,acknowledge,"
+",,,,pause,,
+40,36,B,yes,53.0,acknowledge,"
+",,,,punc,type,stop
+40,38,B,yes,56.0,acknowledge,"
+yeah ",,,,punc,type,stop
+40,43,A,yes,63.0,acknowledge,"
+yeah ",,,,punc,type,stop
+40,46,B,yes,68.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+40,50,B,yes,73.0,acknowledge,"
+yes ",,,,punc,type,stop
+40,52,B,yes,78.0,acknowledge,"
+yes ",,,,punc,type,stop
+40,64,B,yes,94.0,confirm-acknowledge,"
+yeah
+",,,,,,
+40,64,B,yes,96.0,acknowledge,"
+yeah ",,,,punc,type,stop
+40,72,B,yes,106.0,acknowledge,"
+yeah ",,,,punc,type,stop
+40,100,B,yes,152.0,acknowledge,"
+yes
+",,,,,,
+40,102,B,yes,155.0,acknowledge,"
+yes
+",,,,,,
+40,104,B,yes,158.0,acknowledge,"
+yeah ",,,,punc,type,stop
+40,106,B,yes,164.0,acknowledge,"
+yes
+",,,,,,
+40,108,B,yes,176.0,acknowledge,"
+yes
+",,,,,,
+40,114,B,yes,184.0,acknowledge,"
+yes
+",,,,,,
+40,116,B,yes,190.0,confirm-acknowledge,"
+yes
+",,,,,,
+41,4,B,yes,8.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+41,23,A,yes,36.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+41,82,B,yes,122.0,acknowledge,"
+yep ",,,,punc,type,stop
+41,84,B,yes,124.0,acknowledge,"
+yep ",,,,punc,type,stop
+41,86,B,yes,126.0,acknowledge,"
+yep ",,,,punc,type,stop
+42,4,B,yes,9.0,answer-acknowledge,"
+yeah
+",,,,,,
+42,21,A,yes,40.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+42,29,A,yes,53.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+42,30,B,yes,55.0,acknowledge,"
+yes ",,,,punc,type,stop
+42,41,A,yes,76.0,acknowledge,"
+yes ",,,,punc,type,stop
+42,74,B,yes,120.0,acknowledge,"
+yes ",,,,punc,type,stop
+42,76,B,yes,123.0,acknowledge,"
+yes ",,,,punc,type,stop
+43,6,B,yes,10.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+43,16,B,yes,33.0,confirm-acknowledge,"
+er yes ",,,,punc,type,stop
+43,20,B,yes,39.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+43,22,B,yes,41.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+43,24,B,yes,46.0,acknowledge,"
+yes ",,,,punc,type,stop
+43,26,B,yes,52.0,acknowledge,"
+yes ",,,,punc,type,stop
+43,34,B,yes,68.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+43,43,A,yes,87.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+43,44,B,yes,89.0,acknowledge,"
+yes ",,,,punc,type,stop
+43,47,A,yes,96.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+43,50,B,yes,101.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+43,51,A,yes,105.0,acknowledge,"
+yes ",,,,punc,type,stop
+43,53,A,yes,112.0,acknowledge,"
+yeah ",,,,punc,type,stop
+43,57,A,yes,117.0,acknowledge,"
+",,,,pause,,
+43,57,A,yes,117.0,acknowledge,"
+",,,,punc,type,stop
+43,70,B,yes,139.0,acknowledge,"
+yeah ",,,,punc,type,stop
+43,82,B,yes,160.0,acknowledge,"
+yes ",,,,punc,type,stop
+44,12,B,yes,28.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,14,B,yes,36.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,22,B,yes,55.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,25,A,yes,61.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+44,26,B,yes,62.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,26,B,yes,63.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,26,B,yes,65.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,46,B,yes,110.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,54,B,yes,125.0,acknowledge,"
+yeah ",,,,punc,type,stop
+44,56,B,yes,127.0,acknowledge,"
+yep ",,,,punc,type,stop
+44,60,B,yes,135.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+44,72,B,yes,157.0,acknowledge,"
+er yep ",,,,punc,type,stop
+44,90,B,yes,183.0,acknowledge,"
+yep ",,,,punc,type,stop
+44,93,A,yes,189.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+44,96,B,yes,198.0,acknowledge,"
+yeah ",,,,punc,type,stop
+45,12,B,yes,23.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+45,14,B,yes,26.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+45,18,A,yes,33.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+45,22,B,yes,45.0,acknowledge,"
+yeah ",,,,punc,type,stop
+45,24,B,yes,48.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+45,28,B,yes,54.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+45,30,B,yes,57.0,acknowledge,"
+yes ",,,,punc,type,stop
+46,6,B,yes,15.0,answer-acknowledge,"
+yes ",,,,punc,type,level
+46,8,B,yes,18.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+46,12,B,yes,25.0,answer-state,"
+yes ",,,,punc,type,stop
+46,16,B,yes,32.0,acknowledge,"
+yeah ",,,,punc,type,stop
+46,22,B,yes,50.0,acknowledge,"
+yeah ",,,,punc,type,stop
+46,26,B,yes,59.0,acknowledge,"
+yeah ",,,,punc,type,stop
+46,30,B,yes,64.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+46,40,B,yes,91.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+46,42,B,yes,93.0,acknowledge,"
+yeah ",,,,punc,type,stop
+46,44,B,yes,97.0,acknowledge,"
+yeah ",,,,punc,type,stop
+46,66,B,yes,142.0,acknowledge,"
+",,,,pause,,
+46,66,B,yes,142.0,acknowledge,"
+",,,,punc,type,stop
+46,86,B,yes,181.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,4,B,yes,7.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+47,6,B,yes,10.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+47,16,B,yes,27.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+47,18,B,yes,29.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+47,23,A,yes,40.0,confirm-acknowledge,"
+",,,,overlap,type,start
+47,23,A,yes,40.0,confirm-acknowledge,"
+",,,,punc,type,stop
+47,28,B,yes,46.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+47,36,B,yes,59.0,acknowledge,"
+yep ",,,,punc,type,stop
+47,38,B,yes,61.0,acknowledge,"
+yep ",,,,punc,type,stop
+47,41,A,yes,66.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+47,45,A,yes,78.0,stateOpt-acknowledge,"
+yeah ",,,,punc,type,stop
+47,50,B,yes,88.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,56,B,yes,97.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+47,60,B,yes,105.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+47,72,B,yes,127.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,76,B,yes,137.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,81,A,yes,146.0,confirm-acknowledge,"
+yeah ",,,,punc,type,level
+47,95,A,yes,189.0,elab-acknowledge,"
+yeah ",,,,punc,type,level
+47,98,B,yes,199.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,104,B,yes,210.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+47,107,A,yes,214.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+47,120,B,yes,241.0,acknowledge,"
+yep ",,,,punc,type,stop
+47,122,B,yes,247.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,134,B,yes,267.0,acknowledge,"
+yeah ",,,,punc,type,stop
+47,152,B,yes,291.0,acknowledge,"
+yep ",,,,punc,type,stop
+47,154,B,yes,293.0,acknowledge,"
+yep ",,,,punc,type,stop
+48,4,B,yes,8.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+48,6,B,yes,11.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+48,10,B,yes,15.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+48,18,B,yes,30.0,direct-acknowledge,"
+yes ",,,,punc,type,stop
+48,26,B,yes,44.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+48,37,A,yes,66.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+48,49,A,yes,80.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+48,55,A,yes,90.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+48,62,B,yes,101.0,confirm-acknowledge,"
+yes
+",,,,,,
+48,64,B,yes,109.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+48,78,B,yes,131.0,confirm-accept,"
+yes please ",request,,,punc,type,stop
+48,81,A,yes,138.0,answer-state,"
+yes ",,,,punc,type,stop
+48,87,A,yes,148.0,acknowledge,"
+yes ",,,,punc,type,stop
+48,132,B,yes,213.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+49,10,B,yes,16.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+49,27,A,yes,56.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+49,28,B,yes,57.0,acknowledge,"
+yeah ",,,,punc,type,stop
+49,33,A,yes,64.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+49,44,B,yes,84.0,direct-accept,"
+yes please ",request,,,punc,type,stop
+49,62,B,yes,121.0,acknowledge,"
+yep ",,,,punc,type,stop
+49,89,A,yes,164.0,confirm-acknowledge,"
+yeah ",,,,punc,type,level
+49,102,B,yes,191.0,acknowledge,"
+yeah ",,,,punc,type,stop
+49,108,B,yes,197.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+49,116,B,yes,208.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+49,128,B,yes,228.0,acknowledge,"
+yes ",,,,punc,type,stop
+49,130,B,yes,231.0,acknowledge,"
+",,,,overlap,type,start
+49,130,B,yes,231.0,acknowledge,"
+",,,,punc,type,stop
+50,6,B,yes,11.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+50,8,B,yes,16.0,acknowledge,"
+yes ",,,,punc,type,stop
+50,12,B,yes,29.0,confirm-acknowledge,"
+er yes ",,,,punc,type,stop
+50,22,B,yes,47.0,confirm-acknowledge,"
+",,,,pause,,
+50,22,B,yes,47.0,confirm-acknowledge,"
+",,,,punc,type,stop
+50,26,B,yes,52.0,acknowledge,"
+yeah ",,,,punc,type,stop
+50,30,B,yes,59.0,acknowledge,"
+yeah ",,,,punc,type,stop
+50,31,A,yes,62.0,confirm-acknowledge,"
+",,,,pause,,
+50,31,A,yes,62.0,confirm-acknowledge,"
+",,,,punc,type,stop
+50,34,B,yes,70.0,acknowledge,"
+yes ",,,,punc,type,stop
+50,39,A,yes,75.0,acknowledge,"
+yeah ",,,,punc,type,stop
+50,50,B,yes,96.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+50,57,A,yes,111.0,acknowledge,"
+yeah ",,,,punc,type,stop
+50,65,A,yes,121.0,acknowledge,"
+yeah ",,,,punc,type,stop
+50,68,B,yes,128.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+51,14,B,yes,24.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+51,18,B,yes,29.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+51,24,B,yes,42.0,acknowledge,"
+yeah ",,,,punc,type,stop
+51,32,B,yes,66.0,acknowledge,"
+yes ",,,,punc,type,stop
+51,33,A,yes,68.0,answer-acknowledge,"
+",,,,pause,,
+51,33,A,yes,68.0,answer-acknowledge,"
+",,,,punc,type,stop
+51,38,B,yes,76.0,direct-accept,"
+yes please ",request,,,punc,type,stop
+51,44,B,yes,99.0,acknowledge,"
+yes ",,,,punc,type,stop
+51,50,B,yes,109.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+51,52,B,yes,113.0,acknowledge,"
+yeah ",,,,punc,type,stop
+51,76,B,yes,152.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+51,92,B,yes,171.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+51,114,B,yes,202.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+52,4,B,yes,9.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+52,15,A,yes,25.0,acknowledge,"
+yes ",,,,punc,type,stop
+52,16,B,yes,27.0,acknowledge,"
+yeah ",,,,overlap,type,end
+52,16,B,yes,27.0,acknowledge,"
+yeah ",,,,punc,type,stop
+52,25,A,yes,40.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+52,33,A,yes,55.0,acknowledge,"
+yeah ",,,,punc,type,stop
+52,36,B,yes,63.0,acknowledge,"
+",,,,pause,,
+52,36,B,yes,63.0,acknowledge,"
+",,,,punc,type,stop
+52,38,B,yes,67.0,elab-acknowledge,"
+",,,,overlap,type,end
+52,38,B,yes,67.0,elab-acknowledge,"
+",,,,punc,type,stop
+52,48,B,yes,83.0,answer-state,"
+yes ",,,,punc,type,stop
+52,50,B,yes,91.0,acknowledge,"
+yeah ",,,,punc,type,stop
+52,56,B,yes,97.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,2,B,yes,4.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,6,B,yes,22.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,19,A,yes,48.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,22,B,yes,56.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,23,A,yes,59.0,answer-state,"
+yeah ",,,,punc,type,stop
+53,27,A,yes,73.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+53,29,A,yes,78.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+53,30,B,yes,80.0,acknowledge,"
+yes ",,,,punc,type,stop
+53,31,A,yes,85.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+53,34,B,yes,95.0,acknowledge,"
+",,,,pause,,
+53,34,B,yes,95.0,acknowledge,"
+",,,,punc,type,stop
+53,34,B,yes,96.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,36,B,yes,99.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+53,38,B,yes,107.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+53,40,B,yes,110.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+53,40,B,yes,111.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+53,58,B,yes,153.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+53,62,B,yes,165.0,acknowledge,"
+yeah ",,,,pause,,
+53,62,B,yes,165.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,64,B,yes,168.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,66,B,yes,173.0,acknowledge,"
+em yeah ",,,,punc,type,stop
+53,74,B,yes,186.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,80,B,yes,193.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,98,B,yes,216.0,acknowledge,"
+",,,,pause,,
+53,98,B,yes,216.0,acknowledge,"
+",,,,punc,type,stop
+53,101,A,yes,221.0,acknowledge,"
+yeah ",,,,overlap,type,end
+53,101,A,yes,221.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,102,B,yes,231.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+53,108,B,yes,238.0,acknowledge,"
+yeah ",,,,punc,type,stop
+53,113,A,yes,252.0,acknowledge,"
+",,,,pause,,
+53,113,A,yes,252.0,acknowledge,"
+",,,,punc,type,stop
+54,4,B,yes,9.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+54,10,B,yes,16.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+54,16,B,yes,26.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+54,20,B,yes,32.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+54,24,B,yes,39.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+54,30,B,yes,54.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+54,48,B,yes,83.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+54,66,B,yes,105.0,acknowledge,"
+yes ",,,,punc,type,stop
+54,76,B,yes,120.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+54,78,B,yes,123.0,acknowledge,"
+yeah ",,,,punc,type,stop
+54,80,B,yes,125.0,acknowledge,"
+yeah ",,,,punc,type,stop
+54,84,B,yes,133.0,acknowledge,"
+yeah ",,,,punc,type,stop
+55,8,B,yes,19.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+55,10,B,yes,23.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+55,17,A,yes,38.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+55,19,A,yes,41.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+55,22,B,yes,53.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+55,25,A,yes,60.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+56,4,B,yes,9.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+56,4,B,yes,10.0,acknowledge,"
+",,,,overlap,type,end
+56,4,B,yes,10.0,acknowledge,"
+",,,,punc,type,stop
+56,6,B,yes,12.0,confirm-acknowledge,"
+yes ",,,,overlap,type,end
+56,6,B,yes,12.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+56,8,B,yes,16.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+56,20,B,yes,45.0,acknowledge,"
+",,,,pause,length,1s
+56,20,B,yes,45.0,acknowledge,"
+",,,,punc,type,stop
+56,22,B,yes,48.0,acknowledge,"
+yeah ",,,,punc,type,stop
+56,24,B,yes,51.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+56,28,B,yes,56.0,acknowledge,"
+",,,,pause,length,2s
+56,28,B,yes,56.0,acknowledge,"
+",,,,overlap,type,start
+56,28,B,yes,56.0,acknowledge,"
+",,,,punc,type,stop
+56,30,B,yes,58.0,acknowledge,"
+yeah ",,,,punc,type,stop
+56,40,B,yes,78.0,acknowledge,"
+yes ",,,,punc,type,stop
+56,42,B,yes,80.0,acknowledge,"
+yes ",,,,punc,type,stop
+56,70,B,yes,117.0,acknowledge,"
+yeah ",,,,punc,type,stop
+56,80,B,yes,132.0,acknowledge,"
+yeah ",,,,punc,type,stop
+56,82,B,yes,134.0,acknowledge,"
+yeah ",,,,overlap,type,end
+56,82,B,yes,134.0,acknowledge,"
+yeah ",,,,punc,type,stop
+56,84,B,yes,136.0,acknowledge,"
+yeah ",,,,punc,type,stop
+57,4,B,yes,9.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+57,21,A,yes,42.0,acknowledge,"
+yeah ",,,,punc,type,stop
+57,28,B,yes,64.0,confirm-acknowledge,"
+yeah ",,,,pause,length,2s
+57,28,B,yes,64.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+57,32,B,yes,70.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+57,35,A,yes,78.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+57,38,B,yes,85.0,acknowledge,"
+yeah ",,,,overlap,type,end
+57,38,B,yes,85.0,acknowledge,"
+yeah ",,,,punc,type,stop
+57,40,B,yes,99.0,acknowledge,"
+yeah ",,,,punc,type,stop
+57,42,B,yes,102.0,acknowledge,"
+yeah ",,,,punc,type,stop
+57,48,B,yes,112.0,acknowledge,"
+yeah ",,,,punc,type,stop
+57,56,B,yes,132.0,direct-acknowledge,"
+yeah
+",,,,,,
+58,12,B,yes,24.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+58,15,A,yes,27.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+58,20,B,yes,35.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+58,27,A,yes,53.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+58,28,B,yes,57.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+58,33,A,yes,62.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+58,34,B,yes,64.0,acknowledge,"
+yeah ",,,,punc,type,stop
+58,42,B,yes,78.0,direct-accept,"
+yes please ",request,,,punc,type,stop
+58,64,B,yes,120.0,acknowledge,"
+",,,,pause,length,7s
+58,64,B,yes,120.0,acknowledge,"
+",,,,pause,length,3s
+58,64,B,yes,120.0,acknowledge,"
+",,,,punc,type,stop
+58,88,B,yes,183.0,acknowledge,"
+yeah ",,,,punc,type,stop
+58,90,B,yes,185.0,acknowledge,"
+yeah ",,,,punc,type,stop
+59,6,B,yes,15.0,answer-accept,"
+yes please ",request,,,punc,type,stop
+59,31,A,yes,66.0,acknowledge,"
+yeah
+",,,,,,
+59,32,B,yes,70.0,acknowledge,"
+yeah ",,,,punc,type,stop
+59,37,A,yes,78.0,acknowledge,"
+",,,,pause,,
+59,37,A,yes,78.0,acknowledge,"
+",,,,punc,type,stop
+59,42,B,yes,87.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+59,55,A,yes,130.0,acknowledge,"
+yes ",,,,punc,type,stop
+59,60,B,yes,148.0,acknowledge,"
+yes ",,,,punc,type,stop
+59,84,B,yes,185.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+60,10,B,yes,16.0,acknowledge,"
+yeah ",,,,punc,type,stop
+60,11,A,yes,17.0,echo-acknowledge,"
+yeah ",,,,punc,type,stop
+60,14,B,yes,24.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+60,18,B,yes,30.0,acknowledge,"
+yeah ",,,,punc,type,stop
+60,20,B,yes,32.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+60,24,B,yes,38.0,acknowledge,"
+yeah ",,,,punc,type,stop
+60,36,B,yes,65.0,acknowledge,"
+yeah ",,,,punc,type,stop
+61,14,B,yes,23.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+61,14,B,yes,25.0,acknowledge,"
+yes ",,,,vocal,type,laughs
+61,14,B,yes,25.0,acknowledge,"
+yes ",,,,punc,type,stop
+61,25,A,yes,52.0,acknowledge,"
+yeah ",,,,punc,type,stop
+61,32,B,yes,72.0,acknowledge,"
+yeah ",,,,punc,type,stop
+61,37,A,yes,83.0,answer-state,"
+yeah ",,,,punc,type,stop
+61,39,A,yes,93.0,acknowledge,"
+yeah ",,,,punc,type,stop
+61,42,B,yes,102.0,acknowledge,"
+",,,,pause,,
+61,42,B,yes,102.0,acknowledge,"
+",,,,punc,type,stop
+61,44,B,yes,104.0,acknowledge,"
+yes ",,,,punc,type,stop
+61,48,B,yes,118.0,acknowledge,"
+",,,,pause,,
+61,48,B,yes,118.0,acknowledge,"
+",,,,punc,type,stop
+61,50,B,yes,122.0,acknowledge,"
+yeah ",,,,punc,type,stop
+61,54,B,yes,145.0,acknowledge,"
+yes ",,,,punc,type,stop
+61,54,B,yes,146.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,4,B,yes,9.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+62,8,B,yes,14.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+62,14,B,yes,26.0,acknowledge,"
+yeah ",,,,punc,type,stop
+62,16,B,yes,32.0,elab,"
+yes ",,,,punc,type,stop
+62,22,B,yes,40.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+62,24,B,yes,44.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,34,B,yes,84.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,36,B,yes,88.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+62,38,B,yes,93.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+62,40,B,yes,95.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,44,B,yes,100.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,48,B,yes,107.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,50,B,yes,112.0,acknowledge,"
+yes ",decl,,positive,punc,type,stop
+62,56,B,yes,125.0,acknowledge,"
+",,,,overlap,type,start
+62,56,B,yes,125.0,acknowledge,"
+",,,,punc,type,stop
+62,80,B,yes,153.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+62,104,B,yes,185.0,acknowledge,"
+yes ",,,,punc,type,stop
+62,107,A,yes,188.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+62,125,A,yes,218.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,8,B,yes,26.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,10,B,yes,29.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+63,18,B,yes,45.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,22,B,yes,51.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,27,A,yes,62.0,acknowledge,"
+yeah ",,,,punc,type,stop
+63,28,B,yes,63.0,echo-acknowledge,"
+yeah ",,,,punc,type,stop
+63,40,B,yes,98.0,confirm-acknowledge,"
+yes  ",,,,punc,type,stop
+63,42,B,yes,102.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,46,B,yes,114.0,acknowledge,"
+yeah ",,,,punc,type,stop
+63,51,A,yes,122.0,acknowledge,"
+yeah ",,,,punc,type,stop
+63,55,A,yes,127.0,acknowledge,"
+yeah ",,,,punc,type,stop
+63,57,A,yes,131.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,63,A,yes,143.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,70,B,yes,158.0,confirm-state,"
+yes ",,,,punc,type,stop
+63,72,B,yes,166.0,acknowledge,"
+",,,,overlap,type,start
+63,72,B,yes,166.0,acknowledge,"
+",,,,punc,type,stop
+63,76,B,yes,172.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,84,B,yes,183.0,confirm-acknowledge,"
+",,,,pause,,
+63,84,B,yes,183.0,confirm-acknowledge,"
+",,,,punc,type,stop
+63,86,B,yes,186.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,95,A,yes,202.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+63,96,B,yes,205.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,98,B,yes,211.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+63,104,B,yes,221.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,107,A,yes,224.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,114,B,yes,232.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,126,B,yes,250.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,134,B,yes,264.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,144,B,yes,278.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+63,162,B,yes,301.0,acknowledge,"
+yeah ",,,,punc,type,stop
+63,168,B,yes,311.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,180,B,yes,326.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,186,B,yes,337.0,acknowledge,"
+yes ",,,,punc,type,stop
+63,194,B,yes,347.0,acknowledge,"
+yeah ",,,,punc,type,stop
+63,194,B,yes,348.0,init,"
+",,,,pause,,
+63,212,B,yes,368.0,direct-acknowledge,"
+yes ",,,,punc,type,stop
+64,4,B,yes,9.0,elab-acknowledge,"
+yes ",,,,punc,type,stop
+64,12,B,yes,20.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+64,12,B,yes,23.0,acknowledge,"
+yeah ",,,,punc,type,stop
+64,16,B,yes,30.0,answer-accept,"
+yes please ",request,,,punc,type,stop
+64,33,A,yes,78.0,acknowledge,"
+yes ",,,,punc,type,stop
+64,36,B,yes,83.0,acknowledge,"
+yeah ",,,,punc,type,stop
+64,38,B,yes,86.0,acknowledge,"
+yes ",,,,punc,type,stop
+64,79,A,yes,147.0,direct-acknowledge,"
+yes ",,,,punc,type,stop
+64,86,B,yes,154.0,acknowledge,"
+yeah ",,,,punc,type,stop
+64,96,B,yes,169.0,answer-acknowledge,"
+yeah
+",,,,,,
+64,98,B,yes,172.0,acknowledge,"
+yeah ",,,,punc,type,stop
+64,100,B,yes,174.0,acknowledge,"
+yeah ",,,,punc,type,stop
+65,6,B,yes,11.0,elab-acknowledge,"
+yeah ",,,,punc,type,stop
+65,8,B,yes,13.0,confirm-acknowledge,"
+yep ",,,,punc,type,stop
+65,14,B,yes,25.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+65,16,B,yes,28.0,acknowledge,"
+yeah ",,,,punc,type,stop
+66,8,B,yes,18.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+67,6,B,yes,10.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+67,8,B,yes,13.0,acknowledge,"
+yes ",,,,punc,type,stop
+67,12,B,yes,20.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+67,16,B,yes,27.0,acknowledge,"
+yes ",,,,punc,type,stop
+67,23,A,yes,38.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+67,28,B,yes,48.0,acknowledge,"
+yes ",,,,punc,type,stop
+67,30,B,yes,50.0,acknowledge,"
+yes ",,,,punc,type,stop
+67,37,A,yes,61.0,acknowledge,"
+yeah ",,,,punc,type,stop
+67,46,B,yes,80.0,acknowledge,"
+yes ",,,,punc,type,stop
+67,48,B,yes,82.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,18,B,yes,27.0,answer-acknowledge,"
+yep ",,,,punc,type,stop
+68,30,B,yes,47.0,acknowledge,"
+yeah ",,,,punc,type,stop
+68,32,B,yes,53.0,acknowledge,"
+yeah ",,,,punc,type,stop
+68,34,B,yes,58.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,36,B,yes,60.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,36,B,yes,62.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,40,B,yes,76.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,42,B,yes,78.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,44,B,yes,83.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,48,B,yes,90.0,acknowledge,"
+yes ",,,,punc,type,stop
+68,76,B,yes,140.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+68,78,B,yes,143.0,acknowledge,"
+yeah ",,,,punc,type,stop
+68,90,B,yes,160.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+68,110,B,yes,184.0,acknowledge,"
+yeah ",,,,punc,type,stop
+68,112,B,yes,186.0,acknowledge,"
+yeah ",,,,punc,type,stop
+69,4,B,yes,7.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+69,10,B,yes,21.0,acknowledge,"
+yeah ",,,,punc,type,stop
+69,20,B,yes,44.0,acknowledge,"
+yeah ",,,,punc,type,stop
+69,23,A,yes,48.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+69,34,B,yes,87.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+69,35,A,yes,92.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+70,12,B,yes,23.0,acknowledge,"
+yes ",,,,punc,type,stop
+70,24,B,yes,41.0,confirm-acknowledge,"
+",,,,overlap,type,start
+70,24,B,yes,41.0,confirm-acknowledge,"
+",,,,punc,type,stop
+70,38,B,yes,66.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,42,B,yes,72.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+70,58,B,yes,97.0,answer-acknowledge,"
+",,,,pause,length,2s
+70,58,B,yes,97.0,answer-acknowledge,"
+",,,,punc,type,stop
+70,58,B,yes,99.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,62,B,yes,110.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,65,A,yes,116.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,72,B,yes,131.0,acknowledge,"
+yes ",,,,punc,type,stop
+70,77,A,yes,139.0,stateOpt-acknowledge,"
+yeah ",,,,punc,type,stop
+70,81,A,yes,147.0,confirm-acknowledge,"
+",,,,overlap,type,start
+70,81,A,yes,147.0,confirm-acknowledge,"
+",,,,punc,type,stop
+70,88,B,yes,162.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,90,B,yes,165.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+70,94,B,yes,172.0,acknowledge,"
+",,,,overlap,type,end
+70,94,B,yes,172.0,acknowledge,"
+",,,,punc,type,stop
+70,99,A,yes,179.0,confirm-acknowledge,"
+yes ",,,,punc,type,stop
+70,102,B,yes,184.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,106,B,yes,190.0,direct-acknowledge,"
+yeah ",,,,punc,type,stop
+70,112,B,yes,213.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+70,114,B,yes,217.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,126,B,yes,240.0,confirm-acknowledge,"
+yeah ",,,,punc,type,stop
+70,136,B,yes,262.0,acknowledge,"
+yes ",,,,punc,type,stop
+70,151,A,yes,282.0,answer-acknowledge,"
+yes ",,,,punc,type,stop
+70,153,A,yes,285.0,stateOpt-acknowledge,"
+yeah ",,,,punc,type,stop
+70,154,B,yes,287.0,acknowledge,"
+yep ",,,,punc,type,stop
+70,164,B,yes,299.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,166,B,yes,301.0,answer-acknowledge,"
+yeah ",,,,punc,type,stop
+70,168,B,yes,303.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,170,B,yes,305.0,acknowledge,"
+yeah ",,,,punc,type,stop
+70,177,A,yes,317.0,stateOpt-acknowledge,"
+yes ",,,,punc,type,stop
+70,182,B,yes,336.0,acknowledge,"
+yeah ",,,,punc,type,stop

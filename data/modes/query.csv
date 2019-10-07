@@ -1,0 +1,813 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,21,A,frag,34.0,reqConfirm,"
+",query,time-arrival,positive,pause,length,7s
+36,21,A,frag,34.0,reqConfirm,"
+",query,time-arrival,positive,punc,type,query
+36,25,A,decl,41.0,reqConfirm,"
+and that's for the 8th of October ",query,month-date,positive,punc,type,query
+36,49,A,frag,102.0,reqInfo,"
+",query,name,positive,pause,,
+36,49,A,frag,102.0,reqInfo,"
+",query,name,positive,punc,type,query
+36,51,A,frag,104.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+36,53,A,frag,106.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+36,59,A,frag,113.0,reqInfo,"
+",query,creditcard-address,positive,pause,length,2s
+36,59,A,frag,113.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+36,63,A,frag,119.0,reqInfo,"
+",query,number-creditcard,positive,pause,,
+36,63,A,frag,119.0,reqInfo,"
+",query,number-creditcard,positive,pause,,
+36,63,A,frag,119.0,reqInfo,"
+",query,number-creditcard,positive,punc,type,query
+36,75,A,frag,133.0,reqInfo,"
+and the issue number ",query,number,positive,punc,type,query
+36,77,A,frag,135.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+37,23,A,decl,36.0,reqConfirm,"
+and that's Monday the 5th yeah ",query,day,positive,punc,type,query
+37,35,A,decl,60.0,reqInfo,"
+you don't want to book at all ",query,booking,negative,punc,type,query
+38,13,A,frag,19.0,reqInfo,"
+Saturday ",query,day,positive,punc,type,query
+38,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,pause,,
+38,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,punc,type,query
+38,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,pause,length,3s
+38,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,punc,type,query
+38,42,B,frag,62.0,echo-reqConfirm,"
+15:52 ",query,,positive,punc,type,query
+38,57,A,frag,84.0,reqInfo,"
+",query,name,positive,pause,,
+38,57,A,frag,84.0,reqInfo,"
+",query,name,positive,punc,type,query
+38,62,B,frag,91.0,reqInfo,"
+got that ",query,,positive,punc,type,query
+38,63,A,frag,93.0,echo-reqConfirm,"
+0 1 5 0 5 ",query,enum,positive,punc,type,query
+38,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+38,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+38,75,A,decl,113.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+38,91,A,frag,130.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+39,3,A,frag,8.0,reqInfo,"
+travelling to ",query,journey,positive,punc,type,query
+39,5,A,frag,10.0,reqInfo,"
+from ",query,,positive,punc,type,query
+39,16,B,decl,39.0,reqConfirm,"
+so the train from Liverpool goes to Wigan anyway yeah ",query,to-location-from,positive,punc,type,query
+39,18,B,q-yn,44.0,direct-reqInfo,"
+can you tell me ",query,,positive,punc,type,query
+39,19,A,decl,45.0,reqConfirm,"
+you want a ticket from Wigan now ",query,journey-from,positive,punc,type,query
+39,24,B,decl,55.0,reqConfirm,"
+that's the cheapest ",query,fare,positive,punc,type,query
+39,32,B,decl,77.0,reqConfirm,"
+that's a return ",query,fare,positive,pause,,
+39,32,B,decl,77.0,reqConfirm,"
+that's a return ",query,fare,positive,punc,type,query
+39,34,B,decl,79.0,reqConfirm,"
+and that's leaving Manchester at 6:11 ",query,location-time-departure,positive,pause,,
+39,34,B,decl,79.0,reqConfirm,"
+and that's leaving Manchester at 6:11 ",query,location-time-departure,positive,overlap,type,start
+39,34,B,decl,79.0,reqConfirm,"
+and that's leaving Manchester at 6:11 ",query,location-time-departure,positive,punc,type,query
+39,36,B,decl,83.0,reqConfirm,"
+and the other one's ",query,number-time-from-enum-departure,positive,pause,,
+39,36,B,decl,83.0,reqConfirm,"
+and the other one's ",query,number-time-from-enum-departure,positive,punc,type,query
+39,38,B,decl,85.0,reqConfirm,"
+and that's 27 50 return as well ",query,enum-fare,positive,punc,type,query
+39,46,B,frag,114.0,reqConfirm,"
+31 ",query,,positive,punc,type,query
+39,49,A,decl,125.0,reqConfirm,"
+",query,location-from-enum,positive,pause,length,12s
+39,49,A,decl,125.0,reqConfirm,"
+",query,location-from-enum,positive,punc,type,query
+39,51,A,frag,127.0,reqConfirm,"
+arriving in Wigan Northwestern at 19:57 ",query,time-arrival,positive,punc,type,query
+39,56,B,decl,138.0,reqInfo,"
+",query,arrival,positive,pause,,
+39,56,B,decl,138.0,reqInfo,"
+",query,arrival,positive,punc,type,query
+39,61,A,frag,152.0,reqConfirm,"
+no smoking ",query,seat,negative,punc,type,query
+39,67,A,frag,171.0,reqInfo,"
+your surname ",query,name,positive,punc,type,query
+39,69,A,frag,174.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+39,71,A,frag,176.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+39,77,A,frag,182.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+39,95,A,frag,205.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+39,111,A,dm,227.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+40,13,A,frag,19.0,reqInfo,"
+Saturday ",query,day,positive,punc,type,query
+40,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,pause,,
+40,27,A,frag,39.0,reqConfirm,"
+",query,month-date,positive,punc,type,query
+40,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,pause,length,3s
+40,29,A,decl,42.0,reqConfirm,"
+",query,month-date-day,positive,punc,type,query
+40,42,B,frag,62.0,echo-reqConfirm,"
+15:52 ",query,,positive,punc,type,query
+40,57,A,frag,84.0,reqInfo,"
+",query,name,positive,pause,,
+40,57,A,frag,84.0,reqInfo,"
+",query,name,positive,punc,type,query
+40,62,B,frag,91.0,reqInfo,"
+got that ",query,,positive,punc,type,query
+40,63,A,frag,93.0,echo-reqConfirm,"
+0 1 5 0 5 ",query,enum,positive,punc,type,query
+40,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+40,67,A,frag,101.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+40,75,A,decl,113.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+40,91,A,frag,130.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+41,22,B,frag,35.0,reqInfo,"
+",query,fare,positive,pause,,
+41,22,B,frag,35.0,reqInfo,"
+",query,fare,positive,punc,type,query
+41,37,A,frag,63.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+41,45,A,frag,71.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+41,55,A,decl,87.0,reqInfo,"
+the long number across the switch card ",query,number-creditcard,positive,punc,type,query
+41,65,A,frag,99.0,reqInfo,"
+and the issue number ",query,number,positive,punc,type,query
+41,67,A,frag,101.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+41,69,A,q-yn,104.0,direct-reqInfo,"
+can you repeat that long number across your card ",query,number,positive,punc,type,query
+41,79,A,frag,116.0,reqConfirm,"
+the issue number is 8 ",query,number,positive,punc,type,query
+41,79,A,decl,117.0,reqConfirm,"
+and it's 07 zero zero ",query,enum,positive,punc,type,query
+42,15,A,decl,33.0,echo-reqConfirm,"
+the 9:19 ",query,,positive,punc,type,query
+42,17,A,decl,35.0,reqConfirm,"
+and it's just for one ",query,number,positive,punc,type,query
+42,33,A,frag,60.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+42,35,A,frag,62.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+42,43,A,frag,79.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+42,51,A,frag,90.0,reqInfo,"
+and your postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+42,67,A,frag,111.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+42,79,A,dm,128.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+43,15,A,frag,32.0,reqConfirm,"
+arriving at 8:30 ",query,time-arrival,positive,punc,type,query
+43,32,B,decl,65.0,reqInfo,"
+you ",query,seat,positive,overlap,type,end
+43,32,B,decl,65.0,reqInfo,"
+you ",query,seat,positive,punc,type,query
+43,33,A,decl,66.0,reqConfirm,"
+",query,journey,positive,pause,,
+43,33,A,decl,66.0,reqConfirm,"
+",query,journey,positive,punc,type,query
+43,37,A,frag,77.0,reqInfo,"
+and your surname ",query,name,positive,punc,type,query
+43,39,A,frag,80.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+43,41,A,frag,82.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+43,41,A,frag,82.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+43,45,A,decl,94.0,reqInfo,"
+the postcode ",query,address,positive,punc,type,query
+43,46,B,frag,95.0,reqInfo,"
+of the company ",query,,positive,punc,type,query
+43,57,A,decl,118.0,reqInfo,"
+and then it's ",query,,positive,punc,type,query
+43,63,A,frag,129.0,reqInfo,"
+your contact telephone number ",query,telephone-number,positive,punc,type,query
+43,69,A,q-yn,138.0,direct-reqInfo,"
+and could you give me the long number across your credit card ",query,number-creditcard,positive,punc,type,query
+43,79,A,frag,150.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+43,85,A,dm,168.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+44,24,B,frag,60.0,reqInfo,"
+and parking at Euston ",query,location-time,positive,punc,type,query
+44,35,A,frag,86.0,reqInfo,"
+",query,name,positive,pause,,
+44,35,A,frag,86.0,reqInfo,"
+",query,name,positive,punc,type,query
+44,41,A,frag,101.0,reqInfo,"
+your title ",query,name,positive,punc,type,query
+44,43,A,frag,103.0,reqInfo,"
+your title ",query,name,positive,punc,type,query
+44,65,A,frag,144.0,reqInfo,"
+your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+44,71,A,q-yn,156.0,direct-reqInfo,"
+could you give me your contact telephone number ",query,telephone-number,positive,punc,type,query
+44,77,A,decl,164.0,reqInfo,"
+and the credit card number ",query,number-creditcard,positive,punc,type,query
+44,85,A,frag,173.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+45,11,A,decl,21.0,reqConfirm,"
+the 9th ",query,,positive,punc,type,query
+45,23,A,decl,47.0,reqConfirm,"
+the 16:20 ",query,,positive,punc,type,query
+45,27,A,frag,53.0,reqConfirm,"
+Sunday the 11th ",query,day,positive,punc,type,query
+46,29,A,decl,63.0,reqConfirm,"
+and that's Sunday the 4th of October ",query,month-date-day,positive,punc,type,query
+46,36,B,frag,85.0,reqConfirm,"
+10:45 ",query,,positive,punc,type,query
+46,47,A,frag,109.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+46,49,A,frag,111.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+46,53,A,frag,119.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+46,57,A,frag,124.0,reqInfo,"
+",query,creditcard-address,positive,pause,,
+46,57,A,frag,124.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+46,75,A,decl,167.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+46,83,A,frag,176.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+46,95,A,dm,190.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+47,17,A,frag,28.0,reqInfo,"
+that a young person's railcard ",query,railcard,positive,punc,type,query
+47,22,B,q-yn,39.0,reqConfirm,"
+is that Super ",query,fare,positive,pause,,
+47,22,B,q-yn,39.0,reqConfirm,"
+is that Super ",query,fare,positive,punc,type,query
+47,55,A,decl,96.0,reqConfirm,"
+",query,time-enum,positive,pause,,
+47,55,A,decl,96.0,reqConfirm,"
+",query,time-enum,positive,punc,type,query
+47,59,A,decl,104.0,reqConfirm,"
+the 4th ",query,,positive,punc,type,query
+47,62,B,q-yn,109.0,reqInfo,"
+is that better ",query,,positive,punc,type,query
+47,65,A,decl,114.0,reqInfo,"
+it's from Watford yes ",query,location-from,positive,punc,type,query
+47,76,B,q-yn,138.0,reqInfo,"
+",query,from,positive,pause,,
+47,76,B,q-yn,138.0,reqInfo,"
+",query,from,positive,punc,type,query
+47,80,B,frag,145.0,echo-reqConfirm,"
+17:14 ",query,,positive,punc,type,query
+47,99,A,frag,203.0,reqInfo,"
+from ",query,,positive,punc,type,query
+47,106,B,frag,213.0,reqInfo,"
+going out ",query,,positive,punc,type,query
+47,115,A,frag,232.0,reqInfo,"
+non-smoking ",query,seat,positive,overlap,type,end
+47,115,A,frag,232.0,reqInfo,"
+non-smoking ",query,seat,positive,punc,type,query
+47,123,A,dm,249.0,reqConfirm,"
+now ",query,,,punc,type,query
+47,125,A,frag,254.0,reqInfo,"
+",query,name,positive,pause,length,4s
+47,125,A,frag,254.0,reqInfo,"
+",query,name,positive,punc,type,query
+47,127,A,frag,256.0,reqInfo,"
+and your contact telephone number is ",query,telephone-number,positive,punc,type,query
+47,135,A,frag,268.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+47,141,A,decl,274.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+47,149,A,frag,283.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+48,25,A,decl,43.0,reqInfo,"
+the same day ",query,day,positive,punc,type,query
+48,30,B,decl,54.0,reqInfo,"
+and you arrive in Durham at ",query,location-arrival,positive,punc,type,query
+48,40,B,frag,69.0,reqInfo,"
+and ",query,time-arrival,positive,overlap,type,end
+48,40,B,frag,69.0,reqInfo,"
+and ",query,time-arrival,positive,pause,,
+48,40,B,frag,69.0,reqInfo,"
+and ",query,time-arrival,positive,punc,type,query
+48,51,A,decl,84.0,reqConfirm,"
+",query,day,negative,pause,length,2s
+48,51,A,decl,84.0,reqConfirm,"
+",query,day,negative,punc,type,query
+48,61,A,decl,100.0,reqConfirm,"
+",query,,positive,pause,length,3s
+48,61,A,decl,100.0,reqConfirm,"
+",query,,positive,punc,type,query
+48,80,B,decl,137.0,reqInfo,"
+they come through the post ",query,,positive,punc,type,query
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,anonym,type,letter
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,anonym,type,letter
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,anonym,type,letter
+48,85,A,frag,145.0,reqConfirm,"
+start with ",query,,positive,punc,type,query
+48,87,A,frag,151.0,reqInfo,"
+",query,name,positive,pause,,
+48,87,A,frag,151.0,reqInfo,"
+",query,name,positive,punc,type,query
+48,89,A,frag,153.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+48,91,A,frag,155.0,reqInfo,"
+and your contact telephone number is ",query,telephone-number,positive,punc,type,query
+48,97,A,frag,162.0,reqInfo,"
+your postcode ",query,address,positive,punc,type,query
+48,109,A,decl,179.0,reqInfo,"
+and the Barclay card number is ",query,number,positive,punc,type,query
+48,119,A,frag,189.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+48,129,A,decl,206.0,reqConfirm,"
+and it's 05 ",query,,positive,punc,type,query
+48,147,A,dm,234.0,reqConfirm,"
+",query,,,overlap,type,start
+48,147,A,dm,234.0,reqConfirm,"
+",query,,,punc,type,query
+49,5,A,decl,10.0,reqConfirm,"
+and you say you're travelling from Wrexham ",query,location-journey-from,positive,punc,type,query
+49,21,A,decl,38.0,reqInfo,"
+and that's the 2nd ",query,,positive,punc,type,query
+49,64,B,frag,126.0,reqConfirm,"
+6 to 9 ",query,enum,positive,punc,type,query
+49,71,A,frag,138.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+49,73,A,frag,140.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+49,75,A,frag,142.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+49,81,A,frag,148.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+49,83,A,decl,153.0,reqInfo,"
+it's a company card in your name ",query,name,positive,punc,type,query
+49,99,A,decl,188.0,reqInfo,"
+",query,name,positive,pause,length,3s
+49,99,A,decl,188.0,reqInfo,"
+",query,name,positive,punc,type,query
+49,107,A,frag,196.0,reqInfo,"
+",query,,positive,pause,length,3s
+49,107,A,frag,196.0,reqInfo,"
+",query,,positive,punc,type,query
+49,109,A,decl,198.0,reqInfo,"
+and the next line of the address ",query,address,positive,punc,type,query
+49,125,A,frag,222.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+50,21,A,decl,46.0,reqConfirm,"
+",query,day,positive,pause,length,7s
+50,21,A,decl,46.0,reqConfirm,"
+",query,day,positive,punc,type,query
+50,27,A,decl,55.0,reqConfirm,"
+it's 4 adults and 4 children on 6 family railcard ",query,enum-railcard,positive,punc,type,query
+50,41,A,frag,86.0,reqInfo,"
+the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+50,43,A,frag,88.0,reqInfo,"
+the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+50,45,A,frag,90.0,reqInfo,"
+and the initial ",query,name,positive,punc,type,query
+50,47,A,frag,92.0,reqInfo,"
+and the title ",query,name,positive,punc,type,query
+50,49,A,decl,95.0,reqConfirm,"
+",query,journey-day,positive,pause,,
+50,49,A,decl,95.0,reqConfirm,"
+",query,journey-day,positive,anonym,type,name
+50,49,A,decl,95.0,reqConfirm,"
+",query,journey-day,positive,punc,type,query
+50,51,A,decl,98.0,reqInfo,"
+the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+50,52,B,frag,100.0,reqConfirm,"
+the railcard ",query,railcard,positive,punc,type,query
+50,58,B,frag,112.0,init,"
+",query,,,pause,length,10s
+50,58,B,frag,112.0,init,"
+",query,,,punc,type,query
+50,67,A,q-yn,127.0,reqInfo,"
+do you not know the person who you're booking the travel for ",query,booking-journey,negative,punc,type,query
+50,69,A,q-yn,131.0,reqInfo,"
+do you not know where the bill and address is the bill's sent to ",query,address,negative,punc,type,query
+50,75,A,frag,147.0,init,"
+hello ",query,,,punc,type,query
+51,15,A,decl,26.0,reqConfirm,"
+it's going from ",query,to-location-from,positive,pause,,
+51,15,A,decl,26.0,reqConfirm,"
+it's going from ",query,to-location-from,positive,pause,,
+51,15,A,decl,26.0,reqConfirm,"
+it's going from ",query,to-location-from,positive,punc,type,query
+51,22,B,decl,39.0,reqInfo,"
+",query,fare,positive,pause,,
+51,22,B,decl,39.0,reqInfo,"
+",query,fare,positive,punc,type,query
+51,25,A,frag,49.0,reqInfo,"
+Super Saver ",query,fare,positive,punc,type,query
+51,32,B,frag,67.0,reqInfo,"
+",query,booking,positive,pause,,
+51,32,B,frag,67.0,reqInfo,"
+",query,booking,positive,punc,type,query
+51,34,B,frag,70.0,reqInfo,"
+and er boo... er a seat on the return ",query,fare,positive,punc,type,query
+51,55,A,frag,116.0,reqInfo,"
+and the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+51,57,A,frag,119.0,reqInfo,"
+and the initial ",query,name,positive,punc,type,query
+51,59,A,frag,121.0,reqInfo,"
+and the title ",query,name,positive,punc,type,query
+51,63,A,decl,129.0,reqInfo,"
+",query,telephone-number-creditcard,positive,pause,,
+51,63,A,decl,129.0,reqInfo,"
+",query,telephone-number-creditcard,positive,punc,type,query
+51,67,A,decl,134.0,reqInfo,"
+the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+51,93,A,decl,176.0,reqInfo,"
+the credit card number is ",query,number-creditcard,positive,punc,type,query
+51,101,A,frag,185.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+52,47,A,decl,81.0,reqInfo,"
+forward facing ",query,seat,positive,punc,type,query
+52,63,A,frag,104.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+53,37,A,frag,106.0,reqConfirm,"
+arriving in Euston at 18:13 ",query,location-time-arrival,positive,punc,type,query
+53,47,A,frag,129.0,reqInfo,"
+and your initials ",query,name,positive,punc,type,query
+53,49,A,frag,131.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+53,87,A,decl,204.0,reqInfo,"
+and the Mastercard number is ",query,number,positive,punc,type,query
+53,95,A,frag,213.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+53,112,B,q-yn,248.0,direct-reqInfo,"
+could you check it ",query,verify,positive,punc,type,query
+53,119,A,dm,261.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+54,15,A,frag,24.0,reqConfirm,"
+arriving at 10:40 ",query,time-arrival,positive,punc,type,query
+54,45,A,frag,80.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+54,49,A,frag,85.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+54,55,A,frag,91.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+54,65,A,q-yn,104.0,direct-reqInfo,"
+could you give me your credit card number ",query,number-creditcard,positive,punc,type,query
+54,73,A,frag,115.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+55,14,B,frag,33.0,reqConfirm,"
+",query,,positive,pause,length,2s
+55,14,B,frag,33.0,reqConfirm,"
+",query,,positive,punc,type,query
+55,16,B,decl,37.0,reqConfirm,"
+and that gets in at 18:33 ",query,time,positive,punc,type,query
+55,18,B,decl,40.0,reqConfirm,"
+and that's for 19 ",query,fare-enum,positive,pause,,
+55,18,B,decl,40.0,reqConfirm,"
+and that's for 19 ",query,fare-enum,positive,punc,type,query
+55,24,B,decl,59.0,echo-reqConfirm,"
+the day before ",query,time-day,positive,punc,type,query
+56,20,B,q-yn,43.0,direct-reqInfo,"
+can you just let me ",query,,positive,pause,,
+56,20,B,q-yn,43.0,direct-reqInfo,"
+can you just let me ",query,,positive,punc,type,query
+56,23,A,decl,50.0,reqConfirm,"
+and that's for Monday the 5th now ",query,day,positive,punc,type,query
+56,43,A,frag,82.0,reqInfo,"
+your surname ",query,name,positive,punc,type,query
+56,45,A,frag,85.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+56,47,A,frag,87.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+56,53,A,frag,95.0,reqInfo,"
+your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+56,61,A,decl,108.0,reqInfo,"
+",query,number,positive,pause,,
+56,61,A,decl,108.0,reqInfo,"
+",query,number,positive,punc,type,query
+56,73,A,frag,122.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+57,18,B,decl,34.0,reqConfirm,"
+and that's all that's available ",query,availability,positive,punc,type,query
+57,26,B,q-yn,62.0,direct-reqInfo,"
+would you mind try... er checking for me then erm to travel on the Thursday ",query,journey-verify-time-day,positive,pause,,
+57,26,B,q-yn,62.0,direct-reqInfo,"
+would you mind try... er checking for me then erm to travel on the Thursday ",query,journey-verify-time-day,positive,punc,type,query
+57,27,A,decl,63.0,reqConfirm,"
+",query,,positive,pause,length,2s
+57,27,A,decl,63.0,reqConfirm,"
+",query,,positive,punc,type,query
+57,29,A,decl,67.0,reqConfirm,"
+",query,fare,positive,pause,length,35s
+57,29,A,decl,67.0,reqConfirm,"
+",query,fare,positive,punc,type,query
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,length,2s
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,,
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,,
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,pause,,
+57,31,A,frag,69.0,reqConfirm,"
+",query,enum-fare,positive,punc,type,query
+58,10,B,frag,21.0,reqInfo,"
+",query,month-date-day,positive,pause,,
+58,10,B,frag,21.0,reqInfo,"
+",query,month-date-day,positive,punc,type,query
+58,11,A,frag,23.0,reqConfirm,"
+this Monday coming ",query,day,positive,punc,type,query
+58,19,A,frag,34.0,reqConfirm,"
+",query,time-enum-arrival,positive,pause,length,4s
+58,19,A,frag,34.0,reqConfirm,"
+",query,time-enum-arrival,positive,punc,type,query
+58,26,B,frag,52.0,reqConfirm,"
+",query,day,positive,vocal,type,laugh
+58,26,B,frag,52.0,reqConfirm,"
+",query,day,positive,pause,,
+58,26,B,frag,52.0,reqConfirm,"
+",query,day,positive,punc,type,query
+58,31,A,frag,60.0,reqConfirm,"
+",query,time-arrival,positive,pause,length,3s
+58,31,A,frag,60.0,reqConfirm,"
+",query,time-arrival,positive,punc,type,query
+58,51,A,frag,97.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+58,53,A,frag,99.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+58,59,A,frag,107.0,reqInfo,"
+",query,creditcard-address,positive,pause,length,3s
+58,59,A,frag,107.0,reqInfo,"
+",query,creditcard-address,positive,punc,type,query
+58,79,A,frag,144.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+59,11,A,decl,23.0,reqConfirm,"
+and that's Saturday the 3rd of October ",query,month-date-day,positive,punc,type,query
+59,11,A,frag,24.0,reqConfirm,"
+this Saturday ",query,day,positive,punc,type,query
+59,15,A,frag,34.0,reqConfirm,"
+",query,day,positive,pause,length,8s
+59,15,A,frag,34.0,reqConfirm,"
+",query,day,positive,punc,type,query
+59,17,A,frag,36.0,reqConfirm,"
+",query,time-from-enum-departure,positive,pause,,
+59,17,A,frag,36.0,reqConfirm,"
+",query,time-from-enum-departure,positive,pause,length,3s
+59,17,A,frag,36.0,reqConfirm,"
+",query,time-from-enum-departure,positive,punc,type,query
+59,17,A,frag,37.0,reqConfirm,"
+",query,location-time-enum-arrival,positive,pause,,
+59,17,A,frag,37.0,reqConfirm,"
+",query,location-time-enum-arrival,positive,punc,type,query
+59,27,A,frag,58.0,reqInfo,"
+",query,name,positive,pause,length,2s
+59,27,A,frag,58.0,reqInfo,"
+",query,name,positive,punc,type,query
+59,39,A,frag,83.0,reqInfo,"
+your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+59,41,A,frag,85.0,echo-reqConfirm,"
+8 ",query,enum,positive,anonym,type,letter
+59,41,A,frag,85.0,echo-reqConfirm,"
+8 ",query,enum,positive,anonym,type,alpha
+59,41,A,frag,85.0,echo-reqConfirm,"
+8 ",query,enum,positive,anonym,type,letter
+59,41,A,frag,85.0,echo-reqConfirm,"
+8 ",query,enum,positive,anonym,type,alpha
+59,41,A,frag,85.0,echo-reqConfirm,"
+8 ",query,enum,positive,punc,type,query
+59,79,A,frag,175.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+60,37,A,frag,68.0,reqInfo,"
+your surname ",query,name,positive,punc,type,query
+61,3,A,frag,9.0,reqInfo,"
+from ",query,,positive,punc,type,query
+61,13,A,frag,21.0,reqInfo,"
+senior ",query,,positive,punc,type,query
+61,27,A,decl,62.0,reqConfirm,"
+you don't want to ",query,,negative,punc,type,query
+61,36,B,decl,82.0,reqInfo,"
+the 10:35 ",query,,positive,punc,type,query
+61,59,A,frag,173.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+61,61,A,frag,175.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+61,63,A,frag,177.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+61,67,A,frag,182.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+62,15,A,frag,30.0,reqConfirm,"
+arriving in Newton Abbot for 14:02 ",query,location-arrival,positive,punc,type,query
+62,37,A,decl,92.0,reqConfirm,"
+you're travelling from Leicester at 9:18 in the morning ",query,time-journey-from-enum,positive,punc,type,query
+62,59,A,frag,129.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+62,63,A,frag,133.0,reqInfo,"
+and your contact telephone number ",query,telephone-number,positive,punc,type,query
+62,75,A,decl,148.0,reqInfo,"
+and the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+62,101,A,frag,180.0,reqInfo,"
+and your expiry date ",query,creditcard,positive,punc,type,query
+62,106,B,frag,187.0,reqConfirm,"
+a pen ",query,,positive,punc,type,query
+63,17,A,frag,44.0,reqConfirm,"
+a railcard ",query,railcard,positive,punc,type,query
+63,21,A,frag,50.0,reqConfirm,"
+a disabled railcard ",query,railcard,positive,punc,type,query
+63,28,B,frag,64.0,reqConfirm,"
+i... i... i... is still 20 pounds ",query,fare-enum,positive,punc,type,query
+63,39,A,frag,97.0,echo-reqConfirm,"
+20 pounds ",query,fare-enum,positive,punc,type,query
+63,44,B,frag,108.0,reqInfo,"
+",query,day,positive,pause,,
+63,44,B,frag,108.0,reqInfo,"
+",query,day,positive,punc,type,query
+63,61,A,decl,140.0,reqConfirm,"
+the same day ",query,day,positive,punc,type,query
+63,68,B,q-yn,155.0,stateOpt,"
+can you do for 2 weeks ",query,enum,positive,punc,type,query
+63,69,A,frag,156.0,reqConfirm,"
+2 weeks ",query,enum,positive,punc,type,query
+63,81,A,frag,179.0,reqConfirm,"
+10 o'clock ",query,time-enum,positive,punc,type,query
+63,88,B,frag,189.0,echo-reqConfirm,"
+14:18 in the afternoon ",query,time-enum,positive,punc,type,query
+63,102,B,frag,219.0,reqConfirm,"
+10:30 ",query,,positive,punc,type,query
+63,121,A,no,244.0,echo-reqConfirm,"
+no ",query,,,punc,type,query
+63,141,A,frag,275.0,reqInfo,"
+after ",query,time,positive,anonym,type,letter
+63,141,A,frag,275.0,reqInfo,"
+after ",query,time,positive,punc,type,query
+63,143,A,frag,277.0,reqConfirm,"
+",query,,positive,anonym,type,letter
+63,143,A,frag,277.0,reqConfirm,"
+",query,,positive,anonym,type,alpha
+63,143,A,frag,277.0,reqConfirm,"
+",query,,positive,punc,type,query
+63,157,A,frag,296.0,reqInfo,"
+and your postcode to where your credit card's registered to ",query,creditcard-address,positive,punc,type,query
+63,165,A,q-yn,305.0,direct-reqInfo,"
+can you confirm your address for me ",query,confirm-address,positive,punc,type,query
+63,171,A,frag,316.0,reqInfo,"
+your Visa number ",query,number-creditcard,positive,punc,type,query
+63,181,A,frag,327.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+63,194,B,frag,349.0,reqConfirm,"
+",query,,positive,anonym,type,letter
+63,194,B,frag,349.0,reqConfirm,"
+",query,,positive,punc,type,query
+63,219,A,dm,380.0,reqConfirm,"
+now ",query,,,punc,type,query
+63,226,B,decl,389.0,reqInfo,"
+she has to collect hers from Euston ",query,location-from,negative,overlap,type,start
+63,226,B,decl,389.0,reqInfo,"
+she has to collect hers from Euston ",query,location-from,negative,punc,type,query
+64,15,A,frag,29.0,reqInfo,"
+19:25 in the evening ",query,time-enum,positive,punc,type,query
+64,26,B,frag,65.0,elab-reqInfo,"
+arriving at ",query,time-arrival,positive,overlap,type,start
+64,26,B,frag,65.0,elab-reqInfo,"
+arriving at ",query,time-arrival,positive,punc,type,query
+64,33,A,frag,77.0,reqInfo,"
+Virgin Value ",query,,positive,punc,type,query
+64,59,A,frag,121.0,reqInfo,"
+and your initial ",query,name,positive,punc,type,query
+64,63,A,frag,126.0,reqInfo,"
+your contact telephone number ",query,telephone-number,positive,punc,type,query
+64,69,A,frag,132.0,reqInfo,"
+and your postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+64,91,A,frag,163.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+64,95,A,decl,168.0,reqInfo,"
+you've got your pen ready ",query,,positive,punc,type,query
+65,3,A,frag,6.0,reqInfo,"
+to ",query,,positive,punc,type,query
+65,7,A,decl,12.0,reqConfirm,"
+and that's 5:30 in the afternoon ",query,time-enum,positive,punc,type,query
+65,11,A,decl,22.0,reqConfirm,"
+so it's just a Single ",query,fare,positive,punc,type,query
+65,13,A,frag,24.0,reqConfirm,"
+for tomorrow ",query,day,positive,punc,type,query
+65,21,A,no,34.0,echo-reqConfirm,"
+no ",query,,,punc,type,query
+65,28,B,frag,53.0,refer,"
+45 50 ",query,enum,positive,punc,type,query
+66,7,A,frag,17.0,echo-reqConfirm,"
+October the 15th ",query,month,positive,punc,type,query
+67,3,A,frag,6.0,reqInfo,"
+from ",query,,positive,punc,type,query
+67,11,A,decl,19.0,reqConfirm,"
+so you don't want to book a ticket just now ",query,booking-journey,negative,punc,type,query
+67,34,B,decl,56.0,reqInfo,"
+you haven't got anything in ",query,time-enum,positive,pause,,
+67,34,B,decl,56.0,reqInfo,"
+you haven't got anything in ",query,time-enum,positive,punc,type,query
+67,40,B,q-yn,68.0,reqInfo,"
+can you do that ",query,number,positive,overlap,type,start
+67,40,B,q-yn,68.0,reqInfo,"
+can you do that ",query,number,positive,punc,type,query
+68,51,A,frag,99.0,reqInfo,"
+and the surname of the credit card holder ",query,name-creditcard,positive,punc,type,query
+68,53,A,frag,103.0,reqInfo,"
+and the initial ",query,name,positive,punc,type,query
+68,55,A,frag,105.0,reqInfo,"
+and the title ",query,name,positive,punc,type,query
+68,59,A,frag,119.0,reqInfo,"
+and ",query,telephone-number,positive,overlap,type,end
+68,59,A,frag,119.0,reqInfo,"
+and ",query,telephone-number,positive,punc,type,query
+68,65,A,decl,126.0,reqInfo,"
+the postcode to where the credit card is registered to ",query,creditcard-address,positive,punc,type,query
+68,73,A,decl,137.0,reqInfo,"
+the name of the business is ",query,name,positive,punc,type,query
+68,75,A,frag,139.0,reqConfirm,"
+",query,,positive,anonym,type,letter
+68,75,A,frag,139.0,reqConfirm,"
+",query,,positive,anonym,type,alpha
+68,75,A,frag,139.0,reqConfirm,"
+",query,,positive,punc,type,query
+68,83,A,decl,149.0,reqInfo,"
+",query,,positive,pause,,
+68,83,A,decl,149.0,reqInfo,"
+",query,,positive,punc,type,query
+68,89,A,frag,159.0,reqConfirm,"
+",query,,positive,pause,,
+68,89,A,frag,159.0,reqConfirm,"
+",query,,positive,punc,type,query
+68,93,A,decl,164.0,reqInfo,"
+and the Visa number ",query,number-creditcard,positive,punc,type,query
+68,101,A,frag,173.0,reqInfo,"
+and the expiry date ",query,creditcard,positive,punc,type,query
+68,115,A,dm,191.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+69,12,B,frag,25.0,reqInfo,"
+2 ",query,enum,positive,punc,type,query
+69,12,B,frag,26.0,reqInfo,"
+somewhere between 2 and 3 ",query,enum,positive,punc,type,query
+69,22,B,frag,47.0,reqInfo,"
+",query,number,positive,pause,,
+69,22,B,frag,47.0,reqInfo,"
+",query,number,positive,punc,type,query
+69,40,B,decl,104.0,reqConfirm,"
+it's not return on a ",query,fare-day,negative,pause,,
+69,40,B,decl,104.0,reqConfirm,"
+it's not return on a ",query,fare-day,negative,punc,type,query
+69,46,B,decl,115.0,reqInfo,"
+so these are open on both going and coming ",query,fare,positive,punc,type,query
+70,3,A,frag,9.0,reqInfo,"
+travelling from ",query,journey,positive,punc,type,query
+70,9,A,decl,20.0,reqInfo,"
+and it's for 2 ",query,number,positive,punc,type,query
+70,23,A,frag,40.0,reqConfirm,"
+the ",query,fare,positive,overlap,type,end
+70,23,A,frag,40.0,reqConfirm,"
+the ",query,fare,positive,punc,type,query
+70,32,B,frag,53.0,reqInfo,"
+",query,time,positive,pause,,
+70,32,B,frag,53.0,reqInfo,"
+",query,time,positive,punc,type,query
+70,36,B,decl,64.0,reqConfirm,"
+",query,,positive,pause,length,3s
+70,36,B,decl,64.0,reqConfirm,"
+",query,,positive,punc,type,query
+70,52,B,frag,86.0,reqConfirm,"
+nothing ",query,,negative,punc,type,query
+70,80,B,frag,146.0,reqConfirm,"
+07:45 ",query,,positive,punc,type,query
+70,82,B,decl,150.0,reqInfo,"
+even to to any one of those stations ",query,number,positive,punc,type,query
+70,84,B,decl,154.0,reqConfirm,"
+",query,fare-enum,positive,pause,,
+70,84,B,decl,154.0,reqConfirm,"
+",query,fare-enum,positive,punc,type,query
+70,98,B,decl,178.0,reqConfirm,"
+that's thir... 13:03 ",query,,positive,punc,type,query
+70,111,A,decl,212.0,reqInfo,"
+you want me to go ahead ",query,,positive,punc,type,query
+70,131,A,frag,256.0,reqInfo,"
+your initial ",query,name,positive,punc,type,query
+70,133,A,frag,258.0,reqInfo,"
+and your title ",query,name,positive,punc,type,query
+70,141,A,frag,268.0,reqInfo,"
+and your postcode to where your credit card is registered to ",query,creditcard-address,positive,punc,type,query
+70,178,B,frag,320.0,reqConfirm,"
+getting on at 13:03 ",query,time,positive,punc,type,query
+70,180,B,decl,330.0,reqInfo,"
+what happens ",query,,positive,punc,type,query

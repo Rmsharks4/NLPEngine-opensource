@@ -1,0 +1,146 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+2,11,A,frag,14.0,confirm,"
+third of Oc...
+",abandon,date,positive,,,
+3,64,B,frag,84.0,uninterpretable,"
+the telepho...
+",abandon,,positive,,,
+4,25,A,frag,54.0,inform,"
+all the advance ",abandon,fare,positive,pause,,
+4,56,B,decl,127.0,confirm,"
+i leave on the ninth 10 31 from Wigan arrive to Edinburgh a...
+",abandon,to-time-from-location-departure-arrival,positive,,,
+7,36,B,decl,57.0,uninterpretable,"
+i didn't ",abandon,,negative,vocal,content,laughter
+8,31,A,frag,54.0,uninterpretable,"
+and that
+",abandon,,positive,,,
+9,13,A,decl,25.0,inform,"
+and you'd arrive ",abandon,arrival,positive,pause,,
+9,108,B,decl,177.0,confirm,"
+that was a hundred and 30
+",abandon,,positive,,,
+10,18,B,frag,27.0,confirm,"
+er ",abandon,time-arrival,positive,pause,,
+10,18,B,frag,27.0,confirm,"
+er ",abandon,time-arrival,positive,unclear,length,5 syllables
+11,20,B,decl,33.0,uninterpretable,"
+that's the erm
+",abandon,,positive,,,
+16,24,B,decl,40.0,uninterpretable,"
+that's the ",abandon,,positive,pause,,
+16,45,A,frag,91.0,uninterpretable,"
+",abandon,,positive,overlap,type,start
+16,45,A,frag,91.0,uninterpretable,"
+",abandon,,positive,unclear,length,1 syllable
+16,61,A,frag,109.0,uninterpretable,"
+and the ",abandon,,positive,pause,,
+18,26,B,frag,55.0,uninterpretable,"
+and n...
+",abandon,,positive,,,
+18,32,B,frag,74.0,uninterpretable,"
+if this erm
+",abandon,,positive,,,
+18,42,B,decl,100.0,directElab,"
+i mean...
+",abandon,,positive,,,
+18,102,B,decl,195.0,unclassifiable,"
+it sounds funny when they ",abandon,time,positive,overlap,type,start
+18,102,B,decl,195.0,unclassifiable,"
+it sounds funny when they ",abandon,time,positive,vocal,content,laughter
+22,39,A,frag,92.0,uninterpretable,"
+you ",abandon,,positive,pause,,
+24,46,B,frag,76.0,uninterpretable,"
+oh sad...
+",abandon,,positive,,,
+26,25,A,decl,47.0,inform,"
+you arrive in ",abandon,arrival,positive,overlap,type,start
+27,32,B,frag,61.0,expressOpinion,"
+i fancy sort of
+",abandon,,positive,,,
+28,27,A,frag,47.0,inform,"
+return fare to date ",abandon,fare-date,positive,backchannel,content,yeah
+28,114,B,decl,194.0,uninterpretable,"
+you are very k...
+",abandon,,positive,,,
+29,24,B,frag,39.0,confirm,"
+21 06 the 18 twe...
+",abandon,enum,positive,,,
+32,34,B,decl,56.0,reqInfo,"
+you haven't got anything in ",abandon,time,negative,pause,,
+33,56,B,decl,92.0,inform,"
+it's a company ",abandon,,positive,pause,,
+34,48,B,frag,104.0,uninterpretable,"
+we...
+",abandon,,positive,,,
+34,48,B,q-yn,105.0,reqInfo,"
+are these ",abandon,,positive,pause,,
+35,60,B,frag,94.0,uninterpretable,"
+every...
+",abandon,,positive,,,
+39,25,A,frag,57.0,elab-refer-abandon,"
+all the advance ",abandon,fare,positive,punc,type,incomplete
+39,60,B,decl,147.0,state-abandon,"
+i'm not ",abandon,,negative,punc,type,incomplete
+42,41,A,frag,73.0,answer-state-abandon,"
+they wen... ",abandon,,positive,punc,type,incomplete
+44,10,B,frag,24.0,refer,"
+looking at the timetable ",abandon,,positive,punc,type,incomplete
+44,13,A,decl,31.0,state-abandon,"
+and you'd arrive ",abandon,arrival,positive,punc,type,incomplete
+46,20,B,decl,41.0,abandon,"
+so that's the erm ",abandon,,positive,punc,type,incomplete
+47,42,B,frag,69.0,abandon,"
+just ",abandon,,positive,punc,type,incomplete
+47,56,B,frag,98.0,elab-state,"
+",abandon,time-return,positive,pause,length,4s
+47,56,B,frag,98.0,elab-state,"
+",abandon,time-return,positive,pause,,
+47,56,B,frag,98.0,elab-state,"
+",abandon,time-return,positive,pause,length,5s
+47,56,B,frag,98.0,elab-state,"
+",abandon,time-return,positive,pause,,
+47,56,B,frag,98.0,elab-state,"
+",abandon,time-return,positive,punc,type,incomplete
+51,61,A,frag,124.0,refer-abandon,"
+and the ",abandon,,positive,punc,type,incomplete
+52,31,A,decl,52.0,answer-state-abandon,"
+",abandon,,positive,pause,length,2s
+52,31,A,decl,52.0,answer-state-abandon,"
+",abandon,,positive,punc,type,incomplete
+53,24,B,frag,61.0,abandon,"
+and n... ",abandon,,positive,punc,type,incomplete
+53,55,A,frag,145.0,state-abandon,"
+arriving in London ",abandon,location-arrival,positive,punc,type,incomplete
+53,100,B,decl,220.0,expressOpinion-abandon,"
+it sounds funny when they ",abandon,time,positive,overlap,type,start
+53,100,B,decl,220.0,expressOpinion-abandon,"
+it sounds funny when they ",abandon,time,positive,vocal,content,laughter
+53,100,B,decl,220.0,expressOpinion-abandon,"
+it sounds funny when they ",abandon,time,positive,punc,type,incomplete
+56,20,B,q-yn,41.0,direct-reqInfo-abandon,"
+can you ",abandon,,positive,punc,type,incomplete
+57,23,A,frag,47.0,elab-abandon,"
+it ",abandon,,positive,punc,type,incomplete
+57,33,A,frag,73.0,abandon,"
+",abandon,time,positive,pause,,
+57,33,A,frag,73.0,abandon,"
+",abandon,time,positive,punc,type,incomplete
+57,39,A,frag,96.0,refer-abandon,"
+you ",abandon,,positive,pause,,
+57,39,A,frag,96.0,refer-abandon,"
+you ",abandon,,positive,punc,type,incomplete
+58,10,B,frag,16.0,direct-refer-abandon,"
+Monday the ",abandon,day,positive,punc,type,incomplete
+62,32,B,decl,70.0,expressWish-abandon,"
+i fancy sort of ",abandon,,positive,punc,type,incomplete
+66,6,B,decl,12.0,answer-state-abandon,"
+i am travelling on ",abandon,journey,positive,punc,type,incomplete
+67,44,B,decl,75.0,abandon,"
+you'll just ",abandon,,positive,punc,type,incomplete
+68,86,B,decl,154.0,state-abandon,"
+",abandon,,positive,pause,,
+68,86,B,decl,154.0,state-abandon,"
+",abandon,,positive,punc,type,incomplete
+70,58,B,frag,98.0,elab-abandon,"
+every... ",abandon,,positive,punc,type,incomplete

@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,110,B,frag,245.0,expressPossibility,"
+and if by chance em ",condition-partial,time,positive,pause,,
+53,110,B,frag,245.0,expressPossibility,"
+and if by chance em ",condition-partial,time,positive,punc,type,level

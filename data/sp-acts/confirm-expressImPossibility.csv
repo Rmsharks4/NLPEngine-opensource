@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+53,13,A,decl,41.0,confirm-expressImPossibility,"
+",poss2-decl,,negative,overlap,type,start
+53,13,A,decl,41.0,confirm-expressImPossibility,"
+",poss2-decl,,negative,punc,type,stop
+70,15,A,decl,29.0,confirm-expressImPossibility,"
+you can't go from Euston to Macclesfield then Wilmslow to Euston ",poss2-decl,to-location-from,negative,punc,type,stop

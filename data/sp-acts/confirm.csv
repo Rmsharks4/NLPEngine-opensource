@@ -1,0 +1,877 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,15,A,frag,20.0,confirm,"
+from Birmingham International
+",deixis,location-from,positive,,,
+1,21,A,frag,30.0,confirm,"
+",deixis,time-arrival,positive,pause,length,7s
+1,21,A,frag,30.0,confirm,"
+",deixis,time-arrival,positive,pause,,
+1,25,A,decl,37.0,confirm,"
+and that's for the eighth of October
+",,month-date,positive,,,
+1,33,A,frag,65.0,confirm,"
+on the eighth October
+",deixis,month,positive,,,
+1,33,A,decl,66.0,confirm,"
+you're travelling from Birmingham New Street at 7 33 ",,time-location-from-journey,positive,pause,,
+1,33,A,frag,67.0,confirm,"
+arriving in Euston at 9 05
+",deixis,location-time-arrival,positive,,,
+1,39,A,decl,76.0,confirm,"
+i'm booking from Euston to Birmingham New Street
+",reportIntent,to-location-from-booking,positive,,,
+1,41,A,frag,78.0,confirm,"
+on the 8th again ",deixis,,positive,pause,length,2s
+1,41,A,frag,79.0,confirm,"
+departing 17 15
+",deixis,departure-time,positive,,,
+1,43,A,decl,81.0,confirm,"
+",,fare,positive,pause,length,3s
+2,11,A,frag,14.0,confirm,"
+third of Oc...
+",abandon,date,positive,,,
+2,23,A,decl,32.0,confirm,"
+and that's Monday the fifth
+",,day,positive,,,
+2,34,B,frag,51.0,confirm,"
+30 em ",partial,enum,positive,pause,,
+2,35,A,decl,54.0,confirm,"
+you don't want to book at all
+",closure,preference-booking,negative,,,
+3,13,A,frag,16.0,confirm,"
+Saturday
+",partial,day,positive,,,
+3,27,A,frag,32.0,confirm,"
+",,month-date,positive,pause,,
+3,29,A,decl,35.0,confirm,"
+that's on Monday the fifth of October
+",,month-day-date,positive,,,
+3,99,A,decl,135.0,confirm,"
+and that's Saturday the third of October from Macclesfield at 9 52 in the morning
+",,time-day-month-from-date,positive,,,
+3,103,A,frag,141.0,confirm,"
+returning Monday the fifth of October departing at 14 hundred
+",deixis,time-departure-month-day-return-date,positive,,,
+3,105,A,frag,143.0,confirm,"
+",deixis,to-location-from,positive,pause,,
+4,11,A,decl,19.0,confirm,"
+it's Friday the ninth of October ",,day-to-month-location-from-date,positive,backchannel,content,yes
+4,11,A,decl,19.0,confirm,"
+it's Friday the ninth of October ",,day-to-month-location-from-date,positive,pause,,
+4,16,B,decl,37.0,confirm,"
+the train from Liverpool goes to Wigan anyway yeah
+",,to-location-from,positive,,,
+4,19,A,decl,44.0,confirm,"
+you want a ticket from Wigan now
+",closure,preference-from-journey,positive,,,
+4,24,B,decl,52.0,confirm,"
+that's the cheapest
+",,fare,positive,,,
+4,26,B,decl,59.0,confirm,"
+erm ",exists,,negative,pause,length,3s
+4,26,B,no,60.0,confirm,"
+no
+",,,,,,
+4,32,B,decl,72.0,confirm,"
+that's a return ",,fare,positive,pause,,
+4,34,B,decl,74.0,confirm,"
+and that's leaving Manchester at 6 11 ",,location-departure-time,positive,pause,,
+4,34,B,decl,74.0,confirm,"
+and that's leaving Manchester at 6 11 ",,location-departure-time,positive,overlap,type,start
+4,36,B,decl,78.0,confirm,"
+and the other one's ",,departure-time-from-number,positive,pause,,
+4,38,B,decl,80.0,confirm,"
+and that's 27 50 return as well
+",,fare,positive,,,
+4,44,B,decl,94.0,confirm,"
+it's the same
+",,,positive,,,
+4,47,A,frag,105.0,confirm,"
+10 31 on Friday the ninth of October from Wigan Northwestern ",,month-day-enum-from-date,positive,pause,,
+4,47,A,decl,106.0,confirm,"
+you arrive in Edinburgh at 13 30 ",,location-time-arrival,positive,backchannel,content,yes
+4,51,A,frag,120.0,confirm,"
+",,fare,positive,pause,length,12s
+4,53,A,frag,122.0,confirm,"
+arriving in Wigan Northwestern at 19 57
+",deixis,time-arrival,positive,,,
+4,56,B,decl,127.0,confirm,"
+i leave on the ninth 10 31 from Wigan arrive to Edinburgh a...
+",abandon,to-time-from-location-departure-arrival,positive,,,
+4,58,B,decl,132.0,confirm,"
+i leave at 5 o'clock ",,time-departure,positive,pause,,
+4,58,B,decl,133.0,confirm,"
+i arrive in at
+",,time-arrival,positive,,,
+4,63,A,frag,143.0,confirm,"
+no smoking
+",,seat,negative,,,
+5,10,B,frag,15.0,confirm,"
+not that is it
+",,,negative,,,
+5,11,A,no,16.0,confirm,"
+no
+",,,,,,
+5,15,A,frag,20.0,confirm,"
+the third of October
+",,month-date,positive,,,
+5,19,A,frag,24.0,confirm,"
+",deixis,time,positive,pause,length,7s
+5,42,B,decl,68.0,confirm,"
+and i can just get that on the day
+",poss1,day,positive,,,
+6,25,A,decl,36.0,confirm,"
+it's the 14 19 from Preston arriving Rugby at 16 05 ",,location-time-arrival-from,positive,backchannel,content,yeah
+6,25,A,decl,37.0,confirm,"
+that's on the ninth of October ",,month-return-date,positive,backchannel,content,yeah
+6,25,A,frag,38.0,confirm,"
+ returning the eleventh of October 18 45 from Rugby arriving in Preston at 20 33
+",,time-arrival-month-location-from-date,positive,,,
+6,79,A,decl,107.0,confirm,"
+the issue number is 8
+",,enum-number,positive,,,
+6,79,A,decl,108.0,confirm,"
+and it's 06 zero zero
+",,enum,positive,,,
+7,17,A,decl,30.0,confirm,"
+and it's just for one
+",,number,positive,,,
+8,19,A,decl,32.0,confirm,"
+you prefer to leave that open
+",,departure-preference-fare,positive,,,
+8,35,A,decl,62.0,confirm,"
+",,enum-number,positive,pause,length,5s
+8,35,A,decl,62.0,confirm,"
+",,enum-number,positive,backchannel,content,right
+8,35,A,decl,63.0,confirm,"
+and that's backward travel 
+",,seat,positive,,,
+8,35,A,decl,64.0,confirm,"
+that's travelling tomorrow from Nuneaton to Euston on the 7 13 train in the morning ",,to-location-day-time-from-journey,positive,backchannel,content,right
+8,35,A,frag,65.0,confirm,"
+and to return at any time
+",,time,positive,,,
+8,84,B,frag,134.0,confirm,"
+4 4 2 1 ",,enum-spell,positive,pause,,
+9,24,B,frag,47.0,confirm,"
+and parking at Euston
+",,time-location,positive,,,
+9,53,A,frag,95.0,confirm,"
+on the 15 05 one smoking place in first class ",deixis,enum-number-seat,positive,pause,length,8s
+9,57,A,decl,101.0,confirm,"
+and that's on Wednesday the seventh
+",,day,positive,,,
+9,59,A,frag,103.0,confirm,"
+departing at 15 05
+",,departure-time,positive,,,
+9,108,B,decl,177.0,confirm,"
+that was a hundred and 30
+",abandon,,positive,,,
+10,11,A,frag,17.0,confirm,"
+the ninth
+",,,positive,,,
+10,13,A,frag,19.0,confirm,"
+of October
+",deixis,month,positive,,,
+10,18,B,frag,27.0,confirm,"
+er ",abandon,time-arrival,positive,pause,,
+10,18,B,frag,27.0,confirm,"
+er ",abandon,time-arrival,positive,unclear,length,5 syllables
+10,21,A,frag,32.0,confirm,"
+the 16 20
+",,enum,positive,,,
+11,29,A,decl,50.0,confirm,"
+and that's Sunday the fourth of October
+",,month-day-date,positive,,,
+11,36,B,frag,66.0,confirm,"
+evening at 12 midnight ",,time,positive,backchannel,content,yeah
+11,36,B,frag,66.0,confirm,"
+evening at 12 midnight ",,time,positive,pause,,
+11,39,A,frag,73.0,confirm,"
+the 10 35
+",,enum,positive,,,
+11,50,B,frag,94.0,confirm,"
+7 15 a m from Birmingham New Street and leaving London Euston at 10 35 a m on Sunday
+",closure,time-location-day-departure-from,positive,,,
+11,65,A,frag,114.0,confirm,"
+on Saturday third of October from Birmingham New Street to London Euston ",deixis,location-to-month-day-from-date,positive,pause,,
+11,65,A,frag,115.0,confirm,"
+departing at 7 15
+",,departure-time,positive,,,
+11,67,A,decl,119.0,confirm,"
+then you're returning on Sunday fourth of October departing 10 35 ",,return-departure-month-day-time-date,positive,pause,,
+12,3,A,frag,5.0,confirm,"
+Stockport to Watford Junction
+",deixis,to-location,positive,,,
+12,36,B,frag,53.0,confirm,"
+20 ",,enum,positive,overlap,type,end
+12,39,A,frag,57.0,confirm,"
+arriving at 23 19
+",,time-arrival,positive,,,
+12,57,A,decl,87.0,confirm,"
+",,preference-time,positive,pause,,
+12,61,A,frag,93.0,confirm,"
+the fourth
+",,,positive,,,
+12,63,A,frag,96.0,confirm,"
+",deixis-abandon,to-location-from,positive,pause,,
+12,108,B,frag,197.0,confirm,"
+going out
+",closure,,positive,,,
+12,113,A,frag,202.0,confirm,"
+arriving at 22 37
+",,time-arrival,positive,,,
+12,113,A,decl,203.0,confirm,"
+and that's departing from Stockport tomorrow the second ",,day-departure-from,positive,pause,,
+12,113,A,frag,204.0,confirm,"
+and then on the return on Sunday ",,day-fare,positive,pause,length,3s
+12,113,A,decl,205.0,confirm,"
+it's the 19 00 from Euston ",,location-enum-from,positive,pause,,
+12,113,A,decl,206.0,confirm,"
+you arrive in Wilmslow for 21 18 ",,arrival-time,positive,pause,,
+12,113,A,decl,207.0,confirm,"
+the bus runs from Wilmslow at 21 30 to arrive in Stockport at 22 00
+",,time-arrival-from,positive,,,
+13,21,A,decl,32.0,confirm,"
+that's 6 53 from Durham ",,location-enum-from,positive,backchannel,content,mhm
+13,25,A,frag,38.0,confirm,"
+the same day
+",,day,positive,,,
+13,32,B,decl,50.0,confirm,"
+that's for the Tuesday
+",,day,positive,,,
+13,38,B,frag,60.0,confirm,"
+on the Wednesday
+",deixis,day,positive,,,
+13,40,B,frag,62.0,confirm,"
+and ",,time-arrival,positive,overlap,type,end
+13,40,B,frag,62.0,confirm,"
+and ",,time-arrival,positive,pause,,
+13,42,B,decl,64.0,confirm,"
+and ",abandon-poss1,departure-time,positive,overlap,type,end
+13,54,B,frag,81.0,confirm,"
+at 19 09
+",,time,positive,,,
+13,61,A,frag,91.0,confirm,"
+",,,positive,pause,length,3s
+13,63,A,decl,94.0,confirm,"
+it's Wednesday the twenty eighth of October ",,month-day-date,positive,backchannel,content,mhm
+13,63,A,decl,95.0,confirm,"
+you're travelling from Durham ",,time-from-journey-arrival-location-return,positive,backchannel,content,yes
+13,63,A,decl,95.0,confirm,"
+you're travelling from Durham ",,time-from-journey-arrival-location-return,positive,backchannel,content,right
+13,63,A,decl,95.0,confirm,"
+you're travelling from Durham ",,time-from-journey-arrival-location-return,positive,backchannel,content,aha
+13,63,A,frag,96.0,confirm,"
+the same day at 19 09 in the evening ",,time-day-arrival,positive,backchannel,content,mhm
+13,77,A,frag,114.0,confirm,"
+and you said it's your credit card you're paying by
+",,creditcard,positive,,,
+13,80,B,decl,121.0,confirm,"
+they come through the post
+",closure,,positive,,,
+13,129,A,decl,186.0,confirm,"
+and it's 05 ",,enum,positive,pause,,
+14,5,A,decl,8.0,confirm,"
+and you say you're travelling from Wrexham
+",,location-from-journey,positive,,,
+14,21,A,decl,32.0,confirm,"
+and that's the second
+",,,positive,,,
+14,31,A,decl,53.0,confirm,"
+you just need a single
+",constrain,fare,positive,,,
+14,53,A,decl,91.0,confirm,"
+it's travelling tomorrow the second of October from London Euston to Birmingham New Street first of all departing 11 15 ",,location-departure-month-to-day-time-from-date-journey,positive,backchannel,content,mhm
+14,53,A,frag,92.0,confirm,"
+arriving in Birmingham New Street 12 50
+",,arrival-location-time,positive,,,
+14,64,B,frag,112.0,confirm,"
+1 2 4
+",closure,enum,positive,,,
+14,101,A,frag,168.0,confirm,"
+Fizz {letter}W {letter}I {letter}Z {letter}Z
+",deixis,spell,positive,,,
+14,107,A,frag,174.0,confirm,"
+",partial,,positive,pause,length,3s
+15,11,A,decl,26.0,confirm,"
+ you said 1 44
+",,time,positive,,,
+15,21,A,decl,44.0,confirm,"
+",,day,positive,pause,length,7s
+15,27,A,decl,53.0,confirm,"
+it's 4 adults and 4 children on 6 family railcard
+",,enum-railcard,positive,,,
+15,35,A,decl,68.0,confirm,"
+it's 4 adults and 4 children with the family railcard discount
+",,enum-railcard,positive,,,
+15,51,A,decl,94.0,confirm,"
+and it's Mr {surname}%12%8%4%14%23%4 who's collecting the tickets tomorrow yeah
+",,day-name-journey,positive,,,
+15,54,B,frag,98.0,confirm,"
+erm ",,railcard,positive,pause,,
+15,74,B,decl,134.0,confirm,"
+you just need the credit card's address
+",constrain-closure,creditcard-address,positive,,,
+16,15,A,decl,23.0,confirm,"      
+it's going from ",,to-location-from,positive,pause,,
+16,15,A,decl,23.0,confirm,"      
+it's going from ",,to-location-from,positive,pause,,
+16,17,A,frag,25.0,confirm,"
+on the sixth of October
+",deixis,month-date,positive,,,
+16,26,B,decl,44.0,confirm,"
+ah there's two there's two types i'm told ",exists-report,number,positive,pause,,
+16,26,B,decl,45.0,confirm,"
+there's the super saver
+",exists,fare,positive,,,
+16,26,B,frag,46.0,confirm,"
+and the super advance saver
+",,fare,positive,,,
+16,41,A,decl,77.0,confirm,"
+it's the sixth of October
+",,month-date,positive,,,
+16,41,A,frag,78.0,confirm,"
+travelling from Derby at 8 a m in the morning
+",,time-location-from-journey,positive,,,
+16,41,A,frag,79.0,confirm,"
+arriving in St Pancreas at 8 50 ",,time-arrival,positive,pause,,
+16,41,A,frag,80.0,confirm,"
+returning the same day at 17 30 from London St Pancreas
+",,return-location-day-time-from,positive,,,
+16,41,A,frag,81.0,confirm,"
+arriving in Derby at 19 25 ",,location-time-arrival,positive,pause,,
+16,77,A,frag,135.0,confirm,"
+{letter}%16 for %alpha
+",,enum-spell,positive,,,
+16,81,A,frag,139.0,confirm,"
+{letter}%24 {letter}%23 limited
+",,enum-spell,positive,,,
+16,90,B,decl,151.0,confirm,"
+i should get it tomorrow
+",,day,positive,,,
+17,15,A,frag,22.0,confirm,"
+Saturday ",,day,positive,overlap,type,start
+17,17,A,frag,24.0,confirm,"
+of October
+",deixis,month,positive,,,
+17,32,B,frag,45.0,confirm,"
+",,enum,positive,unclear,length,3 syllables
+17,49,A,decl,74.0,confirm,"
+it's the tenth of October Saturday ",,month-day-date,positive,pause,,
+17,49,A,decl,75.0,confirm,"
+you're travelling from Birmingham New Street at 13 15
+",,time-location-from-journey,positive,,,
+17,49,A,frag,76.0,confirm,"
+arriving London Euston at 15 hundred
+",,location-time-arrival,positive,,,
+17,51,A,decl,78.0,confirm,"
+and you must stick to the date and the time that you've booked with this kind of ticket
+",constrain,time-date-booking-journey,positive,,,
+18,13,A,decl,30.0,confirm,"
+basically if it's the Sunday you were travelling back
+",condition-report,day-journey,positive,,,
+18,13,A,decl,31.0,confirm,"
+you come back at any time
+",,time,positive,,,
+18,14,B,decl,35.0,confirm,"
+i can't travel down after 6 in the morning
+",poss1,time-journey,negative,,,
+18,20,B,decl,43.0,confirm,"
+that leaves it open
+",,departure-fare,positive,,,
+18,36,B,frag,83.0,confirm,"
+second ",,,positive,pause,,
+18,57,A,decl,125.0,confirm,"
+and that's smoking
+",,seat,positive,,,
+18,57,A,decl,126.0,confirm,"
+and that's on the 15 20 train tomorrow from Preston ",,day-location-enum-from,positive,backchannel,content,yes
+18,61,A,decl,136.0,confirm,"
+you can leave it open for the calendar month ",poss2,departure-fare,positive,pause,,
+18,61,A,decl,138.0,confirm,"
+y... come back at any time
+",,,,,,
+18,61,A,decl,139.0,confirm,"
+but there is those restrictions on the week day that i've explained to you
+",exists-constrain,day,positive,,,
+18,85,A,decl,174.0,confirm,"
+the total price is 51 pounds return travelling tomorrow on the 15 20 train
+",,fare-day-journey,positive,,,
+18,85,A,decl,175.0,confirm,"
+that's the second of October
+",,month-date,positive,,,
+18,100,B,frag,192.0,confirm,"
+April
+",deixis,month,positive,,,
+18,100,B,decl,193.0,confirm,"
+it's em the year two thousand and one ",,number,positive,overlap,type,start
+18,100,B,decl,193.0,confirm,"
+it's em the year two thousand and one ",,number,positive,vocal,content,laughter
+19,29,A,frag,43.0,confirm,"
+",,location-enum-from,positive,pause,length,6s
+19,29,A,decl,45.0,confirm,"
+and that's on the thirty first of October ",,month-date,positive,pause,,
+19,29,A,frag,46.0,confirm,"
+returning the same day at 17 25
+",,return-time-day,positive,,,
+19,29,A,frag,47.0,confirm,"
+arriving at 19 08
+",,time-arrival,positive,,,
+19,47,A,frag,74.0,confirm,"
+as in Charlie
+",deixis,,positive,,,
+19,63,A,decl,93.0,confirm,"
+and ",,fare,positive,pause,,
+20,16,B,frag,29.0,confirm,"
+and that gets in at 18 33
+",,time,positive,,,
+20,18,B,decl,32.0,confirm,"
+and that's for 19 ",,fare,positive,pause,,
+21,23,A,decl,45.0,confirm,"
+and that's for Monday the fifth now
+",,day,positive,,,
+21,25,A,decl,47.0,confirm,"
+and that's seven pounds for your Virgin value single
+",,fare-number,positive,,,
+21,27,A,decl,49.0,confirm,"
+and that's Monday the fifth of October
+",,month-day-date,positive,,,
+21,27,A,frag,50.0,confirm,"
+departing at 10 25 from Birmingham International
+",,location-departure-time-from,positive,,,
+21,29,A,frag,52.0,confirm,"
+arriving ",,arrival-location-time,positive,overlap,type,end
+22,18,B,decl,32.0,confirm,"
+and that's all that's available
+",,avail,positive,,,
+22,20,B,decl,41.0,confirm,"
+that literally the only morning train available is 6 35
+",constrain,time-avail,positive,,,
+22,27,A,frag,62.0,confirm,"
+",,,positive,pause,length,2s
+22,29,A,decl,66.0,confirm,"
+",,fare,positive,pause,length,35s
+22,31,A,frag,68.0,confirm,"
+",,fare,positive,pause,length,2s
+22,31,A,frag,68.0,confirm,"
+",,fare,positive,pause,,
+22,31,A,frag,68.0,confirm,"
+",,fare,positive,pause,,
+22,31,A,frag,68.0,confirm,"
+",,fare,positive,pause,,
+22,34,B,decl,74.0,confirm,"
+and that's the only available one there
+",constrain,number-avail,positive,,,
+22,36,B,frag,78.0,confirm,"
+you always have to change
+",constrain-closure,,positive,,,
+22,38,B,frag,81.0,confirm,"
+fully booked right yeah ",,booking,positive,overlap,type,end
+22,46,B,decl,104.0,confirm,"
+they're all gone as well i suppose
+",opinion-closure,,positive,,,
+22,48,B,frag,107.0,confirm,"
+twosome yeah
+",deixis,number,positive,,,
+23,11,A,frag,18.0,confirm,"
+this Monday coming
+",,day,positive,,,
+23,85,A,decl,137.0,confirm,"
+it's going from Oxenholme to London Euston on Monday the fifth departing 11 41 ",,day-location-departure-to-time-from,positive,pause,length,6s
+23,85,A,decl,139.0,confirm,"
+you'll be travelling in coach {letter}%16 as in %alpha seat number 13
+",,enum-spell-number-journey,positive,,,
+23,85,A,decl,140.0,confirm,"
+and that's smoking ",,seat,positive,pause,,
+23,85,A,decl,141.0,confirm,"
+then you're returning from Euston to Oxenholme on Thursday the eighth departing at 21 35 ",,day-location-departure-return-from-time-to,positive,pause,,
+23,85,A,decl,148.0,confirm,"
+and the total cost is 50 pounds 50
+",,fare,positive,,,
+23,92,B,frag,159.0,confirm,"
+0 7 9 7 7 7 1 8 {letter}%10
+",,enum-spell,positive,,,
+24,11,A,decl,17.0,confirm,"
+and that's Saturday the third of October this Saturday
+",,month-day-date,positive,,,
+24,15,A,frag,24.0,confirm,"
+",,day,positive,pause,length,8s
+24,17,A,frag,26.0,confirm,"
+",,departure-time-from,positive,pause,,
+24,17,A,frag,26.0,confirm,"
+",,departure-time-from,positive,pause,length,3s
+24,17,A,frag,26.0,confirm,"
+",,departure-time-from,positive,pause,,
+24,17,A,frag,27.0,confirm,"
+arriving at 20 56 in Liverpool Lime Street
+",,location-time-arrival,positive,,,
+24,33,A,frag,58.0,confirm,"
+9 9 1
+",,enum,positive,,,
+24,41,A,frag,69.0,confirm,"
+8 {letter}%12 for %alpha {letter}%5 for %alpha
+",,enum-spell,positive,,,
+24,49,A,decl,84.0,confirm,"
+you're travelling from Liverpool Lime Street to Newcastle on Sunday sorry Saturday the ",,to-day-month-location-from-date-journey,positive,pause,,
+24,49,A,decl,84.0,confirm,"
+you're travelling from Liverpool Lime Street to Newcastle on Sunday sorry Saturday the ",,to-day-month-location-from-date-journey,positive,pause,,
+24,49,A,frag,85.0,confirm,"
+departing at 12 17 ",,departure-time,positive,pause,,
+24,49,A,decl,86.0,confirm,"
+and it's for 1 person smoking ",,enum-seat,positive,pause,length,11s
+24,51,A,decl,94.0,confirm,"
+the train departs at ",,day-time,positive,overlap,type,end
+24,51,A,decl,94.0,confirm,"
+the train departs at ",,day-time,positive,backchannel,content,mm
+24,51,A,decl,94.0,confirm,"
+the train departs at ",,day-time,positive,pause,,
+24,51,A,decl,94.0,confirm,"
+the train departs at ",,day-time,positive,pause,,
+24,53,A,frag,97.0,confirm,"
+returning from Newcastle to Liverpool Lime Street on Saturday the fourth of October ",,from-day-month-location-date-to-return,positive,pause,,
+24,53,A,frag,98.0,confirm,"
+departing at 17 20
+",,departure-time,positive,,,
+24,57,A,decl,106.0,confirm,"
+",,number-enum-spell-seat,positive,pause,length,7s
+24,57,A,decl,106.0,confirm,"
+",,number-enum-spell-seat,positive,pause,,
+24,59,A,decl,114.0,confirm,"
+it's Liverpool to Newcastle on the third of October
+",,location-to-month-date,positive,,,
+24,59,A,decl,115.0,confirm,"
+that's Saturday departing 12 22 returning Sunday the fourth of October from Newcastle to Liver... Liverpool Lime Street at 17 20
+",,departure-month-from-date-time-to-return-day-location,positive,,,
+24,90,B,frag,158.0,confirm,"
+stroke {letter}%13 ",,enum-spell,positive,pause,,
+24,90,B,frag,158.0,confirm,"
+stroke {letter}%13 ",,enum-spell,positive,pause,,
+25,10,B,frag,13.0,confirm,"
+from Euston
+",deixis,location-from,positive,,,
+25,10,B,yes,14.0,confirm,"
+yeah
+",,,,,,
+25,17,A,frag,25.0,confirm,"
+the 7 55
+",,enum,positive,,,
+25,28,B,frag,43.0,confirm,"
+erm leave it open
+",,departure-fare,positive,,,
+25,39,A,frag,62.0,confirm,"
+you said yourself it's a credit card holder
+",,creditcard,positive,,,
+26,27,A,decl,51.0,confirm,"
+you don't want to
+",,preference,negative,,,
+26,36,B,frag,70.0,confirm,"
+the 10 35
+",,enum,positive,,,
+26,55,A,frag,127.0,confirm,"
+",,location-day-month-enum-from-date,positive,pause,,
+26,55,A,frag,127.0,confirm,"
+",,location-day-month-enum-from-date,positive,backchannel,content,yes
+26,55,A,frag,128.0,confirm,"
+direct to Taunton ",,to-location,positive,backchannel,content,yes
+26,55,A,frag,129.0,confirm,"
+arriving 14 28 ",,arrival-time,positive,backchannel,content,yes
+26,55,A,frag,130.0,confirm,"
+returning from Taunton at thirtieth of October ",,time-return-month-location-from-date,positive,pause,,
+26,55,A,decl,131.0,confirm,"
+you're changing at Crewe
+",,time,positive,,,
+26,55,A,decl,132.0,confirm,"
+you depart at 10 35 ",,time,positive,backchannel,content,yes
+26,55,A,decl,133.0,confirm,"
+then it's the 14 52 from Crewe
+",,enum-from,positive,,,
+26,55,A,frag,134.0,confirm,"
+arriving at 15 03 in Hertford
+",,location-time-arrival,positive,,,
+26,55,A,decl,135.0,confirm,"
+and that's 23 45 ",,enum,positive,backchannel,content,yes
+27,3,A,frag,5.0,confirm,"
+from Leicester to Newton Abbot ",deixis,to-location-from,positive,pause,,
+27,7,A,frag,12.0,confirm,"
+of October
+",deixis,month,positive,,,
+27,15,A,decl,25.0,confirm,"
+and it's 11 o'clock train from Birmingham arriving in Newton Abbot for 14 02
+",closure,location-time-arrival-from,positive,,,
+27,21,A,frag,33.0,confirm,"
+",deixis,location-from,positive,pause,length,2s
+27,37,A,decl,80.0,confirm,"
+it's the sixth of October
+",,month-date,positive,,,
+27,37,A,decl,81.0,confirm,"
+you're travelling from Leicester at 9 18 in the morning
+",,time-from-journey,positive,,,
+27,39,A,decl,83.0,confirm,"
+you arrive in Birmingham New Street at 10 15
+",,location-time-arrival,positive,,,
+27,41,A,decl,85.0,confirm,"
+you depart Birmingham New Street 11 a m ",,time-location-arrival,positive,pause,,
+27,43,A,decl,87.0,confirm,"
+it's the eighth of October
+",,month-date,positive,,,
+27,43,A,decl,88.0,confirm,"
+you'll be travelling at 12 21 from Newton Abbot
+",,time-location-from-journey,positive,,,
+27,45,A,decl,90.0,confirm,"
+you arrive in Birmingham New Street at 15 42 ",,location-time-arrival,positive,backchannel,content,yes
+27,45,A,decl,91.0,confirm,"
+then you depart Birmingham New Street at 16 06 to arrive in Leicester at 17 01
+",,location-time-arrival,positive,,,
+27,73,A,frag,129.0,confirm,"
+6 zero
+",,enum,positive,,,
+27,79,A,frag,136.0,confirm,"
+{letter}%9 for %alpha
+",,enum-spell,positive,,,
+27,103,A,frag,163.0,confirm,"
+the tenth 99
+",,,positive,,,
+27,114,B,frag,181.0,confirm,"
+4 8 4 2
+",,enum,positive,,,
+27,122,B,frag,189.0,confirm,"
+and the 2
+",,,positive,,,
+28,5,A,frag,12.0,confirm,"
+from Euston London
+",deixis,location-from,positive,,,
+28,17,A,frag,32.0,confirm,"
+a railcard
+",,railcard,positive,,,
+28,21,A,frag,37.0,confirm,"
+a disabled railcard
+",,railcard,positive,,,
+28,50,B,frag,94.0,confirm,"
+arriving 13 hundred
+",,arrival-time,positive,,,
+28,56,B,decl,104.0,confirm,"
+19 pound 80 is a return innit
+",,fare,positive,,,
+28,61,A,frag,113.0,confirm,"
+the same day
+",,day,positive,,,
+28,101,A,decl,179.0,confirm,"
+you're travelling tomorrow from Stockport
+",,day-from-journey,positive,,,
+28,102,B,frag,180.0,confirm,"
+10 30
+",,enum,positive,,,
+28,103,A,frag,181.0,confirm,"
+10 38
+",,enum,positive,,,
+28,106,B,frag,184.0,confirm,"
+reaching 1 o'clock
+",,time,positive,,,
+28,108,B,frag,186.0,confirm,"
+and coming back
+",,,positive,,,
+28,109,A,frag,187.0,confirm,"
+on the sixteenth of October
+",deixis,month-date,positive,,,
+28,110,B,frag,188.0,confirm,"
+on sixteenth of October as well
+",,month-date,positive,,,
+28,111,A,frag,189.0,confirm,"
+arriving at 14 18
+",,time-arrival,positive,,,
+28,115,A,frag,195.0,confirm,"
+forward facing seats
+",,seat,positive,,,
+28,119,A,decl,200.0,confirm,"
+you say that the person's travelling has a disabled railcard ",,journey-railcard,positive,pause,,
+28,125,A,decl,208.0,confirm,"
+the fare's 19 pounds 80
+",,fare,positive,,,
+28,137,A,frag,227.0,confirm,"
+{letter}%18 for %alpha ",,enum-spell,positive,backchannel,content,yes
+28,143,A,frag,234.0,confirm,"
+{letter}%18 for %alpha
+",,enum-spell,positive,,,
+28,155,A,frag,249.0,confirm,"
+7 8 6 7
+",,enum,positive,,,
+28,194,B,frag,299.0,confirm,"
+{letter}%21
+",,spell,positive,,,
+28,210,B,frag,316.0,confirm,"
+{letter}%15 right
+",,enum-spell,positive,,,
+28,212,B,frag,319.0,confirm,"
+{letter}%18 {letter}%20 {letter}%15 9 6 3 {letter}%9 {letter}%15
+",,enum-spell,positive,,,
+28,216,B,frag,323.0,confirm,"
+from ",deixis,from,positive,overlap,type,end
+28,216,B,frag,323.0,confirm,"
+from ",deixis,from,positive,overlap,type,start
+28,217,A,frag,324.0,confirm,"
+from Stockport ",deixis,time-from-booking,positive,overlap,type,end
+28,217,A,frag,324.0,confirm,"
+from Stockport ",deixis,time-from-booking,positive,backchannel,content,yes
+29,15,A,frag,23.0,confirm,"
+",,time,positive,pause,length,2s
+29,24,B,frag,39.0,confirm,"
+21 06 the 18 twe...
+",abandon,enum,positive,,,
+29,24,B,decl,42.0,confirm,"
+but there's road er road works listen me engineering works isn't there or something
+",exists-constrain-alternative,,negative,,,
+29,35,A,decl,74.0,confirm,"
+it's the twenty fourth of October
+",closure,month-date,positive,,,
+29,37,A,decl,76.0,confirm,"
+you're travelling from Wigan North Western ",,time-from-journey,positive,pause,,
+29,37,A,frag,77.0,confirm,"
+arriving at 8 30 in London Euston
+",,location-time-arrival,positive,,,
+29,39,A,frag,79.0,confirm,"
+returning the same day at 18 25 from Euston
+",,return-location-day-time-from,positive,,,
+29,41,A,decl,81.0,confirm,"
+you arrive at 21 06
+",,time-arrival,positive,,,
+30,7,A,decl,12.0,confirm,"
+and that's 5 30 in the afternoon
+",,time,positive,,,
+30,11,A,decl,22.0,confirm,"
+it's just a single
+",,fare,positive,,,
+30,13,A,frag,24.0,confirm,"
+for tomorrow
+",,day,positive,,,
+30,28,B,decl,46.0,confirm,"
+that's the regular price from Manchester innit 45 50
+",,location-enum-from,positive,,,
+31,9,A,decl,16.0,confirm,"
+",open,day,positive,pause,length,2s
+32,11,A,decl,17.0,confirm,"
+you don't want to book a ticket just now
+",,preference-booking-journey,negative,,,
+32,22,B,decl,37.0,confirm,"
+oh it's fully booked up
+",,avail,positive,,,
+32,24,B,frag,40.0,confirm,"
+30 pound each
+",,fare,positive,,,
+33,39,A,decl,63.0,confirm,"
+it's the sixth of October ",,month-date,positive,backchannel,content,mhm
+33,39,A,frag,64.0,confirm,"
+travelling from London Euston at 7 a m in the morning
+",,time-location-from-journey,positive,,,
+33,43,A,frag,69.0,confirm,"
+returning that day
+",,day-return,positive,,,
+33,43,A,frag,71.0,confirm,"
+at 14 45
+",,time,positive,,,
+33,45,A,frag,73.0,confirm,"
+arriving at 17 35
+",,time-arrival,positive,,,
+33,75,A,frag,120.0,confirm,"
+{letter}%4 for %alpha
+",,enum-spell,positive,,,
+33,77,A,frag,123.0,confirm,"
+{letter}%3 for %alpha {letter}%10 for %alpha
+",,enum-spell,positive,,,
+34,22,B,frag,37.0,confirm,"
+",,number,positive,pause,,
+34,28,B,decl,62.0,confirm,"
+you're saying i can't go on the 14 58 anyway
+",poss1,enum,negative,,,
+34,34,B,q-yn,74.0,confirm,"
+i'd have to a full price ticket would i ",closed-constrain,journey,positive,pause,,
+34,34,B,q-yn,74.0,confirm,"
+i'd have to a full price ticket would i ",closed-constrain,journey,positive,overlap,type,start
+34,34,B,q-yn,74.0,confirm,"
+i'd have to a full price ticket would i ",closed-constrain,journey,positive,unclear,length,2 syllables
+34,38,B,decl,84.0,confirm,"
+it's sixty... sixty ",,,positive,overlap,type,start
+34,38,B,decl,85.0,confirm,"
+if it is
+",abandon-condition,,positive,,,
+34,40,B,decl,88.0,confirm,"
+it's not return on a ",,day-fare,negative,pause,,
+34,46,B,decl,98.0,confirm,"
+these are open
+",,fare,positive,,,
+34,46,B,decl,99.0,confirm,"
+on both going and coming i can get any any train i want
+",poss1Intent,preference,positive,,,
+34,54,B,frag,118.0,confirm,"
+",,fare,positive,pause,,
+35,9,A,decl,18.0,confirm,"
+and it's for two
+",,number,positive,,,
+35,25,A,frag,38.0,confirm,"
+the ",,fare,positive,overlap,type,end
+35,43,A,frag,67.0,confirm,"
+from Wilmslow to Euston
+",deixis,to-location-from,positive,,,
+35,50,B,frag,78.0,confirm,"
+at all
+",,,positive,,,
+35,54,B,frag,82.0,confirm,"
+nothing
+",partial,,positive,,,
+35,80,B,decl,133.0,confirm,"
+but abouts there's nothing at 10 o'clockish
+",exists-constrain,time,positive,,,
+35,82,B,frag,136.0,confirm,"
+07 45
+",,enum,positive,,,
+35,86,B,decl,142.0,confirm,"
+",,fare,positive,pause,,
+35,91,A,frag,149.0,confirm,"
+arriving at 13 30
+",,time-arrival,positive,,,
+35,91,A,decl,150.0,confirm,"
+that's on Saturday the seventeenth
+",,day,positive,,,
+35,100,B,decl,161.0,confirm,"
+that's thir... 13 03
+",,enum,positive,,,
+35,129,A,frag,221.0,confirm,"
+and you said it's yourself as the credit card holder
+",,creditcard,positive,,,
+35,182,B,decl,292.0,confirm,"
+that's the 10 50 five oh
+",,enum-number,positive,,,
+35,184,B,frag,294.0,confirm,"
+on Saturday the seventeenth to Macclesfield
+",deixis,day-to,positive,,,
+35,184,B,frag,295.0,confirm,"
+getting on at 13 03
+",,time,positive,,,
+35,186,B,frag,297.0,confirm,"
+and then on Sunday the eighteenth
+",,day,positive,,,
+35,186,B,frag,298.0,confirm,"
+erm 15 55
+",,enum,positive,,,
+35,186,B,frag,299.0,confirm,"
+take a coach to from Macclesfield to Wilmslow
+",,to-from,positive,,,
+35,186,B,frag,300.0,confirm,"
+get on the train at 16 25
+",,time,positive,,,
+35,186,B,decl,301.0,confirm,"
+and it gets into London at 19 13 ",,location-time-to,positive,pause,,
+42,18,B,decl,36.0,confirm,"
+it's just for one ",decl,number,positive,punc,type,stop
+47,87,A,frag,165.0,confirm,"
+not for the Super Advance ",frag,fare,negative,punc,type,level
+49,65,A,frag,127.0,confirm,"
+6 to 9 ",decl,enum,positive,punc,type,stop
+54,83,A,frag,130.0,confirm,"
+",decl,,positive,anonym,type,letter
+54,83,A,frag,130.0,confirm,"
+",decl,,positive,anonym,type,letter
+54,83,A,frag,130.0,confirm,"
+",decl,,positive,punc,type,stop
+60,33,A,frag,59.0,confirm,"
+and like i said ",report-frag,,positive,punc,type,level

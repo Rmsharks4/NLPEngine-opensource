@@ -1,0 +1,6651 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,5,A,dm,7.0,init,"
+now
+",,,,,,
+1,7,A,dm,11.0,init,"
+now ",,,,pause,,
+1,17,A,dm,22.0,expressRegret,"
+sorry
+",regret,,,,,
+1,23,A,dm,32.0,init,"
+now
+",,,,,,
+1,23,A,dm,34.0,init,"
+so
+",,,,,,
+1,27,A,dm,39.0,init,"
+",,,,pause,length,20s
+1,28,B,dm,43.0,ackn,"
+right
+",,,positive,,,
+1,29,A,dm,52.0,init,"
+so
+",,,,,,
+1,31,A,dm,56.0,init,"
+so
+",,,,,,
+1,31,A,dm,58.0,init,"
+so
+",,,,,,
+1,33,A,dm,64.0,init,"
+now
+",,,,,,
+1,39,A,dm,73.0,accept,"
+ok ",,,positive,pause,length,3s
+1,39,A,dm,75.0,init,"
+now
+",,,,,,
+1,40,B,dm,77.0,ackn,"
+alright
+",,,positive,,,
+1,45,A,dm,84.0,init,"
+now
+",,,,,,
+1,46,B,dm,95.0,ackn,"
+right
+",,,positive,,,
+1,47,A,dm,96.0,init,"
+now
+",,,,,,
+1,55,A,dm,105.0,ackn,"
+",,,positive,pause,,
+1,57,A,dm,107.0,ackn,"
+",,,positive,pause,,
+1,79,A,dm,133.0,init,"
+",,,,pause,length,3s
+1,80,B,dm,135.0,ackn,"
+ok
+",,,positive,,,
+1,84,B,dm,139.0,ackn,"
+right
+",,,positive,,,
+1,85,A,dm,142.0,init,"
+ok now
+",,,positive,,,
+2,3,A,dm,5.0,init,"
+",,,,pause,,
+2,4,B,dm,7.0,ackn,"
+aha
+",,,positive,,,
+2,15,A,dm,20.0,init,"
+well
+",,,,,,
+2,25,A,dm,36.0,init,"
+",,,,pause,length,8s
+2,26,B,dm,39.0,ackn,"
+ok
+",,,positive,,,
+2,27,A,dm,41.0,init,"
+now
+",,,,,,
+2,28,B,dm,43.0,accept,"
+sure ",,,positive,pause,length,9s
+2,30,B,dm,46.0,ackn,"
+right
+",,,positive,,,
+2,32,B,dm,48.0,ackn,"
+right em
+",,,positive,,,
+2,37,A,dm,56.0,init,"
+ok then sir
+",,,positive,,,
+3,3,A,dm,5.0,init,"
+now
+",,,,,,
+3,19,A,dm,22.0,init,"
+",,,,pause,length,4s
+3,21,A,dm,25.0,init,"
+so
+",,,,,,
+3,31,A,dm,37.0,init,"
+",,,,pause,length,9s
+3,32,B,dm,39.0,ackn,"
+right ",,,positive,pause,,
+3,33,A,dm,41.0,init,"
+now
+",,,,,,
+3,37,A,dm,46.0,init,"
+",,,,pause,length,3s
+3,39,A,dm,49.0,init,"
+",,,,pause,length,14s
+3,44,B,dm,56.0,ackn,"
+right ok then
+",,,positive,,,
+3,45,A,dm,57.0,init,"
+",,,,pause,,
+3,51,A,dm,65.0,init,"
+",,,,pause,,
+3,53,A,dm,70.0,init,"
+now
+",,,,,,
+3,59,A,dm,77.0,init,"
+",,,,pause,length,6s
+3,61,A,dm,80.0,ackn,"
+aha
+",,,positive,,,
+3,69,A,dm,92.0,ackn,"
+",,,positive,pause,,
+3,73,A,dm,98.0,init,"
+now
+",,,,,,
+3,93,A,dm,120.0,init,"
+now
+",,,,,,
+3,97,A,dm,126.0,init,"
+",,,,pause,length,9s
+3,98,B,dm,130.0,ackn,"
+right ok
+",,,positive,,,
+3,99,A,dm,132.0,init,"
+now
+",,,,,,
+3,106,B,dm,147.0,ackn,"
+right
+",,,positive,,,
+3,107,A,dm,149.0,init,"
+now
+",,,,,,
+3,107,A,dm,157.0,init,"
+now
+",,,,,,
+3,109,A,dm,160.0,init,"
+now
+",,,,,,
+3,115,A,dm,168.0,init,"
+so
+",,,,,,
+3,115,A,dm,172.0,init,"
+ok sir
+",,,,,,
+3,117,A,dm,174.0,init,"
+so
+",,,,,,
+3,118,B,dm,176.0,ackn,"
+ok
+",,,positive,,,
+4,6,B,dm,10.0,init,"
+well ",,,,pause,,
+4,7,A,dm,12.0,init,"
+now
+",,,,,,
+4,11,A,dm,18.0,init,"
+so
+",,,,,,
+4,14,B,dm,24.0,init,"
+erm well
+",,,,,,
+4,14,B,dm,29.0,init,"
+so
+",,,,,,
+4,15,A,dm,31.0,init,"
+",,,,pause,,
+4,16,B,dm,35.0,ackn,"
+oh right
+",,,positive,,,
+4,16,B,dm,36.0,init,"
+so
+",,,,,,
+4,18,B,dm,39.0,ackn,"
+alright
+",,,positive,,,
+4,18,B,dm,40.0,init,"
+so
+",,,,,,
+4,26,B,dm,58.0,ackn,"
+",,,positive,pause,,
+4,26,B,dm,58.0,ackn,"
+",,,positive,pause,,
+4,28,B,dm,63.0,ackn,"
+",,,positive,pause,,
+4,28,B,dm,63.0,ackn,"
+",,,positive,pause,,
+4,36,B,dm,77.0,ackn,"
+right
+",,,positive,,,
+4,37,A,dm,79.0,ackn,"
+aha
+",,,positive,,,
+4,40,B,dm,82.0,init,"
+right em
+",,,positive,,,
+4,41,A,dm,85.0,ackn,"
+",,,positive,pause,,
+4,44,B,dm,92.0,ackn,"
+right
+",,,positive,,,
+4,44,B,dm,93.0,init,"
+so
+",,,,,,
+4,46,B,dm,97.0,init,"
+ok
+",,,positive,,,
+4,47,A,dm,102.0,init,"
+",,,,pause,length,9s
+4,47,A,dm,107.0,init,"
+now
+",,,,,,
+4,50,B,dm,112.0,ackn,"
+right ",,,positive,pause,,
+4,50,B,dm,117.0,init,"
+so
+",,,,,,
+4,56,B,dm,126.0,init,"
+so
+",,,,,,
+4,60,B,dm,135.0,ackn,"
+ok
+",,,positive,,,
+4,61,A,dm,138.0,init,"
+now ",,,,overlap,type,end
+4,65,A,dm,145.0,init,"
+now
+",,,,,,
+4,68,B,dm,157.0,ackn,"
+right ok
+",,,positive,,,
+4,69,A,dm,158.0,init,"
+now
+",,,,,,
+4,75,A,dm,165.0,ackn,"
+aha
+",,,positive,,,
+4,77,A,dm,167.0,ackn,"
+aha
+",,,positive,,,
+4,81,A,dm,171.0,ackn,"
+aha
+",,,positive,,,
+4,85,A,dm,175.0,init,"
+now
+",,,,,,
+4,86,B,dm,177.0,ackn,"
+ok
+",,,positive,,,
+4,99,A,dm,191.0,init,"
+now
+",,,,,,
+4,99,A,dm,193.0,init,"
+now
+",,,,,,
+4,106,B,dm,202.0,ackn,"
+right
+",,,positive,,,
+4,108,B,dm,204.0,ackn,"
+ok ",,,positive,overlap,type,end
+4,111,A,dm,208.0,ackn,"
+aha
+",,,positive,,,
+4,113,A,dm,211.0,init,"
+ok now sir
+",,,positive,,,
+4,114,B,dm,212.0,appreciate,"
+ok excellent
+",,,positive,,,
+5,3,A,dm,5.0,init,"
+now
+",,,,,,
+5,21,A,dm,26.0,init,"
+",,,,pause,length,4s
+5,24,B,dm,31.0,ackn,"
+right
+",,,positive,,,
+5,26,B,dm,37.0,ackn,"
+ok
+",,,positive,,,
+5,34,B,dm,49.0,init,"
+ok
+",,,positive,,,
+5,36,B,dm,54.0,init,"
+",,,,pause,,
+5,38,B,dm,58.0,init,"
+well
+",,,,,,
+5,40,B,dm,62.0,ackn,"
+right ok ",,,positive,pause,,
+5,40,B,dm,63.0,init,"
+so
+",,,,,,
+5,42,B,dm,67.0,ackn,"
+right
+",,,positive,,,
+5,44,B,dm,71.0,ackn,"
+alright
+",,,positive,,,
+5,45,A,dm,72.0,init,"
+ok then
+",,,positive,,,
+5,46,B,dm,73.0,ackn,"
+alright
+",,,positive,,,
+6,3,A,dm,5.0,init,"
+now
+",,,,,,
+6,15,A,dm,18.0,init,"
+",,,,pause,length,5s
+6,17,A,dm,21.0,init,"
+",,,,pause,length,8s
+6,18,B,dm,24.0,ackn,"
+right
+",,,positive,,,
+6,20,B,dm,28.0,ackn,"
+alright
+",,,positive,,,
+6,24,B,dm,33.0,init,"
+ok
+",,,positive,,,
+6,25,A,dm,35.0,init,"
+",,,,pause,,
+6,27,A,dm,40.0,init,"
+now
+",,,,,,
+6,31,A,dm,45.0,init,"
+now
+",,,,,,
+6,32,B,dm,49.0,ackn,"
+right
+",,,positive,,,
+6,34,B,dm,52.0,ackn,"
+right
+",,,positive,,,
+6,35,A,dm,53.0,init,"
+now
+",,,,,,
+6,41,A,dm,60.0,ackn,"
+aha
+",,,positive,,,
+6,43,A,dm,62.0,ackn,"
+aha
+",,,positive,,,
+6,47,A,dm,66.0,ackn,"
+aha
+",,,positive,,,
+6,51,A,dm,71.0,init,"
+now
+",,,,,,
+6,52,B,dm,73.0,ackn,"
+right
+",,,positive,,,
+6,54,B,dm,75.0,init,"
+er well
+",,,,,,
+6,69,A,dm,94.0,init,"
+",,,,pause,length,7s
+6,81,A,dm,110.0,init,"
+",,,,pause,length,6s
+6,90,B,dm,122.0,ackn,"
+ok
+",,,positive,,,
+6,91,A,dm,123.0,init,"
+so
+",,,,,,
+7,3,A,dm,5.0,init,"
+now
+",,,,,,
+7,11,A,dm,17.0,init,"
+",,,,pause,length,8s
+7,12,B,dm,23.0,accept,"
+mhm fine
+",,,positive,,,
+7,13,A,dm,25.0,init,"
+now
+",,,,,,
+7,19,A,dm,32.0,init,"
+now
+",,,,,,
+7,23,A,dm,38.0,init,"
+now
+",,,,,,
+7,26,B,dm,42.0,appreciate,"
+lovely
+",,,positive,,,
+7,27,A,dm,43.0,init,"
+",,,,pause,,
+7,28,B,dm,45.0,ackn,"
+right
+",,,positive,,,
+7,31,A,dm,49.0,init,"
+now
+",,,,,,
+7,40,B,dm,61.0,ackn,"
+oh right
+",,,positive,,,
+7,42,B,dm,66.0,ackn,"
+right aha ",,,positive,overlap,type,end
+7,45,A,dm,69.0,ackn,"
+aha
+",,,positive,,,
+7,47,A,dm,71.0,init,"
+now
+",,,,,,
+7,48,B,dm,74.0,ackn,"
+right
+",,,positive,,,
+7,50,B,dm,77.0,ackn,"
+right fine
+",,,positive,,,
+7,55,A,dm,82.0,init,"
+now
+",,,,,,
+7,69,A,dm,98.0,init,"
+now
+",,,,,,
+7,70,B,dm,101.0,ackn,"
+right
+",,,positive,,,
+7,78,B,dm,109.0,ackn,"
+right
+",,,positive,,,
+7,80,B,dm,112.0,ackn,"
+right
+",,,positive,,,
+7,81,A,dm,114.0,init,"
+so
+",,,,,,
+8,3,A,dm,5.0,init,"
+",,,,pause,length,3s
+8,3,A,dm,5.0,init,"
+",,,,pause,,
+8,4,B,dm,7.0,pardon,"
+pardon
+",,,,,,
+8,13,A,dm,16.0,ackn,"
+",,,positive,pause,,
+8,14,B,dm,21.0,init,"
+so
+",,,,,,
+8,18,B,dm,28.0,init,"
+well
+",,,,,,
+8,19,A,dm,31.0,init,"
+so
+",,,,,,
+8,23,A,dm,36.0,init,"
+now
+",,,,,,
+8,23,A,dm,38.0,init,"
+now
+",,,,,,
+8,25,A,dm,41.0,init,"
+now
+",,,,,,
+8,26,B,dm,44.0,ackn,"
+ok
+",,,positive,,,
+8,31,A,dm,51.0,init,"
+now
+",,,,,,
+8,34,B,dm,57.0,pardon,"
+sorry
+",regret,,,,,
+8,34,B,dm,59.0,pardon,"
+sorry
+",regret,,,,,
+8,36,B,dm,66.0,ackn,"
+ok
+",,,positive,,,
+8,44,B,dm,76.0,init,"
+so er
+",,,,,,
+8,45,A,dm,78.0,init,"
+now
+",,,,,,
+8,51,A,dm,87.0,accept,"
+sure
+",,,positive,,,
+8,59,A,dm,98.0,pardon,"
+sorry
+",regret,,,,,
+8,61,A,dm,101.0,ackn,"
+",,,positive,pause,,
+8,61,A,dm,101.0,ackn,"
+",,,positive,pause,length,3s
+8,63,A,dm,104.0,init,"
+",,,,pause,,
+8,65,A,dm,107.0,ackn,"
+aha
+",,,positive,,,
+8,67,A,dm,109.0,init,"
+now
+",,,,,,
+8,68,B,dm,112.0,ackn,"
+right
+",,,positive,,,
+8,81,A,dm,128.0,init,"
+now
+",,,,,,
+8,85,A,dm,136.0,init,"
+ok now
+",,,positive,,,
+9,3,A,dm,6.0,init,"
+now
+",,,,,,
+9,5,A,dm,9.0,ackn,"
+ok 
+",,,positive,,,
+9,5,A,dm,10.0,init,"
+now
+",,,,,,
+9,10,B,dm,18.0,init,"
+so
+",,,,,,
+9,13,A,dm,23.0,init,"
+well
+",,,,,,
+9,13,A,dm,26.0,pardon,"
+sorry
+",regret,,,,,
+9,17,A,dm,33.0,init,"
+",,,,pause,length,7s
+9,19,A,dm,36.0,init,"
+",,,,pause,length,3s
+9,20,B,dm,38.0,accept,"
+mhm ",,,positive,overlap,type,end
+9,21,A,dm,40.0,init,"
+now
+",,,,,,
+9,27,A,dm,51.0,ackn,"
+ok ",,,positive,pause,length,7s
+9,27,A,dm,52.0,init,"
+now
+",,,,,,
+9,28,B,dm,57.0,ackn,"
+oh right ",,,positive,vocal,content,laughter
+9,30,B,dm,61.0,accept,"
+right
+",,,positive,,,
+9,31,A,dm,62.0,init,"
+now
+",,,,,,
+9,32,B,dm,64.0,ackn,"
+ok
+",,,positive,,,
+9,34,B,dm,66.0,ackn,"
+ok
+",,,positive,,,
+9,35,A,dm,67.0,init,"
+so
+",,,,,,
+9,40,B,dm,76.0,ackn,"
+right ok
+",,,positive,,,
+9,42,B,dm,79.0,ackn,"
+ok fine ",,,positive,overlap,type,start
+9,43,A,dm,82.0,init,"
+now
+",,,,,,
+9,44,B,dm,84.0,pardon,"
+sorry
+",regret,,,,,
+9,51,A,dm,92.0,init,"
+",,,,pause,length,4s
+9,55,A,dm,97.0,init,"
+now
+",,,,,,
+9,56,B,dm,100.0,appreciate,"
+ok lovely
+",,,positive,,,
+9,61,A,dm,106.0,init,"
+now
+",,,,,,
+9,68,B,dm,117.0,appreciate,"
+lovely
+",,,positive,,,
+9,69,A,dm,118.0,init,"
+and now
+",,,,,,
+9,73,A,dm,123.0,init,"
+now
+",,,,,,
+9,75,A,dm,126.0,ackn,"
+ok
+",,,positive,,,
+9,75,A,dm,127.0,init,"
+	now
+",,,,,,
+9,91,A,dm,148.0,init,"
+now
+",,,,,,
+9,92,B,dm,150.0,ackn,"
+right
+",,,positive,,,
+9,96,B,dm,156.0,ackn,"
+fine
+",,,positive,,,
+9,96,B,dm,157.0,init,"
+so
+",,,,,,
+9,98,B,dm,162.0,ackn,"
+right
+",,,positive,,,
+9,100,B,dm,164.0,ackn,"
+right
+",,,positive,,,
+9,101,A,dm,166.0,init,"
+now
+",,,,,,
+9,106,B,dm,172.0,ackn,"
+ok
+",,,positive,,,
+9,107,A,dm,173.0,init,"
+",,,,pause,,
+9,108,B,dm,176.0,ackn,"
+ok
+",,,positive,,,
+9,110,B,dm,179.0,ackn,"
+ok
+",,,positive,,,
+10,3,A,dm,5.0,init,"
+",,,,pause,,
+10,10,B,dm,15.0,init,"
+so
+",,,,,,
+10,16,B,dm,23.0,init,"
+so
+",,,,,,
+10,17,A,dm,25.0,init,"
+",,,,pause,length,6s
+10,20,B,dm,29.0,init,"
+well
+",,,,,,
+10,28,B,dm,40.0,ackn,"
+ok
+",,,positive,,,
+10,29,A,dm,42.0,init,"
+",,,,pause,,
+10,30,B,dm,44.0,ackn,"
+ok
+",,,positive,,,
+10,31,A,dm,45.0,init,"
+",,,,pause,length,6s
+11,3,A,dm,6.0,init,"
+now
+",,,,,,
+11,5,A,dm,10.0,init,"
+now
+",,,,,,
+11,11,A,dm,19.0,init,"
+now
+",,,,,,
+11,15,A,dm,25.0,init,"
+now
+",,,,,,
+11,18,B,dm,29.0,ackn,"
+oh ",,,positive,pause,,
+11,20,B,dm,32.0,ackn,"
+ok so
+",,,positive,,,
+11,22,B,dm,39.0,init,"
+so
+",,,,,,
+11,31,A,dm,52.0,init,"
+",,,,pause,length,7s
+11,31,A,dm,52.0,init,"
+",,,,pause,,
+11,31,A,dm,55.0,expressRegret,"
+sorry
+",regret,,,,,
+11,35,A,dm,63.0,expressRegret,"
+sorry
+",regret,,,,,
+11,36,B,dm,65.0,ackn,"
+",,,positive,pause,,
+11,36,B,dm,67.0,ackn,"
+ok
+",,,positive,,,
+11,38,B,dm,71.0,ackn,"
+ok
+",,,positive,,,
+11,43,A,dm,77.0,init,"
+now
+",,,,,,
+11,45,A,dm,85.0,init,"
+now
+",,,,,,
+11,55,A,dm,100.0,ackn,"
+aha
+",,,positive,,,
+11,61,A,dm,106.0,init,"
+now
+",,,,,,
+11,61,A,dm,108.0,init,"
+now
+",,,,,,
+11,65,A,dm,113.0,init,"
+",,,,pause,length,6s
+11,67,A,dm,123.0,init,"
+now
+",,,,,,
+11,67,A,dm,125.0,init,"
+so
+",,,,,,
+11,68,B,dm,130.0,ackn,"
+ok
+",,,positive,,,
+11,70,B,dm,134.0,ackn,"
+ok
+",,,positive,,,
+11,71,A,dm,136.0,ackn,"
+ok
+",,,positive,,,
+11,72,B,dm,137.0,ackn,"
+ok
+",,,positive,,,
+11,73,A,dm,138.0,init,"
+now
+",,,,,,
+11,85,A,dm,152.0,init,"
+",,,,pause,,
+11,92,B,dm,161.0,ackn,"
+ok
+",,,positive,,,
+11,95,A,dm,164.0,init,"
+ok now
+",,,positive,,,
+11,96,B,dm,165.0,ackn,"
+ok
+",,,positive,,,
+12,5,A,dm,7.0,init,"
+now
+",,,,,,
+12,11,A,dm,14.0,init,"
+now
+",,,,,,
+12,13,A,dm,17.0,init,"
+so
+",,,,,,
+12,15,A,dm,24.0,init,"
+now
+",,,,,,
+12,19,A,dm,30.0,init,"
+",,,,pause,length,5s
+12,26,B,dm,40.0,ackn,"
+",,,positive,pause,,
+12,26,B,dm,40.0,ackn,"
+",,,positive,pause,,
+12,29,A,dm,44.0,init,"
+",,,,pause,length,8s
+12,33,A,dm,49.0,init,"
+so
+",,,,,,
+12,42,B,dm,60.0,ackn,"
+erm sure
+",,,positive,,,
+12,45,A,dm,65.0,init,"
+",,,,pause,length,2s
+12,46,B,dm,68.0,ackn,"
+ok righto
+",,,positive,,,
+12,48,B,dm,72.0,ackn,"
+right ok
+",,,positive,,,
+12,56,B,dm,85.0,init,"
+well
+",,,,,,
+12,65,A,dm,100.0,init,"
+",,,,overlap,type,start
+12,67,A,dm,103.0,expressRegret,"
+sorry
+",regret,,,,,
+12,67,A,dm,106.0,expressRegret,"
+sorry
+",regret,,,,,
+12,71,A,dm,112.0,init,"
+so
+",,,,,,
+12,73,A,dm,116.0,init,"
+",,,,pause,length,2s
+12,75,A,dm,120.0,init,"
+now
+",,,,,,
+12,76,B,dm,123.0,ackn,"
+",,,positive,pause,length,3s
+12,76,B,dm,123.0,ackn,"
+",,,positive,pause,length,3s
+12,84,B,dm,139.0,ackn,"
+ok ",,,positive,pause,,
+12,84,B,dm,140.0,ackn,"
+erm ",,,positive,pause,length,3s
+12,84,B,dm,144.0,init,"
+if ",,,,pause,,
+12,87,A,dm,148.0,init,"
+",,,,pause,length,14s
+12,91,A,dm,154.0,init,"
+well
+",,,,,,
+12,92,B,dm,159.0,init,"
+",,,,pause,,
+12,94,B,dm,165.0,init,"
+well
+",,,,,,
+12,95,A,dm,168.0,init,"
+well
+",,,,,,
+12,98,B,dm,178.0,ackn,"
+ok well
+",,,positive,,,
+12,105,A,dm,192.0,init,"
+",,,,pause,length,6s
+12,107,A,dm,195.0,init,"
+",,,,pause,,
+12,114,B,dm,208.0,accept,"
+ok
+",,,positive,,,
+12,115,A,dm,209.0,init,"
+now
+",,,,,,
+12,119,A,dm,214.0,init,"
+",,,,pause,,
+12,120,B,dm,218.0,accept,"
+ok
+",,,positive,,,
+12,121,A,dm,220.0,init,"
+now
+",,,,,,
+12,124,B,dm,229.0,accept,"
+ok
+",,,positive,,,
+12,125,A,dm,230.0,init,"
+now
+",,,,,,
+12,127,A,dm,233.0,ackn,"
+",,,positive,pause,length,4s
+12,127,A,dm,233.0,ackn,"
+",,,positive,pause,length,4s
+12,153,A,dm,262.0,init,"
+now
+",,,,,,
+13,5,A,dm,7.0,init,"
+now
+",,,,,,
+13,11,A,dm,14.0,init,"
+now
+",,,,,,
+13,14,B,dm,18.0,init,"
+well
+",,,,,,
+13,17,A,dm,23.0,init,"
+",,,,pause,,
+13,19,A,dm,26.0,ackn,"
+",,,positive,pause,,
+13,19,A,dm,27.0,init,"
+now
+",,,,,,
+13,21,A,dm,31.0,init,"
+",,,,pause,length,13s
+13,24,B,dm,36.0,init,"
+well
+",,,,,,
+13,27,A,dm,40.0,init,"
+",,,,pause,length,9s
+13,29,A,dm,43.0,init,"
+now
+",,,,,,
+13,34,B,dm,54.0,ackn,"
+",,,positive,overlap,type,start
+13,36,B,dm,56.0,ackn,"
+",,,positive,pause,,
+13,36,B,dm,57.0,init,"
+so
+",,,,,,
+13,50,B,dm,74.0,ackn,"
+ah right
+",,,positive,,,
+13,52,B,dm,79.0,expressRegret,"
+sorry
+",regret,,,,,
+13,58,B,dm,86.0,ackn,"
+right well
+",,,positive,,,
+13,59,A,dm,88.0,init,"
+so
+",,,,,,
+13,63,A,dm,93.0,init,"
+",,,,pause,length,6s
+13,67,A,dm,100.0,init,"
+",,,,pause,length,4s
+13,68,B,dm,102.0,ackn,"
+",,,positive,pause,,
+13,68,B,dm,102.0,ackn,"
+",,,positive,overlap,type,start
+13,70,B,dm,106.0,ackn,"
+right
+",,,positive,,,
+13,72,B,dm,108.0,ackn,"
+right
+",,,positive,,,
+13,74,B,dm,111.0,ackn,"
+right
+",,,positive,,,
+13,76,B,dm,113.0,ackn,"
+right right
+",,,positive,,,
+13,78,B,dm,116.0,init,"
+well
+",,,,,,
+13,80,B,dm,120.0,ackn,"
+alright
+",,,positive,,,
+13,83,A,dm,125.0,init,"
+now ",,,,overlap,type,end
+13,87,A,dm,133.0,expressRegret,"
+sorry ",,,,pause,,
+13,93,A,dm,140.0,ackn,"
+aha
+",,,positive,,,
+13,95,A,dm,142.0,ackn,"
+aha
+",,,positive,,,
+13,97,A,dm,144.0,init,"
+",,,,pause,,
+13,101,A,dm,149.0,init,"
+now
+",,,,,,
+13,104,B,dm,153.0,appreciate,"
+lovely
+",,,positive,,,
+13,106,B,dm,155.0,ackn,"
+right
+",,,positive,,,
+13,107,A,dm,156.0,init,"
+now
+",,,,,,
+13,120,B,dm,172.0,expressRegret,"
+sorry
+",regret,,,,,
+13,120,B,dm,174.0,expressRegret,"
+sorry
+",regret,,,,,
+13,121,A,dm,176.0,ackn,"
+right ",,,positive,overlap,type,end
+13,131,A,dm,190.0,init,"
+now
+",,,,,,
+13,134,B,dm,194.0,ackn,"
+right
+",,,positive,,,
+13,135,A,dm,195.0,init,"
+now
+",,,,,,
+13,138,B,dm,199.0,ackn,"
+right
+",,,positive,,,
+13,140,B,dm,201.0,appreciate,"
+lovely
+",,,positive,,,
+13,142,B,dm,203.0,ackn,"
+right
+",,,positive,,,
+13,145,A,dm,207.0,init,"
+so
+",,,,,,
+13,147,A,dm,210.0,init,"
+",,,positive,overlap,type,start
+14,3,A,dm,5.0,init,"
+",,,,pause,length,3s
+14,11,A,dm,15.0,init,"
+now
+",,,,,,
+14,15,A,dm,25.0,init,"
+now
+",,,,,,
+14,25,A,dm,36.0,init,"
+",,,,pause,length,11s
+14,26,B,dm,43.0,ackn,"
+er right well
+",,,positive,,,
+14,30,B,dm,50.0,init,"
+so
+",,,,,,
+14,31,A,dm,52.0,init,"
+so ",,,,overlap,type,end
+14,36,B,dm,61.0,ackn,"
+right ok
+",,,positive,,,
+14,37,A,dm,62.0,init,"
+now
+",,,,,,
+14,37,A,dm,64.0,init,"
+now
+",,,,,,
+14,38,B,dm,66.0,ackn,"
+right
+",,,positive,,,
+14,39,A,dm,67.0,init,"
+so
+",,,,,,
+14,42,B,dm,71.0,accept,"
+right ok
+",,,positive,,,
+14,43,A,dm,72.0,init,"
+now
+",,,,,,
+14,45,A,dm,75.0,init,"
+now
+",,,,,,
+14,47,A,dm,78.0,init,"
+now
+",,,,,,
+14,47,A,dm,80.0,init,"
+so
+",,,,,,
+14,49,A,dm,83.0,init,"
+now
+",,,,,,
+14,51,A,dm,87.0,ackn,"
+ok
+",,,positive,,,
+14,53,A,dm,90.0,init,"
+now
+",,,,,,
+14,54,B,dm,96.0,ackn,"
+oh right
+",,,positive,,,
+14,55,A,dm,97.0,init,"
+now
+",,,,,,
+14,56,B,dm,100.0,ackn,"
+right
+",,,positive,,,
+14,58,B,dm,103.0,ackn,"
+right
+",,,positive,,,
+14,60,B,dm,105.0,ackn,"
+right
+",,,positive,,,
+14,61,A,dm,106.0,init,"
+now
+",,,,,,
+14,67,A,dm,116.0,init,"
+now
+",,,,,,
+14,77,A,dm,127.0,ackn,"
+aha
+",,,positive,,,
+14,79,A,dm,129.0,ackn,"
+aha
+",,,positive,,,
+14,87,A,dm,139.0,ackn,"
+right
+",,,positive,,,
+14,88,B,dm,141.0,init,"
+well
+",,,,,,
+14,89,A,dm,146.0,init,"
+well
+",,,,,,
+14,90,B,dm,150.0,init,"
+well
+",,,,,,
+14,92,B,dm,157.0,accept,"
+",,,positive,pause,,
+14,94,B,dm,160.0,accept,"
+right ok
+",,,positive,,,
+14,95,A,dm,161.0,init,"
+",,,,pause,,
+14,97,A,dm,164.0,ackn,"
+aha
+",,,positive,,,
+14,105,A,dm,172.0,ackn,"
+aha
+",,,positive,,,
+14,111,A,dm,178.0,ackn,"
+",,,positive,pause,,
+14,113,A,dm,180.0,ackn,"
+aha
+",,,positive,,,
+14,115,A,dm,183.0,init,"
+now
+",,,,,,
+14,117,A,dm,188.0,init,"
+now
+",,,,,,
+14,127,A,dm,200.0,init,"
+now
+",,,,,,
+14,129,A,dm,204.0,init,"
+now
+",,,,,,
+14,132,B,dm,208.0,ackn,"
+right
+",,,positive,,,
+14,134,B,dm,212.0,ackn,"
+oh right
+",,,positive,,,
+14,134,B,dm,213.0,init,"
+ok then
+",,,positive,,,
+14,135,A,dm,214.0,init,"
+so
+",,,,,,
+15,3,A,dm,5.0,init,"
+now
+",,,,,,
+15,4,B,dm,7.0,pardon,"
+sorry
+",regret,,,,,
+15,7,A,dm,11.0,ackn,"
+ok ",,,positive,pause,,
+15,8,B,dm,13.0,expressRegret,"
+sorry
+",regret,,,,,
+15,11,A,dm,23.0,answ,"
+right
+",,,positive,,,
+15,11,A,dm,24.0,init,"
+now
+",,,,,,
+15,13,A,dm,29.0,init,"
+",,,,pause,length,7s
+15,13,A,dm,31.0,init,"
+so
+",,,,,,
+15,14,B,dm,34.0,ackn,"
+ok
+",,,positive,,,
+15,15,A,dm,36.0,init,"
+",,,,pause,length,6s
+15,16,B,dm,38.0,pardon,"
+sorry
+",regret,,,,,
+15,23,A,dm,46.0,init,"
+",,,,pause,length,19s
+15,27,A,dm,52.0,init,"
+",,,,pause,length,3s
+15,35,A,dm,67.0,init,"
+so
+",,,,,,
+15,38,B,dm,71.0,ackn,"
+right
+",,,positive,,,
+15,41,A,dm,75.0,init,"
+now
+",,,,,,
+15,41,A,dm,80.0,init,"
+so
+",,,,,,
+15,42,B,dm,82.0,ackn,"
+ok
+",,,positive,,,
+15,43,A,dm,84.0,init,"
+",,,,pause,length,12s
+15,44,B,dm,86.0,pardon,"
+sorry
+",regret,,,,,
+15,53,A,dm,96.0,init,"
+and now
+",,,,,,
+15,57,A,dm,103.0,init,"
+well
+",,,,,,
+15,58,B,dm,105.0,ackn,"
+right
+",,,positive,,,
+15,64,B,dm,113.0,ackn,"
+",,,positive,pause,,
+15,64,B,dm,113.0,ackn,"
+",,,positive,overlap,type,start
+15,66,B,dm,115.0,ackn,"
+right
+",,,positive,,,
+15,69,A,dm,120.0,ackn,"
+right well
+",,,positive,,,
+15,71,A,dm,125.0,ackn,"
+right
+",,,positive,,,
+15,73,A,dm,131.0,ackn,"
+right well
+",,,positive,,,
+15,76,B,dm,137.0,ackn,"
+right
+",,,positive,,,
+15,77,A,dm,141.0,ackn,"
+",,,positive,overlap,type,start
+16,3,A,dm,6.0,ackn,"
+",,,positive,pause,,
+16,5,A,dm,9.0,init,"
+now
+",,,,,,
+16,7,A,dm,13.0,ackn,"
+ok
+",,,positive,,,
+16,9,A,dm,15.0,init,"
+",,,,pause,,
+16,10,B,dm,17.0,pardon,"
+sorry
+",regret,,,,,
+16,15,A,dm,22.0,init,"
+so
+",,,,,,
+16,16,B,dm,24.0,ackn,"
+aha
+",,,positive,,,
+16,22,B,dm,33.0,ackn,"
+erm ok ",,,positive,pause,,
+16,25,A,dm,42.0,pardon,"
+",regret,,,pause,length,4s
+16,27,A,dm,47.0,init,"
+right
+",,,positive,,,
+16,28,B,dm,51.0,ackn,"
+right
+",,,positive,,,
+16,29,A,dm,52.0,init,"
+now
+",,,,,,
+16,30,B,dm,55.0,init,"
+right
+",,,positive,,,
+16,30,B,dm,56.0,init,"
+so
+",,,,,,
+16,37,A,dm,67.0,init,"
+",,,,pause,length,2s
+16,39,A,dm,70.0,init,"
+now
+",,,,,,
+16,41,A,dm,76.0,init,"
+",,,,pause,length,2s
+16,42,B,dm,84.0,accept,"
+right
+",,,positive,,,
+16,45,A,dm,90.0,init,"
+now ",,,,pause,,
+16,65,A,dm,116.0,ackn,"
+aha
+",,,positive,,,
+16,67,A,dm,118.0,init,"
+now
+",,,,,,
+16,69,A,dm,121.0,ackn,"
+right
+",,,positive,,,
+16,71,A,dm,124.0,ackn,"
+aha
+",,,positive,,,
+16,72,B,dm,127.0,expressRegret,"
+oh sorry
+",,,,,,
+16,73,A,dm,129.0,init,"
+now
+",,,,,,
+16,75,A,dm,132.0,pardon,"
+sorry
+",regret,,,,,
+16,83,A,dm,141.0,ackn,"
+",,,positive,pause,,
+16,85,A,dm,143.0,ackn,"
+",,,positive,pause,length,2s
+16,87,A,dm,145.0,init,"
+now
+",,,,,,
+16,89,A,dm,148.0,init,"
+well
+",,,,,,
+16,90,B,dm,150.0,init,"
+so
+",,,,,,
+16,92,B,dm,155.0,appreciate,"
+fine
+",,,positive,,,
+16,93,A,dm,157.0,init,"
+now
+",,,,,,
+16,103,A,dm,169.0,init,"
+now
+",,,,,,
+16,106,B,dm,173.0,ackn,"
+right ",,,positive,pause,,
+16,107,A,dm,175.0,ackn,"
+aha
+",,,positive,,,
+16,108,B,dm,176.0,ackn,"
+aha
+",,,positive,,,
+16,114,B,dm,183.0,appreciate,"
+lovely
+",,,positive,,,
+16,115,A,dm,184.0,init,"
+so
+",,,,,,
+16,118,B,dm,189.0,ackn,"
+ok
+",,,positive,,,
+17,3,A,dm,5.0,init,"
+now
+",,,,,,
+17,19,A,dm,26.0,init,"
+now
+",,,,,,
+17,30,B,dm,42.0,ackn,"
+ok ",,,positive,pause,,
+17,34,B,dm,47.0,ackn,"
+ok ",,,positive,pause,,
+17,35,A,dm,51.0,init,"
+now
+",,,,,,
+17,41,A,dm,60.0,init,"
+now
+",,,,,,
+17,43,A,dm,63.0,init,"
+now
+",,,,,,
+17,45,A,dm,66.0,pardon,"
+",regret,,,pause,,
+17,46,B,dm,67.0,init,"
+well
+",,,,,,
+17,49,A,dm,73.0,init,"
+now
+",,,,,,
+17,59,A,dm,86.0,ackn,"
+aha
+",,,positive,,,
+18,3,A,dm,10.0,ackn,"
+",,,positive,overlap,type,start
+18,7,A,dm,16.0,init,"
+",,,,pause,length,3s
+18,10,B,dm,24.0,ackn,"
+right
+",,,positive,,,
+18,13,A,dm,29.0,init,"
+so
+",,,,,,
+18,14,B,dm,32.0,ackn,"
+right
+",,,positive,,,
+18,14,B,dm,33.0,init,"
+and so
+",,,,,,
+18,20,B,dm,41.0,ackn,"
+or right oh
+",,,positive,,,
+18,20,B,dm,42.0,init,"
+                   so
+",,,,,,
+18,24,B,dm,51.0,ackn,"
+right
+",,,positive,,,
+18,26,B,dm,54.0,init,"
+",,,,pause,,
+18,28,B,dm,63.0,ackn,"
+right ",,,positive,pause,,
+18,33,A,dm,79.0,init,"
+now
+",,,,,,
+18,37,A,dm,85.0,init,"
+",,,,pause,length,7s
+18,39,A,dm,91.0,ackn,"
+alright
+",,,positive,,,
+18,41,A,dm,95.0,init,"
+so
+",,,,,,
+18,44,B,dm,105.0,ackn,"
+",,,positive,overlap,type,start
+18,45,A,dm,106.0,init,"
+now ",,,,overlap,type,end
+18,53,A,dm,116.0,init,"
+now
+",,,,,,
+18,54,B,dm,119.0,accept,"
+right
+",,,positive,,,
+18,55,A,dm,120.0,init,"
+so
+",,,,,,
+18,57,A,dm,123.0,init,"
+now
+",,,,,,
+18,58,B,dm,130.0,ackn,"
+right
+",,,positive,,,
+18,59,A,dm,131.0,init,"
+now
+",,,,,,
+18,61,A,dm,134.0,ackn,"
+right 
+",,,positive,,,
+18,61,A,dm,135.0,init,"
+so
+",,,,,,
+18,62,B,dm,140.0,ackn,"
+right ok
+",,,positive,,,
+18,63,A,dm,142.0,init,"
+",,,,pause,length,2s
+18,67,A,dm,149.0,ackn,"
+aha ",,,positive,overlap,type,end
+18,71,A,dm,155.0,ackn,"
+",,,positive,pause,length,1s
+18,73,A,dm,157.0,ackn,"
+aha
+",,,positive,,,
+18,75,A,dm,160.0,init,"
+",,,,pause,,
+18,83,A,dm,170.0,init,"
+now
+",,,,,,
+18,84,B,dm,173.0,ackn,"
+ok
+",,,positive,,,
+18,86,B,dm,176.0,ackn,"
+right
+",,,positive,,,
+18,103,A,dm,197.0,init,"
+now
+",,,,,,
+18,103,A,dm,199.0,init,"
+now
+",,,,,,
+18,103,A,dm,202.0,init,"
+now
+",,,,,,
+18,111,A,dm,213.0,init,"
+ok now
+",,,positive,,,
+18,111,A,dm,214.0,init,"
+so
+",,,,,,
+18,112,B,dm,218.0,ackn,"
+right
+",,,positive,,,
+18,117,A,dm,227.0,init,"
+well
+",,,,,,
+18,118,B,dm,230.0,ackn,"
+",,,positive,overlap,type,start
+18,119,A,dm,231.0,init,"
+so ",,,,overlap,type,end
+18,120,B,dm,233.0,ackn,"
+right
+",,,positive,,,
+18,121,A,dm,234.0,init,"
+ok now
+",,,positive,,,
+18,124,B,dm,237.0,ackn,"
+ok ",,,positive,overlap,type,start
+19,3,A,dm,5.0,init,"
+now
+",,,,,,
+19,11,A,dm,16.0,init,"
+now
+",,,,,,
+19,21,A,dm,29.0,init,"
+now
+",,,,,,
+19,22,B,dm,31.0,ackn,"
+ok
+",,,positive,,,
+19,23,A,dm,32.0,init,"
+",,,,pause,length,3s
+19,26,B,dm,38.0,ackn,"
+",,,positive,pause,,
+19,28,B,dm,41.0,ackn,"
+",,,positive,pause,,
+19,31,A,dm,50.0,init,"
+and now
+",,,,,,
+19,35,A,dm,55.0,init,"
+ok now
+",,,positive,,,
+19,36,B,dm,62.0,ackn,"
+ok
+",,,positive,,,
+19,37,A,dm,63.0,init,"
+now
+",,,,,,
+19,51,A,dm,79.0,ackn,"
+aha
+",,,positive,,,
+19,53,A,dm,81.0,ackn,"
+aha
+",,,positive,,,
+19,57,A,dm,85.0,ackn,"
+aha
+",,,positive,,,
+19,61,A,dm,90.0,init,"
+now
+",,,,,,
+19,62,B,dm,92.0,ackn,"
+ok
+",,,positive,,,
+19,64,B,dm,94.0,ackn,"
+ok
+",,,positive,,,
+19,65,A,dm,95.0,init,"
+now
+",,,,,,
+19,66,B,dm,98.0,answElab,"
+sure
+",,,positive,,,
+19,75,A,dm,109.0,init,"
+now
+",,,,,,
+19,82,B,dm,119.0,ackn,"
+ok
+",,,positive,,,
+19,84,B,dm,125.0,ackn,"
+",,,positive,overlap,type,end
+20,3,A,dm,7.0,init,"
+now ",,,,overlap,type,end
+20,5,A,dm,11.0,init,"
+now
+",,,,,,
+20,9,A,dm,16.0,init,"
+now
+",,,,,,
+20,13,A,dm,21.0,init,"
+",,,,pause,length,2s
+20,18,B,dm,31.0,ackn,"
+right
+",,,positive,,,
+20,19,A,dm,34.0,init,"
+now
+",,,,,,
+20,21,A,dm,40.0,ackn,"
+oh right
+",,,positive,,,
+20,22,B,dm,41.0,ackn,"
+erm right
+",,,positive,,,
+20,23,A,dm,44.0,accept,"
+sure
+",,,positive,,,
+20,23,A,dm,45.0,init,"
+now
+",,,,,,
+20,26,B,dm,50.0,ackn,"
+right fine
+",,,positive,,,
+21,3,A,dm,6.0,init,"
+now
+",,,,,,
+21,7,A,dm,12.0,init,"
+now
+",,,,,,
+21,11,A,dm,17.0,init,"
+now
+",,,,,,
+21,12,B,dm,19.0,accept,"
+ok
+",,,positive,,,
+21,13,A,dm,20.0,init,"
+",,,,pause,length,12s
+21,15,A,dm,28.0,init,"
+now
+",,,,,,
+21,20,B,dm,36.0,ackn,"
+ok
+",,,positive,,,
+21,26,B,dm,48.0,accept,"
+ok
+",,,positive,,,
+21,31,A,dm,54.0,init,"
+now
+",,,,,,
+21,33,A,dm,57.0,init,"
+",,,,pause,length,10s
+21,35,A,dm,61.0,accept,"
+",,,positive,pause,length,3s
+21,35,A,dm,63.0,init,"
+now
+",,,,,,
+21,35,A,dm,65.0,init,"
+now
+",,,,,,
+21,38,B,dm,69.0,ackn,"
+ok
+",,,positive,,,
+21,43,A,dm,74.0,init,"
+now
+",,,,,,
+21,49,A,dm,81.0,init,"
+",,,,pause,length,3s
+21,51,A,dm,84.0,ackn,"
+aha
+",,,positive,,,
+21,53,A,dm,86.0,init,"
+",,,,pause,length,3s
+21,55,A,dm,89.0,ackn,"
+aha
+",,,positive,,,
+21,59,A,dm,93.0,init,"
+",,,,pause,length,5s
+21,71,A,dm,107.0,init,"
+now
+",,,,,,
+21,75,A,dm,113.0,init,"
+now
+",,,,,,
+21,76,B,dm,115.0,ackn,"
+ok
+",,,positive,,,
+21,78,B,dm,117.0,ackn,"
+ok
+",,,positive,,,
+21,79,A,dm,118.0,init,"
+now
+",,,,,,
+21,86,B,dm,126.0,ackn,"
+ok
+",,,positive,,,
+21,87,A,dm,127.0,init,"
+so
+",,,,,,
+21,88,B,dm,129.0,ackn,"
+ok
+",,,positive,,,
+22,3,A,dm,5.0,init,"
+now
+",,,,,,
+22,9,A,dm,13.0,init,"
+now
+",,,,,,
+22,12,B,dm,17.0,init,"
+erm ",,,,pause,,
+22,12,B,dm,19.0,init,"
+so
+",,,,,,
+22,15,A,dm,23.0,init,"
+",,,,pause,length,24s
+22,16,B,dm,25.0,ackn,"
+",,,positive,pause,,
+22,17,A,dm,26.0,init,"
+",,,,pause,length,15s
+22,17,A,dm,28.0,init,"
+now
+",,,,,,
+22,20,B,dm,40.0,init,"
+so
+",,,,,,
+22,23,A,dm,46.0,init,"
+well
+",,,,,,
+22,24,B,dm,50.0,init,"
+so
+",,,,,,
+22,25,A,dm,52.0,init,"
+",,,,pause,,
+22,25,A,dm,59.0,init,"
+so
+",,,,,,
+22,28,B,dm,64.0,init,"
+well
+",,,,,,
+22,33,A,dm,70.0,init,"
+now
+",,,,,,
+22,36,B,dm,76.0,init,"
+so
+",,,,,,
+22,38,B,dm,85.0,init,"
+so ",,,,pause,length,2s
+22,38,B,dm,86.0,init,"
+well
+",,,,,,
+22,39,A,dm,90.0,ackn,"
+right 
+",,,positive,,,
+22,39,A,dm,91.0,init,"
+well
+",,,,,,
+22,40,B,dm,96.0,ackn,"
+",,,positive,overlap,type,start
+22,45,A,dm,101.0,ackn,"
+aha
+",,,positive,,,
+22,52,B,dm,112.0,ackn,"
+right ok
+",,,positive,,,
+22,53,A,dm,113.0,init,"
+",,,,pause,,
+22,54,B,dm,117.0,ackn,"
+right ",,,positive,pause,,
+22,55,A,dm,121.0,ackn,"
+",,,positive,pause,length,1s
+22,55,A,dm,124.0,init,"
+now
+",,,,,,
+22,58,B,dm,131.0,ackn,"
+oh ok then
+",,,positive,,,
+22,58,B,dm,132.0,ackn,"
+alright
+",,,positive,,,
+22,59,A,dm,134.0,ackn,"
+ok then
+",,,positive,,,
+22,60,B,dm,135.0,init,"
+alright
+",,,positive,,,
+23,3,A,dm,5.0,init,"
+now
+",,,,,,
+23,16,B,dm,23.0,expressRegret,"
+oh sorry
+",,,,,,
+23,17,A,dm,24.0,init,"
+",,,,pause,length,3s
+23,21,A,dm,29.0,init,"
+now
+",,,,,,
+23,21,A,dm,31.0,init,"
+now
+",,,,,,
+23,23,A,dm,34.0,init,"
+now
+",,,,,,
+23,35,A,dm,53.0,init,"
+now
+",,,,,,
+23,37,A,dm,57.0,init,"
+",,,,pause,,
+23,37,A,dm,57.0,init,"
+",,,,pause,,
+23,40,B,dm,63.0,ackn,"
+ok
+",,,positive,,,
+23,41,A,dm,64.0,init,"
+",,,,pause,,
+23,43,A,dm,67.0,init,"
+now
+",,,,,,
+23,44,B,dm,73.0,ackn,"
+right
+",,,positive,,,
+23,45,A,dm,74.0,init,"
+so
+",,,,,,
+23,46,B,dm,76.0,ackn,"
+right
+",,,positive,,,
+23,48,B,dm,78.0,ackn,"
+right
+",,,positive,,,
+23,49,A,dm,79.0,init,"
+",,,,pause,length,2s
+23,55,A,dm,86.0,init,"
+",,,,pause,length,6s
+23,57,A,dm,89.0,ackn,"
+aha
+",,,positive,,,
+23,61,A,dm,93.0,init,"
+now
+",,,,,,
+23,63,A,dm,98.0,ackn,"
+right
+",,,positive,,,
+23,65,A,dm,104.0,ackn,"
+",,,positive,pause,,
+23,67,A,dm,108.0,init,"
+",,,,pause,length,9s
+23,71,A,dm,113.0,init,"
+now
+",,,,,,
+23,81,A,dm,126.0,init,"
+now
+",,,,,,
+23,83,A,dm,130.0,init,"
+now
+",,,,,,
+23,85,A,dm,134.0,ackn,"
+ok
+",,,positive,,,
+23,85,A,dm,136.0,init,"
+so
+",,,,,,
+23,85,A,dm,138.0,init,"
+now
+",,,,,,
+23,85,A,dm,143.0,init,"
+now
+",,,,,,
+23,86,B,dm,149.0,ackn,"
+right
+",,,positive,,,
+23,87,A,dm,151.0,init,"
+now
+",,,,,,
+23,94,B,dm,162.0,ackn,"
+right
+",,,positive,,,
+23,95,A,dm,164.0,init,"
+well
+",,,,,,
+23,95,A,dm,166.0,init,"
+and so
+",,,,,,
+23,95,A,dm,168.0,init,"
+so
+",,,,,,
+23,96,B,dm,170.0,ackn,"
+right ok
+",,,positive,,,
+23,98,B,dm,173.0,ackn,"
+right ",,,positive,overlap,type,end
+23,100,B,dm,175.0,ackn,"
+right
+",,,positive,,,
+23,102,B,dm,177.0,ackn,"
+ok
+",,,positive,,,
+24,3,A,dm,6.0,init,"
+now
+",,,,,,
+24,9,A,dm,14.0,ackn,"
+",,,positive,pause,length,2s
+24,13,A,dm,19.0,init,"
+",,,,pause,,
+24,19,A,dm,30.0,init,"
+",,,,pause,length,9s
+24,21,A,dm,34.0,init,"
+now
+",,,,,,
+24,25,A,dm,42.0,init,"
+now
+",,,,,,
+24,29,A,dm,47.0,ackn,"
+",,,positive,pause,length,7s
+24,29,A,dm,47.0,ackn,"
+",,,positive,pause,length,3s
+24,29,A,dm,48.0,init,"
+now
+",,,,,,
+24,33,A,dm,57.0,ackn,"
+aha
+",,,positive,,,
+24,38,B,dm,65.0,ackn,"
+ok then
+",,,positive,,,
+24,39,A,dm,66.0,init,"
+",,,,pause,length,3s
+24,45,A,dm,74.0,init,"
+now
+",,,,,,
+24,47,A,dm,80.0,init,"
+now
+",,,,,,
+24,49,A,dm,83.0,init,"
+",,,,pause,,
+24,49,A,dm,87.0,init,"
+now
+",,,,,,
+24,49,A,dm,89.0,init,"
+now
+",,,,,,
+24,51,A,dm,93.0,init,"
+now
+",,,,,,
+24,52,B,dm,95.0,ackn,"
+right ",,,positive,pause,,
+24,52,B,dm,96.0,ackn,"
+ok then
+",,,positive,,,
+24,55,A,dm,101.0,expressRegret,"
+sorry ",regret,,,overlap,type,start
+24,57,A,dm,107.0,init,"
+so
+",,,,,,
+24,59,A,dm,111.0,init,"
+now
+",,,,,,
+24,59,A,dm,113.0,init,"
+now
+",,,,,,
+24,61,A,dm,117.0,init,"
+now
+",,,,,,
+24,63,A,dm,123.0,init,"
+now
+",,,,,,
+24,81,A,dm,144.0,init,"
+now
+",,,,,,
+24,83,A,dm,149.0,init,"
+now
+",,,,,,
+24,92,B,dm,160.0,ackn,"
+ok then
+",,,positive,,,
+24,93,A,dm,161.0,init,"
+so
+",,,,,,
+25,3,A,dm,5.0,init,"
+now
+",,,,,,
+25,11,A,dm,16.0,init,"
+now
+",,,,,,
+25,17,A,dm,24.0,init,"
+",,,,pause,length,2s
+25,24,B,dm,32.0,ackn,"
+ok
+",,,positive,,,
+25,25,A,dm,33.0,init,"
+now
+",,,,,,
+25,27,A,dm,37.0,init,"
+now
+",,,,,,
+25,28,B,dm,42.0,ackn,"
+ok ",,,positive,pause,,
+25,29,A,dm,44.0,init,"
+",,,positive,pause,,
+25,29,A,dm,44.0,init,"
+",,,positive,pause,,
+25,31,A,dm,47.0,init,"
+",,,,pause,length,2s
+25,33,A,dm,51.0,init,"
+",,,,pause,length,4s
+25,34,B,dm,54.0,ackn,"
+right
+",,,positive,,,
+25,36,B,dm,58.0,ackn,"
+ok
+",,,positive,,,
+25,39,A,dm,61.0,init,"
+now
+",,,,,,
+25,41,A,dm,66.0,init,"
+now
+",,,,,,
+25,42,B,dm,68.0,ackn,"
+right ",,,positive,pause,,
+25,42,B,dm,69.0,init,"
+ok well
+",,,positive,,,
+25,42,B,dm,71.0,init,"
+so ",,,,pause,,
+25,43,A,dm,73.0,init,"
+now
+",,,,,,
+25,45,A,dm,76.0,ackn,"
+right
+",,,positive,,,
+25,46,B,dm,78.0,ackn,"
+oh ok then
+",,,positive,,,
+25,47,A,dm,79.0,init,"
+ok now
+",,,positive,,,
+25,48,B,dm,80.0,ackn,"
+ok
+",,,positive,,,
+26,5,A,dm,8.0,init,"
+",,,,pause,length,2s
+26,9,A,dm,13.0,init,"
+now
+",,,,,,
+26,16,B,dm,23.0,init,"
+well erm
+",,,,,,
+26,17,A,dm,26.0,ackn,"
+",,,positive,pause,,
+26,19,A,dm,29.0,ackn,"
+",,,positive,pause,length,3s
+26,19,A,dm,29.0,ackn,"
+",,,positive,pause,,
+26,23,A,dm,36.0,ackn,"
+",,,positive,pause,length,3s
+26,25,A,dm,43.0,init,"
+now
+",,,,,,
+26,26,B,dm,49.0,init,"
+oh well
+",,,,,,
+26,29,A,dm,53.0,init,"
+",,,,pause,length,5s
+26,29,A,dm,55.0,init,"
+now
+",,,,,,
+26,29,A,dm,57.0,init,"
+so
+",,,,,,
+26,30,B,dm,59.0,accept,"
+rightio
+",,,positive,,,
+26,31,A,dm,60.0,init,"
+",,,,pause,length,14s
+26,32,B,dm,63.0,accept,"
+sure
+",,,positive,,,
+26,34,B,dm,66.0,ackn,"
+oh right
+",,,positive,,,
+26,35,A,dm,67.0,init,"
+now ",,,,pause,,
+26,37,A,dm,76.0,init,"
+so
+",,,,,,
+26,37,A,dm,78.0,init,"
+so
+",,,,,,
+26,40,B,dm,85.0,ackn,"
+right ",,,positive,overlap,type,end
+26,41,A,dm,86.0,init,"
+so
+",,,,,,
+26,41,A,dm,89.0,init,"
+so
+",,,,,,
+26,45,A,dm,94.0,init,"
+now
+",,,,,,
+26,47,A,dm,97.0,init,"
+now
+",,,,,,
+26,49,A,dm,106.0,ackn,"
+mhm
+",,,,,,
+26,51,A,dm,114.0,init,"
+",,,,pause,length,4s
+26,52,B,dm,117.0,init,"
+oh well ",,,,overlap,type,end
+26,52,B,dm,119.0,init,"
+",,,,overlap,type,start
+26,53,A,dm,121.0,init,"
+well
+",,,,,,
+26,55,A,dm,125.0,init,"
+so
+",,,,,,
+26,55,A,dm,126.0,init,"
+so ",,,,overlap,type,end
+26,55,A,dm,136.0,init,"
+now
+",,,,,,
+26,56,B,dm,143.0,ackn,"
+right
+",,,positive,,,
+26,57,A,dm,145.0,init,"
+now ",,,,overlap,type,end
+26,65,A,dm,154.0,ackn,"
+aha
+",,,positive,,,
+27,3,A,dm,6.0,init,"
+now
+",,,,,,
+27,9,A,dm,14.0,init,"
+now ",,,,pause,,
+27,12,B,dm,19.0,init,"
+well ",,,,overlap,type,end
+27,23,A,dm,35.0,init,"
+",,,,pause,,
+27,25,A,dm,38.0,init,"
+now
+",,,,,,
+27,27,A,dm,42.0,init,"
+",,,,pause,length,8s
+27,27,A,dm,44.0,init,"
+so
+",,,,,,
+27,27,A,dm,46.0,init,"
+now
+",,,,,,
+27,27,A,dm,48.0,init,"
+so
+",,,,,,
+27,27,A,dm,51.0,init,"
+now
+",,,,,,
+27,28,B,dm,53.0,ackn,"
+right
+",,,positive,,,
+27,32,B,dm,58.0,init,"
+well
+",,,,,,
+27,32,B,dm,67.0,init,"
+so
+",,,,,,
+27,33,A,dm,70.0,ackn,"
+ok ",,,positive,backchannel,content,1_syllable
+27,33,A,dm,71.0,init,"
+now
+",,,,,,
+27,35,A,dm,74.0,init,"
+so
+",,,,,,
+27,36,B,dm,76.0,init,"
+well
+",,,,,,
+27,37,A,dm,79.0,init,"
+so
+",,,,,,
+27,42,B,dm,86.0,appreciate,"
+lovely
+",,,positive,,,
+27,46,B,dm,92.0,appreciate,"
+lovely
+",,,positive,,,
+27,47,A,dm,93.0,init,"
+now
+",,,,,,
+27,49,A,dm,97.0,init,"
+now
+",,,,,,
+27,56,B,dm,110.0,ackn,"
+right ",,,positive,overlap,type,start
+27,57,A,dm,112.0,init,"
+now ",,,,overlap,type,end
+27,77,A,dm,134.0,ackn,"
+aha
+",,,positive,,,
+27,83,A,dm,140.0,init,"
+now
+",,,,,,
+27,85,A,dm,143.0,init,"
+now
+",,,,,,
+27,103,A,dm,164.0,init,"
+now
+",,,,,,
+27,109,A,dm,173.0,ackn,"
+ok
+",,,positive,,,
+27,110,B,dm,174.0,ackn,"
+",,,positive,pause,length,2s
+27,111,A,dm,176.0,init,"
+now
+",,,,,,
+27,112,B,dm,178.0,ackn,"
+right
+",,,positive,,,
+27,123,A,dm,190.0,init,"
+now
+",,,,,,
+27,126,B,dm,197.0,ackn,"
+oh right then
+",,,positive,,,
+28,3,A,dm,9.0,init,"
+now
+",,,,,,
+28,9,A,dm,18.0,init,"
+now
+",,,,,,
+28,13,A,dm,23.0,ackn,"
+ok now
+",,,positive,,,
+28,15,A,dm,27.0,init,"
+",,,,pause,,
+28,16,B,dm,30.0,init,"
+well
+",,,,,,
+28,23,A,dm,39.0,init,"
+",,,,pause,length,5s
+28,24,B,dm,42.0,ackn,"
+aha
+",,,positive,,,
+28,25,A,dm,43.0,init,"
+now
+",,,,,,
+28,26,B,dm,45.0,init,"
+",,,,pause,,
+28,33,A,dm,57.0,ackn,"
+right
+",,,positive,,,
+28,34,B,dm,60.0,ackn,"
+oh right ",,,positive,pause,,
+28,34,B,dm,61.0,ackn,"
+oh right
+",,,positive,,,
+28,34,B,dm,62.0,init,"
+so
+",,,,,,
+28,34,B,dm,63.0,init,"
+so
+",,,,,,
+28,34,B,dm,64.0,init,"
+so
+",,,,,,
+28,36,B,dm,67.0,ackn,"
+aha
+",,,positive,,,
+28,37,A,dm,68.0,init,"
+now
+",,,,,,
+28,38,B,dm,71.0,ackn,"
+oh right well
+",,,positive,,,
+28,44,B,dm,80.0,ackn,"
+oh right so
+",,,positive,,,
+28,45,A,dm,84.0,init,"
+now
+",,,,,,
+28,47,A,dm,89.0,init,"
+so ",,,,pause,,
+28,52,B,dm,98.0,pardon,"
+",,,,pause,,
+28,56,B,dm,103.0,init,"
+so
+",,,,,,
+28,58,B,dm,106.0,ackn,"
+ok
+",,,positive,,,
+28,59,A,dm,108.0,init,"
+now
+",,,,,,
+28,60,B,dm,110.0,init,"
+well
+",,,,,,
+28,66,B,dm,119.0,ackn,"
+oh right
+",,,positive,,,
+28,68,B,dm,123.0,ackn,"
+oh right ",,,positive,pause,,
+28,68,B,dm,124.0,init,"
+so
+",,,,,,
+28,74,B,dm,136.0,init,"
+well
+",,,,,,
+28,79,A,dm,144.0,init,"
+so
+",,,,,,
+28,85,A,dm,153.0,ackn,"
+",,,positive,pause,,
+28,89,A,dm,159.0,ackn,"
+aha
+",,,positive,,,
+28,90,B,dm,160.0,ackn,"
+right
+",,,positive,,,
+28,91,A,dm,161.0,init,"
+now
+",,,,,,
+28,92,B,dm,163.0,init,"
+well
+",,,,,,
+28,93,A,dm,165.0,ackn,"
+right ",,,positive,overlap,type,start
+28,97,A,dm,171.0,ackn,"
+ok ",,,positive,backchannel,content,yes
+28,97,A,dm,172.0,init,"
+now
+",,,,,,
+28,101,A,dm,178.0,init,"
+now
+",,,,,,
+28,113,A,dm,191.0,init,"
+now
+",,,,,,
+28,118,B,dm,198.0,ackn,"
+right
+",,,positive,,,
+28,119,A,dm,199.0,init,"
+now
+",,,,,,
+28,125,A,dm,207.0,init,"
+now
+",,,,,,
+28,131,A,dm,219.0,ackn,"
+ok
+",,,positive,,,
+28,133,A,dm,221.0,init,"
+now
+",,,,,,
+28,135,A,dm,225.0,ackn,"
+aha
+",,,positive,,,
+28,139,A,dm,230.0,pardon,"
+sorry
+",regret,,,,,
+28,140,B,dm,231.0,pardon,"
+pardon
+",,,,,,
+28,149,A,dm,242.0,init,"
+now
+",,,,,,
+28,163,A,dm,257.0,init,"
+now
+",,,,,,
+28,164,B,dm,259.0,pardon,"
+pardon
+",,,,,,
+28,171,A,dm,266.0,init,"
+now
+",,,,,,
+28,183,A,dm,280.0,init,"
+now
+",,,,,,
+28,185,A,dm,284.0,expressRegret,"
+sorry
+",regret,,,,,
+28,188,B,dm,290.0,ackn,"
+right
+",,,positive,,,
+28,190,B,dm,292.0,ackn,"
+right
+",,,positive,,,
+28,214,B,dm,321.0,ackn,"
+right
+",,,positive,,,
+28,218,B,dm,325.0,ackn,"
+right
+",,,positive,,,
+28,219,A,dm,326.0,init,"
+ok sir now
+",,,positive,,,
+28,220,B,dm,327.0,ackn,"
+right
+",,,positive,,,
+28,221,A,dm,328.0,init,"
+so
+",,,,,,
+28,222,B,dm,330.0,init,"
+so
+",,,,,,
+28,225,A,dm,334.0,ackn,"
+aha
+",,,positive,,,
+28,228,B,dm,339.0,ackn,"
+right
+",,,positive,,,
+28,229,A,dm,341.0,init,"
+so ",,,,overlap,type,end
+28,231,A,dm,344.0,init,"
+ok ",,,positive,overlap,type,end
+29,3,A,dm,5.0,init,"
+now
+",,,,,,
+29,9,A,dm,13.0,init,"
+now
+",,,,,,
+29,17,A,dm,25.0,ackn,"
+",,,positive,pause,,
+29,17,A,dm,26.0,init,"
+now
+",,,,,,
+29,19,A,dm,29.0,init,"
+now
+",,,,,,
+29,21,A,dm,33.0,ackn,"
+ok
+",,,positive,,,
+29,22,B,dm,35.0,ackn,"
+ok
+",,,positive,,,
+29,23,A,dm,36.0,init,"
+",,,,pause,length,7s
+29,24,B,dm,44.0,init,"
+so
+",,,,,,
+29,25,A,dm,49.0,init,"
+now
+",,,,,,
+29,25,A,dm,51.0,init,"
+now
+",,,,,,
+29,30,B,dm,64.0,accept,"
+right
+",,,positive,,,
+29,35,A,dm,72.0,accept,"
+ok 
+",,,positive,,,
+29,35,A,dm,73.0,init,"
+so
+",,,,,,
+29,40,B,dm,80.0,ackn,"
+aha
+",,,positive,,,
+29,43,A,dm,83.0,init,"
+now
+",,,,,,
+29,44,B,dm,85.0,ackn,"
+ok
+",,,positive,,,
+29,50,B,dm,93.0,ackn,"
+ok
+",,,positive,,,
+29,51,A,dm,94.0,init,"
+now
+",,,,,,
+29,52,B,dm,97.0,ackn,"
+ok
+",,,positive,,,
+29,54,B,dm,102.0,ackn,"
+ok
+",,,positive,,,
+29,57,A,dm,106.0,init,"
+now
+",,,,,,
+29,63,A,dm,113.0,init,"
+now
+",,,,,,
+29,65,A,dm,116.0,ackn,"
+aha
+",,,positive,,,
+29,67,A,dm,118.0,ackn,"
+aha
+",,,positive,,,
+29,71,A,dm,122.0,ackn,"
+aha
+",,,positive,,,
+29,74,B,dm,125.0,ackn,"
+certainly
+",,,positive,,,
+29,75,A,dm,127.0,init,"
+now
+",,,,,,
+29,76,B,dm,129.0,ackn,"
+ok
+",,,positive,,,
+29,89,A,dm,145.0,init,"
+now
+",,,,,,
+29,93,A,dm,151.0,init,"
+",,,,pause,,
+29,94,B,dm,153.0,ackn,"
+ok
+",,,positive,,,
+29,96,B,dm,156.0,answElab,"
+sure
+",,,positive,,,
+29,103,A,dm,163.0,init,"
+now
+",,,,,,
+29,105,A,dm,167.0,init,"
+so
+",,,,,,
+30,5,A,dm,8.0,init,"
+now
+",,,,,,
+30,8,B,dm,14.0,ackn,"
+certainly
+",,,positive,,,
+30,11,A,dm,21.0,init,"
+so
+",,,,,,
+30,15,A,dm,26.0,init,"
+now
+",,,,,,
+30,18,B,dm,30.0,ackn,"
+sure
+",,,positive,,,
+30,19,A,dm,31.0,init,"
+",,,,pause,length,10s
+30,23,A,dm,36.0,init,"
+right well
+",,,positive,,,
+30,26,B,dm,42.0,ackn,"
+oh right
+",,,positive,,,
+30,28,B,dm,44.0,ackn,"
+i see
+",,,,,,
+30,28,B,dm,45.0,init,"
+ah so
+",,,,,,
+30,30,B,dm,48.0,ackn,"
+ok then
+",,,positive,,,
+30,31,A,dm,51.0,accept,"
+ok then ",,,positive,overlap,type,start
+31,3,A,dm,5.0,init,"
+now
+",,,,,,
+31,9,A,dm,17.0,init,"
+now
+",,,,,,
+31,12,B,dm,21.0,init,"
+erm well
+",,,,,,
+31,14,B,dm,28.0,expressRegret,"
+sorry about that
+",regret,,,,,
+31,16,B,dm,30.0,ackn,"
+ok
+",,,positive,,,
+31,16,B,dm,32.0,expressRegret,"
+sorry
+",regret,,,,,
+32,5,A,dm,7.0,init,"
+now
+",,,,,,
+32,7,A,dm,10.0,init,"
+now
+",,,,,,
+32,11,A,dm,16.0,init,"
+so
+",,,,,,
+32,13,A,dm,23.0,ackn,"
+aha
+",,,positive,,,
+32,14,B,dm,24.0,init,"
+so
+",,,,,,
+32,17,A,dm,29.0,init,"
+",,,,pause,length,2s
+32,21,A,dm,35.0,init,"
+now
+",,,,,,
+32,25,A,dm,41.0,init,"
+now
+",,,,,,
+32,25,A,dm,42.0,init,"
+now
+",,,,,,
+32,31,A,dm,51.0,init,"
+now
+",,,,,,
+32,36,B,dm,59.0,ackn,"
+mhm ",,,,pause,length,2s
+32,39,A,dm,63.0,accept,"
+ok
+",,,positive,,,
+32,42,B,dm,70.0,pardon,"
+pardon
+",regret,,,,,
+32,44,B,dm,72.0,ackn,"
+oh ",,,positive,pause,length,2s
+32,45,A,dm,76.0,ackn,"
+ok now
+",,,positive,,,
+32,49,A,dm,81.0,init,"
+ok now
+",,,positive,,,
+32,50,B,dm,82.0,init,"
+right
+",,,positive,,,
+33,3,A,dm,5.0,init,"
+now
+",,,,,,
+33,16,B,dm,19.0,ackn,"
+right
+",,,positive,,,
+33,21,A,dm,25.0,init,"
+now
+",,,,,,
+33,22,B,dm,27.0,ackn,"
+right
+",,,positive,,,
+33,23,A,dm,28.0,init,"
+",,,,pause,length,4s
+33,24,B,dm,30.0,ackn,"
+right
+",,,positive,,,
+33,26,B,dm,33.0,ackn,"
+right
+",,,positive,,,
+33,27,A,dm,34.0,init,"
+",,,,pause,length,9s
+33,28,B,dm,36.0,ackn,"
+right
+",,,positive,,,
+33,33,A,dm,46.0,init,"
+now ",,,,pause,,
+33,33,A,dm,47.0,init,"
+so
+",,,,,,
+33,36,B,dm,53.0,init,"
+well
+",,,,,,
+33,36,B,dm,55.0,init,"
+so
+",,,,,,
+33,36,B,dm,57.0,init,"
+so
+",,,,,,
+33,37,A,dm,59.0,init,"
+now
+",,,,,,
+33,39,A,dm,62.0,init,"
+",,,,pause,length,2s
+33,46,B,dm,74.0,ackn,"
+correct
+",,,positive,,,
+33,49,A,dm,80.0,init,"
+now
+",,,,,,
+33,50,B,dm,84.0,ackn,"
+ok
+",,,positive,,,
+33,56,B,dm,91.0,init,"
+erm well
+",,,,,,
+33,57,A,dm,94.0,init,"
+well
+",,,,,,
+33,61,A,dm,103.0,ackn,"
+aha
+",,,positive,,,
+33,63,A,dm,105.0,ackn,"
+aha
+",,,positive,,,
+33,65,A,dm,107.0,init,"
+",,,,pause,,
+33,68,B,dm,111.0,expressRegret,"
+oh sorry
+",,,,,,
+33,73,A,dm,117.0,init,"
+",,,,pause,,
+33,79,A,dm,125.0,ackn,"
+aha
+",,,positive,,,
+33,85,A,dm,132.0,ackn,"
+mhm
+",,,,,,
+33,87,A,dm,136.0,ackn,"
+aha
+",,,positive,,,
+33,103,A,dm,154.0,init,"
+now
+",,,,,,
+33,104,B,dm,156.0,ackn,"
+ok
+",,,positive,,,
+33,106,B,dm,158.0,ackn,"
+ok
+",,,positive,,,
+33,114,B,dm,166.0,ackn,"
+ok then
+",,,positive,,,
+33,116,B,dm,168.0,ackn,"
+oh right ",,,positive,overlap,type,end
+34,3,A,dm,5.0,init,"
+now
+",,,,,,
+34,9,A,dm,14.0,init,"
+",,,,pause,,
+34,10,B,dm,17.0,accept,"
+ok fine yeah
+",,,positive,,,
+34,13,A,dm,21.0,init,"
+now
+",,,,,,
+34,16,B,dm,28.0,pardon,"
+sorry
+",regret,,,,,
+34,18,B,dm,30.0,ackn,"
+right ok
+",,,positive,,,
+34,19,A,dm,32.0,init,"
+now ",,,,overlap,type,end
+34,24,B,dm,39.0,ackn,"
+ok er
+",,,positive,,,
+34,25,A,dm,46.0,init,"
+so
+",,,,,,
+34,26,B,dm,48.0,ackn,"
+oh right
+",,,positive,,,
+34,27,A,dm,56.0,init,"
+now
+",,,,,,
+34,28,B,dm,59.0,ackn,"
+right 
+",,,positive,,,
+34,28,B,dm,60.0,init,"
+so
+",,,,,,
+34,28,B,dm,61.0,pardon,"
+sorry
+",regret,,,,,
+34,30,B,dm,65.0,ackn,"
+right ",,,positive,pause,length,13s
+34,32,B,dm,67.0,ackn,"
+oh right
+",,,positive,,,
+34,34,B,dm,73.0,init,"
+so
+",,,,,,
+34,38,B,dm,83.0,init,"
+so
+",,,,,,
+34,44,B,dm,94.0,ackn,"
+right ok
+",,,positive,,,
+34,46,B,dm,96.0,ackn,"
+oh right
+",,,positive,,,
+34,46,B,dm,97.0,init,"
+so
+",,,,,,
+34,48,B,dm,103.0,ackn,"
+oh right
+",,,positive,,,
+34,49,A,dm,107.0,init,"
+now
+",,,,,,
+34,50,B,dm,109.0,ackn,"
+right
+",,,positive,,,
+34,52,B,dm,112.0,ackn,"
+ok ",,,positive,pause,,
+34,52,B,dm,114.0,expressRegret,"
+sorry
+",regret,,,,,
+34,54,B,dm,119.0,ackn,"
+ok
+",,,,,,
+34,54,B,dm,120.0,init,"
+so
+",,,,,,
+34,54,B,dm,122.0,init,"
+well
+",,,,,,
+34,55,A,dm,128.0,init,"
+so
+",,,,,,
+34,56,B,dm,130.0,ackn,"
+right ",,,positive,pause,,
+34,56,B,dm,131.0,ackn,"
+ok ",,,positive,pause,,
+34,56,B,dm,132.0,init,"
+erm ",,,positive,pause,length,4s
+34,58,B,dm,138.0,ackn,"
+ok
+",,,positive,,,
+35,5,A,dm,11.0,ackn,"
+right ",,,positive,pause,,
+35,5,A,dm,12.0,init,"
+now ",,,,pause,,
+35,13,A,dm,22.0,init,"
+",,,,pause,length,2s
+35,16,B,dm,27.0,ackn,"
+oh right
+",,,positive,,,
+35,20,B,dm,31.0,ackn,"
+ok
+",,,positive,,,
+35,22,B,dm,33.0,ackn,"
+ok
+",,,positive,,,
+35,23,A,dm,34.0,init,"
+now
+",,,,,,
+35,27,A,dm,40.0,init,"
+now ",,,,overlap,type,end
+35,28,B,dm,42.0,ackn,"
+right
+",,,positive,,,
+35,29,A,dm,44.0,init,"
+so
+",,,,,,
+35,30,B,dm,46.0,ackn,"
+right
+",,,positive,,,
+35,34,B,dm,50.0,ackn,"
+oh ",,,,pause,,
+35,36,B,dm,55.0,ackn,"
+ok
+",,,positive,,,
+35,37,A,dm,56.0,expressRegret,"
+sorry
+",regret,,,,,
+35,38,B,dm,58.0,ackn,"
+right ok ",,,positive,pause,length,2s
+35,38,B,dm,59.0,init,"
+well
+",,,,,,
+35,39,A,dm,61.0,accept,"
+ok
+",,,positive,,,
+35,41,A,dm,64.0,init,"
+now
+",,,,,,
+35,42,B,dm,66.0,ackn,"
+ok
+",,,positive,,,
+35,49,A,dm,75.0,init,"
+",,,,pause,length,14s
+35,55,A,dm,85.0,init,"
+so
+",,,,,,
+35,56,B,dm,88.0,init,"
+ah ",,,,pause,,
+35,60,B,dm,96.0,accept,"
+fine
+",,,positive,,,
+35,63,A,dm,100.0,init,"
+",,,,pause,length,10s
+35,66,B,dm,105.0,expressRegret,"
+oh sorry
+",,,,,,
+35,69,A,dm,109.0,init,"
+now
+",,,,,,
+35,71,A,dm,113.0,init,"
+erm well
+",,,,,,
+35,76,B,dm,123.0,ackn,"
+ok
+",,,positive,,,
+35,78,B,dm,125.0,init,"
+now
+",,,,,,
+35,78,B,dm,128.0,expressRegret,"
+sorry
+",regret,,,,,
+35,87,A,dm,143.0,ackn,"
+aha
+",,,positive,,,
+35,89,A,dm,146.0,init,"
+well
+",,,,,,
+35,96,B,dm,156.0,init,"
+well ",,,,overlap,type,end
+35,98,B,dm,159.0,ackn,"
+ok
+",,,positive,,,
+35,102,B,dm,163.0,ackn,"
+ok
+",,,positive,,,
+35,109,A,dm,182.0,init,"
+now ",,,,overlap,type,end
+35,113,A,dm,192.0,init,"
+so
+",,,,,,
+35,115,A,dm,195.0,init,"
+so
+",,,,,,
+35,118,B,dm,203.0,ackn,"
+ok
+",,,positive,,,
+35,121,A,dm,207.0,init,"
+now
+",,,,,,
+35,127,A,dm,218.0,init,"
+now
+",,,,,,
+35,128,B,dm,220.0,ackn,"
+ok
+",,,positive,,,
+35,132,B,dm,225.0,expressRegret,"
+sorry
+",regret,,,,,
+35,133,A,dm,229.0,ackn,"
+ok ",,,positive,overlap,type,end
+35,134,B,dm,232.0,expressRegret,"
+sorry
+",regret,,,,,
+35,135,A,dm,234.0,ackn,"
+ok then
+",,,positive,,,
+35,139,A,dm,239.0,init,"
+",,,,pause,,
+35,141,A,dm,243.0,ackn,"
+aha
+",,,positive,,,
+35,143,A,dm,245.0,ackn,"
+aha
+",,,positive,,,
+35,147,A,dm,249.0,ackn,"
+",,,positive,pause,,
+35,151,A,dm,253.0,init,"
+now ",,,,pause,,
+35,167,A,dm,273.0,init,"
+",,,,pause,,
+35,180,B,dm,289.0,init,"
+so
+",,,,,,
+35,186,B,dm,302.0,init,"
+now
+",,,,,,
+35,187,A,dm,305.0,init,"
+well
+",,,,,,
+35,187,A,dm,308.0,init,"
+so
+",,,,,,
+35,189,A,dm,312.0,init,"
+so
+",,,,,,
+35,190,B,dm,316.0,ackn,"
+ok
+",,,positive,,,
+36,2,B,dm,5.0,hesitate,"
+em
+",,,,,,
+36,5,A,dm,9.0,init,"
+now
+",,,,,,
+36,7,A,dm,13.0,init,"
+now ",,,,punc,type,level
+36,17,A,dm,24.0,apologise,"
+sorry ",regret,,,punc,type,stop
+36,20,B,dm,31.0,hesitate,"
+em
+",,,,,,
+36,23,A,dm,36.0,init,"
+",,,,pause,,
+36,23,A,dm,38.0,init,"
+so
+",,,,,,
+36,27,A,dm,43.0,init,"
+",,,,pause,length,20s
+36,28,B,dm,47.0,acknowledge,"
+right ",,,,punc,type,stop
+36,31,A,dm,58.0,init,"
+",,,,pause,,
+36,31,A,dm,60.0,init,"
+",,,,pause,,
+36,33,A,dm,66.0,init,"
+now
+",,,,,,
+36,38,B,dm,74.0,hesitate,"
+erm ",,,,pause,,
+36,39,A,dm,76.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+36,39,A,dm,78.0,init,"
+now
+",,,,,,
+36,40,B,dm,80.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+36,45,A,dm,87.0,init,"
+",,,,pause,length,2s
+36,46,B,dm,97.0,acknowledge,"
+right ",,,,punc,type,stop
+36,47,A,dm,98.0,init,"
+now
+",,,,,,
+36,54,B,dm,107.0,hesitate,"
+em
+",,,,,,
+36,55,A,dm,109.0,acknowledge,"
+",,,,pause,,
+36,55,A,dm,109.0,acknowledge,"
+",,,,punc,type,stop
+36,57,A,dm,111.0,acknowledge,"
+",,,,pause,,
+36,57,A,dm,111.0,acknowledge,"
+",,,,punc,type,stop
+36,79,A,dm,137.0,init,"
+",,,,pause,length,3s
+36,80,B,dm,139.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+36,84,B,dm,143.0,acknowledge,"
+right ",,,,punc,type,stop
+36,85,A,dm,146.0,reqConfirm,"
+ok now ",,,,punc,type,query
+37,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+37,3,A,dm,7.0,init,"
+",,,,pause,,
+37,3,A,dm,7.0,init,"
+",,,,punc,type,level
+37,4,B,dm,9.0,answer-acknowledge,"
+aha ",,,,punc,type,stop
+37,15,A,dm,22.0,init,"
+well ",,,,punc,type,level
+37,18,B,dm,27.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+37,20,B,dm,30.0,hesitate,"
+er
+",,,,,,
+37,22,B,dm,33.0,hesitate,"
+em
+",,,,,,
+37,24,B,dm,37.0,confirm-agree,"
+that's right
+",reassurance-tag,,,,,
+37,24,B,dm,39.0,hesitate,"
+em
+",,,,,,
+37,25,A,dm,41.0,init,"
+",,,,pause,length,8s
+37,25,A,dm,41.0,init,"
+",,,,punc,type,level
+37,26,B,dm,44.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+37,27,A,dm,46.0,init,"
+now ",,,,punc,type,level
+37,28,B,dm,48.0,agree,"
+sure ",,,,punc,type,stop
+37,30,B,dm,51.0,acknowledge,"
+right ",,,,punc,type,level
+37,32,B,dm,53.0,acknowledge,"
+right em
+",,,,,,
+37,34,B,dm,57.0,hesitate,"
+em
+",,,,,,
+37,37,A,dm,62.0,acknowledge,"
+ok then
+",tag,,,,,
+38,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+38,3,A,dm,7.0,init,"
+now
+",,,,,,
+38,12,B,dm,17.0,hesitate,"
+er
+",,,,,,
+38,16,B,dm,22.0,hesitate,"
+em
+",,,,,,
+38,18,B,dm,25.0,hesitate,"
+er ",,,,pause,,
+38,19,A,dm,28.0,init,"
+",,,,pause,length,4s
+38,24,B,dm,34.0,hesitate,"
+er
+",,,,,,
+38,31,A,dm,44.0,init,"
+",,,,pause,length,9s
+38,32,B,dm,46.0,acknowledge,"
+right
+",,,,,,
+38,32,B,dm,47.0,hesitate,"
+",,,,pause,,
+38,33,A,dm,49.0,init,"
+now
+",,,,,,
+38,37,A,dm,54.0,init,"
+",,,,pause,length,3s
+38,39,A,dm,57.0,init,"
+",,,,pause,length,14s
+38,44,B,dm,64.0,acknowledge,"
+right
+",,,,,,
+38,44,B,dm,65.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+38,45,A,dm,66.0,init,"
+",,,,pause,,
+38,51,A,dm,74.0,init,"
+",,,,pause,,
+38,53,A,dm,79.0,init,"
+now
+",,,,,,
+38,58,B,dm,85.0,hesitate,"
+er
+",,,,,,
+38,59,A,dm,87.0,init,"
+",,,,pause,length,6s
+38,61,A,dm,90.0,acknowledge,"
+aha ",,,,punc,type,stop
+38,62,B,dm,92.0,pardon,"
+sorry ",regret,,,punc,type,stop
+38,69,A,dm,103.0,acknowledge,"
+",,,,pause,,
+38,69,A,dm,103.0,acknowledge,"
+",,,,punc,type,stop
+38,73,A,dm,110.0,init,"
+",,,,pause,length,11s
+38,93,A,dm,132.0,init,"
+now
+",,,,,,
+38,94,B,dm,135.0,hesitate,"
+er
+",,,,,,
+38,97,A,dm,139.0,init,"
+",,,,pause,length,9s
+38,98,B,dm,143.0,acknowledge,"
+right
+",,,,,,
+38,98,B,dm,144.0,init,"
+ok
+",tag,,,,,
+38,99,A,dm,146.0,init,"
+now
+",,,,,,
+38,106,B,dm,163.0,acknowledge,"
+right
+",,,,,,
+38,107,A,dm,165.0,init,"
+now
+",,,,,,
+38,107,A,dm,174.0,init,"
+now
+",,,,,,
+38,109,A,dm,177.0,init,"
+now
+",,,,,,
+38,115,A,dm,185.0,init,"
+so
+",,,,,,
+38,115,A,dm,189.0,reqConfirm,"
+ok
+",,,,,,
+38,117,A,dm,192.0,init,"
+so
+",,,,,,
+38,118,B,dm,194.0,acknowledge,"
+ok
+",tag,,,,,
+39,6,B,dm,11.0,init,"
+well
+",,,,,,
+39,6,B,dm,12.0,hesitate,"
+",,,,pause,,
+39,7,A,dm,14.0,init,"
+now ",,,,punc,type,level
+39,11,A,dm,20.0,init,"
+so
+",,,,,,
+39,14,B,dm,26.0,init,"
+erm well ",,,,punc,type,level
+39,14,B,dm,28.0,init,"
+actually
+",report,,,,,
+39,15,A,dm,34.0,init,"
+",,,,pause,,
+39,15,A,dm,34.0,init,"
+",,,,punc,type,level
+39,16,B,dm,38.0,acknowledge,"
+oh right
+",,,positive,,,
+39,18,B,dm,41.0,acknowledge,"
+alright
+",tag,,,,,
+39,26,B,dm,61.0,acknowledge,"
+",,,,pause,,
+39,26,B,dm,62.0,hesitate,"
+",,,,pause,,
+39,28,B,dm,66.0,acknowledge,"
+",,,,pause,,
+39,28,B,dm,67.0,hesitate,"
+",,,,pause,,
+39,28,B,dm,67.0,hesitate,"
+",,,,pause,length,4s
+39,36,B,dm,82.0,acknowledge,"
+right ",,,,punc,type,stop
+39,37,A,dm,84.0,confirm-acknowledge,"
+aha ",,,,punc,type,stop
+39,39,A,dm,86.0,confirm-acknowledge,"
+that's correct ",tag,,,punc,type,stop
+39,40,B,dm,87.0,acknowledge,"
+right em ",,,,punc,type,level
+39,42,B,dm,95.0,acknowledge,"
+right
+",,,,,,
+39,44,B,dm,99.0,acknowledge,"
+",tag,,,pause,,
+39,44,B,dm,100.0,hesitate,"
+erm
+",,,,,,
+39,45,A,dm,105.0,init,"
+",,,,pause,length,9s
+39,45,A,dm,105.0,init,"
+",,,,punc,type,level
+39,45,A,dm,110.0,init,"
+now ",,,,punc,type,level
+39,46,B,dm,112.0,hesitate,"
+erm ",,,,pause,,
+39,48,B,dm,116.0,acknowledge,"
+right ",,,,punc,type,stop
+39,48,B,dm,117.0,hesitate,"
+",,,,pause,,
+39,48,B,dm,117.0,hesitate,"
+",,,,pause,length,3s
+39,48,B,dm,122.0,init,"
+",,,,pause,,
+39,48,B,dm,122.0,init,"
+",,,,punc,type,level
+39,54,B,dm,131.0,init,"
+so ",,,,punc,type,level
+39,58,B,dm,140.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+39,59,A,dm,143.0,init,"
+now ",,,,overlap,type,end
+39,59,A,dm,143.0,init,"
+now ",,,,punc,type,level
+39,60,B,dm,146.0,hesitate,"
+em
+",,,,,,
+39,60,B,dm,149.0,init,"
+actually
+",report,,,,,
+39,63,A,dm,155.0,init,"
+now ",,,,punc,type,level
+39,66,B,dm,168.0,acknowledge,"
+right
+",,,,,,
+39,66,B,dm,169.0,acknowledge,"
+ok
+",tag,,,,,
+39,67,A,dm,170.0,init,"
+now ",,,,punc,type,level
+39,73,A,dm,178.0,acknowledge,"
+aha ",,,,punc,type,stop
+39,75,A,dm,180.0,acknowledge,"
+aha ",,,,punc,type,stop
+39,79,A,dm,184.0,acknowledge,"
+aha ",,,,punc,type,stop
+39,83,A,dm,191.0,init,"
+now ",,,,punc,type,level
+39,84,B,dm,193.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+39,97,A,dm,207.0,init,"
+now ",,,,punc,type,level
+39,97,A,dm,209.0,init,"
+now ",,,,punc,type,level
+39,104,B,dm,218.0,acknowledge,"
+right ",,,,punc,type,stop
+39,106,B,dm,220.0,acknowledge,"
+ok
+",tag,,,,,
+39,109,A,dm,224.0,acknowledge,"
+aha ",,,,punc,type,stop
+39,111,A,dm,226.0,agree,"
+that's correct ",tag,,,punc,type,stop
+39,111,A,dm,227.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+39,112,B,dm,229.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+39,112,B,dm,230.0,approve,"
+excellent ",,,,punc,type,stop
+40,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+40,3,A,dm,7.0,init,"
+now
+",,,,,,
+40,12,B,dm,17.0,hesitate,"
+er
+",,,,,,
+40,16,B,dm,22.0,hesitate,"
+em
+",,,,,,
+40,18,B,dm,25.0,hesitate,"
+er ",,,,pause,,
+40,19,A,dm,28.0,init,"
+",,,,pause,length,4s
+40,24,B,dm,34.0,hesitate,"
+er
+",,,,,,
+40,31,A,dm,44.0,init,"
+",,,,pause,length,9s
+40,32,B,dm,46.0,acknowledge,"
+right
+",,,,,,
+40,32,B,dm,47.0,hesitate,"
+",,,,pause,,
+40,33,A,dm,49.0,init,"
+now
+",,,,,,
+40,37,A,dm,54.0,init,"
+",,,,pause,length,3s
+40,39,A,dm,57.0,init,"
+",,,,pause,length,14s
+40,44,B,dm,64.0,acknowledge,"
+right
+",,,,,,
+40,44,B,dm,65.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+40,45,A,dm,66.0,init,"
+",,,,pause,,
+40,51,A,dm,74.0,init,"
+",,,,pause,,
+40,53,A,dm,79.0,init,"
+now
+",,,,,,
+40,58,B,dm,85.0,hesitate,"
+er
+",,,,,,
+40,59,A,dm,87.0,init,"
+",,,,pause,length,6s
+40,61,A,dm,90.0,acknowledge,"
+aha ",,,,punc,type,stop
+40,62,B,dm,92.0,pardon,"
+sorry ",regret,,,punc,type,stop
+40,69,A,dm,103.0,acknowledge,"
+",,,,pause,,
+40,69,A,dm,103.0,acknowledge,"
+",,,,punc,type,stop
+40,73,A,dm,110.0,init,"
+",,,,pause,length,11s
+40,93,A,dm,132.0,init,"
+now
+",,,,,,
+40,94,B,dm,135.0,hesitate,"
+er
+",,,,,,
+40,97,A,dm,139.0,init,"
+",,,,pause,length,9s
+40,98,B,dm,143.0,acknowledge,"
+right
+",,,,,,
+40,98,B,dm,144.0,init,"
+ok
+",tag,,,,,
+40,99,A,dm,146.0,init,"
+now
+",,,,,,
+40,106,B,dm,163.0,acknowledge,"
+right
+",,,,,,
+40,107,A,dm,165.0,init,"
+now
+",,,,,,
+40,107,A,dm,174.0,init,"
+now
+",,,,,,
+40,109,A,dm,177.0,init,"
+now
+",,,,,,
+40,115,A,dm,185.0,init,"
+so
+",,,,,,
+40,117,A,dm,191.0,init,"
+so
+",,,,,,
+40,118,B,dm,193.0,acknowledge,"
+ok
+",tag,,,,,
+41,3,A,dm,6.0,init,"
+now
+",,,,,,
+41,10,B,dm,14.0,hesitate,"
+er
+",,,,,,
+41,14,B,dm,19.0,hesitate,"
+erm ",,,,pause,,
+41,15,A,dm,21.0,init,"
+",,,,pause,length,5s
+41,17,A,dm,24.0,init,"
+",,,,pause,length,8s
+41,17,A,dm,25.0,expressRegret,"
+unfortunately
+",,,,,,
+41,18,B,dm,28.0,acknowledge,"
+right ",,,,punc,type,stop
+41,20,B,dm,32.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+41,24,B,dm,37.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+41,25,A,dm,39.0,init,"
+",,,,pause,,
+41,25,A,dm,39.0,init,"
+",,,,punc,type,level
+41,27,A,dm,46.0,init,"
+now ",,,,punc,type,level
+41,31,A,dm,51.0,init,"
+now
+",,,,,,
+41,32,B,dm,55.0,acknowledge,"
+right ",,,,punc,type,stop
+41,34,B,dm,58.0,acknowledge,"
+right ",,,,punc,type,stop
+41,35,A,dm,59.0,init,"
+now
+",,,,,,
+41,41,A,dm,67.0,acknowledge,"
+aha ",,,,punc,type,stop
+41,43,A,dm,69.0,acknowledge,"
+aha ",,,,punc,type,stop
+41,47,A,dm,73.0,acknowledge,"
+aha ",,,,punc,type,stop
+41,50,B,dm,77.0,hesitate,"
+",,,,pause,,
+41,51,A,dm,79.0,init,"
+now ",,,,punc,type,level
+41,52,B,dm,81.0,acknowledge,"
+right ",,,,punc,type,stop
+41,54,B,dm,83.0,init,"
+er well ",,,,punc,type,level
+41,56,B,dm,88.0,hesitate,"
+er
+",,,,,,
+41,69,A,dm,103.0,init,"
+",,,,pause,length,7s
+41,80,B,dm,118.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+41,81,A,dm,119.0,init,"
+",,,,pause,length,6s
+41,81,A,dm,119.0,init,"
+",,,,punc,type,level
+41,89,A,dm,129.0,agree,"
+that's correct ",tag,,,punc,type,stop
+41,90,B,dm,132.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+41,91,A,dm,133.0,init,"
+so ",,,,punc,type,level
+42,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+42,3,A,dm,7.0,init,"
+now
+",,,,,,
+42,8,B,dm,14.0,hesitate,"
+er
+",,,,,,
+42,10,B,dm,18.0,hesitate,"
+",,,,pause,,
+42,11,A,dm,21.0,init,"
+",,,,pause,length,8s
+42,11,A,dm,21.0,init,"
+",,,,punc,type,level
+42,12,B,dm,27.0,acknowledge,"
+mhm ",,,,punc,type,stop
+42,12,B,dm,28.0,approve,"
+fine ",,,,punc,type,stop
+42,13,A,dm,30.0,init,"
+now ",,,,punc,type,level
+42,16,B,dm,34.0,confirm-acknowledge,"
+mhm ",,,,punc,type,stop
+42,19,A,dm,37.0,init,"
+now ",,,,punc,type,level
+42,23,A,dm,43.0,init,"
+now ",,,,punc,type,level
+42,26,B,dm,47.0,approve,"
+lovely ",,,,punc,type,stop
+42,27,A,dm,48.0,init,"
+",,,,pause,,
+42,27,A,dm,48.0,init,"
+",,,,punc,type,level
+42,27,A,dm,49.0,expressConviction,"
+of course
+",conviction,,,,,
+42,28,B,dm,51.0,acknowledge,"
+right ",,,,punc,type,stop
+42,31,A,dm,56.0,init,"
+now
+",,,,,,
+42,40,B,dm,69.0,expressSurprise,"
+oh right ",tag-decl,,positive,punc,type,stop
+42,41,A,dm,75.0,init,"
+",,,,overlap,type,start
+42,41,A,dm,75.0,init,"
+",,,,punc,type,level
+42,42,B,dm,77.0,acknowledge,"
+right ",,,,punc,type,stop
+42,42,B,dm,78.0,acknowledge,"
+aha ",,,,overlap,type,end
+42,42,B,dm,78.0,acknowledge,"
+aha ",,,,punc,type,stop
+42,45,A,dm,81.0,acknowledge,"
+aha ",,,,punc,type,stop
+42,47,A,dm,83.0,init,"
+now ",,,,punc,type,level
+42,48,B,dm,85.0,acknowledge,"
+right ",,,,punc,type,stop
+42,50,B,dm,88.0,acknowledge,"
+right ",,,,punc,type,stop
+42,50,B,dm,89.0,approve,"
+fine ",,,,punc,type,stop
+42,54,B,dm,93.0,hesitate,"
+er
+",,,,,,
+42,55,A,dm,97.0,init,"
+now ",,,,punc,type,level
+42,69,A,dm,113.0,init,"
+now ",,,,punc,type,level
+42,70,B,dm,116.0,acknowledge,"
+right ",,,,punc,type,stop
+42,78,B,dm,125.0,acknowledge,"
+right ",,,,punc,type,stop
+42,79,A,dm,128.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+42,80,B,dm,129.0,confirm-acknowledge,"
+right ",,,,punc,type,stop
+42,81,A,dm,131.0,init,"
+so ",,,,punc,type,level
+43,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+43,4,B,dm,8.0,pardon,"
+pardon ",regret,,,punc,type,query
+43,12,B,dm,16.0,hesitate,"
+er
+",,,,,,
+43,13,A,dm,18.0,acknowledge,"
+",,,,pause,,
+43,13,A,dm,18.0,acknowledge,"
+",,,,punc,type,stop
+43,14,B,dm,22.0,hesitate,"
+erm
+",,,,,,
+43,14,B,dm,24.0,hesitate,"
+er
+",,,,,,
+43,14,B,dm,26.0,init,"
+so ",,,,punc,type,level
+43,18,B,dm,35.0,init,"
+well ",,,,punc,type,level
+43,23,A,dm,42.0,init,"
+now ",,,,punc,type,level
+43,23,A,dm,44.0,init,"
+",,,,pause,length,18s
+43,23,A,dm,44.0,init,"
+",,,,punc,type,level
+43,25,A,dm,47.0,init,"
+now ",,,,punc,type,level
+43,26,B,dm,51.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+43,30,B,dm,56.0,hesitate,"
+erm
+",,,,,,
+43,31,A,dm,59.0,init,"
+",,,,pause,length,17s
+43,31,A,dm,59.0,init,"
+",,,,punc,type,level
+43,32,B,dm,64.0,exclaim,"
+oh
+",,,,,,
+43,34,B,dm,67.0,pardon,"
+sorry ",regret,,,punc,type,stop
+43,34,B,dm,69.0,apologise,"
+sorry ",regret,,,punc,type,stop
+43,36,B,dm,76.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+43,42,B,dm,83.0,hesitate,"
+er
+",,,,,,
+43,42,B,dm,85.0,hesitate,"
+er
+",,,,,,
+43,44,B,dm,90.0,init,"
+so ",,,,punc,type,level
+43,44,B,dm,91.0,hesitate,"
+er
+",,,,,,
+43,45,A,dm,93.0,init,"
+now ",,,,punc,type,level
+43,48,B,dm,97.0,hesitate,"
+erm
+",,,,,,
+43,48,B,dm,98.0,acknowledge,"
+right ",,,,punc,type,stop
+43,51,A,dm,106.0,agree,"
+sure ",,,,punc,type,stop
+43,59,A,dm,120.0,pardon,"
+sorry ",regret,,,punc,type,stop
+43,61,A,dm,123.0,acknowledge,"
+",,,,pause,,
+43,61,A,dm,123.0,acknowledge,"
+",,,,punc,type,stop
+43,63,A,dm,128.0,init,"
+",,,,pause,,
+43,64,B,dm,130.0,hesitate,"
+er ",,,,pause,,
+43,65,A,dm,132.0,acknowledge,"
+aha ",,,,punc,type,stop
+43,67,A,dm,134.0,init,"
+now
+",,,,,,
+43,68,B,dm,137.0,acknowledge,"
+right ",,,,punc,type,stop
+43,80,B,dm,151.0,hesitate,"
+er
+",,,,,,
+43,80,B,dm,153.0,exclaim,"
+oh
+",,,,,,
+43,81,A,dm,156.0,init,"
+now ",,,,punc,type,level
+43,85,A,dm,166.0,agree,"
+that's correct
+",tag,,,,,
+43,85,A,dm,168.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+44,3,A,dm,9.0,init,"
+now  ",,,,punc,type,level
+44,4,B,dm,11.0,hesitate,"
+em
+",,,,,,
+44,5,A,dm,13.0,acknowledge,"
+ok now ",tag,,,punct,type,level
+44,10,B,dm,21.0,hesitate,"
+em
+",,,,,,
+44,10,B,dm,23.0,init,"
+so
+",,,,,,
+44,10,B,dm,25.0,hesitate,"
+em
+",,,,,,
+44,13,A,dm,29.0,init,"
+well ",,,,punc,type,level
+44,13,A,dm,32.0,apologise,"
+",regret,,,pause,,
+44,16,B,dm,38.0,hesitate,"
+er
+",,,,,,
+44,17,A,dm,43.0,init,"
+",,,,pause,length,7s
+44,17,A,dm,43.0,init,"
+",,,,punc,type,level
+44,19,A,dm,46.0,init,"
+",,,,pause,length,3s
+44,19,A,dm,46.0,init,"
+",,,,punc,type,level
+44,19,A,dm,48.0,reqConfirm,"
+",tag,,,overlap,type,start
+44,19,A,dm,48.0,reqConfirm,"
+",tag,,,punc,type,query
+44,20,B,dm,49.0,confirm-acknowledge,"
+mhm ",,,,punc,type,stop
+44,20,B,dm,50.0,acknowledge,"
+",tag,,,overlap,type,end
+44,20,B,dm,50.0,acknowledge,"
+",tag,,,punc,type,stop
+44,20,B,dm,51.0,agree,"
+no problem ",agree,,,punc,type,stop
+44,21,A,dm,52.0,init,"
+now ",,,,punc,type,level
+44,27,A,dm,66.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,27,A,dm,67.0,init,"
+",,,,pause,length,7s
+44,27,A,dm,67.0,init,"
+",,,,punc,type,level
+44,30,B,dm,76.0,acknowledge,"
+right ",,,,punc,type,stop
+44,31,A,dm,77.0,init,"
+now ",,,,punc,type,level
+44,32,B,dm,79.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,33,A,dm,80.0,init,"
+so ",,,,punc,type,level
+44,36,B,dm,87.0,hesitate,"
+er
+",,,,,,
+44,36,B,dm,89.0,hesitate,"
+er
+",,,,,,
+44,38,B,dm,92.0,acknowledge,"
+right ",,,,punc,type,stop
+44,38,B,dm,93.0,acknowledge,"
+ok ",,,,punc,type,stop
+44,40,B,dm,96.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,40,B,dm,97.0,approve,"
+fine ",,,,punc,type,stop
+44,40,B,dm,98.0,agree,"
+",,,,overlap,type,start
+44,40,B,dm,98.0,agree,"
+",,,,punc,type,stop
+44,41,A,dm,99.0,expressRegret,"
+unfortunately ",,,,punc,type,stop
+44,41,A,dm,100.0,init,"
+",,,,overlap,type,end
+44,41,A,dm,100.0,init,"
+",,,,punc,type,level
+44,42,B,dm,102.0,pardon,"
+sorry ",regret,,,punc,type,stop
+44,44,B,dm,104.0,hesitate,"
+er
+",,,,,,
+44,47,A,dm,111.0,init,"
+",,,,pause,length,4s
+44,47,A,dm,111.0,init,"
+",,,,punct,type,level
+44,48,B,dm,113.0,acknowledge,"
+mhm ",,,,punc,type,stop
+44,51,A,dm,118.0,init,"
+now ",,,,punct,type,level
+44,52,B,dm,122.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,52,B,dm,123.0,approve,"
+lovely ",,,,punc,type,stop
+44,56,B,dm,128.0,agree,"
+no problem ",agree,,,punc,type,stop
+44,57,A,dm,129.0,init,"
+now ",,,,punct,type,level
+44,58,B,dm,131.0,hesitate,"
+erm
+",,,,,,
+44,62,B,dm,139.0,acknowledge,"
+mhm ",,,,punc,type,stop
+44,64,B,dm,142.0,approve,"
+lovely ",,,,punc,type,stop
+44,65,A,dm,143.0,init,"
+and now ",,,,punct,type,level
+44,66,B,dm,145.0,hesitate,"
+er
+",,,,,,
+44,69,A,dm,151.0,init,"
+now ",,,,punct,type,level
+44,71,A,dm,154.0,acknowledge,"
+ok ",tag,,,punct,type,stop
+44,71,A,dm,155.0,init,"
+now
+",,,,,,
+44,86,B,dm,174.0,hesitate,"
+er
+",,,,,,
+44,87,A,dm,177.0,init,"
+now ",,,,punct,type,level
+44,88,B,dm,179.0,acknowledge,"
+right ",,,,punc,type,stop
+44,92,B,dm,186.0,approve,"
+fine ",,,,punc,type,stop
+44,92,B,dm,187.0,init,"
+so ",,,,punc,type,level
+44,94,B,dm,193.0,acknowledge,"
+right ",,,,punc,type,stop
+44,96,B,dm,195.0,acknowledge,"
+right ",,,,punc,type,stop
+44,96,B,dm,199.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,97,A,dm,200.0,init,"
+now ",,,,punct,type,level
+44,102,B,dm,206.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,103,A,dm,207.0,init,"
+",,,,pause,,
+44,103,A,dm,207.0,init,"
+",,,,punc,type,level
+44,104,B,dm,211.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+44,106,B,dm,214.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+45,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+45,3,A,dm,7.0,init,"
+",,,,pause,,
+45,3,A,dm,7.0,init,"
+",,,,punct,type,level
+45,4,B,dm,9.0,hesitate,"
+er
+",,,,,,
+45,10,B,dm,17.0,hesitate,"
+er
+",,,,,,
+45,10,B,dm,19.0,init,"
+",,,,pause,,
+45,10,B,dm,19.0,init,"
+",,,,punc,type,level
+45,16,B,dm,29.0,init,"
+so ",,,,punc,type,level
+45,19,A,dm,34.0,init,"
+",,,,pause,length,6s
+45,19,A,dm,34.0,init,"
+",,,,punct,type,level
+45,20,B,dm,40.0,hesitate,"
+er
+",,,,,,
+45,22,B,dm,44.0,init,"
+well ",,,,punct,type,level
+45,26,B,dm,50.0,hesitate,"
+er
+",,,,,,
+45,30,B,dm,58.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+45,31,A,dm,60.0,init,"
+",,,,pause,,
+45,31,A,dm,60.0,init,"
+",,,,punct,type,level
+45,32,B,dm,62.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+45,33,A,dm,63.0,init,"
+",,,,pause,length,6s
+45,33,A,dm,63.0,init,"
+",,,,punct,type,level
+46,2,B,dm,6.0,hesitate,"
+erm
+",,,,,,
+46,3,A,dm,9.0,init,"
+now ",,,,punct,type,level
+46,5,A,dm,13.0,init,"
+now ",,,,punct,type,level
+46,11,A,dm,22.0,init,"
+now ",,,,punct,type,level
+46,12,B,dm,26.0,agree,"
+",reassurance-tag,,,overlap,type,end
+46,12,B,dm,26.0,agree,"
+",reassurance-tag,,,punc,type,stop
+46,14,B,dm,28.0,hesitate,"
+erm
+",,,,,,
+46,15,A,dm,30.0,init,"
+now ",,,,punct,type,level
+46,18,B,dm,36.0,init,"
+",,,,pause,,
+46,18,B,dm,37.0,hesitate,"
+erm
+",,,,,,
+46,20,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,22,B,dm,47.0,exclaim,"
+oh my god ",,,,punc,type,exclam
+46,22,B,dm,48.0,hesitate,"
+",,,,pause,length,2s
+46,22,B,dm,51.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,28,B,dm,61.0,hesitate,"
+",,,,pause,,
+46,31,A,dm,65.0,init,"
+",,,,pause,length,7s
+46,31,A,dm,65.0,init,"
+",,,,punct,type,level
+46,31,A,dm,68.0,apologise,"
+",regret,,,pause,length,18s
+46,35,A,dm,77.0,apologise,"
+",regret,,,pause,,
+46,35,A,dm,77.0,apologise,"
+",regret,,,punc,type,stop
+46,36,B,dm,79.0,exclaim,"
+",tag-decl,,positive,pause,,
+46,36,B,dm,80.0,acknowledge,"
+ok ",,,,punc,type,stop
+46,36,B,dm,83.0,acknowledge,"
+",tag,,,pause,,
+46,36,B,dm,83.0,acknowledge,"
+",tag,,,punc,type,stop
+46,38,B,dm,88.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,43,A,dm,94.0,init,"
+now ",,,,punct,type,level
+46,45,A,dm,104.0,init,"
+",,,,pause,,
+46,45,A,dm,104.0,init,"
+",,,,punct,type,level
+46,46,B,dm,106.0,acknowledge,"
+mhm ",,,,punc,type,stop
+46,51,A,dm,115.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+46,52,B,dm,117.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,54,B,dm,120.0,hesitate,"
+em
+",,,,,,
+46,55,A,dm,122.0,acknowledge,"
+aha ",,,,punc,type,stop
+46,61,A,dm,128.0,init,"
+now ",,,,punct,type,level
+46,61,A,dm,130.0,init,"
+",,,,pause,length,12s
+46,61,A,dm,130.0,init,"
+",,,,punct,type,level
+46,64,B,dm,134.0,hesitate,"
+em
+",,,,,,
+46,65,A,dm,136.0,init,"
+",,,,pause,length,6s
+46,65,A,dm,136.0,init,"
+",,,,punct,type,level
+46,67,A,dm,149.0,init,"
+now ",,,,punct,type,level
+46,68,B,dm,158.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,70,B,dm,160.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,71,A,dm,162.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,72,B,dm,163.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,73,A,dm,164.0,init,"
+now ",,,,punct,type,level
+46,85,A,dm,178.0,init,"
+",,,,pause,,
+46,85,A,dm,178.0,init,"
+",,,,punct,type,level
+46,92,B,dm,187.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+46,95,A,dm,190.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+46,96,B,dm,191.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+47,5,A,dm,8.0,init,"
+now ",,,,punc,type,level
+47,11,A,dm,15.0,init,"
+now ",,,,punc,type,level
+47,13,A,dm,18.0,init,"
+so ",,,,punc,type,level
+47,14,B,dm,21.0,hesitate,"
+",,,,pause,,
+47,14,B,dm,21.0,hesitate,"
+",,,,pause,,
+47,15,A,dm,25.0,init,"
+now ",,,,punc,type,level
+47,19,A,dm,31.0,init,"
+",,,,pause,length,5s
+47,20,B,dm,34.0,pardon,"
+sorry ",regret,,,punc,type,stop
+47,26,B,dm,43.0,acknowledge,"
+",tag,,,pause,,
+47,26,B,dm,43.0,acknowledge,"
+",tag,,,punc,type,stop
+47,29,A,dm,47.0,init,"
+",,,,pause,length,8s
+47,29,A,dm,47.0,init,"
+",,,,punc,type,level
+47,32,B,dm,51.0,hesitate,"
+em
+",,,,,,
+47,33,A,dm,53.0,init,"
+so ",,,,punc,type,level
+47,40,B,dm,63.0,hesitate,"
+erm
+",,,,,,
+47,40,B,dm,64.0,acknowledge,"
+sure ",,,,punc,type,stop
+47,42,B,dm,67.0,hesitate,"
+erm
+",,,,,,
+47,43,A,dm,72.0,init,"
+",,,,pause,length,2s
+47,43,A,dm,72.0,init,"
+",,,,punc,type,level
+47,44,B,dm,75.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,44,B,dm,76.0,acknowledge,"
+righto ",,,,punc,type,stop
+47,46,B,dm,80.0,acknowledge,"
+right ",,,,punc,type,stop
+47,46,B,dm,81.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,54,B,dm,94.0,init,"
+well ",,,,punc,type,level
+47,56,B,dm,100.0,apologise,"
+",regret,,,overlap,type,start
+47,56,B,dm,100.0,apologise,"
+",regret,,,punc,type,stop
+47,58,B,dm,103.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,63,A,dm,111.0,init,"
+",,,,overlap,type,start
+47,63,A,dm,111.0,init,"
+",,,,punc,type,level
+47,65,A,dm,113.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,65,A,dm,115.0,apologise,"
+sorry ",regret,,,punc,type,stop
+47,70,B,dm,124.0,apologise,"
+",regret,,,pause,length,7s
+47,70,B,dm,124.0,apologise,"
+",regret,,,punc,type,stop
+47,71,A,dm,125.0,init,"
+",,,,pause,length,2s
+47,71,A,dm,125.0,init,"
+",,,,punc,type,level
+47,74,B,dm,132.0,hesitate,"
+",,,,pause,length,3s
+47,74,B,dm,132.0,hesitate,"
+",,,,pause,length,3s
+47,74,B,dm,133.0,acknowledge,"
+ok
+",tag,,,,,
+47,74,B,dm,134.0,hesitate,"
+er
+",,,,,,
+47,76,B,dm,141.0,apologise,"
+",,,,pause,length,5s
+47,76,B,dm,141.0,apologise,"
+",,,,punc,type,stop
+47,81,A,dm,148.0,init,"
+now ",,,,punc,type,level
+47,82,B,dm,150.0,acknowledge,"
+ok ",tag,,,punc,type,level
+47,82,B,dm,151.0,hesitate,"
+",,,,pause,,
+47,82,B,dm,151.0,hesitate,"
+",,,,pause,length,3s
+47,82,B,dm,156.0,init,"
+",,,,pause,,
+47,82,B,dm,156.0,init,"
+",,,,punc,type,level
+47,85,A,dm,160.0,init,"
+",,,,pause,length,14s
+47,85,A,dm,160.0,init,"
+",,,,punc,type,level
+47,86,B,dm,163.0,exclaim,"
+",,,positive,pause,,
+47,86,B,dm,163.0,exclaim,"
+",,,positive,punc,type,exclam
+47,89,A,dm,168.0,init,"
+well ",,,,punc,type,level
+47,90,B,dm,172.0,exclaim,"
+",,,,pause,length,3s
+47,90,B,dm,172.0,exclaim,"
+",,,,punc,type,exclam
+47,90,B,dm,173.0,init,"
+",,,,pause,,
+47,90,B,dm,173.0,init,"
+",,,,punct,type,level
+47,92,B,dm,179.0,exclaim,"
+god ",,,,punc,type,exclam
+47,92,B,dm,180.0,init,"
+",,,,pause,length,8s
+47,92,B,dm,180.0,init,"
+",,,,punct,type,level
+47,92,B,dm,182.0,reqInfo,"
+",,,,pause,,
+47,92,B,dm,182.0,reqInfo,"
+",,,,punct,type,query
+47,92,B,dm,183.0,hesitate,"
+",,,,overlap,type,start
+47,93,A,dm,185.0,init,"
+well ",,,,punc,type,level
+47,96,B,dm,194.0,acknowledge,"
+ok ",tag,,,punc,type,level
+47,96,B,dm,195.0,init,"
+well ",,,,punc,type,level
+47,102,B,dm,207.0,hesitate,"
+",,,,pause,,
+47,102,B,dm,207.0,hesitate,"
+",,,,pause,length,3s
+47,105,A,dm,211.0,init,"
+",,,,pause,,
+47,105,A,dm,211.0,init,"
+",,,,punc,type,level
+47,108,B,dm,215.0,hesitate,"
+erm
+",,,,,,
+47,112,B,dm,228.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,113,A,dm,229.0,init,"
+now ",,,,punc,type,level
+47,117,A,dm,234.0,init,"
+",,,,pause,,
+47,117,A,dm,234.0,init,"
+",,,,punc,type,level
+47,118,B,dm,237.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,119,A,dm,239.0,init,"
+now ",,,,punc,type,level
+47,122,B,dm,248.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+47,123,A,dm,249.0,reqConfirm,"
+now ",query,,,punc,type,query
+47,125,A,dm,253.0,acknowledge,"
+",tag,,,pause,length,4s
+47,125,A,dm,253.0,acknowledge,"
+",tag,,,punc,type,stop
+47,128,B,dm,257.0,hesitate,"
+erm ",,,,pause,,
+47,130,B,dm,262.0,hesitate,"
+",,,,pause,,
+47,151,A,dm,286.0,init,"
+now ",,,,punct,type,level
+47,157,A,dm,299.0,reqConfirm,"
+ok ",,,,punc,type,query
+48,2,B,dm,5.0,hesitate,"
+erm
+",,,,,,
+48,5,A,dm,9.0,init,"
+now ",,,,punct,type,level
+48,11,A,dm,16.0,init,"
+now ",,,,punct,type,level
+48,14,B,dm,20.0,init,"
+well ",,,,punct,type,level
+48,16,B,dm,26.0,hesitate,"
+erm
+",,,,,,
+48,17,A,dm,28.0,init,"
+",,,,pause,,
+48,17,A,dm,28.0,init,"
+",,,,punct,type,level
+48,19,A,dm,31.0,acknowledge,"
+",tag,,,pause,,
+48,19,A,dm,31.0,acknowledge,"
+",tag,,,punct,type,level
+48,20,B,dm,34.0,hesitate,"
+erm
+",,,,,,
+48,21,A,dm,36.0,init,"
+",,,,pause,length,13s
+48,22,B,dm,39.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+48,24,B,dm,41.0,init,"
+well ",,,,punct,type,level
+48,27,A,dm,45.0,init,"
+",,,,pause,length,9s
+48,27,A,dm,45.0,init,"
+",,,,punct,type,level
+48,28,B,dm,47.0,agree,"
+that's right ",reassurance,,,punc,type,stop
+48,28,B,dm,48.0,agree,"
+that's right ",reassurance,,,punc,type,stop
+48,29,A,dm,49.0,init,"
+now ",,,,punct,type,level
+48,34,B,dm,62.0,acknowledge,"
+",,,,overlap,type,start
+48,34,B,dm,62.0,acknowledge,"
+",,,,punc,type,stop
+48,36,B,dm,64.0,acknowledge,"
+",,,,pause,,
+48,36,B,dm,64.0,acknowledge,"
+",,,,punc,type,stop
+48,39,A,dm,68.0,answer-agree,"
+",reassurance,,,overlap,type,start
+48,39,A,dm,68.0,answer-agree,"
+",reassurance,,,punc,type,stop
+48,50,B,dm,81.0,exclaim,"
+ah
+",,,,,,
+48,50,B,dm,82.0,acknowledge,"
+right ",,,,punc,type,stop
+48,52,B,dm,87.0,apologise,"
+",regret,,,pause,,
+48,52,B,dm,87.0,apologise,"
+",regret,,,punc,type,stop
+48,58,B,dm,94.0,acknowledge,"
+right ",,,,punc,type,stop
+48,58,B,dm,95.0,init,"
+well ",,,,punct,type,level
+48,59,A,dm,97.0,init,"
+so
+",,,,,,
+48,63,A,dm,102.0,init,"
+",,,,pause,length,6s
+48,63,A,dm,102.0,init,"
+",,,,punc,type,level
+48,64,B,dm,108.0,agree,"
+that's right ",reassurance,,,punc,type,stop
+48,66,B,dm,111.0,hesitate,"
+er
+",,,,,,
+48,67,A,dm,113.0,init,"
+",,,,pause,length,4s
+48,67,A,dm,113.0,init,"
+",,,,punct,type,level
+48,68,B,dm,115.0,acknowledge,"
+",,,,pause,,
+48,68,B,dm,115.0,acknowledge,"
+",,,,overlap,type,start
+48,68,B,dm,115.0,acknowledge,"
+",,,,punc,type,stop
+48,70,B,dm,118.0,acknowledge,"
+right ",,,,punc,type,stop
+48,72,B,dm,120.0,acknowledge,"
+right ",,,,punc,type,stop
+48,74,B,dm,123.0,acknowledge,"
+right ",,,,punc,type,stop
+48,75,A,dm,125.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,76,B,dm,128.0,acknowledge,"
+right ",,,,punc,type,stop
+48,76,B,dm,129.0,acknowledge,"
+right ",,,,punc,type,stop
+48,78,B,dm,132.0,init,"
+well ",,,,punct,type,level
+48,80,B,dm,136.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+48,82,B,dm,139.0,exclaim,"
+oh
+",,,,,,
+48,83,A,dm,142.0,init,"
+now ",,,,punct,type,level
+48,87,A,dm,150.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,93,A,dm,157.0,acknowledge,"
+aha ",,,,punc,type,stop
+48,95,A,dm,159.0,acknowledge,"
+aha ",,,,punc,type,stop
+48,97,A,dm,161.0,init,"
+",,,,pause,,
+48,97,A,dm,161.0,init,"
+",,,,punct,type,level
+48,101,A,dm,169.0,init,"
+now ",,,,punct,type,level
+48,104,B,dm,173.0,approve,"
+lovely ",,,,punc,type,stop
+48,106,B,dm,175.0,acknowledge,"
+right ",,,,punc,type,stop
+48,107,A,dm,176.0,init,"
+now ",,,,punct,type,level
+48,118,B,dm,188.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+48,120,B,dm,192.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,120,B,dm,194.0,apologise,"
+sorry ",regret,,,punc,type,stop
+48,121,A,dm,196.0,acknowledge,"
+right ",,,,overlap,type,end
+48,121,A,dm,196.0,acknowledge,"
+right ",,,,punc,type,stop
+48,131,A,dm,211.0,init,"
+",,,,pause,,
+48,131,A,dm,211.0,init,"
+",,,,punct,type,level
+48,134,B,dm,215.0,acknowledge,"
+right ",,,,punc,type,stop
+48,135,A,dm,216.0,init,"
+now ",,,,punct,type,level
+48,138,B,dm,220.0,acknowledge,"
+right ",,,,punc,type,stop
+48,140,B,dm,222.0,approve,"
+lovely ",,,,punc,type,stop
+48,142,B,dm,224.0,acknowledge,"
+right ",,,,punc,type,stop
+48,144,B,dm,227.0,hesitate,"
+em
+",,,,,,
+48,146,B,dm,232.0,exclaim,"
+ah
+",,,,,,
+48,147,A,dm,234.0,reqConfirm,"
+",query,,,overlap,type,start
+48,147,A,dm,234.0,reqConfirm,"
+",query,,,punc,type,query
+48,148,B,dm,236.0,acknowledge,"
+",tag,,,overlap,type,end
+48,148,B,dm,236.0,acknowledge,"
+",tag,,,punc,type,stop
+49,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+49,3,A,dm,7.0,init,"
+",,,,pause,length,3s
+49,3,A,dm,7.0,init,"
+",,,,punct,type,level
+49,11,A,dm,17.0,init,"
+now ",,,,punct,type,level
+49,12,B,dm,19.0,hesitate,"
+er ",,,,pause,length,2s
+49,12,B,dm,21.0,init,"
+actually
+",report-constrain,,,,,
+49,12,B,dm,22.0,hesitate,"
+erm
+",,,,,,
+49,12,B,dm,23.0,hesitate,"
+",,,,pause,length,2s
+49,14,B,dm,30.0,acknowledge,"
+mhm ",,,,punc,type,stop
+49,15,A,dm,31.0,init,"
+now ",,,,punct,type,level
+49,22,B,dm,39.0,answer-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+49,25,A,dm,42.0,init,"
+",,,,pause,length,11s
+49,25,A,dm,42.0,init,"
+",,,,punct,type,level
+49,26,B,dm,50.0,hesitate,"
+er
+",,,,,,
+49,26,B,dm,51.0,acknowledge,"
+right ",,,,punc,type,stop
+49,26,B,dm,52.0,init,"
+well ",,,,punc,type,level
+49,32,B,dm,62.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+49,34,B,dm,66.0,hesitate,"
+",,,,pause,,
+49,36,B,dm,70.0,acknowledge,"
+right ",,,,punc,type,stop
+49,36,B,dm,71.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,37,A,dm,72.0,init,"
+now ",,,,punct,type,level
+49,37,A,dm,74.0,init,"
+now ",,,,punct,type,level
+49,38,B,dm,76.0,acknowledge,"
+right ",,,,punc,type,stop
+49,40,B,dm,78.0,acknowledge,"
+mhm ",,,,punc,type,stop
+49,42,B,dm,80.0,acknowledge,"
+right ",,,,punc,type,stop
+49,42,B,dm,81.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,43,A,dm,82.0,init,"
+now ",,,,punct,type,level
+49,45,A,dm,85.0,init,"
+now ",,,,punct,type,level
+49,46,B,dm,87.0,hesitate,"
+er
+",,,,,,
+49,47,A,dm,89.0,init,"
+now ",,,,punct,type,level
+49,47,A,dm,91.0,init,"
+so ",,,,punc,type,level
+49,48,B,dm,93.0,acknowledge,"
+mhm ",,,,punc,type,stop
+49,49,A,dm,94.0,init,"
+now ",,,,punct,type,level
+49,51,A,dm,98.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,53,A,dm,101.0,init,"
+now ",,,,punct,type,level
+49,53,A,dm,103.0,init,"
+first of all
+",,,,,,
+49,54,B,dm,109.0,exclaim,"
+oh
+",,,,,,
+49,54,B,dm,110.0,acknowledge,"
+right ",,,,punc,type,stop
+49,55,A,dm,111.0,init,"
+now ",,,,punct,type,level
+49,56,B,dm,114.0,acknowledge,"
+right ",,,,punc,type,stop
+49,58,B,dm,116.0,acknowledge,"
+right ",,,,punc,type,stop
+49,60,B,dm,118.0,acknowledge,"
+right ",,,,punc,type,stop
+49,61,A,dm,119.0,init,"
+now ",,,,punct,type,level
+49,66,B,dm,129.0,exclaim,"
+oh
+",,,,,,
+49,67,A,dm,131.0,init,"
+now ",,,,punct,type,level
+49,68,B,dm,133.0,hesitate,"
+er
+",,,,,,
+49,77,A,dm,144.0,acknowledge,"
+aha ",,,,punc,type,stop
+49,79,A,dm,146.0,acknowledge,"
+aha ",,,,punc,type,stop
+49,82,B,dm,149.0,hesitate,"
+er
+",,,,,,
+49,82,B,dm,151.0,init,"
+",report-constrain,,,pause,,
+49,87,A,dm,158.0,acknowledge,"
+right ",,,,punc,type,stop
+49,88,B,dm,160.0,init,"
+well ",,,,punct,type,level
+49,89,A,dm,165.0,init,"
+well ",,,,punct,type,level
+49,90,B,dm,170.0,init,"
+well ",,,,punct,type,level
+49,92,B,dm,177.0,acknowledge,"
+",,,,pause,,
+49,92,B,dm,177.0,acknowledge,"
+",,,,punc,type,stop
+49,92,B,dm,178.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,94,B,dm,181.0,acknowledge,"
+right ",,,,punc,type,stop
+49,94,B,dm,182.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+49,95,A,dm,183.0,init,"
+",,,,pause,,
+49,95,A,dm,183.0,init,"
+",,,,punct,type,level
+49,97,A,dm,186.0,acknowledge,"
+aha ",,,,punc,type,stop
+49,105,A,dm,194.0,acknowledge,"
+aha ",,,,punc,type,stop
+49,111,A,dm,200.0,acknowledge,"
+",,,,pause,,
+49,111,A,dm,200.0,acknowledge,"
+",,,,punc,type,stop
+49,113,A,dm,203.0,acknowledge,"
+aha ",,,,punc,type,stop
+49,115,A,dm,206.0,init,"
+",,,,pause,,
+49,115,A,dm,206.0,init,"
+",,,,punct,type,level
+49,117,A,dm,211.0,acknowledge,"
+",tag,,,pause,length,6s
+49,117,A,dm,211.0,acknowledge,"
+",tag,,,punc,type,stop
+49,117,A,dm,212.0,init,"
+",,,,pause,length,4s
+49,117,A,dm,212.0,init,"
+",,,,punct,type,level
+49,126,B,dm,223.0,hesitate,"
+er
+",,,,,,
+49,127,A,dm,225.0,init,"
+now ",,,,punct,type,level
+49,129,A,dm,229.0,init,"
+now ",,,,punct,type,level
+49,132,B,dm,236.0,acknowledge,"
+right ",,,,punc,type,stop
+49,134,B,dm,241.0,exclaim,"
+oh
+",,,,,,
+49,134,B,dm,243.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+49,135,A,dm,244.0,init,"
+so ",,,,punc,type,level
+50,2,B,dm,5.0,hesitate,"
+erm erm
+",,,,,,
+50,3,A,dm,7.0,init,"
+now ",,,,punc,type,level
+50,4,B,dm,9.0,pardon,"
+sorry ",regret,,,punc,type,stop
+50,7,A,dm,13.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+50,8,B,dm,15.0,pardon,"
+sorry ",regret,,,punc,type,query
+50,11,A,dm,25.0,confirm-acknowledge,"
+right ",,,,punc,type,stop
+50,11,A,dm,26.0,init,"
+now ",,,,punc,type,level
+50,13,A,dm,31.0,init,"
+",,,,pause,length,7s
+50,13,A,dm,31.0,init,"
+",,,,punc,type,level
+50,13,A,dm,33.0,init,"
+so ",,,,punc,type,level
+50,14,B,dm,36.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+50,15,A,dm,38.0,init,"
+",,,,pause,length,6s
+50,15,A,dm,38.0,init,"
+",,,,punc,type,level
+50,16,B,dm,40.0,pardon,"
+sorry ",regret,,,punc,type,query
+50,23,A,dm,48.0,init,"
+",,,,pause,length,19s
+50,23,A,dm,48.0,init,"
+",,,,punc,type,level
+50,27,A,dm,54.0,init,"
+",,,,pause,length,3s
+50,27,A,dm,54.0,init,"
+",,,,punc,type,level
+50,32,B,dm,67.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+50,33,A,dm,68.0,init,"
+so ",,,,punc,type,level
+50,36,B,dm,72.0,acknowledge,"
+right ",,,,punc,type,stop
+50,39,A,dm,76.0,init,"
+",,,,pause,length,7s
+50,39,A,dm,76.0,init,"
+",,,,punc,type,level
+50,39,A,dm,79.0,init,"
+you know ",,,,punc,type,level
+50,39,A,dm,81.0,init,"
+so ",,,,punc,type,level
+50,40,B,dm,83.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+50,41,A,dm,85.0,init,"
+",,,,pause,length,12s
+50,41,A,dm,85.0,init,"
+",,,,punc,type,level
+50,42,B,dm,87.0,pardon,"
+sorry ",regret,,,punc,type,query
+50,51,A,dm,97.0,init,"
+and now ",,,,punc,type,level
+50,52,B,dm,99.0,hesitate,"
+erm ",,,,pause,,
+50,54,B,dm,105.0,hesitate,"
+erm ",,,,pause,,
+50,55,A,dm,107.0,init,"
+well ",,,,punc,type,level
+50,56,B,dm,109.0,acknowledge,"
+right ",,,,punc,type,stop
+50,62,B,dm,117.0,acknowledge,"
+",,,,pause,,
+50,62,B,dm,117.0,acknowledge,"
+",,,,overlap,type,start
+50,64,B,dm,119.0,acknowledge,"
+right ",,,,punc,type,stop
+50,67,A,dm,124.0,acknowledge,"
+right ",,,,punc,type,stop
+50,67,A,dm,125.0,init,"
+well ",,,,punc,type,level
+50,69,A,dm,130.0,acknowledge,"
+right ",,,,punc,type,stop
+50,71,A,dm,136.0,acknowledge,"
+right ",,,,punc,type,stop
+50,71,A,dm,137.0,init,"
+well ",,,,punc,type,level
+50,74,B,dm,143.0,acknowledge,"
+right ",,,,punc,type,stop
+50,74,B,dm,146.0,hold,"
+one second ",,,,punc,type,stop
+51,2,B,dm,5.0,hesitate,"
+erm ",,,,pause,,
+51,2,B,dm,7.0,hesitate,"
+erm
+",,,,,,
+51,3,A,dm,9.0,acknowledge,"
+",,,,pause,,
+51,3,A,dm,9.0,acknowledge,"
+",,,,punc,type,stop
+51,5,A,dm,12.0,init,"
+now ",,,,punct,type,level
+51,7,A,dm,15.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+51,8,B,dm,16.0,hesitate,"
+erm
+",,,,,,
+51,9,A,dm,18.0,init,"
+",,,,pause,,
+51,9,A,dm,18.0,init,"
+",,,,punct,type,level
+51,10,B,dm,20.0,pardon,"
+sorry ",regret,,,punc,type,query
+51,15,A,dm,25.0,init,"
+so ",,,,punc,type,level
+51,16,B,dm,27.0,confirm-acknowledge,"
+aha ",,,,punc,type,stop
+51,22,B,dm,37.0,hesitate,"
+",,,,pause,,
+51,22,B,dm,38.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+51,25,A,dm,47.0,apologise,"
+",regret,,,pause,length,4s
+51,25,A,dm,47.0,apologise,"
+",regret,,,punc,type,query
+51,27,A,dm,52.0,acknowledge,"
+right ",,,,punc,type,stop
+51,28,B,dm,56.0,acknowledge,"
+right ",,,,punc,type,stop
+51,29,A,dm,57.0,init,"
+now ",,,,punct,type,level
+51,30,B,dm,60.0,acknowledge,"
+right ",,,,punc,type,stop
+51,30,B,dm,61.0,init,"
+so ",,,,punc,type,level
+51,36,B,dm,72.0,hesitate,"
+erm
+",,,,,,
+51,37,A,dm,74.0,init,"
+",,,,pause,length,2s
+51,37,A,dm,74.0,init,"
+",,,,punct,type,level
+51,39,A,dm,77.0,init,"
+now ",,,,punct,type,level
+51,40,B,dm,79.0,hesitate,"
+erm
+",,,,,,
+51,41,A,dm,84.0,init,"
+",,,,pause,length,2s
+51,41,A,dm,84.0,init,"
+",,,,punct,type,level
+51,42,B,dm,92.0,acknowledge,"
+right ",,,,punc,type,stop
+51,45,A,dm,100.0,init,"
+now ",,,,punct,type,level
+51,47,A,dm,105.0,reqConfirm,"
+",,,,overlap,type,start
+51,47,A,dm,105.0,reqConfirm,"
+",,,,punc,type,level
+51,50,B,dm,110.0,acknowledge,"
+",tag,,,overlap,type,start
+51,50,B,dm,110.0,acknowledge,"
+",tag,,,punc,type,stop
+51,54,B,dm,115.0,acknowledge,"
+mhm ",,,,punc,type,stop
+51,62,B,dm,126.0,hesitate,"
+",,,,pause,,
+51,65,A,dm,131.0,acknowledge,"
+aha ",,,,punc,type,stop
+51,67,A,dm,133.0,init,"
+now ",,,,punct,type,level
+51,68,B,dm,135.0,hesitate,"
+er 
+",,,,,,
+51,69,A,dm,137.0,acknowledge,"
+right ",,,,punc,type,stop
+51,71,A,dm,140.0,acknowledge,"
+aha ",,,,punc,type,stop
+51,72,B,dm,143.0,exclaim,"
+oh
+",,,,,,
+51,73,A,dm,145.0,agree,"
+that's ok ",reassurance,,,punc,type,stop
+51,73,A,dm,146.0,init,"
+now ",,,,punct,type,level
+51,74,B,dm,148.0,hesitate,"
+em
+",,,,,,
+51,75,A,dm,150.0,pardon,"
+sorry ",regret,,,punc,type,query
+51,83,A,dm,159.0,acknowledge,"
+",,,,pause,,
+51,83,A,dm,159.0,acknowledge,"
+",,,,punc,type,stop
+51,85,A,dm,162.0,acknowledge,"
+",tag,,,pause,length,2s
+51,85,A,dm,162.0,acknowledge,"
+",tag,,,punc,type,stop
+51,87,A,dm,164.0,init,"
+now ",,,,punct,type,level
+51,89,A,dm,167.0,init,"
+well ",,,,punct,type,level
+51,92,B,dm,172.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+51,92,B,dm,173.0,approve,"
+fine ",,,,punc,type,stop
+51,93,A,dm,175.0,init,"
+now ",,,,punct,type,level
+51,103,A,dm,187.0,init,"
+now ",,,,punct,type,level
+51,104,B,dm,189.0,acknowledge,"
+mhm ",,,,punc,type,stop
+51,106,B,dm,192.0,acknowledge,"
+right ",,,,punc,type,stop
+51,107,A,dm,194.0,acknowledge,"
+aha ",,,,punc,type,stop
+51,108,B,dm,195.0,acknowledge,"
+aha ",,,,punc,type,stop
+51,113,A,dm,201.0,acknowledge,"
+ok now ",tag,,,punc,type,query
+51,114,B,dm,203.0,approve,"
+lovely ",,,,punc,type,stop
+51,115,A,dm,204.0,init,"
+so ",,,,punc,type,stop
+51,118,B,dm,209.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+52,2,B,dm,5.0,hesitate,"
+erm
+",,,,,,
+52,3,A,dm,7.0,init,"
+now ",,,,punct,type,level
+52,6,B,dm,12.0,hesitate,"
+er
+",,,,,,
+52,18,B,dm,29.0,confirm-acknowledge,"
+mhm ",,,,punc,type,stop
+52,19,A,dm,30.0,init,"
+now ",,,,punct,type,level
+52,19,A,dm,30.0,init,"
+now ",,,,punc,type,stop
+52,26,B,dm,42.0,acknowledge,"
+mhm ",,,,punc,type,stop
+52,28,B,dm,45.0,acknowledge,"
+mhm ",,,,punc,type,stop
+52,30,B,dm,47.0,acknowledge,"
+ok ",tag,,,pause,,
+52,30,B,dm,47.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+52,30,B,dm,48.0,hesitate,"
+erm ",,,,pause,length,2s
+52,30,B,dm,50.0,phatic,"
+i mean ",,,,punc,type,level
+52,34,B,dm,56.0,acknowledge,"
+ok ",tag,,,pause,,
+52,34,B,dm,56.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+52,35,A,dm,59.0,init,"
+now ",,,,punct,type,level
+52,36,B,dm,62.0,hesitate,"
+",,,,pause,,
+52,40,B,dm,69.0,acknowledge,"
+mhm ",,,,punc,type,stop
+52,41,A,dm,70.0,init,"
+now ",,,,punct,type,level
+52,43,A,dm,73.0,init,"
+now ",,,,punct,type,level
+52,43,A,dm,73.0,init,"
+now ",,,,punc,type,stop
+52,44,B,dm,75.0,hesitate,"
+er ",,,,pause,length,2s
+52,45,A,dm,77.0,pardon,"
+",regret,,,pause,,
+52,45,A,dm,77.0,pardon,"
+",regret,,,punc,type,query
+52,46,B,dm,78.0,init,"
+well ",,,,punct,type,level
+52,48,B,dm,82.0,hesitate,"
+erm
+",,,,,,
+52,49,A,dm,86.0,init,"
+now ",,,,punct,type,level
+52,52,B,dm,93.0,acknowledge,"
+mhm ",,,,punc,type,stop
+52,59,A,dm,100.0,acknowledge,"
+aha ",,,,punc,type,stop
+52,61,A,dm,102.0,acknowledge,"
+aha ",,,,punc,type,stop
+53,2,B,dm,6.0,hesitate,"
+",,,,pause,,
+53,2,B,dm,10.0,hesitate,"
+",,,,pause,,
+53,5,A,dm,19.0,init,"
+",,,,pause,length,3s
+53,5,A,dm,19.0,init,"
+",,,,punct,type,level
+53,8,B,dm,28.0,acknowledge,"
+right ",,,,punc,type,stop
+53,11,A,dm,34.0,init,"
+",,,,pause,,
+53,11,A,dm,34.0,init,"
+",,,,punc,type,level
+53,11,A,dm,35.0,init,"
+basically
+",,,,,,
+53,12,B,dm,38.0,acknowledge,"
+right ",,,,punc,type,stop
+53,18,B,dm,46.0,acknowledge,"
+or right oh ",,,,punc,type,stop
+53,20,B,dm,49.0,exclaim,"
+oh
+",,,,,,
+53,22,B,dm,55.0,acknowledge,"
+right ",,,,punc,type,stop
+53,24,B,dm,60.0,init,"
+",,,,pause,,
+53,24,B,dm,60.0,init,"
+",,,,punc,type,level
+53,26,B,dm,69.0,acknowledge,"
+right ",,,,punc,type,stop
+53,28,B,dm,75.0,hesitate,"
+oh
+",,,,,,
+53,28,B,dm,76.0,acknowledge,"
+right then ",decl,,positive,punc,type,stop
+53,31,A,dm,87.0,init,"
+now ",,,,punct,type,level
+53,32,B,dm,90.0,hesitate,"
+erm
+",,,,,,
+53,35,A,dm,97.0,init,"
+",,,,pause,length,7s
+53,35,A,dm,97.0,init,"
+",,,,punct,type,level
+53,37,A,dm,103.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+53,39,A,dm,108.0,init,"
+so ",,,,punc,type,level
+53,40,B,dm,114.0,phatic,"
+",,,,pause,,
+53,40,B,dm,114.0,phatic,"
+",,,,punc,type,level
+53,42,B,dm,119.0,acknowledge,"
+",tag,,,overlap,type,start
+53,42,B,dm,119.0,acknowledge,"
+",tag,,,punc,type,stop
+53,43,A,dm,120.0,init,"
+now ",,,,punc,type,level
+53,44,B,dm,122.0,hesitate,"
+erm
+",,,,,,
+53,45,A,dm,125.0,init,"
+now ",,,,punct,type,level
+53,51,A,dm,133.0,init,"
+now ",,,,punct,type,level
+53,52,B,dm,137.0,acknowledge,"
+right ",,,,punc,type,stop
+53,55,A,dm,140.0,init,"
+now ",,,,punct,type,level
+53,56,B,dm,148.0,acknowledge,"
+right ",,,,punc,type,stop
+53,57,A,dm,149.0,init,"
+now ",,,,punct,type,level
+53,58,B,dm,151.0,hesitate,"
+erm
+",,,,,,
+53,59,A,dm,154.0,acknowledge,"
+right ",,,,punc,type,stop
+53,59,A,dm,155.0,init,"
+so ",,,,punc,type,level
+53,60,B,dm,160.0,answer-acknowledge,"
+right ",,,,punc,type,stop
+53,60,B,dm,161.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+53,61,A,dm,163.0,init,"
+",,,,pause,length,2s
+53,61,A,dm,163.0,init,"
+",,,,punct,type,level
+53,65,A,dm,171.0,answer-acknowledge,"
+aha ",,,,overlap,type,end
+53,65,A,dm,171.0,answer-acknowledge,"
+aha ",,,,punc,type,stop
+53,66,B,dm,174.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+53,69,A,dm,178.0,acknowledge,"
+",,,,pause,length,1s
+53,69,A,dm,178.0,acknowledge,"
+",,,,punc,type,stop
+53,71,A,dm,181.0,acknowledge,"
+aha ",,,,punc,type,stop
+53,73,A,dm,184.0,init,"
+",,,,pause,,
+53,73,A,dm,184.0,init,"
+",,,,punct,type,level
+53,81,A,dm,194.0,init,"
+now ",,,,punct,type,level
+53,82,B,dm,197.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+53,84,B,dm,201.0,acknowledge,"
+right ",,,,punc,type,stop
+53,101,A,dm,222.0,init,"
+",,,,pause,,
+53,101,A,dm,222.0,init,"
+",,,,punc,type,level
+53,101,A,dm,224.0,init,"
+now ",,,,punct,type,level
+53,101,A,dm,228.0,init,"
+",,,,pause,,
+53,101,A,dm,228.0,init,"
+",,,,punct,type,level
+53,109,A,dm,239.0,acknowledge,"
+ok now ",tag,,,punc,type,level
+53,109,A,dm,240.0,init,"
+so
+",,,,,,
+53,110,B,dm,244.0,acknowledge,"
+right ",,,,punc,type,stop
+53,115,A,dm,254.0,init,"
+well ",,,,punct,type,level
+53,116,B,dm,258.0,acknowledge,"
+",,,,overlap,type,start
+53,116,B,dm,258.0,acknowledge,"
+",,,,punc,type,stop
+53,118,B,dm,260.0,acknowledge,"
+right ",,,,punc,type,stop
+53,119,A,dm,261.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+53,122,B,dm,264.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,3,A,dm,6.0,init,"
+now ",,,,punct,type,level
+54,11,A,dm,17.0,init,"
+now ",,,,punct,type,level
+54,14,B,dm,21.0,hesitate,"
+er
+",,,,,,
+54,16,B,dm,25.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+54,21,A,dm,33.0,init,"
+now ",,,,punct,type,level
+54,22,B,dm,35.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,23,A,dm,36.0,init,"
+",,,,pause,length,3s
+54,23,A,dm,36.0,init,"
+",,,,punct,type,level
+54,24,B,dm,38.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+54,26,B,dm,42.0,acknowledge,"
+",,,,pause,,
+54,26,B,dm,42.0,acknowledge,"
+",,,,punc,type,stop
+54,28,B,dm,46.0,acknowledge,"
+",tag,,,pause,,
+54,28,B,dm,46.0,acknowledge,"
+",tag,,,punc,type,stop
+54,30,B,dm,53.0,confirm-agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+54,31,A,dm,55.0,init,"
+and now ",,,,punct,type,level
+54,34,B,dm,59.0,hesitate,"
+er
+",,,,,,
+54,35,A,dm,61.0,acknowledge,"
+ok now ",tag,,,punct,type,level
+54,36,B,dm,69.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,37,A,dm,70.0,init,"
+now ",,,,punct,type,level
+54,48,B,dm,84.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+54,51,A,dm,87.0,acknowledge,"
+aha ",,,,punc,type,stop
+54,53,A,dm,89.0,acknowledge,"
+aha ",,,,punc,type,stop
+54,57,A,dm,93.0,acknowledge,"
+aha ",,,,punc,type,stop
+54,61,A,dm,98.0,init,"
+now ",,,,punct,type,level
+54,62,B,dm,100.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,64,B,dm,102.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,65,A,dm,103.0,init,"
+now ",,,,punct,type,level
+54,66,B,dm,106.0,agree,"
+sure ",,,,punc,type,stop
+54,75,A,dm,117.0,init,"
+now ",,,,punct,type,level
+54,82,B,dm,127.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+54,83,A,dm,131.0,agree,"
+that's correct ",tag,,,punc,type,stop
+54,84,B,dm,134.0,acknowledge,"
+",tag,,,overlap,type,end
+54,84,B,dm,134.0,acknowledge,"
+",tag,,,punc,type,stop
+55,3,A,dm,9.0,init,"
+now ",,,,punct,type,level
+55,4,B,dm,11.0,hesitate,"
+erm ",,,,overlap,type,end
+55,5,A,dm,14.0,init,"
+now ",,,,punct,type,level
+55,8,B,dm,18.0,hesitate,"
+er
+",,,,,,
+55,9,A,dm,20.0,init,"
+now ",,,,punct,type,level
+55,12,B,dm,25.0,hesitate,"
+erm
+",,,,,,
+55,13,A,dm,29.0,init,"
+",,,,pause,length,2s
+55,13,A,dm,29.0,init,"
+",,,,punct,type,level
+55,18,B,dm,39.0,acknowledge,"
+right ",,,,punc,type,stop
+55,19,A,dm,42.0,init,"
+now ",,,,punct,type,level
+55,20,B,dm,44.0,hesitate,"
+erm
+",,,,,,
+55,21,A,dm,49.0,exclaim,"
+oh
+",,,,,,
+55,22,B,dm,51.0,hesitate,"
+erm
+",,,,,,
+55,22,B,dm,52.0,confirm-acknowledge,"
+right ",,,,punc,type,stop
+55,23,A,dm,55.0,stateOpt-agree,"
+sure ",,,,punc,type,stop
+55,23,A,dm,56.0,init,"
+now ",,,,punct,type,level
+55,26,B,dm,61.0,acknowledge,"
+right ",,,,punc,type,stop
+55,26,B,dm,62.0,approve,"
+fine ",,,,punc,type,stop
+55,27,A,dm,64.0,acknowledge,"
+ok then ",tag,,,punc,type,level
+56,3,A,dm,7.0,init,"
+now ",,,,punct,type,level
+56,6,B,dm,13.0,agree,"
+",reassurance-tag,,,pause,,
+56,6,B,dm,13.0,agree,"
+",reassurance-tag,,,punc,type,stop
+56,7,A,dm,14.0,init,"
+now ",,,,punct,type,level
+56,10,B,dm,18.0,hesitate,"
+erm ",,,,pause,,
+56,11,A,dm,20.0,init,"
+now ",,,,punct,type,level
+56,12,B,dm,22.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,13,A,dm,23.0,init,"
+",,,,pause,length,12s
+56,13,A,dm,23.0,init,"
+",,,,punct,type,level
+56,15,A,dm,31.0,init,"
+",,,,pause,,
+56,15,A,dm,31.0,init,"
+",,,,punct,type,level
+56,18,B,dm,36.0,hesitate,"
+erm
+",,,,,,
+56,20,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,20,B,dm,44.0,hesitate,"
+",,,,pause,length,2s
+56,26,B,dm,53.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,31,A,dm,59.0,init,"
+now ",,,,punct,type,level
+56,32,B,dm,61.0,hesitate,"
+erm
+",,,,,,
+56,33,A,dm,63.0,init,"
+",,,,pause,length,10s
+56,33,A,dm,63.0,init,"
+",,,,punct,type,level
+56,34,B,dm,66.0,hesitate,"
+",,,,pause,,
+56,35,A,dm,68.0,acknowledge,"
+",tag,,,pause,length,3s
+56,35,A,dm,68.0,acknowledge,"
+",tag,,,punc,type,stop
+56,35,A,dm,70.0,init,"
+now ",,,,punct,type,level
+56,35,A,dm,72.0,init,"
+now ",,,,punct,type,level
+56,38,B,dm,76.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,43,A,dm,81.0,init,"
+now ",,,,punct,type,level
+56,49,A,dm,89.0,init,"
+",,,,pause,length,3s
+56,49,A,dm,89.0,init,"
+",,,,punct,type,level
+56,51,A,dm,92.0,acknowledge,"
+aha ",,,,punc,type,stop
+56,53,A,dm,94.0,init,"
+",,,,pause,length,3s
+56,53,A,dm,94.0,init,"
+",,,,punct,type,level
+56,54,B,dm,96.0,hesitate,"
+erm ",,,,anonym,type,letter
+56,55,A,dm,98.0,acknowledge,"
+aha ",,,,punc,type,stop
+56,59,A,dm,103.0,init,"
+",,,,pause,length,5s
+56,59,A,dm,103.0,init,"
+",,,,punct,type,level
+56,60,B,dm,105.0,hesitate,"
+er
+",,,,,,
+56,71,A,dm,118.0,init,"
+now ",,,,punct,type,level
+56,72,B,dm,121.0,acknowledge,"
+yeah
+",,,,,,
+56,75,A,dm,125.0,init,"
+",,,,pause,,
+56,75,A,dm,125.0,init,"
+",,,,punct,type,level
+56,76,B,dm,127.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,78,B,dm,129.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,79,A,dm,130.0,init,"
+now ",,,,punct,type,level
+56,86,B,dm,138.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+56,87,A,dm,139.0,init,"
+so ",,,,punc,type,level
+56,88,B,dm,143.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+57,2,B,dm,5.0,hesitate,"
+erm
+",,,,,,
+57,3,A,dm,7.0,init,"
+now ",,,,punct,type,level
+57,9,A,dm,15.0,init,"
+now ",,,,punct,type,level
+57,12,B,dm,19.0,init,"
+erm ",,,,pause,,
+57,12,B,dm,19.0,init,"
+erm ",,,,punct,type,level
+57,12,B,dm,21.0,init,"
+so
+",,,,,,
+57,15,A,dm,25.0,init,"
+",,,,pause,length,24s
+57,15,A,dm,25.0,init,"
+",,,,punct,type,level
+57,16,B,dm,27.0,acknowledge,"
+",tag,,,pause,,
+57,16,B,dm,27.0,acknowledge,"
+",tag,,,punc,type,stop
+57,17,A,dm,28.0,init,"
+",,,,pause,length,15s
+57,17,A,dm,28.0,init,"
+",,,,punct,type,level
+57,17,A,dm,30.0,init,"
+",,,,pause,,
+57,17,A,dm,30.0,init,"
+",,,,punct,type,level
+57,23,A,dm,45.0,init,"
+well ",,,,punct,type,level
+57,23,A,dm,48.0,apologise,"
+sorry ",regret,,,punc,type,stop
+57,24,B,dm,50.0,exclaim,"
+oh
+",,,,,,
+57,24,B,dm,51.0,acknowledge,"
+i see  ",,,,punc,type,level
+57,24,B,dm,52.0,acknowledge,"
+right ",,,,pause,,
+57,24,B,dm,52.0,acknowledge,"
+right ",,,,punc,type,stop
+57,25,A,dm,54.0,init,"
+",,,,pause,,
+57,25,A,dm,54.0,init,"
+",,,,punct,type,level
+57,28,B,dm,65.0,init,"
+well ",,,,punct,type,level
+57,30,B,dm,68.0,confirm-acknowledge,"
+mhm ",,,,punc,type,stop
+57,33,A,dm,71.0,init,"
+now ",,,,punct,type,level
+57,33,A,dm,74.0,apologise,"
+sorry ",regret,,,punc,type,stop
+57,38,B,dm,84.0,acknowledge,"
+right ",,,,punc,type,stop
+57,38,B,dm,88.0,exclaim,"
+",exclaim-decl,,positive,pause,length,1s
+57,38,B,dm,88.0,exclaim,"
+",exclaim-decl,,positive,punc,type,stop
+57,38,B,dm,89.0,init,"
+",,,,pause,length,4s
+57,38,B,dm,89.0,init,"
+",,,,punc,type,level
+57,38,B,dm,90.0,init,"
+",,,,pause,length,2s
+57,38,B,dm,90.0,init,"
+",,,,punct,type,level
+57,39,A,dm,94.0,acknowledge,"
+right ",,,,punc,type,stop
+57,39,A,dm,95.0,init,"
+well ",,,,punct,type,level
+57,40,B,dm,100.0,acknowledge,"
+",tag,,,overlap,type,start
+57,40,B,dm,100.0,acknowledge,"
+",tag,,,punc,type,stop
+57,45,A,dm,105.0,acknowledge,"
+aha ",,,,punc,type,stop
+57,47,A,dm,109.0,hesitate,"
+er
+",,,,,,
+57,50,B,dm,114.0,exclaim,"
+oh
+",,,,,,
+57,52,B,dm,118.0,acknowledge,"
+right ",,,,punc,type,stop
+57,52,B,dm,119.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+57,54,B,dm,123.0,acknowledge,"
+right ",,,,punc,type,stop
+57,54,B,dm,126.0,init,"
+so ",,,,punc,type,level
+57,55,A,dm,127.0,acknowledge,"
+",,,,pause,length,1s
+57,55,A,dm,127.0,acknowledge,"
+",,,,punc,type,stop
+57,55,A,dm,130.0,init,"
+",,,,pause,length,2s
+57,55,A,dm,130.0,init,"
+",,,,punct,type,level
+57,57,A,dm,134.0,expressRegret,"
+",,,,pause,length,37s
+57,58,B,dm,138.0,exclaim,"
+oh
+",,,,,,
+57,58,B,dm,140.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+57,59,A,dm,142.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+57,60,B,dm,143.0,acknowledge,"
+alright ",tag,,,punc,type,stop
+58,2,B,dm,5.0,hesitate,"
+erm ",,,,pause,,
+58,3,A,dm,7.0,init,"
+now ",,,,punct,type,level
+58,10,B,dm,15.0,hesitate,"
+er
+",,,,,,
+58,10,B,dm,17.0,hesitate,"
+",,,,pause,length,3s
+58,16,B,dm,28.0,exclaim,"
+oh
+",,,,,,
+58,16,B,dm,29.0,apologise,"
+sorry ",decl,,positive,punc,type,stop
+58,17,A,dm,30.0,init,"
+",,,,pause,length,3s
+58,17,A,dm,30.0,init,"
+",,,,punct,type,level
+58,18,B,dm,32.0,hesitate,"
+er ",,,,pause,,
+58,21,A,dm,36.0,init,"
+now ",,,,punct,type,level
+58,21,A,dm,38.0,init,"
+",,,,pause,,
+58,21,A,dm,38.0,init,"
+",,,,punct,type,level
+58,23,A,dm,42.0,init,"
+now ",,,,punct,type,level
+58,24,B,dm,44.0,hesitate,"
+erm
+",,,,,,
+58,35,A,dm,65.0,init,"
+now ",,,,punct,type,level
+58,37,A,dm,69.0,init,"
+",,,,pause,,
+58,37,A,dm,69.0,init,"
+",,,,punct,type,level
+58,40,B,dm,75.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+58,41,A,dm,76.0,init,"
+",,,,pause,,
+58,41,A,dm,76.0,init,"
+",,,,punct,type,level
+58,43,A,dm,79.0,init,"
+now ",,,,punct,type,level
+58,44,B,dm,85.0,acknowledge,"
+right ",,,,punc,type,stop
+58,45,A,dm,86.0,init,"
+so ",,,,punc,type,level
+58,46,B,dm,90.0,acknowledge,"
+right ",,,,punc,type,stop
+58,48,B,dm,92.0,acknowledge,"
+right ",,,,punc,type,stop
+58,49,A,dm,93.0,init,"
+",,,,pause,length,2s
+58,49,A,dm,93.0,init,"
+",,,,punc,type,level
+58,55,A,dm,101.0,init,"
+",,,,pause,length,6s
+58,55,A,dm,101.0,init,"
+",,,,punct,type,level
+58,56,B,dm,103.0,hesitate,"
+er ",,,,unclear,length,5 syllables
+58,57,A,dm,105.0,acknowledge,"
+aha ",,,,punc,type,stop
+58,60,B,dm,108.0,hesitate,"
+er
+",,,,,,
+58,61,A,dm,110.0,init,"
+now ",,,,punct,type,level
+58,62,B,dm,112.0,hesitate,"
+erm ",,,,pause,,
+58,62,B,dm,114.0,hold,"
+",,,,pause,,
+58,62,B,dm,114.0,hold,"
+",,,,punc,type,level
+58,63,A,dm,117.0,acknowledge,"
+right ",,,,punc,type,stop
+58,65,A,dm,123.0,acknowledge,"
+",,,,pause,,
+58,65,A,dm,123.0,acknowledge,"
+",,,,punc,type,stop
+58,67,A,dm,128.0,init,"
+",,,,pause,length,9s
+58,67,A,dm,128.0,init,"
+",,,,punct,type,level
+58,71,A,dm,134.0,init,"
+now ",,,,punct,type,level
+58,80,B,dm,145.0,hesitate,"
+er
+",,,,,,
+58,81,A,dm,148.0,init,"
+now ",,,,punct,type,level
+58,82,B,dm,150.0,hesitate,"
+er
+",,,,,,
+58,83,A,dm,153.0,init,"
+",,,,pause,,
+58,83,A,dm,153.0,init,"
+",,,,punct,type,level
+58,84,B,dm,155.0,hesitate,"
+erm
+",,,,,,
+58,85,A,dm,158.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+58,85,A,dm,160.0,init,"
+",,,,pause,length,2s
+58,85,A,dm,160.0,init,"
+",,,,punc,type,level
+58,85,A,dm,163.0,init,"
+",,,,pause,length,6s
+58,85,A,dm,163.0,init,"
+",,,,punct,type,level
+58,85,A,dm,172.0,init,"
+",,,,pause,,
+58,85,A,dm,172.0,init,"
+",,,,punc,type,stop
+58,86,B,dm,177.0,acknowledge,"
+right ",,,,punc,type,stop
+58,87,A,dm,179.0,init,"
+",,,,pause,,
+58,87,A,dm,179.0,init,"
+",,,,punct,type,level
+58,93,A,dm,188.0,agree,"
+that's correct ",tag,,,punc,type,stop
+58,94,B,dm,190.0,acknowledge,"
+right ",,,,punc,type,stop
+58,95,A,dm,193.0,init,"
+well ",,,,punct,type,level
+58,96,B,dm,197.0,acknowledge,"
+right ",,,,punc,type,stop
+58,96,B,dm,198.0,acknowledge,"
+ok ",,,,punc,type,stop
+58,98,B,dm,201.0,acknowledge,"
+right ",,,,punc,type,stop
+58,100,B,dm,204.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+59,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+59,2,B,dm,7.0,hesitate,"
+er
+",,,,,,
+59,3,A,dm,11.0,init,"
+now ",,,,punct,type,level
+59,8,B,dm,17.0,hesitate,"
+er
+",,,,,,
+59,9,A,dm,20.0,acknowledge,"
+",,,,pause,length,2s
+59,9,A,dm,20.0,acknowledge,"
+",,,,punc,type,stop
+59,12,B,dm,25.0,confirm-state,"
+mhm ",,,,punc,type,stop
+59,12,B,dm,26.0,approve,"
+",,,,pause,,
+59,12,B,dm,26.0,approve,"
+",,,,punc,type,stop
+59,13,A,dm,27.0,init,"
+",,,,pause,,
+59,13,A,dm,27.0,init,"
+",,,,punct,type,level
+59,14,B,dm,29.0,hesitate,"
+er
+",,,,,,
+59,14,B,dm,31.0,hesitate,"
+",,,,pause,,
+59,16,B,dm,35.0,confirm-acknowledge,"
+mhm ",,,,punc,type,stop
+59,18,B,dm,39.0,approve,"
+",,,,pause,,
+59,18,B,dm,39.0,approve,"
+",,,,punc,type,stop
+59,19,A,dm,40.0,init,"
+",,,,pause,length,9s
+59,19,A,dm,40.0,init,"
+",,,,punct,type,level
+59,20,B,dm,43.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+59,21,A,dm,44.0,init,"
+now ",,,,punct,type,level
+59,22,B,dm,48.0,exclaim,"
+oh
+",,,,,,
+59,24,B,dm,53.0,acknowledge,"
+mhm ",,,,punc,type,stop
+59,25,A,dm,54.0,init,"
+now ",,,,punct,type,level
+59,29,A,dm,60.0,acknowledge,"
+",tag,,,pause,length,7s
+59,29,A,dm,60.0,acknowledge,"
+",tag,,,punc,type,stop
+59,29,A,dm,61.0,init,"
+",,,,pause,length,3s
+59,29,A,dm,61.0,init,"
+",,,,punct,type,level
+59,30,B,dm,63.0,hesitate,"
+erm
+",,,,,,
+59,33,A,dm,71.0,acknowledge,"
+aha ",,,,punc,type,stop
+59,36,B,dm,76.0,acknowledge,"
+mhm ",,,,punc,type,stop
+59,38,B,dm,81.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+59,39,A,dm,82.0,init,"
+",,,,pause,length,3s
+59,39,A,dm,82.0,init,"
+",,,,punct,type,level
+59,45,A,dm,94.0,init,"
+now ",,,,punct,type,level
+59,46,B,dm,96.0,exclaim,"
+oh
+",,,,,,
+59,47,A,dm,102.0,init,"
+",,,,pause,,
+59,47,A,dm,102.0,init,"
+",,,,punct,type,level
+59,49,A,dm,105.0,init,"
+",,,,pause,,
+59,49,A,dm,105.0,init,"
+",,,,punct,type,level
+59,49,A,dm,107.0,apologise,"
+sorry ",regret,,,punct,type,stop
+59,49,A,dm,111.0,init,"
+",,,,pause,length,11s
+59,49,A,dm,111.0,init,"
+",,,,punct,type,level
+59,49,A,dm,114.0,init,"
+",,,,pause,,
+59,49,A,dm,114.0,init,"
+",,,,punct,type,level
+59,51,A,dm,119.0,init,"
+now ",,,,punct,type,level
+59,52,B,dm,121.0,acknowledge,"
+right ",,,,punc,type,stop
+59,52,B,dm,122.0,acknowledge,"
+",tag,,,pause,,
+59,52,B,dm,122.0,acknowledge,"
+",tag,,,punc,type,stop
+59,54,B,dm,125.0,acknowledge,"
+mhm ",,,,punc,type,stop
+59,55,A,dm,128.0,apologise,"
+sorry ",regret,,,punc,type,stop
+59,58,B,dm,138.0,agree,"
+that's ok ",reassurance,,,punc,type,stop
+59,59,A,dm,140.0,init,"
+now ",,,,punct,type,level
+59,59,A,dm,142.0,init,"
+",,,,pause,,
+59,59,A,dm,142.0,init,"
+",,,,punct,type,level
+59,61,A,dm,149.0,init,"
+now ",,,,punct,type,level
+59,63,A,dm,157.0,init,"
+now ",,,,punct,type,level
+59,81,A,dm,178.0,init,"
+",,,,pause,,
+59,81,A,dm,178.0,init,"
+",,,,punct,type,level
+59,82,B,dm,180.0,acknowledge,"
+mhm ",,,,punc,type,stop
+59,83,A,dm,183.0,init,"
+",,,,pause,,
+59,83,A,dm,183.0,init,"
+",,,,punct,type,level
+59,92,B,dm,198.0,confirm-acknowledge,"
+ok then ",tag,,,punc,type,stop
+59,93,A,dm,199.0,init,"
+so ",,,,punc,type,stop
+60,2,B,dm,5.0,hesitate,"
+erm
+",,,,,,
+60,3,A,dm,7.0,init,"
+now ",,,,punct,type,level
+60,11,A,dm,18.0,init,"
+now ",,,,punct,type,level
+60,12,B,dm,20.0,hesitate,"
+",,,,pause,,
+60,16,B,dm,26.0,hesitate,"
+erm
+",,,,,,
+60,17,A,dm,28.0,init,"
+",,,,pause,length,2s
+60,22,B,dm,34.0,accept,"
+ok ",tag,,,punc,type,stop
+60,23,A,dm,35.0,init,"
+now ",,,,punct,type,level
+60,25,A,dm,39.0,init,"
+now ",,,,punct,type,level
+60,26,B,dm,45.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+60,26,B,dm,46.0,hesitate,"
+",,,,pause,,
+60,27,A,dm,48.0,acknowledge,"
+",tag,,,pause,,
+60,27,A,dm,48.0,acknowledge,"
+",tag,,,punc,type,stop
+60,29,A,dm,51.0,init,"
+",,,,pause,length,2s
+60,29,A,dm,51.0,init,"
+",,,,punct,type,level
+60,31,A,dm,55.0,init,"
+",,,,pause,length,4s
+60,31,A,dm,55.0,init,"
+",,,,punc,type,stop
+60,32,B,dm,58.0,acknowledge,"
+right ",,,,punc,type,stop
+60,34,B,dm,63.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+60,37,A,dm,66.0,init,"
+now ",,,,punct,type,level
+60,38,B,dm,69.0,hesitate,"
+erm
+",,,,,,
+60,39,A,dm,72.0,init,"
+now ",,,,punct,type,level
+60,40,B,dm,74.0,acknowledge,"
+right ",,,,punc,type,stop
+60,40,B,dm,75.0,acknowledge,"
+",tag,,,pause,,
+60,40,B,dm,75.0,acknowledge,"
+",tag,,,punc,type,stop
+60,40,B,dm,76.0,init,"
+well ",,,,punct,type,level
+60,41,A,dm,80.0,init,"
+now ",,,,punct,type,level
+60,42,B,dm,82.0,hesitate,"
+er
+",,,,,,
+60,43,A,dm,84.0,acknowledge,"
+right ",,,,punc,type,stop
+60,43,A,dm,85.0,expressRegret,"
+unfortunately
+",,,,,,
+60,44,B,dm,88.0,exclaim,"
+oh
+",,,,,,
+60,44,B,dm,89.0,acknowledge,"
+ok then ",tag-decl,,positive,punc,type,stop
+60,45,A,dm,90.0,confirm-acknowledge,"
+ok now ",tag,,,punc,type,query
+60,46,B,dm,91.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+61,2,B,dm,5.0,exclaim,"
+oh
+",,,,,,
+61,2,B,dm,7.0,hesitate,"
+erm
+",,,,,,
+61,5,A,dm,11.0,init,"
+",,,,pause,length,2s
+61,5,A,dm,11.0,init,"
+",,,,punct,type,level
+61,9,A,dm,16.0,init,"
+now ",,,,punct,type,level
+61,14,B,dm,24.0,exclaim,"
+oh
+",,,,,,
+61,16,B,dm,27.0,init,"
+well ",,,,punct,type,level
+61,16,B,dm,28.0,hesitate,"
+erm
+",,,,,,
+61,17,A,dm,31.0,acknowledge,"
+",,,,pause,,
+61,17,A,dm,31.0,acknowledge,"
+",,,,punc,type,stop
+61,19,A,dm,34.0,acknowledge,"
+",tag,,,pause,length,3s
+61,19,A,dm,34.0,acknowledge,"
+",tag,,,punc,type,stop
+61,20,B,dm,36.0,hesitate,"
+er
+",,,,,,
+61,22,B,dm,39.0,hesitate,"
+er
+",,,,,,
+61,23,A,dm,44.0,acknowledge,"
+",,,,pause,length,3s
+61,23,A,dm,44.0,acknowledge,"
+",,,,punc,type,stop
+61,25,A,dm,53.0,init,"
+",,,,pause,,
+61,25,A,dm,53.0,init,"
+",,,,punct,type,level
+61,26,B,dm,59.0,exclaim,"
+",,,,pause,length,2s
+61,26,B,dm,60.0,init,"
+well ",,,,punc,type,level
+61,29,A,dm,64.0,init,"
+",,,,pause,length,5s
+61,29,A,dm,64.0,init,"
+",,,,punct,type,level
+61,29,A,dm,66.0,init,"
+",,,,pause,length,12s
+61,29,A,dm,66.0,init,"
+",,,,punct,type,level
+61,30,B,dm,69.0,acknowledge,"
+rightio ",,,,punc,type,stop
+61,31,A,dm,70.0,init,"
+",,,,pause,length,14s
+61,31,A,dm,70.0,init,"
+",,,,punc,type,stop
+61,32,B,dm,73.0,agree,"
+sure ",,,,punc,type,stop
+61,34,B,dm,76.0,exclaim,"
+oh
+",,,,,,
+61,34,B,dm,77.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+61,35,A,dm,78.0,init,"
+now ",,,,punct,type,level
+61,36,B,dm,80.0,hesitate,"
+er
+",,,,,,
+61,37,A,dm,88.0,init,"
+so
+",,,,,,
+61,38,B,dm,91.0,hesitate,"
+erm
+",,,,,,
+61,40,B,dm,95.0,exclaim,"
+oh
+",,,,,,
+61,40,B,dm,96.0,acknowledge,"
+i see ",awareness-frag,,positive,punc,type,level
+61,40,B,dm,97.0,acknowledge,"
+",,,,pause,,
+61,40,B,dm,97.0,acknowledge,"
+",,,,overlap,type,end
+61,40,B,dm,97.0,acknowledge,"
+",,,,punc,type,stop
+61,41,A,dm,98.0,init,"
+so ",,,,punc,type,level
+61,45,A,dm,105.0,init,"
+now ",,,,punct,type,level
+61,46,B,dm,107.0,hesitate,"
+erm
+",,,,,,
+61,47,A,dm,109.0,init,"
+now ",,,,punct,type,level
+61,48,B,dm,111.0,hesitate,"
+erm ",,,,pause,length,3s
+61,48,B,dm,114.0,hold,"
+",hold-decl,,positive,pause,,
+61,48,B,dm,114.0,hold,"
+",hold-decl,,positive,punc,type,stop
+61,48,B,dm,119.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+61,49,A,dm,121.0,confirm-stateOpt,"
+mhm ",,,,punc,type,stop
+61,50,B,dm,125.0,hold,"
+",hold-decl,,positive,pause,,
+61,50,B,dm,125.0,hold,"
+",hold-decl,,positive,punc,type,stop
+61,50,B,dm,126.0,hesitate,"
+er
+",,,,,,
+61,50,B,dm,128.0,hesitate,"
+er
+",,,,,,
+61,50,B,dm,130.0,hesitate,"
+erm
+",,,,,,
+61,51,A,dm,134.0,init,"
+",,,,pause,length,4s
+61,51,A,dm,134.0,init,"
+",,,,punct,type,level
+61,52,B,dm,137.0,exclaim,"
+oh
+",,,,,,
+61,52,B,dm,138.0,init,"
+well ",,,,punc,type,level
+61,52,B,dm,141.0,init,"
+",,,,overlap,type,start
+61,52,B,dm,141.0,init,"
+",,,,punct,type,level
+61,53,A,dm,143.0,init,"
+well ",,,,punct,type,level
+61,55,A,dm,148.0,init,"
+so ",,,,punc,type,level
+61,55,A,dm,149.0,init,"
+so ",,,,overlap,type,end
+61,55,A,dm,149.0,init,"
+so ",,,,punc,type,level
+61,55,A,dm,159.0,init,"
+now ",,,,punct,type,level
+61,56,B,dm,167.0,acknowledge,"
+right ",,,,punc,type,stop
+61,57,A,dm,169.0,init,"
+now ",,,,punct,type,level
+61,58,B,dm,171.0,hesitate,"
+er
+",,,,,,
+61,64,B,dm,178.0,hesitate,"
+er
+",,,,,,
+61,65,A,dm,180.0,acknowledge,"
+aha ",,,,punc,type,stop
+62,3,A,dm,7.0,init,"
+",,,,pause,,
+62,3,A,dm,7.0,init,"
+",,,,punct,type,level
+62,9,A,dm,15.0,init,"
+now ",,,,punct,type,level
+62,10,B,dm,17.0,hesitate,"
+er
+",,,,,,
+62,12,B,dm,21.0,init,"
+well ",,,,punct,type,level
+62,12,B,dm,22.0,hesitate,"
+",,,,overlap,type,end
+62,20,B,dm,37.0,hesitate,"
+erm er
+",,,,,,
+62,23,A,dm,41.0,init,"
+",,,,pause,,
+62,23,A,dm,41.0,init,"
+",,,,punct,type,level
+62,25,A,dm,45.0,init,"
+now ",,,,punct,type,level
+62,27,A,dm,49.0,init,"
+",,,,pause,length,8s
+62,27,A,dm,49.0,init,"
+",,,,punct,type,level
+62,27,A,dm,51.0,init,"
+so ",,,,punc,type,level
+62,27,A,dm,53.0,init,"
+",,,,pause,length,7s
+62,27,A,dm,53.0,init,"
+",,,,punct,type,level
+62,27,A,dm,57.0,init,"
+so ",,,,punc,type,level
+62,27,A,dm,60.0,init,"
+",,,,pause,length,4s
+62,27,A,dm,60.0,init,"
+",,,,punct,type,level
+62,28,B,dm,62.0,acknowledge,"
+right ",,,,punc,type,stop
+62,32,B,dm,66.0,hesitate,"
+",,,,pause,,
+62,32,B,dm,66.0,hesitate,"
+",,,,pause,,
+62,32,B,dm,67.0,init,"
+we... well ",,,,punct,type,level
+62,32,B,dm,71.0,exclaim,"
+oh
+",,,,,,
+62,32,B,dm,72.0,expressAwareness,"
+i ",awareness-frag,,positive,pause,,
+62,32,B,dm,72.0,expressAwareness,"
+i ",awareness-frag,,positive,punc,type,level
+62,33,A,dm,81.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+62,33,A,dm,82.0,init,"
+",,,,backchannel,content,7_syllables
+62,33,A,dm,82.0,init,"
+",,,,punct,type,level
+62,35,A,dm,85.0,init,"
+so
+",,,,,,
+62,36,B,dm,87.0,init,"
+well ",,,,punct,type,level
+62,37,A,dm,90.0,init,"
+so ",,,,punc,type,level
+62,42,B,dm,97.0,approve,"
+lovely ",,,,punc,type,stop
+62,46,B,dm,103.0,approve,"
+lovely ",,,,punc,type,stop
+62,47,A,dm,104.0,init,"
+now ",,,,punct,type,level
+62,49,A,dm,108.0,init,"
+now ",,,,punct,type,level
+62,50,B,dm,111.0,exclaim,"
+oh
+",,,,,,
+62,52,B,dm,116.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+62,54,B,dm,120.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+62,56,B,dm,124.0,acknowledge,"
+right  ",,,,punc,type,stop
+62,57,A,dm,126.0,init,"
+now ",,,,punct,type,level
+62,64,B,dm,135.0,hesitate,"
+er
+",,,,,,
+62,77,A,dm,150.0,acknowledge,"
+aha ",,,,punc,type,stop
+62,83,A,dm,158.0,init,"
+now ",,,,punct,type,level
+62,85,A,dm,161.0,init,"
+now ",,,,punct,type,level
+62,88,B,dm,165.0,hesitate,"
+em
+",,,,,,
+62,103,A,dm,183.0,init,"
+now ",,,,punct,type,level
+62,108,B,dm,191.0,exclaim,"
+oh
+",,,,,,
+62,108,B,dm,192.0,hesitate,"
+er
+",,,,,,
+62,108,B,dm,193.0,exclaim,"
+",,,,pause,,
+62,109,A,dm,195.0,acknowledge,"
+ok ",,,,punc,type,stop
+62,110,B,dm,196.0,init,"
+",,,,pause,length,2s
+62,110,B,dm,196.0,init,"
+",,,,punc,type,stop
+62,111,A,dm,198.0,init,"
+now ",,,,punct,type,level
+62,112,B,dm,200.0,acknowledge,"
+right ",,,,overlap,type,end
+62,112,B,dm,200.0,acknowledge,"
+right ",,,,punc,type,stop
+62,123,A,dm,212.0,init,"
+now ",,,,punct,type,level
+62,126,B,dm,221.0,exclaim,"
+oh
+",,,,,,
+62,126,B,dm,222.0,acknowledge,"
+right then ",decl,,positive,punc,type,stop
+63,2,B,dm,5.0,hesitate,"
+er
+",,,,,,
+63,2,B,dm,8.0,hesitate,"
+",,,,pause,,
+63,2,B,dm,11.0,hesitate,"
+",,,,pause,,
+63,3,A,dm,15.0,init,"
+",,,,pause,,
+63,3,A,dm,15.0,init,"
+",,,,punct,type,level
+63,9,A,dm,27.0,init,"
+now ",,,,punct,type,level
+63,12,B,dm,31.0,hesitate,"
+er er
+",,,,,,
+63,13,A,dm,33.0,acknowledge,"
+ok now ",tag,,,punct,type,level
+63,14,B,dm,35.0,hesitate,"
+er
+",,,,,,
+63,15,A,dm,39.0,init,"
+",,,,pause,,
+63,15,A,dm,39.0,init,"
+",,,,punct,type,level
+63,16,B,dm,42.0,init,"
+well ",,,,punct,type,level
+63,20,B,dm,48.0,hesitate,"
+er
+",,,,,,
+63,23,A,dm,52.0,init,"
+",,,,pause,length,5s
+63,23,A,dm,52.0,init,"
+",,,,punct,type,level
+63,24,B,dm,55.0,acknowledge,"
+aha ",,,,punc,type,stop
+63,25,A,dm,56.0,init,"
+now ",,,,punct,type,level
+63,26,B,dm,58.0,init,"
+",,,,pause,,
+63,26,B,dm,58.0,init,"
+",,,,punct,type,level
+63,29,A,dm,,exclaim,"
+",,,,pause,,
+63,33,A,dm,72.0,acknowledge,"
+right ",,,,punc,type,stop
+63,34,B,dm,75.0,exclaim,"
+oh
+",,,,,,
+63,34,B,dm,76.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+63,34,B,dm,77.0,exclaim,"
+",,,,pause,,
+63,34,B,dm,78.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+63,34,B,dm,79.0,init,"
+so ",,,,punc,type,stop
+63,34,B,dm,80.0,init,"
+so
+",,,,,,
+63,34,B,dm,81.0,init,"
+so
+",,,,,,
+63,36,B,dm,85.0,acknowledge,"
+aha ",,,,punc,type,stop
+63,37,A,dm,86.0,init,"
+now ",,,,punct,type,level
+63,38,B,dm,91.0,exclaim,"
+oh
+",,,,,,
+63,38,B,dm,92.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+63,38,B,dm,93.0,init,"
+well ",,,,punc,type,stop
+63,44,B,dm,104.0,exclaim,"
+oh
+",,,,,,
+63,44,B,dm,105.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+63,44,B,dm,106.0,init,"
+so ",,,,punc,type,level
+63,45,A,dm,110.0,init,"
+",,,,pause,length,4s
+63,45,A,dm,110.0,init,"
+",,,,punct,type,level
+63,47,A,dm,115.0,init,"
+so ",,,,punc,type,level
+63,52,B,dm,124.0,pardon,"
+",regret,,,pause,,
+63,52,B,dm,124.0,pardon,"
+",regret,,,punc,type,stop
+63,56,B,dm,129.0,init,"
+so ",,,,punc,type,level
+63,58,B,dm,132.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+63,59,A,dm,134.0,init,"
+now ",,,,punct,type,level
+63,60,B,dm,137.0,init,"
+well ",,,,punct,type,level
+63,66,B,dm,147.0,exclaim,"
+oh
+",,,,,,
+63,66,B,dm,148.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+63,68,B,dm,152.0,exclaim,"
+oh
+",,,,,,
+63,68,B,dm,153.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+63,68,B,dm,154.0,init,"
+",,,,pause,,
+63,68,B,dm,154.0,init,"
+",,,,punc,type,level
+63,74,B,dm,168.0,init,"
+well ",,,,punct,type,level
+63,85,A,dm,184.0,acknowledge,"
+",tag,,,pause,,
+63,85,A,dm,184.0,acknowledge,"
+",tag,,,punc,type,stop
+63,89,A,dm,190.0,confirm-acknowledge,"
+aha ",,,,punc,type,stop
+63,90,B,dm,191.0,acknowledge,"
+right ",,,,punc,type,stop
+63,91,A,dm,192.0,init,"
+now ",,,,punct,type,level
+63,92,B,dm,194.0,init,"
+well ",,,,punc,type,level
+63,93,A,dm,198.0,confirm-acknowledge,"
+right ",,,,punc,type,stop
+63,93,A,dm,199.0,elab-confirm,"
+",,,,overlap,type,start
+63,93,A,dm,199.0,elab-confirm,"
+",,,,punc,type,stop
+63,94,B,dm,200.0,hesitate,"
+er ",,,,overlap,type,end
+63,96,B,dm,204.0,exclaim,"
+oh
+",,,,,,
+63,97,A,dm,208.0,acknowledge,"
+ok ",tag,,,backchannel,content,yes
+63,97,A,dm,208.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+63,97,A,dm,209.0,init,"
+now ",,,,punct,type,level
+63,101,A,dm,217.0,init,"
+now ",,,,punc,type,level
+63,112,B,dm,229.0,approve,"
+good ",,,,punc,type,stop
+63,113,A,dm,230.0,init,"
+now ",,,,punc,type,stop
+63,118,B,dm,237.0,acknowledge,"
+right ",,,,punc,type,stop
+63,119,A,dm,238.0,init,"
+now ",,,,punct,type,level
+63,125,A,dm,248.0,init,"
+now ",,,,punct,type,level
+63,133,A,dm,262.0,init,"
+now ",,,,punct,type,level
+63,135,A,dm,268.0,acknowledge,"
+aha ",,,,punc,type,stop
+63,139,A,dm,273.0,pardon,"
+sorry ",regret,,,punc,type,stop
+63,140,B,dm,274.0,pardon,"
+pardon ",regret,,,punc,type,query
+63,148,B,dm,285.0,exclaim,"
+oh
+",,,,,,
+63,149,A,dm,287.0,init,"
+now ",,,,punct,type,level
+63,156,B,dm,295.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+63,163,A,dm,302.0,init,"
+now ",,,,punct,type,level
+63,164,B,dm,304.0,pardon,"
+pardon ",regret,,,punc,type,query
+63,170,B,dm,313.0,hesitate,"
+er
+",,,,,,
+63,171,A,dm,315.0,init,"
+now ",,,,punct,type,level
+63,172,B,dm,317.0,hesitate,"
+er
+",,,,,,
+63,183,A,dm,330.0,init,"
+now ",,,,punct,type,level
+63,185,A,dm,334.0,apologise,"
+",regret,,,pause,,
+63,185,A,dm,334.0,apologise,"
+",regret,,,punc,type,stop
+63,188,B,dm,340.0,acknowledge,"
+right ",,,,punc,type,stop
+63,190,B,dm,342.0,acknowledge,"
+right ",,,,punc,type,stop
+63,210,B,dm,366.0,acknowledge,"
+",,,,anonym,type,letter
+63,210,B,dm,366.0,acknowledge,"
+",,,,punc,type,stop
+63,213,A,dm,370.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+63,214,B,dm,371.0,acknowledge,"
+right ",,,,punc,type,stop
+63,218,B,dm,377.0,acknowledge,"
+right ",,,,punc,type,stop
+63,219,A,dm,380.0,reqConfirm,"
+now ",query,,,punc,type,query
+63,220,B,dm,381.0,confirm-acknowledge,"
+right ",,,,punc,type,stop
+63,221,A,dm,382.0,init,"
+so ",,,,punc,type,level
+63,222,B,dm,384.0,init,"
+so ",,,,punc,type,level
+63,225,A,dm,388.0,acknowledge,"
+aha ",,,,punc,type,stop
+63,228,B,dm,393.0,acknowledge,"
+right ",,,,punc,type,stop
+63,231,A,dm,397.0,reqConfirm,"
+ok ",,,,overlap,type,end
+63,231,A,dm,397.0,reqConfirm,"
+ok ",,,,punct,type,query
+64,2,B,dm,4.0,hesitate,"
+er
+",,,,,,
+64,3,A,dm,6.0,init,"
+now ",,,,punct,type,level
+64,6,B,dm,11.0,hesitate,"
+er
+",,,,,,
+64,9,A,dm,15.0,init,"
+now ",,,,punct,type,level
+64,10,B,dm,17.0,hesitate,"
+erm
+",,,,,,
+64,12,B,dm,22.0,pardon,"
+sorry ",regret,,,punc,type,stop
+64,14,B,dm,25.0,hesitate,"
+erm
+",,,,,,
+64,17,A,dm,31.0,acknowledge,"
+",tag,,,pause,,
+64,17,A,dm,31.0,acknowledge,"
+",tag,,,punct,type,level
+64,18,B,dm,33.0,approve,"
+brilliant ",,,,punc,type,stop
+64,19,A,dm,34.0,init,"
+now ",,,,punct,type,level
+64,21,A,dm,38.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,22,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,23,A,dm,41.0,init,"
+",,,,pause,length,7s
+64,23,A,dm,41.0,init,"
+",,,,punct,type,level
+64,24,B,dm,46.0,hesitate,"
+erm
+",,,,,,
+64,24,B,dm,48.0,hesitate,"
+er
+",,,,,,
+64,24,B,dm,51.0,init,"
+so ",,,,punc,type,level
+64,24,B,dm,53.0,hesitate,"
+",,,,pause,,
+64,25,A,dm,56.0,init,"
+now ",,,,punct,type,level
+64,25,A,dm,56.0,init,"
+now ",,,,punc,type,stop
+64,25,A,dm,58.0,init,"
+",,,,pause,,
+64,25,A,dm,58.0,init,"
+",,,,punct,type,level
+64,28,B,dm,67.0,hesitate,"
+erm
+",,,,,,
+64,30,B,dm,72.0,acknowledge,"
+right ",,,,punc,type,stop
+64,35,A,dm,80.0,stateOpt-acknowledge,"
+ok ",tag,,,punc,type,stop
+64,35,A,dm,81.0,init,"
+so ",,,,punc,type,level
+64,40,B,dm,88.0,acknowledge,"
+aha ",,,,punc,type,stop
+64,43,A,dm,91.0,init,"
+now ",,,,punct,type,level
+64,44,B,dm,93.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,48,B,dm,97.0,hesitate,"
+erm
+",,,,,,
+64,50,B,dm,103.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,51,A,dm,104.0,init,"
+now ",,,,punct,type,level
+64,52,B,dm,107.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,54,B,dm,112.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,56,B,dm,116.0,confirm-agree,"
+okey doke ",,,,punc,type,stop
+64,57,A,dm,117.0,init,"
+now ",,,,punct,type,level
+64,63,A,dm,125.0,init,"
+now ",,,,punct,type,level
+64,65,A,dm,128.0,acknowledge,"
+aha ",,,,punc,type,stop
+64,67,A,dm,130.0,acknowledge,"
+aha ",,,,punc,type,stop
+64,71,A,dm,134.0,acknowledge,"
+aha ",,,,punc,type,stop
+64,74,B,dm,137.0,agree,"
+certainly ",,,,punc,type,stop
+64,75,A,dm,141.0,init,"
+now ",,,,punct,type,level
+64,76,B,dm,143.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,78,B,dm,145.0,confirm-agree,"
+okey doke ",,,,punc,type,stop
+64,89,A,dm,159.0,init,"
+now ",,,,punct,type,level
+64,93,A,dm,165.0,init,"
+",,,,pause,,
+64,93,A,dm,165.0,init,"
+",,,,punct,type,level
+64,94,B,dm,167.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+64,96,B,dm,170.0,agree,"
+sure ",,,,punc,type,stop
+64,103,A,dm,177.0,init,"
+now ",,,,punct,type,level
+64,105,A,dm,181.0,init,"
+so ",,,,punc,type,level
+65,2,B,dm,4.0,hesitate,"
+er
+",,,,,,
+65,5,A,dm,8.0,init,"
+now ",,,,punct,type,level
+65,8,B,dm,14.0,agree,"
+certainly ",,,,punc,type,stop
+65,15,A,dm,26.0,init,"
+now ",,,,punct,type,level
+65,18,B,dm,30.0,agree,"
+sure ",,,,punc,type,stop
+65,19,A,dm,31.0,init,"
+",,,,pause,length,10s
+65,19,A,dm,31.0,init,"
+",,,,punct,type,level
+65,23,A,dm,36.0,acknowledge,"
+right ",,,,punc,type,stop
+65,23,A,dm,37.0,init,"
+well ",,,,punct,type,level
+65,24,B,dm,42.0,exclaim,"
+ah
+",,,,,,
+65,25,A,dm,45.0,expressRegret,"
+but unfortunately
+",,,,,,
+65,26,B,dm,47.0,exclaim,"
+oh
+",,,,,,
+65,26,B,dm,48.0,acknowledge,"
+right ",,,,punc,type,stop
+65,28,B,dm,50.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+65,28,B,dm,51.0,exclaim,"
+ah
+",,,,,,
+65,29,A,dm,54.0,confirm-agree,"
+that's correct ",tag,,,punc,type,stop
+65,30,B,dm,56.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+65,31,A,dm,59.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+66,2,B,dm,5.0,hesitate,"
+erm
+",,,,,,
+66,3,A,dm,7.0,init,"
+now ",,,,punct,type,level
+66,6,B,dm,11.0,hesitate,"
+er
+",,,,,,
+66,6,B,dm,15.0,hesitate,"
+er
+",,,,,,
+66,9,A,dm,20.0,init,"
+now ",,,,punct,type,level
+66,12,B,dm,24.0,init,"
+erm well ",,,,punct,type,level
+66,12,B,dm,26.0,exclaim,"
+",,,,pause,length,4s
+66,13,A,dm,31.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+66,14,B,dm,33.0,apologise,"
+sorry about that ",regret,,,punc,type,stop
+66,16,B,dm,35.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+66,16,B,dm,37.0,apologise,"
+",regret,,,overlap,type,start
+66,16,B,dm,37.0,apologise,"
+",regret,,,punc,type,stop
+67,2,B,dm,4.0,hesitate,"
+erm
+",,,,,,
+67,5,A,dm,8.0,init,"
+now ",,,,punct,type,level
+67,7,A,dm,11.0,init,"
+now ",,,,punct,type,level
+67,10,B,dm,16.0,init,"
+you know ",,,,punc,type,level
+67,13,A,dm,23.0,acknowledge,"
+aha ",,,,punc,type,stop
+67,17,A,dm,28.0,init,"
+",,,,pause,length,2s
+67,17,A,dm,28.0,init,"
+",,,,punct,type,level
+67,21,A,dm,34.0,init,"
+now ",,,,punct,type,level
+67,22,B,dm,36.0,exclaim,"
+oh
+",,,,,,
+67,25,A,dm,41.0,init,"
+now ",,,,punct,type,level
+67,25,A,dm,42.0,init,"
+now ",,,,punct,type,level
+67,36,B,dm,59.0,acknowledge,"
+mhm ",,,,punc,type,stop
+67,36,B,dm,60.0,hold,"
+",hold,,,pause,length,2s
+67,36,B,dm,60.0,hold,"
+",hold,,,punc,type,stop
+67,39,A,dm,63.0,acknowledge,"
+ok ",,,,punc,type,stop
+67,40,B,dm,64.0,hesitate,"
+er
+",,,,,,
+67,42,B,dm,70.0,pardon,"
+pardon ",regret,,,punc,type,query
+67,44,B,dm,72.0,exclaim,"
+oh
+",,,,,,
+67,45,A,dm,77.0,acknowledge,"
+ok
+",tag,,,,,
+67,45,A,dm,78.0,init,"
+now ",,,,punct,type,level
+67,49,A,dm,83.0,reqConfirm,"
+ok now ",,,,punc,type,stop
+67,50,B,dm,84.0,confirm-acknowledge,"
+right ",,,,punc,type,stop
+68,2,B,dm,4.0,hesitate,"
+erm
+",,,,,,
+68,3,A,dm,6.0,init,"
+now ",,,,punct,type,level
+68,8,B,dm,12.0,hesitate,"
+er
+",,,,,,
+68,10,B,dm,15.0,hesitate,"
+erm
+",,,,,,
+68,14,B,dm,20.0,hesitate,"
+em
+",,,,,,
+68,16,B,dm,25.0,acknowledge,"
+right ",,,,punc,type,stop
+68,21,A,dm,31.0,init,"
+now ",,,,punct,type,level
+68,22,B,dm,33.0,acknowledge,"
+right ",,,,punc,type,stop
+68,23,A,dm,34.0,init,"
+",,,,pause,length,4s
+68,23,A,dm,34.0,init,"
+",,,,punct,type,level
+68,24,B,dm,36.0,acknowledge,"
+right ",,,,punc,type,stop
+68,26,B,dm,39.0,acknowledge,"
+right ",,,,punc,type,stop
+68,27,A,dm,40.0,init,"
+",,,,pause,length,9s
+68,27,A,dm,40.0,init,"
+",,,,punct,type,level
+68,28,B,dm,44.0,acknowledge,"
+right ",,,,punc,type,stop
+68,32,B,dm,49.0,exclaim,"
+ah
+",,,,,,
+68,33,A,dm,55.0,init,"
+now ",,,,punct,type,level
+68,33,A,dm,56.0,init,"
+",,,,pause,,
+68,36,B,dm,63.0,agree,"
+definitely ",conviction,,,punc,type,stop
+68,36,B,dm,64.0,init,"
+em well ",,,,punc,type,level
+68,37,A,dm,69.0,init,"
+now ",,,,punct,type,level
+68,38,B,dm,71.0,hesitate,"
+erm
+",,,,,,
+68,39,A,dm,73.0,init,"
+",,,,pause,length,2s
+68,39,A,dm,73.0,init,"
+",,,,punc,type,level
+68,42,B,dm,79.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+68,48,B,dm,91.0,approve,"
+lovely ",,,,punc,type,stop
+68,49,A,dm,93.0,init,"
+now ",,,,punct,type,level
+68,50,B,dm,97.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+68,52,B,dm,100.0,hesitate,"
+em
+",,,,,,
+68,56,B,dm,106.0,init,"
+erm well ",,,,punct,type,level
+68,57,A,dm,110.0,init,"
+well ",,,,punct,type,level
+68,58,B,dm,114.0,exclaim,"
+oh
+",,,,,,
+68,58,B,dm,117.0,exclaim,"
+ha ha ",,,,punc,type,stop
+68,61,A,dm,121.0,acknowledge,"
+aha ",,,,punc,type,stop
+68,63,A,dm,123.0,acknowledge,"
+aha ",,,,punc,type,stop
+68,65,A,dm,125.0,init,"
+",,,,pause,,
+68,65,A,dm,125.0,init,"
+",,,,punct,type,level
+68,68,B,dm,129.0,exclaim,"
+oh
+",,,,,,
+68,73,A,dm,136.0,init,"
+",,,,pause,,
+68,73,A,dm,136.0,init,"
+",,,,punct,type,level
+68,79,A,dm,144.0,acknowledge,"
+aha ",,,,punc,type,stop
+68,84,B,dm,150.0,hesitate,"
+erm
+",,,,,,
+68,85,A,dm,152.0,acknowledge,"
+mhm ",,,,punc,type,stop
+68,87,A,dm,157.0,acknowledge,"
+aha ",,,,punc,type,stop
+68,90,B,dm,161.0,agree,"
+that's right ",reassurance-tag,,,punc,type,stop
+68,102,B,dm,174.0,hesitate,"
+er
+",,,,,,
+68,103,A,dm,176.0,init,"
+now ",,,,punct,type,level
+68,104,B,dm,178.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+68,106,B,dm,180.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+68,114,B,dm,189.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+68,115,A,dm,191.0,reqConfirm,"
+ok now ",query,,,punc,type,query
+68,116,B,dm,192.0,exclaim,"
+oh
+",,,,,,
+68,116,B,dm,193.0,acknowledge,"
+right ",tag-decl,,positive,overlap,type,end
+68,116,B,dm,193.0,acknowledge,"
+right ",tag-decl,,positive,punc,type,stop
+68,116,B,dm,194.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,3,A,dm,5.0,init,"
+now ",,,,punct,type,level
+69,8,B,dm,13.0,init,"
+actually
+",report-constrain,,,,,
+69,9,A,dm,16.0,init,"
+",,,,pause,,
+69,9,A,dm,16.0,init,"
+",,,,punct,type,level
+69,10,B,dm,19.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,10,B,dm,20.0,approve,"
+fine ",,,,punc,type,stop
+69,12,B,dm,24.0,hesitate,"
+er
+",,,,,,
+69,16,B,dm,37.0,pardon,"
+sorry ",regret,,,punc,type,query
+69,18,B,dm,39.0,acknowledge,"
+right ",,,,punc,type,stop
+69,18,B,dm,40.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,19,A,dm,42.0,init,"
+now  ",,,,overlap,type,end
+69,19,A,dm,42.0,init,"
+now  ",,,,punct,type,level
+69,24,B,dm,49.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,24,B,dm,50.0,hesitate,"
+er
+",,,,,,
+69,24,B,dm,51.0,init,"
+again
+",,,,,,
+69,26,B,dm,62.0,exclaim,"
+oh
+",,,,,,
+69,26,B,dm,63.0,acknowledge,"
+right ",,,,punc,type,stop
+69,26,B,dm,65.0,expressConviction,"
+",conviction,,,pause,,
+69,27,A,dm,69.0,init,"
+",,,,pause,length,7s
+69,27,A,dm,69.0,init,"
+",,,,punct,type,level
+69,27,A,dm,70.0,expressRegret,"
+unfortunately
+",,,,,,
+69,28,B,dm,74.0,acknowledge,"
+right ",,,,punc,type,stop
+69,28,B,dm,75.0,init,"
+so ",,,,punc,type,level
+69,28,B,dm,76.0,pardon,"
+sorry ",regret,,,punc,type,stop
+69,30,B,dm,80.0,acknowledge,"
+right ",,,,punc,type,stop
+69,31,A,dm,81.0,expressRegret,"
+",,,,pause,length,13s
+69,32,B,dm,83.0,exclaim,"
+oh
+",,,,,,
+69,32,B,dm,84.0,acknowledge,"
+right ",,,,punc,type,stop
+69,34,B,dm,86.0,hesitate,"
+erm
+",,,,,,
+69,38,B,dm,100.0,init,"
+so
+",,,,,,
+69,44,B,dm,110.0,acknowledge,"
+right ",,,,punc,type,stop
+69,44,B,dm,111.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,46,B,dm,113.0,exclaim,"
+oh
+",,,,,,
+69,46,B,dm,114.0,acknowledge,"
+right ",,,,punc,type,stop
+69,47,A,dm,117.0,confirm-agree,"
+that's correct ",,,,punc,type,stop
+69,48,B,dm,120.0,exclaim,"
+oh
+",,,,,,
+69,48,B,dm,121.0,acknowledge,"
+right ",,,,punc,type,stop
+69,49,A,dm,124.0,init,"
+now ",,,,punct,type,level
+69,50,B,dm,126.0,acknowledge,"
+right ",,,,punc,type,stop
+69,52,B,dm,129.0,acknowledge,"
+",tag,,,pause,,
+69,52,B,dm,129.0,acknowledge,"
+",tag,,,punc,type,stop
+69,52,B,dm,130.0,hesitate,"
+",,,,pause,,
+69,52,B,dm,132.0,apologise,"
+sorry ",regret,,,punc,type,stop
+69,54,B,dm,137.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+69,54,B,dm,140.0,init,"
+well ",,,,punct,type,level
+69,54,B,dm,143.0,hesitate,"
+erm
+",,,,,,
+69,56,B,dm,148.0,acknowledge,"
+right ",,,,punc,type,stop
+69,56,B,dm,149.0,acknowledge,"
+",tag,,,pause,,
+69,56,B,dm,149.0,acknowledge,"
+",tag,,,punc,type,stop
+69,56,B,dm,150.0,hesitate,"
+",,,,pause,,
+69,56,B,dm,151.0,acknowledge,"
+",,,,pause,length,4s
+69,56,B,dm,151.0,acknowledge,"
+",,,,punc,type,stop
+69,56,B,dm,153.0,exclaim,"
+oh
+",,,,,,
+69,57,A,dm,157.0,acknowledge,"
+ok then ",tag,,,punc,type,stop
+69,58,B,dm,159.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,2,B,dm,4.0,hesitate,"
+em
+",,,,,,
+70,2,B,dm,6.0,hesitate,"
+em
+",,,,,,
+70,5,A,dm,13.0,acknowledge,"
+right ",,,,pause,,
+70,5,A,dm,14.0,init,"
+now ",,,,punct,type,level
+70,13,A,dm,24.0,init,"
+",,,,pause,length,2s
+70,13,A,dm,24.0,init,"
+",,,,punct,type,level
+70,14,B,dm,27.0,exclaim,"
+oh
+",,,,,,
+70,14,B,dm,28.0,acknowledge,"
+right ",,,,punc,type,stop
+70,16,B,dm,30.0,exclaim,"
+",,,,overlap,type,start
+70,16,B,dm,30.0,exclaim,"
+",,,,punc,type,stop
+70,18,B,dm,32.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,20,B,dm,34.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,21,A,dm,35.0,init,"
+now ",,,,punct,type,level
+70,25,A,dm,42.0,init,"
+now ",,,,punct,type,level
+70,26,B,dm,44.0,acknowledge,"
+right ",,,,punc,type,stop
+70,28,B,dm,47.0,acknowledge,"
+right ",,,,punc,type,stop
+70,32,B,dm,52.0,exclaim,"
+oh
+",,,,,,
+70,34,B,dm,57.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,35,A,dm,58.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,36,B,dm,60.0,acknowledge,"
+right ",,,,punc,type,stop
+70,36,B,dm,61.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,36,B,dm,62.0,init,"
+",,,,pause,length,2s
+70,36,B,dm,62.0,init,"
+",,,,punct,type,level
+70,37,A,dm,65.0,confirm-acknowledge,"
+ok ",tag,,,punc,type,stop
+70,39,A,dm,68.0,init,"
+now ",,,,punct,type,level
+70,40,B,dm,70.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,46,B,dm,76.0,hesitate,"
+erm
+",,,,,,
+70,47,A,dm,79.0,init,"
+",,,,pause,length,14s
+70,47,A,dm,79.0,init,"
+",,,,punct,type,level
+70,54,B,dm,91.0,exclaim,"
+ah
+",,,,,,
+70,56,B,dm,94.0,phatic,"
+",,,,pause,length,3s
+70,58,B,dm,100.0,approve,"
+fine ",,,,punc,type,stop
+70,61,A,dm,104.0,init,"
+",,,,pause,length,10s
+70,61,A,dm,104.0,init,"
+",,,,punct,type,level
+70,61,A,dm,107.0,init,"
+well ",,,,punct,type,level
+70,61,A,dm,108.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,64,B,dm,113.0,exclaim,"
+oh
+",,,,,,
+70,64,B,dm,114.0,apologise,"
+sorry ",,,,punc,type,stop
+70,67,A,dm,118.0,init,"
+now ",,,,punct,type,level
+70,68,B,dm,120.0,hesitate,"
+erm
+",,,,,,
+70,69,A,dm,123.0,hesitate,"
+erm
+",,,,,,
+70,69,A,dm,124.0,init,"
+well ",,,,punct,type,level
+70,74,B,dm,133.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,76,B,dm,135.0,init,"
+now ",,,,punct,type,level
+70,76,B,dm,138.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,77,A,dm,140.0,agree,"
+",reassurance-tag,,,pause,,
+70,77,A,dm,140.0,agree,"
+",reassurance-tag,,,punc,type,stop
+70,82,B,dm,148.0,exclaim,"
+oh God ",,,,overlap,type,end
+70,82,B,dm,148.0,exclaim,"
+oh God ",,,,punc,type,stop
+70,84,B,dm,152.0,exclaim,"
+oh
+",,,,,,
+70,85,A,dm,155.0,confirm-acknowledge,"
+aha ",,,,punc,type,stop
+70,87,A,dm,160.0,init,"
+well ",,,,punct,type,level
+70,92,B,dm,168.0,exclaim,"
+oh
+",,,,,,
+70,94,B,dm,171.0,init,"
+well ",,,,punct,type,level
+70,94,B,dm,174.0,hesitate,"
+erm ",,,,punc,type,stop
+70,96,B,dm,176.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,100,B,dm,181.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,106,B,dm,197.0,init,"
+you know ",,,,punc,type,stop
+70,107,A,dm,200.0,init,"
+now ",,,,punct,type,level
+70,111,A,dm,211.0,init,"
+so  ",,,,punc,type,level
+70,113,A,dm,214.0,init,"
+so ",,,,punc,type,level
+70,116,B,dm,221.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,118,B,dm,225.0,approve,"
+great ",,,,punc,type,stop
+70,119,A,dm,226.0,init,"
+now ",,,,punct,type,level
+70,122,B,dm,235.0,approve,"
+great ",,,,punc,type,stop
+70,123,A,dm,236.0,init,"
+now ",,,,punct,type,level
+70,124,B,dm,238.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,128,B,dm,244.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,129,A,dm,248.0,acknowledge,"
+ok ",tag,,,overlap,type,end
+70,129,A,dm,248.0,acknowledge,"
+ok ",tag,,,punc,type,stop
+70,130,B,dm,250.0,exclaim,"
+ha
+",,,,,,
+70,130,B,dm,251.0,acknowledge,"
+ok ",,,,punc,type,stop
+70,130,B,dm,252.0,apologise,"
+sorry ",regret,,,punc,type,stop
+70,131,A,dm,254.0,confirm-acknowledge,"
+ok then ",tag,,,punc,type,stop
+70,131,A,dm,255.0,init,"
+now ",,,,punct,type,level
+70,135,A,dm,260.0,init,"
+",,,,pause,,
+70,135,A,dm,260.0,init,"
+",,,,punct,type,level
+70,137,A,dm,264.0,acknowledge,"
+aha ",,,,punc,type,stop
+70,139,A,dm,266.0,acknowledge,"
+aha ",,,,punc,type,stop
+70,142,B,dm,269.0,hesitate,"
+erm
+",,,,,,
+70,143,A,dm,271.0,acknowledge,"
+",,,,pause,,
+70,143,A,dm,271.0,acknowledge,"
+",,,,punc,type,stop
+70,147,A,dm,277.0,init,"
+now ",,,,punct,type,level
+70,148,B,dm,279.0,approve,"
+great ",,,,punc,type,stop
+70,163,A,dm,297.0,init,"
+",,,,pause,,
+70,163,A,dm,297.0,init,"
+",,,,punct,type,level
+70,172,B,dm,307.0,approve,"
+",,,,overlap,type,start
+70,172,B,dm,307.0,approve,"
+",,,,punc,type,stop
+70,174,B,dm,309.0,approve,"
+great ",,,,punc,type,stop
+70,176,B,dm,315.0,init,"
+so ",,,,punc,type,level
+70,180,B,dm,323.0,hesitate,"
+erm
+",,,,,,
+70,180,B,dm,328.0,init,"
+",,,,pause,,
+70,180,B,dm,328.0,init,"
+",,,,punct,type,level
+70,181,A,dm,331.0,init,"
+well ",,,,punct,type,level
+70,184,B,dm,340.0,acknowledge,"
+ok ",tag,,,punc,type,stop

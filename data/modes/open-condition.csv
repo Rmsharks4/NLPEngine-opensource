@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+22,22,B,q-wh,45.0,reqInfo,"
+what if i book
+",open-condition,booking,positive,,,
+35,115,A,frag,196.0,inform,"
+if your sister calls you back and says that she doesn't want it
+",open-condition,preference,positive,,,

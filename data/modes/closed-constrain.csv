@@ -1,0 +1,13 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,30,B,q-yn,44.0,unclassifiable,"
+erm can i don't have to book a time on the Sunday
+",closed-constrain,time-day-booking,negative,,,
+30,24,B,decl,39.0,inform,"
+is it ah my wife was told it was 9 50
+",closed-constrain,enum,positive,,,
+34,34,B,q-yn,74.0,confirm,"
+i'd have to a full price ticket would i ",closed-constrain,journey,positive,pause,,
+34,34,B,q-yn,74.0,confirm,"
+i'd have to a full price ticket would i ",closed-constrain,journey,positive,overlap,type,start
+34,34,B,q-yn,74.0,confirm,"
+i'd have to a full price ticket would i ",closed-constrain,journey,positive,unclear,length,2 syllables

@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+38,23,A,q-wh,33.0,reqDirect,"
+but when would you prefer ",preference2-constrain-open-query,time,positive,punc,type,query
+40,23,A,q-wh,33.0,reqDirect,"
+but when would you prefer ",preference2-constrain-open-query,time,positive,punc,type,query

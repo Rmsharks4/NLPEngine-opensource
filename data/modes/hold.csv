@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+67,36,B,dm,60.0,hold,"
+",hold,,,pause,length,2s
+67,36,B,dm,60.0,hold,"
+",hold,,,punc,type,stop

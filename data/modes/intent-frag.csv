@@ -1,0 +1,7 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+49,34,B,decl,67.0,stateIntent,"
+",intent-frag,number-verify-day,positive,pause,,
+49,34,B,decl,67.0,stateIntent,"
+",intent-frag,number-verify-day,positive,punc,type,level
+58,45,A,decl,87.0,stateIntent,"
+what i'm going to do just now is fill out a booking form ",intent-frag,booking,positive,punc,type,level

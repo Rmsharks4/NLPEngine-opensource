@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,35,A,decl,52.0,inform,"
+there's only the 7 35 in the morning that has availability now ",exists-constrain,time-avail,positive,pause,length,2s
+12,119,A,decl,216.0,inform,"
+there's only smoking
+",exists-constrain,seat,positive,,,
+15,30,B,decl,58.0,inform,"
+but then there's the ",exists-constrain,fare,positive,unclear,length,1 syllable
+15,30,B,decl,58.0,inform,"
+but then there's the ",exists-constrain,fare,positive,unclear,length,2 syllables
+18,61,A,decl,139.0,confirm,"
+but there is those restrictions on the week day that i've explained to you
+",exists-constrain,day,positive,,,
+35,55,A,decl,87.0,inform,"
+but there's not any allocation for the Virgin value fare
+",exists-constrain,fare,negative,,,
+35,80,B,decl,133.0,confirm,"
+but abouts there's nothing at 10 o'clockish
+",exists-constrain,time,positive,,,

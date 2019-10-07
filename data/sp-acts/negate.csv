@@ -1,0 +1,145 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,9,A,no,13.0,negate,"
+no
+",,,,,,
+5,9,A,frag,14.0,negate,"
+not that
+",,,negative,,,
+8,53,A,no,90.0,negate,"
+no
+",,,,,,
+13,47,A,no,69.0,negate,"
+no
+",,,,,,
+13,86,B,no,129.0,negate,"
+no
+",,,,,,
+13,120,B,no,171.0,negate,"
+no
+",,,,,,
+14,6,B,no,9.0,negate,"
+no
+",,,,,,
+14,89,A,no,147.0,negate,"
+no
+",,,,,,
+15,28,B,no,54.0,negate,"
+no
+",,,,,,
+15,55,A,no,99.0,negate,"
+no no
+",,,,,,
+20,15,A,no,26.0,negate,"
+no
+",,,,,,
+22,38,B,no,82.0,negate,"
+no
+",,,,,,
+23,10,B,no,14.0,negate,"
+no
+",,,,,,
+23,24,B,no,37.0,negate,"
+no 
+",,,,,,
+23,24,B,decl,38.0,negate,"
+it's not
+",,,,,,
+23,38,B,no,60.0,negate,"
+no
+",,,,,,
+28,6,B,no,13.0,negate,"
+no no
+",,,,,,
+28,6,B,no,14.0,negate,"
+no no
+",,,,,,
+28,82,B,no,149.0,negate,"
+no
+",,,,,,
+28,122,B,no,204.0,negate,"
+no
+",,,,,,
+28,124,B,no,206.0,negate,"
+no
+",,,,,,
+28,195,A,no,300.0,negate,"
+no
+",,,,,,
+28,226,B,no,336.0,negate,"
+no
+",,,,,,
+28,227,A,no,337.0,negate,"
+no
+",,,,,,
+30,10,B,no,16.0,negate,"
+er no no
+",,,,,,
+34,39,A,no,86.0,negate,"
+no
+",,,,,,
+34,41,A,no,89.0,negate,"
+no
+",,,,,,
+39,60,B,no,148.0,negate,"
+no
+",,,,,,
+43,53,A,no,110.0,negate,"
+no ",,,,punc,type,stop
+48,86,B,no,146.0,negate,"
+no ",,,,punc,type,stop
+49,6,B,no,11.0,negate,"
+no ",,,,punc,type,stop
+49,89,A,no,166.0,negate,"
+no ",,,,punc,type,stop
+50,28,B,no,56.0,negate,"
+no ",,,,punc,type,stop
+50,53,A,no,101.0,negate,"
+no ",,,,punc,type,stop
+51,22,B,no,35.0,negate,"
+no ",,,,punc,type,stop
+51,30,B,no,59.0,negate,"
+no ",,,,punc,type,stop
+51,40,B,no,82.0,negate,"
+no ",,,,punc,type,stop
+55,15,A,no,34.0,negate,"
+no ",,,,punc,type,stop
+56,14,B,no,27.0,negate,"
+no ",,,,punc,type,stop
+57,20,B,no,39.0,negate,"
+no ",,,,punc,type,stop
+57,38,B,no,86.0,negate,"
+no ",,,,punc,type,stop
+58,10,B,no,19.0,negate,"
+",,,,pause,,
+58,10,B,no,19.0,negate,"
+",,,,punc,type,stop
+58,24,B,no,48.0,negate,"
+",,,,pause,length,7s
+58,24,B,no,48.0,negate,"
+",,,,punc,type,stop
+62,108,B,no,189.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,20.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,21.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,22.0,negate,"
+no ",,,,punc,type,stop
+63,6,B,no,23.0,negate,"
+no ",,,,punc,type,stop
+63,120,B,no,243.0,negate,"
+no ",,,,punc,type,stop
+63,124,B,no,247.0,negate,"
+no ",,,,punc,type,stop
+63,147,A,no,282.0,negate,"
+no ",,,,punc,type,stop
+63,195,A,no,350.0,negate,"
+no ",,,,punc,type,stop
+67,31,A,no,51.0,negate,"
+no ",,,,punc,type,stop
+68,57,A,no,111.0,negate,"
+no ",,,,punc,type,stop
+69,14,B,no,31.0,negate,"
+no ",,,,punc,type,stop
+69,39,A,no,102.0,negate,"
+no ",,,,punc,type,stop

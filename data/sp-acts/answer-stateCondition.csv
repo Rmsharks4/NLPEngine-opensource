@@ -1,0 +1,17 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,31,A,frag,75.0,answer-stateCondition,"
+",condition-frag,fare-availability-location,positive,pause,length,10s
+39,31,A,frag,75.0,answer-stateCondition,"
+",condition-frag,fare-availability-location,positive,punc,type,level
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,pause,,
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,pause,,
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,pause,,
+47,62,B,decl,108.0,answer-stateCondition,"
+if you just put it on the ",opinion-probability-condition-decl,location-from-enum,positive,punc,type,stop
+49,27,A,decl,55.0,answer-stateCondition,"
+if that's going to be the best station for you ",predict-benefit-condition-decl,,positive,punc,type,stop
+64,48,B,decl,98.0,answer-stateCondition,"
+if you can do us on a table ",poss2-condition-frag,,positive,punc,type,level

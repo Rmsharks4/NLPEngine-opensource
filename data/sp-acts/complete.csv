@@ -1,0 +1,74 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+2,12,B,frag,15.0,complete,"
+",deixis,month,positive,overlap,type,start
+3,49,A,frag,63.0,complete,"
+super advance at 30 pounds each
+",,fare,positive,,,
+4,46,B,frag,96.0,complete,"
+same price ",deixis,,positive,pause,,
+4,57,A,frag,128.0,complete,"
+13 30
+",,enum,positive,,,
+4,59,A,frag,134.0,complete,"
+19 57
+",,enum,positive,,,
+9,109,A,frag,178.0,complete,"
+3 pounds in total
+",,fare,positive,,,
+10,19,A,frag,28.0,complete,"
+18 51
+",,enum,positive,,,
+13,43,A,frag,65.0,complete,"
+19 09
+",,enum,positive,,,
+13,45,A,frag,67.0,complete,"
+50 in the afternoon
+",,time,positive,,,
+15,40,B,frag,73.0,complete,"
+",,,positive,pause,,
+16,78,B,frag,136.0,complete,"
+%alpha and {letter}%17 for %alpha
+",deixis,enum-spell,positive,,,
+16,91,A,frag,152.0,complete,"
+or Saturday ",deixis-alternative,time-day,positive,pause,,
+16,91,A,frag,152.0,complete,"
+or Saturday ",deixis-alternative,time-day,positive,overlap,type,start
+18,16,B,frag,37.0,complete,"
+before ",partial,,positive,overlap,type,end
+18,17,A,frag,38.0,complete,"
+",,enum,positive,unclear,length,1 syllable
+18,17,A,frag,38.0,complete,"
+",,enum,positive,pause,,
+18,35,A,frag,82.0,complete,"
+second
+",partial,,positive,,,
+28,28,B,frag,51.0,complete,"
+i... i... i... is still 20 pounds
+",,fare,positive,,,
+29,27,A,frag,59.0,complete,"
+10 ",,enum,positive,overlap,type,end
+29,33,A,frag,69.0,complete,"
+Virgin value
+",deixis-closure,,positive,,,
+33,89,A,frag,138.0,complete,"
+",partial,,positive,pause,,
+37,12,B,frag,17.0,complete,"
+",decl,month,positive,overlap,type,start
+37,12,B,frag,17.0,complete,"
+",decl,month,positive,punc,type,stop
+38,49,A,frag,72.0,complete,"
+Super Advance at 30 pounds each ",decl,fare-enum,positive,punc,type,stop
+39,55,A,frag,133.0,complete,"
+13:30 ",decl,,positive,punc,type,stop
+40,49,A,frag,72.0,complete,"
+Super Advance at 30 pounds each ",decl,fare-enum,positive,punc,type,stop
+44,105,A,frag,213.0,complete,"
+3 pounds in total ",decl,fare-enum,positive,punc,type,stop
+45,21,A,frag,43.0,complete,"
+18:51 ",decl,,positive,punc,type,stop
+53,15,A,frag,43.0,complete,"
+",partial-decl,time,positive,unclear,length,3 syllable
+53,15,A,frag,43.0,complete,"
+",partial-decl,time,positive,pause,,
+53,15,A,frag,43.0,complete,"
+",partial-decl,time,positive,punc,type,stop

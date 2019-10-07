@@ -1,0 +1,71 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+36,89,A,frag,151.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+36,89,A,frag,151.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+37,38,B,frag,65.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+37,38,B,frag,65.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+38,120,B,frag,197.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+38,120,B,frag,197.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+39,114,B,frag,233.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+39,114,B,frag,233.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+40,120,B,frag,196.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+43,88,B,frag,172.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+43,88,B,frag,172.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+44,109,A,frag,219.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+44,109,A,frag,219.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+46,99,A,frag,195.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+46,99,A,frag,195.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+47,161,A,frag,305.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+47,161,A,frag,305.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+49,138,B,frag,248.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+49,138,B,frag,248.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+51,120,B,frag,213.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+51,120,B,frag,213.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+53,123,A,frag,266.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+53,123,A,frag,266.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+54,90,B,frag,141.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+54,90,B,frag,141.0,echo-bye,"
+bye ",farewell-closing,,,pause,,
+54,90,B,frag,141.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+55,29,A,frag,68.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+55,29,A,frag,68.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+56,90,B,frag,147.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+56,90,B,frag,147.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+59,96,B,frag,205.0,echo-bye,"
+bye now ",farewell-closing,,,punc,type,stop
+60,48,B,frag,94.0,echo-bye,"
+bye  ",farewell-closing,,,punc,type,stop
+62,130,B,frag,227.0,echo-bye,"
+bye ",farewell-closing,,,overlap,type,end
+62,130,B,frag,227.0,echo-bye,"
+bye ",farewell-closing,,,punc,type,stop
+63,235,A,frag,403.0,echo-bye,"
+bye  ",farewell-closing,,,punc,type,stop

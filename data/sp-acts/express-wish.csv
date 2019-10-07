@@ -1,0 +1,10 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+18,28,B,decl,65.0,express-wish,"
+but i'd need to definitely get on that train
+",constrain,,positive,,,
+29,48,B,decl,91.0,express-wish,"
+but it's preferable a table
+",constrain,preference,positive,,,
+33,36,B,decl,54.0,express-wish,"
+the one going out is especially the one we want to be on
+",,preference-number,positive,,,

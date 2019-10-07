@@ -1,0 +1,5 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+62,11,A,q-wh,20.0,reqDirect,"
+and what time would you like to depart from ",preference2-open-decl,time-from,positive,overlap,type,start
+62,11,A,q-wh,20.0,reqDirect,"
+and what time would you like to depart from ",preference2-open-decl,time-from,positive,punc,type,stop

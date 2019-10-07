@@ -1,0 +1,72 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+1,17,A,frag,23.0,correctSelf,"
+Birmingham New Street
+",deixis,location,positive,,,
+3,102,B,frag,139.0,correctSelf,"
+52
+",,,positive,,,
+9,13,A,frag,27.0,correctSelf,"
+from Euston ",deixis,location-from,positive,backchannel,content,yes
+11,35,A,frag,64.0,correctSelf,"
+get into Birmingham
+",,,positive,,,
+12,20,B,frag,32.0,correctSelf,"
+super saver return sorry ",,fare,positive,pause,,
+12,67,A,decl,104.0,correctSelf,"
+it's from Watford
+",,location-from,positive,,,
+12,67,A,decl,107.0,correctSelf,"
+that was my mistake there ",,location,positive,backchannel,content,yeah
+13,120,B,decl,173.0,correctSelf,"
+it's the fifth 2",,,positive,overlap,type,end
+14,66,B,frag,115.0,correctSelf,"
+oh 1 to 4
+",,enum,positive,,,
+16,84,B,frag,142.0,correctSelf,"
+",,,positive,pause,,
+16,84,B,frag,142.0,correctSelf,"
+",,,positive,pause,length,6s
+20,20,B,decl,38.0,correctSelf,"
+i'm not young enough
+",,,negative,,,
+23,10,B,frag,16.0,correctSelf,"
+Monday the fourth of October
+",,month-day-date,positive,,,
+23,24,B,decl,39.0,correctSelf,"
+it's the ",,,positive,overlap,type,start
+28,6,B,frag,15.0,correctSelf,"
+from from Stockport to Euston
+",,to-location-from,positive,,,
+28,185,A,frag,285.0,correctSelf,"
+the booking office in Stockport
+",,booking,positive,,,
+28,185,A,frag,286.0,correctSelf,"
+my mistake there
+",,,positive,,,
+35,37,A,frag,57.0,correctSelf,"
+16 03
+",,enum,positive,,,
+44,13,A,frag,33.0,correctSelf,"
+from Euston ",partial-decl,location-from,positive,backchannel,content,yes
+44,13,A,frag,33.0,correctSelf,"
+from Euston ",partial-decl,location-from,positive,punc,type,stop
+48,87,A,decl,149.0,correctSelf,"
+that's what i meant ",correct-decl,,positive,punc,type,stop
+57,33,A,frag,75.0,correctSelf,"
+changing at Preston ",decl,location-time,positive,backchannel,content,mm
+57,33,A,frag,75.0,correctSelf,"
+changing at Preston ",decl,location-time,positive,punc,type,stop
+58,24,B,decl,49.0,correctSelf,"
+it's not ",decl,,negative,punc,type,stop
+59,2,B,frag,10.0,correctSelf,"
+Saturday the 3rd of October ",,day-date-month,positive,punc,type,stop
+59,55,A,frag,129.0,correctSelf,"
+",decl,day,positive,overlap,type,start
+59,55,A,frag,129.0,correctSelf,"
+",decl,day,positive,punc,type,stop
+63,6,B,frag,24.0,correctSelf,"
+from from Stockport to Euston ",partial-decl-disflu,location-to-from,positive,punc,type,stop
+63,185,A,frag,335.0,correctSelf,"
+the booking office in Stockport ",decl,booking-location,positive,punc,type,stop
+70,35,A,frag,59.0,correctSelf,"
+16:03 ",decl,,positive,punc,type,stop

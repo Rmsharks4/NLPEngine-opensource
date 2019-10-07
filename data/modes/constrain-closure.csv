@@ -1,0 +1,15 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+15,74,B,decl,134.0,confirm,"
+you just need the credit card's address
+",constrain-closure,creditcard-address,positive,,,
+22,36,B,frag,78.0,confirm,"
+you always have to change
+",constrain-closure,,positive,,,
+23,37,A,decl,58.0,inform,"
+the only advance purchase ticket is available is on the train after ",constrain-closure,fare-avail-journey,positive,pause,,
+30,25,A,decl,41.0,inform,"
+but unfortunately that has now being booked up for tomorrow
+",constrain-closure,day-avail-fare,positive,,,
+32,15,A,decl,27.0,inform,"
+the credit card holder must be at the train station to collect and sign for the tickets
+",constrain-closure,time-creditcard-journey,positive,,,

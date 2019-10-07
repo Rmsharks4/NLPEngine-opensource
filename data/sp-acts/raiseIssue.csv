@@ -1,0 +1,23 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+5,39,A,decl,60.0,raiseIssue,"
+as you want your return back around that time in the late afternoon
+",reason,time-preference-fare,positive,,,
+16,25,A,decl,43.0,raiseIssue,"
+i don't know what you super saver
+",closure,fare,negative,,,
+18,112,B,decl,219.0,raiseIssue,"
+and if by chance em ",deixis-condition,,positive,pause,,
+18,114,B,frag,224.0,raiseIssue,"
+just to make sure i know ",awareness,,positive,pause,,
+22,38,B,decl,83.0,raiseIssue,"
+i just wondered if you if they went direct erm
+",condition-doubt,,positive,,,
+24,54,B,decl,100.0,raiseIssue,"
+you just said Saturday the fourth
+",closure,day,positive,,,
+26,50,B,decl,111.0,raiseIssue,"
+the train turns round at Birmingham you see er
+",,time-location,positive,,,
+26,50,B,decl,112.0,raiseIssue,"
+and it's it's a long good journey erm
+",,journey,positive,,,

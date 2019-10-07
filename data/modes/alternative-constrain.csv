@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+6,19,A,decl,27.0,answElab,"
+it'll either have to either be the 13 20 departing Preston or the 16 31
+",alternative-constrain,departure-location-time,positive,,,

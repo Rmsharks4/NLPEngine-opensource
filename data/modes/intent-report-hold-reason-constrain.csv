@@ -1,0 +1,4 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+42,11,A,decl,22.0,stateIntent-hold,"
+i'm just going to check that cos the fares are actually off change
+",intent-report-hold-reason-constrain,fare-verify,positive,,,

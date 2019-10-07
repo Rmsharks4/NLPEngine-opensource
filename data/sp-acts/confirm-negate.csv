@@ -1,0 +1,19 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+39,62,B,no,153.0,confirm-negate,"
+no ",,,,punc,type,stop
+47,51,A,no,90.0,confirm-negate,"
+",,,,pause,length,3s
+47,51,A,no,90.0,confirm-negate,"
+",,,,punc,type,stop
+53,41,A,no,117.0,confirm-negate,"
+no ",,,,punc,type,stop
+61,28,B,no,63.0,confirm-negate,"
+no ",,,,punc,type,stop
+69,41,A,no,105.0,confirm-negate,"
+no ",,,,punc,type,stop
+69,55,A,no,145.0,confirm-negate,"
+no ",,,,punc,type,stop
+70,49,A,no,83.0,confirm-negate,"
+no ",,,,punc,type,stop
+70,53,A,no,87.0,confirm-negate,"
+no ",,,,punc,type,stop

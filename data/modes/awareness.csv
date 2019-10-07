@@ -1,0 +1,11 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+18,114,B,frag,224.0,raiseIssue,"
+just to make sure i know ",awareness,,positive,pause,,
+51,92,B,dm,172.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+62,52,B,dm,116.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+62,54,B,dm,120.0,acknowledge,"
+i see ",awareness,,,punc,type,stop
+65,28,B,dm,50.0,acknowledge,"
+i see ",awareness,,,punc,type,stop

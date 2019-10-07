@@ -1,0 +1,3 @@
+DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
+70,92,B,decl,169.0,approve-reqConfirm,"
+that's not bad is it ",tag-query,,negative,punc,type,query
