@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-54,85,A,decl,135.0,predict-abandon,"
-and the ticket will be ",predict-abandon,journey,positive,punc,type,incomplete

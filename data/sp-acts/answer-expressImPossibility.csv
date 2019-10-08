@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,43,A,decl,73.0,answer-expressImPossibility,"
-you can't leave that ticket open ",poss2-decl,fare-journey-departure,negative,punc,type,stop

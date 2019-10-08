@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-60,33,A,decl,60.0,stateCondition-abandon,"
-",constrain-condition-abandon,,positive,pause,,
-60,33,A,decl,60.0,stateCondition-abandon,"
-",constrain-condition-abandon,,positive,punc,type,incomplete

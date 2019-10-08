@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-38,93,A,decl,133.0,answer,"
-60 pounds will be debited from that account ",decl,booking-fare-enum,positive,punc,type,stop
-40,93,A,decl,133.0,answer,"
-60 pounds will be debited from that account ",decl,booking-fare-enum,positive,punc,type,stop

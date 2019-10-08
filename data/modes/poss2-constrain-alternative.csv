@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-25,27,A,decl,40.0,inform,"
-you're able to get the next available service or you don't need to book a return ",poss2-constrain-alternative,avail-fare-booking,negative,pause,,

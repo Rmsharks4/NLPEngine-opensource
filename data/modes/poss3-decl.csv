@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-46,67,A,decl,153.0,expressPossibility,"
-it could be ok ",poss3-decl,,positive,punc,type,stop
-66,12,B,decl,29.0,expressPossibility,"
-there might be two of us ",poss3-decl,number-location,positive,punc,type,stop

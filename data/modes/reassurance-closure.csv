@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-11,12,B,decl,22.0,answElab,"
-",reassurance-closure,,positive,overlap,type,end
-18,68,B,frag,150.0,answElab,"
-view {letter}%16 {letter}%2 {letter}%9 {letter}%16
-",reassurance-closure,enum-spell,positive,,,
-26,48,B,decl,104.0,self-talk,"
-that's right
-",reassurance-closure,,positive,,,

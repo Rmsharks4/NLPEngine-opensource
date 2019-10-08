@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-37,34,B,imp,58.0,hold,"
-",opinion-hold-decl,,positive,pause,,
-37,34,B,imp,58.0,hold,"
-",opinion-hold-decl,,positive,punc,type,stop

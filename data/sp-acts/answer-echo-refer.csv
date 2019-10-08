@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-45,18,A,frag,32.0,answer-echo-refer,"
-in ",partial-decl,time,positive,overlap,type,end
-45,18,A,frag,32.0,answer-echo-refer,"
-in ",partial-decl,time,positive,punc,type,stop
-54,10,B,frag,15.0,answer-echo-refer,"
-2 adults ",decl,enum,positive,punc,type,stop
-70,83,A,frag,151.0,answer-echo-refer,"
-even to any one of those stations ",decl,number,positive,punc,type,stop

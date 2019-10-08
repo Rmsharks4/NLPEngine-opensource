@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-4,21,A,decl,47.0,informIntent-hold,"
-",benefitIntent,verify,positive,pause,length,5s
-5,35,A,decl,51.0,informIntent-hold,"
-i'll just check that for you ",benefitIntent,verify,positive,pause,length,17s

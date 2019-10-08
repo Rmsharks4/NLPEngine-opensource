@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,26,B,decl,71.0,stateConstraint,"
-but i'd need to definitely get on that train ",constrain-conviction-decl,,positive,punc,type,stop

@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-37,34,B,q-yn,59.0,reqInfo,"
-",condition-closed-query,cancel,positive,pause,,
-37,34,B,q-yn,59.0,reqInfo,"
-",condition-closed-query,cancel,positive,punc,type,query

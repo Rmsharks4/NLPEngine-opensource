@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-67,38,B,decl,62.0,hold,"
-",intent-report-opinion-hold-tag-decl,problem,positive,pause,,
-67,38,B,decl,62.0,hold,"
-",intent-report-opinion-hold-tag-decl,problem,positive,comment,content,12s_talking_to_someone_else_in_Indian_language
-67,38,B,decl,62.0,hold,"
-",intent-report-opinion-hold-tag-decl,problem,positive,punc,type,stop

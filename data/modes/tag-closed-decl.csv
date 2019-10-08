@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-44,17,A,q-yn,44.0,reqInfo,"
-have you been quoted a fare for the journey ",tag-closed-decl,fare-journey,positive,punc,type,stop

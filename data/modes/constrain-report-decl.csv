@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-39,14,B,decl,32.0,state,"
-but they said there wasn't ",constrain-report-decl,location-number-from-day,negative,pause,,
-39,14,B,decl,32.0,state,"
-but they said there wasn't ",constrain-report-decl,location-number-from-day,negative,punc,type,stop

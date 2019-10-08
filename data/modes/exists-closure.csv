@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-3,33,A,decl,42.0,answ,"
-there's a train at 14 hundred from Euston
-",exists-closure,time-location-from,positive,,,
-18,5,A,decl,12.0,answ,"
-there is s... some restrictions with the saver return
-",exists-closure,fare,positive,,,

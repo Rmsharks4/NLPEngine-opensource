@@ -1,8 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-35,112,B,frag,189.0,thirdParty,"
-Wella hi
-",deixis-greet,opening,positive,,,
-35,112,B,decl,190.0,thirdParty,"
-it's me ",,,positive,pause,,
-35,112,B,decl,191.0,thirdParty,"
-i've got a ti... ",,,positive,event,type,tape_cuts_off

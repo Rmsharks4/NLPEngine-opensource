@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-52,25,A,frag,39.0,answer-uninterpretable,"
-",decl,fare-journey,positive,pause,,
-52,25,A,frag,39.0,answer-uninterpretable,"
-",decl,fare-journey,positive,unclear,length,5 syllables
-52,25,A,frag,39.0,answer-uninterpretable,"
-",decl,fare-journey,positive,punc,type,stop

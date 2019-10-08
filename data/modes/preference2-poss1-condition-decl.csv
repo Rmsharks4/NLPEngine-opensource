@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-59,36,B,decl,77.0,offer,"
-i can give you a home phone number as well if you want ",preference2-poss1-condition-decl,number,positive,punc,type,stop

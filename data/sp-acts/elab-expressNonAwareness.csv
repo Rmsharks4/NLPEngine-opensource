@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-43,18,B,decl,37.0,elab-expressNonAwareness,"
-but i don't know the precise time ",report-nonawareness-constrain-decl,time,negative,punc,type,stop
-63,32,B,decl,70.0,elab-expressNonAwareness,"
-i've got no idea ",exists-decl,,negative,punc,type,stop

@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-56,20,B,decl,46.0,reqInfo,"
-that that 10 ",query-disflu,time-enum,positive,pause,,
-56,20,B,decl,46.0,reqInfo,"
-that that 10 ",query-disflu,time-enum,positive,punc,type,query

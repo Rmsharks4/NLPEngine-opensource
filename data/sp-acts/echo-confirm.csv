@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-45,14,B,frag,25.0,echo-confirm,"
-of October ",partial-decl,month,positive,punc,type,stop

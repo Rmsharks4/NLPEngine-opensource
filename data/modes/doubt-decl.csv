@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-37,14,B,decl,20.0,expressNonAwareness,"
-i'm not sure what time the trains are ",doubt-decl,time,negative,punc,type,stop

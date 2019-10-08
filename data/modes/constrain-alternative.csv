@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-22,51,A,decl,111.0,inform,"
-and it has to be 2 or 4 people travelling
-",constrain-alternative,enum-journey,positive,,,
-34,54,B,decl,125.0,reqInfo,"
-erm you don't have to book the the next leg in advance or anything like that do ",constrain-alternative,fare-booking,negative,overlap,type,start

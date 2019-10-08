@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,109,A,decl,243.0,predict,"
-and the ticket will be waiting there for you ",predict-benefit-decl,location-journey,positive,punc,type,stop
-62,123,A,decl,213.0,predict,"
-the tickets will go out in the first class post for you this afternoon ",predict-benefit-decl,journey-time,positive,punc,type,stop

@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-43,18,B,decl,36.0,answer-predict,"
-it will be later that day ",predict-decl,time-day,positive,punc,type,stop
-51,89,A,decl,168.0,answer-predict,"
-the ticket will go out in the first class post this afternoon ",predict-decl,journey-time,positive,punc,type,stop

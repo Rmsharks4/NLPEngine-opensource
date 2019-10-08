@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-59,6,B,yes,15.0,answer-accept,"
-yes please ",request,,,punc,type,stop
-64,16,B,yes,30.0,answer-accept,"
-yes please ",request,,,punc,type,stop

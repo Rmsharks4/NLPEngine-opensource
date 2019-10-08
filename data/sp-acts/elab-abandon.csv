@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-57,23,A,frag,47.0,elab-abandon,"
-it ",abandon,,positive,punc,type,incomplete
-70,58,B,frag,98.0,elab-abandon,"
-every... ",abandon,,positive,punc,type,incomplete

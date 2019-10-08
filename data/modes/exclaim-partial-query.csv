@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,128,B,q-wh,258.0,reqConfirm,"
-what ",exclaim-partial-query,,positive,punc,type,query
-49,64,B,q-wh,125.0,reqInfo,"
-what ",exclaim-partial-query,,positive,punc,type,query
-58,36,B,q-wh,67.0,reqInfo,"
-",exclaim-partial-query,,positive,pause,length,2s
-58,36,B,q-wh,67.0,reqInfo,"
-",exclaim-partial-query,,positive,punc,type,query

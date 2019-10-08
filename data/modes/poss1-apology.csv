@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-15,69,A,decl,121.0,inform,"
-i'm afraid i can't take the booking until you find the appropriate address
-",poss1-apology,booking-address,negative,,,

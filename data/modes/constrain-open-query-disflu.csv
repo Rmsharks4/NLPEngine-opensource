@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,92,B,q-wh,181.0,reqInfo,"
-when when do i have to book this by ",constrain-open-query-disflu,time-booking,positive,punc,type,query

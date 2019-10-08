@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-57,57,A,decl,137.0,stateConstraint,"
-but there's none available for the dates and times on the 29th or the 30th ",alternative-exists-constrain-decl,availability-date,negative,punc,type,stop

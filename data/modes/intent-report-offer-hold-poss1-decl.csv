@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-61,29,A,decl,68.0,stateIntent-hold,"
-so i'm just going to check availability to see what's your cheapest fare i can offer you ",intent-report-offer-hold-poss1-decl,fare-availability-verify,positive,punc,type,stop

@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-61,35,A,decl,79.0,stateIntent-hold,"
-",intent-report-hold-alternative-condition,,,pause,,
-61,35,A,decl,79.0,stateIntent-hold,"
-",intent-report-hold-alternative-condition,,,backchannel,content,yeah
-61,35,A,decl,79.0,stateIntent-hold,"
-",intent-report-hold-alternative-condition,,,punc,type,stop

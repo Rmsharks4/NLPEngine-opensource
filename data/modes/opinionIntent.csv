@@ -1,8 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-32,38,B,decl,62.0,informIntent-hold,"
-",opinionIntent,,positive,pause,,
-32,38,B,decl,62.0,informIntent-hold,"
-",opinionIntent,,positive,comment,content,12s_talking_to_someone_else_in_Indian_language
-32,44,B,decl,73.0,informIntent,"
-i think i'll i'll call you back again
-",opinionIntent,,positive,,,

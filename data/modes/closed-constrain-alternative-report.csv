@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-6,54,B,q-yn,77.0,reqInfo,"
-or do you need a credit card
-",closed-constrain-alternative-report,creditcard-time,positive,,,

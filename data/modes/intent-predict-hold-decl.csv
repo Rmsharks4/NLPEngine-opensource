@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-61,37,A,decl,87.0,stateIntent-hold,"
-",intent-predict-hold-decl,journey,positive,pause,,
-61,37,A,decl,87.0,stateIntent-hold,"
-",intent-predict-hold-decl,journey,positive,pause,,
-61,37,A,decl,87.0,stateIntent-hold,"
-",intent-predict-hold-decl,journey,positive,overlap,type,start
-61,37,A,decl,87.0,stateIntent-hold,"
-",intent-predict-hold-decl,journey,positive,punc,type,stop

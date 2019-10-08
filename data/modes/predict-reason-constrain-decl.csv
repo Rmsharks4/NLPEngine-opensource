@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,95,A,decl,192.0,stateConstraint,"
-but it just depends on what the system's going to let me book the return ",predict-reason-constrain-decl,booking-fare,positive,pause,,
-47,95,A,decl,192.0,stateConstraint,"
-but it just depends on what the system's going to let me book the return ",predict-reason-constrain-decl,booking-fare,positive,punc,type,stop

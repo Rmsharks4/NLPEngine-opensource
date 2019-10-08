@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-59,21,A,decl,46.0,stateCondition,"
-if you miss any services that i'm going to reserve you on ",intent-condition-frag,miss,positive,punc,type,level

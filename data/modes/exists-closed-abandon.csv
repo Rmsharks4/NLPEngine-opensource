@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-70,86,B,q-yn,156.0,reqInfo-abandon,"
-is there anything a little ",exists-closed-abandon,location,positive,punc,type,incomplete

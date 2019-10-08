@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-39,44,B,decl,103.0,reqConfirm,"
-if that's ok ",reassurance-tag-condition-frag,,positive,punc,type,level

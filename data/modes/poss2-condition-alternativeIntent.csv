@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-26,35,A,decl,68.0,informIntent-hold,"
-i'm just checking to see whether or not the super advance with the railcard is available ",poss2-condition-alternativeIntent,fare-avail-journey-verify-railcard,negative,backchannel,content,yeah

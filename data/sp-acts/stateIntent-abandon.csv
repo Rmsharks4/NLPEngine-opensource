@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-38,48,B,decl,71.0,stateIntent-abandon,"
-we'll go for the er ",intent-preference1-interruption,,positive,punc,type,incomplete
-48,14,B,decl,21.0,stateIntent-abandon,"
-i want to know erm ",intent-preference1-abandon,,positive,punc,type,incomplete
-48,14,B,decl,22.0,stateIntent-abandon,"
-",intent-preference1-reason-conviction-abandon,,positive,pause,,
-48,14,B,decl,22.0,stateIntent-abandon,"
-",intent-preference1-reason-conviction-abandon,,positive,punc,type,incomplete

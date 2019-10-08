@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-70,57,A,q-yn,96.0,reqInfo-abandon,"
-",closed-interruption,enum,positive,pause,length,3s
-70,57,A,q-yn,96.0,reqInfo-abandon,"
-",closed-interruption,enum,positive,punc,type,incomplete

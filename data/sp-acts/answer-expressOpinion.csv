@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-49,12,B,decl,20.0,answer-expressOpinion,"
-i thought there was only one station there ",report-opinion-constrain-decl,location-number,positive,punc,type,stop
-58,30,B,decl,59.0,answer-expressOpinion,"
-i think there's a train at 12:35 from London Euston ",opinion-exists-decl,location-time-from-enum,positive,punc,type,stop

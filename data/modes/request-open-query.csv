@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,45,A,q-wh,126.0,reqInfo,"
-what's your surname please ",request-open-query,name,positive,punc,type,query
-58,67,A,q-wh,129.0,reqInfo,"
-what's the name of the business please ",request-open-query,name,positive,punc,type,query

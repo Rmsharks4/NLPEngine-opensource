@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-28,44,B,q-wh,81.0,reqInfo,"
-when when is it next i can get ",open-poss1,time,positive,pause,,
-35,56,B,q-wh,89.0,reqInfo,"
-what's the cheapest fare i could do it
-",open-poss1,fare,positive,,,

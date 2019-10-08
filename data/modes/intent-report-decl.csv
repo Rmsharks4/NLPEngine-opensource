@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-69,15,A,decl,36.0,stateIntent,"
-i'm going to check availability once we've established train times ",intent-report-decl,availability-number-verify,positive,punc,type,stop

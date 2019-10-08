@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-60,21,A,decl,33.0,offer,"
-",offer-poss1-decl,fare-time-enum,positive,pause,length,2s
-60,21,A,decl,33.0,offer,"
-",offer-poss1-decl,fare-time-enum,positive,punc,type,stop
-67,23,A,decl,39.0,state,"
-the next cheapest fare that i can offer you is the ",offer-poss1-decl,fare-enum,positive,backchannel,content,unclear length 2 syllables
-67,23,A,decl,39.0,state,"
-the next cheapest fare that i can offer you is the ",offer-poss1-decl,fare-enum,positive,punc,type,stop

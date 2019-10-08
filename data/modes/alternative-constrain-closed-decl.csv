@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-41,54,B,q-yn,85.0,reqInfo,"
-or do you need a credit card ",alternative-constrain-closed-decl,creditcard,positive,punc,type,stop
-53,20,B,q-yn,51.0,reqInfo,"
-",alternative-constrain-closed-decl,fare-journey,positive,pause,,
-53,20,B,q-yn,51.0,reqInfo,"
-",alternative-constrain-closed-decl,fare-journey,positive,punc,type,stop

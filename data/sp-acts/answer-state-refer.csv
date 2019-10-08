@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-49,126,B,frag,224.0,answer-state-refer,"
-1 99 ",frag,enum,positive,punc,type,level
-64,64,B,frag,127.0,answer-state-refer,"
-0 1 0 3 3 ",frag,enum,positive,punc,type,level

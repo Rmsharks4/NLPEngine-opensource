@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-36,45,A,frag,92.0,refer,"
-but with the Virgin Value fare ",constrain-partial-frag,fare,positive,punc,type,level
-69,27,A,frag,71.0,refer,"
-at that time ",constrain-partial-frag,time,positive,punc,type,level

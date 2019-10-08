@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-2,14,B,decl,18.0,inform,"
-i'm not sure what time the trains are
-",doubt-report-closure,time,negative,,,

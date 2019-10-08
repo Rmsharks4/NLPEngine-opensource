@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-43,52,B,decl,109.0,stateCondition-abandon,"
-that's if just want the postcode or ",alternative-condition-interruption,address,positive,punc,type,incomplete

@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-49,13,A,decl,29.0,stateIntent,"
-we'll try that one first of all to see if that's going to suit your times ",intent-predict-condition-decl,number,positive,punc,type,stop

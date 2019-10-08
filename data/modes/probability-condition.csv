@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-12,64,B,decl,97.0,suggest,"
-if you just put it on the ",probability-condition,location-enum-from,positive,pause,,
-12,64,B,decl,97.0,suggest,"
-if you just put it on the ",probability-condition,location-enum-from,positive,pause,,
-12,64,B,decl,97.0,suggest,"
-if you just put it on the ",probability-condition,location-enum-from,positive,pause,,

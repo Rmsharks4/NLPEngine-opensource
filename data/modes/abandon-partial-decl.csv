@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,32,B,frag,69.0,answer-refer-abandon,"
-i do... ",abandon-partial-decl,,positive,punc,type,stop

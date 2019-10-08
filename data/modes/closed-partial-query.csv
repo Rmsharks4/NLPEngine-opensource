@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,68,B,q-wh,120.0,reqInfo,"
-why not ",closed-partial-query,,negative,punc,type,query
-47,78,B,q-wh,143.0,reqInfo,"
-",closed-partial-query,,negative,pause,,
-47,78,B,q-wh,143.0,reqInfo,"
-",closed-partial-query,,negative,punc,type,query

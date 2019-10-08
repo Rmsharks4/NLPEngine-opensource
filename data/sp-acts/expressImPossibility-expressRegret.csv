@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,77,A,decl,142.0,expressImPossibility-expressRegret,"
-i'm afraid that's not possible with that type of ticket for travelling tomorrow ",regret-decl,journey-day,negative,punc,type,stop

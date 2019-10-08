@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-55,4,B,decl,13.0,elab-stateCondition,"
-but i need to know i... if the cheap ones are still ones are still available for Saturday ",constrain-report-condition-decl,fare-availability-day,positive,punc,type,stop

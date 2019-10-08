@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-70,32,B,decl,54.0,stateReason,"
-",reason-decl-disflu,day,positive,pause,,
-70,32,B,decl,54.0,stateReason,"
-",reason-decl-disflu,day,positive,punc,type,stop

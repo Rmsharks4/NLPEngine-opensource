@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-14,91,A,decl,155.0,inform,"
-what i'm saying is you don't need to take the card
-",constrain-reportIntent-closure,,negative,,,

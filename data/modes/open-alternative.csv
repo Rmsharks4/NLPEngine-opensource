@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-4,48,B,q-wh,109.0,reqInfo,"
-erm ",open-alternative,departure-time,positive,pause,,
-18,18,B,q-wh,39.0,reqInfo,"
-or ",open-alternative,time,positive,pause,,

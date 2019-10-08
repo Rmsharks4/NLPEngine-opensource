@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-26,29,A,decl,58.0,informIntent-hold,"
-i'm just going to check availability to see what's your cheapest fare i can offer you
-",poss1Intent,fare-avail-verify,positive,,,
-34,46,B,decl,99.0,confirm,"
-on both going and coming i can get any any train i want
-",poss1Intent,preference,positive,,,

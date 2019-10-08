@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,117,A,decl,236.0,stateConstraint,"
-there's only smoking best available that i can reserve you in ",exists-poss1-constrain-decl,availability-seat-enum-day,positive,pause,,
-47,117,A,decl,236.0,stateConstraint,"
-there's only smoking best available that i can reserve you in ",exists-poss1-constrain-decl,availability-seat-enum-day,positive,punc,type,stop

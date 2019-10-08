@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,29,A,decl,65.0,answer-state,"
-i need to check availability on the return to see what fare we can offer you ",report-offer-poss1-constrain-decl,fare-availability-verify,positive,punc,type,stop

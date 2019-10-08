@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-46,21,A,decl,45.0,elab-correct,"
-it's the 10:45 ",decl,,positive,punc,type,stop
-48,47,A,frag,77.0,elab-correct,"
-14:50 ",decl,,positive,punc,type,stop
-49,6,B,frag,12.0,elab-correct,"
-to Wrexham ",partial-decl,to-location,positive,punc,type,stop
-63,82,B,frag,181.0,elab-correct,"
-12 o'clock ",decl,time-enum,positive,punc,type,stop

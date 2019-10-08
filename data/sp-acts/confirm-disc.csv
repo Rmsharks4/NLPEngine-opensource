@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-12,33,A,decl,50.0,confirm-disc,"
-it's tomorrow from ",constrain,day-from,positive,overlap,type,start
-18,57,A,frag,127.0,confirm-disc,"
-arriving in London ",,arrival-location,positive,pause,,

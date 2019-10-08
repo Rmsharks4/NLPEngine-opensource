@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-50,30,B,decl,60.0,state,"
-but then there's the ",report-exists-decl,fare-enum,positive,unclear,length,1_syllable
-50,30,B,decl,60.0,state,"
-but then there's the ",report-exists-decl,fare-enum,positive,unclear,length,2_syllables
-50,30,B,decl,60.0,state,"
-but then there's the ",report-exists-decl,fare-enum,positive,punc,type,stop

@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-56,88,B,frag,144.0,elab-thank,"
-thanks very much ",thank,,,punc,type,stop
-58,100,B,frag,205.0,elab-thank,"
-thanks a lot ",thank,,,punc,type,stop
-60,46,B,frag,92.0,elab-thank,"
-thank you ",thank-decl,,positive,punc,type,stop

@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-21,39,A,decl,70.0,informIntent,"
-i'm going to arrange for you to collect your ticket from the train station
-",intent-report-closure,journey,positive,,,

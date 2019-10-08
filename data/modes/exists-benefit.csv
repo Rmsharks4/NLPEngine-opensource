@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-5,21,A,decl,27.0,inform,"
-there's not any advance purchase tickets for you for Saturday
-",exists-benefit,fare-day-journey,negative,,,

@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-12,73,A,decl,117.0,informIntent-hold-disc,"
-i'm just checking availability on the return on Sunday
-",,day-avail-fare-verify,positive,,,

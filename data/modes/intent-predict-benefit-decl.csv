@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-70,109,A,decl,205.0,predict,"
-i'm sure we'll find that for you ",intent-predict-benefit-decl,,positive,overlap,type,end
-70,109,A,decl,205.0,predict,"
-i'm sure we'll find that for you ",intent-predict-benefit-decl,,positive,punc,type,stop

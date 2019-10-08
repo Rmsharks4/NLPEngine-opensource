@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-23,30,B,decl,47.0,expressOpinion,"
-i think there's a train at 12 35 from London Euston
-",exists-opinion-closure,time-location-from,positive,,,

@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-36,45,A,decl,95.0,stateConstraint,"
-you must do so by 6 o'clock the day before your outward journey ",tag-constrain-decl,time-journey-enum-day,positive,backchannel,content,yeah
-36,45,A,decl,95.0,stateConstraint,"
-you must do so by 6 o'clock the day before your outward journey ",tag-constrain-decl,time-journey-enum-day,positive,punc,type,stop

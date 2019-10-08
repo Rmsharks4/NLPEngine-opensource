@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-48,14,B,decl,22.0,stateIntent-abandon,"
-",intent-preference1-reason-conviction-abandon,,positive,pause,,
-48,14,B,decl,22.0,stateIntent-abandon,"
-",intent-preference1-reason-conviction-abandon,,positive,punc,type,incomplete

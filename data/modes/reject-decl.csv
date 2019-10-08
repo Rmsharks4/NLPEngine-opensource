@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-56,14,B,decl,28.0,reject,"
-that's too early ",reject-decl,time,positive,punc,type,stop

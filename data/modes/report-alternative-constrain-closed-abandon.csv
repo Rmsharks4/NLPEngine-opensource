@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,2,B,q-yn,12.0,reqInfo-abandon,"
-",report-alternative-constrain-closed-abandon,,positive,pause,,
-53,2,B,q-yn,12.0,reqInfo-abandon,"
-",report-alternative-constrain-closed-abandon,,positive,pause,,
-53,2,B,q-yn,12.0,reqInfo-abandon,"
-",report-alternative-constrain-closed-abandon,,positive,punc,type,incomplete

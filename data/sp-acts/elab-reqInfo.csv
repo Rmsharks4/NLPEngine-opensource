@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-64,26,B,frag,65.0,elab-reqInfo,"
-arriving at ",query,time-arrival,positive,overlap,type,start
-64,26,B,frag,65.0,elab-reqInfo,"
-arriving at ",query,time-arrival,positive,punc,type,query

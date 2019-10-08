@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-18,29,A,decl,68.0,answElab,"
-you can
-",poss2-closure,,positive,,,
-18,33,A,decl,78.0,answElab,"
-you can do that with this kind of ticket ",poss2-closure,journey,positive,backchannel,content,right

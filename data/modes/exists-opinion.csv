@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-9,16,B,decl,32.0,expressOpinion,"
-and i think there's a train to that 9 30
-",exists-opinion,enum,positive,,,
-29,14,B,decl,22.0,express-opinion,"
-i think there's one at 7 25 Eus... London Euston
-",exists-opinion,time-location-number,positive,,,

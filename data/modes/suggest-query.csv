@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-51,90,B,decl,169.0,reqConfirm,"
-so i should get it tomorrow ",suggest-query,day,positive,punc,type,query

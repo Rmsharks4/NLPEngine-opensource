@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,30,B,frag,81.0,referCondition-abandon,"
-if this erm ",condition-abandon,,positive,punc,type,incomplete
-62,32,B,frag,69.0,referCondition-abandon,"
-as long as i... ",condition-abandon,,positive,punc,type,incomplete

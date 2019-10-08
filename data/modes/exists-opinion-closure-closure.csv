@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-9,62,B,decl,108.0,expressOpinion,"
-erm i think there's one leaving Crewe at about 5 30 the following morning
-",exists-opinion-closure-closure,time-departure-number,positive,,,

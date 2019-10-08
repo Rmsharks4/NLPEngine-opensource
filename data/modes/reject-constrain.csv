@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-21,14,B,decl,25.0,refuse,"
-that's too early
-",reject-constrain,time,positive,,,
-22,20,B,decl,39.0,refuse,"
-that's too late erm ",reject-constrain,time,positive,pause,length,4s

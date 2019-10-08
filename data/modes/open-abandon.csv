@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-4,28,B,q-wh,64.0,suggest,"
-erm ",open-abandon,,positive,pause,length,4s
-4,28,B,q-wh,64.0,suggest,"
-erm ",open-abandon,,positive,pause,,
-34,52,B,q-wh,113.0,reqInfo,"
-erm ",open-abandon,,positive,pause,,
-46,11,A,q-wh,23.0,reqInfo-abandon,"
-what time ",open-abandon,time,positive,punc,type,incomplete

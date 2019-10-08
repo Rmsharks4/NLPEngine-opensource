@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-42,41,A,decl,74.0,elab,"
-the price... the price increased from 27th of September ",decl-disflu,month-date,positive,punc,type,stop
-58,27,A,decl,54.0,elab,"
-then it's ",frag,number,positive,pause,,
-58,27,A,decl,54.0,elab,"
-then it's ",frag,number,positive,punc,type,level
-62,16,B,yes,32.0,elab,"
-yes ",,,,punc,type,stop

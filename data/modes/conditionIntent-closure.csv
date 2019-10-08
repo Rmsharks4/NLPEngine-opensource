@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-10,16,B,decl,22.0,expressWish,"
-i'd like to arrive in er London at hal... around half past seven if possible
-",conditionIntent-closure,time-location-arrival-preference-number,positive,,,
-18,38,B,decl,88.0,answ,"
-i wanted to get on the 3 20 if possible {#5s
-",conditionIntent-closure,preference-enum,positive,,,

@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-55,5,A,q-yn,15.0,reqInfo,"
-do you still... do you hold a credit a debit card ",closed-query-disflu,creditcard,positive,punc,type,query

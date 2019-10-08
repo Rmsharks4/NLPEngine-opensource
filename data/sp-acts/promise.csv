@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,96,B,decl,206.0,promise,"
-i will be there ",predict-decl,location,positive,punc,type,stop
-63,184,B,decl,332.0,promise,"
-i will do that ",decl,,positive,punc,type,stop

@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-36,31,A,decl,61.0,reqConfirm,"
-we say it's a return journey ",tag-frag,fare-journey,positive,punc,type,level
-69,14,B,frag,33.0,state,"
-when i've done this journey ",tag-frag,journey-time,positive,punc,type,level

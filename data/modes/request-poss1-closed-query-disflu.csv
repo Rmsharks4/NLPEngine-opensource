@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,70,B,q-yn,123.0,reqOpt,"
-can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,pause,,
-47,70,B,q-yn,123.0,reqOpt,"
-can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,pause,,
-47,70,B,q-yn,123.0,reqOpt,"
-can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,pause,,
-47,70,B,q-yn,123.0,reqOpt,"
-can i can i change the the start to ",request-poss1-closed-query-disflu,location-to-from,positive,punc,type,query

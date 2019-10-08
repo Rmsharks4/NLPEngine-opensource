@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,187,A,decl,338.0,state-direct,"
-and you ",frag,journey-day-railcard,positive,pause,,
-63,187,A,decl,338.0,state-direct,"
-and you ",frag,journey-day-railcard,positive,punc,type,level

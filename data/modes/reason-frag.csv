@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-46,67,A,frag,150.0,referReason,"
-due to emergency engineering works on Sunday ",reason-frag,day,positive,punc,type,level
-47,73,A,frag,129.0,referReason,"
-due to engineering works ",reason-frag,,positive,punc,type,level
-58,21,A,decl,39.0,stateReason,"
-because it's this Monday you're travelling ",reason-frag,journey-day,positive,punc,type,level
-69,9,A,decl,17.0,stateReason,"
-because you're travelling this Sunday ",reason-frag,journey-day,positive,punc,type,level

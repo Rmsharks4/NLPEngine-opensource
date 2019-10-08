@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-31,12,B,decl,22.0,direct,"
-i'd like to get to Birmingham N E C for as close to 9 o'clock either side of it as i can ",poss1-alternativeIntent,time-location-to-preference,positive,pause,length,4s

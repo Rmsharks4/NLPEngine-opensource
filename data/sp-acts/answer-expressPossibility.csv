@@ -1,8 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-47,95,A,decl,188.0,answer-expressPossibility,"
-",suggest-poss1-decl,booking,positive,pause,,
-47,95,A,decl,188.0,answer-expressPossibility,"
-",suggest-poss1-decl,booking,positive,punc,type,stop
-51,47,A,decl,104.0,answer-expressPossibility,"
-you can cancel cancel that any time
-",poss2-tag-disflu,cancel-time,positive,,,

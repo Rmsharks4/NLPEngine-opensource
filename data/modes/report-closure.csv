@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-11,2,B,decl,4.0,inform,"
-i'm interested in purchasing a ticket
-",report-closure,journey,positive,,,
-29,25,A,decl,50.0,inform,"
-the fare the cheapest fare that i'm checking for is 19 pounds Virgin value fare ",report-closure,fare-verify,positive,pause,,

@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-57,24,B,decl,53.0,reqConfirm,"
-so there's no Super Savers available or anything on that on there ",alternative-exists-query,fare-availability-location,negative,punc,type,query

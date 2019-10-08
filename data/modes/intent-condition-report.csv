@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-9,35,A,frag,68.0,informIntent-hold,"
-if you just bear with me i'm going to book that for you ",intent-condition-report,booking,positive,pause,,
-24,21,A,decl,36.0,inform,"
-if you miss any services that i'm going to reserve you on
-",intent-condition-report,miss,positive,,,

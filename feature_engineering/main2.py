@@ -1,19 +1,33 @@
 
 import pandas as pd
 
-df = pd.read_csv('spaadia_data.csv')
 
-# for key in df['Sp-Act'].unique():
-#     rows = df.loc[df['Sp-Act'] == key]
-#     rows.to_csv('../data/sp-acts/'+key+'.csv', index=None)
+df = pd.read_csv('../data/Call_Transcripts.csv')
+print(df.columns)
 
-# for key in df['Mode'].unique():
-#     if key is not None and type(key) == str:
-#         rows = df.loc[df['Mode'] == key]
-#         rows.to_csv('../data/modes/'+key+'.csv', index=None)
-
-for key in df['Talk'].unique():
-    if key is not None and type(key) == str:
-        rows = df.loc[df['Talk'] == key]
-        rows.to_csv('../data/talks/'+key+'.csv', index=None)
+for dialogue in df['Call_ID'].unique():
+    xml = ['<?xml version="1.0"?>']
+    xml.append('<dialogue lang="en" id="'+str(dialogue)+'" corpus="train-data">')
+    n = 1
+    for index, turn in df.loc[df['Call_ID'] == dialogue].iterrows():
+        xml.append('<turn speaker="'+str(turn['Speaker'])+'" n="'+str(n)+'">')
+        text = ''
+        for char in str(turn['Conversation']):
+            if char is '.':
+                xml.append(text)
+                xml.append('<punct type="stop"/>')
+                text = ''
+            elif char is '?':
+                xml.append(text)
+                xml.append('<punct type="query"/>')
+                text = ''
+            else:
+                text = text + char
+        xml.append(text)
+        xml.append('</turn>')
+        n += 1
+    xml.append('</dialogue>')
+    xml_str = '\n'.join(xml)
+    with open('data/train-data'+str(dialogue)+'.xml', 'w') as f:
+        f.write(xml_str)
 

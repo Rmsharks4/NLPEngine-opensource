@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-65,22,B,no,35.0,echo-confirm-negate,"
-no ",,,,punc,type,stop

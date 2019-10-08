@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-55,2,B,decl,8.0,direct-expressWish,"
-i want to know if there's any cheap tickets still available from Euston to Manchester ",intent-preference1-exists-condition-decl,location-to-fare-availability-journey-from,positive,pause,length,2s
-55,2,B,decl,8.0,direct-expressWish,"
-i want to know if there's any cheap tickets still available from Euston to Manchester ",intent-preference1-exists-condition-decl,location-to-fare-availability-journey-from,positive,overlap,type,start
-55,2,B,decl,8.0,direct-expressWish,"
-i want to know if there's any cheap tickets still available from Euston to Manchester ",intent-preference1-exists-condition-decl,location-to-fare-availability-journey-from,positive,punc,type,stop

@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-56,20,B,q-yn,41.0,direct-reqInfo-abandon,"
-can you ",abandon,,positive,punc,type,incomplete
-61,50,B,q-yn,124.0,direct-reqInfo-abandon,"
-",exists-abandon,,positive,pause,,
-61,50,B,q-yn,124.0,direct-reqInfo-abandon,"
-",exists-abandon,,positive,punc,type,incomplete

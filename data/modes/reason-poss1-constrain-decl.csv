@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-57,54,B,decl,125.0,expressPossibility-stateReason,"
-",reason-poss1-constrain-decl,booking-journey,positive,pause,,
-57,54,B,decl,125.0,expressPossibility-stateReason,"
-",reason-poss1-constrain-decl,booking-journey,positive,punc,type,stop

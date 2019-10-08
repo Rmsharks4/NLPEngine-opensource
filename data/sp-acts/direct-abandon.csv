@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,215,A,imp,373.0,direct-abandon,"
-",interruption,,positive,overlap,type,start
-63,215,A,imp,373.0,direct-abandon,"
-",interruption,,positive,punc,type,incomplete

@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-19,83,A,frag,122.0,answ,"
-{letter}%4 {letter}%7
-",appreciate-closure,enum-spell,positive,,,

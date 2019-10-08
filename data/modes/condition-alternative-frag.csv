@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,25,A,decl,66.0,stateCondition,"
-if the seats were all booked or if it was busy ",condition-alternative-frag,booking,positive,punc,type,level

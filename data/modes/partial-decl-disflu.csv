@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,6,B,frag,24.0,correctSelf,"
-from from Stockport to Euston ",partial-decl-disflu,location-to-from,positive,punc,type,stop
-63,74,B,frag,170.0,elab-refer,"
-",partial-decl-disflu,time,positive,pause,,
-63,74,B,frag,170.0,elab-refer,"
-",partial-decl-disflu,time,positive,pause,,
-63,74,B,frag,170.0,elab-refer,"
-",partial-decl-disflu,time,positive,punc,type,stop

@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-68,56,B,decl,109.0,reqConfirm,"
-i'll give you the company name shall i ",intent-tag-query,name,positive,punc,type,query

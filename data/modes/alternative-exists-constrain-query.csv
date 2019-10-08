@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-64,24,B,decl,49.0,reqInfo,"
-but there's road er road works listen me engineering works isn't there or something ",alternative-exists-constrain-query,location,negative,punc,type,query

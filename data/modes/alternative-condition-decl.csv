@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-70,56,B,decl,95.0,expressOpinion,"
-it doesn't it really doesn't matter whether i go into Macclesfield or Wilmslow ",alternative-condition-decl,,negative,punc,type,stop

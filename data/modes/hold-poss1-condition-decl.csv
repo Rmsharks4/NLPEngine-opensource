@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-43,50,B,decl,104.0,expressPossibility-hold,"
-i can give you a registered address if you just hold on a second ",hold-poss1-condition-decl,address,positive,punc,type,stop

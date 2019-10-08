@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-70,180,B,q-wh,329.0,suggest-reqInfo,"
-what if the coach Ma... is is not running properly or something ",alternative-condition-closed-query,,negative,punc,type,query

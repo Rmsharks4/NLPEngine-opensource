@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-43,14,B,q-yn,28.0,reqInfo,"
-is there ",tag-exists-closed-query,location,positive,punc,type,query

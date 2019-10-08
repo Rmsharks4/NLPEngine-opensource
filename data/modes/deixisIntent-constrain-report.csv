@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-11,43,A,decl,78.0,inform,"
-with this ticket you must stick to the dates and the times that i'm going to book for you
-",deixisIntent-constrain-report,date-booking-journey,positive,,,

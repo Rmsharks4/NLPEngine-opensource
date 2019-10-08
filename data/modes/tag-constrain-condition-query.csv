@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,40,B,decl,116.0,reqConfirm,"
-but it won't matter if the ticket says that time will it ",tag-constrain-condition-query,journey-time,negative,punc,type,query

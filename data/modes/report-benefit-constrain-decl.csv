@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-67,7,A,decl,12.0,stateConstraint,"
-i need to arrange for you to collect your ticket from the train station ",report-benefit-constrain-decl,journey,positive,punc,type,stop

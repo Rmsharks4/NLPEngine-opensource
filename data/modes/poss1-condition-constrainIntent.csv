@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-22,58,B,decl,133.0,informIntent,"
-i...i'll have to take a chance and call back later and see if i can get the other one
-",poss1-condition-constrainIntent,number,positive,,,

@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-53,40,B,decl,112.0,stateCondition-abandon,"
-if if that's poss... ",condition-abandon-abandon,,positive,punc,type,incomplete

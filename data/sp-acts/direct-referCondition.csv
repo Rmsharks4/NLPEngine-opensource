@@ -1,7 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-52,34,B,frag,57.0,direct-referCondition,"
-if erm ",request-condition-decl,time-enum,positive,pause,length,3s
-52,34,B,frag,57.0,direct-referCondition,"
-if erm ",request-condition-decl,time-enum,positive,pause,,
-52,34,B,frag,57.0,direct-referCondition,"
-if erm ",request-condition-decl,time-enum,positive,punc,type,stop

@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-56,36,B,q-wh,74.0,reqConfirm,"
-i must what ",query-constrain-exclaim-partial-query,,positive,punc,type,query

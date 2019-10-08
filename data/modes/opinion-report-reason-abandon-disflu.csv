@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-61,38,B,decl,90.0,expressOpinion-abandon,"
-i think ",opinion-report-reason-abandon-disflu,journey,positive,overlap,type,end
-61,38,B,decl,90.0,expressOpinion-abandon,"
-i think ",opinion-report-reason-abandon-disflu,journey,positive,punc,type,incomplete

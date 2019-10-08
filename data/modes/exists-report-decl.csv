@@ -1,3 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-51,26,B,decl,50.0,answer-state,"
-ah there's two there's two types i'm told ",exists-report-decl,number,positive,punc,type,stop

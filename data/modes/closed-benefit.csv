@@ -1,4 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-4,55,A,q-yn,125.0,reqDirect,"
-would you like me to book that for you
-",closed-benefit,preference-booking,positive,,,

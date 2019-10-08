@@ -1,9 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-38,40,B,frag,59.0,echo-abandon,"
-",abandon-abandon,,positive,pause,,
-38,40,B,frag,59.0,echo-abandon,"
-",abandon-abandon,,positive,punc,type,incomplete
-40,40,B,frag,59.0,echo-abandon,"
-",abandon-abandon,,positive,pause,,
-40,40,B,frag,59.0,echo-abandon,"
-",abandon-abandon,,positive,punc,type,incomplete

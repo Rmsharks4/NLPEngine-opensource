@@ -1,5 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-63,93,A,dm,199.0,elab-confirm,"
-",,,,overlap,type,start
-63,93,A,dm,199.0,elab-confirm,"
-",,,,punc,type,stop

@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from collections import OrderedDict
 
-tree = ET.parse('../data/spaadia_data.xml')
+tree = ET.parse('../data/train-data.xml')
 xml_data = tree.getroot()
 xml_str = ET.tostring(xml_data, encoding='utf8', method='xml')
 
@@ -166,7 +166,7 @@ def iterate_xml(data):
         dialogues.append(dialogue)
     df = pd.DataFrame(rows, columns=['DialogueID', 'Turn-N', 'Speaker', 'Talk', 'Talk-N', 'Sp-Act', 'Text', 'Mode', 'Topic', 'Polarity',
                                      'Act', 'Key', 'Value'])
-    df.to_csv('spaadia_data.csv')
+    df.to_csv('train-data.csv')
     return dialogues
 
 

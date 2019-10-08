@@ -1,6 +1,0 @@
-DialogueID,Turn-N,Speaker,Talk,Talk-N,Sp-Act,Text,Mode,Topic,Polarity,Act,Key,Value
-45,19,A,decl,37.0,referOpt,"
-or the one before that ",alternative-frag,number-time,positive,punc,type,level
-59,2,B,frag,9.0,referOpt,"
-either the 12:17 or 12:22 on Saturday the 4th of Oct...
-",alternative,enum-date-day-location-time-month,positive,,,
