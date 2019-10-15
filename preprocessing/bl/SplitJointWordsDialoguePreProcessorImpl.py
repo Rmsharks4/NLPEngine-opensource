@@ -12,6 +12,7 @@ splits combination words into two (well-managed to well managed, etc.)
 """
 
 from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
+from preprocessing.bl.PlainTextDialoguePreProcessorImpl import PlainTextDialoguePreProcessorImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.SplitsDictionary import SplitsDictionary
 
@@ -23,7 +24,8 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Split Joint Words Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = LowercaseDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_data = [PlainTextDialoguePreProcessorImpl.__name__,
+                                                   LowercaseDialoguePreProcessorImpl.__name__]
         self.config_pattern.properties.req_args = SplitsDictionary.__name__
 
     @classmethod
@@ -47,5 +49,7 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
         (SplitsDictionary)
         :return: (list) array of preprocessed data
         """
-        return self.split_joint_words(args[self.config_pattern.properties.req_data],
-                                       args[self.config_pattern.properties.req_args])
+        for req_data in self.config_pattern.properties.req_data:
+            if req_data in args:
+                return self.split_joint_words(args[req_data], args[self.config_pattern.properties.req_args])
+        return None

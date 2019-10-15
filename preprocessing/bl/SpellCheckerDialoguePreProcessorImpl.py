@@ -24,7 +24,7 @@ class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Spell Checker Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = RemovePunctuationDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_data = [RemovePunctuationDialoguePreProcessorImpl.__name__]
         self.config_pattern.properties.req_args = SpellCheckerLib.__name__
 
     @classmethod
@@ -45,5 +45,7 @@ class SpellCheckerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (SpellCheckerLib)
         :return: (list) array of preprocessed data
         """
-        return self.spell_check(args[self.config_pattern.properties.req_data],
-                                 args[self.config_pattern.properties.req_args])
+        for req_data in self.config_pattern.properties.req_data:
+            if req_data in args:
+                return self.spell_check(args[req_data], args[self.config_pattern.properties.req_args])
+        return None

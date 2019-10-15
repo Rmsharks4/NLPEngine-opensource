@@ -25,8 +25,8 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Word Net Lemmatizer Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__name__,
-                                                   SpellCheckerDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_data = [SpellCheckerDialoguePreProcessorImpl.__name__,
+                                                   RemoveStopWordsDialoguePreProcessorImpl.__name__]
         self.config_pattern.properties.req_args = WordnetLemmatizer.__name__
 
     @classmethod

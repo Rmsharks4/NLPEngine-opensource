@@ -1,14 +1,12 @@
 import abc
 import logging
-from feature_engineering.utils.FeatureEngineeringConstants import FeatureEngineeringConstants
+from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
 
 
-class AbstractDialogueFeatureEngineer(metaclass=abc.ABCMeta):
+class AbstractDialogueFeatureEngineer(StandardConfigParserImpl):
 
-    def __init__(self, args):
-        self.logger = logging.getLogger(FeatureEngineeringConstants.LOGGER_NAME)
-        self.req_args = args
-        self.req_data = list()
+    def __init__(self):
+        super().__init__()
 
     @classmethod
     def engineer_feature(cls, args):

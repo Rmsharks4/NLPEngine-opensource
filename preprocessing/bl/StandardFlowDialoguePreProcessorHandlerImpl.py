@@ -21,6 +21,7 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 from preprocessing.utils.UtilsFactory import UtilsFactory
 from commons.dao.SparkDAOImpl import SparkDAOImpl
+import math
 
 
 class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingHandler):
@@ -40,39 +41,37 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
         """
         preprocessors = list()
         for current in args[AbstractDialoguePreProcessor.__name__].values():
-            if type(current.properties.req_data) == list:
+            if len(current.properties.req_data) > 0:
                 for data in current.properties.req_data:
-                    while data is not None and data not in preprocessors:
+                    while data not in preprocessors:
                         current = args[AbstractDialoguePreProcessor.__name__][data]
-                    preprocessors.append(current.name)
+                    if current.name not in preprocessors:
+                        preprocessors.append(current.name)
             else:
-                while current.properties.req_data is not None and current.properties.req_data not in preprocessors:
-                    current = args[AbstractDialoguePreProcessor.__name__][current.properties.req_data]
                 preprocessors.append(current.name)
         spark = SparkDAOImpl()
         spark_df = args[SparkDAOImpl.__name__]
         df = spark_df.toPandas()
-        for name in preprocessors:
-            preprocessor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(name)
-            if type(preprocessor.config_pattern.properties.req_data) == list:
-                for req_data in preprocessor.config_pattern.properties.req_data:
-                    util = UtilsFactory.get_utils(preprocessor.config_pattern.properties.req_args)
-                    if util is not None:
-                        util.load()
-                    df[preprocessor.__class__.__name__+'_'+req_data] = df[req_data] \
-                        .apply(lambda x: preprocessor.preprocess_operation({
-                            req_data: x,
-                            preprocessor.config_pattern.properties.req_args: util
-                        }) if x is not None else x)
-            else:
+        for pre in preprocessors:
+            preprocessor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(pre)
+            input_data = preprocessor.config_pattern.properties.req_data
+            for req_data in input_data:
                 util = UtilsFactory.get_utils(preprocessor.config_pattern.properties.req_args)
                 if util is not None:
                     util.load()
-                df[preprocessor.__class__.__name__] = df[preprocessor.config_pattern.properties.req_data]\
-                    .apply(lambda x: preprocessor.preprocess_operation({
-                        preprocessor.config_pattern.properties.req_data: x,
-                        preprocessor.config_pattern.properties.req_args: util
-                    }) if x is not None else x)
+                input_df = df.filter(regex=req_data)
+                for col in input_df.columns:
+                    names = col.split('.')
+                    for name in names:
+                        if name in input_data and name is not req_data:
+                            print(pre+": "+name)
+                    if names[0] == req_data:
+                        names[0] = '.' + names[0]
+                        df[preprocessor.__class__.__name__+'.'.join(names)] = df[col]\
+                            .apply(lambda x: preprocessor.preprocess_operation({
+                                req_data: x,
+                                preprocessor.config_pattern.properties.req_args: util
+                            }) if x is not None else x)
         return spark.create([
             df, self.__class__.__name__
         ])

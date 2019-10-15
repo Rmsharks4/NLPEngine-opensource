@@ -25,7 +25,7 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         super().__init__()
 
         self.logger.info('Setting Arguments in: ' + self.config_pattern.properties.__class__.__name__)
-        self.config_pattern.properties.req_data = SplitJointWordsPreProcessorImpl.__name__
+        self.config_pattern.properties.req_data = [SplitJointWordsPreProcessorImpl.__name__]
         self.logger.info("Required Data: " + SplitJointWordsPreProcessorImpl.__name__)
         self.config_pattern.properties.req_args = ContractionsDictionary.__name__
         self.logger.info("Required Arguments: " + ContractionsDictionary.__name__)
@@ -49,5 +49,7 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (SplitJointWordsPreProcessorImpl)
         :return: (list) array of preprocessed data
         """
-        return self.expand_contractions(args[self.config_pattern.properties.req_data],
-                                         args[self.config_pattern.properties.req_args])
+        for req_data in self.config_pattern.properties.req_data:
+            if req_data in args:
+                return self.expand_contractions(args[req_data], args[self.config_pattern.properties.req_args])
+        return None

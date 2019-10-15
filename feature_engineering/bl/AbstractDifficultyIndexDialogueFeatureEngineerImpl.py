@@ -1,9 +1,15 @@
 import abc
 from feature_engineering.bl.AbstractDialogueFeatureEngineer import AbstractDialogueFeatureEngineer
+from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNetLemmatizerDialoguePreProcessorImpl
 from textstat.textstat import textstatistics, easy_word_set
 
 
 class AbstractDifficultyIndexDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
+
+    def __init__(self):
+        super().__init__()
+        self.config_pattern.properties.req_data = WordNetLemmatizerDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_args = None
 
     def engineer_feature_operation(self, args):
         return self.difficulty_index(args)

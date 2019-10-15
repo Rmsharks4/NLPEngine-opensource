@@ -23,7 +23,7 @@ class RemovePunctuationDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Remove Punctuation Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = RemoveEmailsDialoguePreProcessorImpl.__name__
+        self.config_pattern.properties.req_data = [RemoveEmailsDialoguePreProcessorImpl.__name__]
         self.config_pattern.properties.req_args = PunctuationDictionary.__name__
 
     @classmethod
@@ -44,5 +44,7 @@ class RemovePunctuationDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (PunctuationDictionary)
         :return: (list) array of preprocessed data
         """
-        return self.remove_punctuation(args[self.config_pattern.properties.req_data],
-                                        args[self.config_pattern.properties.req_args])
+        for req_data in self.config_pattern.properties.req_data:
+            if req_data in args:
+                return self.remove_punctuation(args[req_data], args[self.config_pattern.properties.req_args])
+        return None
