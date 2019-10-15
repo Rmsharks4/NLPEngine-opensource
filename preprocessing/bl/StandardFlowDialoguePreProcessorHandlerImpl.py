@@ -52,6 +52,7 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
         spark = SparkDAOImpl()
         spark_df = args[SparkDAOImpl.__name__]
         df = spark_df.toPandas()
+        prev = ''
         for pre in preprocessors:
             preprocessor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(pre)
             input_data = preprocessor.config_pattern.properties.req_data
@@ -62,16 +63,45 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                 input_df = df.filter(regex=req_data)
                 for col in input_df.columns:
                     names = col.split('.')
-                    for name in names:
-                        if name in input_data and name is not req_data:
-                            print(pre+": "+name)
                     if names[0] == req_data:
-                        names[0] = '.' + names[0]
+                        if len(input_data) > 1:
+                            if req_data == prev:
+                                names.pop(0)
+                            if len(names) > 0:
+                                names[0] = '.' + names[0]
+                        else:
+                            names[0] = ''
                         df[preprocessor.__class__.__name__+'.'.join(names)] = df[col]\
                             .apply(lambda x: preprocessor.preprocess_operation({
                                 req_data: x,
                                 preprocessor.config_pattern.properties.req_args: util
                             }) if x is not None else x)
+            prev = pre
         return spark.create([
             df, self.__class__.__name__
         ])
+
+# PlainTextDialoguePreProcessorImpl - 1 dep
+# LowercaseDialoguePreProcessorImpl - 1 dep (ignore appending)
+# SplitJointWordsPreProcessorImpl - 2 deps (append in 2-1 dep)
+# SplitJointWordsPreProcessorImpl.LowercaseDialoguePreProcessorImpl (append name of dep)
+# ExpandContractionsDialoguePreProcessorImpl - 2 deps (append in 2-1 dep)
+# ExpandContractionsDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl (append name of dep's dep)
+# RemoveNumericCharactersDialoguePreProcessorImpl
+# RemoveNumericCharactersDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# RemoveEmailsDialoguePreProcessorImpl
+# RemoveEmailsDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# RemovePunctuationDialoguePreProcessorImpl
+# RemovePunctuationDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# SpellCheckerDialoguePreProcessorImpl
+# SpellCheckerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# RemoveStopWordsDialoguePreProcessorImpl
+# RemoveStopWordsDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# PorterStemmerDialoguePreProcessorImpl
+# PorterStemmerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# PorterStemmerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl
+# PorterStemmerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# WordNetLemmatizerDialoguePreProcessorImpl
+# WordNetLemmatizerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
+# WordNetLemmatizerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl
+# WordNetLemmatizerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
