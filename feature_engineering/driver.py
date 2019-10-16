@@ -255,7 +255,7 @@ def chunking_text(reg, text):
 def spacy_chunks(text):
     return [(X, X.ent_iob_, X.ent_type_) for X in nlp(text)]
 
-# Fogg index - word difficulty measurement
+# Fogg index - word difficulty_index measurement
 def difficulty(text):
     """
 

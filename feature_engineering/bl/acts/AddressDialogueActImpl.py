@@ -1,9 +1,9 @@
-from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialogueIntent
+from feature_engineering.bl.acts.AbstractDialogueAct import AbstractDialogueAct
 
 
-class AddressDialogueIntentImpl(AbstractDialogueIntent):
+class AddressDialogueActImpl(AbstractDialogueAct):
 
-    def intent(self, data):
+    def act(self, data):
         pass
 
 # Sir / Mousier / Mister
@@ -11,6 +11,7 @@ class AddressDialogueIntentImpl(AbstractDialogueIntent):
 # Doctor / Professor / General / Sergeant / Lieutenant / Major / Officer / Governor / Senator / Captain
 # Representative / Judge / Attorney General / City Councilor / President / Vice President / Waiter
 # Honey / Dear / Sweetie / Love / Darling / Babe or Baby / Pal / Buddy or Bud
-# Bro / Homie / Man / Brother / Sis / Sister
+# Bro / Homie / Man / Brother / Sis / Sister / Father
 # Mom / Dad / Everybody / guys / boys / girls
 # ‍Aunt, Uncle, Grandma, Grandpa
+# insulting names: doofus, idiot, asshole
