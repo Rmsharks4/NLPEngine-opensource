@@ -2,5 +2,5 @@
 
 class AbstractDialogueIntent:
 
-    def intent(self, data):
+    def intent(self, args):
         pass

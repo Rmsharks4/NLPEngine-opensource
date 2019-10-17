@@ -3,7 +3,7 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class HoldDialogueIntentImpl(AbstractDialogueIntent):
 
-    def intent(self, data):
+    def intent(self, args):
         pass
 
 # hold on/it/the line

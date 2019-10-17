@@ -3,6 +3,6 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class AnswerDialogueIntentImpl(AbstractDialogueIntent):
 
-    def intent(self, data):
+    def intent(self, args):
         pass
 

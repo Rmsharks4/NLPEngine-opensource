@@ -3,7 +3,7 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class AcceptDialogueIntentImpl(AbstractDialogueIntent):
 
-    def intent(self, data):
+    def intent(self, args):
         pass
 
 # Sure

@@ -3,7 +3,7 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class AcknowledgeDialogueIntentImpl(AbstractDialogueIntent):
 
-    def intent(self, data):
+    def intent(self, args):
         pass
 
 # yeah, yes please, yep, okay then, right, alright, ok, okay, aha, mhm

@@ -1,0 +1,7 @@
+{"pattern": ["LOWER": "Welcome to "], "label": "ORG"}
+{"pattern": ["LOWER": "Thank you for calling "], "label": "ORG"}
+{"pattern": ["LOWER": "Thank you very much for calling "], "label": "ORG"}
+{"pattern": ["LOWER": "This is "], "label": "ORG"}
+{"pattern": ["LOWER": "from "], "label": "ORG"}
+{"pattern": ["LOWER": "You have called "], "label": "ORG"}
+{"pattern": ["LOWER": "We are "], "label": "ORG"}

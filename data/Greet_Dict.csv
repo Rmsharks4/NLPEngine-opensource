@@ -1,0 +1,43 @@
+Hello,GREET_FORMAL
+Good morning,GREET_FORMAL
+Good afternoon,GREET_FORMAL
+Good evening,GREET_FORMAL
+How are you,GREET_FORMAL
+How are you doing,GREET_FORMAL
+Nice to meet you,GREET_FORMAL
+It is nice to meet you,GREET_FORMAL
+I am pleased to meet you,GREET_FORMAL
+It is a pleasure to meet you,GREET_FORMAL
+I am glad to see you,GREET_FORMAL
+How do you do,GREET_FORMAL
+Hi,GREET_FORMAL
+Hey,GREET_FORMAL
+Aloha,GREET_FORMAL
+Shalom,GREET_FORMAL
+What is up,GREET_INFORMAL
+Greetings,
+Season's Greetings,
+Happy Holidays,
+Many Happy Returns,
+How is it going,GREET_INFORMAL
+How have you been,GREET_INFORMAL
+What is new,GREET_INFORMAL
+What is going on,GREET_INFORMAL
+How are things,GREET_INFORMAL
+How is your day,GREET_INFORMAL
+How is your day going,GREET_INFORMAL
+Good to see you,GREET_INFORMAL
+Long time no see,GREET_INFORMAL
+It is been a while,GREET_INFORMAL
+It is been a long time,GREET_INFORMAL
+It is been such a long time,GREET_INFORMAL
+It is been too long,GREET_INFORMAL
+I am so happy to see you again,GREET_INFORMAL
+"Wow, it is so good to see you again",GREET_INFORMAL
+What have you been up to,GREET_INFORMAL
+"I am doing very well, thank you And you",GREET_RESPONSE
+I am fine thank you,GREET_RESPONSE
+Great thanks How are you,GREET_RESPONSE
+Not bad You,GREET_RESPONSE
+Could not be better How about you,GREET_RESPONSE
+Wonderful thank you,GREET_RESPONSE

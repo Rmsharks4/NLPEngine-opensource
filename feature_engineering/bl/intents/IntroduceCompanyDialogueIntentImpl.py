@@ -1,20 +1,18 @@
 from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialogueIntent
 import spacy
-import csv
-from spacy.matcher import PhraseMatcher
+import json
+from spacy.matcher import Matcher
 
 
 class GreetDialogueIntentImpl(AbstractDialogueIntent):
 
     def intent(self, args):
         nlp = spacy.load('en_core_web_sm')
-        matcher = PhraseMatcher(nlp.vocab)
-        with open('../data/Greet_Dict.csv', mode='r') as infile:
-            reader = csv.reader(infile)
-            greet_dict = dict((rows[0], rows[1]) for rows in reader)
-        terms = greet_dict.keys()
+        matcher = Matcher(nlp.vocab)
+        input_file = open('../data/Introduce_Company_Dict.json')
+        terms = json.load(input_file)
         patterns = [nlp.make_doc(text) for text in terms]
-        matcher.add("Greet", None, *patterns)
+        matcher.add("Introduce Company", None, *patterns)
         doc = nlp(args)
         matches = matcher(doc)
         output = []
