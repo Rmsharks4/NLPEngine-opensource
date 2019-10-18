@@ -1,15 +1,40 @@
-May I offer you my help
-I’d be happy to help you
-How can I help you
-How can I provide world class service
-What can I help you with
-Can I help you
-How may I help you
-May I help you
-May I be of service
-How may I be of service
-Can I be of any assistance to you? 
-How can I be of assistance
-I’ll be glad to help you
-I’ll be glad to assist you
-I’d be happy to help you
+May I offer you my help,OFFER_HELP
+I’d be happy to help you,OFFER_HELP
+How can I help you,OFFER_HELP
+How can I provide world class service,OFFER_HELP
+What can I help you with,OFFER_HELP
+Can I help you,OFFER_HELP
+How may I help you,OFFER_HELP
+May I help you,OFFER_HELP
+May I be of service,OFFER_HELP
+How may I be of service,OFFER_HELP
+Can I be of any assistance to you,OFFER_HELP
+How can I be of assistance,OFFER_HELP
+I will be glad to help you,OFFER_HELP
+I will be glad to assist you,OFFER_HELP
+I would be happy to help you,OFFER_HELP
+Can I,OFFER_DIRECT
+Shall I,OFFER_DIRECT
+Would you like me to,OFFER_DIRECT
+Would you like,OFFER_DIRECT
+Do you want me to,OFFER_DIRECT
+Do you want me to,OFFER_DIRECT
+Let me,OFFER_DIRECT
+If you would like,OFFER_DIRECT
+I would be happy to,OFFER_DIRECT
+May I offer you,OFFER_DIRECT
+I accept,OFFER_RESPONSE_POS
+Yes please,OFFER_RESPONSE_POS
+Yes I would love to,OFFER_RESPONSE_POS
+Yes That would be great,OFFER_RESPONSE_POS
+Yes please that would be lovely,OFFER_RESPONSE_POS
+Yes If you wouldn’t mind,OFFER_RESPONSE_POS
+That is very kind of you,OFFER_RESPONSE_POS
+That sounds nice,OFFER_RESPONSE_POS
+Thank you I would like to,OFFER_RESPONSE_POS
+I refuse,OFFER_RESPONSE_NEG
+No thanks,OFFER_RESPONSE_NEG
+It is Okay I can do it myself,OFFER_RESPONSE_NEG
+Thank you for your kindness but I can do it myself,OFFER_RESPONSE_NEG
+Do not worry I can do it,OFFER_RESPONSE_NEG
+I appreciate that but I can do it myself,OFFER_RESPONSE_NEG

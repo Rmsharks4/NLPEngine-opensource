@@ -3,7 +3,7 @@ from feature_engineering.bl.acts.AbstractDialogueAct import AbstractDialogueAct
 
 class DmDialogueActImpl(AbstractDialogueAct):
 
-    def act(self, data):
+    def act(self, args):
         pass
 
 # a single word  / double word which stands alone as an utterance

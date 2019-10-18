@@ -3,7 +3,7 @@ from feature_engineering.bl.acts.AbstractDialogueAct import AbstractDialogueAct
 
 class DeclDialogueActImpl(AbstractDialogueAct):
 
-    def act(self, data):
+    def act(self, args):
         pass
 
 # subject before verb

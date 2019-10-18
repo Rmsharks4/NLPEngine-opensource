@@ -2,7 +2,7 @@
 
 class AbstractDialogueAct:
 
-    def act(self, data):
+    def act(self, args):
         pass
 # A C unit (act) is the basic unit for speech act / intent annotation.
 # Syntactically, it is an independent clausal or a non clausal unit.

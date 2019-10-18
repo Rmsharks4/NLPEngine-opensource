@@ -15,10 +15,10 @@ Hey,GREET_FORMAL
 Aloha,GREET_FORMAL
 Shalom,GREET_FORMAL
 What is up,GREET_INFORMAL
-Greetings,
-Season's Greetings,
-Happy Holidays,
-Many Happy Returns,
+Greetings,GREET_FUNCTIONAL
+Season's Greetings,GREET_FUNCTIONAL
+Happy Holidays,GREET_FUNCTIONAL
+Many Happy Returns,GREET_FUNCTIONAL
 How is it going,GREET_INFORMAL
 How have you been,GREET_INFORMAL
 What is new,GREET_INFORMAL

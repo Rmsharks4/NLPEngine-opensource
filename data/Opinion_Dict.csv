@@ -1,0 +1,32 @@
+What do you think about this problem,OPINION_ASK
+What do you think of my new house?,OPINION_ASK
+Do you have any thoughts on that,OPINION_ASK
+How do you feel about that,OPINION_ASK
+What is your opinion,OPINION_ASK
+Do you have any idea,OPINION_ASK
+Do you have any opinion on this matter,OPINION_ASK
+What is your view,OPINION_ASK
+Please tell me your opinion on this subject,OPINION_ASK
+What is your opinion about that,OPINION_ASK
+Can you give me your thoughts on the report,OPINION_ASK
+What are your feelings about his behavior,OPINION_ASK
+I would like to hear your views on this matter,OPINION_ASK
+I think you need,OPINION_DIRECT
+In my opinion,OPINION_DIRECT
+I do not think,OPINION_DIRECT
+Personally I think,OPINION_DIRECT
+From my point of view,OPINION_DIRECT
+As far as I am concerned,OPINION_DIRECT
+My personal view is,OPINION_DIRECT
+In my point of view,OPINION_DIRECT
+It seems to me,OPINION_DIRECT
+To my mind,OPINION_DIRECT
+I personally believe,OPINION_DIRECT
+This is absolutely right,OPINION_RESPONSE_POS
+I could not agree more,OPINION_RESPONSE_POS
+I completely agree with you,OPINION_RESPONSE_POS
+I agree with this opinion,OPINION_RESPONSE_POS
+I do not agree with you,OPINION_RESPONSE_NEG
+I think you are wrong,OPINION_RESPONSE_NEG
+I do not think so,OPINION_RESPONSE_NEG
+I am afraid I can not agree with you,OPINION_RESPONSE_NEG

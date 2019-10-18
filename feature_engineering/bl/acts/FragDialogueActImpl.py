@@ -3,7 +3,7 @@ from feature_engineering.bl.acts.AbstractDialogueAct import AbstractDialogueAct
 
 class FragDialogueActImpl(AbstractDialogueAct):
 
-    def act(self, data):
+    def act(self, args):
         pass
 
 # applies to C units which do not contain an independent finite clause.

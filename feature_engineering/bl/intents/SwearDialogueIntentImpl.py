@@ -4,17 +4,17 @@ import csv
 from spacy.matcher import PhraseMatcher
 
 
-class OfferDialogueIntentImpl(AbstractDialogueIntent):
+class SwearDialogueIntentImpl(AbstractDialogueIntent):
 
     def intent(self, args):
         nlp = spacy.load('en_core_web_sm')
         matcher = PhraseMatcher(nlp.vocab)
-        with open('../data/Init_Dict.csv', mode='r') as infile:
+        with open('../data/Swear_Dict.csv', mode='r') as infile:
             reader = csv.reader(infile)
             greet_dict = dict((rows[0], rows[1]) for rows in reader)
         terms = greet_dict.keys()
         patterns = [nlp.make_doc(text) for text in terms]
-        matcher.add("Init", None, *patterns)
+        matcher.add("Swear", None, *patterns)
         doc = nlp(args)
         matches = matcher(doc)
         output = []

@@ -3,7 +3,7 @@ from feature_engineering.bl.acts.AbstractDialogueAct import AbstractDialogueAct
 
 class ImpDialogueActImpl(AbstractDialogueAct):
 
-    def act(self, data):
+    def act(self, args):
         pass
 
 # an imperative clause, with a verb in its base (uninflected),

@@ -1,0 +1,39 @@
+You should try,SUGGEST_DIRECT
+You should,SUGGEST_DIRECT
+I think you should,SUGGEST_DIRECT
+Why do not you,SUGGEST_DIRECT
+You would better,SUGGEST_DIRECT
+Let us,SUGGEST_DIRECT
+What about,SUGGEST_DIRECT
+How about,SUGGEST_DIRECT
+Do not you think,SUGGEST_DIRECT
+"If I were you, I would",SUGGEST_DIRECT
+I suggest that,SUGGEST_DIRECT
+I suggest,SUGGEST_DIRECT
+You may want to,SUGGEST_DIRECT
+Perhaps you could,SUGGEST_DIRECT
+Perhaps you should,SUGGEST_DIRECT
+Perhaps you,SUGGEST_DIRECT
+I strongly advise you,SUGGEST_DIRECT
+I recommend that,SUGGEST_DIRECT
+I recommend,SUGGEST_DIRECT
+It is better for you,SUGGEST_DIRECT
+It is better if you,SUGGEST_DIRECT
+I think you need to,SUGGEST_DIRECT
+I think its better if you,SUGGEST_DIRECT
+It is probably better if you,SUGGEST_DIRECT
+Thanks I will do it,SUGGEST_RESPONSE_POS
+It sounds good,SUGGEST_RESPONSE_POS
+That sounds like a good idea,SUGGEST_RESPONSE_POS
+Thanks It is a good suggestion,SUGGEST_RESPONSE_POS
+I think you are right,SUGGEST_RESPONSE_POS
+Why did not I think of that,SUGGEST_RESPONSE_POS
+Good advice,SUGGEST_RESPONSE_POS
+Thanks for the advice,SUGGEST_RESPONSE_POS
+Thanks for the tip,SUGGEST_RESPONSE_POS
+No I would rather not,SUGGEST_RESPONSE_NEG
+I do not think so,SUGGEST_RESPONSE_NEG
+I do not feel like it,SUGGEST_RESPONSE_NEG
+No I do not this it is a good idea,SUGGEST_RESPONSE_NEG
+What a bad idea,SUGGEST_RESPONSE_NEG
+That is an awful plan,SUGGEST_RESPONSE_NEG
