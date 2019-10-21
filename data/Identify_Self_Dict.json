@@ -1,7 +1,0 @@
-{"pattern": ["LOWER": "My name is"], "label": "PERSON"}
-{"pattern": ["LOWER": "This is"], "label": "PERSON"}
-{"pattern": ["LOWER": "I am"], "label": "PERSON"}
-{"label": "PERSON", "pattern": ["LOWER": "speaking"]}
-{"pattern": ["LOWER": "You are speaking to"], "label": "PERSON"}
-{"pattern": ["LOWER": "You are talking to"], "label": "PERSON"}
-{"pattern": ["LOWER": "It is"], "label": "PERSON"}

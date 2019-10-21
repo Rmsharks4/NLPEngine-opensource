@@ -1,0 +1,95 @@
+what is your,VERIFY_DETAIL
+who am I speaking to,VERIFY_NAME
+who am I speaking to today,VERIFY_NAME
+who are you,VERIFY_NAME
+I did not get your,VERIFY_DETAIL
+I did not get the last,VERIFY_DETAIL
+Can I have your,VERIFY_DETAIL
+can I have,VERIFY_DETAIL
+Can I please have your,VERIFY_DETAIL
+can I please have,VERIFY_DETAIL
+May I have your,VERIFY_DETAIL
+may I have,VERIFY_DETAIL
+May I please have your,VERIFY_DETAIL
+may I please have,VERIFY_DETAIL
+I did not get your,VERIFY_DETAIL
+I did not get the,VERIFY_DETAIL
+I did not get,VERIFY_DETAIL
+I did not catch,VERIFY_DETAIL
+what is your,VERIFY_DETAIL
+what is,VERIFY_DETAIL
+do you have a,VERIFY_DETAIL
+do you have,VERIFY_DETAIL
+is your,VERIFY_DETAIL
+can you repeat,VERIFY_DETAIL
+can you verify your,VERIFY_DETAIL
+can I get your,VERIFY_DETAIL
+can your verify,VERIFY_DETAIL
+can I verify your,VERIFY_DETAIL
+can I get,VERIFY_DETAIL
+available,VERIFY_DETAIL
+available on you,VERIFY_DETAIL
+do you have your,VERIFY_DETAIL
+available to you,VERIFY_DETAIL
+can you give me your,VERIFY_DETAIL
+can you give me,VERIFY_DETAIL
+can you please give me,VERIFY_DETAIL
+can you please share,VERIFY_DETAIL
+can you share,VERIFY_DETAIL
+can you just confirm,VERIFY_DETAIL
+can you confirm,VERIFY_DETAIL
+could you ,VERIFY_DETAIL
+May I get you to verify,VERIFY_DETAIL
+May I get,VERIFY_DETAIL
+I need your,VERIFY_DETAIL
+I am going to need your,VERIFY_DETAIL
+I will need your,VERIFY_DETAIL
+I will need,VERIFY_DETAIL
+I need,VERIFY_DETAIL
+I am going to need,VERIFY_DETAIL
+I require your,VERIFY_DETAIL
+I have to ask you for,VERIFY_DETAIL
+can I ask you for,VERIFY_DETAIL
+can I,VERIFY_DETAIL
+could I have your,VERIFY_DETAIL
+on you,VERIFY_DETAIL
+you got your,VERIFY_DETAIL
+you have your,VERIFY_DETAIL
+please,VERIFY_DETAIL
+name,NAME
+first name,NAME
+card number,CARD
+access code,ACCESS_CODE
+phone number,PHONE
+cell number,PHONE
+mobile phone,PHONE
+mobile number,PHONE
+middle name,NAME
+middle initial,NAME
+intials,NAME
+last name,NAME
+date of birth,DOB
+month,DOB
+date,DOB
+year,DOB
+mother’s name,MOTHER
+maiden’s name,MAIDEN
+maiden name,MAIDEN
+mother name,MOTHER
+father’s name,FATHER
+father name,FATHER
+family name,NAME
+phone,PHONE
+cell,PHONE
+number,PHONE
+mobile,PHONE
+card,CARD
+routing number,ROUTING_NO
+routing,ROUTING_NO
+checking account,ACCOUNT
+savings account,ACCOUNT
+account details,ACCOUNT
+account,ACCOUNT
+last four digits,DIGITS
+last,DIGITS
+digits,DIGITS
