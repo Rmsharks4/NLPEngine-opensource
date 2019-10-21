@@ -3,8 +3,8 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class AppreciateDialogueIntentImpl(AbstractDialogueIntent):
 
-    def intent(self, args):
-        pass
+    def __init__(self):
+        super().__init__()
 
 # that's fine
 # that's brilliant

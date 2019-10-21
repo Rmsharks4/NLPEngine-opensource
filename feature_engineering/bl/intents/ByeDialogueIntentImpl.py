@@ -3,8 +3,8 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class ByeDialogueIntentImpl(AbstractDialogueIntent):
 
-    def intent(self, args):
-        pass
+    def __init__(self):
+        super().__init__()
 
 # bye/goodbye/bye bye/ta ta
 # au revoir/adios/cheerio/aloha/ciao/adieu/shalom/sayonara
