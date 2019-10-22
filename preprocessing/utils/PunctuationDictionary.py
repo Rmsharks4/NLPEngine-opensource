@@ -26,4 +26,6 @@ class PunctuationDictionary(AbstractUtils):
         initializes static function load for Punctuations Dict Class
         """
         PunctuationDictionary.punctuation_dict = string.punctuation
+        PunctuationDictionary.punctuation_dict.replace('#', '')
+        PunctuationDictionary.punctuation_dict.replace('@', '')
         PunctuationDictionary.punctuation_replace = ''

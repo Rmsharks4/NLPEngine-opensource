@@ -1,0 +1,19 @@
+Do I have to,OBLIGATION_QUES
+Do I need to,OBLIGATION_QUES
+Must I,OBLIGATION_QUES
+Do I,OBLIGATION_QUES
+I do not have to,OBLIGATION_QUES
+Do you have to,OBLIGATION_QUES
+Are you expected to,OBLIGATION_QUES
+Must you,OBLIGATION_QUES
+Is it necessary,OBLIGATION_QUES
+I must,OBLIGATION_DIRECT
+I must not,OBLIGATION_DIRECT
+I have to,OBLIGATION_DIRECT
+I will have to,OBLIGATION_DIRECT
+I can not refuse,OBLIGATION_DIRECT
+I can not avoid it,OBLIGATION_DIRECT
+It is my responsibility,OBLIGATION_DIRECT
+It is my duty,OBLIGATION_DIRECT
+It is my job,OBLIGATION_DIRECT
+I have no other choice,OBLIGATION_DIRECT

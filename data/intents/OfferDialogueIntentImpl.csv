@@ -38,3 +38,8 @@ It is Okay I can do it myself,OFFER_RESPONSE_NEG
 Thank you for your kindness but I can do it myself,OFFER_RESPONSE_NEG
 Do not worry I can do it,OFFER_RESPONSE_NEG
 I appreciate that but I can do it myself,OFFER_RESPONSE_NEG
+Is there anything I can help you with,OFFER_DIRECT
+Is there anything else I can help you with,OFFER_DIRECT
+I can help you,OFFER_DIRECT
+Is there anything else I can help,OFFER_DIRECT
+Is there anything I can help,OFFER_DIRECT

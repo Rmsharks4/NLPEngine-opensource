@@ -1,0 +1,30 @@
+Do you understand,ASK_IF_CLEAR
+Are you following,ASK_IF_CLEAR
+Do you get it,ASK_IF_CLEAR
+Do you comprehend,ASK_IF_CLEAR
+Any questions,ASK_IF_CLEAR
+Got it,ASK_IF_CLEAR
+I do not get it,UNCLEAR
+Sorry I did not get,UNCLEAR
+What do you mean,UNCLEAR
+I am not sure I got your point,UNCLEAR
+I beg your pardon but I do not quite understand,UNCLEAR
+I do not quite follow,UNCLEAR
+I am sorry I do not understand what you mean,UNCLEAR
+Sorry I did not quite hear what you said,UNCLEAR
+Could you clarify that,ASK_TO_CLEAR
+Could you explain that,ASK_TO_CLEAR
+What do you mean by that,ASK_TO_CLEAR
+Could you say that again,ASK_TO_CLEAR
+Could you repeat,ASK_TO_CLEAR
+Could you put it differently,ASK_TO_CLEAR
+Sorry let me explain,CLARIFYING
+Let me clarify,CLARIFYING
+To put it differently,CLARIFYING
+Let me put it in another way,CLARIFYING
+I see,CLEAR_DIRECT
+I understand,CLEAR_DIRECT
+I got it,CLEAR_DIRECT
+Okay I got what you mean,CLEAR_DIRECT
+I understand what you mean,CLEAR_DIRECT
+I get it,CLEAR_DIRECT

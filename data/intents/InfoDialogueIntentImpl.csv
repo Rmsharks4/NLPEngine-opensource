@@ -1,0 +1,22 @@
+I need some Information,INFO_DIRECT
+Could you tell me,INFO_DIRECT
+Do you know,INFO_DIRECT
+Do you happen to know,INFO_DIRECT
+Can you tell me,INFO_DIRECT
+I’d like to know,INFO_DIRECT
+What do you know about,INFO_DIRECT
+I wonder if you could tell me,INFO_DIRECT
+Do you have any idea,INFO_DIRECT
+Could you find out,INFO_DIRECT
+I am looking for,INFO_DIRECT
+What can you tell me about,INFO_DIRECT
+Of course let me look,INFO_RESPONSE_POS
+I will have a look,INFO_RESPONSE_POS
+I will find that out for you,INFO_RESPONSE_POS
+I am searching for,INFO_RESPONSE_POS
+Right away,INFO_RESPONSE_POS
+I am on it,INFO_RESPONSE_POS
+I do not know,INFO_RESPONSE_NEG
+I am not sure,INFO_RESPONSE_NEG
+I can not help you,INFO_RESPONSE_NEG
+I do not know where to look,INFO_RESPONSE_NEG

@@ -1,0 +1,26 @@
+Will you please,REQUEST_DIRECT
+Would you please,REQUEST_DIRECT
+Can you please,REQUEST_DIRECT
+Could you please,REQUEST_DIRECT
+Do you mind,REQUEST_DIRECT
+Do you think you could,REQUEST_DIRECT
+Do you think it would be possible,REQUEST_DIRECT
+Would it be possible for you to,REQUEST_DIRECT
+Would there be any possibility of,REQUEST_DIRECT
+Would you be kind enough to,REQUEST_DIRECT
+Would you mind,REQUEST_DIRECT
+Could you possibly,REQUEST_DIRECT
+I would appreciate it if you could,REQUEST_DIRECT
+Can I ask you to,REQUEST_DIRECT
+Sure I would be glad to,REQUEST_RESPONSE_POS
+I would be happy to,REQUEST_RESPONSE_POS
+Sure Just a moment,REQUEST_RESPONSE_POS
+No problem,REQUEST_RESPONSE_POS
+Of course,REQUEST_RESPONSE_POS
+Certainly,REQUEST_RESPONSE_POS
+All right,REQUEST_RESPONSE_POS
+I am sorry I can not,REQUEST_RESPONSE_NEG
+I am sorry but,REQUEST_RESPONSE_NEG
+I would love to but,REQUEST_RESPONSE_NEG
+Sorry to have to tell you this,REQUEST_RESPONSE_NEG
+It sounds great but,REQUEST_RESPONSE_NEG

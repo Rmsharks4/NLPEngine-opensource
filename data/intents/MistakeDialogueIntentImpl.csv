@@ -1,0 +1,27 @@
+I have to admit that I was wrong,ADMIT_MISTAKE
+I admit what I have done is wrong,ADMIT_MISTAKE
+I should not be like this,ADMIT_MISTAKE
+Sorry I know this was my fault,ADMIT_MISTAKE
+I am fully responsible for this matter,ADMIT_MISTAKE
+I have made a mistake,ADMIT_MISTAKE
+It is my mistake Forgive me,ADMIT_MISTAKE
+Yes I take the blame,ADMIT_MISTAKE
+I was the one to blame,ADMIT_MISTAKE
+I am sorry I should not have done that,ADMIT_MISTAKE
+I never intended it that way,ADMIT_MISTAKE
+Do not mention it,MISTAKE_RESPONSE_POS
+Let it go,MISTAKE_RESPONSE_POS
+That is fine,MISTAKE_RESPONSE_POS
+Just take it easy,MISTAKE_RESPONSE_POS
+Do not do it again,MISTAKE_RESPONSE_POS
+Forget it It does not matter,MISTAKE_RESPONSE_POS
+That would be okay,MISTAKE_RESPONSE_POS
+Do not worry about it,MISTAKE_RESPONSE_POS
+It is okay,MISTAKE_RESPONSE_POS
+You should be ashamed,MISTAKE_RESPONSE_NEG
+You should be,MISTAKE_RESPONSE_NEG
+How could you,MISTAKE_RESPONSE_NEG
+How shameful,MISTAKE_RESPONSE_NEG
+How upsetting,MISTAKE_RESPONSE_NEG
+This is awful,MISTAKE_RESPONSE_NEG
+What is wrong with you,MISTAKE_RESPONSE_NEG

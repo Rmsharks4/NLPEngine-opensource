@@ -1,80 +1,24 @@
-I hope,WISH_DIRECT
-We hope,WISH_DIRECT
-Let us hope,WISH_DIRECT
-I believe,WISH_DIRECT
-We believe,WISH_DIRECT
-Hopefully,WISH_DIRECT
-I keep hoping,WISH_DIRECT
-We keep hoping,WISH_DIRECT
-I wish,WISH_DIRECT
-We wish,WISH_DIRECT
-If we are lucky,WISH_DIRECT
-If I am lucky,WISH_DIRECT
-With any luck,WISH_DIRECT
-I would like,WISH_DIRECT
-We would like,WISH_DIRECT
-I want,WISH_DIRECT
-We want,WISH_DIRECT
-What I really want,WISH_DIRECT
-What we really want,WISH_DIRECT
-I just want,WISH_DIRECT
-We just want,WISH_DIRECT
-I just really want,WISH_DIRECT
-We just really want,WISH_DIRECT
-I’d rather,WISH_DIRECT
-We’d rather,WISH_DIRECT
-I’d much rather,WISH_DIRECT
-We’d much rather,WISH_DIRECT
-I do not want,WISH_DIRECT
-We do not want,WISH_DIRECT
-I just do not want,WISH_DIRECT
-We just do not want,WISH_DIRECT
-I just wish,WISH_DIRECT
-We just wish,WISH_DIRECT
-If only,WISH_REGRET
-I should have,WISH_REGRET
-We should have,WISH_REGRET
-I should not have,WISH_REGRET
-We should not have,WISH_REGRET
-I regret,WISH_REGRET
-We regret,WISH_REGRET
-I like,WISH_PREFERENCE
-I prefer,WISH_PREFERENCE
-My preference is,WISH_PREFERENCE
-I love,WISH_PREFERENCE
-I fancy,WISH_PREFERENCE
-I enjoy,WISH_PREFERENCE
-I adore,WISH_PREFERENCE
-I am crazy about,WISH_PREFERENCE
-I am mad about,WISH_PREFERENCE
-I am keen on,WISH_PREFERENCE
-We like,WISH_PREFERENCE
-We prefer,WISH_PREFERENCE
-Our preference is,WISH_PREFERENCE
-We love,WISH_PREFERENCE
-We fancy,WISH_PREFERENCE
-We enjoy,WISH_PREFERENCE
-We adore,WISH_PREFERENCE
-We are crazy about,WISH_PREFERENCE
-We are mad about,WISH_PREFERENCE
-We are keen on,WISH_PREFERENCE
-I would like,WISH_PREFERENCE
-I would prefer,WISH_PREFERENCE
-My preference would be,WISH_PREFERENCE
-I would love,WISH_PREFERENCE
-I would fancy,WISH_PREFERENCE
-I would enjoy,WISH_PREFERENCE
-I would adore,WISH_PREFERENCE
-I would go crazy for,WISH_PREFERENCE
-I would go mad for,WISH_PREFERENCE
-I would be keen on,WISH_PREFERENCE
-We would like,WISH_PREFERENCE
-We would prefer,WISH_PREFERENCE
-Our preference would be,WISH_PREFERENCE
-We would love,WISH_PREFERENCE
-We would fancy,WISH_PREFERENCE
-We would enjoy,WISH_PREFERENCE
-We would adore,WISH_PREFERENCE
-We would go crazy for,WISH_PREFERENCE
-We would go mad for,WISH_PREFERENCE
-We would be keen on,WISH_PREFERENCE
+Congratulations,WISH_DIRECT
+Great,WISH_DIRECT
+Well done,WISH_DIRECT
+Please accept my warmest congratulations,WISH_DIRECT
+Let me offer you my congratulations,WISH_DIRECT
+I would like to congratulate you on,WISH_DIRECT
+Let me congratulate you on,WISH_DIRECT
+You deserve it,WISH_DIRECT
+That was excellent,WISH_DIRECT
+Best wishes,WISH_DIRECT
+Best of luck,WISH_DIRECT
+Good luck to you,WISH_DIRECT
+All the best,WISH_DIRECT
+Enjoy,WISH_DIRECT
+Wish you,WISH_DIRECT
+Thanks,WISH_RESPONSE
+Thanks so much,WISH_RESPONSE
+Thanks a million,WISH_RESPONSE
+Thanks a lot,WISH_RESPONSE
+Thank you for your kindness,WISH_RESPONSE
+It is very kind of you,WISH_RESPONSE
+It is very nice of you,WISH_RESPONSE
+Thanks for your support,WISH_RESPONSE
+Thanks for your kind words,WISH_RESPONSE

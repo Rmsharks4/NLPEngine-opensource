@@ -1,0 +1,22 @@
+It is your fault,BLAME_DIRECT
+It is your mistake,BLAME_DIRECT
+I can not believe that you,BLAME_DIRECT
+How could you do such a thing,BLAME_DIRECT
+Are you out of your mind,BLAME_DIRECT
+What on earth were you thinking,BLAME_DIRECT
+I think you are the one to blame,BLAME_DIRECT
+I think you are the one who could have,BLAME_DIRECT
+It must have been you who did it,BLAME_DIRECT
+I think you are the only person who could have,BLAME_DIRECT
+You must be doing something wrong,BLAME_DIRECT
+I am sorry It is my fault,BLAME_ACCEPT
+I am sorry for the things I have done,BLAME_ACCEPT
+I am really sorry I did not mean to,BLAME_ACCEPT
+Sorry for my fault,BLAME_ACCEPT
+It is my responsibility I am sorry,BLAME_ACCEPT
+You are right It is my fault I am sorry,BLAME_ACCEPT
+It is not true,BLAME_REJECT
+It is not my fault,BLAME_REJECT
+I am not the one to blame,BLAME_REJECT
+I did not do it,BLAME_REJECT
+You are wrong It was not me,BLAME_REJECT

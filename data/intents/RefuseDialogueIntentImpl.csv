@@ -1,8 +1,8 @@
-Unfortunately 
-I am afraid 
-I am not authorized 
-Please accept my apology
-That is not something I can do
-There is nothing I can do
-I am sorry
-I can not help
+Unfortunately ,REFUSE_DIRECT
+I am afraid ,REFUSE_DIRECT
+I am not authorized ,REFUSE_DIRECT
+Please accept my apology,REFUSE_DIRECT
+That is not something I can do,REFUSE_DIRECT
+There is nothing I can do,REFUSE_DIRECT
+I am sorry,REFUSE_DIRECT
+I can not help,REFUSE_DIRECT

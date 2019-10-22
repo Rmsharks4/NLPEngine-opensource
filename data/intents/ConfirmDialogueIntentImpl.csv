@@ -1,49 +1,28 @@
-fine,ACCEPT_POS
-good,ACCEPT_POS
-I can manage that,ACCEPT_POS
-I am going to have to cope with that,ACCEPT_POS
-i will do that,ACCEPT_POS
-I am not bothered by that,ACCEPT_POS
-I am sure,ACCEPT_POS
-It is okay,ACCEPT_POS
-mhm,ACCEPT_POS
-mhm fine,ACCEPT_POS
-no problem,ACCEPT_POS
-oh that would be fine yeah,ACCEPT_POS
-oh that is okay then,ACCEPT_POS
-oh that is right erm,ACCEPT_POS
-okay,ACCEPT_POS
-okay fine yeah,ACCEPT_POS
-okay then,ACCEPT_POS
-right,ACCEPT_POS
-right okay,ACCEPT_POS
-rightio,ACCEPT_POS
-sure,ACCEPT_POS
-that sounds fine,ACCEPT_POS
-that is fine,ACCEPT_POS
-That is alright,ACCEPT_POS
-That is correct,ACCEPT_POS
-That is fine yes,ACCEPT_POS
-That is gonna have to do yeah okay,ACCEPT_POS
-That is good,ACCEPT_POS
-That is just great,ACCEPT_POS
-That is okay,ACCEPT_POS
-That is right,ACCEPT_POS
-That is the one,ACCEPT_POS
-yeah,ACCEPT_POS
-yeah sure,ACCEPT_POS
-yeah that is fine erm,ACCEPT_POS
-yep,ACCEPT_POS
-yes,ACCEPT_POS
-yes lovely,ACCEPT_POS
-yes please,ACCEPT_POS
-you can,ACCEPT_POS
-cool,ACCEPT_POS
-cool okay,ACCEPT_POS
-yea that is cool,ACCEPT_POS
-cool yeah okay,ACCEPT_POS
-cool yeah,ACCEPT_POS
-,
-No,ACCEPT_NEG
-Yes No,ACCEPT_NEG
-No Yes,ACCEPT_NEG
+Are you sure,CERTAIN_QUES
+Are you sure about,CERTAIN_QUES
+Are you certain about,CERTAIN_QUES
+Do you think it is true,CERTAIN_QUES
+Do you think so,CERTAIN_QUES
+How sure are you,CERTAIN_QUES
+Yes I am certain,CERTAIN_RESPONSE_POS
+I am a hundred percent,CERTAIN_RESPONSE_POS
+I am absolutely sure,CERTAIN_RESPONSE_POS
+I have no doubt about it,CERTAIN_RESPONSE_POS
+I am sure about it,CERTAIN_RESPONSE_POS
+I do not think there can be any doubt about,CERTAIN_RESPONSE_POS
+Of course,CERTAIN_RESPONSE_POS
+I am positive,CERTAIN_RESPONSE_POS
+I am quite sure about it,CERTAIN_RESPONSE_POS
+I am no doubt about it,CERTAIN_RESPONSE_POS
+I am absolutely certain that,CERTAIN_RESPONSE_POS
+I am not sure about it,CERTAIN_RESPONSE_NEG
+I doubt it,CERTAIN_RESPONSE_NEG
+I am not really sure about,CERTAIN_RESPONSE_NEG
+I do not know for sure,CERTAIN_RESPONSE_NEG
+It is very unlikely,CERTAIN_RESPONSE_NEG
+I have my own doubts,CERTAIN_RESPONSE_NEG
+I do not think so,CERTAIN_RESPONSE_NEG
+I do not believe this is true,CERTAIN_RESPONSE_NEG
+There is some doubt in my mind,CERTAIN_RESPONSE_NEG
+I am not a hundred percent,CERTAIN_RESPONSE_NEG
+I do not know yet,CERTAIN_RESPONSE_NEG

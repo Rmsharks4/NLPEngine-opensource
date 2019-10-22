@@ -1,0 +1,21 @@
+ Is it okay if I,PERMISSION_DIRECT
+ Can I ask you a question,PERMISSION_DIRECT
+ Do you mind if I,PERMISSION_DIRECT
+ Would you mind if I,PERMISSION_DIRECT
+ If you don’t mind,PERMISSION_DIRECT
+ I wonder if I could,PERMISSION_DIRECT
+ Would it be all right if I,PERMISSION_DIRECT
+ Sure,PERMISSION_RESPONSE_POS
+ Sure go ahead,PERMISSION_RESPONSE_POS
+ No problem,PERMISSION_RESPONSE_POS
+ Yes you can,PERMISSION_RESPONSE_POS
+ Please feel free,PERMISSION_RESPONSE_POS
+ I do not mind,PERMISSION_RESPONSE_POS
+ I am afraid not,PERMISSION_RESPONSE_NEG
+ I am afraid you can not,PERMISSION_RESPONSE_NEG
+" I am sorry, but that is not possible",PERMISSION_RESPONSE_NEG
+ No you can not,PERMISSION_RESPONSE_NEG
+ You could not do that,PERMISSION_RESPONSE_NEG
+ Sorry you are not permitted,PERMISSION_RESPONSE_NEG
+You have my permission,PERMISSION_RESPONSE_POS
+You do not have my permission,PERMISSION_RESPONSE_NEG

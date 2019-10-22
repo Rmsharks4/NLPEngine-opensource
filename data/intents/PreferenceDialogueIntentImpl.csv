@@ -1,0 +1,95 @@
+I hope,WISH_DIRECT
+We hope,WISH_DIRECT
+Let us hope,WISH_DIRECT
+I believe,WISH_DIRECT
+We believe,WISH_DIRECT
+Hopefully,WISH_DIRECT
+I keep hoping,WISH_DIRECT
+We keep hoping,WISH_DIRECT
+I wish,WISH_DIRECT
+We wish,WISH_DIRECT
+If we are lucky,WISH_DIRECT
+If I am lucky,WISH_DIRECT
+With any luck,WISH_DIRECT
+I would like,WISH_DIRECT
+We would like,WISH_DIRECT
+I want,WISH_DIRECT
+We want,WISH_DIRECT
+What I really want,WISH_DIRECT
+What we really want,WISH_DIRECT
+I just want,WISH_DIRECT
+We just want,WISH_DIRECT
+I just really want,WISH_DIRECT
+We just really want,WISH_DIRECT
+I’d rather,WISH_DIRECT
+We’d rather,WISH_DIRECT
+I’d much rather,WISH_DIRECT
+We’d much rather,WISH_DIRECT
+I do not want,WISH_DIRECT
+We do not want,WISH_DIRECT
+I just do not want,WISH_DIRECT
+We just do not want,WISH_DIRECT
+I just wish,WISH_DIRECT
+We just wish,WISH_DIRECT
+If only,WISH_REGRET
+I should have,WISH_REGRET
+We should have,WISH_REGRET
+I should not have,WISH_REGRET
+We should not have,WISH_REGRET
+I regret,WISH_REGRET
+We regret,WISH_REGRET
+I like,PREFERENCE_POS
+I prefer,PREFERENCE_POS
+My preference is,PREFERENCE_POS
+I love,PREFERENCE_POS
+I fancy,PREFERENCE_POS
+I enjoy,PREFERENCE_POS
+I adore,PREFERENCE_POS
+I am crazy about,PREFERENCE_POS
+I am mad about,PREFERENCE_POS
+I am keen on,PREFERENCE_POS
+We like,PREFERENCE_POS
+We prefer,PREFERENCE_POS
+Our preference is,PREFERENCE_POS
+We love,PREFERENCE_POS
+We fancy,PREFERENCE_POS
+We enjoy,PREFERENCE_POS
+We adore,PREFERENCE_POS
+We are crazy about,PREFERENCE_POS
+We are mad about,PREFERENCE_POS
+We are keen on,PREFERENCE_POS
+I would like,PREFERENCE_POS
+I would prefer,PREFERENCE_POS
+My preference would be,PREFERENCE_POS
+I would love,PREFERENCE_POS
+I would fancy,PREFERENCE_POS
+I would enjoy,PREFERENCE_POS
+I would adore,PREFERENCE_POS
+I would go crazy for,PREFERENCE_POS
+I would go mad for,PREFERENCE_POS
+I would be keen on,PREFERENCE_POS
+We would like,PREFERENCE_POS
+We would prefer,PREFERENCE_POS
+Our preference would be,PREFERENCE_POS
+We would love,PREFERENCE_POS
+We would fancy,PREFERENCE_POS
+We would enjoy,PREFERENCE_POS
+We would adore,PREFERENCE_POS
+We would go crazy for,PREFERENCE_POS
+We would go mad for,PREFERENCE_POS
+We would be keen on,PREFERENCE_POS
+I do not like,PREFERENCE_NEG
+I dislike,PREFERENCE_NEG
+I hate,PREFERENCE_NEG
+I can not bear,PREFERENCE_NEG
+I can not stand,PREFERENCE_NEG
+We do not like,PREFERENCE_NEG
+We dislike,PREFERENCE_NEG
+We hate,PREFERENCE_NEG
+We can not bear,PREFERENCE_NEG
+We can not stand,PREFERENCE_NEG
+Which do you prefer,PREFERENCE_QUES
+ Which do you like better,PREFERENCE_QUES
+ Do you prefer,PREFERENCE_QUES
+ Would you prefer,PREFERENCE_QUES
+ Would you rather,PREFERENCE_QUES
