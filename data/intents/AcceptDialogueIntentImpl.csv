@@ -12,7 +12,6 @@ no problem,ACCEPT_POS
 oh that would be fine yeah,ACCEPT_POS
 oh that is okay then,ACCEPT_POS
 oh that is right erm,ACCEPT_POS
-okay,ACCEPT_POS
 okay fine yeah,ACCEPT_POS
 okay then,ACCEPT_POS
 right,ACCEPT_POS
@@ -32,7 +31,7 @@ That is right,ACCEPT_POS
 That is the one,ACCEPT_POS
 yeah,ACCEPT_POS
 yeah sure,ACCEPT_POS
-yeah that is fine erm,ACCEPT_POS
+yeah that is fine,ACCEPT_POS
 yep,ACCEPT_POS
 yes,ACCEPT_POS
 yes lovely,ACCEPT_POS
@@ -43,7 +42,31 @@ cool okay,ACCEPT_POS
 yea that is cool,ACCEPT_POS
 cool yeah okay,ACCEPT_POS
 cool yeah,ACCEPT_POS
-,
+Absolutely,ACCEPT_POS
+Certainly,ACCEPT_POS
+Yes please,ACCEPT_POS
+Would you please,ACCEPT_POS
+not to worry,ACCEPT_POS
+No It does not matter,ACCEPT_POS
+Of course,ACCEPT_POS
+by all means,ACCEPT_POS
+be my guest,ACCEPT_POS
+i do not see why not,ACCEPT_POS
+why not,ACCEPT_POS
+you bet,ACCEPT_POS
+okay,ACCEPT_POS
+great,ACCEPT_POS
+that works best,ACCEPT_POS
+sounds fine,ACCEPT_POS
+right,ACCEPT_POS
+correct,ACCEPT_POS
+affirmative,ACCEPT_POS
+you have my permission,ACCEPT_POS
+uh huh,ACCEPT_POS
+mm hmm,ACCEPT_POS
+sounds good,ACCEPT_POS
+no problem,ACCEPT_POS
+no worries,ACCEPT_POS
 No,ACCEPT_NEG
 Yes No,ACCEPT_NEG
 No Yes,ACCEPT_NEG

@@ -1,49 +1,92 @@
-fine,ACCEPT_POS
-good,ACCEPT_POS
-I can manage that,ACCEPT_POS
-I am going to have to cope with that,ACCEPT_POS
-i will do that,ACCEPT_POS
-I am not bothered by that,ACCEPT_POS
-I am sure,ACCEPT_POS
-It is okay,ACCEPT_POS
-mhm,ACCEPT_POS
-mhm fine,ACCEPT_POS
-no problem,ACCEPT_POS
-oh that would be fine yeah,ACCEPT_POS
-oh that is okay then,ACCEPT_POS
-oh that is right erm,ACCEPT_POS
-okay,ACCEPT_POS
-okay fine yeah,ACCEPT_POS
-okay then,ACCEPT_POS
-right,ACCEPT_POS
-right okay,ACCEPT_POS
-rightio,ACCEPT_POS
-sure,ACCEPT_POS
-that sounds fine,ACCEPT_POS
-that is fine,ACCEPT_POS
-That is alright,ACCEPT_POS
-That is correct,ACCEPT_POS
-That is fine yes,ACCEPT_POS
-That is gonna have to do yeah okay,ACCEPT_POS
-That is good,ACCEPT_POS
-That is just great,ACCEPT_POS
-That is okay,ACCEPT_POS
-That is right,ACCEPT_POS
-That is the one,ACCEPT_POS
-yeah,ACCEPT_POS
-yeah sure,ACCEPT_POS
-yeah that is fine erm,ACCEPT_POS
-yep,ACCEPT_POS
-yes,ACCEPT_POS
-yes lovely,ACCEPT_POS
-yes please,ACCEPT_POS
-you can,ACCEPT_POS
-cool,ACCEPT_POS
-cool okay,ACCEPT_POS
-yea that is cool,ACCEPT_POS
-cool yeah okay,ACCEPT_POS
-cool yeah,ACCEPT_POS
-,
-No,ACCEPT_NEG
-Yes No,ACCEPT_NEG
-No Yes,ACCEPT_NEG
+I get the impression that,ACK_INTERPRET
+I am picking up that you,ACK_INTERPRET
+Could it be that,ACK_INTERPRET
+I understand the problem as,ACK_INTERPRET
+Correct me if I am wrong,ACK_INTERPRET
+Let me see if I understand,ACK_INTERPRET
+Can you tell me more,ACK_INTERPRET
+Would you say more about that,ACK_INTERPRET
+Let me make sure I understand you,ACK_INTERPRET
+Have you considered,ACK_SUGGEST
+From where you stand,ACK_INTERPRET
+You think,ACK_INTERPRET
+You mean,ACK_INTERPRET
+You believe,ACK_INTERPRET
+From your point of view,ACK_INTERPRET
+What I hear you saying,ACK_SUGGEST
+In your experience,ACK_SUGGEST
+Is there any chance that you,ACK_INTERPRET
+It seems that you,ACK_INTERPRET
+From where I stand you,ACK_INTERPRET
+Is it conceivable that,ACK_INTERPRET
+I get the impression that,ACK_INTERPRET
+I definitely will make sure that it gets sorted,ACK_HELP_POS
+I absolutely agree with you,ACK_HELP_POS
+I can certainly help you,ACK_COMPLIMENT
+That is exactly right,ACK_COMPLIMENT
+I completely agree with you,ACK_COMPLIMENT
+I will quickly run through this with you,ACK_SUGGEST
+That is a fantastic alternative,ACK_COMPLIMENT
+Great news,ACK_COMPLIMENT
+Marvellous choice,ACK_COMPLIMENT
+Splendid,ACK_COMPLIMENT
+That is an excellent suggestion,ACK_COMPLIMENT
+I hope you enjoy your,ACK_WISH
+All that is left to do now,ACK_SUGGEST
+It is essential that you,ACK_SUGGEST
+It is a very generous offer,ACK_COMPLIMENT
+I can highly recommend,ACK_SUGGEST
+Thanks we aim to provide a friendly service,ACK_COMPLIMENT
+That is certainly impressive,ACK_COMPLIMENT
+That it is an interesting idea,ACK_COMPLIMENT
+Brilliant I am glad we are on the same page,ACK_COMPLIMENT
+Yes it is an exciting prospect,ACK_COMPLIMENT
+I think that it’s a terrific option,ACK_SUGGEST
+That is absolutely fascinating,ACK_COMPLIMENT
+You certainly are an expert on this,ACK_COMPLIMENT
+That is personally my favourite option,ACK_SUGGEST
+It would definitely be ideal considering your situation,ACK_SUGGEST
+Definitely,ACK_POS
+Surely,ACK_POS
+Absolutely,ACK_POS
+Gladly,ACK_POS
+Certainly,ACK_POS
+Fantastic,ACK_POS
+Great,ACK_POS
+Good,ACK_POS
+Terrific,ACK_POS
+Assure,ACK_POS
+Understand,ACK_POS
+Awful,ACK_NEG
+Horrible,ACK_NEG
+Terrible,ACK_NEG
+Bad,ACK_NEG
+Never,ACK_NEG
+Dumb,ACK_NEG
+Rude,ACK_HELP_POS
+I would feel the same in your situation but we will sort this out,ACK_HELP_POS
+I know how frustrating it can be let us see how I can help you,ACK_SYMPATHISE
+I completely understand how frustrating it is,ACK_SYMPATHISE
+I appreciate how difficult it is to,ACK_SYMPATHISE
+We will work to resolve the problem,ACK_HELP_POS
+We will be in touch shortly,ACK_SYMPATHISE
+We are keen to resolve this as much as you are,ACK_SYMPATHISE
+If I were in your position I would feel exactly the same,ACK_SYMPATHISE
+I appreciate you bringing this to our attention,ACK_SYMPATHISE
+I will contact you as soon as we have had an update,ACK_SYMPATHISE
+Definitely you are making perfect sense,ACK_SYMPATHISE
+I can assure you that this will absolutely happen,ACK_SYMPATHISE
+We will help you get this issue resolved,ACK_HELP_POS
+Apologies for the wait I appreciate your patience,ACK_SYMPATHISE
+Do not worry I can see why you did that,ACK_SYMPATHISE
+Yes that would certainly frustrate me too,ACK_SYMPATHISE
+What I would do in this situation is,ASK_SUGGEST
+How do you feel about,ASK_SUGGEST
+I know others who have been in your situation and what we did to successfully help them was,ACK_HELP_POS
+Just so we know what we are aiming for what would be the best case scenario for you,ASK_SUGGEST
+Absolutely I can certainly fix that for you,ACK_HELP_POS
+I will quickly put this into action for you and then everything will be back to normal,ACK_HELP_POS
+Just so I can clarify and help you,ACK_HELP_POS
+I am afraid that we cannot offer you,ACK_HELP_NEG
+I am going to take care of this for you,ACK_HELP_POS
+That does sound frustrating let us see what I can do to help,ACK_HELP_POS
