@@ -30,6 +30,7 @@ def get_intents():
             for row in reader:
                 kp.add_keyword(row[0], row[1])
         kps.append(kp)
+        print(filename[:-4])
     return kps
 
 

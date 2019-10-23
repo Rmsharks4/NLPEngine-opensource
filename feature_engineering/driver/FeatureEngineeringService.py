@@ -3,7 +3,6 @@ import logging
 
 from feature_engineering.bl.AbstractDialogueFeatureEngineerFactory import AbstractDialogueFeatureEngineerFactory
 from feature_engineering.bl.AbstractDialogueFeatureEngineer import AbstractDialogueFeatureEngineer
-from feature_engineering.utils.FeatureEngineeringConstants import FeatureEngineeringConstants
 from commons.dao.AbstractDAOFactory import AbstractDAOFactory
 from commons.dao.SparkDAOImpl import SparkDAOImpl
 from commons.AbstractService import AbstractService
@@ -17,7 +16,6 @@ class FeatureEngineeringService(AbstractService):
         """
         initializes Feature-Engineer service class and starts logger.
         """
-        self.logger = logging.getLogger(FeatureEngineeringConstants.LOGGER_NAME)
 
     def run(self, args):
         dao_obj = AbstractDAOFactory.get_dao(SparkDAOImpl.__name__)
