@@ -20,3 +20,20 @@ I do not know,INFO_RESPONSE_NEG
 I am not sure,INFO_RESPONSE_NEG
 I can not help you,INFO_RESPONSE_NEG
 I do not know where to look,INFO_RESPONSE_NEG
+I can see that,INFO_RESPONSE_POS
+I can see,INFO_RESPONSE_POS
+I see here,INFO_RESPONSE_POS
+I know,INFO_RESPONSE_POS
+I know that,INFO_RESPONSE_POS
+I already knew that,INFO_RESPONSE_POS
+I know what to do,INFO_RESPONSE_POS
+I understand,INFO_RESPONSE_POS
+I know this already,INFO_RESPONSE_POS
+I knew this,INFO_RESPONSE_POS
+I am wondering,INFO_DIRECT
+I was wondering,INFO_DIRECT
+I am thinking,INFO_DIRECT
+I was thinking,INFO_DIRECT
+I have been thinking,INFO_DIRECT
+I have been wondering,INFO_DIRECT
+to look,INFO_DIRECT

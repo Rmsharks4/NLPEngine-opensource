@@ -25,3 +25,8 @@ How shameful,MISTAKE_RESPONSE_NEG
 How upsetting,MISTAKE_RESPONSE_NEG
 This is awful,MISTAKE_RESPONSE_NEG
 What is wrong with you,MISTAKE_RESPONSE_NEG
+apologize,ADMIT_MISTAKE
+mistake,ADMIT_MISTAKE
+I want to apologize,ADMIT_MISTAKE
+I apologize,ADMIT_MISTAKE
+It is my mistake,ADMIT_MISTAKE

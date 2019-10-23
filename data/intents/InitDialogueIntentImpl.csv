@@ -26,3 +26,8 @@ The last thing you do is,INIT_DIRECT_END
 In the end,INIT_DIRECT_END
 When you have finished,INIT_DIRECT_END
 When you have completed all the steps,INIT_DIRECT_END
+The first time,INIT_DIRECT_START
+The second time,INIT_DIRECT_MID
+Next time,INIT_DIRECT_MID
+Again,INIT_DIRECT_MID
+Also,INIT_DIRECT_MID

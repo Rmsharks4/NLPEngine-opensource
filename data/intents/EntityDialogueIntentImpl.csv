@@ -1,0 +1,41 @@
+name,NAME
+first name,NAME
+card number,CARD
+access code,ACCESS_CODE
+phone number,PHONE
+cell number,PHONE
+mobile phone,PHONE
+mobile number,PHONE
+middle name,NAME
+middle initial,NAME
+intials,NAME
+last name,NAME
+date of birth,DOB
+month,DATE
+date,DATE
+year,DATE
+mother’s name,MOTHER
+maiden’s name,MAIDEN
+maiden name,MAIDEN
+mother name,MOTHER
+father’s name,FATHER
+father name,FATHER
+family name,NAME
+phone,PHONE
+cell,PHONE
+number,NUMBER
+mobile,PHONE
+card,CARD
+routing number,ROUTING_NO
+routing,ROUTING_NO
+checking account,ACCOUNT
+savings account,ACCOUNT
+account details,ACCOUNT
+account,ACCOUNT
+last four digits,DIGITS
+digits,DIGITS
+address,ADDRESS
+email,EMAIL
+social security,SSN
+SSN,SSN
+social security number,SSN

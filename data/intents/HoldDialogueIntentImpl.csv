@@ -1,1 +1,27 @@
-
+hold,HOLD_DIRECT
+wait,HOLD_DIRECT
+please hold,HOLD_DIRECT
+hold the line,HOLD_DIRECT
+Just a sec,HOLD_DIRECT
+Hang on a moment,HOLD_DIRECT
+One moment please,HOLD_DIRECT
+Hold the line please,HOLD_DIRECT
+Please hold while I put you through,HOLD_DIRECT
+All of our staff are busy at this time,HOLD_DIRECT
+Please hold for the next available person,HOLD_DIRECT
+Thank you for holding,HOLD_DIRECT
+Thank you for waiting,HOLD_DIRECT
+I am sorry to keep your waiting,HOLD_DIRECT
+One minute,HOLD_DIRECT
+Give me two minutes,HOLD_DIRECT
+Let me put you on hold,HOLD_DIRECT
+put you through,HOLD_DIRECT
+second,HOLD_DIRECT
+minute,HOLD_DIRECT
+hang on,HOLD_DIRECT
+hang in there,HOLD_DIRECT
+hang,HOLD_DIRECT
+Will not be long,HOLD_DIRECT
+Wont be long,HOLD_DIRECT
+Would not be long,HOLD_DIRECT
+not long,HOLD_DIRECT

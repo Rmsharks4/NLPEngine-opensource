@@ -1,28 +1,36 @@
-Are you sure,CERTAIN_QUES
-Are you sure about,CERTAIN_QUES
-Are you certain about,CERTAIN_QUES
-Do you think it is true,CERTAIN_QUES
-Do you think so,CERTAIN_QUES
-How sure are you,CERTAIN_QUES
-Yes I am certain,CERTAIN_RESPONSE_POS
-I am a hundred percent,CERTAIN_RESPONSE_POS
-I am absolutely sure,CERTAIN_RESPONSE_POS
-I have no doubt about it,CERTAIN_RESPONSE_POS
-I am sure about it,CERTAIN_RESPONSE_POS
-I do not think there can be any doubt about,CERTAIN_RESPONSE_POS
-Of course,CERTAIN_RESPONSE_POS
-I am positive,CERTAIN_RESPONSE_POS
-I am quite sure about it,CERTAIN_RESPONSE_POS
-I am no doubt about it,CERTAIN_RESPONSE_POS
-I am absolutely certain that,CERTAIN_RESPONSE_POS
-I am not sure about it,CERTAIN_RESPONSE_NEG
-I doubt it,CERTAIN_RESPONSE_NEG
-I am not really sure about,CERTAIN_RESPONSE_NEG
-I do not know for sure,CERTAIN_RESPONSE_NEG
-It is very unlikely,CERTAIN_RESPONSE_NEG
-I have my own doubts,CERTAIN_RESPONSE_NEG
-I do not think so,CERTAIN_RESPONSE_NEG
-I do not believe this is true,CERTAIN_RESPONSE_NEG
-There is some doubt in my mind,CERTAIN_RESPONSE_NEG
-I am not a hundred percent,CERTAIN_RESPONSE_NEG
-I do not know yet,CERTAIN_RESPONSE_NEG
+Are you sure,CONFIRM_QUES
+Are you sure about,CONFIRM_QUES
+Are you certain about,CONFIRM_QUES
+Do you think it is true,CONFIRM_QUES
+Do you think so,CONFIRM_QUES
+How sure are you,CONFIRM_QUES
+Yes I am certain,CONFIRM_RESPONSE_POS
+I am a hundred percent,CONFIRM_RESPONSE_POS
+I am absolutely sure,CONFIRM_RESPONSE_POS
+I have no doubt about it,CONFIRM_RESPONSE_POS
+I am sure about it,CONFIRM_RESPONSE_POS
+I do not think there can be any doubt about,CONFIRM_RESPONSE_POS
+Of course,CONFIRM_RESPONSE_POS
+I am positive,CONFIRM_RESPONSE_POS
+I am quite sure about it,CONFIRM_RESPONSE_POS
+I am no doubt about it,CONFIRM_RESPONSE_POS
+I am absolutely certain that,CONFIRM_RESPONSE_POS
+I am not sure about it,CONFIRM_RESPONSE_NEG
+I doubt it,CONFIRM_RESPONSE_NEG
+I am not really sure about,CONFIRM_RESPONSE_NEG
+I do not know for sure,CONFIRM_RESPONSE_NEG
+It is very unlikely,CONFIRM_RESPONSE_NEG
+I have my own doubts,CONFIRM_RESPONSE_NEG
+I do not think so,CONFIRM_RESPONSE_NEG
+I do not believe this is true,CONFIRM_RESPONSE_NEG
+There is some doubt in my mind,CONFIRM_RESPONSE_NEG
+I am not a hundred percent,CONFIRM_RESPONSE_NEG
+I do not know yet,CONFIRM_RESPONSE_NEG
+I will confirm,CONFIRM_RESPONSE_POS
+I am confirming,CONFIRM_RESPONSE_POS
+confirm,CONFIRM_QUES
+confirmation,CONFIRM_QUES
+I need a confirmation,CONFIRM_QUES
+I need you to confirm,CONFIRM_QUES
+I just need confirmation,CONFIRM_QUES
+I just need to confirm,CONFIRM_QUES
