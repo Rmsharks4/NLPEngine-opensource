@@ -3,5 +3,5 @@ from feature_engineering.bl.intents.AbstractDialogueIntent import AbstractDialog
 
 class OpinionDialogueIntentImpl(AbstractDialogueIntent):
 
-    def __init__(self):
-        super().__init__()
+	def __init__(self):
+		super().__init__()
