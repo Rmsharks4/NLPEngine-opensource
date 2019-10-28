@@ -7,5 +7,5 @@ class ImpDialogueActImpl(AbstractDialogueAct):
         if len(args) > 0:
             for x, y in args[0]:
                 if y == 'VB':
-                    return True
-        return False
+                    return 'IMP'
+        return None

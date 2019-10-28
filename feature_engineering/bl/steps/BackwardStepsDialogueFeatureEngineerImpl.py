@@ -1,2 +1,0 @@
-
-# Response after Direct / Ques

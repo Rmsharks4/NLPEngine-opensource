@@ -7,5 +7,5 @@ class QYnDialogueActImpl(AbstractDialogueAct):
         if len(args) > 0:
             for x, y in args[0]:
                 if y == 'AUX':
-                    return True
-        return False
+                    return 'QYN'
+        return None
