@@ -6,19 +6,19 @@ class MathematicsUtils:
 
     @classmethod
     def add(cls, args):
-        pass
+        return args[0] + args[1]
 
     @classmethod
     def subtract(cls, args):
-        pass
+        return args[0] - args[1]
 
     @classmethod
     def multiply(cls, args):
-        pass
+        return args[0] * args[1]
 
     @classmethod
     def divide(cls, args):
-        pass
+        return args[0] / args[1]
 
     @classmethod
     def length(cls, args):

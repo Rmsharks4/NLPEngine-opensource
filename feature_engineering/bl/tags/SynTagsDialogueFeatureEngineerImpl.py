@@ -13,4 +13,4 @@ class SynTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImpl
         return synonyms
 
     def tags(self, args):
-        return [(token, self.synonyms(token)) for token in args.text]
+        return [(token, self.synonyms(token)) for token in args]

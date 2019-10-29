@@ -4,5 +4,5 @@ from feature_engineering.bl.tags.AbstractTagsDialogueFeatureEngineerImpl import 
 class TokenTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImpl):
 
     def tags(self, args):
-        return [token for token in args.text]
+        return [token for token in args]
 

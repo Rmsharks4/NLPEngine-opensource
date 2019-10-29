@@ -30,7 +30,6 @@ def get_intents():
             for row in reader:
                 kp.add_keyword(row[0], row[1])
         kps.append(kp)
-        print(filename[:-4])
     return kps
 
 
@@ -51,6 +50,32 @@ def get_ints(row):
     return intents
 
 
-output['Intents'] = output['Dialogue'].apply(lambda x: ', '.join(ints for ints in get_ints(x)))
+def prev_match(match, arr):
+    look = False
+    for prevint in arr:
+        if match in prevint and 'RESPONSE' not in prevint:
+            look = True
+    if look:
+        return False
+    return True
+
+
+def steps(args):
+    prev = None
+    for intents in args:
+        dels = []
+        for intent in intents:
+            if 'RESPONSE' in intent:
+                if prev_match(intent[:-(len(intent)-intent.find('_RESPONSE'))], prev):
+                    dels.append(intent)
+        for delin in dels:
+            intents.remove(delin)
+        prev = intents
+    return args
+
+
+# output['Intents'] = output['Dialogue'].apply(lambda x: ', '.join(ints for ints in list(set(get_ints(x)))))
+output['Intents'] = steps(output['Dialogue'].apply(lambda x: list(set(get_ints(x)))).values)
+# print(output.where(output['Intents'].str.contains('\[]')).dropna().values)
 output['Ents'] = df['SpellCheckerDialoguePreProcessorImpl.PlainTextDialoguePreProcessorImpl'].dropna().apply(lambda x: ','.join('('+str(y)+', '+str(y.label_)+')' for y in nlp(str(x)).ents))
-output.to_csv('Intents.csv', index=None)
+output.to_csv('Temp.csv', index=None)

@@ -49,7 +49,9 @@ We hate,PREFERENCE_NEG
 We can not bear,PREFERENCE_NEG
 We can not stand,PREFERENCE_NEG
 Which do you prefer,PREFERENCE_QUES
- Which do you like better,PREFERENCE_QUES
- Do you prefer,PREFERENCE_QUES
- Would you prefer,PREFERENCE_QUES
- Would you rather,PREFERENCE_QUES
+Which do you like better,PREFERENCE_QUES
+Do you prefer,PREFERENCE_QUES
+Would you prefer,PREFERENCE_QUES
+Would you rather,PREFERENCE_QUES
+you said you wanted,PREFERENCE_RESPONSE
+I feel,PREFERENCE_POS

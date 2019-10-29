@@ -1,14 +1,15 @@
 from feature_engineering.bl.difficulty_index.AbstractDifficultyIndexDialogueFeatureEngineerImpl import AbstractDifficultyIndexDialogueFeatureEngineerImpl
 from feature_engineering.utils.MathematicsUtils import MathematicsUtils
+from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
 
 
 class FoggDifficultyIndexDialogueFeatureEngineerImpl(AbstractDifficultyIndexDialogueFeatureEngineerImpl):
 
     def difficulty_index(self, args):
-        difficult_words = self.get_difficult_words(args[1])
+        difficult_words = self.get_difficult_words(args)
         num_of_difficult_words = MathematicsUtils.length(difficult_words)
-        num_of_sentences = self.get_num_of_sentences(args[0])
-        num_of_words = MathematicsUtils.length(args[1])
+        num_of_sentences = self.get_num_of_sentences(args)
+        num_of_words = MathematicsUtils.length(args[RemoveStopWordsDialoguePreProcessorImpl.__name__])
         avg_sentence_length = MathematicsUtils.divide([num_of_words, num_of_sentences])
         return MathematicsUtils.add(
             [MathematicsUtils.add(

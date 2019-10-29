@@ -23,4 +23,8 @@ I wish it never happened,COMPLAINT_RESPONSE_POS
 Sorry there is nothing we can do about it,COMPLAINT_RESPONSE_NEG
 Sorry but it is not our fault,COMPLAINT_RESPONSE_NEG
 I am afraid there is not much we can do about it,COMPLAINT_RESPONSE_NEG
- we promise never to make the same mistake again,COMPLAINT_RESPONSE_POS
+we promise never to make the same mistake again,COMPLAINT_RESPONSE_POS
+you are supposed to,COMPLAINT_DIRECT
+you were supposed to,COMPLAINT_DIRECT
+that is the problem,COMPLAINT_DIRECT
+this is the problem,COMPLAINT_DIRECT

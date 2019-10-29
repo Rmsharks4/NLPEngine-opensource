@@ -4,4 +4,4 @@ from feature_engineering.bl.tags.AbstractTagsDialogueFeatureEngineerImpl import 
 class IOBTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImpl):
 
     def tags(self, args):
-        return [(token, token.ent_iob_) for token in args.text]
+        return [(token, token.ent_iob_) for token in args]

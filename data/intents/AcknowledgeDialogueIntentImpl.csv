@@ -41,7 +41,7 @@ That is certainly impressive,ACK_COMPLIMENT
 That it is an interesting idea,ACK_COMPLIMENT
 Brilliant I am glad we are on the same page,ACK_COMPLIMENT
 Yes it is an exciting prospect,ACK_COMPLIMENT
-I think that it’s a terrific option,ACK_SUGGEST
+I think that itï¿½s a terrific option,ACK_SUGGEST
 That is absolutely fascinating,ACK_COMPLIMENT
 You certainly are an expert on this,ACK_COMPLIMENT
 That is personally my favourite option,ACK_SUGGEST
@@ -90,3 +90,5 @@ Just so I can clarify and help you,ACK_HELP_POS
 I am afraid that we cannot offer you,ACK_HELP_NEG
 I am going to take care of this for you,ACK_HELP_POS
 That does sound frustrating let us see what I can do to help,ACK_HELP_POS
+Alright,ACK_POS
+Interesting,ACK_POS

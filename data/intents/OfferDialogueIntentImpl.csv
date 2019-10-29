@@ -44,3 +44,7 @@ I can help you,OFFER_DIRECT
 Is there anything else I can help,OFFER_DIRECT
 Is there anything I can help,OFFER_DIRECT
 Is there anything else I can assist,OFFER_DIRECT
+what else,OFFER_DIRECT
+anything else I can assist you with,OFFER_HELP
+How I help you,OFFER_HELP
+I can assist you,OFFER_HELP

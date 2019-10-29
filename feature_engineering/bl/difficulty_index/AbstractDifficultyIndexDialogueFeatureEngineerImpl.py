@@ -1,15 +1,15 @@
 import abc
 from feature_engineering.bl.AbstractDialogueFeatureEngineer import AbstractDialogueFeatureEngineer
-from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNetLemmatizerDialoguePreProcessorImpl
-from textstat.textstat import textstatistics, easy_word_set
+from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
+from feature_engineering.utils.TextStats import TextStats
 
 
 class AbstractDifficultyIndexDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = WordNetLemmatizerDialoguePreProcessorImpl.__name__
-        self.config_pattern.properties.req_args = None
+        self.config_pattern.properties.req_data = [RemoveStopWordsDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_args = TextStats.__name__
 
     def engineer_feature_operation(self, args):
         return self.difficulty_index(args)
@@ -21,27 +21,27 @@ class AbstractDifficultyIndexDialogueFeatureEngineerImpl(AbstractDialogueFeature
     @classmethod
     def get_difficult_words(cls, args):
         difficult_words = []
-        for word in args:
-            if word not in easy_word_set and textstatistics().syllable_count(word) > 2:
+        for word in args[RemoveStopWordsDialoguePreProcessorImpl.__name__]:
+            if word not in args[TextStats.__name__].es and args[TextStats.__name__].ts.syllable_count(word) > 2:
                 difficult_words.append(word)
         return difficult_words
 
     @classmethod
     def get_num_of_sentences(cls, args):
-        return textstatistics.sentence_count(args)
+        return args[TextStats.__name__].ts.sentence_count(args[RemoveStopWordsDialoguePreProcessorImpl.__name__])
 
     @classmethod
     def get_num_of_syllables(cls, args):
         num_of_syllables = 0
-        for word in args:
-            num_of_syllables += textstatistics().syllable_count(word)
+        for word in args[RemoveStopWordsDialoguePreProcessorImpl.__name__]:
+            num_of_syllables += args[TextStats.__name__].ts.syllable_count(word)
         return num_of_syllables
 
     @classmethod
     def get_num_of_polysyllables(cls, args):
         num_of_polysyllables = 0
-        for word in args:
-            syllable_count = textstatistics().syllable_count(word)
+        for word in args[RemoveStopWordsDialoguePreProcessorImpl.__name__]:
+            syllable_count = args[TextStats.__name__].ts.syllable_count(word)
             if syllable_count >= 3:
                 num_of_polysyllables += 1
         return num_of_polysyllables
