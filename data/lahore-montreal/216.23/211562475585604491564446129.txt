@@ -1,0 +1,150 @@
+[
+  {
+    "transcript": "welcome to us try to post a lot to go support my name is sealed may I please have your card I. D. number",
+    "speaker": 0
+  },
+  {
+    "transcript": " G. two four three six three seven nine seven nine four zero three",
+    "speaker": 1
+  },
+  {
+    "transcript": " ma'am I'm so sorry I'm so sorry could could you could you could you repeat again just a little bit slower this time please so it's two four three six three seven nine seven and then what",
+    "speaker": 0
+  },
+  {
+    "transcript": " three seven nine seven nine four zero three",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " three two one five",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you very much for that ma'am just one second please while I look that up your account all right and who am I speaking with today please",
+    "speaker": 0
+  },
+  {
+    "transcript": " issue my %HESITATION check out",
+    "speaker": 1
+  },
+  {
+    "transcript": " and so my %HESITATION can I have your six digit access code for the card please",
+    "speaker": 0
+  },
+  {
+    "transcript": " contact number",
+    "speaker": 1
+  },
+  {
+    "transcript": " the number you set up your self for the post office when you bought the car it's supposed to be something really easy for you to remember would you like to try six it is number I can tell you if it's right or wrong",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION it's hard to actually",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right not a problem tell me your date of birth and your home address please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION twenty six ten nine nineteen sixty",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi my this is used to show and unable to pause it and then the",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and the postal code",
+    "speaker": 0
+  },
+  {
+    "transcript": " five one six one",
+    "speaker": 1
+  },
+  {
+    "transcript": " and your ball by a place",
+    "speaker": 0
+  },
+  {
+    "transcript": " zero four one five eight zero three three six one",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay okay just for you to know I send access codes here mobile I we should be receiving that soon okay so how can I help you today so my %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " I just %HESITATION I made online thing I'm not sure if %HESITATION if they travel from my %HESITATION from discard it could you check if needed %HESITATION and lost five %HESITATION days any payment to win today",
+    "speaker": 1
+  },
+  {
+    "transcript": " well most definitely I can tell your last transactions with the card just one second please",
+    "speaker": 0
+  },
+  {
+    "transcript": " or how long %HESITATION if it's just a couple of months that's fine but %HESITATION if not fault lost two weeks I need payment twenty three main St is a call from",
+    "speaker": 1
+  },
+  {
+    "transcript": " someone from your very last transaction it's %HESITATION you was done on July fourth a place called Salim there's %HESITATION and before that the same place again and then Charles for a and that's all in the beginning of the month of July so there's nothing recent",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's a July this month",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes July fourth Flanders and then July third Flinders again and then July third Charles we're over %HESITATION worth %HESITATION and we'll wars to %HESITATION so those are the places",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay because online %HESITATION day I have to stop the %HESITATION that's gone because state limited term money from my %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " gotcha",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right any other questions or concerns",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION no it's it's just such a loss thank you bye",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes thirty dollars and sixty five cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right thank you so much",
+    "speaker": 1
+  },
+  {
+    "transcript": " my pleasure thank you so much for calling from the post will go have a good day",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay bye",
+    "speaker": 1
+  },
+  {
+    "transcript": " bye bye",
+    "speaker": 0
+  }
+]

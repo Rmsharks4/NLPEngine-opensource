@@ -23,12 +23,9 @@ class ExpandContractionsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Expand Contractions Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-
-        self.logger.info('Setting Arguments in: ' + self.config_pattern.properties.__class__.__name__)
-        self.config_pattern.properties.req_data = [SplitJointWordsPreProcessorImpl.__name__]
-        self.logger.info("Required Data: " + SplitJointWordsPreProcessorImpl.__name__)
+        self.config_pattern.properties.req_input = None
+        self.config_pattern.properties.req_data = [[SplitJointWordsPreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = ContractionsDictionary.__name__
-        self.logger.info("Required Arguments: " + ContractionsDictionary.__name__)
 
     def expand_contractions(self, text, contractions):
         """

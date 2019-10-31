@@ -1,0 +1,178 @@
+[
+  {
+    "transcript": "welcome to Australia post loading the support this is Amanda speaking may I please have your car in nineteen",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes you can %HESITATION the card %HESITATION I. D. it's on the back it's five four seven three five seven two five one zero six zero say T. one",
+    "speaker": 2
+  },
+  {
+    "transcript": " can I have your name",
+    "speaker": 0
+  },
+  {
+    "transcript": " my name is Jennifer and Courtney",
+    "speaker": 2
+  },
+  {
+    "transcript": " perfect Jennifer can I have your six digit access code",
+    "speaker": 0
+  },
+  {
+    "transcript": " now I've got no idea what it is to help I haven't used the concept I bought the card when I went",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION %HESITATION %HESITATION %HESITATION asking that a security question Jennifer can I have your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes it's the nineteen to the seven fifty five",
+    "speaker": 2
+  },
+  {
+    "transcript": " your intra",
+    "speaker": 0
+  },
+  {
+    "transcript": " is one thirty one practice line know if because they nine two four seven zero",
+    "speaker": 2
+  },
+  {
+    "transcript": " and %HESITATION your mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " eight now I don't know what I full I'll give you one and I. four two seven six three five three five zero five but if it's not zero one the and it'll be a full",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks I sent you the access because your mobile number home phone %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " they get pattern",
+    "speaker": 2
+  },
+  {
+    "transcript": " I sent you the access code your mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION we try and console with me right now",
+    "speaker": 2
+  },
+  {
+    "transcript": " the one they just gave me the one that ends with three three five zero so",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah we had %HESITATION we don't have very good so it is C. dial",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay how can I",
+    "speaker": 0
+  },
+  {
+    "transcript": " help gone say whether it's come through but if not you come through for a couple of the ice",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay so how can I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah well I need to know %HESITATION here it is yep I got it nah %HESITATION and %HESITATION like I don't know the number but did you send me a letter telling me that it was getting a client's awful something",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah so these kinds have been discontinued as a business decision so any new cards new products you have to go to the post office so when you did you get the new car you had a new car and relations right",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I we did get a sheet",
+    "speaker": 2
+  },
+  {
+    "transcript": " well you had a new car here we issued %HESITATION it was August first two thousand seventeen as you ever receive it",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " uhhuh so this is I'm",
+    "speaker": 0
+  },
+  {
+    "transcript": " totally out seven K. let's see I log off",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah exactly so you were supposed to get a new car so what I'm gonna do the only option is to just send you a money order %HESITATION which you would receive a maximum of forty five business days with the amount on the card so I'm gonna tell you the amount what is four hundred sixty eight and sixty five cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " welcome how much sixty eight",
+    "speaker": 2
+  },
+  {
+    "transcript": " and sixty five cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " and sixty one",
+    "speaker": 2
+  },
+  {
+    "transcript": " to one thirty one front nine right",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah eight one three one press sly north could see",
+    "speaker": 2
+  },
+  {
+    "transcript": " I think once again you should receive it in the maximum twenty five business days",
+    "speaker": 0
+  },
+  {
+    "transcript": " do you have any %HESITATION now it becomes obsolete",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah",
+    "speaker": 0
+  },
+  {
+    "transcript": " I type very good very good yeah not I didn't send me any Todd racing",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay no problem",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION tight rod I'm very good thank you very very much",
+    "speaker": 2
+  },
+  {
+    "transcript": " no problem thank you so much for calling us trying to post loading with support have a great day",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay thank you bye",
+    "speaker": 2
+  },
+  {
+    "transcript": " and %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " four hundred dollars not now what's the other one that I wanted",
+    "speaker": 2
+  }
+]

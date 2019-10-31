@@ -1,3 +1,0 @@
-- No Response should come before the intent itself.
-FOr example, the intent compliment response should be only after compliment - not random.
-- Greeting and Ending should only be checked in the start and end - nowhere else

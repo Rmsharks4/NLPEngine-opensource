@@ -7,7 +7,8 @@ class AbstractDialogueAct(AbstractDialogueFeatureEngineer):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = [POSTagsDialogueFeatureEngineerImpl.__name__]
+        self.config_pattern.properties.req_data = [[POSTagsDialogueFeatureEngineerImpl.__name__]]
+        self.config_pattern.properties.req_input = None
         self.config_pattern.properties.req_args = ActsUtils.__name__
 
     def engineer_feature_operation(self, args):

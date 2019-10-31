@@ -8,7 +8,7 @@ class AntoTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImp
     @staticmethod
     def antonyms(token):
         antonyms = []
-        for syn in wordnet.synsets(token):
+        for syn in wordnet.synsets(str(token)):
             for l in syn.lemmas():
                 if l.antonyms():
                     antonyms.append(l.antonyms()[0].name())

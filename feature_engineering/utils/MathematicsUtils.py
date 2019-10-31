@@ -18,7 +18,10 @@ class MathematicsUtils:
 
     @classmethod
     def divide(cls, args):
-        return args[0] / args[1]
+        if args[1] == 0:
+            return 0
+        else:
+            return args[0] / args[1]
 
     @classmethod
     def length(cls, args):

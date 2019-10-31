@@ -13,6 +13,8 @@ class ActsUtils(AbstractUtils):
     qwh = None
     aux = None
     qyn = None
+    resp = None
+    answ = None
 
     @staticmethod
     def load():
@@ -25,3 +27,5 @@ class ActsUtils(AbstractUtils):
         ActsUtils.qwh = 'QWH'
         ActsUtils.aux = 'AUX'
         ActsUtils.qyn = 'QYN'
+        ActsUtils.resp = '_RESPONSE'
+        ActsUtils.answ = 'ANSW'

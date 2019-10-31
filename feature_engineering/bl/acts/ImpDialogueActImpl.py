@@ -7,7 +7,7 @@ class ImpDialogueActImpl(AbstractDialogueAct):
 
     def act(self, args):
         if len(args[POSTagsDialogueFeatureEngineerImpl.__name__]) > 0:
-            for x, y in args[POSTagsDialogueFeatureEngineerImpl.__name__][0]:
-                if y == args[ActsUtils.__name__].vb:
-                    return args[ActsUtils.__name__].imp
+            x, y = args[POSTagsDialogueFeatureEngineerImpl.__name__].values[0]
+            if y == args[ActsUtils.__name__].vb:
+                return args[ActsUtils.__name__].imp
         return None

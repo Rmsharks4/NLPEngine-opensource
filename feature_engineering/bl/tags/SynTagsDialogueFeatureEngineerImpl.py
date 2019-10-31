@@ -7,7 +7,7 @@ class SynTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImpl
     @staticmethod
     def synonyms(token):
         synonyms = []
-        for syn in wordnet.synsets(token):
+        for syn in wordnet.synsets(str(token)):
             for lemma in syn.lemmas():
                 synonyms.append(lemma.name())
         return synonyms

@@ -12,7 +12,7 @@ splits combination words into two (well-managed to well managed, etc.)
 """
 
 from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
-from preprocessing.bl.PlainTextDialoguePreProcessorImpl import PlainTextDialoguePreProcessorImpl
+from data.bl.PlainTextDataImpl import PlainTextDataImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.SplitsDictionary import SplitsDictionary
 
@@ -24,8 +24,8 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Split Joint Words Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [PlainTextDialoguePreProcessorImpl.__name__,
-                                                   LowercaseDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_input = [[PlainTextDataImpl.__name__]]
+        self.config_pattern.properties.req_data = None
         self.config_pattern.properties.req_args = SplitsDictionary.__name__
 
     @classmethod

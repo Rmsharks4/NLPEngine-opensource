@@ -12,7 +12,6 @@ lemmatizes words to their roots (grew to grow, etc.)
 """
 
 from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
-from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.WordnetLemmatizer import WordnetLemmatizer
 import re
@@ -25,8 +24,8 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Word Net Lemmatizer Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [SpellCheckerDialoguePreProcessorImpl.__name__,
-                                                   RemoveStopWordsDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_input = None
+        self.config_pattern.properties.req_data = [[RemoveStopWordsDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = WordnetLemmatizer.__name__
 
     @classmethod

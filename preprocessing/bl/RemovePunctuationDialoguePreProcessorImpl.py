@@ -23,7 +23,8 @@ class RemovePunctuationDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Remove Punctuation Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [RemoveEmailsDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_input = None
+        self.config_pattern.properties.req_data = [[RemoveEmailsDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = PunctuationDictionary.__name__
 
     @classmethod

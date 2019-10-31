@@ -17,6 +17,5 @@ class AbstractConversationFeatureEngineer(StandardConfigParserImpl):
     def engineer_feature_validation(cls, args):
         return True
 
-    @abc.abstractmethod
     def engineer_feature_operation(self, args):
         pass

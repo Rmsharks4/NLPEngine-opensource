@@ -8,6 +8,7 @@ class AbstractConfigProperties:
 
     def __init__(self):
         self.cls_req_args = None
+        self.cls_req_input = None
         self.cls_req_data = None
         self.cls_parents = None
         self.cls_children = None
@@ -19,6 +20,14 @@ class AbstractConfigProperties:
     @req_args.setter
     def req_args(self, args):
         self.cls_req_args = args
+
+    @property
+    def req_input(self):
+        return self.cls_req_input
+
+    @req_input.setter
+    def req_input(self, args):
+        self.cls_req_input = args
 
     @property
     def req_data(self):

@@ -12,7 +12,7 @@ remove all frequently occurring words (the, by, etc.)
 """
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
-from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
+from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
 from preprocessing.utils.StopWordsDictionary import StopWordsDictionary
 import re
 
@@ -24,7 +24,8 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Remove Stop Words Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [SpellCheckerDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_input = None
+        self.config_pattern.properties.req_data = [[LowercaseDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = StopWordsDictionary.__name__
 
     @classmethod

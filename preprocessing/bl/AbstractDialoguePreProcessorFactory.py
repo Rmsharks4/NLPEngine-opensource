@@ -11,17 +11,7 @@ this class selects which implementation should be used at a given time:
 import abc
 import logging
 from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
-from preprocessing.bl.ExpandContractionsDialoguePreProcessorImpl import ExpandContractionsDialoguePreProcessorImpl
-from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
-from preprocessing.bl.PorterStemmerDialoguePreProcessorImpl import PorterStemmerDialoguePreProcessorImpl
-from preprocessing.bl.RemoveEmailsDialoguePreProcessorImpl import RemoveEmailsDialoguePreProcessorImpl
-from preprocessing.bl.RemoveNumericCharactersDialoguePreProcessorImpl import RemoveNumericCharactersDialoguePreProcessorImpl
-from preprocessing.bl.RemovePunctuationDialoguePreProcessorImpl import RemovePunctuationDialoguePreProcessorImpl
-from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopWordsDialoguePreProcessorImpl
-from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
-from preprocessing.bl.SplitJointWordsDialoguePreProcessorImpl import SplitJointWordsPreProcessorImpl
-from preprocessing.bl.WordNetLemmatizerDialoguePreProcessorImpl import WordNetLemmatizerDialoguePreProcessorImpl
-from preprocessing.bl.PlainTextDialoguePreProcessorImpl import PlainTextDialoguePreProcessorImpl
+from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 
 
 class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
@@ -39,18 +29,8 @@ class AbstractDialoguePreProcessorFactory(metaclass=abc.ABCMeta):
         :param preprocessor_type: (str) AbstractDialoguePreProcessorImpl class name
         :return: (AbstractDialoguePreProcessor) else throws Exception
         """
-        switcher = {
-            ExpandContractionsDialoguePreProcessorImpl.__name__: ExpandContractionsDialoguePreProcessorImpl(),
-            LowercaseDialoguePreProcessorImpl.__name__: LowercaseDialoguePreProcessorImpl(),
-            PorterStemmerDialoguePreProcessorImpl.__name__: PorterStemmerDialoguePreProcessorImpl(),
-            RemoveEmailsDialoguePreProcessorImpl.__name__: RemoveEmailsDialoguePreProcessorImpl(),
-            RemoveNumericCharactersDialoguePreProcessorImpl.__name__: RemoveNumericCharactersDialoguePreProcessorImpl(),
-            RemovePunctuationDialoguePreProcessorImpl.__name__: RemovePunctuationDialoguePreProcessorImpl(),
-            RemoveStopWordsDialoguePreProcessorImpl.__name__: RemoveStopWordsDialoguePreProcessorImpl(),
-            SpellCheckerDialoguePreProcessorImpl.__name__: SpellCheckerDialoguePreProcessorImpl(),
-            SplitJointWordsPreProcessorImpl.__name__: SplitJointWordsPreProcessorImpl(),
-            WordNetLemmatizerDialoguePreProcessorImpl.__name__: WordNetLemmatizerDialoguePreProcessorImpl(),
-            PlainTextDialoguePreProcessorImpl.__name__: PlainTextDialoguePreProcessorImpl()
-        }
-
+        switcher = dict()
+        for y in AbstractDialoguePreProcessor().__class__.__subclasses__():
+            switcher[y.__name__] = y()
+            switcher.update(dict((x.__name__, x()) for x in switcher[y.__name__].__class__.__subclasses__()))
         return switcher.get(preprocessor_type, None)

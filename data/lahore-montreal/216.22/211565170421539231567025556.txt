@@ -1,0 +1,242 @@
+[
+  {
+    "transcript": "welcome to Shelly opposed to letting go support this Richard may I have your card I. D. number please",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah an old one %HESITATION two four three eight three seven nine seven apple zero nine two three oh eight seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " Q. one moment what is your first and last name please",
+    "speaker": 2
+  },
+  {
+    "transcript": " pardon thank you Patton",
+    "speaker": 1
+  },
+  {
+    "transcript": " what is your first and last name",
+    "speaker": 2
+  },
+  {
+    "transcript": " Mary McLeod",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and what is your %HESITATION you have a middle name by any chance",
+    "speaker": 2
+  },
+  {
+    "transcript": " Anna",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you and your six digit access code merry",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION %HESITATION why don't you %HESITATION %HESITATION well I don't know that all of that is that on the car I'm just kind of like a just had cataract surgery and I'm having a lot of difficult",
+    "speaker": 1
+  },
+  {
+    "transcript": " apologize for to hear that ma'am %HESITATION %HESITATION merry the six digit is the one that you provide and create at the post office with the agent it's not on the card",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION %HESITATION okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay not a problem what is your date of birth",
+    "speaker": 2
+  },
+  {
+    "transcript": " three",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry I can barely hear you can you repeat that one more time please",
+    "speaker": 2
+  },
+  {
+    "transcript": " seven six fifty three",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you any what is your address",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION he %HESITATION box one one",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " three",
+    "speaker": 1
+  },
+  {
+    "transcript": " that's that's not the address we have on file merry you have a",
+    "speaker": 2
+  },
+  {
+    "transcript": " hi I'm a jurist possibly",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay what is that",
+    "speaker": 2
+  },
+  {
+    "transcript": " hearing unit full %HESITATION she Collins C. O. L. L. I. N. S. three I'm gonna Queensland",
+    "speaker": 1
+  },
+  {
+    "transcript": " and what is a post code",
+    "speaker": 2
+  },
+  {
+    "transcript": " four R. one two",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay thank you for that information can you just confirm also your phone number",
+    "speaker": 2
+  },
+  {
+    "transcript": " I've four three eight four two hi thousand",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you for that how can I help you today",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION I went to the post office yes did die to put some more money onto the Scots but the lady told me it's going to expire and be close to an old blue cod not to do that but she said to ring you and finalize she's cod and get anything that's credited on it return to me and I took I had a new raid cod",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay my suggestion merry",
+    "speaker": 2
+  },
+  {
+    "transcript": " you wanted to finalize his one",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay my suggestion is first %HESITATION to go to an ATM and withdraw the funds or spend down the five time",
+    "speaker": 2
+  },
+  {
+    "transcript": " I can't I've never been to an I. G. N. a lot I'm not a young lady",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " it's really nice",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " I'm sorry",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so the options it's going to an ATM would join the funds you saying you never went to an ATM it's that %HESITATION I understand that",
+    "speaker": 2
+  },
+  {
+    "transcript": " but pretty online",
+    "speaker": 1
+  },
+  {
+    "transcript": " yep",
+    "speaker": 2
+  },
+  {
+    "transcript": " I think that might be on my way I okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " and at the other option is spent down the funds on the card like a pay by or %HESITATION %HESITATION you know purchased",
+    "speaker": 2
+  },
+  {
+    "transcript": " good I just just don't think I can do that",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so if %HESITATION if you want to terminate but the card we will have to send you a money order that could take up to fourteen business days so %HESITATION that's the only %HESITATION other option we have okay so you preferred %HESITATION %HESITATION us to send you for %HESITATION a money order",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION %HESITATION %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay %HESITATION not a problem then",
+    "speaker": 2
+  },
+  {
+    "transcript": " I can just find that one on a card of the bank",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes no not a problem",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " I will process that right now B. size that %HESITATION it's something else I could do for you today",
+    "speaker": 2
+  },
+  {
+    "transcript": " nine nine nine well I just want to finalize the mountain out my new one",
+    "speaker": 1
+  },
+  {
+    "transcript": " not a problem everything will be closed %HESITATION after I submit this morning order %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " that'd be awfully okay very much in doing things not a problem nice hourly %HESITATION it would push you get through your nine",
+    "speaker": 1
+  },
+  {
+    "transcript": " not a problem",
+    "speaker": 2
+  },
+  {
+    "transcript": " this is good thank",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay thank you again",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " calling loading %HESITATION support",
+    "speaker": 2
+  },
+  {
+    "transcript": " bye bye bye",
+    "speaker": 1
+  }
+]

@@ -44,7 +44,9 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
             if len(current.properties.req_data) > 0:
                 for data in current.properties.req_data:
                     while data not in preprocessors:
+                        print(current)
                         current = args[AbstractDialoguePreProcessor.__name__][data]
+                        print(current)
                     if current.name not in preprocessors:
                         preprocessors.append(current.name)
             else:
@@ -81,27 +83,3 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
             df, self.__class__.__name__
         ])
 
-# PlainTextDialoguePreProcessorImpl - 1 dep
-# LowercaseDialoguePreProcessorImpl - 1 dep (ignore appending)
-# SplitJointWordsPreProcessorImpl - 2 deps (append in 2-1 dep)
-# SplitJointWordsPreProcessorImpl.LowercaseDialoguePreProcessorImpl (append name of dep)
-# ExpandContractionsDialoguePreProcessorImpl - 2 deps (append in 2-1 dep)
-# ExpandContractionsDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl (append name of dep's dep)
-# RemoveNumericCharactersDialoguePreProcessorImpl
-# RemoveNumericCharactersDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# RemoveEmailsDialoguePreProcessorImpl
-# RemoveEmailsDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# RemovePunctuationDialoguePreProcessorImpl
-# RemovePunctuationDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# SpellCheckerDialoguePreProcessorImpl
-# SpellCheckerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# RemoveStopWordsDialoguePreProcessorImpl
-# RemoveStopWordsDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# PorterStemmerDialoguePreProcessorImpl
-# PorterStemmerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# PorterStemmerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl
-# PorterStemmerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# WordNetLemmatizerDialoguePreProcessorImpl
-# WordNetLemmatizerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl
-# WordNetLemmatizerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl
-# WordNetLemmatizerDialoguePreProcessorImpl.SpellCheckerDialoguePreProcessorImpl.LowercaseDialoguePreProcessorImpl

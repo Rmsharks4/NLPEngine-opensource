@@ -10,9 +10,8 @@ class WordsPerMinuteDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer)
 
     def __int__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = [TokenTagsDialogueFeatureEngineerImpl.__name__,
-                                                   StartTimeDataImpl.__name__,
-                                                   EndTimeDataImpl.__name__]
+        self.config_pattern.properties.req_data = [[TokenTagsDialogueFeatureEngineerImpl.__name__]]
+        self.config_pattern.properties.req_input = [[StartTimeDataImpl.__name__, EndTimeDataImpl.__name__]]
         self.config_pattern.properties.req_args = WPMLimit.__name__
 
     def engineer_feature_operation(self, args):

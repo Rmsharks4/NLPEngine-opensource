@@ -23,7 +23,8 @@ class RemoveNumericCharactersDialoguePreProcessorImpl(AbstractDialoguePreProcess
         initializes Remove Numeric Characters Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [ExpandContractionsDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_input = None
+        self.config_pattern.properties.req_data = [[ExpandContractionsDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = FiguresDictionary.__name__
 
     @classmethod

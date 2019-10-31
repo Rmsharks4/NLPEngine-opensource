@@ -1,4 +1,4 @@
-
+from feature_engineering.utils.ActsUtils import ActsUtils
 from feature_engineering.bl.steps.StepsConversationFeatureEngineerImpl import StepsConversationFeatureEngineerImpl
 
 
@@ -8,8 +8,9 @@ class ForwardStepsConversationFeatureEngineerImpl(StepsConversationFeatureEngine
         prev = None
         for intents in args.reverse():
             for intent in intents:
-                if intent == 'QWH' or intent == 'QYN':
-                    if prev is not None and ['QWH', 'QYN'] not in prev:
-                        intents.append('ANSW')
+                if intent == args[ActsUtils.__name__].qwh or intent == args[ActsUtils.__name__].qyn:
+                    if prev is not None and [args[ActsUtils.__name__].qwh,
+                                             args[ActsUtils.__name__].qyn] not in prev:
+                        intents.append(args[ActsUtils.__name__].answ)
             prev = intents
         return args

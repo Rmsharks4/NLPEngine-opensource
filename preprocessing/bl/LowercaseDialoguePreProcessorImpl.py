@@ -12,7 +12,7 @@ turns all characters to lowercase (CHAR to char, etc.)
 """
 
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
-from preprocessing.bl.PlainTextDialoguePreProcessorImpl import PlainTextDialoguePreProcessorImpl
+from preprocessing.bl.SpellCheckerDialoguePreProcessorImpl import SpellCheckerDialoguePreProcessorImpl
 
 
 class LowercaseDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -22,7 +22,8 @@ class LowercaseDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         initializes Lowercase Dialogue Pre-Processor Class: set required data and arguments
         """
         super().__init__()
-        self.config_pattern.properties.req_data = [PlainTextDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_input = None
+        self.config_pattern.properties.req_data = [[SpellCheckerDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = None
 
     @classmethod

@@ -19,7 +19,21 @@ class StandardConfigParserImpl(AbstractConfigParser):
         self.config_pattern.name = self.__class__.__name__
         self.config_pattern.vars = [x for x, y in self.__dict__.items() if type(y) != FunctionType]
         self.config_pattern.properties.parents = [x.__name__ for x in self.__class__.mro() if x != self.__class__ and x != object]
-        self.config_pattern.properties.children = [x.__name__ for x in self.__class__.__subclasses__()]
+        childlist = [x() for x in self.__class__.__subclasses__()]
+        check = True
+        while check:
+            notchilds = []
+            for child in childlist:
+                if len(child.__class__.__subclasses__()) > 0:
+                    notchilds.append(child)
+                    check = True
+            if len(notchilds) == 0:
+                check = False
+            for child in notchilds:
+                childlist.remove(child)
+                for x in child.__class__.__subclasses__():
+                    childlist.append(x())
+        self.config_pattern.properties.children = [x.__class__.__name__ for x in childlist]
         self.config_pattern.methods.static_methods = [x for x, y in self.__class__.__dict__.items()
                                                       if type(y) == FunctionType]
 

@@ -8,12 +8,12 @@ class AbstractTagsDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = [SpellCheckerDialoguePreProcessorImpl.__name__]
+        self.config_pattern.properties.req_data = None
+        self.config_pattern.properties.req_input = [[SpellCheckerDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = SpacyModel.__name__
 
     def engineer_feature_operation(self, args):
-        return self.tags(args[SpacyModel.__name__].nlp(args[SpellCheckerDialoguePreProcessorImpl.__name__]))
+        return self.tags(args[SpacyModel.__name__].nlp(str(args[SpellCheckerDialoguePreProcessorImpl.__name__])))
 
-    @abc.abstractmethod
     def tags(self, args):
         pass

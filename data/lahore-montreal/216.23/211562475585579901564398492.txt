@@ -1,0 +1,94 @@
+[
+  {
+    "transcript": "thank you for calling M. C. %HESITATION customer services this is Sadie how can I help you today",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes %HESITATION I've met a chilly for %HESITATION by did not get my referral code",
+    "speaker": 3
+  },
+  {
+    "transcript": " K.",
+    "speaker": 0
+  },
+  {
+    "transcript": " hello",
+    "speaker": 3
+  },
+  {
+    "transcript": " yeah I'm listening to you you did not get your before we open may I have your card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " my car numbers to you on this call Ron at Yahoo dot com dot S. G. O. U.",
+    "speaker": 3
+  },
+  {
+    "transcript": " number",
+    "speaker": 0
+  },
+  {
+    "transcript": " she %HESITATION my visa card number has not arrived yet",
+    "speaker": 3
+  },
+  {
+    "transcript": " okay so you just sign up for the card",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 3
+  },
+  {
+    "transcript": " okay may I have your email address please",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay Chu CH GW %HESITATION this call Ron R. O. N. at Yahoo dot com the S. G.",
+    "speaker": 3
+  },
+  {
+    "transcript": " thank you and %HESITATION could you spell your first and last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's U. S. A. N. C. H. A. W. K. I. N. K. I. N. G. W. O. N. joking with",
+    "speaker": 3
+  },
+  {
+    "transcript": " choking word and %HESITATION may I have your so the email address you already provide me may I have your call back number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION that is %HESITATION is the court sixty five phone number is nine seven eight one two one three three",
+    "speaker": 3
+  },
+  {
+    "transcript": " thank you what I can do for you is I'm going to send an email to the back office and %HESITATION mobile %HESITATION so my email if you want she email in twenty four hours you may check back with us is there anything else I",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION you've got my email correct right",
+    "speaker": 3
+  },
+  {
+    "transcript": " yes is C. H. E. W. underscore run R. O. N. at Yahoo dot com dot SG",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 3
+  },
+  {
+    "transcript": " all right anything else I can help you with",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right that's that's all",
+    "speaker": 3
+  },
+  {
+    "transcript": " not a Michigan thank you for calling them she'll customer services have a great day goodbye",
+    "speaker": 0
+  }
+]
