@@ -5,4 +5,3 @@ class TokenTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerIm
 
     def tags(self, args):
         return [token for token in args]
-

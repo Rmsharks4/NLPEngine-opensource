@@ -6,8 +6,7 @@ from feature_engineering.utils.ActsUtils import ActsUtils
 class ImpDialogueActImpl(AbstractDialogueAct):
 
     def act(self, args):
-        if len(args[POSTagsDialogueFeatureEngineerImpl.__name__]) > 0:
-            x, y = args[POSTagsDialogueFeatureEngineerImpl.__name__].values[0]
-            if y == args[ActsUtils.__name__].vb:
-                return args[ActsUtils.__name__].imp
+        y = args[POSTagsDialogueFeatureEngineerImpl.__name__][0]
+        if str(y[1]) == args[ActsUtils.__name__].vb:
+            return args[ActsUtils.__name__].imp
         return None

@@ -6,8 +6,7 @@ from feature_engineering.utils.ActsUtils import ActsUtils
 class QYnDialogueActImpl(AbstractDialogueAct):
 
     def act(self, args):
-        if len(args[POSTagsDialogueFeatureEngineerImpl.__name__]) > 0:
-            for x, y in args[POSTagsDialogueFeatureEngineerImpl.__name__][0]:
-                if y == args[ActsUtils.__name__].aux:
-                    return args[ActsUtils.__name__].qyn
+        y = args[POSTagsDialogueFeatureEngineerImpl.__name__][0]
+        if str(y[1]) == args[ActsUtils.__name__].md:
+            return args[ActsUtils.__name__].qyn
         return None

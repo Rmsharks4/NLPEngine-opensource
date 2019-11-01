@@ -46,7 +46,5 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (WordnetLemmatizer)
         :return: (list) array of preprocessed data
         """
-        for req_data in self.config_pattern.properties.req_data:
-            if req_data in args:
-                return self.lemmatize(args[req_data], args[self.config_pattern.properties.req_args])
-        return None
+        return args[RemoveStopWordsDialoguePreProcessorImpl.__name__].apply(
+            lambda x: self.lemmatize(x, args[self.config_pattern.properties.req_args]))

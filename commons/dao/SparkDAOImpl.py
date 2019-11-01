@@ -1,8 +1,9 @@
-
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from commons.dao.AbstractDAO import AbstractDAO
 
+
+# Maha asked to change to Pandas so need to do thaattt
 
 class SparkDAOImpl(AbstractDAO):
 
@@ -11,7 +12,7 @@ class SparkDAOImpl(AbstractDAO):
         self.spark = SparkSession.builder.getOrCreate()
 
     def load(self, args):
-        df = self.spark.read.csv(args[0], header=True)
+        df = self.spark.read.csv(args[0], header=True, ignoreLeadingWhiteSpace=True, ignoreTrailingWhiteSpace=True)
         df.createOrReplaceTempView(args[1])
         return df
 

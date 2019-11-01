@@ -1,16 +1,37 @@
 
 import pandas as pd
+import spacy
+
+nlp = spacy.load('en_core_web_sm')
 
 df = pd.read_csv('../data/FeatureEngineeringService.csv', sep=',', encoding='utf-8')
 
-cols = ['SpellCheckerDialoguePreProcessorImpl', 'SpellCheckerDialoguePreProcessorImpl.PlainTextDialoguePreProcessorImpl']
 
-strname = 'SpellCheckerDialoguePreProcessorImpl'
+def clean(data):
+    doc = nlp(str(data))
+    return [(token, token.tag_) for token in doc]
+#
+#
+# for col in df.columns:
+#     df[col].apply(lambda x: clean(x))
+#
+# df.to_csv('../data/AbstractDialoguePreProcessor.csv', sep=',', index=None)
 
 
-def trim(col):
-    ngs = zip(*[col[i:] for i in range(3)])
-    print([','.join(ngram for ngram in ngs)])
+from feature_engineering.bl.acts.ImpDialogueActImpl import ImpDialogueActImpl
+from feature_engineering.bl.acts.QWhDialogueActImpl import QWhDialogueActImpl
+from feature_engineering.bl.acts.QYnDialogueActImpl import QYnDialogueActImpl
+from feature_engineering.utils.ActsUtils import ActsUtils
 
 
-df[cols].apply(lambda x: x.apply(lambda y: trim(y)) if x.name == strname else None)
+df['POSTagsDialogueFeatureEngineerImpl'] = df['RemovePunctuationDialoguePreProcessorImpl'].apply(lambda x: clean(x))
+
+tststs = ActsUtils()
+tststs.load()
+
+df['QYnDialogueActImpl'] = QYnDialogueActImpl().engineer_feature_operation({
+        'POSTagsDialogueFeatureEngineerImpl': df['POSTagsDialogueFeatureEngineerImpl'],
+        'ActsUtils': tststs
+    })
+
+# print(df['ImpDialogueActImpl'])

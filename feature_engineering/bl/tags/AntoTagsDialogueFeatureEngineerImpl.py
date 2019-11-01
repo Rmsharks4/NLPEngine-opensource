@@ -15,4 +15,4 @@ class AntoTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImp
         return antonyms
 
     def tags(self, args):
-        return [(token, self.antonyms(token)) for token in args]
+        return [(token, self.antonyms(token)) for token in args if self.antonyms(token) != []]

@@ -11,13 +11,12 @@ splits combination words into two (well-managed to well managed, etc.)
 
 """
 
-from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
 from data.bl.PlainTextDataImpl import PlainTextDataImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.SplitsDictionary import SplitsDictionary
 
 
-class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
+class SplitJointWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
 
     def __init__(self):
         """
@@ -39,7 +38,7 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
 
         def replace(match):
             return splits.splits_dict[match.group(0)]
-        return splits.splits_re.sub(replace, text)
+        return splits.splits_re.sub(replace, str(text))
 
     def preprocess_operation(self, args):
         """
@@ -49,7 +48,5 @@ class SplitJointWordsPreProcessorImpl(AbstractDialoguePreProcessor):
         (SplitsDictionary)
         :return: (list) array of preprocessed data
         """
-        for req_data in self.config_pattern.properties.req_data:
-            if req_data in args:
-                return self.split_joint_words(args[req_data], args[self.config_pattern.properties.req_args])
-        return None
+        return args[PlainTextDataImpl.__name__].apply(
+            lambda x: self.split_joint_words(x, args[self.config_pattern.properties.req_args]))

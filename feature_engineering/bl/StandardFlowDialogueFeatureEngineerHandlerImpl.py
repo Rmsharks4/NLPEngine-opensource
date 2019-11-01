@@ -13,30 +13,43 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
         """
         super().__init__()
 
+    @staticmethod
+    def check_dep(args, current, engineers, stack):
+        if current.properties.req_data is not None:
+            for datalist in current.properties.req_data:
+                for data in datalist:
+                    temp = current
+                    prev = current
+                    while data is not None and data not in engineers:
+                        stack.append(temp)
+                        temp = StandardFlowDialogueFeatureEngineerHandlerImpl.\
+                            check_dep(args, args[data], engineers, stack)
+                        if temp is None or temp == prev:
+                            return prev
+                        prev = temp
+                        data = temp.name
+                    stack.append(temp)
+                    return temp
+        else:
+            stack.append(current)
+            return current
+
     def perform_feature_engineering(self, args):
         engineers = list()
 
-        # Arranging configs in order of execution!
         for current in args[AbstractDialogueFeatureEngineer.__name__].values():
-            if current.properties.req_data is not None:
-                for datalist in current.properties.req_data:
-                    for data in datalist:
-                        print(current.name)
-                        while data not in engineers:
-                            current = args[AbstractDialogueFeatureEngineer.__name__][current.properties.data]
-                        if current.name not in engineers:
-                                engineers.append(current.name)
-            else:
-                engineers.append(current.name)
+            stack = []
+            StandardFlowDialogueFeatureEngineerHandlerImpl\
+                .check_dep(args[AbstractDialogueFeatureEngineer.__name__], current, engineers, stack)
+            for s in reversed(stack):
+                if s.name not in engineers:
+                    engineers.append(s.name)
 
         spark = SparkDAOImpl()
         spark_df = args[SparkDAOImpl.__name__]
         df = spark_df.toPandas()
-        prev = ''
 
         for eng in engineers:
-
-            print(eng)
 
             engineer = AbstractDialogueFeatureEngineerFactory.get_feature_engineer(eng)
             input_data = []
@@ -50,11 +63,18 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
             if util is not None:
                 util.load()
 
+            elements = []
+
+            print(input_data)
+
             for req_data in input_data:
-                elements = []
+
+                print(req_data)
 
                 for elem in req_data:
                     input_df = df.filter(regex=elem)
+
+                    print(input_df.columns)
 
                     elem_types = []
                     for col in input_df.columns:
@@ -63,45 +83,36 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
                             elem_types.append('.'.join(names))
                     elements.append([(elem, etypes) for etypes in elem_types])
 
-                # print(eng, elements)
+            dfargs = dict()
+            cols = []
 
-                combos = StandardFlowDialogueFeatureEngineerHandlerImpl.combine(elements)
+            print(eng, elements)
 
-                # print(eng, combos)
+            for elem in elements:
+                if type(elem) is list:
+                    for e in elem:
+                        dfargs[e[0]] = e[1]
+                        cols.append(e[1])
+                else:
+                    dfargs[elem[0]] = elem[1]
+                    cols.append(elem[1])
 
-                for elem in combos:
-                    dfargs = dict()
-                    cols = []
-                    if type(elem) is list:
-                        for e in elem:
-                            dfargs[e[0]] = e[1]
-                            cols.append(e[1])
-                    else:
-                        dfargs[elem[0]] = elem[1]
-                        cols.append(elem[1])
+            dfargs[engineer.config_pattern.properties.req_args] = util
 
-                    dfargs[engineer.config_pattern.properties.req_args] = util
+            if len(cols) > 0 and len(input_data) > 1:
+                colname = eng + '.' + '.'.join(e for e in cols)
+            else:
+                colname = eng
 
-                    # print('Cols', cols)
+            print(eng, dfargs)
 
-                    # print('Dfargs', [(dfargname, dfargval) for dfargname, dfargval in dfargs.items()])
+            df[colname] = \
+                df[cols].apply(lambda x: engineer.engineer_feature_operation(
+                    dict((dfargname, x) if x.name == dfargval else (dfargname, dfargval)
+                         for dfargname, dfargval in dfargs.items())))
 
-                    colname = ''
-
-                    if len(cols) > 0:
-                        colname = eng + '.' + '.'.join(e for e in cols)
-                    else:
-                        colname = eng
-
-                    df[colname] = \
-                        df[cols].apply(lambda x: engineer.engineer_feature_operation(
-                            dict((dfargname, x) if x.name == dfargval else (dfargname, dfargval)
-                                 for dfargname, dfargval in dfargs.items())))
-
-                    print(df[colname].head(), '\n')
-
-            prev = eng
-
+        for col in df.columns:
+            df[col] = df[col].apply(lambda x: str(x))
         return spark.create([
             df, self.__class__.__name__
         ])

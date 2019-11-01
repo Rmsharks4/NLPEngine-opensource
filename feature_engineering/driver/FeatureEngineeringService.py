@@ -5,9 +5,6 @@ from commons.dao.SparkDAOImpl import SparkDAOImpl
 from commons.AbstractService import AbstractService
 from feature_engineering.bl.AbstractDialogueFeatureEngineerHandlerFactory import AbstractDialogueFeatureEngineerHandlerFactory
 from feature_engineering.bl.StandardFlowDialogueFeatureEngineerHandlerImpl import StandardFlowDialogueFeatureEngineerHandlerImpl
-from feature_engineering.bl.AbstractConversationFeatureEngineer import AbstractConversationFeatureEngineer
-from feature_engineering.bl.AbstractConversationFeatureEngineerHandlerFactory import AbstractConversationFeatureEngineerHandlerFactory
-from feature_engineering.bl.StandardFlowConversationFeatureEngineerHandlerImpl import StandardFlowConversationFeatureEngineerHandlerImpl
 
 
 class FeatureEngineeringService(AbstractService):
@@ -28,16 +25,6 @@ class FeatureEngineeringService(AbstractService):
 
         output_obj = handler_obj.perform_feature_engineering({
             AbstractDialogueFeatureEngineer.__name__: args[StandardFlowDialogueFeatureEngineerHandlerImpl.__name__],
-            SparkDAOImpl.__name__: data_obj
-        })
-
-        dao_obj.save([output_obj, args[SparkDAOImpl.__name__]])
-
-        handler_obj = AbstractConversationFeatureEngineerHandlerFactory.get_dialogue_feature_engineer_handler(
-            StandardFlowConversationFeatureEngineerHandlerImpl.__name__)
-
-        output_obj = handler_obj.perform_feature_engineering({
-            AbstractConversationFeatureEngineer.__name__: args[StandardFlowDialogueFeatureEngineerHandlerImpl.__name__],
             SparkDAOImpl.__name__: data_obj
         })
 

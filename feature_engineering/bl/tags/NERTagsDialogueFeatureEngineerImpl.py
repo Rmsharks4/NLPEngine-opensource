@@ -4,4 +4,4 @@ from feature_engineering.bl.tags.AbstractTagsDialogueFeatureEngineerImpl import 
 class NERTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImpl):
 
     def tags(self, args):
-        return [(token, token.ent_type_) for token in args]
+        return [(token, token.ent_type_) for token in args if token.ent_type_ != '']

@@ -11,10 +11,13 @@ class ActsUtils(AbstractUtils):
     wps = None
     wrb = None
     qwh = None
-    aux = None
     qyn = None
     resp = None
     answ = None
+    vbp = None
+    vbd = None
+    vbz = None
+    md = None
 
     @staticmethod
     def load():
@@ -29,3 +32,7 @@ class ActsUtils(AbstractUtils):
         ActsUtils.qyn = 'QYN'
         ActsUtils.resp = '_RESPONSE'
         ActsUtils.answ = 'ANSW'
+        ActsUtils.vbp = 'VBP'
+        ActsUtils.vbd = 'VBD'
+        ActsUtils.vbz = 'VBZ'
+        ActsUtils.md = 'MD'

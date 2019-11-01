@@ -47,7 +47,5 @@ class RemoveEmailsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         (EmailsDictionary)
         :return: (list) array of preprocessed data
         """
-        for req_data in self.config_pattern.properties.req_data:
-            if req_data in args:
-                return self.remove_emails(args[req_data], args[self.config_pattern.properties.req_args])
-        return None
+        return args[RemoveNumericCharactersDialoguePreProcessorImpl.__name__].apply(
+            lambda x: self.remove_emails(x, args[self.config_pattern.properties.req_args]))

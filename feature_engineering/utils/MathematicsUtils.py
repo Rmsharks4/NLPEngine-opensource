@@ -18,10 +18,10 @@ class MathematicsUtils:
 
     @classmethod
     def divide(cls, args):
-        if args[1] == 0:
+        if int(args[1]) == 0:
             return 0
         else:
-            return args[0] / args[1]
+            return int(args[0]) / int(args[1])
 
     @classmethod
     def length(cls, args):
@@ -32,6 +32,11 @@ class MathematicsUtils:
         if args[3] == '>':
             if args[0] > args[1]:
                 return args[2]
+            else:
+                return args[0]
         if args[3] == '<':
             if args[0] < args[1]:
                 return args[2]
+            else:
+                return args[0]
+        return 0

@@ -48,7 +48,5 @@ class RemoveNumericCharactersDialoguePreProcessorImpl(AbstractDialoguePreProcess
         (FiguresDictionary)
         :return: (list) array of preprocessed data
         """
-        for req_data in self.config_pattern.properties.req_data:
-            if req_data in args:
-                return self.remove_numeric_characters(args[req_data], args[self.config_pattern.properties.req_args])
-        return None
+        return args[ExpandContractionsDialoguePreProcessorImpl.__name__].apply(
+            lambda x: self.remove_numeric_characters(x, args[self.config_pattern.properties.req_args]))

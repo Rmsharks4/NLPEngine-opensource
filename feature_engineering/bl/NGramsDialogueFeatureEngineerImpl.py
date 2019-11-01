@@ -12,14 +12,9 @@ class NGramsDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
         self.config_pattern.properties.req_args = NGramLimit.__name__
 
     def engineer_feature_operation(self, args):
-
-        # print(args.keys())
-
-        for req_input in self.config_pattern.properties.req_input:
-            for input in req_input:
-                if input in args:
-                    return args[input]\
-                        .apply(lambda x: self.ngram(str(x), args[self.config_pattern.properties.req_args].ngram))
+        return args[TokenTagsDialogueFeatureEngineerImpl.__name__].apply(
+            lambda x: self.ngram(x, args[self.config_pattern.properties.req_args].ngram))
 
     def ngram(self, data, ngram_lim):
-        return zip(*[data[i:] for i in range(ngram_lim)])
+        ngrams = zip(*[data[i:] for i in range(ngram_lim)])
+        return [''.join(str(ngram)) for ngram in ngrams]

@@ -8,15 +8,15 @@ from feature_engineering.utils.WPMLimit import WPMLimit
 
 class WordsPerMinuteDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
 
-    def __int__(self):
+    def __init__(self):
         super().__init__()
         self.config_pattern.properties.req_data = [[TokenTagsDialogueFeatureEngineerImpl.__name__]]
-        self.config_pattern.properties.req_input = [[StartTimeDataImpl.__name__, EndTimeDataImpl.__name__]]
+        self.config_pattern.properties.req_input = [[StartTimeDataImpl.__name__], [EndTimeDataImpl.__name__]]
         self.config_pattern.properties.req_args = WPMLimit.__name__
 
     def engineer_feature_operation(self, args):
-        num_of_words = MathematicsUtils.length(args[TokenTagsDialogueFeatureEngineerImpl.__name__])
-        num_of_words_per_duration = MathematicsUtils.divide([num_of_words,
-                                                             MathematicsUtils.add(args[StartTimeDataImpl.__name__,
-                                                                                  EndTimeDataImpl.__name__])])
+        num_of_words = MathematicsUtils.length(str(args[TokenTagsDialogueFeatureEngineerImpl.__name__]))
+        num_of_words_per_duration = MathematicsUtils.add([args[StartTimeDataImpl.__name__],
+                                                          args[EndTimeDataImpl.__name__]]).apply(
+            lambda x: MathematicsUtils.divide([num_of_words, x]))
         return MathematicsUtils.multiply([num_of_words_per_duration, args[WPMLimit.__name__].wpm])
