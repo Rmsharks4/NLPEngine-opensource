@@ -1,0 +1,190 @@
+[
+  {
+    "transcript": "thank you for calling the error to express my name is a lease see %HESITATION how can I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah I just got my %HESITATION card in the mail for so security and I want to activate it and they said it was activated but they needed some more information on my profile or something",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes may I have the last four digits of your card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " three six seven seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " the last four of your social please",
+    "speaker": 0
+  },
+  {
+    "transcript": " eight five nine one",
+    "speaker": 1
+  },
+  {
+    "transcript": " and your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " eight one fifty seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION we just have %HESITATION some information insure with all new card holders they to take approximately a minute and a half to two minutes is that okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes that's fine",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay before I look into your account I would first like to take a minute to share some important information this will only take a minute we want to thank you and extend a warm welcome to you for being a part of the direct express program we have updated our systems to provide you better service as always you can use your card we're MasterCard is accepted this includes making purchases setting up automatic bill payments for utilities and smartphone as well as ATM withdrawal some of the new features allow you to go to a local Walmart and access cash from your card without making a purchase that is for a fee of one dollar and fifty cents you can enjoy the new card holder websites to access your card information check your balance view and print transactions and to make changes to your personal information may also set up alerts notifying you of the posted deposit low balancing and transaction activity and to change and pin you can go to W. W. W. dot U. S. direct express dot com to access the website please be sure to select the card beginning with five one you can also perform Beria's activities using our automated phone system such as card activation pin change balance inquire res and listen to the transaction details our friendly agents are also available to you twenty four seven three hundred and sixty five days a year coming soon we will have a mobile app it helps you stay connected with your card account anytime again we're happy to welcome you to the direct express program and to believe you'll find the features and benefits convenient and easy to use do you have any questions that I can answer for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION no",
+    "speaker": 1
+  },
+  {
+    "transcript": " would you like to get set up to receive alerts and promotional messages or alerts only",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION do I want to set that up for that is that what you're asking",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yeah",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay %HESITATION can you verify your mobile phone number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's nine three seven four eight nine oh six two five",
+    "speaker": 1
+  },
+  {
+    "transcript": " nine three seven four eight nine zero six two five",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " do you have an email address you like to provide",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah it's %HESITATION rich small letters small in small letters at G. mail let's see no no no I'm sorry it's rich mall in two thousand twelve at G. mail dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " rich Mullins two zero one two at G. mail dot com",
+    "speaker": 0
+  },
+  {
+    "transcript": " would you like",
+    "speaker": 1
+  },
+  {
+    "transcript": " to receive paperless statements sincere email every month",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yeah that'd be fine",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I'll set you up with the alerts now when your card reaches a certain low balance %HESITATION what amount would you like to be notified at",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION say the two hundred dollars",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and would you like these alerts %HESITATION by SMS text message email or both",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION both",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right perfect would you like daily weekly or monthly card balance alert",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION weekly we all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay do you have %HESITATION preference on what day of the week",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION Wednesday be all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay it's nine in the morning okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'd be fine",
+    "speaker": 1
+  },
+  {
+    "transcript": " and what is your time zone",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION eastern",
+    "speaker": 1
+  },
+  {
+    "transcript": " perfect okay Mister Mullen we have successfully set up those alerts for you today going forward when you have activity on your account you will be notified of that keep in mind that %HESITATION you can access the websites manually control your account I thought of those alerts or just have the insight on that do you have any additional questions for me",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay now I can set the website off my mobile phone",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION actually you have to have a computer like a laptop",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's fine that's fine",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " so I'm fine then",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I hope you have a great rest of your afternoon and thank you for calling direct express",
+    "speaker": 0
+  },
+  {
+    "transcript": " you too thank you no problem bye",
+    "speaker": 1
+  },
+  {
+    "transcript": " bye bye %HESITATION %HESITATION",
+    "speaker": 0
+  }
+]

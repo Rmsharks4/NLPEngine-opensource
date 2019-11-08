@@ -1,7 +1,7 @@
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from commons.dao.AbstractDAO import AbstractDAO
-
+import pandas as pd
 
 # Maha asked to change to Pandas so need to do thaattt
 
@@ -12,8 +12,7 @@ class SparkDAOImpl(AbstractDAO):
         self.spark = SparkSession.builder.getOrCreate()
 
     def load(self, args):
-        df = self.spark.read.csv(args[0], header=True, ignoreLeadingWhiteSpace=True, ignoreTrailingWhiteSpace=True)
-        df.createOrReplaceTempView(args[1])
+        df = pd.read_csv(args[0], sep=',', encoding='utf-8', skipinitialspace=True)
         return df
 
     def create(self, args):

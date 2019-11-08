@@ -1,0 +1,110 @@
+[
+  {
+    "transcript": "hi there this is Sadie how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION D. %HESITATION I just recently got my car so I'm trying to activate it",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure may I have your first and last name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " Daniel last name Oscar P. eight D. U. A. F.",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you just allow me a moment your information is coming up on the screen give me just a moment please I do apologize is coming up all right thank you so much for holding and being patient could you verify the last for your social please",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven nine six three",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you so much for the verification as fast because %HESITATION %HESITATION last four of your I mean may I have your date of birth please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION nine ten seventy",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you I can see your account was created on the twenty first of this month you got the card that's good though you need to activate the card to through the app it cannot be activated from my end as a customer service",
+    "speaker": 0
+  },
+  {
+    "transcript": " really",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah they have an app for the website",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so how do I do it through the website",
+    "speaker": 1
+  },
+  {
+    "transcript": " give me just a moment let me pull up your information all right for your security you can activate your card online if you haven't career your user %HESITATION had been %HESITATION cleared your account already please sign in to your dashboard and click the green button displays got your card tap here to activate and then follow the section",
+    "speaker": 0
+  },
+  {
+    "transcript": " created any account yet I mean I just literally got the card %HESITATION and I'm not home I'm not on my computer I mean if I could do it all over my phone I could outdo it over my but you have to give me directions to where to go",
+    "speaker": 1
+  },
+  {
+    "transcript": " log into W. W. W. dot paddle Kerr dot com forward slash set up",
+    "speaker": 0
+  },
+  {
+    "transcript": " so petal card set up",
+    "speaker": 1
+  },
+  {
+    "transcript": " battle card not hi sh that up",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay and I should %HESITATION that's your problem right",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes it will ask you enter your email address to sign up for paddle enter your email hit enter and %HESITATION you will receive a link to activate your account and follow the procedure",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " basing an inconvenience you can always call us back as we open twenty four seven",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " anything else I can assist you with Mr %HESITATION person",
+    "speaker": 0
+  },
+  {
+    "transcript": " well if you can activate my card and now the whole purpose does",
+    "speaker": 1
+  },
+  {
+    "transcript": " this account information I cannot take your information and enter into my",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's fine thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you for calling peril you have a great day",
+    "speaker": 0
+  }
+]

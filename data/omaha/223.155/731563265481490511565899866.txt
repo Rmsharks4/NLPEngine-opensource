@@ -1,0 +1,102 @@
+[
+  {
+    "transcript": "thank you for calling the press my name is Veronica how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes I have %HESITATION activated my car in home you all need more information",
+    "speaker": 1
+  },
+  {
+    "transcript": " to make sure everything's update it was your first and last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " your lan",
+    "speaker": 1
+  },
+  {
+    "transcript": " name is Johnson %HESITATION last four digits of the card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " four five three three",
+    "speaker": 1
+  },
+  {
+    "transcript": " last four of your social and your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven three four four",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right we just wanted to thank you and extend a warm welcome to you for being part of the direct express program and we've updated our system to provide you with better service as always you can use your card or MasterCard is accepted this includes making purchases for %HESITATION incident %HESITATION for automatic bill payments for utilities and smartphone as well as a team with jobs also leisure to go to Walmart locations to access cash record without making a purchase you can set a fuller to notify you propose to deposit low balance transaction through do you change your pin our website at W. W. W. dot U. S. direct express dot com and we have a twenty four seven three six five and what's a good mobile phone number",
+    "speaker": 0
+  },
+  {
+    "transcript": " nine seven nine seven zero three",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you and I do see another number here if you wanted to keep this in your profile %HESITATION nine seven nine seven zero four two three five five",
+    "speaker": 0
+  },
+  {
+    "transcript": " three four five",
+    "speaker": 1
+  },
+  {
+    "transcript": " two three four and did you want to add an email address to your %HESITATION profile",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes like Charlie Y. like yellow like Victor apple Charlie C. like Charlie M. S. N. dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " M. as in as in Nancy",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and did you want to %HESITATION sentence to receive free text alert and promotional messages all right and did you want to go through the phone ending and %HESITATION zero four three six okay one moment here and these are just excellent so notify you about a opposed to deposit little balance transaction activity and change your pin",
+    "speaker": 0
+  },
+  {
+    "transcript": " right now %HESITATION is there a charge the money out I need to get a withdrawal",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah %HESITATION and eight CM and only be eighty five cents but if you go through %HESITATION Walmart to do Kerr's Burke the show would be %HESITATION charge of %HESITATION a dollar fifty or you can go to a bank and it it could it should be for you but some banks do charge for small for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " to Walmart it will be a charge",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah but the first time %HESITATION that you do so it should be free",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay yeah %HESITATION well I know how much we charge yeah well",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah you can go to the %HESITATION you with direct express dot com and it could it should be in the paper work as well %HESITATION that came along with the card all right and I've got your profile updated %HESITATION and text alerts or set was there anything else I can assist you with all right thank you for calling to wish you a wonderful day",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you",
+    "speaker": 0
+  }
+]

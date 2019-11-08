@@ -1,0 +1,158 @@
+[
+  {
+    "transcript": "thank you for calling my car place this is Jennifer how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " our record in the mail",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure I'll be more than happy to assist you can I have your sixteen digit card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " I did it on the computer as well I I just don't know if it were",
+    "speaker": 1
+  },
+  {
+    "transcript": " so you you don't have a card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I got it right here you're ready",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes please",
+    "speaker": 0
+  },
+  {
+    "transcript": " six zero one one three nine three four",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " four two six four five seven two zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you and can I have your name",
+    "speaker": 0
+  },
+  {
+    "transcript": " Frank Corio C. O. L. O. R. I. L.",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you %HESITATION can I half year one moment please what's your first name again",
+    "speaker": 0
+  },
+  {
+    "transcript": " Frank F. R. A. N.",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you Mister Frank if you don't mind can repeat that card number one more time",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes six zero one one",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " three nine three four",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " four two six four five seven two zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you one moment please thank you %HESITATION Korea can I have the last four of your social on your birthday",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven two nine eight and my birthday is %HESITATION July twenty fourth nineteen ninety correct",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you can I have your address",
+    "speaker": 0
+  },
+  {
+    "transcript": " four fifty two %HESITATION we hard drive brick New Jersey zero eight seven two",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you so this is the new card is not activated yet and do you want me you want me to call right",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I'm sure I'm just going to activate this card for you and %HESITATION what pain do you want me to set up any four digit number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION one five one nine",
+    "speaker": 1
+  },
+  {
+    "transcript": " one five nine sure the card is activated system only and %HESITATION one five one nine as your pin and you can use this card any very discover is accepted okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay %HESITATION thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're welcome anything else I can help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION there should be money %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION this for this %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " you have a hundred dollars available on the card now okay all right",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " yep",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're welcome and thank you very much for calling you have a great day goodbye",
+    "speaker": 0
+  }
+]

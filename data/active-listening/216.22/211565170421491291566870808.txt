@@ -1,0 +1,178 @@
+[
+  {
+    "transcript": "thank you for calling mentor for business my name is grace may I please know the card number and name of your business",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes so the call number is four seven five four four thousand four zero zero zero one eight nine seven zero five six eight and the business is living well can't",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm going to repeat the card number back to you once more you said it's four seven five four four thousand one eight nine seven zero five six eight",
+    "speaker": 2
+  },
+  {
+    "transcript": " zero five six eight yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " are you the %HESITATION primary cardholder ordered secondary are you are you the business owner",
+    "speaker": 2
+  },
+  {
+    "transcript": " I'm the business R. yes primary cardholder",
+    "speaker": 0
+  },
+  {
+    "transcript": " right so so with me online I'm going to find your account all right may I have your first last name",
+    "speaker": 2
+  },
+  {
+    "transcript": " Sean so Isaac I. S. S. A. K.",
+    "speaker": 0
+  },
+  {
+    "transcript": " thanks",
+    "speaker": 2
+  },
+  {
+    "transcript": " S. H. A. N.",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right and may have last for for social security number and date of birth please",
+    "speaker": 2
+  },
+  {
+    "transcript": " zero zero zero one and it's %HESITATION six twenty two nineteen sixty two",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you may I have your zip code the business of code",
+    "speaker": 2
+  },
+  {
+    "transcript": " the business zip code is nine eight zero three one",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you so much besides again how can I help you",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah I'm having issue with with %HESITATION with Ben so I had %HESITATION a staff member Ethan Anderson who was working for me who laughed and him a night and Nancy my accountant was %HESITATION the at men to at money and my staff phone cards they have and so now he's no longer there and I took him out %HESITATION for the account so %HESITATION you know %HESITATION security reasons I just took him out he doesn't work there anymore but now what I'm having issue is I can't I'm not an admin I thought I was and now I can add money to my step account",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION you cannot add money to any of your supplementary accounts",
+    "speaker": 2
+  },
+  {
+    "transcript": " no %HESITATION so when I click card I can see Morgan make this daily %HESITATION so the %HESITATION and myself %HESITATION the core folders and I am the executive so I have the I have all the money so what he used to do is he would take money from my but %HESITATION and then put it on there because those is restricted mine is not but now he's no longer there either I don't know how or I don't have I don't have the authority to do it and when I click the admin I see Nancy who's my accountant %HESITATION I gave permission also because when I'm not there I want her to add money to the staff account but I thought I was an admin because last week I was on here and now I'm not well the neighbor I was waiting on his unit",
+    "speaker": 0
+  },
+  {
+    "transcript": " you can actually going to place you on hold for a moment conditions on the case sure",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you sure",
+    "speaker": 0
+  },
+  {
+    "transcript": " thanks for its first single line ma'am are you there",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah I'm here",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you senator size I got appreciated and %HESITATION probably just replacing the whole this route well I just reviewed your account and %HESITATION recently I usually do not see any kind of changes being made in your %HESITATION in your particularly in your role or on this primary card I did not see any %HESITATION changes being made yet it's the same yeah it's the same as it was before I'm not sure why you're not able to see those options anymore %HESITATION but I I'm not I'm just my and I've been parked in",
+    "speaker": 2
+  },
+  {
+    "transcript": " my and I've been posting or no",
+    "speaker": 0
+  },
+  {
+    "transcript": " well you are the primary one you would not need to be the %HESITATION admin person the admin person is the one that was actually not the business owner but with the permission business owner the admin is able to perform the activities that only a business owner can perform so you okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " so how do I call I didn't know that so now how do I money to this stuff card",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION well for that I actually have I will have to someone you know get in contact with my %HESITATION with your from my back to supporting who actually take care of the %HESITATION app accounts so I'm going to have %HESITATION them call you back on the number regarding the file for you",
+    "speaker": 2
+  },
+  {
+    "transcript": " so wait if the admin person who is who has who I give permission can do that why can't I not do it",
+    "speaker": 0
+  },
+  {
+    "transcript": " to do in you should be able to do it that that's what I'm saying because I do not I do not see any kind of changes being made over here I see your card as he called in and show you as a primary account holder and %HESITATION but I'm not sure why you're not getting the options over there that that's why I'm saying that I will have to get in contact",
+    "speaker": 2
+  },
+  {
+    "transcript": " or",
+    "speaker": 0
+  },
+  {
+    "transcript": " will have someone to call you back from my apt support team",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay to be done today or anytime soon",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes it will be done today it will be done",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay yeah I okay okay oh wait %HESITATION %HESITATION thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " your call back number is it it's the same number that we already got on the file for you needing to nine six four right",
+    "speaker": 2
+  },
+  {
+    "transcript": " two nine six four yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so I want you to kindly weight or size X. you'll be contacted back today any time okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " no problem is there anything else I may help you",
+    "speaker": 2
+  },
+  {
+    "transcript": " no as long as I know how to put money because it's a little inconvenient for them not to %HESITATION use it",
+    "speaker": 0
+  },
+  {
+    "transcript": " right my sincere apologies for that so you're I'm forwarding your account and you will be contacted back shortly K.",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you so much thank you for calling Benton well have a great day bye bye",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks thank",
+    "speaker": 0
+  }
+]

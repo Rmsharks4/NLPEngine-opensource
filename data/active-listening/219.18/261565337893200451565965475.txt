@@ -1,0 +1,86 @@
+[
+  {
+    "transcript": "thank you for calling records place this is David %HESITATION how can I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah I got a call from G. B. G. about the prepaid card %HESITATION I filed for lunch and it was declined for some reason they called me back and said to call this number",
+    "speaker": 1
+  },
+  {
+    "transcript": " which card you got",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's just just a prepaid card place",
+    "speaker": 1
+  },
+  {
+    "transcript": " no and this is a for the pre pay cover which card you are looking for",
+    "speaker": 0
+  },
+  {
+    "transcript": " I don't know I they call G. B. J. called me and said I they call this number and see about getting a prepaid card",
+    "speaker": 1
+  },
+  {
+    "transcript": " could you provide me your social security number so I can pull up the records",
+    "speaker": 0
+  },
+  {
+    "transcript": " five four nine nine eight nine four five one",
+    "speaker": 1
+  },
+  {
+    "transcript": " five four nine nine eight nine",
+    "speaker": 0
+  },
+  {
+    "transcript": " four five one Hey",
+    "speaker": 1
+  },
+  {
+    "transcript": " just give me one moment and may have your first and last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " Joseph D. rose %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " how do you spell out your last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " D. E. R. O. S. A.",
+    "speaker": 1
+  },
+  {
+    "transcript": " so the line I'm checking the details %HESITATION yeah moment and what is your date of birth Mr DeRosa",
+    "speaker": 0
+  },
+  {
+    "transcript": " ten four fifty four",
+    "speaker": 1
+  },
+  {
+    "transcript": " well I cannot see any kind of fun account under your name with us %HESITATION what I'll do is %HESITATION suggestions on how you can apply for the T. V. G. account so you can transfer funds to that account and then from where do you count the prepay country a gaming account so just give me one moment Merrillville line to K. in order to sign up for the T. V. G. you will log on %HESITATION to the T. V. G. dot com account and you will select the deposit or withdrawal option from there %HESITATION when you'll select T. V. G. prepaid option and then you will click the enroll or register button there and when you click on register or enroll %HESITATION you will complete the enrollment %HESITATION form by entering the social security and your date of birth in the field and you will agree with the terms and click enroll and then upon approval you will select the find my account link that to add funds to a prepaid using your credit or debit card through this way you will be able to transfer funds to you your prepaid account and then for the prepaid account to a game in college on this is how it works",
+    "speaker": 0
+  },
+  {
+    "transcript": " so I got to go to the G. B. G. you go to the prepaid account",
+    "speaker": 1
+  },
+  {
+    "transcript": " exactly D. V. D. dot com then you select the deposit or withdrawal option there then you will send the T. V.'s you prepaid option yes click and all of this and then you will be able to sign up for this",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay okay thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're welcome thank you for calling is a nice day",
+    "speaker": 0
+  }
+]

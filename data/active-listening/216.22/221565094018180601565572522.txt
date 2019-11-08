@@ -1,0 +1,134 @@
+[
+  {
+    "transcript": "thank you for calling regards services my name is Angelina how can help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi %HESITATION I'm just trying to use my ready card %HESITATION the pay card %HESITATION that to get uber eats and it keeps on telling me that it's not valid",
+    "speaker": 1
+  },
+  {
+    "transcript": " well I can surely check can I have your sixteen digit card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " it five two seven zero five zero zero one nine two eight five four six five two",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you can I have your name and expiration date of the card",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes my name is Colleen and the expiration is oh six twenty one",
+    "speaker": 1
+  },
+  {
+    "transcript": " what's your last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " church",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right I'm going to take your transaction details stay on the line please well as for the details I can see that the uber eats we I mean did the the margin you're trying to make a purchase it's it's an invalid merchant",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION the it it uber eats I was told by my %HESITATION company who gave us the %HESITATION ready card that we are able to use the card only for food purchases and overseas is for purchasing food and having it delivered similar why I understand that",
+    "speaker": 1
+  },
+  {
+    "transcript": " but it does not coming under the category of for what he did saying over technologies so definitely I I mean as far as my you know that uber have different businesses as well so definitely it's not to give advising that you are buying food do you know what I mean",
+    "speaker": 0
+  },
+  {
+    "transcript": " is it possible to I'm just trying to get %HESITATION Chinese food delivered to the hotel is it possible in any way to has that changed so it can go through with uber eat like I'm I'm not trying to get in we're I'm just trying to get food",
+    "speaker": 1
+  },
+  {
+    "transcript": " well I understand that but definitely to outlook the system no that's what you're trying to do because it's not %HESITATION but each coming gate saying we're technologies",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so %HESITATION what did that mean for me can I just not use uber eat",
+    "speaker": 1
+  },
+  {
+    "transcript": " well it's saying that it's an invalid merging the card cannot be used here",
+    "speaker": 0
+  },
+  {
+    "transcript": " so what can be done",
+    "speaker": 1
+  },
+  {
+    "transcript": " hi I'm not sure please contact over technologies and let them know about the situation and let's see they have some other platform for you to make this transaction",
+    "speaker": 0
+  },
+  {
+    "transcript": " so %HESITATION the uber technologies is the corporation and I'm sure if I was to call them they would just tell me that they have everything is kind of like an umbrella they are uber and they have multiple different down sections from there",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay that unfortunately ma'am there's nothing else can be done I'm sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " there is no way to make the transaction goes here at least this one has like you get food",
+    "speaker": 1
+  },
+  {
+    "transcript": " no it's it's it's your transaction declined numerous times not even a single it's numerous times which really god cannot be used",
+    "speaker": 0
+  },
+  {
+    "transcript": " so %HESITATION it can you",
+    "speaker": 1
+  },
+  {
+    "transcript": " contact too but maybe they have some other options for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I I contact Amazon the other day because I called you guys %HESITATION because I was trying to get vegan food sent to my hotel the %HESITATION errors on food and that they would not have any other way to have me get food sent through",
+    "speaker": 1
+  },
+  {
+    "transcript": " Amazon okay then miss everybody but he has its own policies in the procedure so if they are not cooperating if they are saying that they have their own system but then definitely this card has its own policies and procedures so it cannot be changed I'm so sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay can you let me know if %HESITATION %HESITATION purchase for domino's went through because it said it went through and %HESITATION domino's was did it tell me if they were able to cancel the transaction on their side",
+    "speaker": 1
+  },
+  {
+    "transcript": " let me just check stay on the line and what was the amount of that",
+    "speaker": 0
+  },
+  {
+    "transcript": " it once and I believe it was thirty dollars",
+    "speaker": 1
+  },
+  {
+    "transcript": " no I don't see any job transaction with dominoes",
+    "speaker": 0
+  },
+  {
+    "transcript": " it was %HESITATION a couple days ago I can you know I'm at okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " no there is no transaction with dominoes",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay thank you so much",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're most welcome and thank you for calling we",
+    "speaker": 0
+  }
+]

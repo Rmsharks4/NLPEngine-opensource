@@ -1,0 +1,158 @@
+[
+  {
+    "transcript": "thank you for calling account member services my name is Michael may have your card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION short for three seven seven one four zero zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " hello",
+    "speaker": 0
+  },
+  {
+    "transcript": " zero I'm sorry",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry sorry to cut you off %HESITATION so would you like to provide to would you like to tell me that to the number that you're providing me %HESITATION what part is this the card name",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION it connect a connect HM partnering to improve cardiac Kerr",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION no I'm so you're mistaken you call this number we provide soon",
+    "speaker": 0
+  },
+  {
+    "transcript": " all these %HESITATION and they said you're the S. or this card",
+    "speaker": 1
+  },
+  {
+    "transcript": " so we provide services from my account to my account code",
+    "speaker": 0
+  },
+  {
+    "transcript": " maybe",
+    "speaker": 1
+  },
+  {
+    "transcript": " I don't know but the my account number starts from four zero four two two nine do you have the card in your possession",
+    "speaker": 0
+  },
+  {
+    "transcript": " I do",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so the sixteen digit %HESITATION start from four zero four three",
+    "speaker": 0
+  },
+  {
+    "transcript": " four three seven seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " I'm sorry as explained %HESITATION the card number starts with this the services that we provided to four zero four two two nine %HESITATION this is a college band that we provide services",
+    "speaker": 0
+  },
+  {
+    "transcript": " because I just called and they said this year the issue or and",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION okay no I think it's just a visa is it you know service provider we have a different card content with William you know lots of cards so we're not sure that which %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " you need to call a correct number but I do",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " what can I do",
+    "speaker": 1
+  },
+  {
+    "transcript": " well I'm sorry for that you have to you know %HESITATION contact %HESITATION who give you this number",
+    "speaker": 0
+  },
+  {
+    "transcript": " this phone number",
+    "speaker": 1
+  },
+  {
+    "transcript": " and then call your yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " visa",
+    "speaker": 1
+  },
+  {
+    "transcript": " Lisa okay no the",
+    "speaker": 0
+  },
+  {
+    "transcript": " V. I. essay the credit card company",
+    "speaker": 1
+  },
+  {
+    "transcript": " yep that's I'm saying that yes we also provide services for visa with visa have different cards different contract",
+    "speaker": 0
+  },
+  {
+    "transcript": " but they actually connected me they gave me even they mistakenly",
+    "speaker": 1
+  },
+  {
+    "transcript": " connected you with us",
+    "speaker": 0
+  },
+  {
+    "transcript": " may I speak please",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure",
+    "speaker": 0
+  },
+  {
+    "transcript": " is it eight eight eight three one two three one nine two",
+    "speaker": 1
+  },
+  {
+    "transcript": " so the number is correct but we don't provide the services for this we provide services for my account card mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " so vis a vis the is mistaken as what you're saying",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so you have no idea what I can do",
+    "speaker": 1
+  },
+  {
+    "transcript": " no I'm sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you bye",
+    "speaker": 0
+  }
+]

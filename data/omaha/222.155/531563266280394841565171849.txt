@@ -1,0 +1,206 @@
+[
+  {
+    "transcript": "thank you for calling direct express card services my name is David how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah I go this morning",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION fine how are you doing",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right %HESITATION my %HESITATION %HESITATION %HESITATION little %HESITATION overtime in my minutes folks come on the tenth I didn't know if it was gonna be early or late so do I have to just wait until then or what",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes if your award letter says that you're supposed to be paid on the %HESITATION tents and %HESITATION yes that would be the effective date of your direct deposit",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION %HESITATION that would be sad",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay please verify your first and last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION please verify your first and last name or take a look at your",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION Leonard green",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks letter please enter",
+    "speaker": 0
+  },
+  {
+    "transcript": " Louis green",
+    "speaker": 2
+  },
+  {
+    "transcript": " please verify the last four digits of your social security number",
+    "speaker": 0
+  },
+  {
+    "transcript": " forty six ninety three",
+    "speaker": 2
+  },
+  {
+    "transcript": " and the last four digits of your card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " the last for the card number",
+    "speaker": 2
+  },
+  {
+    "transcript": " right",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION thirty four eighty",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay I'll just take a look at your card account here okay the number you're calling in on is listed as a mobile phone number because the call right the agrees did you want to add an email address to get paperless statements from us at no charge",
+    "speaker": 0
+  },
+  {
+    "transcript": " from the address",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION would you like to add an email address to get paperless statements from us at no charge",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah I guess so whatever though the %HESITATION I was just calling to find out what you know the I just have to wait for that exact date is very open it is it doesn't matter",
+    "speaker": 2
+  },
+  {
+    "transcript": " right let's see if your deposit is set up on your card",
+    "speaker": 0
+  },
+  {
+    "transcript": " so it it so it will be on that Joe %HESITATION Joe Saturday",
+    "speaker": 2
+  },
+  {
+    "transcript": " actually it's interesting that you ask you have a direct deposit of two hundred fifty four dollars",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah",
+    "speaker": 2
+  },
+  {
+    "transcript": " pending for Saturday",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay %HESITATION that's all I wanted to know Sir good guys that'll be it",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION all right well I appreciate that info",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay I just want to finish checking your account please verify your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " oh five two eight six seven",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks may tenth nineteen fifty seven is what we have here I just want to",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " see if you have any alerts it'll %HESITATION okay looks like you do let me just check those I can add a card balance alert that would give you your balance either daily weekly or monthly by text message would you like me to add that",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah please",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right so got that done",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I let me make sure that you have the right phone number first outlook out about that because I got a new phone it would be three six one four one three true true nine seven",
+    "speaker": 2
+  },
+  {
+    "transcript": " three six one zero one three two two nine seven yep",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION have",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION okay so you're opted into the alerts do you want to be opted into program notifications this allows direct express to notify you if needed with information on your account it could be like program or account notification with",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay that would be fine",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay all right so I got everything up to date and so looks like you you're getting your first payment run your car without getting any paper checks well that's good",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah",
+    "speaker": 2
+  },
+  {
+    "transcript": " is there anything else that I can help you with",
+    "speaker": 0
+  },
+  {
+    "transcript": " that'll be all for",
+    "speaker": 2
+  },
+  {
+    "transcript": " well thank you for calling direct express card services",
+    "speaker": 0
+  },
+  {
+    "transcript": " all righty thank you",
+    "speaker": 2
+  },
+  {
+    "transcript": " and you have a great",
+    "speaker": 0
+  },
+  {
+    "transcript": " need to",
+    "speaker": 2
+  },
+  {
+    "transcript": " rest of your morning",
+    "speaker": 0
+  }
+]

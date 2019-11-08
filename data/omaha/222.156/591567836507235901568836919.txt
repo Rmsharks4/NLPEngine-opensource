@@ -1,0 +1,210 @@
+[
+  {
+    "transcript": "thank you for calling direct express my name is Caroline how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " well I don't know I think they just I just activated my card and I don't know if they told me to stay on or something I don't know",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right I do need to tell you a little bit about the card and how it works okay well my speaking with",
+    "speaker": 0
+  },
+  {
+    "transcript": " my name is David yes ma'am",
+    "speaker": 1
+  },
+  {
+    "transcript": " last four digits of your card please",
+    "speaker": 0
+  },
+  {
+    "transcript": " or the card six zero one nine",
+    "speaker": 1
+  },
+  {
+    "transcript": " date of birth and last four digits of your social",
+    "speaker": 0
+  },
+  {
+    "transcript": " eleven zero eight nine eighteen fifty nine it is my last four R. nine four zero four",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right your mobile phone number please your cell",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven one five nine one nine six one four nine",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right",
+    "speaker": 0
+  },
+  {
+    "transcript": " now I think they're gonna I think that what they're gonna do next month is it but the direct deposit right",
+    "speaker": 1
+  },
+  {
+    "transcript": " they should we'll get to that",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " I do want to or %HESITATION would you like to add an email to your profile",
+    "speaker": 0
+  },
+  {
+    "transcript": " no thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION let me get to the direct deposit information so I mean they should be %HESITATION social security administration should be depositing",
+    "speaker": 0
+  },
+  {
+    "transcript": " what's that okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " they should be",
+    "speaker": 0
+  },
+  {
+    "transcript": " should be good because in what",
+    "speaker": 1
+  },
+  {
+    "transcript": " your fun for October",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah I think it's honors seven seven forty six I think it said yeah right",
+    "speaker": 1
+  },
+  {
+    "transcript": " well this would have been this was deposited let me sing nine eleven September eleven so this is last Wednesday seven forty six",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so that's in there yeah okay that's good okay right yeah",
+    "speaker": 1
+  },
+  {
+    "transcript": " K. %HESITATION did you want to enroll in our text alerts letting you know when you get a post a deposit to your account",
+    "speaker": 0
+  },
+  {
+    "transcript": " no no it's all right they'll just no I'll just check that the bank's fine",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and then I wanted to let you know really quick that we're open twenty four seven three sixty five come in since you will be a new mobile app %HESITATION you can use this card with master cards are accepted %HESITATION so this includes making purchases setting up automatic bill payments for your utilities and smartphone ATM withdrawals the Walmart location to get cash back at customer service just for adults fifty year limit there is up to two thousand dollars",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I go to Walmart and they'll give me four dollar fifty they'll give you as much money as cash I want",
+    "speaker": 1
+  },
+  {
+    "transcript": " up to two thousand dollars",
+    "speaker": 0
+  },
+  {
+    "transcript": " up to two yeah I %HESITATION okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION yeah",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " you see on the back your card that's where you can check your card balance %HESITATION an ex that %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " or okay yeah okay well that I think this is the only time I don't have a card because like I said I believe it's going to go in %HESITATION it's going to go direct deposit into my account I set it up that way",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I see",
+    "speaker": 0
+  },
+  {
+    "transcript": " I",
+    "speaker": 1
+  },
+  {
+    "transcript": " know when",
+    "speaker": 0
+  },
+  {
+    "transcript": " I set that up yeah it's just this time yeah",
+    "speaker": 1
+  },
+  {
+    "transcript": " make sure you call us so we can close the card out",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION close this card out oh one this is empty all call yeah okay that'll that'll work %HESITATION %HESITATION give me your name and number again what what what was the number again",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so it's one eight six six six zero six",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's zero six",
+    "speaker": 1
+  },
+  {
+    "transcript": " three three one one",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so call you this is direct %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " direct",
+    "speaker": 0
+  },
+  {
+    "transcript": " express",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " express call you when I get my first deposit in the bank",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay that's what I'll do I will call you this thank you that should be about October tenth I think or so I think around that area I will call you thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're welcome have a good day thanks for calling direct express",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep bye bye",
+    "speaker": 1
+  }
+]

@@ -1,0 +1,1 @@
+. No speech detected for 30s.

@@ -1,0 +1,190 @@
+[
+  {
+    "transcript": "thank you for calling directors press one is here at the help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes this is Janice Moscow I just activated my card and I was told that there was some holes in my information that I needed to talk to somebody",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay %HESITATION if you activate your card is genesis is to complete the activation may I have the last for the card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes is two three eight three",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you ma'am can I have your date of birth and last for your social",
+    "speaker": 0
+  },
+  {
+    "transcript": " two eighteen nineteen fifty seven last four is one one one zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you ma'am give me a moment this Janice can have a good telephone number for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes it's five zero nine three seven eight six six zero four",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you is that a homework or mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's a mobile number is the only file a phone I have",
+    "speaker": 1
+  },
+  {
+    "transcript": " would you like to add an email address to your account as well",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes you can do that it's J. Moscow I mean Janice Moscow I'm giving you my work information Janice Moscow at Yahoo dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I did want to let you know about our free alerts we can say that to you by text email or both ways six message rates may apply with the wireless Kerrier they let you know your daily balance we owe money loads transaction is made when the wrong pin number it answered as well as promotions and updates would you be interested in any of these free alerts",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION no because I'm sure my company would charge me",
+    "speaker": 1
+  },
+  {
+    "transcript": " well we can also I can also send it to you by email if that's what you would prefer",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION no that's fine because %HESITATION I know about when I'm gonna get my money and I'll just call the card to see if it's there well I won't be getting any until mid October but I just want to get the card activated and get it done",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah I understand that I did want to send the one welcome to you for being a part of the direct express program we've yes ma'am",
+    "speaker": 0
+  },
+  {
+    "transcript": " well I have you on the phone I'm trying to find the paper that'll tell me what ATMs I can use and I can't well we'll find one near me",
+    "speaker": 1
+  },
+  {
+    "transcript": " we don't have a list %HESITATION A. T. %HESITATION that we would have sent to you because we have so many %HESITATION clients and customers across the country so we put the ATM locator on our website well you could put your zip code and I'll let you know all the eight C. as in the area",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION that's great okay so just going to direct you stress dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " no is U. S. direct express dot com it should be lower",
+    "speaker": 0
+  },
+  {
+    "transcript": " you S. drastic stress dot com okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah it should be located on the back of your card you can also register online as well %HESITATION so you can have online access to your account",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " now %HESITATION what we are available for you twenty four seven three sixty five you can use your card anywhere MasterCard's accepted this would include making purchases setting up automatic payments H. yeah withdrawn we have three major features available for you our direct express feature allows you to get cash access at Walmart without making a purchase our website you can check your balance if you approve transactions you could also check it bows of the automated system as well to a pin change it in coming soon we have a mobile app we have a mobile app that will be %HESITATION other lenders so that'll help you stay connected to your card account anytime anywhere",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay I'm going to your website and take a look because %HESITATION I have a very small town but I'm sure you have one A. T. M. here I can use",
+    "speaker": 1
+  },
+  {
+    "transcript": " we see if it'll let me look for it for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " Prosser Washington is not a big down",
+    "speaker": 1
+  },
+  {
+    "transcript": " which is it",
+    "speaker": 0
+  },
+  {
+    "transcript": " nine nine three five zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " he said nine nine three five zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " nine nine three five zero H. Prosser Washington",
+    "speaker": 1
+  },
+  {
+    "transcript": " no we we don't have any ACM's there with that zip code do you have any none none it says yes aces retired with no results",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right well I'm gonna have to go to the next town I guess which it would be Grandview",
+    "speaker": 1
+  },
+  {
+    "transcript": " grand view",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's a bigger town and I don't know the zip I just know it's Grandview Washington",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION grand view watch it today okay eight nine three zero nine eight nine three zero okay yes we do have some in Grandview we do have a few of gravel either a an actual %HESITATION like gas stations though",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION okay I'm gonna have to go on your website to see which ones they are because %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah and I can give you the zip code so when you go and look at it you you'll be able to see that %HESITATION list I see this info for Graham you is nine eight nine three zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay I'll write that down so that I can %HESITATION check it out okay so nine eight nine three zero okay well thank you for your help",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're more than welcome did you have any other concerns or questions",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I just want to get this card activated some of my money come in the next month it'll go to my cart",
+    "speaker": 1
+  },
+  {
+    "transcript": " right with nasco well I want to thank you so much for calling direct express and I hope you have a wonderful day",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you and you have a great day",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you ma'am",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right bye",
+    "speaker": 1
+  },
+  {
+    "transcript": " bye",
+    "speaker": 0
+  }
+]

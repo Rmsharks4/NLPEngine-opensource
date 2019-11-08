@@ -1,0 +1,94 @@
+[
+  {
+    "transcript": "thank you for calling ready called my name is Mike how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi how are you today",
+    "speaker": 2
+  },
+  {
+    "transcript": " hi miss what about you",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm fine thank you I just have a few questions about you're ready card %HESITATION I have quite a few %HESITATION hundred dollars in my card and %HESITATION I wanted to know is still weak that it came %HESITATION we treat %HESITATION the amount that's on my card like if I go to like %HESITATION a blank or current sheep zero or something like that or there's no way of reaching the bottom off on my on my card",
+    "speaker": 2
+  },
+  {
+    "transcript": " sure I'm more than happy to assist you would you like to give us your card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes %HESITATION five three three two one one zero one eight eight three two eight eight five zero that's one of the cart",
+    "speaker": 2
+  },
+  {
+    "transcript": " three eight five zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay thank you stay online so the card number that you provided me it's %HESITATION five three three two",
+    "speaker": 0
+  },
+  {
+    "transcript": " nine one nine three two nine oh five three three two one one zero one zero zero three two eight eight five zero",
+    "speaker": 2
+  },
+  {
+    "transcript": " zero zero three two three eight five zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " no five three three two one one zero one zero zero three two eight eight five zero",
+    "speaker": 2
+  },
+  {
+    "transcript": " eight two two I'm sorry can you verify the expiration date on this card",
+    "speaker": 0
+  },
+  {
+    "transcript": " eleven twenty one",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you the bonus on this quote is only a dollar for dollar six",
+    "speaker": 0
+  },
+  {
+    "transcript": " no but that's not the one I'm asking you if I can receive the money from I have plenty of cars that have balances of like hundred dollars nine hundred dollars I'm asking you if I could reach you your mom that's on my card cash",
+    "speaker": 2
+  },
+  {
+    "transcript": " no this if you're talking bout the ready called the ready good can only be used for purchase transaction new cash access you cannot %HESITATION mid draw the money you cannot transfer the phones",
+    "speaker": 0
+  },
+  {
+    "transcript": " so I have to purchase things with it",
+    "speaker": 2
+  },
+  {
+    "transcript": " that's correct reason for that that god does not have that option that service",
+    "speaker": 0
+  },
+  {
+    "transcript": " so I can't transferred over to cash or to %HESITATION D. transferred",
+    "speaker": 2
+  },
+  {
+    "transcript": " no you cannot",
+    "speaker": 0
+  },
+  {
+    "transcript": " well okay thank you",
+    "speaker": 2
+  },
+  {
+    "transcript": " you're welcome thank you for calling",
+    "speaker": 0
+  }
+]

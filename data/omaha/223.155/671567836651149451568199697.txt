@@ -1,0 +1,142 @@
+[
+  {
+    "transcript": "thank you for calling direct express have you received your direct express card I'm sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " we need the number",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and what you're trying to do",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm sorry to Lori",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay can I get your first name",
+    "speaker": 0
+  },
+  {
+    "transcript": " June",
+    "speaker": 1
+  },
+  {
+    "transcript": " June it Jay you any and your last name B. E. N. N. E. T. T.",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and what's your date of birth June",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven three fifty seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right perfect well the last four digits of the card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " three eight five",
+    "speaker": 1
+  },
+  {
+    "transcript": " and the last four of your social security number",
+    "speaker": 0
+  },
+  {
+    "transcript": " just use it",
+    "speaker": 1
+  },
+  {
+    "transcript": " and then just to %HESITATION make sure we have the right information could you verify your cell phone number and your email no you're so your cell phone your cell phone",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm sorry",
+    "speaker": 1
+  },
+  {
+    "transcript": " is it the number you're calling off of okay that's fine what's your email",
+    "speaker": 0
+  },
+  {
+    "transcript": " my name",
+    "speaker": 1
+  },
+  {
+    "transcript": " and K. at I mean where is the email address is it like G. email hot mail is it",
+    "speaker": 0
+  },
+  {
+    "transcript": " like",
+    "speaker": 1
+  },
+  {
+    "transcript": " your first and last name at okay and is it at G. email okay because I do you have a different one that you use your first and last name at a different like %HESITATION email place like Yahoo okay no that's fine that's fine just need to it's just also additional verification so now did you get notified your cell phone that you received %HESITATION your benefit payment",
+    "speaker": 0
+  },
+  {
+    "transcript": " on the",
+    "speaker": 1
+  },
+  {
+    "transcript": " but nothing showed up to taught nothing was sent to you to let you know for sure",
+    "speaker": 0
+  },
+  {
+    "transcript": " in my card and the phone calls",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " verified",
+    "speaker": 1
+  },
+  {
+    "transcript": " I'm just asking because I see I see that you're set up to receive the benefits I mean I'm sorry the alerts so I just didn't know because usually when %HESITATION benefits a load of the card you should receive a text message letting you know that because your balance is four hundred and twelve dollars I'm sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " is the money in there now",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes it is okay June anything else I can assist you with",
+    "speaker": 0
+  },
+  {
+    "transcript": " all another thing to do send me a paper trail %HESITATION this was in the paper checks %HESITATION so security",
+    "speaker": 1
+  },
+  {
+    "transcript": " nine so security told you that",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah %HESITATION but I didn't receive one in August",
+    "speaker": 1
+  },
+  {
+    "transcript": " I would follow up with them because we should yeah because we wouldn't have that information we don't send out the checks you know what I mean I wish I could help you further with that but unfortunately I can't yes you do there's four hundred and twelve dollars out of your balance on your card okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " absolutely thank you for calling direct express and have a wonderful week June thanks bye bye",
+    "speaker": 0
+  }
+]

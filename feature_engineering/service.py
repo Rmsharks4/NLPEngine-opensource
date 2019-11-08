@@ -6,7 +6,7 @@ from feature_engineering.bl.StandardFlowDialogueFeatureEngineerHandlerImpl impor
 from feature_engineering.bl.acts import *
 from feature_engineering.bl.steps import *
 from feature_engineering.bl.tags.TokenTagsDialogueFeatureEngineerImpl import TokenTagsDialogueFeatureEngineerImpl
-from feature_engineering.bl.HoldTimeDialogueFeatureEngineerImpl import HoldTimeDialogueFeatureEngineer
+from feature_engineering.bl.HoldTimeDialogueFeatureEngineerImpl import HoldTimeDialogueFeatureEngineerImpl
 from feature_engineering.bl.NGramsDialogueFeatureEngineerImpl import NGramsDialogueFeatureEngineerImpl
 from feature_engineering.bl.WordsPerMinuteDialogueFeatureEngineerImpl import WordsPerMinuteDialogueFeatureEngineerImpl
 
@@ -15,9 +15,6 @@ from feature_engineering.bl.WordsPerMinuteDialogueFeatureEngineerImpl import Wor
 # for y in AbstractDialogueFeatureEngineer().__class__.__subclasses__():
 #     y().parse()
 #     [x().parse() for x in y().__class__.__subclasses__()]
-
-wpm = WordsPerMinuteDialogueFeatureEngineerImpl()
-wpm.parse()
 
 var = StandardConfigParserImpl()
 var.read_config('resources/'+AbstractDialogueFeatureEngineer.__name__+'.ini')

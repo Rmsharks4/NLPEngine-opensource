@@ -1,0 +1,210 @@
+[
+  {
+    "transcript": "thank you for calling direct express card services my name is Josh how may I help you today",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION just calling to activate this card",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I can certainly help you out with that may first have your name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " robin how",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you miss how and to make sure the right account can you verify the last four digits of the card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " four five three four",
+    "speaker": 1
+  },
+  {
+    "transcript": " and I verified the last four of your social",
+    "speaker": 0
+  },
+  {
+    "transcript": " she buffet to",
+    "speaker": 1
+  },
+  {
+    "transcript": " and make affirmative birthplace",
+    "speaker": 0
+  },
+  {
+    "transcript": " February third nineteen ninety six",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you and you said you just activate the card today is that correct",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right %HESITATION before talking here account I would like to first take a minute to share some important information it's going to take a minute we want to thank you extend a warm welcome to you for being part of the direct express program please update or system provide you better service as always you can use your card or MasterCard is accepted this includes making purchases sing up on my bill pays for utilities and smartphones as well as a team across some of the new features larger directors fresh cash access feature which allows you to go to Walmart location and that's just cash me car without making a purchase currently there is a dollar fifty processing fee on our end when you do use that feature you can also go to the new car holder website access your card information check your balance if you print transaction to make changes to your personal mention cater %HESITATION we also settlers nothing opposed to the posits low balance transaction activity in changing pin you can go to W. W. W. dot U. S. track express dot com access to websites and please be sure to check the car became I. five one %HESITATION also",
+    "speaker": 0
+  },
+  {
+    "transcript": " what is it %HESITATION is W. W. dot U. S.",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION direct express dot com %HESITATION the websites also on the back of the card as well",
+    "speaker": 0
+  },
+  {
+    "transcript": " what is the routing number the card or account number do you know",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION there is no routing number account number it is only the sixteen digit number on the front of the card K. %HESITATION when you do go to the website it's going to bring UP two images of cards one being a five three one again five one you want to select the car became I. five one if you want to set up an online profile %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " five one",
+    "speaker": 1
+  },
+  {
+    "transcript": " yep five one because your car begins with five one that's reason being %HESITATION came %HESITATION also you can perform very activity using our automated phone system sisters car activation pin change accounting Korean contract six heather %HESITATION and our friendly agents are also available to you twenty four seven three hundred sixty five days %HESITATION coming soon will have a new mobile app to help you stay connected to your card account anytime anywhere this usually happens operational will offer to you again we're happy to walk me to direct express program simply that you'll find these features and benefits convenient and easy to use all right the account finally loaded and one double check the profile see if there's any missing information may be a few moments okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " hello %HESITATION both of these cars and I have both of these cars to one account",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION is the other card where you're the pay E. on another person's account",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay %HESITATION you won't be able to transfer funds between your account and the other account the reason being is we can only transfer between if you were a safety as a %HESITATION another card and other P. E. we can just transfer between those two cards but we can't transfer between the P. the beneficiary card and your card and you we",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " to activate the other card separately from this one came all right after looking at the profile",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION so I can't do I can only do one part",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " I can only have one car right",
+    "speaker": 1
+  },
+  {
+    "transcript": " you will need to send a postcard to cents once for the P. sent you the P. E. on the other card you would need to",
+    "speaker": 0
+  },
+  {
+    "transcript": " activate and set up that card no I'm asking about online",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION online I believe you have to set up two separate proposed because you're two different card numbers because A. O. when you go online and you go to the website at the bottom of the log in section there's a box that says activate and register and then that's going to ask for a card number and that means that you are just %HESITATION an online profile for if you want an online profile for both cars you have to set up separately I came all right after looking at the profile looks like it what we're missing is the email address is how do you have an email address at all or no",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes %HESITATION %HESITATION how old twenty six %HESITATION I H. at G. email dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " came times will software review shows are how",
+    "speaker": 0
+  },
+  {
+    "transcript": " and six edge email that %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I'm gonna spell out make sure it's correct that R. as in Romeo ages in hotel owes an Oscar W. as in whiskey E. as in echo L. as in Lima L. as in Lima number",
+    "speaker": 0
+  },
+  {
+    "transcript": " eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " number six at G. email dot com is that correct we also have a cell phone number two five four five two three five zero two four is that number still current or is that not correct",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " do you want to see both of Larson promotional messages alerts only or no alert you know promotional messages",
+    "speaker": 0
+  },
+  {
+    "transcript": " no",
+    "speaker": 1
+  },
+  {
+    "transcript": " none",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah alert alert",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay all right now since we do have a cell phone on file do you want to receive text message alerts relate to the account",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " I can't %HESITATION Jackie sellers also go to the email address for your only to the cell phone",
+    "speaker": 0
+  },
+  {
+    "transcript": " this is cell phone",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I will to know that these alerts are free we do not charge you for any text messages that we send out %HESITATION the only can may apply as your standard text messaging rates if you do not have unlimited tax the type electric set up or any type of debit any type of credit any time a wrong pin is entered as well as balance information it'll be a few moments while I get these alerts that %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " came",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right Terry go to thank you for your patience dealers are now set up so I said do you have any other questions or concerns me tell",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION no",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay then I do again thank you for reaching out to direct express card services and I hope that you have a wonderful day okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  }
+]

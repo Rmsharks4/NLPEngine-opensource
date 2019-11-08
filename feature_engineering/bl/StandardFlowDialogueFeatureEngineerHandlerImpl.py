@@ -46,8 +46,7 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
                     engineers.append(s.name)
 
         spark = SparkDAOImpl()
-        spark_df = args[SparkDAOImpl.__name__]
-        df = spark_df.toPandas()
+        df = args[SparkDAOImpl.__name__]
 
         for eng in engineers:
 
@@ -65,16 +64,10 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
 
             elements = []
 
-            print(input_data)
-
             for req_data in input_data:
-
-                print(req_data)
 
                 for elem in req_data:
                     input_df = df.filter(regex=elem)
-
-                    print(input_df.columns)
 
                     elem_types = []
                     for col in input_df.columns:
@@ -85,8 +78,6 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
 
             dfargs = dict()
             cols = []
-
-            print(eng, elements)
 
             for elem in elements:
                 if type(elem) is list:
@@ -104,12 +95,11 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
             else:
                 colname = eng
 
-            print(eng, dfargs)
+            for key in dfargs.keys():
+                if key in df.columns:
+                    dfargs[key] = df[key]
 
-            df[colname] = \
-                df[cols].apply(lambda x: engineer.engineer_feature_operation(
-                    dict((dfargname, x) if x.name == dfargval else (dfargname, dfargval)
-                         for dfargname, dfargval in dfargs.items())))
+            df[colname] = engineer.engineer_feature_operation(dfargs)
 
         for col in df.columns:
             df[col] = df[col].apply(lambda x: str(x))

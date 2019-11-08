@@ -1,0 +1,110 @@
+[
+  {
+    "transcript": "thank you for calling directed Chris Kerr services one moment please",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right hold on I'm gonna tell you when it %HESITATION try to do it we thank you",
+    "speaker": 3
+  },
+  {
+    "transcript": " how can I help",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's what I was having some problems on my account I yeah",
+    "speaker": 3
+  },
+  {
+    "transcript": " okay so we just need to update your profile how can I get your first and last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " she can also look",
+    "speaker": 3
+  },
+  {
+    "transcript": " some of the key verify the last four digit numbers",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION last four four nine eight zero four",
+    "speaker": 3
+  },
+  {
+    "transcript": " thank you and the last four of your social security number",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes one nine three nine",
+    "speaker": 3
+  },
+  {
+    "transcript": " and which email account",
+    "speaker": 0
+  },
+  {
+    "transcript": " S. K. I. C. A. M. P. A. G. email dot com",
+    "speaker": 3
+  },
+  {
+    "transcript": " how bout your mobile phone number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION nine one six five three three %HESITATION this is %HESITATION five oh three on C.",
+    "speaker": 3
+  },
+  {
+    "transcript": " his mobile telephone number would you like to opt in and receive a notification regarding your card account",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm sorry",
+    "speaker": 3
+  },
+  {
+    "transcript": " email would you like to add in the receive notifications",
+    "speaker": 0
+  },
+  {
+    "transcript": " sure yeah %HESITATION S. sixty two oh five five three three sixty two oh five my number",
+    "speaker": 3
+  },
+  {
+    "transcript": " we do want to thank you an extended very well welcome to you for being a part of that right express program R. three features I directed cash access this allows you to go to a lot my location and what from your account without making a purchase Oscar hotel website you can check your balance view and print transaction to make changes to your personal information and I'm not least system the card as well in the city about expiry in more detail transaction twenty four seven three hundred sixty five days a year and coming soon is our new mobile at everything has been updated I don't know if you're aware of text message alerts but we do offer free alerts because into your phone with your daily balance your bid when transactions are made or even when the incorrect pin if it ships it see your account today",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven",
+    "speaker": 3
+  },
+  {
+    "transcript": " would you like",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION and we",
+    "speaker": 3
+  },
+  {
+    "transcript": " can't hear below a certain dollar amount we can sing you a text message alert what are my",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION I don't hear from me again please %HESITATION huh",
+    "speaker": 3
+  },
+  {
+    "transcript": " is there anything else I can assist you with",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm not giving great",
+    "speaker": 3
+  },
+  {
+    "transcript": " you're welcome and thank you for calling aspect of a great day",
+    "speaker": 0
+  }
+]

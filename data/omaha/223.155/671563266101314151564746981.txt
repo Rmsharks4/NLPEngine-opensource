@@ -1,0 +1,62 @@
+[
+  {
+    "transcript": "thank you for calling direct express card services my name is tie may I have your %HESITATION your card number if you have it please",
+    "speaker": 0
+  },
+  {
+    "transcript": " let me get on my pocket I don't know I just Cornish I got a balance of ninety two dollars I'm about to be a hundred and thirty dollars should be ninety two it's like forty eight dollars missing my wheel of forty eight dollars went to",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay well %HESITATION I do want to take a look into that for you so do you have your card number possibly",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes yeah I'm getting no",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION I'm sorry do you have a card number whenever our car would every takes rest that begins with five one okay %HESITATION we will have to at %HESITATION I actually have to get you transferred over to our automated system for card verification so that you'll %HESITATION be able to verify your account",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I'll call number now I don't think a lot of person not a machine",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes you just have to in input your information to verify for security purposes I will have to get you over to our automated system for car verification okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right can I give you my number because if we want to ask question the machine just program they you can't actually she's questions that's all that's all problem not like to get to a live person",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so we have it to where you have to verify your car through the automated system okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay all right a lot of representative",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes it'll take you to one",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " and just one moment",
+    "speaker": 0
+  },
+  {
+    "transcript": " I don't want to have done this thing because it is taking your money hello also three eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 0
+  }
+]

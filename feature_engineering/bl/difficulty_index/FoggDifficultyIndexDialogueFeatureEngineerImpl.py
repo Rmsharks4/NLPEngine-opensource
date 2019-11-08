@@ -18,14 +18,17 @@ class FoggDifficultyIndexDialogueFeatureEngineerImpl(AbstractDifficultyIndexDial
         num_of_sentences = self.get_num_of_sentences(args)
         num_of_words = MathematicsUtils.length(args[TokenTagsDialogueFeatureEngineerImpl.__name__])
         avg_sentence_length = MathematicsUtils.divide([num_of_words, num_of_sentences])
-        return MathematicsUtils.add(
-            [MathematicsUtils.add(
+        if num_of_difficult_words > 0:
+            return MathematicsUtils.add(
                 [MathematicsUtils.add(
-                    [MathematicsUtils.multiply(
-                        [MathematicsUtils.divide(
-                            [num_of_words,
-                             num_of_difficult_words]),
-                            100]),
-                        avg_sentence_length]),
-                    5]),
-                0.4])
+                    [MathematicsUtils.add(
+                        [MathematicsUtils.multiply(
+                            [MathematicsUtils.divide(
+                                [num_of_words,
+                                 num_of_difficult_words]),
+                                100]),
+                            avg_sentence_length]),
+                        5]),
+                    0.4])
+        else:
+            return 5.4 + avg_sentence_length

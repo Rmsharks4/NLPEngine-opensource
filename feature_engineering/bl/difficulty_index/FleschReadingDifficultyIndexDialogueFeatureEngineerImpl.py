@@ -15,7 +15,10 @@ class FleschReadingDifficultyIndexDialogueFeatureEngineerImpl(AbstractDifficulty
         num_of_syllables = self.get_num_of_syllables(args)
         num_of_sentences = self.get_num_of_sentences(args)
         num_of_words = MathematicsUtils.length(args[TokenTagsDialogueFeatureEngineerImpl.__name__])
-        avg_sentence_length = MathematicsUtils.divide([num_of_words, num_of_sentences])
+        if num_of_sentences > 0:
+            avg_sentence_length = MathematicsUtils.divide([num_of_words, num_of_sentences])
+        else:
+            avg_sentence_length = 0
         avg_syllables_per_word = MathematicsUtils.divide([num_of_syllables, num_of_words])
         res = MathematicsUtils.subtract([
             206.835, MathematicsUtils.subtract([

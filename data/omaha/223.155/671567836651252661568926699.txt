@@ -1,0 +1,182 @@
+[
+  {
+    "transcript": "thank you for calling direct express my name is Leticia how can I help you today",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yeah %HESITATION got a card %HESITATION %HESITATION listing from my file",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right thank you verify your first and last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " N. Roberts",
+    "speaker": 2
+  },
+  {
+    "transcript": " last four numbers on your direct express card",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION the last four numbers on the quote is zero zero six nine eight eight",
+    "speaker": 2
+  },
+  {
+    "transcript": " last four of your social",
+    "speaker": 0
+  },
+  {
+    "transcript": " six seven five",
+    "speaker": 2
+  },
+  {
+    "transcript": " and your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " four five five",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you so much for the information Mister Henry %HESITATION we just need to update your profile with some additional information about direct express this will only take a moment okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right so we just wanted to thank you and extend a warm welcome see you for being a part of our direct express program we have updated our systems to provide you with a better service as always you can use your MasterCard wherever MasterCard is accepted coming soon is the mobile app to help you stay connected with your account anytime anywhere we have not fully launched our mobile app but it will be here coming soon you have access to our direct express cash access feature and that allows you to go to a local warmer and pull out some of the social security funds and you will not get a charge for warmer however we do charge a small fee of a dollar fifty the website that's printed on the back of the card is U. S. direct express dot com and it's where you can check the balance do you want to print any transactions or make any personal information changes that you need just keep in mind this is the intro look of our websites %HESITATION additional changes will be made and lastly the automated system is where you can activate your card change your pin check your balance and listen to any transaction details our customer services available to you twenty four seven three hundred and sixty five day all right now %HESITATION would you be interested in setting up some free text message and promotional alerts so that you can be notified when the social security benefits has been loaded to the card also you can be notified with their balance any transactions or if there was a wrong pin at cents to the card we can set that up for you would you like to set that up today",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yeah",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right and can I get your mobile phone number starting with the area code please",
+    "speaker": 0
+  },
+  {
+    "transcript": " right now %HESITATION %HESITATION %HESITATION %HESITATION just to make",
+    "speaker": 2
+  },
+  {
+    "transcript": " no problem %HESITATION would you like to add a email to the profile",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION one S. three five five at email dot com",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay you said Donna S. what",
+    "speaker": 0
+  },
+  {
+    "transcript": " no one F. B. O. Y.",
+    "speaker": 2
+  },
+  {
+    "transcript": " one F. C.",
+    "speaker": 0
+  },
+  {
+    "transcript": " B. as in boy",
+    "speaker": 2
+  },
+  {
+    "transcript": " one F. B. as in boy",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah",
+    "speaker": 2
+  },
+  {
+    "transcript": " so I have one F. as in Frank B. as in boy",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay and what was the rest",
+    "speaker": 0
+  },
+  {
+    "transcript": " five five six six",
+    "speaker": 2
+  },
+  {
+    "transcript": " I G. email",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION at G. email dot com",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right so I have one %HESITATION F. as in Frank B. as in boy five five six six at G. email dot com",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right and %HESITATION I can send your alerts to your email would you like that",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay perfect and just keep in mind we don't charge you for any of the messages that we send out to you however standard text message rates may apply with the wireless Kerrier but it doesn't really matter because you're getting a sensible email so I'm a go ahead and set that up for you because wait for everything to finish loading here and other any other additional questions that I can assist you with at this time",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yeah why one I did the deal with the online you know with the we %HESITATION it does I guess card",
+    "speaker": 2
+  },
+  {
+    "transcript": " I'm sorry what was that",
+    "speaker": 0
+  },
+  {
+    "transcript": " they said my money would be %HESITATION as soon as I got the card",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah they haven't even process any SS sire SSA whichever one you're supposed to receive",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right",
+    "speaker": 2
+  },
+  {
+    "transcript": " so yeah I would just advise you to contact us security tomorrow and they'll tell you the exact date when the benefits will be loaded",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right anything else I can assist you with today",
+    "speaker": 0
+  },
+  {
+    "transcript": " now",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right well thank you for calling direct express and you have a good day all right bye bye",
+    "speaker": 0
+  }
+]

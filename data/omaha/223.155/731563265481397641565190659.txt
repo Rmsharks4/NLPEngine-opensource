@@ -1,0 +1,178 @@
+[
+  {
+    "transcript": "good morning thank you for calling direct express card services my name is Kenneth how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi good morning to you all %HESITATION I was calling but %HESITATION I had my direct deposit change to it %HESITATION my husband thank you can we",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " and I need it close my two accounts that I have with direct experience",
+    "speaker": 2
+  },
+  {
+    "transcript": " what I would recommend is leading the cards open until you know for server for certain that %HESITATION social security is actually making the deposits to your bank",
+    "speaker": 0
+  },
+  {
+    "transcript": " India %HESITATION %HESITATION for ages",
+    "speaker": 2
+  },
+  {
+    "transcript": " because if if social security makes a deposit to your card and the card is closed down you would not have access to those funds until you receive the new card",
+    "speaker": 0
+  },
+  {
+    "transcript": " I think the last call but to direct experience %HESITATION %HESITATION %HESITATION %HESITATION I thank yeah two months ago the last %HESITATION I the positive it into my checking account that I have",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay may I have the last four digits on the card please",
+    "speaker": 0
+  },
+  {
+    "transcript": " I have to actually almost my %HESITATION I'm almost nine and nine zero five nine nine",
+    "speaker": 2
+  },
+  {
+    "transcript": " and may I have your name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " Kaplan a a person",
+    "speaker": 2
+  },
+  {
+    "transcript": " and the last four digits of your social security number",
+    "speaker": 0
+  },
+  {
+    "transcript": " six eight six nine",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay one moment please",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay thank you",
+    "speaker": 2
+  },
+  {
+    "transcript": " O. K. check here real quick K. at looks like the last deposit made to the card was on June twenty six",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah July %HESITATION thank you",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay we've had that card closed down for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " hang up Christian",
+    "speaker": 2
+  },
+  {
+    "transcript": " and you had another card you wanted to deal with",
+    "speaker": 0
+  },
+  {
+    "transcript": " it was more friendly",
+    "speaker": 2
+  },
+  {
+    "transcript": " and are you the designated representative payee on that card",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " I have may have your social security number to pull that account information up please",
+    "speaker": 0
+  },
+  {
+    "transcript": " two three three zero eight six eight six",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " can you hear me OK",
+    "speaker": 2
+  },
+  {
+    "transcript": " pardon me",
+    "speaker": 0
+  },
+  {
+    "transcript": " can you hear me",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " on what",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay now I still show there are funds on that card so you want to you want to make sure you pull those funds off because once I close the car you won't have access to those anymore",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION how much are you so %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " eighty four dot eighty four dollars and thirty three cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " all cry at different bio I thought well I might be out with my old card sixteen dollars and son",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION no the old the other car there was only sixty seven cents but this is eighty four dollars and thirty three cents so you would want to go and have those funds withdrawn from the card before you have the card shut down",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION are you sure three one",
+    "speaker": 2
+  },
+  {
+    "transcript": " no ma'am",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION hello okay I'll do that and then %HESITATION we'll call you back and close that one is that correct",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah we're here twenty four hours a day seven days a week",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION phone operation",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks for calling direct express card services you have a good day ma'am",
+    "speaker": 0
+  },
+  {
+    "transcript": " you too thank you",
+    "speaker": 2
+  }
+]

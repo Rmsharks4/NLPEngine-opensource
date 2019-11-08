@@ -1,0 +1,158 @@
+[
+  {
+    "transcript": "thank you for calling direct express card services my name is Cassandra may have your first and last name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah it's a little",
+    "speaker": 1
+  },
+  {
+    "transcript": " I'm just waiting for your counsel %HESITATION just give me one moment all right thank you merry and can you please verify the last four digits of the card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION nine five six one",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you the last four digits of your social",
+    "speaker": 0
+  },
+  {
+    "transcript": " of mine",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION one six itself",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " eleven seventeen sixty five",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you we have a cell phone number and email address on file for you can you please provide me with that",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION four one seven %HESITATION %HESITATION seven three seven one eight four oh and %HESITATION merry dot for you are fifty five at Yahoo dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right give me one moment please %HESITATION it doesn't look like you're set up for text messages are so I just want to offer you those text message alerts to your mobile device we'll let you know whenever you receive a deposit whatever balances low any transactions on the account %HESITATION they are free of charge or senator X. rates may apply by your wireless Kerrier",
+    "speaker": 0
+  },
+  {
+    "transcript": " call",
+    "speaker": 1
+  },
+  {
+    "transcript": " me such refer that",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION won't cost anything",
+    "speaker": 1
+  },
+  {
+    "transcript": " no that's free of charge",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'll call",
+    "speaker": 1
+  },
+  {
+    "transcript": " good do you want to set up for yourself %HESITATION enter email address or cell phone",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION the golf ball",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and while I'm doing that for you how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I just want to I think yeah when I was listening to the message I think it said that we had %HESITATION the %HESITATION deposit some man from Morrow",
+    "speaker": 1
+  },
+  {
+    "transcript": " I could definitely check %HESITATION just give me one moment",
+    "speaker": 0
+  },
+  {
+    "transcript": " on the double check make sure I heard right",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay let me just get these alerts saving and I'll be able to check that for you with no problem and since I am such %HESITATION setting up the alerts for you %HESITATION if there is a deposit pending you will receive a text message notification letting you know that that %HESITATION deposit is available all right save on the last one and then I'm going to get that checked for you all right so we do have a pending deposit for the second four five thirteen now I do want you to be aware %HESITATION what time zone are you in",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I'm in Missouri",
+    "speaker": 1
+  },
+  {
+    "transcript": " what time is it currently",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I got five can't",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay awesome so central standard time we will release twelve AM",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION okay like in the morning",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes so right",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah so after midnight",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes ma'am",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " and then you will receive a text message as well once it is %HESITATION deposited into account",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right",
+    "speaker": 1
+  },
+  {
+    "transcript": " I appreciate your help no worries my absolute pleasure I hope you have a great day and thank you for calling direct express",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you bye bye",
+    "speaker": 0
+  }
+]

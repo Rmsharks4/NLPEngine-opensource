@@ -32,6 +32,27 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
         """
         super().__init__()
 
+    @staticmethod
+    def check_dep(args, current, engineers, stack):
+        if current.properties.req_data is not None:
+            for datalist in current.properties.req_data:
+                for data in datalist:
+                    temp = current
+                    prev = current
+                    while data is not None and data not in engineers:
+                        stack.append(temp)
+                        temp = StandardFlowDialoguePreProcessorHandlerImpl. \
+                            check_dep(args, args[data], engineers, stack)
+                        if temp is None or temp == prev:
+                            return prev
+                        prev = temp
+                        data = temp.name
+                    stack.append(temp)
+                    return temp
+        else:
+            stack.append(current)
+            return current
+
     def perform_preprocessing(self, args):
         """
 
@@ -40,35 +61,35 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
         (list) Spark Data-frame
         """
         preprocessors = list()
+
         for current in args[AbstractDialoguePreProcessor.__name__].values():
-            if current.properties.req_data is not None:
-                for datalist in current.properties.req_data:
-                    for data in datalist:
-                        while data not in preprocessors:
-                            current = args[AbstractDialoguePreProcessor.__name__][data]
-                        if current.name not in preprocessors:
-                            preprocessors.append(current.name)
-            else:
-                preprocessors.append(current.name)
+            stack = []
+            StandardFlowDialoguePreProcessorHandlerImpl\
+                .check_dep(args[AbstractDialoguePreProcessor.__name__], current, preprocessors, stack)
+            for s in reversed(stack):
+                if s.name not in preprocessors:
+                    preprocessors.append(s.name)
+
         spark = SparkDAOImpl()
-        spark_df = args[SparkDAOImpl.__name__]
-        df = spark_df.toPandas()
+        df = args[SparkDAOImpl.__name__]
 
         for pre in preprocessors:
-            preprocessor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(pre)
+
+            processor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(pre)
             input_data = []
 
-            if preprocessor.config_pattern.properties.req_input is not None:
-                input_data.extend(preprocessor.config_pattern.properties.req_input)
-            if preprocessor.config_pattern.properties.req_data is not None:
-                input_data.extend(preprocessor.config_pattern.properties.req_data)
+            if processor.config_pattern.properties.req_input is not None:
+                input_data.extend(processor.config_pattern.properties.req_input)
+            if processor.config_pattern.properties.req_data is not None:
+                input_data.extend(processor.config_pattern.properties.req_data)
 
-            util = UtilsFactory.get_utils(preprocessor.config_pattern.properties.req_args)
+            util = UtilsFactory.get_utils(processor.config_pattern.properties.req_args)
             if util is not None:
                 util.load()
 
+            elements = []
+
             for req_data in input_data:
-                elements = []
 
                 for elem in req_data:
                     input_df = df.filter(regex=elem)
@@ -80,31 +101,33 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                             elem_types.append('.'.join(names))
                     elements.append([(elem, etypes) for etypes in elem_types])
 
-                combos = StandardFlowDialoguePreProcessorHandlerImpl.combine(elements)
+            dfargs = dict()
+            cols = []
 
-                for elem in combos:
-                    dfargs = dict()
-                    cols = []
-                    if type(elem) is list:
-                        for e in elem:
-                            dfargs[e[0]] = e[1]
-                            cols.append(e[1])
-                    else:
-                        dfargs[elem[0]] = elem[1]
-                        cols.append(elem[1])
+            for elem in elements:
+                if type(elem) is list:
+                    for e in elem:
+                        dfargs[e[0]] = e[1]
+                        cols.append(e[1])
+                else:
+                    dfargs[elem[0]] = elem[1]
+                    cols.append(elem[1])
 
-                    dfargs[preprocessor.config_pattern.properties.req_args] = util
+            dfargs[processor.config_pattern.properties.req_args] = util
 
-                    if len(cols) > 0 and len(input_data) > 1:
-                        colname = pre + '.' + '.'.join(e for e in cols)
-                    else:
-                        colname = pre
+            if len(cols) > 0 and len(input_data) > 1:
+                colname = pre + '.' + '.'.join(e for e in cols)
+            else:
+                colname = pre
 
-                    df[colname] = \
-                        df[cols].apply(lambda x: preprocessor.preprocess_operation(
-                            dict((dfargname, x) if x.name == dfargval else (dfargname, dfargval)
-                                 for dfargname, dfargval in dfargs.items())))
+            for key in dfargs.keys():
+                if key in df.columns:
+                    dfargs[key] = df[key]
 
+            df[colname] = processor.preprocess_operation(dfargs)
+
+        for col in df.columns:
+            df[col] = df[col].apply(lambda x: str(x))
         return spark.create([
             df, self.__class__.__name__
         ])

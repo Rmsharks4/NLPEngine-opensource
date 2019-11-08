@@ -1,0 +1,166 @@
+[
+  {
+    "transcript": "welcome to actually oppose letting go my name is Fernando may I please have your card ID number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION Todd I did have a look at this at level three %HESITATION yep two four three six three nine three three seven seven zero zero five zero five nine two six",
+    "speaker": 2
+  },
+  {
+    "transcript": " five nine two six",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes that's correct",
+    "speaker": 2
+  },
+  {
+    "transcript": " what is your name",
+    "speaker": 0
+  },
+  {
+    "transcript": " as Peter Donahue",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you Peter what's your six digit access code",
+    "speaker": 0
+  },
+  {
+    "transcript": " I wouldn't have a clue to be honest",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay what's your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " twenty five or forty fifty six",
+    "speaker": 2
+  },
+  {
+    "transcript": " you know your mobile",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION zero four zero seven six nine seven two six",
+    "speaker": 2
+  },
+  {
+    "transcript": " and your email please",
+    "speaker": 0
+  },
+  {
+    "transcript": " Hey don he fifty five at G. email dot com",
+    "speaker": 2
+  },
+  {
+    "transcript": " one moment please",
+    "speaker": 0
+  },
+  {
+    "transcript": " sure",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you so much for your patience Peter all right",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's",
+    "speaker": 2
+  },
+  {
+    "transcript": " it your account here with the balance of three hundred and sixteen dollars and eighty seven cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's correct yes yeah they they cut the cut export it to the spot I got us another one yesterday and they said to make this now but to get the balance transit",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay %HESITATION what I can do is I can send you a money order if you want",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay %HESITATION is that the way you do it you can't just do %HESITATION yeah trenches from one car to another",
+    "speaker": 2
+  },
+  {
+    "transcript": " no I I can do the transfer the funds from us to another card Peter",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay yeah that would be good if you cook it well I could get rid of the old card",
+    "speaker": 2
+  },
+  {
+    "transcript": " no no I can't I'm I cannot do that but you cannot no I'm sorry okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right now can I just I need to talk to try to retrieve all the wait for the money order %HESITATION before I just go to A. T. and just pull the money and then %HESITATION Paul",
+    "speaker": 2
+  },
+  {
+    "transcript": " ability %HESITATION I recommend that you do that but you keep in mind you have only two hundred and fifty dollars a week",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep okay yeah that's yeah okay that's cool please go to the end of the month anyway %HESITATION yeah for to transfer money from my bank account to the Scott is that set the details to sign up they the old card you got",
+    "speaker": 2
+  },
+  {
+    "transcript": " are you want to do the way you want to do a transfer from where to where",
+    "speaker": 0
+  },
+  {
+    "transcript": " although it's just %HESITATION the cod I use what they see so I waited it don't get down like this transit funds from my bank account on file the create account yeah you can do the transit the transit details are still the same that that change for the two Catholic you cancel the so the sign thank you that's a pretty good at",
+    "speaker": 2
+  },
+  {
+    "transcript": " two cars with the same with the same number on it",
+    "speaker": 0
+  },
+  {
+    "transcript": " no it I don't have the same number that up I just have to change the yeah change the cat the %HESITATION well I cannot",
+    "speaker": 2
+  },
+  {
+    "transcript": " I see okay I mean I really do I mean you don't have to you for for the card itself you'll need to %HESITATION one second yeah sure yeah Noam it's individually so do a pay anyone money transfer you used to be S. B. number an account number on the back to transfer that back the back",
+    "speaker": 0
+  },
+  {
+    "transcript": " of the back of the card %HESITATION yeah okay that's cool no worries I think this to a good day bye okay and he said I can are you take two hundred fifty dollars as a toll on it correct",
+    "speaker": 2
+  },
+  {
+    "transcript": " and every week",
+    "speaker": 0
+  },
+  {
+    "transcript": " every week yeah okay that's fine no problem",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you eight sets every Monday no problem",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep I can I have a go up",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks for calling us really opposed to go",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay bye",
+    "speaker": 2
+  },
+  {
+    "transcript": " bye",
+    "speaker": 0
+  }
+]

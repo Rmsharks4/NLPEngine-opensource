@@ -3,7 +3,7 @@ import abc
 from vectorization.utils.VectorizationConstants import VectorizationConstants
 from vectorization.bl.LookUpDialogueVectorizerImpl import LookUpDialogueVectorizer
 from vectorization.bl.OneHotDialogueVectorizerImpl import OneHotDialogueVectorizer
-from vectorization.bl.TFIDFDialogueVectorizerImpl import TFIDFDialogueVectorizer
+from vectorization.bl.tfidf.TFIDFDialogueVectorizerImpl import TFIDFDialogueVectorizer
 from vectorization.bl.EmbeddingDialogueVectorizerImpl import EmbeddingDialogueVectorizer
 
 

@@ -1,0 +1,154 @@
+[
+  {
+    "transcript": "thanks for calling C. have you seen this is Amanda how can I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi Amanda at Santa Maria cough calling I received my card today and I'm supposed to phone and to activate",
+    "speaker": 1
+  },
+  {
+    "transcript": " no problem can I have your car number",
+    "speaker": 0
+  },
+  {
+    "transcript": " K. five five one one",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " two three oh six zero zero zero two one five two eight and then I have some questions",
+    "speaker": 1
+  },
+  {
+    "transcript": " can't %HESITATION the merry can I have your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " October twenty five forty six",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION perfect and your address",
+    "speaker": 0
+  },
+  {
+    "transcript": " fourteen develop street today Matt",
+    "speaker": 1
+  },
+  {
+    "transcript": " can the postal code",
+    "speaker": 0
+  },
+  {
+    "transcript": " B. eight C. two K. five",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION and your mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION two five zero six three nine five five eight eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " perfect so what I'm gonna do and I'm going to activate your current okay won't be too long",
+    "speaker": 0
+  },
+  {
+    "transcript": " you can activate it and then you're giving me a pin and I have to go change it or what",
+    "speaker": 1
+  },
+  {
+    "transcript": " no you have to call back this number and click on option number two for the pen so I'll",
+    "speaker": 0
+  },
+  {
+    "transcript": " call back okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah on one second do you have any other questions",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah my question is can you apply your own pain or only the one that's the side to you",
+    "speaker": 1
+  },
+  {
+    "transcript": " not only the one that's assigned to",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION so I cannot put my own pin on there",
+    "speaker": 1
+  },
+  {
+    "transcript": " no",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION that's kind of difficult okay so something I got to remember and I had all right my next my and you know with this day and age with all the pins up there and all the passwords it's kind of a pain okay may I have one more question %HESITATION when I'm going to Europe which is on the euro so when I load up this the Sekar I do I load it with Canadian money or with euros",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION when U. S. and then kind of converted to the Canadian",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I no no no no no no no I don't not U. S. I. you're not listening I'm going to Europe",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION okay I'm going to Europe Europe it's all based on your house so can I put in Canadian fines and it'll spit it out in euros on the other end or do I have to load the card here with euros",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION you could put Canadian and then it's going to convert to your",
+    "speaker": 0
+  },
+  {
+    "transcript": " it'll convert okay because otherwise I have to put more affect okay mark Canadians because you're both hired that's why I'm asking the question",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay ma'am",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay suck I fax I load it with Canadian all right that's good and now you're going to get me you're going to you activated it",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah so the pinion just call back the number and click on option number two",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay great thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " and your question",
+    "speaker": 0
+  },
+  {
+    "transcript": " nope that's it thank you very much",
+    "speaker": 1
+  },
+  {
+    "transcript": " thanks so much for calling us try both have a great day",
+    "speaker": 0
+  },
+  {
+    "transcript": " you too bye bye",
+    "speaker": 1
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "transcript": "well control SO that post going to support this is Louis may I please have your account I. D. number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yeah it's yeah it's %HESITATION two",
+    "speaker": 3
+  },
+  {
+    "transcript": " four",
+    "speaker": 0
+  },
+  {
+    "transcript": " three six",
+    "speaker": 3
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION three seven nine seven",
+    "speaker": 3
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION five five five five nine five one three",
+    "speaker": 3
+  },
+  {
+    "transcript": " thank you and may I have your name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION Lee bumping",
+    "speaker": 3
+  },
+  {
+    "transcript": " and your access code please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION access card shoot the %HESITATION zero zero six seven six",
+    "speaker": 3
+  },
+  {
+    "transcript": " okay let ME I paid that long on the A. %HESITATION two four three six two seven nine seven after that you mention five five five nine is that correct",
+    "speaker": 0
+  },
+  {
+    "transcript": " and %HESITATION %HESITATION for fall",
+    "speaker": 3
+  },
+  {
+    "transcript": " they said before before that okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " nah nah nah nah nah nah",
+    "speaker": 3
+  },
+  {
+    "transcript": " %HESITATION I see I see what you mean okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " get yet",
+    "speaker": 3
+  },
+  {
+    "transcript": " and again %HESITATION you %HESITATION access code again",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION three zero zero six seven six",
+    "speaker": 3
+  },
+  {
+    "transcript": " and your first name",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION like",
+    "speaker": 3
+  },
+  {
+    "transcript": " thank you I kind of you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION I've got %HESITATION I've got a load and go load content all you",
+    "speaker": 3
+  },
+  {
+    "transcript": " use",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION the price help %HESITATION now it put the the card number that I just got your four hundred dollars on it %HESITATION then the then the cod as the boys",
+    "speaker": 3
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " and all of that box %HESITATION when I was actually going to %HESITATION I've got a new card in the mile we're not going to %HESITATION trying to the cot I burn in the act %HESITATION it wouldn't allow me to do it and then when I type in the %HESITATION the end to end the strike a pose stole %HESITATION they've told me that I can't do it because dog the number on my %HESITATION replacement %HESITATION replacement %HESITATION",
+    "speaker": 3
+  },
+  {
+    "transcript": " home",
+    "speaker": 0
+  },
+  {
+    "transcript": " had been ripped off and then I'll",
+    "speaker": 3
+  },
+  {
+    "transcript": " %HESITATION okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " get it sorted yeah",
+    "speaker": 3
+  },
+  {
+    "transcript": " Humm %HESITATION let me see something and what is what is what is the expiration date on your new car",
+    "speaker": 0
+  },
+  {
+    "transcript": " on on the news just it's just now the I know one thing",
+    "speaker": 3
+  },
+  {
+    "transcript": " okay so the card is actually expired so I do see your balance you do have the remaining %HESITATION four hundred was at full on to add %HESITATION eighty nine and fifty one now I'm able to send you that money as a money order can you confirm the address yeah well",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION are you able to hook",
+    "speaker": 3
+  },
+  {
+    "transcript": " I know we actually %HESITATION I stopped the lingo we switched a MasterCard so it's why I'm not able to do that yeah %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I don't know anyone",
+    "speaker": 3
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " one eight nine one",
+    "speaker": 3
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep %HESITATION Justin Melton drive",
+    "speaker": 3
+  },
+  {
+    "transcript": " I think that's the one we have so you would take up to %HESITATION fourteen business days for you to have it and do you can you can %HESITATION cashiers at any post office %HESITATION banks",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's or or just %HESITATION log out expecting another cop would come sort of this month I was going to try to deal with the new guy but %HESITATION I",
+    "speaker": 3
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " bring you and said now this phone not a problem",
+    "speaker": 3
+  },
+  {
+    "transcript": " okay so it's all set",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay I appreciate that very much",
+    "speaker": 3
+  },
+  {
+    "transcript": " I thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you bye",
+    "speaker": 3
+  },
+  {
+    "transcript": " thank you for calling so I posted",
+    "speaker": 0
+  },
+  {
+    "transcript": " by thank you for",
+    "speaker": 3
+  }
+]
