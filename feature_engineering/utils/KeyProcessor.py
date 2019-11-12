@@ -12,7 +12,7 @@ class KeyProcessor(AbstractUtils):
     def load():
         if KeyProcessor.file is not None:
             KeyProcessor.kp = KeywordProcessor()
-            with open('../data/intents/'+KeyProcessor.file+'.csv', mode='r') as infile:
+            with open('../../data/intents/'+KeyProcessor.file+'.csv', mode='r') as infile:
                 reader = csv.reader(infile)
                 for row in reader:
                     KeyProcessor.kp.add_keyword(row[0], row[1])

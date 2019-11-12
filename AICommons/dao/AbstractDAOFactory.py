@@ -1,6 +1,6 @@
 
 import abc
-from commons.dao.SparkDAOImpl import SparkDAOImpl
+from commons.dao.PandasDAOImpl import PandasDAOImpl
 
 
 class AbstractDAOFactory(metaclass=abc.ABCMeta):
@@ -8,6 +8,6 @@ class AbstractDAOFactory(metaclass=abc.ABCMeta):
     @classmethod
     def get_dao(cls, dao_type):
         switcher = {
-            SparkDAOImpl.__name__: SparkDAOImpl()
+            PandasDAOImpl.__name__: PandasDAOImpl()
         }
         return switcher.get(dao_type, '')

@@ -1,8 +1,26 @@
-from feature_engineering.utils.UtilsFactory import UtilsFactory
+"""
+@Authors:
+Ramsha Siddiqui - rsiddiqui@i2cinc.com
+
+@Description:
+this class follows the following flow of pre-processing (as visible in configurations)
+- Lowercase
+- Split Joint Words
+- Contractions
+- Numbers
+- Email
+- Punctuation
+- Spell Check
+- Stop Words
+- Lemmatize
+
+"""
+
 from feature_engineering.bl.AbstractDialogueFeatureEngineerHandler import AbstractDialogueFeatureEngineerHandler
 from feature_engineering.bl.AbstractDialogueFeatureEngineer import AbstractDialogueFeatureEngineer
 from feature_engineering.bl.AbstractDialogueFeatureEngineerFactory import AbstractDialogueFeatureEngineerFactory
-from commons.dao.SparkDAOImpl import SparkDAOImpl
+from feature_engineering.utils.UtilsFactory import UtilsFactory
+from commons.dao.PandasDAOImpl import PandasDAOImpl
 
 
 class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngineerHandler):
@@ -22,7 +40,7 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
                     prev = current
                     while data is not None and data not in engineers:
                         stack.append(temp)
-                        temp = StandardFlowDialogueFeatureEngineerHandlerImpl.\
+                        temp = StandardFlowDialogueFeatureEngineerHandlerImpl. \
                             check_dep(args, args[data], engineers, stack)
                         if temp is None or temp == prev:
                             return prev
@@ -35,6 +53,12 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
             return current
 
     def perform_feature_engineering(self, args):
+        """
+
+        :param args: (dict) contains req_data and req_args
+        (list) Abstract Config
+        (list) Spark Data-frame
+        """
         engineers = list()
 
         for current in args[AbstractDialogueFeatureEngineer.__name__].values():
@@ -45,10 +69,11 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
                 if s.name not in engineers:
                     engineers.append(s.name)
 
-        spark = SparkDAOImpl()
-        df = args[SparkDAOImpl.__name__]
+        df = args[PandasDAOImpl.__name__]
 
         for eng in engineers:
+
+            print('Feature: ', eng, 'running ...')
 
             engineer = AbstractDialogueFeatureEngineerFactory.get_feature_engineer(eng)
             input_data = []
@@ -67,6 +92,7 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
             for req_data in input_data:
 
                 for elem in req_data:
+
                     input_df = df.filter(regex=elem)
 
                     elem_types = []
@@ -103,9 +129,7 @@ class StandardFlowDialogueFeatureEngineerHandlerImpl(AbstractDialogueFeatureEngi
 
         for col in df.columns:
             df[col] = df[col].apply(lambda x: str(x))
-        return spark.create([
-            df, self.__class__.__name__
-        ])
+        return df
 
     @staticmethod
     def combine(arr):

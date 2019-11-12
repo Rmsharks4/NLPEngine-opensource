@@ -2,7 +2,7 @@
 import pandas as pd
 
 
-df = pd.read_csv('../data/Call_Transcripts.csv')
+df = pd.read_csv('../../data/Call_Transcripts.csv')
 print(df.columns)
 
 for dialogue in df['Call_ID'].unique():

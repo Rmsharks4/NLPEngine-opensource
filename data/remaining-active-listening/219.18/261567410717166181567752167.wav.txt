@@ -1,0 +1,157 @@
+[  {
+    "transcript": "postal dangle supports my name is Lucas may I please have your credit a number",
+    "speaker": 2
+  },
+  {
+    "transcript": " yep eight eight two four three six three seven nine seven four I know it's right six seven six zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay may I have your full name",
+    "speaker": 2
+  },
+  {
+    "transcript": " it would help that I thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " and %HESITATION do you remember your six digit access code for this card",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION no I",
+    "speaker": 1
+  },
+  {
+    "transcript": " may I have your date of birth",
+    "speaker": 2
+  },
+  {
+    "transcript": " and read the six hundred sixty eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " and your address",
+    "speaker": 2
+  },
+  {
+    "transcript": " sixty seven sixty nine Inglewood",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh and your mobile",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION well my account my wallet zero four zero four four two zero one four six",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm good so how can I help you today",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah I just want to know what the balances thanks",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION I made vice you next time you call was only for the balance to make charge you four dollars but not the can disco so the balance right now is eleven dollars and eighty one cents",
+    "speaker": 2
+  },
+  {
+    "transcript": " I can't and can I get my washed balanced",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry",
+    "speaker": 2
+  },
+  {
+    "transcript": " can I get my wife's balances well she's got a different cat to me",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION you want to check the balance for another card right now",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " is give me a second here I can go %HESITATION for the second card to no problem but I just need to put some informations here okay give me the card to defer to stack on the one",
+    "speaker": 2
+  },
+  {
+    "transcript": " two four three six",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 2
+  },
+  {
+    "transcript": " three seven nine seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " zero one seven two",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " four four seven six",
+    "speaker": 1
+  },
+  {
+    "transcript": " six okay so every time I access the card I need to confirm everything again may I have your full name",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION mon %HESITATION his",
+    "speaker": 1
+  },
+  {
+    "transcript": " your",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION L. better thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " so %HESITATION discard is not under your name so I cannot access it's okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " is there anything else I may assist you today",
+    "speaker": 2
+  },
+  {
+    "transcript": " no that's it thanks",
+    "speaker": 1
+  },
+  {
+    "transcript": " perfect thank you very much for calling and start up or so then go and have a great day",
+    "speaker": 2
+  },
+  {
+    "transcript": " bye",
+    "speaker": 1
+  },
+  {
+    "transcript": " bye bye",
+    "speaker": 2
+  }
+]

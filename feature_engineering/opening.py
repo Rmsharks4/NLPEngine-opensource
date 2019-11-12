@@ -44,33 +44,33 @@ def org(args):
 
 gr = KeywordProcessor()
 
-with open('../data/intents/GreetDialogueIntentImpl.csv', mode='r') as infile:
+with open('../../data/intents/GreetDialogueIntentImpl.csv', mode='r') as infile:
     reader = csv.reader(infile)
     for row in reader:
         gr.add_keyword(row[0])
 
 se = KeywordProcessor()
 
-with open('../data/intents/IntroduceSelfDialogueIntentImpl.csv', mode='r') as infile:
+with open('../../data/intents/IntroduceSelfDialogueIntentImpl.csv', mode='r') as infile:
     reader = csv.reader(infile)
     for row in reader:
         se.add_keyword(row[0])
 
 co = KeywordProcessor()
 
-with open('../data/intents/IntroduceCompanyDialogueIntentImpl.csv', mode='r') as infile:
+with open('../../data/intents/IntroduceCompanyDialogueIntentImpl.csv', mode='r') as infile:
     reader = csv.reader(infile)
     for row in reader:
         co.add_keyword(row[0])
 
 of = KeywordProcessor()
 
-with open('../data/intents/OfferDialogueIntentImpl.csv', mode='r') as infile:
+with open('../../data/intents/OfferDialogueIntentImpl.csv', mode='r') as infile:
     reader = csv.reader(infile)
     for row in reader:
         of.add_keyword(row[0])
 
-df = pd.read_csv('../data/AbstractDialoguePreProcessor.csv', sep=',', encoding='utf-8')
+df = pd.read_csv('../../data/AbstractDialoguePreProcessor.csv', sep=',', encoding='utf-8')
 
 output = None
 

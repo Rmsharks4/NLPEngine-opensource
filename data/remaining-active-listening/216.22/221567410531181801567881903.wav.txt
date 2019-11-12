@@ -1,0 +1,101 @@
+[  {
+    "transcript": "thanks for calling got ready card this is Alex how may I assist you today sure I can certainly help you with that can I get your card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " five one two eight five seven zero four seven seven zero eight zero eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " now may I please have the expiration date on the card",
+    "speaker": 0
+  },
+  {
+    "transcript": " zero six twenty one",
+    "speaker": 1
+  },
+  {
+    "transcript": " I did not get all right thank you so much for that information",
+    "speaker": 0
+  },
+  {
+    "transcript": " I'm sorry",
+    "speaker": 1
+  },
+  {
+    "transcript": " I'm saying thank you very much for the details that you provided me now may I please have %HESITATION your name can I have your name please ma'am can I have your name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " I",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you very much %HESITATION and %HESITATION your email address",
+    "speaker": 0
+  },
+  {
+    "transcript": " I recall thirty two edgy mail",
+    "speaker": 1
+  },
+  {
+    "transcript": " your mailing address",
+    "speaker": 0
+  },
+  {
+    "transcript": " at Yahoo dot com",
+    "speaker": 1
+  },
+  {
+    "transcript": " your E. I'm sorry your address please my my apologies for that your mailing address Martin what so badly so I cannot I'm sorry to cut you but your voice is breaking up so badly so I cannot hear you even a single what you're saying",
+    "speaker": 0
+  },
+  {
+    "transcript": " twenty three fifty five sixty five",
+    "speaker": 1
+  },
+  {
+    "transcript": " city state and zip code",
+    "speaker": 0
+  },
+  {
+    "transcript": " Miami Florida three three one fourth",
+    "speaker": 1
+  },
+  {
+    "transcript": " and your phone number please now",
+    "speaker": 0
+  },
+  {
+    "transcript": " three five C. thirteen ninety four",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you very much and expiration one more time please",
+    "speaker": 0
+  },
+  {
+    "transcript": " the extra day expiration is zero six one one",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you very much for account is activated and it's ready to be is",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay thank you is it a pain",
+    "speaker": 1
+  },
+  {
+    "transcript": " you can set up a pin number to the automated system",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you so much",
+    "speaker": 1
+  },
+  {
+    "transcript": " let me ask company",
+    "speaker": 0
+  }
+]

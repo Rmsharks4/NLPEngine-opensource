@@ -1,6 +1,6 @@
 import os
 
-dir_str = '../data/intents/'
+dir_str = '../../data/intents/'
 
 directory = os.fsencode(dir_str)
 

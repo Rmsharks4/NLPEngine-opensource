@@ -26,7 +26,7 @@ class ContractionsDictionary(AbstractUtils):
         """
         initializes static function load for Contractions Dict Class
         """
-        with open('../data/Contractions_Dict.csv', mode='r') as infile:
+        with open('../../data/Contractions_Dict.csv', mode='r') as infile:
             reader = csv.reader(infile)
             ContractionsDictionary.contractions_dict = dict((rows[0], rows[1]) for rows in reader)
         ContractionsDictionary.contractions_re = re.compile('|'.join(r'(\b%s\b)' % c for c in ContractionsDictionary.contractions_dict.keys()))

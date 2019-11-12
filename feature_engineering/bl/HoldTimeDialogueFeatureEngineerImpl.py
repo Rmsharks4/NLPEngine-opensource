@@ -17,6 +17,10 @@ class HoldTimeDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
         args[EndTimeDataImpl.__name__].loc[-1] = 0
         args[EndTimeDataImpl.__name__].index = args[EndTimeDataImpl.__name__].index + 1
         args[EndTimeDataImpl.__name__] = args[EndTimeDataImpl.__name__].sort_index()
+        args[StartTimeDataImpl.__name__] = args[StartTimeDataImpl.__name__].apply(
+            lambda x: int(x))
+        args[EndTimeDataImpl.__name__] = args[EndTimeDataImpl.__name__].apply(
+            lambda x: int(x))
         return MathematicsUtils.subtract([args[StartTimeDataImpl.__name__],
                                           args[EndTimeDataImpl.__name__]]).apply(
             lambda x: MathematicsUtils.set_value([x, 0, 0, '<']))

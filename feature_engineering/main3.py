@@ -7,11 +7,11 @@ import numpy as np
 import spacy
 nlp = spacy.load('en_core_web_sm')
 
-dir_str = '../data/intents/'
+dir_str = '../../data/intents/'
 
 directory = os.fsencode(dir_str)
 
-df = pd.read_csv('../data/AbstractDialoguePreProcessor.csv', sep=',', encoding='utf-8')
+df = pd.read_csv('../../data/AbstractDialoguePreProcessor.csv', sep=',', encoding='utf-8')
 
 output = pd.DataFrame({'Call_ID': df['Call_ID'],
                        'Speaker': df['Speaker'],

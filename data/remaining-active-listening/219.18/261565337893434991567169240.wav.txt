@@ -1,0 +1,189 @@
+[  {
+    "transcript": "thank you for calling bento for business %HESITATION my name is Michael may have your phone number I'm sorry may have your card number and your business name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " the card number the account company and we have multiple cards",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and so your business name",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah and the business name is I am C. health",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes may have the card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " the whole car number",
+    "speaker": 1
+  },
+  {
+    "transcript": " correct",
+    "speaker": 0
+  },
+  {
+    "transcript": " I don't have a part number and I find the call number here in in the application somewhere",
+    "speaker": 1
+  },
+  {
+    "transcript": " no you don't have a card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I can give you %HESITATION my phone number",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION the phone number is three oh five six four nine eighty one zero zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you stay online this one is your mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's the company number",
+    "speaker": 1
+  },
+  {
+    "transcript": " stay online",
+    "speaker": 0
+  },
+  {
+    "transcript": " your mother made a name",
+    "speaker": 1
+  },
+  {
+    "transcript": " stay online okay this no such information that you're able to pull over this number",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you the tax I do business",
+    "speaker": 1
+  },
+  {
+    "transcript": " I'm sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " the tax ID of the business",
+    "speaker": 1
+  },
+  {
+    "transcript": " no we were not able to put up with this information and %HESITATION may have your name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION down your D. A. N. Y. E. R. press",
+    "speaker": 1
+  },
+  {
+    "transcript": " spell your last name please I'm sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " D. it my first name is T. A. N. Y. E. R. last name",
+    "speaker": 1
+  },
+  {
+    "transcript": " P. E.",
+    "speaker": 0
+  },
+  {
+    "transcript": " R. E. Z. as in zebra all right thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " the last name is spelled S. P. E. R. E.",
+    "speaker": 0
+  },
+  {
+    "transcript": " Z. as in zebra",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay Z. as in zebra thank you there is",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes check that",
+    "speaker": 1
+  },
+  {
+    "transcript": " and %HESITATION the call he's into your name",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's not a card it's an account with the whole account we have about sixteen to twenty cards",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay just be online I'm going to put you on hold and never come back thank you thank you so much for holding %HESITATION spirits Mister Bruce are you there okay sorry for the delay okay perfect so we will send the request to our back in support team and %HESITATION they will contact you and they will assist you further %HESITATION this is your call back number that you provided me initially three zero five six four nine eight one zero zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes extension three thousand one",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah mine three thousand one okay and %HESITATION would you like to tell us your concern reason %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " what happened is that or account ran out of funds and we noticed that that dental charged regular account yesterday for to replenish the account but it hasn't been done yet I wanted to see if there was a possibility that you guys can check on your end if the money was received to your bank so so I can replenish my XO so I can start using my card again",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " and are you the only other",
+    "speaker": 1
+  },
+  {
+    "transcript": " and if I can you just repeat your business in one more time I repeat the business name please I am C.",
+    "speaker": 0
+  },
+  {
+    "transcript": " medical group holdings",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay I am C. medical group holding",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so I have your business name your phone number extension number Mister freeze is any Pacific time they can call you or an time",
+    "speaker": 0
+  },
+  {
+    "transcript": " anytime anytime",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and your concern is that %HESITATION your account is ran %HESITATION to for forms and %HESITATION you you want to check that if %HESITATION we have received the funds from your side so you can use your cards is that correct definitely I'm going to send the request the number back and support team they will call you and they will definitely assist you further this matter okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you so much for calling better business a wonderful day bye bye",
+    "speaker": 0
+  }
+]

@@ -4,7 +4,7 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 import os
 import csv
 
-dir_str = '../data/intents/'
+dir_str = '../../data/intents/'
 directory = os.fsencode(dir_str)
 
 

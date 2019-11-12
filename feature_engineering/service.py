@@ -1,6 +1,6 @@
 from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
 from feature_engineering.driver.FeatureEngineeringService import FeatureEngineeringService
-from commons.dao.SparkDAOImpl import SparkDAOImpl
+from commons.dao.PandasDAOImpl import PandasDAOImpl
 from feature_engineering.bl.AbstractDialogueFeatureEngineer import AbstractDialogueFeatureEngineer
 from feature_engineering.bl.StandardFlowDialogueFeatureEngineerHandlerImpl import StandardFlowDialogueFeatureEngineerHandlerImpl
 from feature_engineering.bl.acts import *
@@ -28,5 +28,5 @@ for config in var.config_pattern.properties.children:
 
 service = FeatureEngineeringService()
 service.run({
-    SparkDAOImpl.__name__: '../data/'+FeatureEngineeringService.__name__+'.csv',
+    PandasDAOImpl.__name__: '../../data/' + FeatureEngineeringService.__name__ + '.csv',
     StandardFlowDialogueFeatureEngineerHandlerImpl.__name__: configlistdial})

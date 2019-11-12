@@ -46,13 +46,9 @@ class CommonConstants:
     # Model related constants
     HDFS_MACHINE_LEARNING_MODELS_PATH_TAG = 'machine_learning_models'
     HDFS_TRANSFORMATIONS_PATH_TAG = "transformations_models"
-    DECISION_TREE_TAG = "decision_tree"
-    RANDOM_FOREST_TAG = "random_forest"
-    GRADIENT_BOOSTED_TREE_TAG = "gradient_boosted_tree"
-    LOGISTIC_REGRESSION_TAG = "logistic_regression"
     NAIVE_BAYES_TAG = "naive_bayes"
-    MULTI_LAYER_PERCEPTRON_TAG = 'multi_layer_perceptron'
-    LABEL_COLUMN = ''
+    # LABEL_COLUMN = ''
+    TARGET_COLUMN_TAG = 'targetCol'
     KEY_IDENTIFIER = ''
     MODEL_KEY = "model_code"
     MAX_CATEGORICAL_FEATURE_UNIQUE_VALUE_COUNT = None
@@ -69,46 +65,16 @@ class CommonConstants:
     CONTINUOUS_FEATURES_TAG = 'continuous_features'
     CATEGORICAL_FEATURES_TAG = 'categorical_features'
     FEATURES_COLUMN_TAG = 'features_column'
+
     PREDICTION_COLUMN_TAG = 'prediction_column'
     PROBABILITY_COLUMN_TAG = 'probability_column'
     RAW_PREDICTION_COLUMN_TAG = 'raw_prediction_column'
 
     # For model_hyper_params
-    MAX_DEPTH_TAG = 'max_depth'
-    MAX_BINS_TAG = 'max_bins'
-    MIN_INSTANCES_PER_NODE_TAG = 'min_instances_per_node'
-    MIN_INFO_GAIN_TAG = 'min_info_gain'
-    MAX_MEMORY_IN_MB_TAG = 'max_memory_in_mb'
-    CACHE_NODE_IDS_TAG = 'cache_node_ids'
-    CHECKPOINT_INTERVAL_TAG = 'checkpoint_interval'
-    IMPURITY_TAG = 'impurity'
-    SEED_TAG = 'seed'
-    NUM_TREES_TAG = 'num_trees'
-    FEATURE_SUBSET_STRATEGY_TAG = 'feature_subset_strategy'
-    SUB_SAMPLING_RATE_TAG = 'sub_sampling_rate'
-    LOSS_TYPE_TAG = 'loss_type'
-    MAX_ITER_TAG = 'max_iter'
-    STEP_SIZE_TAG = 'step_size'
-    FAMILY_TAG = 'family'
-    STANDARDIZATION_TAG = 'standardization'
-    ELASTIC_NET_PARAM_TAG = 'elasticNetParam'
-    FIT_INTERCEPT_TAG = 'fitIntercept'
-    THRESHOLD_TAG = 'threshold'
-    THRESHOLDS_TAG = 'thresholds'
-    TOL_TAG = 'tol'
-    WEIGHT_COL_TAG = 'weightCol'
-    WEIGHT_COL_NAME = 'column_name'
-    BALANCING_RATIO_TAG = 'balancingRatio'
-    REG_PARAM_TAG = 'regParam'
-    AGGREGATION_DEPTH_TAG = 'aggregationDepth'
     SMOOTHING_TAG = 'smoothing'
-    MODEL_TYPE_TAG = 'modelType'
-    POSITIVE_LABEL_TAG = '1'
-    NEGATIVE_LABEL_TAG = '0'
-    LAYERS_TAG = 'layers'
-    BLOCK_SIZE_TAG = 'block_size'
-    SOLVER_TAG = 'solver'
-    INITIAL_WEIGHTS_TAG = 'initial_weights'
+    LEARN_PRIORS_TAG = "fitPriors"
+    PRE_LEARNED_PRIORS_TAG = "classPriors"
+
 
     # Stats constants
     STATS_KEY_IDENTIFIER = "trace_audit_no"
@@ -117,101 +83,20 @@ class CommonConstants:
 
     # For cross_validation_params
     NUM_FOLDS_TAG = 'numFolds'
+    SCORING_TAG = "scoringType"
+    NUM_CORES_TAG = "numCores"
+    IID_TAG = "independentIdenticallyDistributed"
 
     # Default parameter dictionaries for machine learning models
 
-    DECISION_TREE_DEFAULT_PARAMS_DICT = {
-        PREDICTION_COLUMN_TAG: PREDICTION_COL,
-        PROBABILITY_COLUMN_TAG: PROBABILITY_COL,
-        RAW_PREDICTION_COLUMN_TAG: RAW_PRED_COL,
-        MAX_DEPTH_TAG: 5,
-        MAX_BINS_TAG: 32,
-        MIN_INSTANCES_PER_NODE_TAG: 1,
-        MIN_INFO_GAIN_TAG: 0.0,
-        MAX_MEMORY_IN_MB_TAG: 256,
-        CACHE_NODE_IDS_TAG: False,
-        CHECKPOINT_INTERVAL_TAG: 10,
-        IMPURITY_TAG: 'gini',
-        SEED_TAG: 0,
-        NUM_FOLDS_TAG: 2
-    }
-
-    RANDOM_FOREST_DEFAULT_PARAMS_DICT = {
-        PREDICTION_COLUMN_TAG: PREDICTION_COL,
-        PROBABILITY_COLUMN_TAG: PROBABILITY_COL,
-        RAW_PREDICTION_COLUMN_TAG: RAW_PRED_COL,
-        MAX_DEPTH_TAG: 5,
-        MAX_BINS_TAG: 32,
-        MIN_INSTANCES_PER_NODE_TAG: 1,
-        MIN_INFO_GAIN_TAG: 0.0,
-        MAX_MEMORY_IN_MB_TAG: 256,
-        CACHE_NODE_IDS_TAG: False,
-        CHECKPOINT_INTERVAL_TAG: 10,
-        IMPURITY_TAG: 'gini',
-        NUM_TREES_TAG: 20,
-        FEATURE_SUBSET_STRATEGY_TAG: "auto",
-        SEED_TAG: 0,
-        SUB_SAMPLING_RATE_TAG: 1.0,
-        NUM_FOLDS_TAG: 2
-    }
-
-    GRADIENT_BOOSTED_TREE_DEFAULT_PARAMS_DICT = {
-        PREDICTION_COLUMN_TAG: PREDICTION_COL,
-        MAX_DEPTH_TAG: 5,
-        MAX_BINS_TAG: 32,
-        MIN_INSTANCES_PER_NODE_TAG: 1,
-        MIN_INFO_GAIN_TAG: 0.0,
-        MAX_MEMORY_IN_MB_TAG: 256,
-        CACHE_NODE_IDS_TAG: False,
-        CHECKPOINT_INTERVAL_TAG: 10,
-        LOSS_TYPE_TAG: 'logistic',
-        MAX_ITER_TAG: 20,
-        STEP_SIZE_TAG: 0.1,
-        SEED_TAG: 0,
-        SUB_SAMPLING_RATE_TAG: 1.0
-    }
-
-    LOGISTIC_REGRESSION_DEFAULT_PARAMS_DICT = {
-        PREDICTION_COLUMN_TAG: PREDICTION_COL,
-        PROBABILITY_COLUMN_TAG: PROBABILITY_COL,
-        RAW_PREDICTION_COLUMN_TAG: RAW_PRED_COL,
-        FAMILY_TAG: 'binomial',
-        MAX_ITER_TAG: 100,
-        STANDARDIZATION_TAG: True,
-        ELASTIC_NET_PARAM_TAG: 0.0,
-        FIT_INTERCEPT_TAG: True,
-        THRESHOLD_TAG: 0.5,
-        THRESHOLDS_TAG: [0.5,0.5],
-        TOL_TAG: 0.000001,
-        WEIGHT_COL_TAG: LABEL_COLUMN,
-        REG_PARAM_TAG: 0.0,
-        AGGREGATION_DEPTH_TAG: 2,
-        NUM_FOLDS_TAG: 2,
-        BALANCING_RATIO_TAG: 0.9
-    }
 
     NAIVE_BAYES_DEFAULT_PARAMS_DICT = {
-        PREDICTION_COLUMN_TAG: PREDICTION_COL,
-        PROBABILITY_COLUMN_TAG: PROBABILITY_COL,
-        RAW_PREDICTION_COLUMN_TAG: RAW_PRED_COL,
         SMOOTHING_TAG: 1.0,
-        MODEL_TYPE_TAG: 'multinomial',
-        THRESHOLDS_TAG: [0.5, 0.5],
-        WEIGHT_COL_TAG: LABEL_COLUMN
+        LEARN_PRIORS_TAG: True,
+        PRE_LEARNED_PRIORS_TAG: None
     }
 
-    MULTI_LAYER_PERCEPTRON_DEFAULT_PARAMS_DICT = {
-        PREDICTION_COLUMN_TAG: PREDICTION_COL,
-        PROBABILITY_COLUMN_TAG: PROBABILITY_COL,
-        RAW_PREDICTION_COLUMN_TAG: RAW_PRED_COL,
-        MAX_ITER_TAG: 1.0,
-        SEED_TAG: 0,
-        LAYERS_TAG: [16,10,10,2],
-        BLOCK_SIZE_TAG: 128,
-        STEP_SIZE_TAG: 0.03,
-        TOL_TAG: 0.000001,
-        SOLVER_TAG: 'l-bfgs'
-    }
+
 
     # Mapping Metadata Related constants
 

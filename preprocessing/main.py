@@ -10,7 +10,7 @@
 
 
 from preprocessing.driver.PreProcessorService import PreProcessorService
-from commons.dao.SparkDAOImpl import SparkDAOImpl
+from commons.dao.PandasDAOImpl import PandasDAOImpl
 from commons.config.AbstractConfig import AbstractConfig
 from commons.config.StandardConfigParserImpl import StandardConfigParserImpl
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
@@ -29,6 +29,6 @@ for config in var.config_pattern.properties.children:
 
 service = PreProcessorService()
 service.run({
-    SparkDAOImpl.__name__: '../data/'+AbstractDialoguePreProcessor.__name__+'.csv',
+    PandasDAOImpl.__name__: '../../data/' + AbstractDialoguePreProcessor.__name__ + '.csv',
     StandardFlowDialoguePreProcessorHandlerImpl.__name__: configlist
 })

@@ -1,0 +1,149 @@
+[  {
+    "transcript": "hi there my name is Ryan how can I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes Brian I was navigating my I. and %HESITATION that's the thing is I'm not understand and like it doesn't say when my due date is the date that my balance and stuff to be paid",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay well I apologize for the inconvenience can I have your first and last name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " my first name is spelled D. I. R. E. S. to raise my last name is Thompson",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you Mister Thompson and can I have your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " October twenty eight nineteen seventy seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you just give me a moment okay so you need %HESITATION date for the payment",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes when is it due",
+    "speaker": 1
+  },
+  {
+    "transcript": " when is it do you have K. and %HESITATION %HESITATION the other could do you have any other questions apart from this one",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION gonna also excuse to tell me how without sign is on the %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay give me a moment and any other questions",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes I'm also going to want to know %HESITATION how can it bye for example if I want to make a payment first thing in the morning %HESITATION how would I go about making that payment okay I want to pay it %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " if you want to pay today okay and %HESITATION any other questions",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's it",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay well %HESITATION Mister Thompson can I just put you on hold",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you very much stay with me on the line do not hang up thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you very much for staying on the line and for your patience as well and apologies for putting you on a brief hold can you hear me",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes I hear you",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay great so %HESITATION when you go to the application of yours there's a section for the payments do you see that",
+    "speaker": 0
+  },
+  {
+    "transcript": " let me see",
+    "speaker": 1
+  },
+  {
+    "transcript": " should be on the left hand side the second option under the dash board",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay we have what okay I see that",
+    "speaker": 1
+  },
+  {
+    "transcript": " perfect so when you click on it on the top of it there is actually going to be risen whether your it %HESITATION the due date has been passed or not or how many days are left on there it should be mentioned on the top do you see that",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's not the AC is always seen as it is you have no payment due",
+    "speaker": 1
+  },
+  {
+    "transcript": " perfect and so whenever you just you it's should it should be mentioned on there and you certainly can %HESITATION schedule the payment earlier as well that date is %HESITATION the date from perilous twenty six of each month you can schedule that earlier as well you can go with %HESITATION you know you want to pay online with us that's an option for you if you want to check %HESITATION if you want to send a check that is a second option for you you want to schedule that using the account of yours %HESITATION you can do that as well for dad %HESITATION you know when you go to the payments this payment %HESITATION do you see at the bottom that's a schedule of payment",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay when you click on it it will ask you to link the bank account of yours so once you link the bank account of yours and %HESITATION we %HESITATION select the date on that very day the payment shall be scheduled for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay and you say my %HESITATION my %HESITATION regular due date would be the twenty six of each month",
+    "speaker": 1
+  },
+  {
+    "transcript": " yes yes twenty six of each month",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay okay I believe or so then and yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " perfect so do you have any other questions or concerns",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION no so you've helped me a lot",
+    "speaker": 1
+  },
+  {
+    "transcript": " well thank you very much for that and %HESITATION thanks for calling pedal you have a wonderful day at",
+    "speaker": 0
+  },
+  {
+    "transcript": " you too",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you goodbye",
+    "speaker": 0
+  }
+]

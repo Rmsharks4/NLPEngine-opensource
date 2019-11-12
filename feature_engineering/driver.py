@@ -23,13 +23,13 @@ nlp = en_core_web_sm.load()
 #
 #
 # Call Transcripts After Feature Engineering
-transcripts = pd.read_csv('../data/Call_Transcripts_PreProcessing.csv', sep=',', encoding='utf-8')
+transcripts = pd.read_csv('../../data/Call_Transcripts_PreProcessing.csv', sep=',', encoding='utf-8')
 
 # Call Info
-calls = pd.read_csv('../data/Call_Info.csv', sep=',', encoding='utf-8')
+calls = pd.read_csv('../../data/Call_Info.csv', sep=',', encoding='utf-8')
 
 # Call Key Performance Indicators
-kpis = pd.read_csv('../data/Call_Key_Performance_Indicators.csv', sep=',', encoding='utf-8')
+kpis = pd.read_csv('../../data/Call_Key_Performance_Indicators.csv', sep=',', encoding='utf-8')
 
 # BUSINESS LOGIC:
 #
@@ -447,7 +447,7 @@ transcripts['Spacy_Chunks'] = transcripts['Conversation'].apply(lambda x: spacy_
 #
 #
 # Save Calls Info
-calls.to_csv(r'../data/Call_Info_FeatureEngineering.csv', index=None, header=True)
+calls.to_csv(r'../../data/Call_Info_FeatureEngineering.csv', index=None, header=True)
 
 # Save Transcripts
-transcripts.to_csv(r'../data/Call_Transcripts_FeatureEngineering.csv', index=None, header=True)
+transcripts.to_csv(r'../../data/Call_Transcripts_FeatureEngineering.csv', index=None, header=True)

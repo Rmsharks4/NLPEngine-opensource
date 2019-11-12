@@ -1,0 +1,101 @@
+[  {
+    "transcript": "thank you for calling card member services my name is Angelina how can I have your card number please",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah sure full six six two seven three zero six seven five three seven five five seven eight",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right thank you so much for the card number and I have the expiration date of your card please",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep oh two two two",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right thank you so much how can I help you today",
+    "speaker": 0
+  },
+  {
+    "transcript": " I yeah I've I've fan just realized this a Faye on the called %HESITATION you know wet it gets deducted every month %HESITATION so I'm trying to basically get the balance off it %HESITATION those fourteen pounds left all I'm so I've tried to buy something for fourteen pounds it's not let me do so I hi mate keeps getting declined",
+    "speaker": 2
+  },
+  {
+    "transcript": " well I really apologize for the inconvenience your face you have fourteen pounds on the car right now",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep",
+    "speaker": 2
+  },
+  {
+    "transcript": " that's your available balance",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes is there anything else",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes %HESITATION I I keep trying to use it to buy things %HESITATION and and it keeps getting declined",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay are you using the car for fourteen pounds",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 2
+  },
+  {
+    "transcript": " let me just check that for you stay on the line okay well yes I can see you're trying to make a purchase %HESITATION fourteen pounds but it's not %HESITATION it's it's it's declining because of insufficient funds",
+    "speaker": 0
+  },
+  {
+    "transcript": " right",
+    "speaker": 2
+  },
+  {
+    "transcript": " the margin is basin lunch Langenberg",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " so it is coming under the category off international bird chase so might be due to the the currency conversion the international bridges it's not going through so kindly contact the merchant and ask them that you had %HESITATION you have fourteen pounds on the card and how much you can pay to them so please contact margin",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay and but given that they should is originally being fifty quid on out I don't understand why account even get full Tino",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes because the price as I mentioned earlier that sounds the merchant is B. as in Luxembourg so maybe there is like this because I need to ring",
+    "speaker": 0
+  },
+  {
+    "transcript": " looks but yes she's probably gonna",
+    "speaker": 2
+  },
+  {
+    "transcript": " exactly and let you know well %HESITATION but that's how it will but will work because I'm so sorry %HESITATION I will not be able to provide you the details of the currency conversion and all that",
+    "speaker": 0
+  },
+  {
+    "transcript": " right okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " all right",
+    "speaker": 0
+  }
+]

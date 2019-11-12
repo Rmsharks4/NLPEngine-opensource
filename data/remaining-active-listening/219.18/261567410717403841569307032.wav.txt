@@ -1,0 +1,201 @@
+[  {
+    "transcript": "welcome to Austria post learning will support my name is funny hello may I please have your car I. D. number",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah which number",
+    "speaker": 1
+  },
+  {
+    "transcript": " he's a number on the back of the card please",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah I tell you what",
+    "speaker": 1
+  },
+  {
+    "transcript": " yep",
+    "speaker": 0
+  },
+  {
+    "transcript": " two two four three six three seven nine seven seven one nine two zero three one nine",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you can I have your name an access code please",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION Margaret Kelly unit two seven zero K. H. I. D. five has to Avenue Merola six oh three %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry is this six the the access code is her number six yeah it's",
+    "speaker": 0
+  },
+  {
+    "transcript": " six %HESITATION one zero zero two four one",
+    "speaker": 1
+  },
+  {
+    "transcript": " that's great thank you how can I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION my cat has expired and I've already paid fifty dollars in question was but died on the twenty second of June my cat had expired on the six digit %HESITATION it was six months slash nineteen",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay so %HESITATION yes you have the fifty four dollars and sixty seven cents here %HESITATION so let me ask you for your full name again and your address so I can send you a morning weather",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's Margaret all of Kelly",
+    "speaker": 1
+  },
+  {
+    "transcript": " can you spell your last name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " G. U. E. double L. E. Y.",
+    "speaker": 1
+  },
+  {
+    "transcript": " you for",
+    "speaker": 0
+  },
+  {
+    "transcript": " I have to catch any mail",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right and no we don't sell the learning %HESITATION car anymore right now you will find new cars but they're going to be handled my muster card",
+    "speaker": 0
+  },
+  {
+    "transcript": " all I see",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and what is your address Margaret",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION you know it's two seven zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " camber I feel H. C. I. A. M. A. R. I. P. hi though H.",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " eighty five Hester Avenue hi T. S. T. E. R.",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " in Maryland M. A. double R. I.",
+    "speaker": 1
+  },
+  {
+    "transcript": " W.",
+    "speaker": 0
+  },
+  {
+    "transcript": " I.",
+    "speaker": 1
+  },
+  {
+    "transcript": " fourth ago",
+    "speaker": 0
+  },
+  {
+    "transcript": " six three yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " true you and that's %HESITATION W. A. right",
+    "speaker": 0
+  },
+  {
+    "transcript": " that's right",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION using a couple of seconds here I'm just going to update the address okay so you say the number is two seven zero or tools two",
+    "speaker": 0
+  },
+  {
+    "transcript": " two seven zero yes sorry",
+    "speaker": 1
+  },
+  {
+    "transcript": " two zero zero all right pitch I have it right here perfect so I'm gonna go head and send the request it will take fourteen business days to arrive %HESITATION once you receive it you can go to any post office and you will be able to cash out the check over there %HESITATION and the balance is %HESITATION use one six fifty four dollars and twenty eight cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " fifty four dollars twenty",
+    "speaker": 1
+  },
+  {
+    "transcript": " fifty four and sixty seven sorry about that",
+    "speaker": 0
+  },
+  {
+    "transcript": " sorry fifty four sixty seven",
+    "speaker": 1
+  },
+  {
+    "transcript": " that's right",
+    "speaker": 0
+  },
+  {
+    "transcript": " I K. good and that that phone dies",
+    "speaker": 1
+  },
+  {
+    "transcript": " that's correct anything else I can help you with",
+    "speaker": 0
+  },
+  {
+    "transcript": " nah it sorry I can't get another",
+    "speaker": 1
+  },
+  {
+    "transcript": " you can get a new car but instead of being a visa card is going to be a master card",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION I'm just a cat",
+    "speaker": 1
+  },
+  {
+    "transcript": " you can go anytime to the post office and they can help you with your new car with her",
+    "speaker": 0
+  },
+  {
+    "transcript": " good thank you very much for that",
+    "speaker": 1
+  },
+  {
+    "transcript": " not a problem have a great day and thank you for calling three opposed by",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you bye bye",
+    "speaker": 1
+  }
+]

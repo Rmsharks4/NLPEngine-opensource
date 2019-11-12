@@ -1,0 +1,201 @@
+[  {
+    "transcript": "thank you for calling us from the post road and go support is coming along may I please have your card ID number",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry Camilo what did you want",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION sorry I need a card I. D.",
+    "speaker": 1
+  },
+  {
+    "transcript": " that's okay",
+    "speaker": 2
+  },
+  {
+    "transcript": " that's right account I. D.",
+    "speaker": 1
+  },
+  {
+    "transcript": " but I gave it to you think %HESITATION two four three six three seven nine seven two eight three nine two two nine nine",
+    "speaker": 2
+  },
+  {
+    "transcript": " and what's your full name",
+    "speaker": 1
+  },
+  {
+    "transcript": " a full name is merry Geminis",
+    "speaker": 2
+  },
+  {
+    "transcript": " okay like that count okay %HESITATION your account is not on the your name do you know who maybe the card holder",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION probably be Lindemann",
+    "speaker": 2
+  },
+  {
+    "transcript": " no it's not his him %HESITATION she or he now",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION it's not her",
+    "speaker": 1
+  },
+  {
+    "transcript": " it did on the Erin Watson",
+    "speaker": 2
+  },
+  {
+    "transcript": " no",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION could you sorry",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION I'm sorry I cannot I'm sorry I have to",
+    "speaker": 1
+  },
+  {
+    "transcript": " go there no I'm sorry I didn't set them up so is it on the alley calling",
+    "speaker": 2
+  },
+  {
+    "transcript": " a NO I cannot tell you who %HESITATION there is and it's not this person %HESITATION I needed to find out who's the card holder you know that you get detailed information off the card it or I can give you general information of the user name",
+    "speaker": 1
+  },
+  {
+    "transcript": " the username is production",
+    "speaker": 2
+  },
+  {
+    "transcript": " no",
+    "speaker": 1
+  },
+  {
+    "transcript": " well I'm really sorry I don't know what to do now I'm going to balance on this account I can't cash it in at the post office they told me to phone this number %HESITATION to get the money transferred into our account",
+    "speaker": 2
+  },
+  {
+    "transcript": " we cannot transfer money to account we can only issue money order that's",
+    "speaker": 1
+  },
+  {
+    "transcript": " well that's what I was advised at the post office these expire tomorrow I cannot catching fifty eight dollars and forty eight cents I need to get the full amount so the thing is what do I do now",
+    "speaker": 2
+  },
+  {
+    "transcript": " well once I got all the other can't do it for you or you can do it online I believe you can",
+    "speaker": 1
+  },
+  {
+    "transcript": " D. was online",
+    "speaker": 2
+  },
+  {
+    "transcript": " %HESITATION because not the card",
+    "speaker": 1
+  },
+  {
+    "transcript": " well well then how do I go about doing that because I just don't know I",
+    "speaker": 2
+  },
+  {
+    "transcript": " you have to access your loading go online account and that would be the option to push out the card to send you money order on manage card",
+    "speaker": 1
+  },
+  {
+    "transcript": " so they won't put the money directly into our account that's what I was told at the post office today",
+    "speaker": 2
+  },
+  {
+    "transcript": " the post office give you a bad information is musing form do you I'm sorry about that %HESITATION we did not to do any kind of money transfer not even in between cards well for for outside a post we just we find our card holders as a money order Ross",
+    "speaker": 1
+  },
+  {
+    "transcript": " and it'll be the exact amount of fifty eight dollars forty five",
+    "speaker": 2
+  },
+  {
+    "transcript": " that's correct",
+    "speaker": 1
+  },
+  {
+    "transcript": " so it goes to the owner of the cat yeah because so I didn't set these cards out how do I find out who the owner of the cottage",
+    "speaker": 2
+  },
+  {
+    "transcript": " well the money order on",
+    "speaker": 1
+  },
+  {
+    "transcript": " Pittston who did the person who did it originally is no longer working",
+    "speaker": 2
+  },
+  {
+    "transcript": " I understand the person %HESITATION but probably the name of the the card is under the person that set up the account it will regionally so %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " well the business at",
+    "speaker": 2
+  },
+  {
+    "transcript": " work they were there anymore you have to find a way to get a hold of him because we cannot change the names on the cards or we usually",
+    "speaker": 1
+  },
+  {
+    "transcript": " leave and then the name would have been Lindy mun",
+    "speaker": 2
+  },
+  {
+    "transcript": " no it's not",
+    "speaker": 1
+  },
+  {
+    "transcript": " well is it could misli",
+    "speaker": 2
+  },
+  {
+    "transcript": " now",
+    "speaker": 1
+  },
+  {
+    "transcript": " I mean I could tell ME anyway IT is it the memorable would is it factory or",
+    "speaker": 2
+  },
+  {
+    "transcript": " not",
+    "speaker": 1
+  },
+  {
+    "transcript": " well how do I go about getting this rectified I'm just really struggling with this now I've got I need tomorrow to get it done so how do I go about doing this",
+    "speaker": 2
+  },
+  {
+    "transcript": " so as I told you go online and then you see %HESITATION the option to cash out the car that %HESITATION the money order will go under the card holders name so as soon as it arrives even see who it is and then you can get a hold of the person to get the money back at the post office",
+    "speaker": 1
+  },
+  {
+    "transcript": " very demise setting up business okay thank you very much I'll see what I can do",
+    "speaker": 2
+  },
+  {
+    "transcript": " thanks for calling all the good have a good day",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you bye",
+    "speaker": 2
+  }
+]

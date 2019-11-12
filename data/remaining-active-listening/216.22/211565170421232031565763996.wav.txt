@@ -1,0 +1,173 @@
+[  {
+    "transcript": "welcome to Australia post learning to support",
+    "speaker": 0
+  },
+  {
+    "transcript": " hello",
+    "speaker": 2
+  },
+  {
+    "transcript": " my name is my name is may I please have your card I. D. number",
+    "speaker": 0
+  },
+  {
+    "transcript": " my you what",
+    "speaker": 2
+  },
+  {
+    "transcript": " card ID number sixteen numbers on the back of the car",
+    "speaker": 0
+  },
+  {
+    "transcript": " all I'm trying to %HESITATION we choose two four three six three seven nine seven five three two four six five four three",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " and I can't find where the loading within digit numbers it",
+    "speaker": 2
+  },
+  {
+    "transcript": " takes me don't worry about it don't you please have your name",
+    "speaker": 0
+  },
+  {
+    "transcript": " my name is Kathleen merry Bertha",
+    "speaker": 2
+  },
+  {
+    "transcript": " may I please have your date of birth",
+    "speaker": 0
+  },
+  {
+    "transcript": " the July fifty one",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank your mobile phone number",
+    "speaker": 0
+  },
+  {
+    "transcript": " four three eight six %HESITATION nine seven nine",
+    "speaker": 2
+  },
+  {
+    "transcript": " and your email address",
+    "speaker": 0
+  },
+  {
+    "transcript": " don't have an email",
+    "speaker": 2
+  },
+  {
+    "transcript": " K. may I please have your address",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION when I C. six seven U. Inglewood",
+    "speaker": 2
+  },
+  {
+    "transcript": " state imposed the code",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi the card is %HESITATION connect remember sixty to sixty fifty two",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you in the state",
+    "speaker": 0
+  },
+  {
+    "transcript": " and what state",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " W. I. N.",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you how can I help you today",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION well %HESITATION it's just %HESITATION and I'm going to into a telling and the lady at the post office said I needed to check with you guys might be finished",
+    "speaker": 2
+  },
+  {
+    "transcript": " K. cafe I'll send your access code okay so I have %HESITATION your access code %HESITATION center my phone number so I can have access to it okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 2
+  },
+  {
+    "transcript": " I have a question Cathy do you know what your pin number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION yes I found that %HESITATION is your number",
+    "speaker": 2
+  },
+  {
+    "transcript": " no I don't want no and I can note only one",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION",
+    "speaker": 2
+  },
+  {
+    "transcript": " or you don't know",
+    "speaker": 0
+  },
+  {
+    "transcript": " hang on",
+    "speaker": 2
+  },
+  {
+    "transcript": " Kathy bear with me okay so to double check I did send it on your mobile phone number so I can have that information as well okay so I got to be getting into SMS it's one of your access code and another one of your P. number all right that's perfect",
+    "speaker": 0
+  },
+  {
+    "transcript": " well yeah so what do we do yet what",
+    "speaker": 2
+  },
+  {
+    "transcript": " what bear with me I'll explain to you %HESITATION can I just did in fits so your access code it's too early for you to know what your policy online for you to get the information so light your pin number that's when you make a purchase so you guys told me that you're going to loan though let's say if you want to buy something that I may ask you for an access code for your pin number so now you know what it is which is four number all right thirteen that you told me about it about the load and go finish it yes for stopping the service we don't sell the cars anymore but your card only expiring oh six two thousand twenty so once you there you can definitely use the cook the money on your card okay yeah you can definitely use the car your car's fine until next year K. yes %HESITATION yes I think I did answer all the questions so is there anything else that I can do for you today",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION the other thing is I cannot a hundred",
+    "speaker": 2
+  },
+  {
+    "transcript": " two hundred fifty dollars per week",
+    "speaker": 0
+  },
+  {
+    "transcript": " I K.",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you very welcome Kathy and thank you for contacting us and opposed to go support and you have a",
+    "speaker": 0
+  },
+  {
+    "transcript": " I will thank you",
+    "speaker": 2
+  },
+  {
+    "transcript": " bye bye",
+    "speaker": 0
+  }
+]

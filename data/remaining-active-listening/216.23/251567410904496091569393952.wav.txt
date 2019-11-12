@@ -1,0 +1,133 @@
+[  {
+    "transcript": "welcome to also level schooling to support this is Lisa may I please have your card I. D. number",
+    "speaker": 0
+  },
+  {
+    "transcript": " hello how are you",
+    "speaker": 1
+  },
+  {
+    "transcript": " good",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I was using cars address what catches ticket to explode Robert and I was just wanting the %HESITATION the money with that does it %HESITATION just recently got transferred %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " I can send your money order",
+    "speaker": 0
+  },
+  {
+    "transcript": " sorry are you have your did you tag when I did it",
+    "speaker": 1
+  },
+  {
+    "transcript": " that's fine no problem what's your card I. D.",
+    "speaker": 0
+  },
+  {
+    "transcript": " try to order it on the back isn't it yeah she's full three six three seven nine seven no I I four four cool to no no one",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you can I have your name",
+    "speaker": 0
+  },
+  {
+    "transcript": " cool which is very",
+    "speaker": 1
+  },
+  {
+    "transcript": " and %HESITATION Judy what's your mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION remember %HESITATION I'm seventy one %HESITATION give me a minute hi I was pull one four five hundred five six nine River Road surely start",
+    "speaker": 1
+  },
+  {
+    "transcript": " it's not the one I have here",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right what we are what I %HESITATION %HESITATION the old number it's fair enough %HESITATION %HESITATION cause for one nine seven four two a footnote number %HESITATION %HESITATION cross okay that number to use such a problem user",
+    "speaker": 1
+  },
+  {
+    "transcript": " this is skews me",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi are you there every other or do you have",
+    "speaker": 1
+  },
+  {
+    "transcript": " no I really need deterred the access code %HESITATION sixty two that you made up or do you mobile number",
+    "speaker": 0
+  },
+  {
+    "transcript": " really cases with the dialogue of knowledge systems %HESITATION computer voice %HESITATION on my computer %HESITATION he's %HESITATION I bring robin everything's lost I have a most charges that makes any sense",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION surgery",
+    "speaker": 0
+  },
+  {
+    "transcript": " you know what I'm going lost you lose your computer knows that you're not corrections in the outside world I can say that too much true %HESITATION %HESITATION %HESITATION %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " one seven",
+    "speaker": 0
+  },
+  {
+    "transcript": " I understand more laws I apologize I'm not to lose any money %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION %HESITATION",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION to get back to you on that one I'm sorry question the tarmac",
+    "speaker": 1
+  },
+  {
+    "transcript": " no no time wasted no problem just take your time",
+    "speaker": 0
+  },
+  {
+    "transcript": " I just got a new cat %HESITATION the the new one you got like the %HESITATION post this matter is tied to our shop on the %HESITATION we do ever says no that one when I die one that died at the end of this month actually same",
+    "speaker": 1
+  },
+  {
+    "transcript": " all right yeah so %HESITATION take a time to look at your %HESITATION look at your things maybe you can find your old phone number from your %HESITATION from your friends or family members you know maybe have the old one",
+    "speaker": 0
+  },
+  {
+    "transcript": " terrible to take real time number",
+    "speaker": 1
+  },
+  {
+    "transcript": " no but I'm saying that's maybe a your friends or family members know do your own number",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's report right I'm thinking that %HESITATION %HESITATION we will not get in contact with him thanks it's good already thanks man appreciate your help",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're welcome Richard %HESITATION well thanks for calling you have a nice day",
+    "speaker": 0
+  },
+  {
+    "transcript": " thank you I'll be more prepared next time service",
+    "speaker": 1
+  },
+  {
+    "transcript": " nor is thank you goodbye",
+    "speaker": 0
+  }
+]

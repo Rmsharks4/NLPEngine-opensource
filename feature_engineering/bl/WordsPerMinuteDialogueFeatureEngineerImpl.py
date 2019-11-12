@@ -16,7 +16,11 @@ class WordsPerMinuteDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer)
 
     def engineer_feature_operation(self, args):
         num_of_words = args[TokenTagsDialogueFeatureEngineerImpl.__name__].apply(
-            lambda x: MathematicsUtils.length(x))
+            lambda x: int(MathematicsUtils.length(x)))
+        args[StartTimeDataImpl.__name__] = args[StartTimeDataImpl.__name__].apply(
+            lambda x: int(x))
+        args[EndTimeDataImpl.__name__] = args[EndTimeDataImpl.__name__].apply(
+            lambda x: int(x))
         duration = MathematicsUtils.add([args[StartTimeDataImpl.__name__],
                                          args[EndTimeDataImpl.__name__]])
         num_of_words_per_duration = MathematicsUtils.divide([num_of_words, duration])

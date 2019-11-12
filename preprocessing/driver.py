@@ -30,13 +30,13 @@ ps = nltk.PorterStemmer()
 wn = WordNetLemmatizer()
 
 # CONTRACTIONS DICTIONARY
-with open('../data/Contractions_Dict.csv', mode='r') as infile:
+with open('../../data/Contractions_Dict.csv', mode='r') as infile:
     reader = csv.reader(infile)
     contractions_dict = dict((rows[0], rows[1]) for rows in reader)
 contractions_re = re.compile('(%s)' % '|'.join(contractions_dict.keys()))
 
 # FIGURES DICTIONARY
-with open('../data/Figures_Dict.csv', mode='r') as infile:
+with open('../../data/Figures_Dict.csv', mode='r') as infile:
     reader = csv.reader(infile)
     figures_dict = dict((rows[0], '#') for rows in reader)
 figures_re = re.compile(r'\b(%s)\b' % '|'.join(figures_dict.keys()))
@@ -46,10 +46,10 @@ figures_re = re.compile(r'\b(%s)\b' % '|'.join(figures_dict.keys()))
 #
 #
 # Call Transcripts
-transcripts = pd.read_csv('../data/Call_Transcripts.csv', sep=',', encoding='utf-8')
+transcripts = pd.read_csv('../../data/Call_Transcripts.csv', sep=',', encoding='utf-8')
 
 # Call Info
-calls = pd.read_csv('../data/Call_Info.csv', sep=',', encoding='utf-8')
+calls = pd.read_csv('../../data/Call_Info.csv', sep=',', encoding='utf-8')
 
 # BUSINESS LOGIC:
 #
@@ -222,5 +222,5 @@ transcripts['ConversationLowerJoinContractsNumsNoPunctTokensSpellLemmaNoStop'] =
 #
 #
 # Store and Save All
-transcripts.to_csv(r'../data/Call_Transcripts_PreProcessing.csv', index=None, header=True)
+transcripts.to_csv(r'../../data/Call_Transcripts_PreProcessing.csv', index=None, header=True)
 

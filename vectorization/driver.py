@@ -19,11 +19,11 @@ import math
 #
 #
 # Call Transcripts (After Feature Engineering)
-path_vocab = "../data/Call_Transcripts_PreProcessing.csv"
-transcripts = pd.read_csv('../data/Call_Transcripts_PreProcessing.csv', sep=',', encoding='latin1')
+path_vocab = "../../data/Call_Transcripts_PreProcessing.csv"
+transcripts = pd.read_csv('../../data/Call_Transcripts_PreProcessing.csv', sep=',', encoding='latin1')
 
 # Call Info
-calls = pd.read_csv('../data/Call_Info.csv', sep=',', encoding='latin1')
+calls = pd.read_csv('../../data/Call_Info.csv', sep=',', encoding='latin1')
 
 # BUSINESS LOGIC:
 #
@@ -135,12 +135,12 @@ model = create_embeddings(transcripts['ConversationLowerJoinContractsNumsNoPunct
 #
 #
 # SAVE DICTIONARY
-with open('../data/Call_Transcripts_Vectorization_DictionaryLookUp.csv', 'w') as f:
+with open('../../data/Call_Transcripts_Vectorization_DictionaryLookUp.csv', 'w') as f:
     for key in dictionary_lookup.keys():
         f.write("%s,%s\n" % (key, dictionary_lookup[key]))
 
 # SAVE ONE_HOT VECTORS
-with open('../data/Call_Transcripts_Vectorization_OneHotVector.csv', 'w') as f:
+with open('../../data/Call_Transcripts_Vectorization_OneHotVector.csv', 'w') as f:
     for key in one_hot_vector[0]:
         f.write("%s," % key)
     f.write("\n")
@@ -150,7 +150,7 @@ with open('../data/Call_Transcripts_Vectorization_OneHotVector.csv', 'w') as f:
         f.write("\n")
 
 # SAVE TFIDF VECTORS
-with open('../data/Call_Transcripts_Vectorization_TFIDFVector.csv', 'w') as f:
+with open('../../data/Call_Transcripts_Vectorization_TFIDFVector.csv', 'w') as f:
     for key in tfidf_vector[0]:
         f.write("%s," % key)
     f.write("\n")
@@ -160,4 +160,4 @@ with open('../data/Call_Transcripts_Vectorization_TFIDFVector.csv', 'w') as f:
         f.write("\n")
 
 # SAVE WORD2VEC MODEL
-model.wv.save_word2vec_format('../data/Call_Transcripts_Vectorization_WordEmbeddings.bin', binary=True)
+model.wv.save_word2vec_format('../../data/Call_Transcripts_Vectorization_WordEmbeddings.bin', binary=True)

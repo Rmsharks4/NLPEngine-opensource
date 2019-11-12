@@ -28,7 +28,7 @@ class FiguresDictionary(AbstractUtils):
         """
         initializes static function load for Figures Dict Class
         """
-        with open('../data/Figures_Dict.csv', mode='r') as infile:
+        with open('../../data/Figures_Dict.csv', mode='r') as infile:
             reader = csv.reader(infile)
             FiguresDictionary.figures_dict = dict((rows[0], '# ') for rows in reader)
         FiguresDictionary.figures_re = re.compile(r'\b(%s)\b' % '|'.join(FiguresDictionary.figures_dict.keys()))

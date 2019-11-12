@@ -17,7 +17,7 @@ print(doc.ents)
 
 header = [ENT_IOB, ENT_TYPE]
 
-with open('../data/ORG.csv', mode='r') as infile:
+with open('../../data/ORG.csv', mode='r') as infile:
     reader = csv.reader(infile)
     for row in reader:
         attr_array = [row[0], row[1]]

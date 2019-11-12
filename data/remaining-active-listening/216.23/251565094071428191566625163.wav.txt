@@ -1,0 +1,133 @@
+[  {
+    "transcript": "thank you for calling card member services this is Jennifer may I please have your card number",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION eight four seven four eight three eight zero eight six four zero nine nine five six zero six",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you I'm just trying to pull up your account information can I have expiration date off your card",
+    "speaker": 0
+  },
+  {
+    "transcript": " yep zero three twenty two",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you for the card number I got is four seven four eight three eight zero six two zero nine nine five six zero six",
+    "speaker": 0
+  },
+  {
+    "transcript": " four zero nine one",
+    "speaker": 1
+  },
+  {
+    "transcript": " you said four zero nine one",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " nine nine six four zero nine nine welcome I'm sorry for that",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes Dan",
+    "speaker": 1
+  },
+  {
+    "transcript": " how may I help you know",
+    "speaker": 0
+  },
+  {
+    "transcript": " one I just need to know the balance is what called %HESITATION",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure I'll be more than happy to assist you your current browser the card is two dollars and twelve cents and you can also check your balance and transaction details about automated support or by visiting the website which is W. W. W. dot when a lot balance dot com okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay %HESITATION well I got you on the phone number for the call back %HESITATION %HESITATION %HESITATION %HESITATION sold seventy four oh eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " mmhm",
+    "speaker": 0
+  },
+  {
+    "transcript": " three eight zero eight six",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven one six eight two five eight zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you and can I have expiration date of this card",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes zero three two two if",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you so your current so this card number I got is four seven four eight three eight zero six seven one six three two five eight zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION I'm not able to pull up the details for the card one moment let me try again can you repeat the card number because it seems there is a mistake in the car number",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes okay four seven four oh eight three zero six seven one six three three five zero",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay and I'm trying to pull up the details for the card as well one moment please so now you said it's seven one six two two five eight zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven one six three",
+    "speaker": 1
+  },
+  {
+    "transcript": " seven one six three",
+    "speaker": 0
+  },
+  {
+    "transcript": " one six three",
+    "speaker": 1
+  },
+  {
+    "transcript": " yeah and then two five eight zero",
+    "speaker": 0
+  },
+  {
+    "transcript": " yeah eight two five zero eight",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION two five zero eight welcome one moment all right thank you very much for your patience and your current balance on the card is one dollar and eighty five cents okay",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay cool okay thank you",
+    "speaker": 1
+  },
+  {
+    "transcript": " you're welcome anything else I can help you",
+    "speaker": 0
+  }
+]

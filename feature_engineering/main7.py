@@ -4,7 +4,7 @@ import spacy
 
 nlp = spacy.load('en_core_web_sm')
 
-df = pd.read_csv('../data/FeatureEngineeringService.csv', sep=',', encoding='utf-8')
+df = pd.read_csv('../../data/FeatureEngineeringService.csv', sep=',', encoding='utf-8')
 
 
 def clean(data):

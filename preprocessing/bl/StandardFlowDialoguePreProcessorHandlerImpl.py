@@ -20,8 +20,7 @@ from preprocessing.bl.AbstractDialoguePreProcessorHandler import AbstractDialogu
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 from preprocessing.utils.UtilsFactory import UtilsFactory
-from commons.dao.SparkDAOImpl import SparkDAOImpl
-import math
+from commons.dao.PandasDAOImpl import PandasDAOImpl
 
 
 class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingHandler):
@@ -70,10 +69,11 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                 if s.name not in preprocessors:
                     preprocessors.append(s.name)
 
-        spark = SparkDAOImpl()
-        df = args[SparkDAOImpl.__name__]
+        df = args[PandasDAOImpl.__name__]
 
         for pre in preprocessors:
+
+            print('Processor: ', pre, 'running ...')
 
             processor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(pre)
             input_data = []
@@ -128,9 +128,7 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
 
         for col in df.columns:
             df[col] = df[col].apply(lambda x: str(x))
-        return spark.create([
-            df, self.__class__.__name__
-        ])
+        return df
 
     @staticmethod
     def combine(arr):

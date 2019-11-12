@@ -10,18 +10,14 @@ this class contains a 'run' function that runs the whole routine - starting from
 """
 
 import logging
-
-from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.PreProcessingLogger import PreProcessingLogger
-from commons.dao.AbstractDAOFactory import AbstractDAOFactory
-from commons.dao.SparkDAOImpl import SparkDAOImpl
-from commons.AbstractService import AbstractService
+from commons.dao.PandasDAOImpl import PandasDAOImpl
 from preprocessing.bl.AbstractDialoguePreProcessorHandlerFactory import AbstractDialoguePreProcessorHandlerFactory
 from preprocessing.bl.StandardFlowDialoguePreProcessorHandlerImpl import StandardFlowDialoguePreProcessorHandlerImpl
 
 
-class PreProcessorService(AbstractService):
+class PreProcessorService:
 
     def __init__(self):
         """
@@ -37,17 +33,9 @@ class PreProcessorService(AbstractService):
         (StandardFlowDialoguePreProcessorHandlerImpl)
         :return: (SparkDAOImpl) DAO object to use further
         """
-        dao_obj = AbstractDAOFactory.get_dao(SparkDAOImpl.__name__)
-        data_obj = dao_obj.load([
-            args[SparkDAOImpl.__name__], PreProcessorService.__name__
-        ])
 
         handler_obj = AbstractDialoguePreProcessorHandlerFactory.get_dialogue_preprocessor_handler(StandardFlowDialoguePreProcessorHandlerImpl.__name__)
-        output_obj = handler_obj.perform_preprocessing({
+        return handler_obj.perform_preprocessing({
             AbstractDialoguePreProcessor.__name__: args[StandardFlowDialoguePreProcessorHandlerImpl.__name__],
-            SparkDAOImpl.__name__: data_obj
+            PandasDAOImpl.__name__: args[PandasDAOImpl.__name__]
         })
-
-        return dao_obj.save([
-            output_obj, args[SparkDAOImpl.__name__]
-        ])

@@ -1,0 +1,173 @@
+[  {
+    "transcript": "hi there my name is Mike how may I help you",
+    "speaker": 0
+  },
+  {
+    "transcript": " hi %HESITATION I'm calling to ask a question about my card I have a %HESITATION a payment due that's pretty large and I was just curious as to why it I guess the significant change from last month's payment to so the this month's payment",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure let me just pull up the details for you may I have your name please",
+    "speaker": 0
+  },
+  {
+    "transcript": " Miley bright",
+    "speaker": 1
+  },
+  {
+    "transcript": " last four digits of your social",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION three six five two",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you C. online so the last minute %HESITATION you have initiated the payment %HESITATION one thousand two hundred and four dollars and ten cent",
+    "speaker": 0
+  },
+  {
+    "transcript": " one thousand four hundred",
+    "speaker": 1
+  },
+  {
+    "transcript": " four dollars and ten cent",
+    "speaker": 0
+  },
+  {
+    "transcript": " is how much I owe",
+    "speaker": 1
+  },
+  {
+    "transcript": " no no I'm saying that %HESITATION that for the payment for the last month that you're enquiring about July the two seventeenth",
+    "speaker": 0
+  },
+  {
+    "transcript": " well I paid so I'm saying my statement balance so I paid last month I paid fifty dollars and this month I'm sixteen hundred",
+    "speaker": 1
+  },
+  {
+    "transcript": " stay online yes outstanding balance is one thousand seven hundred and twenty nine dollars and forty one cent",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " and %HESITATION the statement allowances the one thousand six hundred and twenty seven dollars and nine cents",
+    "speaker": 0
+  },
+  {
+    "transcript": " right so I'm curious why the statement like the payment that's due at sixteen hundred dollars when last month it kept dropping down one night %HESITATION when I kept using the card so drop down to like twenty five dollars but I paid fifty so I'm curious why the big jump between the two",
+    "speaker": 1
+  },
+  {
+    "transcript": " just be online",
+    "speaker": 0
+  },
+  {
+    "transcript": " I guess that able to be changed is gonna be reduced at all",
+    "speaker": 1
+  },
+  {
+    "transcript": " just going to put you on hold let me just review the content of a Buck okay thank you",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you so much for holding",
+    "speaker": 0
+  },
+  {
+    "transcript": " yes",
+    "speaker": 1
+  },
+  {
+    "transcript": " okay sorry for the delay okay no the last time %HESITATION we can see the payment was made to fifty dollars and after that %HESITATION you you do try to make another payment on the same day %HESITATION fourteen hundred dollars no I didn't I'm sorry your councils you cancel that payment correct",
+    "speaker": 0
+  },
+  {
+    "transcript": " no I did not try to make any payment I we try to make a payment of fifty dollars",
+    "speaker": 1
+  },
+  {
+    "transcript": " fifty dollars okay so no what's your question what's your concern",
+    "speaker": 0
+  },
+  {
+    "transcript": " so my question is why why is my payment balance sixteen hundred dollars one last month it was twenty five dollars I paid double last month",
+    "speaker": 1
+  },
+  {
+    "transcript": " uhhuh okay reason for that %HESITATION let me just tell you the reason why stay online stay online system is still searching for the information okay okay now the A. P. R. rich was apply so that's right the minimum is thirty two fifty four",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay wait the A. P. I don't understand",
+    "speaker": 1
+  },
+  {
+    "transcript": " sorry",
+    "speaker": 0
+  },
+  {
+    "transcript": " thirteen dollars thirty four cents is that what you're saying or what is",
+    "speaker": 1
+  },
+  {
+    "transcript": " the minimum minimum payment amount is thirty two fifty four",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay so my question is can the payment not be reduced without the A. P. R.",
+    "speaker": 1
+  },
+  {
+    "transcript": " no it cannot be",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay that's my question because I'm curious why a bump from twenty five dollars of last month and the sixteen hundred dollars for this month why the big increase in payment",
+    "speaker": 1
+  },
+  {
+    "transcript": " %HESITATION so the due date is the twenty six %HESITATION for this month twenty sixth of August",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay is there anyone else I can speak to",
+    "speaker": 1
+  },
+  {
+    "transcript": " well you can enter call back for you",
+    "speaker": 0
+  },
+  {
+    "transcript": " because I'm yeah that'd be good I need to talk to someone else I kind of understand what I'm asking",
+    "speaker": 1
+  },
+  {
+    "transcript": " sure it takes forty eight hours is that okay with you",
+    "speaker": 0
+  },
+  {
+    "transcript": " I will is there another support a team member that I can speak to",
+    "speaker": 1
+  },
+  {
+    "transcript": " the call cannot be transferred to you need to hang up and then you need to call",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay I'll do that",
+    "speaker": 1
+  },
+  {
+    "transcript": " thank you bye bye",
+    "speaker": 0
+  }
+]

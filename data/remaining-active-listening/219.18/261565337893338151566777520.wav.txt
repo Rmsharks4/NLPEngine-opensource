@@ -1,0 +1,113 @@
+[  {
+    "transcript": "Chris how may I help",
+    "speaker": 0
+  },
+  {
+    "transcript": " %HESITATION I I have a %HESITATION a Corp so a couple months ago to cancel my card because I I never really wanted to have the card and I activated it by mistake in the network card so according to just activate your account and they said that it you know I get more more information they said that it was just activating the account was closed this is two one slate is still active",
+    "speaker": 2
+  },
+  {
+    "transcript": " I will check the status for you may I have your name please your first last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " first name is Charlie T. A. R. O. D.",
+    "speaker": 2
+  },
+  {
+    "transcript": " I can last name",
+    "speaker": 0
+  },
+  {
+    "transcript": " last name Glover G. L. O. V. E. R.",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you Mister Hoover may I have the last four digits of your social please",
+    "speaker": 0
+  },
+  {
+    "transcript": " six three two five",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you I mean I get your date of birth as well",
+    "speaker": 0
+  },
+  {
+    "transcript": " seven three seventy eight",
+    "speaker": 2
+  },
+  {
+    "transcript": " thank you for that I can see that you never use the card and this card has your name and information got close already section",
+    "speaker": 0
+  },
+  {
+    "transcript": " is doing what",
+    "speaker": 2
+  },
+  {
+    "transcript": " it's just canceled",
+    "speaker": 0
+  },
+  {
+    "transcript": " so it is still shows on my credit report over the last two months is being",
+    "speaker": 2
+  },
+  {
+    "transcript": " yeah it might be showing on the report but it's not an active card might be the send the statement like after thirty days show but still it is an activity in the con never used by you or any transaction was made",
+    "speaker": 0
+  },
+  {
+    "transcript": " just counted so how do I although I do love my credit report",
+    "speaker": 2
+  },
+  {
+    "transcript": " reporter yes it is sent automatically to you and let me just check one",
+    "speaker": 0
+  },
+  {
+    "transcript": " but why is it still on my credit report for a quote it never shows it as close as says it's open on my credit report it",
+    "speaker": 2
+  },
+  {
+    "transcript": " takes it takes like eight weeks for the information to be processed after eight weeks you will not receive the credit report it",
+    "speaker": 0
+  },
+  {
+    "transcript": " it's okay eight weeks will give me up again",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes yes",
+    "speaker": 0
+  },
+  {
+    "transcript": " so %HESITATION in eight weeks it is showing it was closed",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes correct",
+    "speaker": 0
+  },
+  {
+    "transcript": " okay well that's the reason why",
+    "speaker": 2
+  },
+  {
+    "transcript": " yes anything else from my end",
+    "speaker": 0
+  },
+  {
+    "transcript": " no not not really I just called about that",
+    "speaker": 2
+  },
+  {
+    "transcript": " have a great day thank you for calling",
+    "speaker": 0
+  },
+  {
+    "transcript": " all right thank you have a good day",
+    "speaker": 2
+  }
+]

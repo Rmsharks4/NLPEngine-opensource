@@ -1,10 +1,10 @@
 import logging
 import abc
 from vectorization.utils.VectorizationConstants import VectorizationConstants
-from vectorization.bl.LookUpDialogueVectorizerImpl import LookUpDialogueVectorizer
-from vectorization.bl.OneHotDialogueVectorizerImpl import OneHotDialogueVectorizer
+from vectorization.bl.lookup.LookUpDialogueVectorizerImpl import LookUpDialogueVectorizer
+from vectorization.bl.onehot.OneHotDialogueVectorizerImpl import OneHotDialogueVectorizer
 from vectorization.bl.tfidf.TFIDFDialogueVectorizerImpl import TFIDFDialogueVectorizer
-from vectorization.bl.EmbeddingDialogueVectorizerImpl import EmbeddingDialogueVectorizer
+from vectorization.bl.embedding.EmbeddingDialogueVectorizerImpl import EmbeddingDialogueVectorizer
 
 
 class AbstractDialogueVectorizerFactory(metaclass=abc.ABCMeta):

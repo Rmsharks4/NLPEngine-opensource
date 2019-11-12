@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from collections import OrderedDict
 
-tree = ET.parse('../data/train-data.xml')
+tree = ET.parse('../../data/train-data.xml')
 xml_data = tree.getroot()
 xml_str = ET.tostring(xml_data, encoding='utf8', method='xml')
 
