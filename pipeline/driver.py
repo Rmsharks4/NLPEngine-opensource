@@ -2,7 +2,7 @@
 import preprocessing as PreProcessing
 import feature_engineering as FeatureEngineering
 import vectorization as Vectorization
-import model_variants as MOdelVariants
+import text_mining as MOdelVariants
 import deep_learning as DeepLearning
 import ensembles as Ensembles
 
