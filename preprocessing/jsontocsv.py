@@ -7,7 +7,7 @@ import re
 import os
 import csv
 
-file_path = '../../data/remaining-active-listening/'
+file_path = '../data/remaining-active-listening/'
 
 arr = ['216.22/', '216.23/', '219.18/']
 
@@ -18,6 +18,7 @@ for elem in arr:
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         if filename.__contains__('.txt'):
+            print(filename[:17])
             # with open(file_path+elem+filename) as txt_file:
             #     lines = txt_file.readlines()
             #     txt_file.close()
@@ -39,14 +40,14 @@ for elem in arr:
             #             lines.remove(line)
             #     txt_file.writelines(lines)
             #     txt_file.close()
-            with open(file_path+elem+filename) as json_file:
-                data = json.load(json_file)
-                print(file_path+elem+filename)
-                for line in data:
-                    rows.append(['\''+filename[:17], line['speaker'], line['transcript']])
-
-df = pd.DataFrame(rows, columns=['Call ID', 'Speaker', 'Conversation', ])
-df.to_csv('remaining-active-listening.csv')
+#             with open(file_path+elem+filename) as json_file:
+#                 data = json.load(json_file)
+#                 print(file_path+elem+filename)
+#                 for line in data:
+#                     rows.append(['\''+filename[:17], line['speaker'], line['transcript']])
+#
+# df = pd.DataFrame(rows, columns=['Call ID', 'Speaker', 'Conversation', ])
+# df.to_csv('remaining-active-listening.csv')
 
 # file_path = '../../data/calls/'
 #

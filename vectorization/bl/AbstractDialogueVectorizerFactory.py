@@ -1,10 +1,12 @@
 import logging
 import abc
 from vectorization.utils.VectorizationConstants import VectorizationConstants
-from vectorization.bl.lookup.LookUpDialogueVectorizerImpl import LookUpDialogueVectorizer
-from vectorization.bl.onehot.OneHotDialogueVectorizerImpl import OneHotDialogueVectorizer
-from vectorization.bl.tfidf.TFIDFDialogueVectorizerImpl import TFIDFDialogueVectorizer
-from vectorization.bl.embedding.EmbeddingDialogueVectorizerImpl import EmbeddingDialogueVectorizer
+from vectorization.bl.AbstractDialogueVectorizer import AbstractDialogueVectorizer
+from vectorization.bl.lookup import *
+from vectorization.bl.onehot import *
+from vectorization.bl.count import *
+from vectorization.bl.tfidf import *
+from vectorization.bl.embedding import *
 
 
 class AbstractDialogueVectorizerFactory(metaclass=abc.ABCMeta):
@@ -12,12 +14,10 @@ class AbstractDialogueVectorizerFactory(metaclass=abc.ABCMeta):
     def __init__(self):
         self.logger = logging.getLogger(VectorizationConstants.LOGGER_NAME)
 
-    @classmethod
-    def get_dialogue_vectorizer(self, vectorizer_type):
-        switcher = {
-            LookUpDialogueVectorizer(): LookUpDialogueVectorizer.__class__.__name__,
-            OneHotDialogueVectorizer(): OneHotDialogueVectorizer.__class__.__name__,
-            TFIDFDialogueVectorizer(): TFIDFDialogueVectorizer.__class__.__name__,
-            EmbeddingDialogueVectorizer(): EmbeddingDialogueVectorizer.__class__.__name__
-        }
-        return switcher.get(vectorizer_type, '')
+    @staticmethod
+    def get_dialogue_vectorizer(vectorizer_type):
+        switcher = dict()
+        for y in AbstractDialogueVectorizer().__class__.__subclasses__():
+            switcher[y.__name__] = y()
+            switcher.update(dict((x.__name__, x()) for x in switcher[y.__name__].__class__.__subclasses__()))
+        return switcher.get(vectorizer_type, None)

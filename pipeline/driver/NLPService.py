@@ -23,7 +23,6 @@ class NLPService:
         preconfiglist = dict()
 
         var = StandardConfigParserImpl()
-
         var.read_config('../../preprocessing/resources/' + AbstractDialoguePreProcessor.__name__ + '.ini')
 
         for config in var.config_pattern.properties.children:
@@ -42,12 +41,8 @@ class NLPService:
             feaconfiglist[config] = configparser.config_pattern
 
         dao_obj = AbstractDAOFactory.get_dao(PandasDAOImpl.__name__)
-        data_obj = dao_obj.load([
-            '../../data/input.csv', NLPService.__name__
-        ])
-
+        data_obj = dao_obj.load(['../../data/input.csv', NLPService.__name__])
         data_obj = NLPService.run_preprocessor(preconfiglist, data_obj)
-
         data_obj = NLPService.run_feature_engineer(feaconfiglist, data_obj)
 
         return dao_obj.save([data_obj, '../../data/output.csv'])
