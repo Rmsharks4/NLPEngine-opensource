@@ -112,7 +112,7 @@ class AbstractMachineLearningModel(ABC):
             cls.logger.info("Instantiated  Grid Search Cross Validator object")
 
             cls.logger.warning("Fitting models using Cross Validator")
-            cls.logger.warning("Data frame columns: " + str(data.columns.to_list() + target.columns.to_list()))
+            cls.logger.warning("Data frame columns: " + str(data.columns.to_list() + CommonConstants.TARGET_COLUMN_TAG))
 
             cv_model = grid_search_clf.fit(data, target)
             cls.logger.warning("Model fitted")

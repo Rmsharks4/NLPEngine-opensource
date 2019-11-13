@@ -1,11 +1,11 @@
-from aicommonspython.commonutils.CommonConstants import CommonConstants
-from aicommonspython.commonutils.CommonUtilities import CommonUtilities
+from AICommons.aicommons.commonutils.CommonConstants import CommonConstants
+from AICommons.aicommons.commonutils.CommonUtilities import CommonUtilities
 
-from commonexceps.MissingMandatoryFieldException import MissingMandatoryFieldException
-from commonexceps.InvalidInfoException import InvalidInfoException
-from commonexceps.CommonBaseException import CommonBaseException
+from CommonExceps.commonexceps.MissingMandatoryFieldException import MissingMandatoryFieldException
+from CommonExceps.commonexceps.InvalidInfoException import InvalidInfoException
+from CommonExceps.commonexceps.CommonBaseException import CommonBaseException
 import logging
-from aicommonspython.utils.Constants import Constants
+from AICommons.aicommons.utils.Constants import Constants
 
 from pyspark.ml import Pipeline, PipelineModel
 

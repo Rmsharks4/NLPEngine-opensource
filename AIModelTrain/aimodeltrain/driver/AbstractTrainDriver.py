@@ -26,5 +26,5 @@ class AbstractTrainDriver(ABC):
     logger = logging.getLogger(Constants.LOGGER_NAME)
 
     @abstractmethod
-    def train_model(self, train_data, model_params, model_hyper_params, model_cross_validator_params):
+    def train_model(self, data, target, model_params, model_hyper_params, model_cross_validator_params):
         pass
