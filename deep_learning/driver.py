@@ -71,22 +71,5 @@ data_obj = dao_obj.load(['../../data/input.csv', 'NLPService'])
 data_obj = run_preprocessor(preconfiglist, data_obj)
 data_obj = run_feature_engineer(feaconfiglist, data_obj)
 
-# 1. WRITE CODE FOR ACTIVE LISTENING HANDLER
 
-# Create Active Listening Class
-# Write its configs in its class
-# Write configs of all Layers in their class too
-# then use its vectorizer type and req_input to call vectorizer
-# then call create model and train model
-# then call test and evaluate
-
-# 2. DATA SPLITS DO HERE
-
-# 3. CONFIG ARGUMENTS FOR EVERY LAYER
-
-# 4. DEFINE IN LAYER CLASSES TOO
-
-# 5. RUN MODEL
-
-# 6. PREDICT ACCURACY
 

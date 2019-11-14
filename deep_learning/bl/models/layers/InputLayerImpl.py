@@ -1,4 +1,4 @@
-from deep_learning.bl.models.layers.AbstractLayer import AbstractLayer
+from deep_learning.bl.models.layers import AbstractLayer
 
 
 class InputLayerImpl(AbstractLayer):

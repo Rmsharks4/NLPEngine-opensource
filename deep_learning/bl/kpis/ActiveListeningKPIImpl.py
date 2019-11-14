@@ -1,9 +1,23 @@
 from deep_learning.bl.kpis.AbstractKPI import AbstractKPI
+from deep_learning.bl.kpis.AppropriateToneKPIImpl import AppropriateToneKPIImpl
+
+from data.bl.ConversationIDDataImpl import ConversationIDDataImpl
+from data.bl.StartTimeDataImpl import StartTimeDataImpl
+from data.bl.EndTimeDataImpl import EndTimeDataImpl
+from data.bl.SpeakerDataImpl import SpeakerDataImpl
+
+from feature_engineering.bl.NGramsDialogueFeatureEngineerImpl import NGramsDialogueFeatureEngineerImpl
+from feature_engineering.bl.acts.QWhDialogueActImpl import QWhDialogueActImpl
+from feature_engineering.bl.acts.QYnDialogueActImpl import QYnDialogueActImpl
+from feature_engineering.bl.steps.BackwardStepsDialogueFeatureEngineerImpl import BackwardStepsDialogueFeatureEngineerImpl
+from feature_engineering.bl.steps.ForwardStepsDialogueFeatureEngineerImpl import ForwardStepsDialogueFeatureEngineerImpl
+
 from deep_learning.bl.models.CNNDeepLearningModelImpl import CNNDeepLearningModelImpl
+
 from deep_learning.bl.models.layers.RecurrentLayerImpl import RecurrentLayerImpl
+from deep_learning.bl.models.layers.DenseLayerImpl import DenseLayerImpl
 from deep_learning.bl.models.layers.ActivationLayerImpl import ActivationLayerImpl
 from deep_learning.bl.models.layers.ConvolutionLayerImpl import ConvolutionLayerImpl
-from deep_learning.bl.models.layers.DenseLayerImpl import DenseLayerImpl
 from deep_learning.bl.models.layers.DropoutLayerImpl import DropoutLayerImpl
 from deep_learning.bl.models.layers.EmbeddingLayerImpl import EmbeddingLayerImpl
 from deep_learning.bl.models.layers.InputLayerImpl import InputLayerImpl
@@ -18,8 +32,16 @@ class ActiveListeningKPIImpl(AbstractKPI):
 
     def __init__(self):
         super().__init__()
-        self.config_pattern.properties.req_data = [[]]
-        self.config_pattern.properties.req_input = [[]]
+        self.config_pattern.properties.req_data = [[AppropriateToneKPIImpl.__name__]]
+        self.config_pattern.properties.req_input = [[ConversationIDDataImpl.__name__,
+                                                     SpeakerDataImpl.__name__,
+                                                     StartTimeDataImpl.__name__,
+                                                     EndTimeDataImpl.__name__,
+                                                     NGramsDialogueFeatureEngineerImpl.__name__,
+                                                     BackwardStepsDialogueFeatureEngineerImpl.__name__,
+                                                     ForwardStepsDialogueFeatureEngineerImpl.__name__,
+                                                     QWhDialogueActImpl.__name__,
+                                                     QYnDialogueActImpl.__name__]]
         self.config_pattern.properties.req_args = [[]]
         self.cls_model = CNNDeepLearningModelImpl()
 
