@@ -16,15 +16,11 @@ this class follows the following flow of pre-processing (as visible in configura
 
 """
 
-import pandas as pd
 from preprocessing.bl.AbstractDialoguePreProcessorHandler import AbstractDialoguePreProcessingHandler
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 from preprocessing.utils.UtilsFactory import UtilsFactory
 from commons.dao.PandasDAOImpl import PandasDAOImpl
-from CommonExceps.commonexceps.MissingMandatoryFieldException import MissingMandatoryFieldException
-from CommonExceps.commonexceps.InvalidInfoException import InvalidInfoException
-from commons.config.AbstractConfig import AbstractConfig
 
 
 class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingHandler):
@@ -128,7 +124,7 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
                 if key in df.columns:
                     dfargs[key] = df[key]
 
-            df[colname] = processor.preprocess_operation(dfargs)
+            df[colname] = processor.preprocess(dfargs)
 
         for col in df.columns:
             df[col] = df[col].apply(lambda x: str(x))
@@ -150,41 +146,3 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
             indices[next] += 1
             for i in range(next + 1, n):
                 indices[i] = 0
-
-    def validation(self, args):
-        if args is None:
-            self.logger.error(MissingMandatoryFieldException.__name__, 'Given:', type(None))
-            raise MissingMandatoryFieldException('Given:', type(None))
-        if not isinstance(args, dict):
-            self.logger.error(InvalidInfoException.__name__,
-                              'Given:', type(args), 'Required:', type(dict))
-            raise InvalidInfoException('Given:', type(args), 'Required:', type(dict))
-        if AbstractDialoguePreProcessor.__name__ not in args:
-            self.logger.error(MissingMandatoryFieldException.__name__,
-                              'Given:', args.items(), 'Required:', AbstractDialoguePreProcessor.__name__)
-            raise MissingMandatoryFieldException('Given:', args.items(),
-                                                 'Required:', AbstractDialoguePreProcessor.__name__)
-        if args[AbstractDialoguePreProcessor.__name__] is None:
-            self.logger.error(MissingMandatoryFieldException.__name__,
-                              'Given:', type(None), 'Required:', type(list))
-            raise MissingMandatoryFieldException('Given:', type(None), 'Required:', type(list))
-        if not isinstance(args[AbstractDialoguePreProcessor.__name__], list):
-            self.logger.error(InvalidInfoException.__name__,
-                              'Given:', type(args[AbstractDialoguePreProcessor.__name__]),
-                              'Required:', type(list))
-            raise InvalidInfoException('Given:', type(args[AbstractDialoguePreProcessor.__name__]),
-                                       'Required:', type(list))
-        for config in args[AbstractDialoguePreProcessor.__name__]:
-            if not isinstance(config, AbstractConfig):
-                self.logger.error(InvalidInfoException.__name__,
-                                  'Given:', type(config), 'Required:', type(AbstractConfig))
-                raise InvalidInfoException('Given:', type(config), 'Required:', type(AbstractConfig))
-        if PandasDAOImpl.__name__ not in args:
-            self.logger.error(MissingMandatoryFieldException.__name__,
-                              'Given:', args.items(), 'Required:', PandasDAOImpl.__name__)
-            raise MissingMandatoryFieldException('Given:', args.items(), 'Required:', PandasDAOImpl.__name__)
-        if args[PandasDAOImpl.__name__] is None:
-            self.logger.error(MissingMandatoryFieldException.__name__,
-                              'Given:', type(None), 'Required:', type(pd.DataFrame))
-            raise MissingMandatoryFieldException('Given:', type(None), 'Required:', type(pd.DataFrame))
-        return True

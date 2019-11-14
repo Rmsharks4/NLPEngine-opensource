@@ -15,6 +15,10 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.bl.LowercaseDialoguePreProcessorImpl import LowercaseDialoguePreProcessorImpl
 from preprocessing.utils.StopWordsDictionary import StopWordsDictionary
 import re
+import pandas as pd
+from CommonExceps.commonexceps.InvalidInfoException import InvalidInfoException
+from CommonExceps.commonexceps.MissingMandatoryFieldException import MissingMandatoryFieldException
+from CommonExceps.commonexceps.CommonBaseException import CommonBaseException
 
 
 class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -28,23 +32,46 @@ class RemoveStopWordsDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         self.config_pattern.properties.req_data = [[LowercaseDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = StopWordsDictionary.__name__
 
-    @classmethod
-    def remove_stop_words(cls, text, stopwords):
-        """
+    def preprocess_operation(self, text, utils):
+        return ''.join(x+' ' if x not in utils.stopwords_dict else utils.stopwords_replace for x in re.split('[\s,]+', text))
 
-        :param text: (str) string to examine
-        :param stopwords: (StopWordsDictionary) stop words utils
-        :return: (str) preprocessed data
-        """
-        return ''.join(x+' ' if x not in stopwords.stopwords_dict else stopwords.stopwords_replace for x in re.split('[\s,]+', text))
+    def preprocess_validation(self, args):
 
-    def preprocess_operation(self, args):
-        """
+        # TRY THIS:
+        try:
 
-        :param args: (dict) contains req_data and req_args
-        (SpellCheckerDialoguePreProcessorImpl)
-        (StopWordsDictionary)
-        :return: (list) array of preprocessed data
-        """
-        return args[LowercaseDialoguePreProcessorImpl.__name__].apply(
-            lambda x: self.remove_stop_words(x, args[self.config_pattern.properties.req_args]))
+            # IF INITIAL VALIDATION SUCCESSFUL:
+            if super().preprocess_validation(args):
+
+                # FOR ALL REQ_INPUT:
+                if self.config_pattern.properties.req_input is not None:
+                    for arr in self.config_pattern.properties.req_input:
+                        for elem in arr:
+
+                            # IF ROW-WISE ELEMENT IN ARGS IS NOT OF REQUIRED DATA TYPE:
+                            if args[elem].dtype != str:
+
+                                # ERROR:
+                                self.logger.error(InvalidInfoException.__name__,
+                                                  'Given:', args[elem].dtype, 'Required:', str)
+                                raise InvalidInfoException('Given:', args[elem].dtype, 'Required:', str)
+
+                # FOR ALL REQ_DATA:
+                if self.config_pattern.properties.req_data is not None:
+                    for arr in self.config_pattern.properties.req_data:
+                        for elem in arr:
+
+                            # IF ROW-WISE ELEMENT IN ARGS IS NOT OF REQUIRED DATA TYPE:
+                            if args[elem].dtype != str:
+
+                                # ERROR:
+                                self.logger.error(InvalidInfoException.__name__,
+                                                  'Given:', args[elem].dtype, 'Required:', str)
+                                raise InvalidInfoException('Given:', args[elem].dtype, 'Required:', str)
+
+                # ALL CASES POSITIVE
+                return True
+
+        # CATCH ERRORS:
+        except (MissingMandatoryFieldException, InvalidInfoException) as exp:
+            raise CommonBaseException(exp)

@@ -15,6 +15,10 @@ from preprocessing.bl.RemoveStopWordsDialoguePreProcessorImpl import RemoveStopW
 from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePreProcessor
 from preprocessing.utils.WordnetLemmatizer import WordnetLemmatizer
 import re
+import pandas as pd
+from CommonExceps.commonexceps.InvalidInfoException import InvalidInfoException
+from CommonExceps.commonexceps.MissingMandatoryFieldException import MissingMandatoryFieldException
+from CommonExceps.commonexceps.CommonBaseException import CommonBaseException
 
 
 class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
@@ -28,23 +32,46 @@ class WordNetLemmatizerDialoguePreProcessorImpl(AbstractDialoguePreProcessor):
         self.config_pattern.properties.req_data = [[RemoveStopWordsDialoguePreProcessorImpl.__name__]]
         self.config_pattern.properties.req_args = WordnetLemmatizer.__name__
 
-    @classmethod
-    def lemmatize(cls, text, lemmatizer):
-        """
+    def preprocess_operation(self, text, utils):
+        return ' '.join(utils.lemmatizer_lib.lemmatize(x, pos=utils.lemmatize_mode) for x in re.split('[\s,]+', text))
 
-        :param text: (str) string to examine
-        :param lemmatizer: (WordnetLemmatizer) lemmatizer utils
-        :return:
-        """
-        return ' '.join(lemmatizer.lemmatizer_lib.lemmatize(x, pos=lemmatizer.lemmatize_mode) for x in re.split('[\s,]+', text))
+    def preprocess_validation(self, args):
 
-    def preprocess_operation(self, args):
-        """
+        # TRY THIS:
+        try:
 
-        :param args: (dict) contains req_data and req_args
-        (RemoveStopWordsDialoguePreProcessorImpl) (SpellCheckerDialoguePreProcessorImpl)
-        (WordnetLemmatizer)
-        :return: (list) array of preprocessed data
-        """
-        return args[RemoveStopWordsDialoguePreProcessorImpl.__name__].apply(
-            lambda x: self.lemmatize(x, args[self.config_pattern.properties.req_args]))
+            # IF INITIAL VALIDATION SUCCESSFUL:
+            if super().preprocess_validation(args):
+
+                # FOR ALL REQ_INPUT:
+                if self.config_pattern.properties.req_input is not None:
+                    for arr in self.config_pattern.properties.req_input:
+                        for elem in arr:
+
+                            # IF ROW-WISE ELEMENT IN ARGS IS NOT OF REQUIRED DATA TYPE:
+                            if args[elem].dtype != str:
+
+                                # ERROR:
+                                self.logger.error(InvalidInfoException.__name__,
+                                                  'Given:', args[elem].dtype, 'Required:', str)
+                                raise InvalidInfoException('Given:', args[elem].dtype, 'Required:', str)
+
+                # FOR ALL REQ_DATA:
+                if self.config_pattern.properties.req_data is not None:
+                    for arr in self.config_pattern.properties.req_data:
+                        for elem in arr:
+
+                            # IF ROW-WISE ELEMENT IN ARGS IS NOT OF REQUIRED DATA TYPE:
+                            if args[elem].dtype != str:
+
+                                # ERROR:
+                                self.logger.error(InvalidInfoException.__name__,
+                                                  'Given:', args[elem].dtype, 'Required:', str)
+                                raise InvalidInfoException('Given:', args[elem].dtype, 'Required:', str)
+
+                # ALL CASES POSITIVE
+                return True
+
+        # CATCH ERRORS:
+        except (MissingMandatoryFieldException, InvalidInfoException) as exp:
+            raise CommonBaseException(exp)

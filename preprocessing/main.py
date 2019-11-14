@@ -17,18 +17,24 @@ from preprocessing.bl.AbstractDialoguePreProcessor import AbstractDialoguePrePro
 from preprocessing.bl.StandardFlowDialoguePreProcessorHandlerImpl import StandardFlowDialoguePreProcessorHandlerImpl
 from preprocessing.bl.AbstractDialoguePreProcessorFactory import AbstractDialoguePreProcessorFactory
 
-configlist = dict()
+# configlist = dict()
+#
+# var = StandardConfigParserImpl()
+# var.read_config('resources/'+AbstractDialoguePreProcessor.__name__+'.ini')
+#
+# for config in var.config_pattern.properties.children:
+#     configparser = StandardConfigParserImpl()
+#     configparser.read_config('resources/'+config+'.ini')
+#     configlist[config] = configparser.config_pattern
+#
+# service = PreProcessorService()
+# service.run({
+#     PandasDAOImpl.__name__: '../../data/' + AbstractDialoguePreProcessor.__name__ + '.csv',
+#     StandardFlowDialoguePreProcessorHandlerImpl.__name__: configlist
+# })
 
-var = StandardConfigParserImpl()
-var.read_config('resources/'+AbstractDialoguePreProcessor.__name__+'.ini')
+from preprocessing.utils.EmailsDictionary import EmailsDictionary
+import pandas as pd
 
-for config in var.config_pattern.properties.children:
-    configparser = StandardConfigParserImpl()
-    configparser.read_config('resources/'+config+'.ini')
-    configlist[config] = configparser.config_pattern
-
-service = PreProcessorService()
-service.run({
-    PandasDAOImpl.__name__: '../../data/' + AbstractDialoguePreProcessor.__name__ + '.csv',
-    StandardFlowDialoguePreProcessorHandlerImpl.__name__: configlist
-})
+e = EmailsDictionary()
+print(EmailsDictionary)

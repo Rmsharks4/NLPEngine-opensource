@@ -7,9 +7,9 @@ import re
 import os
 import csv
 
-file_path = '../data/remaining-active-listening/'
+file_path = '../data/omaha/'
 
-arr = ['216.22/', '216.23/', '219.18/']
+arr = ['222.155/', '222.156/', '223.155/']
 
 rows = []
 
@@ -42,12 +42,11 @@ for elem in arr:
             #     txt_file.close()
 #             with open(file_path+elem+filename) as json_file:
 #                 data = json.load(json_file)
-#                 print(file_path+elem+filename)
 #                 for line in data:
 #                     rows.append(['\''+filename[:17], line['speaker'], line['transcript']])
 #
 # df = pd.DataFrame(rows, columns=['Call ID', 'Speaker', 'Conversation', ])
-# df.to_csv('remaining-active-listening.csv')
+# df.to_csv('omaha.csv')
 
 # file_path = '../../data/calls/'
 #

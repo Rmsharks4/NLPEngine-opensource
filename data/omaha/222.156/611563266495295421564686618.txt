@@ -88,22 +88,7 @@
     "speaker": 1
   },
   {
-    "transcript": " okay let me up to your home phone number okay we want to thank you and extend a warm welcome to you for being part of the drug 
-	express program we have updated our systems to provide you better service as always you can use your card or MasterCard is accepted this includes 
-	making purchases setting up automatic bill payments for utilities and smartphones as well as ATM withdraws let me sure three features available 
-	to you we have the direct express cash access feature which allows you to go to any woman location and access cash from your card without making 
-	a purchase for fear of a dollar fifty you can enjoy the do cardholder website to access your card information check your balances view and print 
-	your transactions and make changes to your personal information you may also set up alerts notifying you of opposed to deposit low balance 
-	transaction activity and changing pin you can go to W. W. W. dot your strikes rest dot com to access our website because you're just like the 
-	card beginning with the five one also you can perform very selective these using our automated phone system to just card activation pin changes
-	balance inquire reason listen the transaction details our friendly agents are available to you twenty four seven three sixty five in coming soon 
-	we have a new mobile app to help you stay connected with your card account anytime anywhere we will soon be offering a cardinal differently mobile 
-	app again we are happy to walk me to the direct express program and believe you'll find %HESITATION features and benefits convenient easy to use 
-	Kathy just an FYI for you because I know you don't have a mobile phone number or an email address but if you were to get one in the future you can 
-	call us to let us know and we can set up the alerts for you these alerts provide you with real time updates about your basic card activity we 
-	don't charge you for the messages however the standard text message rates would apply by your wireless Kerrier and we do recommend that you have 
-	them so if you if you do get a mobile phone number in the future please give us a call back and we can update that information for you anything 
-	else I can help you with today okay thank you for calling direct express card services and you have a wonderful rest of the day",
+    "transcript": "okay let me up to your home phone number okay we want to thank you and extend a warm welcome to you for being part of the drug express program we have updated our systems to provide you better service as always you can use your card or MasterCard is accepted this includes making purchases setting up automatic bill payments for utilities and smartphones as well as ATM withdraws let me sure three features available to you we have the direct express cash access feature which allows you to go to any woman location and access cash from your card without making a purchase for fear of a dollar fifty you can enjoy the do cardholder website to access your card information check your balances view and print your transactions and make changes to your personal information you may also set up alerts notifying you of opposed to deposit low balance transaction activity and changing pin you can go to W. W. W. dot your strikes rest dot com to access our website because you're just like the card beginning with the five one also you can perform very selective these using our automated phone system to just card activation pin changes balance inquire reason listen the transaction details our friendly agents are available to you twenty four seven three sixty five in coming soon we have a new mobile app to help you stay connected with your card account anytime anywhere we will soon be offering a cardinal differently mobile app again we are happy to walk me to the direct express program and believe you'll find %HESITATION features and benefits convenient easy to use Kathy just an FYI for you because I know you don't have a mobile phone number or an email address but if you were to get one in the future you can call us to let us know and we can set up the alerts for you these alerts provide you with real time updates about your basic card activity we don't charge you for the messages however the standard text message rates would apply by your wireless Kerrier and we do recommend that you have them so if you if you do get a mobile phone number in the future please give us a call back and we can update that information for you anything else I can help you with today okay thank you for calling direct express card services and you have a wonderful rest of the day",
     "speaker": 0
   }
 ]
