@@ -13,8 +13,12 @@ class AbstractTagsDialogueFeatureEngineerImpl(AbstractDialogueFeatureEngineer):
         self.config_pattern.properties.req_args = SpacyModel.__name__
 
     def engineer_feature_operation(self, args):
-        return args[RemovePunctuationDialoguePreProcessorImpl.__name__].apply(
-            lambda x: self.tags(args[SpacyModel.__name__].nlp(str(x))))
+        if self.config_pattern.properties.req_input is not None:
+            return args[RemovePunctuationDialoguePreProcessorImpl.__name__].apply(
+                lambda x: args[SpacyModel.__name__].nlp(str(x)))
+        else:
+            return args[AbstractTagsDialogueFeatureEngineerImpl.__name__].apply(
+                lambda x: self.tags(x))
 
     def tags(self, args):
         pass

@@ -28,7 +28,6 @@ class AbstractDialoguePreProcessingHandler(metaclass=abc.ABCMeta):
         """
         self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
-    @abc.abstractmethod
     def perform_preprocessing(self, args):
         """
 

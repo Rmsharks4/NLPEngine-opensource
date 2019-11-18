@@ -38,7 +38,7 @@ class PreProcessorService:
         :return: (SparkDAOImpl) DAO object to use further
         """
 
-        handler_obj = AbstractDialoguePreProcessorHandlerFactory.get_dialogue_preprocessor_handler(
+        handler_obj = AbstractDialoguePreProcessorHandlerFactory().get_dialogue_preprocessor_handler(
             StandardFlowDialoguePreProcessorHandlerImpl.__name__)
         return handler_obj.perform_preprocessing({
             AbstractDialoguePreProcessor.__name__: args[StandardFlowDialoguePreProcessorHandlerImpl.__name__],

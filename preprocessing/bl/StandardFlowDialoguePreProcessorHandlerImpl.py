@@ -75,7 +75,7 @@ class StandardFlowDialoguePreProcessorHandlerImpl(AbstractDialoguePreProcessingH
 
             print('Processor: ', pre, 'running ...')
 
-            processor = AbstractDialoguePreProcessorFactory.get_dialogue_preprocessor(pre)
+            processor = AbstractDialoguePreProcessorFactory().get_dialogue_preprocessor(pre)
             input_data = []
 
             if processor.config_pattern.properties.req_input is not None:

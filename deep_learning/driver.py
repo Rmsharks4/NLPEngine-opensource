@@ -67,7 +67,7 @@ for config in var.config_pattern.properties.children:
     feaconfiglist[config] = configparser.config_pattern
 
 dao_obj = AbstractDAOFactory.get_dao(PandasDAOImpl.__name__)
-data_obj = dao_obj.load(['../../data/input.csv', 'NLPService'])
+data_obj = dao_obj.load(['../../data/input.csv', 'TempService'])
 data_obj = run_preprocessor(preconfiglist, data_obj)
 data_obj = run_feature_engineer(feaconfiglist, data_obj)
 

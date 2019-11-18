@@ -25,7 +25,7 @@ class AbstractDialoguePreProcessorHandlerFactory:
         """
         self.logger = logging.getLogger(PreProcessingLogger.__name__)
 
-    def get_dialogue_handler_handler(self, handler_type):
+    def get_dialogue_preprocessor_handler(self, handler_type):
 
         # TRY THIS:
         try:

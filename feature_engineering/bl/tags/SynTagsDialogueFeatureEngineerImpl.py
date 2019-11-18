@@ -4,6 +4,11 @@ from nltk.corpus import wordnet
 
 class SynTagsDialogueFeatureEngineerImpl(AbstractTagsDialogueFeatureEngineerImpl):
 
+    def __init__(self):
+        super().__init__()
+        self.config_pattern.properties.req_data = [[AbstractTagsDialogueFeatureEngineerImpl.__name__]]
+        self.config_pattern.properties.req_input = None
+
     @staticmethod
     def synonyms(token):
         synonyms = []

@@ -33,7 +33,7 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl):
         try:
 
             # IF INITIAL VALIDATION SUCCESSFUL:
-            if self.preprocess_validation(args):
+            # if self.preprocess_validation(args):
 
                 # CREATE RESULTANT DATAFRAME:
                 res = pd.DataFrame()
@@ -44,8 +44,8 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl):
                         for elem in arr:
 
                             # PERFORM PREPROCESS OPERATION:
-                            res = res.concat(args[elem].apply(
-                                lambda x: self.preprocess_operation(x, args[self.config_pattern.properties.req_args])))
+                            res =args[elem].apply(
+                                lambda x: self.preprocess_operation(x, args[self.config_pattern.properties.req_args]))
 
                 # FOR ALL REQ_DATA:
                 if self.config_pattern.properties.req_data is not None:
@@ -53,8 +53,8 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl):
                         for elem in arr:
 
                             # PERFORM PREPROCESS OPERATION
-                            res = res.concat(args[elem].apply(
-                                lambda x: self.preprocess_operation(x, args[self.config_pattern.properties.req_args])))
+                            res = args[elem].apply(
+                                lambda x: self.preprocess_operation(x, args[self.config_pattern.properties.req_args]))
 
                 # RETURN RESULTANT DATAFRAME
                 return res
@@ -148,34 +148,34 @@ class AbstractDialoguePreProcessor(StandardConfigParserImpl):
 
         # FOR ALL REQ_ARGS:
         if self.config_pattern.properties.req_args is not None:
-            for arr in self.config_pattern.properties.req_args:
-                for elem in arr:
 
-                    # IF ELEMENT IS MISSING FROM ARGS:
-                    if elem not in args:
+            elem = self.config_pattern.properties.req_args
 
-                        # ERROR:
-                        self.logger.error(MissingMandatoryFieldException.__name__,
-                                          'Given:', args.keys(), 'Required:', elem)
-                        raise MissingMandatoryFieldException('Given:', args.keys(), 'Required:', elem)
+            # IF ELEMENT IS NOT IN ARGS:
+            if elem not in args:
 
-                    # IF ELEMENT IN ARGS IS NONE:
-                    if args[elem] is None:
+                # ERROR:
+                self.logger.error(MissingMandatoryFieldException.__name__,
+                                  'Given:', args.keys(), 'Required:', elem)
+                raise MissingMandatoryFieldException('Given:', args.keys(), 'Required:', elem)
 
-                        # ERROR:
-                        self.logger.error(MissingMandatoryFieldException.__name__,
-                                          'Given:', None, 'Required:', AbstractUtils)
-                        raise MissingMandatoryFieldException('Given:', None, 'Required:', AbstractUtils)
+            # IF ELEMENT IN ARGS IS NONE:
+            if args[elem] is None:
 
-                    # IF ELEMENT IN ARGS IS NOT OF REQUIRED DATA TYPE
-                    if not isinstance(args[elem], type(UtilsFactory.get_utils(elem))):
+                # ERROR:
+                self.logger.error(MissingMandatoryFieldException.__name__,
+                                  'Given:', None, 'Required:', AbstractUtils)
+                raise MissingMandatoryFieldException('Given:', None, 'Required:', AbstractUtils)
 
-                        # ERROR:
-                        self.logger.error(InvalidInfoException.__name__,
-                                          'Given:', type(args[elem]),
-                                          'Required:', type(UtilsFactory.get_utils(elem)))
-                        raise InvalidInfoException('Given:', type(args[elem]),
-                                                   'Required:', type(UtilsFactory.get_utils(elem)))
+            # IF ELEMENT IN ARGS IS NOT OF REQUIRED DATA TYPE
+            if not isinstance(args[elem], type(UtilsFactory.get_utils(elem))):
+
+                # ERROR:
+                self.logger.error(InvalidInfoException.__name__,
+                                  'Given:', type(args[elem]),
+                                  'Required:', type(UtilsFactory.get_utils(elem)))
+                raise InvalidInfoException('Given:', type(args[elem]),
+                                           'Required:', type(UtilsFactory.get_utils(elem)))
 
         # ALL CASES POSITIVE
         return True

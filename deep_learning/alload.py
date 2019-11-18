@@ -57,11 +57,6 @@ for row in labels_df.values:
 tlabels_df = pd.DataFrame(final, index=None, columns=['ConversationIDDataImpl', 'ConversationCorpus',
                                                       'Actively_listened_and_acknowledged_concerns'])
 
-from sklearn.model_selection import train_test_split
-
-# X_train, X_test, y_train, y_test = train_test_split(tlabels_df['ConversationCorpus'],
-#                                                     tlabels_df['Actively_listened_and_acknowledged_concerns'],
-#                                                     test_size=0.33, random_state=42)
 
 print('train label divide')
 train_text = tlabels_df['ConversationCorpus'].tolist()
@@ -100,12 +95,11 @@ def f1(y_true, y_pred):
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy', precision, recall, f1])
 model.summary()
 
-print('model train')
-model.fit(train_text,
-          train_label,
-          epochs=1,
-          batch_size=32)
+model.load_weights('ElmoModel_Version1.h5')
 
-model.save('ElmoModel_Version1.h5')
+outs = model.predict(train_text[1:100])
 
-print(model.predict(train_text[1:100]))
+i = 0
+for row in train_text[1:100]:
+    print(row, outs[i])
+    i += 1
