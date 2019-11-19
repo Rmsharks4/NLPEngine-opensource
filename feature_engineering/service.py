@@ -11,6 +11,10 @@ from feature_engineering.bl.NGramsDialogueFeatureEngineerImpl import NGramsDialo
 from feature_engineering.bl.WordsPerMinuteDialogueFeatureEngineerImpl import WordsPerMinuteDialogueFeatureEngineerImpl
 
 # abc = AbstractDialogueFeatureEngineer().parse()
+
+
+# WORDS = WordsPerMinuteDialogueFeatureEngineerImpl().engineer_feature()
+# WORDS.parse()
 #
 # for y in AbstractDialogueFeatureEngineer().__class__.__subclasses__():
 #     y().parse()

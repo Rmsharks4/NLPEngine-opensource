@@ -33,13 +33,16 @@ class ModelTrainDriver(AbstractTrainDriver):
     def __init__(self):
         self.logger = logging.getLogger(Constants.LOGGER_NAME)
 
-    def __argument_empty_none_validation(self, data, model_params, model_hyper_params):
+    def __argument_empty_none_validation(self, data, model_params, model_hyper_params, model_cross_validator_params):
         if data is None:
             self.logger.error("MissingMandatoryFieldException : 'data' argument is None")
             raise MissingMandatoryFieldException("'data' argument is None")
         if model_params is None:
             self.logger.error("MissingMandatoryFieldException : 'model_params' argument is None")
             raise MissingMandatoryFieldException("'model_params' argument is None")
+        elif model_params[CommonConstants.ENABLE_CV_TAG] == 'Y' and model_cross_validator_params is None:
+            self.logger.error("MissingMandatoryFieldException : 'model_cross_validator_params' argument is None")
+            raise MissingMandatoryFieldException("'model_cross_validator_params' argument is None")
         if model_hyper_params is None:
             self.logger.error("MissingMandatoryFieldException : 'model_hyper_params' argument is None")
             raise MissingMandatoryFieldException("'model_hyper_params' argument is None")
@@ -55,9 +58,9 @@ class ModelTrainDriver(AbstractTrainDriver):
             self.logger.error("InvalidInfoException : argument 'model_hyper_params' is not of type dictionary")
             raise InvalidInfoException("argument 'model_hyper_params' is not of type dictionary")
 
-    def __validate_arguments(self, data, model_params, model_hyper_params):
+    def __validate_arguments(self, data, model_params, model_hyper_params, model_cross_validator_params):
         try:
-            self.__argument_empty_none_validation(data, model_params, model_hyper_params)
+            self.__argument_empty_none_validation(data, model_params, model_hyper_params, model_cross_validator_params)
             self.__argument_type_validation(data, model_params, model_hyper_params)
         except MissingMandatoryFieldException as exp:
             raise exp
@@ -77,7 +80,7 @@ class ModelTrainDriver(AbstractTrainDriver):
         try:
 
             self.logger.warning("Validating the arguments")
-            self.__validate_arguments(data, model_params, model_hyper_params)
+            self.__validate_arguments(data, model_params, model_hyper_params,model_cross_validator_params)
 
             # self.logger.warning("Validating the model parameters")
             # CommonValidations.validate_model_params(model_params)
@@ -117,7 +120,7 @@ class ModelTrainDriver(AbstractTrainDriver):
                                 + str(merged_params_dict))
             model = model_class.initialize_model(params_dict=merged_params_dict)
             self.logger.warning("Model object initialized" + " with target column: " + CommonConstants.TARGET_COLUMN_TAG
-                                + "with parameters: " + str(merged_params_dict))
+                                + "with parameters: " + str(model.get_params()))
 
             if (model_params.get(CommonConstants.ENABLE_CV_TAG, None) is None) or \
                     (model_params[CommonConstants.ENABLE_CV_TAG] != 'Y'):

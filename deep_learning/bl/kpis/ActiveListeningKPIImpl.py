@@ -28,11 +28,13 @@ from deep_learning.bl.models.layers.ConcatenateLayerImpl import ConcatenateLayer
 from deep_learning.bl.models.layers.TimeDistributedLayerImpl import TimeDistributionLayerImpl
 
 
+
 class ActiveListeningKPIImpl(AbstractKPI):
 
     def __init__(self):
         super().__init__()
         self.config_pattern.properties.req_data = [[AppropriateToneKPIImpl.__name__]]
+        # REQ_DATA: PREVIOUSLY REQUIRED MODELS
         self.config_pattern.properties.req_input = [[ConversationIDDataImpl.__name__,
                                                      SpeakerDataImpl.__name__,
                                                      StartTimeDataImpl.__name__,
@@ -42,7 +44,9 @@ class ActiveListeningKPIImpl(AbstractKPI):
                                                      ForwardStepsDialogueFeatureEngineerImpl.__name__,
                                                      QWhDialogueActImpl.__name__,
                                                      QYnDialogueActImpl.__name__]]
-        self.config_pattern.properties.req_args = [[]]
+        # REQ_INPUT:
+        self.config_pattern.properties.req_args = None
+        # REQ_ARGS:
         self.cls_model = CNNDeepLearningModelImpl()
 
     def create_model(self, args):
