@@ -13,24 +13,24 @@ from feature_engineering.bl.WordsPerMinuteDialogueFeatureEngineerImpl import Wor
 # abc = AbstractDialogueFeatureEngineer().parse()
 
 
-# WORDS = WordsPerMinuteDialogueFeatureEngineerImpl().engineer_feature()
-# WORDS.parse()
-#
+WORDS = WordsPerMinuteDialogueFeatureEngineerImpl().engineer_feature()
+WORDS.parse()
+
 # for y in AbstractDialogueFeatureEngineer().__class__.__subclasses__():
 #     y().parse()
 #     [x().parse() for x in y().__class__.__subclasses__()]
-
-var = StandardConfigParserImpl()
-var.read_config('resources/'+AbstractDialogueFeatureEngineer.__name__+'.ini')
-
-configlistdial = dict()
-
-for config in var.config_pattern.properties.children:
-    configparser = StandardConfigParserImpl()
-    configparser.read_config('resources/'+config+'.ini')
-    configlistdial[config] = configparser.config_pattern
-
-service = FeatureEngineeringService()
-service.run({
-    PandasDAOImpl.__name__: '../../data/' + FeatureEngineeringService.__name__ + '.csv',
-    StandardFlowDialogueFeatureEngineerHandlerImpl.__name__: configlistdial})
+#
+# var = StandardConfigParserImpl()
+# var.read_config('resources/'+AbstractDialogueFeatureEngineer.__name__+'.ini')
+#
+# configlistdial = dict()
+#
+# for config in var.config_pattern.properties.children:
+#     configparser = StandardConfigParserImpl()
+#     configparser.read_config('resources/'+config+'.ini')
+#     configlistdial[config] = configparser.config_pattern
+#
+# service = FeatureEngineeringService()
+# service.run({
+#     PandasDAOImpl.__name__: '../../data/' + FeatureEngineeringService.__name__ + '.csv',
+#     StandardFlowDialogueFeatureEngineerHandlerImpl.__name__: configlistdial})
