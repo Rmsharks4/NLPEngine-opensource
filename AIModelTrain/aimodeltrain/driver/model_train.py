@@ -20,7 +20,7 @@ target = breast_cancer_data_set.target
 model_params = {
     "model_name": "naive_bayes",
     "enable_cv": "Y",
-    "features_column": "",
+    "feature_list": training_df.columns.to_list(),
     "targetCol":  breast_cancer_data_set.target_names
 }
 

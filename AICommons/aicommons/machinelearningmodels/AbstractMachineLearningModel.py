@@ -9,8 +9,10 @@ Class Functions:
 initialize_model
 train
 predict
-get_debug_string
-get_load_object
+get_model_params
+get_default_params
+build_param_grid
+perform_cross_validation
 
 """
 
@@ -31,7 +33,7 @@ class AbstractMachineLearningModel(ABC):
         pass
 
     @classmethod
-    def train(cls, model, data, target):
+    def train(cls, model, data, target, params_dict):
         """
         Trains model on the provided data
 
@@ -53,20 +55,19 @@ class AbstractMachineLearningModel(ABC):
 
 
     @classmethod
-    def predict(cls, model, data):
+    def predict(cls, model, data, params_dict):
         """
         Makes predictions on data using a trained model object
 
         :param model: model object to be used for predictions
         :param data: dataframe with data to make predictions on
-        :return: initial datafarme with predictions appended to it
+        :return: An array of the target predictions
         """
         try:
             cls.logger.info("Predicting on data")
             cls.logger.debug("Dataframe columns: " + str(data.columns))
             predicted_data = model.predict(data)
             cls.logger.info("Predictions made")
-            cls.logger.debug("Predicted data columns: " + str(predicted_data.columns))
             return predicted_data
 
         except Exception as exp:
@@ -75,6 +76,10 @@ class AbstractMachineLearningModel(ABC):
 
     @abstractmethod
     def get_loadable_object(self):
+        pass
+
+    @abstractmethod
+    def get_model_params(self, model):
         pass
 
     @abstractmethod
@@ -93,14 +98,14 @@ class AbstractMachineLearningModel(ABC):
         :param model: the estimator to be cross-validated
         :param data:  dataframe of the training data features
         :param target: outcome associated with the training data features
-        :param params_dict: contains both the model parameter grid as well as the grid search parameters
+        :param params_dict: contains both the model hyper parameter grid as well as the grid search parameters
 
 
         :return: A model tuned over the parameter search space.
         """
         try:
             cls.logger.warning("Building a Parameter grid for tuning model on a set of hyper parameters ")
-            param_grid = cls.build_param_grid(params_dict)
+            param_grid = cls.build_param_grid(cls,params_dict)
 
             cls.logger.info("Instantiating Grid Search Cross Validator object")
             grid_search_clf = GridSearchCV(estimator=model,
@@ -112,7 +117,7 @@ class AbstractMachineLearningModel(ABC):
             cls.logger.info("Instantiated  Grid Search Cross Validator object")
 
             cls.logger.warning("Fitting models using Cross Validator")
-            cls.logger.warning("Data frame columns: " + str(data.columns.to_list() + CommonConstants.TARGET_COLUMN_TAG))
+            cls.logger.warning("Data frame columns: " + str(data.columns.to_list() + params_dict[CommonConstants.TARGET_COLUMN_TAG].tolist()))
 
             cv_model = grid_search_clf.fit(data, target)
             cls.logger.warning("Model fitted")

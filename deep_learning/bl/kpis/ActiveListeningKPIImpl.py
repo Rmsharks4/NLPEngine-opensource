@@ -12,7 +12,7 @@ from feature_engineering.bl.acts.QYnDialogueActImpl import QYnDialogueActImpl
 from feature_engineering.bl.steps.BackwardStepsDialogueFeatureEngineerImpl import BackwardStepsDialogueFeatureEngineerImpl
 from feature_engineering.bl.steps.ForwardStepsDialogueFeatureEngineerImpl import ForwardStepsDialogueFeatureEngineerImpl
 
-from deep_learning.bl.models.CNNDeepLearningModelImpl import CNNDeepLearningModelImpl
+from deep_learning.bl.models.TFDeepLearningModelImpl import TFDeepLearningModelImpl
 
 from deep_learning.bl.models.layers.RecurrentLayerImpl import RecurrentLayerImpl
 from deep_learning.bl.models.layers.DenseLayerImpl import DenseLayerImpl
@@ -26,7 +26,6 @@ from deep_learning.bl.models.layers.PoolingLayerImpl import PoolingLayerImpl
 from deep_learning.bl.models.layers.AttentionLayerImpl import AttentionLayerImpl
 from deep_learning.bl.models.layers.ConcatenateLayerImpl import ConcatenateLayerImpl
 from deep_learning.bl.models.layers.TimeDistributedLayerImpl import TimeDistributionLayerImpl
-
 
 
 class ActiveListeningKPIImpl(AbstractKPI):
@@ -47,7 +46,7 @@ class ActiveListeningKPIImpl(AbstractKPI):
         # REQ_INPUT:
         self.config_pattern.properties.req_args = None
         # REQ_ARGS:
-        self.cls_model = CNNDeepLearningModelImpl()
+        self.cls_model = TFDeepLearningModelImpl()
 
     def create_model(self, args):
 

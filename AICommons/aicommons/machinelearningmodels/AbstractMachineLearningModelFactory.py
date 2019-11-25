@@ -17,6 +17,7 @@ from AICommons.aicommons.commonutils.CommonConstants import CommonConstants
 from AICommons.aicommons.machinelearningmodels.NaiveBayesMachineLearningModelImpl import \
     NaiveBayesMachineLearningModelImpl
 from AICommons.aicommons.utils.Constants import Constants
+from deep_learning.bl.models.TFDeepLearningModelImpl import TFDeepLearningModelImpl
 
 
 class AbstractMachineLearningModelFactory(ABC):
@@ -39,7 +40,8 @@ class AbstractMachineLearningModelFactory(ABC):
 
         if model_name == CommonConstants.NAIVE_BAYES_TAG:
             model = NaiveBayesMachineLearningModelImpl()
-
+        elif model_name == TFDeepLearningModelImpl.__name__:
+            model = TFDeepLearningModelImpl()
         else:
             cls.logger.info("Invalid model name")
             cls.logger.info("No model class implementation for: " + str(model_name))

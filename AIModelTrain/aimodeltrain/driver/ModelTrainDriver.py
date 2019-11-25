@@ -41,13 +41,14 @@ class ModelTrainDriver(AbstractTrainDriver):
             self.logger.error("MissingMandatoryFieldException : 'model_params' argument is None")
             raise MissingMandatoryFieldException("'model_params' argument is None")
         elif model_params[CommonConstants.ENABLE_CV_TAG] == 'Y' and model_cross_validator_params is None:
-            self.logger.error("MissingMandatoryFieldException : 'model_cross_validator_params' argument is None")
+            self.logger.error("MissingMandatoryFieldException : 'model_cross_validator_params' argument "
+                              "is None but cross validation is enabled ")
             raise MissingMandatoryFieldException("'model_cross_validator_params' argument is None")
         if model_hyper_params is None:
             self.logger.error("MissingMandatoryFieldException : 'model_hyper_params' argument is None")
             raise MissingMandatoryFieldException("'model_hyper_params' argument is None")
 
-    def __argument_type_validation(self, data, model_params, model_hyper_params):
+    def __argument_type_validation(self, data, model_params, model_hyper_params, model_cross_validator_params):
         if not isinstance(data, DataFrame):
             self.logger.error("InvalidInfoException : argument 'data' is not of type 'Pandas DataFrame'")
             raise InvalidInfoException("argument 'data' is not of type 'Pandas DataFrame'")
@@ -57,11 +58,14 @@ class ModelTrainDriver(AbstractTrainDriver):
         if not isinstance(model_hyper_params, dict):
             self.logger.error("InvalidInfoException : argument 'model_hyper_params' is not of type dictionary")
             raise InvalidInfoException("argument 'model_hyper_params' is not of type dictionary")
+        if not isinstance(model_cross_validator_params, dict):
+            self.logger.error("InvalidInfoException : argument 'model_cross_validator_params' is not of type dictionary")
+            raise InvalidInfoException("argument 'model_cross_validator_params' is not of type dictionary")
 
     def __validate_arguments(self, data, model_params, model_hyper_params, model_cross_validator_params):
         try:
             self.__argument_empty_none_validation(data, model_params, model_hyper_params, model_cross_validator_params)
-            self.__argument_type_validation(data, model_params, model_hyper_params)
+            self.__argument_type_validation(data, model_params, model_hyper_params, model_cross_validator_params)
         except MissingMandatoryFieldException as exp:
             raise exp
         except InvalidInfoException as exp:
@@ -71,19 +75,18 @@ class ModelTrainDriver(AbstractTrainDriver):
         """
         :param data: dataframe of the training data features
         :param target: outcome associated with the training data features
-        :param model_params: The model parameters
-        :param model_hyper_params:
+        :param model_params: The model configurations
+        :param model_hyper_params: Hyper-parameter settings to train the model on
         :param model_cross_validator_params:
         :return: trained model
         """
-
         try:
 
             self.logger.warning("Validating the arguments")
             self.__validate_arguments(data, model_params, model_hyper_params,model_cross_validator_params)
 
-            # self.logger.warning("Validating the model parameters")
-            # CommonValidations.validate_model_params(model_params)
+            self.logger.warning("Validating the model parameters")
+            CommonValidations.validate_model_params(model_params)
 
             self.logger.info("Getting model class implementation for: " + str(model_params[CommonConstants.MODEL_NAME_TAG]))
             model_class = AbstractMachineLearningModelFactory.get_instance(
@@ -112,26 +115,26 @@ class ModelTrainDriver(AbstractTrainDriver):
                     str(model_cross_validator_params) + "model_params: " + str(model_params))
                 merged_params_dict = DictionaryUtils.merge_and_overwrite_dicts(default_params_dict, model_hyper_params,
                                                                          model_cross_validator_params, model_params)
-            # self.logger.warning("Validating merged_params_dict for empty values")
-            # CommonValidations.validate_dict_for_empty_values(merged_params_dict)
+            self.logger.warning("Validating merged_params_dict for empty values")
+            CommonValidations.validate_dict_for_empty_values(merged_params_dict)
 
             self.logger.warning("Initializing model object from class implementation of: " +
-                                str(model_params[CommonConstants.MODEL_NAME_TAG]) + "with parameters as: "
+                                str(model_params[CommonConstants.MODEL_NAME_TAG]) + " with parameters: "
                                 + str(merged_params_dict))
             model = model_class.initialize_model(params_dict=merged_params_dict)
-            self.logger.warning("Model object initialized" + " with target column: " + CommonConstants.TARGET_COLUMN_TAG
-                                + "with parameters: " + str(model.get_params()))
+            self.logger.warning("Model object initialized" + " with target column: " + "'" + CommonConstants.TARGET_COLUMN_TAG
+                                + "'"+ " with parameters: " + str(model_class.get_model_params(model)))
 
             if (model_params.get(CommonConstants.ENABLE_CV_TAG, None) is None) or \
                     (model_params[CommonConstants.ENABLE_CV_TAG] != 'Y'):
                 self.logger.warning("Going to train the model")
-                trained_model = model_class.train(model=model, data=data, target=target)
+                trained_model = model_class.train(model=model, data=data, target=target, params_dict= merged_params_dict)
                 self.logger.warning("model successfully trained")
             else:
-                self.logger.warning("Going to perform Cross Validation for selecting best model and train pipeline")
+                self.logger.warning("Going to perform Cross Validation for selecting the best model")
                 trained_model = model_class.perform_cross_validation(model=model, data=data, target=target,
                                                                      params_dict=merged_params_dict)
-                self.logger.warning("Cross Validation for the model " + str(model_params[CommonConstants.MODEL_NAME_TAG]) + " and pipeline training completed successfully")
+                self.logger.warning("Cross Validation for the model " + str(model_params[CommonConstants.MODEL_NAME_TAG]) + " completed successfully")
 
             # TODO: return and save trained_pipeline on hdfs
             return trained_model

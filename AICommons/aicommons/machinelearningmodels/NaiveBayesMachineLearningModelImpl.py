@@ -39,7 +39,7 @@ class NaiveBayesMachineLearningModelImpl(AbstractMachineLearningModel):
             self.logger.info("Instantiating model object for naive bayes")
             self.logger.debug(
                 "Parameters passed are: " +
-                "featuresCol= " + str(params_dict[CommonConstants.FEATURES_COLUMN_TAG]) +
+                "feature_list= " + str(params_dict[CommonConstants.FEATURE_LIST_TAG]) +
                 "smoothing= " + str(params_dict[CommonConstants.SMOOTHING_TAG]) +
                 "learnPriors= " + str(params_dict[CommonConstants.LEARN_PRIORS_TAG]) +
                 "preLearnedPriors= " + str(params_dict[CommonConstants.PRE_LEARNED_PRIORS_TAG])
@@ -75,6 +75,9 @@ class NaiveBayesMachineLearningModelImpl(AbstractMachineLearningModel):
             "fit_prior": params_dict[CommonConstants.LEARN_PRIORS_TAG]
         }
         return parameter_grid
+
+    def get_model_params(self, model):
+        return model.get_params()
 
     def get_loadable_object(self):
         """

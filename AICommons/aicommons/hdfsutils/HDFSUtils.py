@@ -1,17 +1,17 @@
 
 import logging.config
 
-from aicommonspython.commonutils.CommonConstants import CommonConstants
-from aicommonspython.machinelearningmodels.AbstractMachineLearningModelFactory import AbstractMachineLearningModelFactory
+from AICommons.aicommons.commonutils.CommonConstants import CommonConstants
+from AICommons.aicommons.machinelearningmodels.AbstractMachineLearningModelFactory import AbstractMachineLearningModelFactory
 
-from aicommonspython.dao.AbstractMachineLearningModelDAOFactory import AbstractMachineLearningModelDAOFactory
-from commonexceps.SQLException import SQLException
-from commonexceps.CommonBaseException import CommonBaseException
-from commonexceps.HDFSException import HDFSException
-from aicommonspython.commonutils.CommonUtilities import CommonUtilities
-from aicommonspython.utils.Constants import Constants
+from AICommons.aicommons.dao.AbstractMachineLearningModelDAOFactory import AbstractMachineLearningModelDAOFactory
+from CommonExceps.commonexceps.SQLException import SQLException
+from CommonExceps.commonexceps.CommonBaseException import CommonBaseException
+from CommonExceps.commonexceps.HDFSException import HDFSException
+from AICommons.aicommons.commonutils.CommonUtilities import CommonUtilities
+from AICommons.aicommons.utils.Constants import Constants
 from pyspark.ml import PipelineModel
-from pywebhdfs.webhdfs import PyWebHdfsClient
+# from pywebhdfs.webhdfs import PyWebHdfsClient
 import re
 
 class HDFSUtils:

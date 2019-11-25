@@ -1,10 +1,6 @@
 # TODO: Add docstring
 class CommonConstants:
 
-    # Spark related constants
-    SPARK_CONTEXT = None
-    SPARK_SESSION = None
-    SPARK_CONF = None
 
 
     # Logging related constants
@@ -93,7 +89,7 @@ class CommonConstants:
     NAIVE_BAYES_DEFAULT_PARAMS_DICT = {
         SMOOTHING_TAG: 1.0,
         LEARN_PRIORS_TAG: True,
-        PRE_LEARNED_PRIORS_TAG: None
+        PRE_LEARNED_PRIORS_TAG: [0.5,0.5]
     }
 
 
@@ -144,29 +140,20 @@ class CommonConstants:
     NEW_FEATURE_LIST_TAG = 'new_features_list'
     FEATURE_ENGINEERING_FLOW_STANDARD = 'standard_flow'
     
-    #  Anomaly detection related constants
-    ANOMALY_DETECTION_TECHNIQUE_NAME = 'anomaly_detection_technique_name'
-    HBOS_TAG = 'HBOS'
-    HBOS_CATEGORICAL_TAG = 'HBOS_CATEGORICAL'
-    HBOS_CONTINUOUS_TAG = 'HBOS_CONTINUOUS'
-    CARD_NO_TAG = 'card_srno'
-    COUNT_TAG = 'count'
-    NORM_COUNT_TAG = 'count_norm'
-    MIN_COUNT_TAG = 'min_count'
-    MAX_COUNT_TAG = 'max_count'
-    HDFS_WEB_PORT = '50070'
-    HDFS_PORT = '9000'
-    MIN_TAG = 'min'
-    MAX_TAG = 'max'
-    NUMBER_OF_BINS = 'number_of_bins'
-    ANOMALY_SCORE_COLUMN_TAG = 'anomaly_score_column'
-    IS_FRAUD_COLUMN_TAG = 'is_fraud'
-    TRACE_AUDIT_NO_TAG = 'trace_audit_no'
-    MODEL_BASED_FEATURES_HISTOGRAMS_DICT = None
-    ANOMALY_THRESHOLD_TAG = 'anomaly_threshold'
-    USER_TAG = 'user'
-    PASSWORD_TAG = 'password'
-    DRIVER_TAG = 'driver'
-    LABEL_COLUMN_TAG = 'label'
-    BATCH_SIZE = 10000
 
+
+    # NLP SHIT
+    MAX_SEQ_LENGTH = 'MAX_SEQUENCE_LENGTH'
+    CLASS_LABEL = 'CLASS_LABEL'
+    MODEL_OUTPUT_DIR = 'MODEL_OUTPUT_DIR'
+    SAVE_SUMMARY_STEPS = 'SAVE_SUMMARY_STEPS'
+    SAVE_CHECKPOINTS_STEPS = 'SAVE_CHECKPOINTS_STEPS'
+    LEARNING_RATE = 'LEARNING_RATE'
+    BERT_MODEL_HUB = 'BERT_MODEL_HUB'
+    NUM_TRAIN_EPOCHS = 'NUM_TRAIN_EPOCHS'
+    WARMUP_PROPORTION = 'WARMUP_PROPORTION'
+    NUM_TRAIN_STEPS = 'NUM_TRAIN_STEPS'
+    NUM_WARM_STEPS = 'NUM_WARM_STEPS'
+    TEST_OR_TRAIN = 'TEST_OR_TRAIN'
+    LABEL_COLUMN_TAG = 'LABEL_COLUMN_TAG'
+    BATCH_SIZE = 'BATCH_SIZE'
