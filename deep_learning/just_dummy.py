@@ -1,10 +1,9 @@
-'''
-
+"""
 THIS IS SPACY'S BERT MODEL THAT WE HAVE LOADED FOR OUR USE!
 
 TRAIN DATA (JSON)
-= [{
-    "id": int,                      # ID of the Conversation
+= [(
+    {"id": int,                     # ID of the Conversation
     "dialogues": [{                 # list of dialogues in the corpus
         "id": int,                  # id of dialogue
         "raw": string,              # raw text of the paragraph
@@ -34,14 +33,14 @@ TRAIN DATA (JSON)
             "label": string,        # text feature label
             "value": float / bool   # label value
         }]
-    }],
-    "cats": [{                      # cats for Call Classifier
-        "label": string,            # text category label
-        "value": float / bool       # label applies (1.0/true) or not (0.0/false)
-    }]
-}]
+    }]},
+    {
+    "cats": {                       # cats for Call Classifier
+        "label": value,             # text category value}
+    }
+)]
+"""
 
-'''
 
 import spacy
 from spacy.util import minibatch
@@ -85,10 +84,9 @@ labels = [
             'Followed_all_relevant_policy_and_procedures_including_customer_verification_and_product_up_sells'
         ]
 
-
 count = 0
 for row in labels_df.values:
-    if count == 100:
+    if count == 3:
         break
     train_row = {}
     train_row['id'] = row[0]
@@ -147,19 +145,16 @@ for row in labels_df.values:
         # SKIPPING CO-REFERENCE TAGS
         train_row['dialogues'].append(dialogues)
 
-    train_row['cats'] = []
+    cats = {}
+    cats['cats'] = {}
     j = 0
     for i in range(14, 32):
-        cats = {}
-        cats['label'] = labels[j]
-        cats['value'] = row[i]
-        train_row['cats'].append(cats)
+        cats['cats'][labels[j]] = row[i]
         j += 1
 
-    TRAIN_DATA.append(train_row)
+    TRAIN_DATA.append((train_row, cats))
     count += 1
 
-print(TRAIN_DATA)
 
 is_using_gpu = spacy.prefer_gpu()
 if is_using_gpu:
@@ -177,7 +172,7 @@ for i in range(10):
     random.shuffle(TRAIN_DATA)
     losses = {}
     for batch in minibatch(TRAIN_DATA, size=8):
-        corpus = zip(*batch)
+        texts, cats = zip(*batch)
         nlp.update(texts, cats, sgd=optimizer, losses=losses)
     print(i, losses)
 nlp.to_disk("/bertmodels")

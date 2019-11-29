@@ -200,6 +200,9 @@ class TFDeepLearningModelImpl(AbstractMachineLearningModel, StandardConfigParser
     def build_param_grid(self, params_dict):
         pass
 
+    def get_model_params(self, model):
+        pass
+
     @classmethod
     def train(cls, model, data, target, params_dict):
         try:
@@ -221,28 +224,6 @@ class TFDeepLearningModelImpl(AbstractMachineLearningModel, StandardConfigParser
 
         except Exception as exp:
             cls.logger.error('Exception occured while training data to model : ' + str(model))
-            raise CommonBaseException(exp)
-
-    @classmethod
-    def test(cls, model, data, target, params_dict):
-        try:
-            cls.logger.info("Testing model")
-            cls.logger.debug("Data frame columns: " + str(data.columns))
-
-            test_vectors = cls.make_train_vectors(data, params_dict)
-
-            test_input_fn = run_classifier.input_fn_builder(
-                features=test_vectors,
-                seq_length=params_dict[CommonConstants.MAX_SEQ_LENGTH],
-                is_training=False,
-                drop_remainder=False)
-
-            result_dict = model.evaluate(input_fn=test_input_fn, steps=None)
-
-            return result_dict, model
-
-        except Exception as exp:
-            cls.logger.error('Exception occured while testing data to model : ' + str(model))
             raise CommonBaseException(exp)
 
     @classmethod
@@ -271,25 +252,39 @@ class TFDeepLearningModelImpl(AbstractMachineLearningModel, StandardConfigParser
             vocab_file=vocab_file, do_lower_case=do_lower_case)
 
     @classmethod
-    def make_test_vectors(cls, data):
-        vectors = [data]
-        return vectors
+    def make_test_vectors(cls, data, params_dict):
+        input_example = data.apply(lambda x: bert.run_classifier.InputExample(guid=None,
+                                                                              text_a=x[params_dict[CommonConstants.READ_DATA_COLUMNS_TAG]],
+                                                                              text_b=None,
+                                                                              label=x[params_dict[CommonConstants.LABEL_COLUMN_TAG]]), axis=1)
+        tokenizer = cls.create_tokenizer_from_hub_module(params_dict[CommonConstants.BERT_MODEL_HUB])
+        features = bert.run_classifier.convert_examples_to_features(input_example,
+                                                                    params_dict[CommonConstants.CLASS_LABEL],
+                                                                    params_dict[CommonConstants.MAX_SEQ_LENGTH],
+                                                                    tokenizer)
+        return features
 
     @classmethod
     def predict(cls, model, data, params_dict):
         try:
-            cls.logger.info("Predicting on data")
-            cls.logger.debug("Dataframe columns: " + str(data.columns))
-            test_vectors = cls.make_test_vectors(data)
-            predicted_data = model.evaluate(test_vectors)
-            cls.logger.info("Predictions made")
-            cls.logger.debug("Predicted data columns: " + str(predicted_data.columns))
-            return predicted_data
+            cls.logger.info("Testing model")
+            cls.logger.debug("Data frame columns: " + str(data.columns))
+
+            test_vectors = cls.make_test_vectors(data, params_dict)
+
+            test_input_fn = bert.run_classifier.input_fn_builder(
+                features=test_vectors,
+                seq_length=params_dict[CommonConstants.MAX_SEQ_LENGTH],
+                is_training=False,
+                drop_remainder=False)
+
+            result = model.predict(input_fn=test_input_fn)
+
+            return result
 
         except Exception as exp:
-            cls.logger.error('Exception occured while predicting data from model : ' + str(model))
+            cls.logger.error('Exception occured while testing data to model : ' + str(model))
             raise CommonBaseException(exp)
 
-    @classmethod
     def perform_cross_validation(cls, model, data, target, params_dict):
         pass

@@ -16,6 +16,7 @@ from pandas import DataFrame
 
 from AICommons.aicommons.dataframeutils.DataFrameUtils import DataFrameUtils
 from AICommons.aicommons.machinelearningmodels.AbstractMachineLearningModel import AbstractMachineLearningModel
+from AICommons.aicommons.machinelearningmodels.AbstractMachineLearningModelFactory import AbstractMachineLearningModelFactory
 from AICommons.aicommons.commonutils.CommonConstants import CommonConstants
 from AICommons.aicommons.commonutils.CommonValidations import CommonValidations
 from AICommons.aicommons.commonutils.CommonUtilities import CommonUtilities
@@ -76,12 +77,17 @@ class ModelTestDriver(AbstractTestDriver):
             #Todo Validating a model for diff api's
 
             # # self.logger.info("Validating input trained_model")
-            #  CommonValidations.validate_pipeline_model('trained_pipeline', trained_model)
+            # CommonValidations.validate_pipeline_model('trained_pipeline', trained_model)
             # # Validate a trained model instance instead
 
             self.logger.warning("Going to predict using trainied model for test data on columns: " +
                                 str(test_data.columns))
-            predicted_data = AbstractMachineLearningModel.predict(model=trained_model, data=test_data, params_dict= model_params)
+
+            self.logger.info("Getting model class implementation for: " + str(model_params[CommonConstants.MODEL_NAME_TAG]))
+            model_class = AbstractMachineLearningModelFactory.get_instance(model_name=model_params[CommonConstants.MODEL_NAME_TAG])
+            self.logger.info("Model class implementation successfully obtained")
+
+            predicted_data = model_class.predict(model=trained_model, data=test_data, params_dict= model_params)
             self.logger.warning("Predictions successfully made")
 
             self.logger.warning("Returning predicted data")

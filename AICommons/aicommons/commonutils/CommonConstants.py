@@ -32,11 +32,11 @@ class CommonConstants:
 
     READ_DATA_COLUMNS_TAG = 'columns'
 
-    TRUE_POSITIVE_METRIC_ID = 'TruePositive'
-    FALSE_POSITIVE_METRIC_ID = 'FalsePositive'
-    TRUE_NEGATIVE_METRIC_ID = 'TrueNegative'
-    FALSE_NEGATIVE_METRIC_ID = 'FalseNegative'
-    ACCURACY = 'Accuracy'
+    TRUE_POSITIVE_METRIC_ID = 'True_Positives'
+    FALSE_POSITIVE_METRIC_ID = 'False_Positives'
+    TRUE_NEGATIVE_METRIC_ID = 'True_Negatives'
+    FALSE_NEGATIVE_METRIC_ID = 'False_Negatives'
+    ACCURACY_METRIC_ID = 'Accuracy'
     FEATURE_WEIGHTAGE_METRIC_ID = 'FeatureWeightage'
 
     # Model related constants

@@ -2,7 +2,7 @@ from commons.config.AbstractConfig import AbstractConfig
 from preprocessing.bl import *
 from feature_engineering.bl.acts import *
 from feature_engineering.bl.steps import *
-from feature_engineering.bl.tags.TokenTagsDialogueFeatureEngineerImpl import TokenTagsDialogueFeatureEngineerImpl
+from feature_engineering.bl.tags import *
 from feature_engineering.bl.HoldTimeDialogueFeatureEngineerImpl import HoldTimeDialogueFeatureEngineerImpl
 from feature_engineering.bl.NGramsDialogueFeatureEngineerImpl import NGramsDialogueFeatureEngineerImpl
 from feature_engineering.bl.WordsPerMinuteDialogueFeatureEngineerImpl import WordsPerMinuteDialogueFeatureEngineerImpl
@@ -18,7 +18,8 @@ from commons.dao.AbstractDAOFactory import AbstractDAOFactory
 from AICommons.aicommons.commonutils.CommonConstants import CommonConstants
 from deep_learning.bl.models.TFDeepLearningModelImpl import TFDeepLearningModelImpl
 from AIModelTrain.aimodeltrain.driver.AbstractTrainDriverFactory import AbstractTrainDriverFactory
-from AIModelTrain.aimodeltrain.driver.ModelTrainDriver import ModelTrainDriver
+from AIModelTest.aimodeltest.driver.AbstractTestDriverFactory import AbstractTestDriverFactory
+from AIEvaluation.aievaluation.driver.AIModelEvaluationService import AIModelEvaluationService
 
 from keras import backend as K
 import keras.layers as layers
@@ -50,6 +51,8 @@ class TempService:
     def run(self):
         preconfiglist = dict()
 
+        print('READING PREPROCESSOR CONFIGS')
+
         var = StandardConfigParserImpl()
         var.read_config('../../preprocessing/resources/' + AbstractDialoguePreProcessor.__name__ + '.ini')
 
@@ -59,6 +62,8 @@ class TempService:
             preconfiglist[config] = configparser.config_pattern
 
         feaconfiglist = dict()
+
+        print('READING FEATURE ENGINEERING CONFIGS')
 
         var = StandardConfigParserImpl()
         var.read_config('../../feature_engineering/resources/' + AbstractDialogueFeatureEngineer.__name__ + '.ini')
@@ -76,6 +81,8 @@ class TempService:
         data_obj = TempService.run_preprocessor(preconfiglist, data_obj)
         data_obj = TempService.run_feature_engineer(feaconfiglist, data_obj)
 
+        print('READING KPI LABELS')
+
         train_df = data_obj
         labels_df = pd.read_csv('../../data/allabels.csv', encoding='latin1')
 
@@ -92,9 +99,14 @@ class TempService:
 
         train, test = train_test_split(mid_df, test_size=0.2)
 
+        # Make Test Labels Here
+        test_labels = test['Actively_listened_and_acknowledged_concerns']
+
         abs_train_driver_factory = AbstractTrainDriverFactory()
 
-        train_driver_inst_naive_bayes = abs_train_driver_factory.get_instance("naive_bayes")
+        train_driver_inst_naive_bayes = abs_train_driver_factory.get_instance()
+
+        print('WRITING MODEL CONFIGS')
 
         myparam = {
             CommonConstants.MODEL_OUTPUT_DIR: '/results/MY_BERT',
@@ -118,7 +130,9 @@ class TempService:
         model_params = {
             "model_name": TFDeepLearningModelImpl.__name__,
             "enable_cv": "N",
-            "feature_list": list(myparam[CommonConstants.READ_DATA_COLUMNS_TAG]),
+            "feature_list": ['ConversationIDDataImpl',
+                             'PlainTextDataImpl',
+                             'Actively_listened_and_acknowledged_concerns'],
             "targetCol": myparam[CommonConstants.LABEL_COLUMN_TAG]
         }
 
@@ -126,16 +140,50 @@ class TempService:
 
         model_cross_validator_params = {}
 
+        print('CALLING TRAIN MODEL ...')
+
         model = train_driver_inst_naive_bayes.train_model(data=train, target=None, model_params=model_params,
                                                           model_hyper_params=model_hyper_params,
                                                           model_cross_validator_params=model_cross_validator_params)
 
-        result, model = TFDeepLearningModelImpl().test(model, test, None, myparam)
+        # result, model = TFDeepLearningModelImpl().test(model, test, None, myparam)
 
-        redf = pd.DataFrame([result]).T
-        redf.columns = ["values"]
+        abs_test_driver_factory = AbstractTestDriverFactory()
 
-        print(redf)
+        test_driver_inst_naive_bayes = abs_test_driver_factory.get_instance()
+
+        print('CALLING TEST MODEL ...')
+
+        model_params.update(model_hyper_params)
+
+        predictions = test_driver_inst_naive_bayes.test_model(test_data=test, model_params=model_params,
+                                                              trained_model=model)
+
+        print(predictions)
+
+        evaluation_service = AIModelEvaluationService()
+
+        evaluation_metric_list = ["Precision",
+                                  "Recall",
+                                  "Fmeasure",
+                                  "Accuracy",
+                                  "True_Positives",
+                                  "True_Negatives",
+                                  "False_Positives",
+                                  "False_Negatives"]
+
+        print('CALLING EVALUATE MODEL ...')
+
+        print(evaluation_service.evaluate_model(evaluation_metric_list,
+                                                np.array(predictions),
+                                                np.array(test_labels)))
+
+        # print(predictions)
+        #
+        # redf = pd.DataFrame([result]).T
+        # redf.columns = ["values"]
+        #
+        # print(redf)
 
     @staticmethod
     def run_preprocessor(configlist, dao_obj):
