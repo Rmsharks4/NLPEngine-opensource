@@ -278,7 +278,10 @@ class TFDeepLearningModelImpl(AbstractMachineLearningModel, StandardConfigParser
                 is_training=False,
                 drop_remainder=False)
 
-            result = model.predict(input_fn=test_input_fn)
+            result, output = model.predict(input_fn=test_input_fn)
+
+            print('Result', result)
+            print('Output', output)
 
             return result
 

@@ -174,9 +174,11 @@ class TempService:
 
         print('CALLING EVALUATE MODEL ...')
 
+        print([p for p in predictions])
+
         print(evaluation_service.evaluate_model(evaluation_metric_list,
-                                                np.array(predictions),
-                                                np.array(test_labels)))
+                                                np.array([p for p in predictions]),
+                                                np.array([t for t in test_labels])))
 
         # print(predictions)
         #
