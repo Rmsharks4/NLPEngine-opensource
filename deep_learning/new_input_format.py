@@ -1,23 +1,47 @@
 """
 
-data format (now):
-[conversation id: [[[[id, first, last, dep, head, tag, orth, ner, synonyms: [id] x num_of_synonyms, antonyms: [id] x num_of_antonyms] x num_of_words, [first, last, value] x num_of_chunks, [id, trace: [first, last] x num_of_traces] x num_of_corefs, [first, last, value] x num_of_acts, [first, last, value] x num_of_intents] x num_of_sentences, speaker, feature_id: [val] x num_of_features] x num_of_dialogues], cat_id: [val] x num_of_cats]
+-------------------------- DATA -------------------------------------
+
+[conversation id:
+    [dialogue id:
+        [sentence id:
+            [
+                [id,
+                first,
+                last,
+                dep,
+                head,
+                tag,
+                orth,
+                ner,
+                synonyms: [id] x num_of_synonyms,
+                antonyms: [id] x num_of_antonyms
+            ] x num_of_words,
+            [first, last, value] x num_of_chunks,
+            [id, trace: [first, last] x num_of_traces] x num_of_corefs,
+            [first, last, value] x num_of_acts,
+            [first, last, value] x num_of_intents
+        ] x num_of_sentences,
+        speaker,
+        feature_id: [val] x num_of_features] x num_of_dialogues
+    ],
+    cat_id: [val] x num_of_cats
+]
 
 """
 
 import pandas as pd
-from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
 import spacy
-import pandas as pd
 import numpy as np
 from nltk.corpus import stopwords
 import nltk
-from gensim.models import Sent2Vec
-from gensim.test.utils import common_texts
+from gensim.models import Word2Vec
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
 stop_words = stopwords.words('english')
 lemmatizer = nltk.stem.WordNetLemmatizer()
+nlp = spacy.load('en_core_web_sm')
 
 train_df = pd.read_csv('../data/altrain.csv', encoding='latin1')
 labels_df = pd.read_csv('../data/allabels.csv', encoding='latin1')
@@ -44,23 +68,68 @@ labels = ['Used_appropriate_opening_and_prepared_for_the_call',
           'Provided_correct_information_and_addressed_all_concerns',
           'Followed_all_relevant_policy_and_procedures_including_customer_verification_and_product_up_sells']
 
-all_convs = []
+dials = []
+sentences = []
 
 for row in train_df.values:
-    all_convs.append(str(row[4]))
+    dials.append(str(row[4]))
+    doc = nlp(str(row[4]))
+    for sent in doc.sents:
+        sentences.append(sent.text)
 
-corpus = ' '.join(c for c in all_convs)
+convs = []
 
-corpus = word_tokenize(corpus)
-corpus = [word for word in corpus if word.isalpha()]
-corpus = [w for w in corpus if not w in stop_words]
-corpus = [lemmatizer.lemmatize(w, pos='v') for w in corpus]
+for row in labels_df.values:
+    rows = train_df.where(train_df['ConversationIDDataImpl'] == row[0])
+    rows = rows.dropna()
+    call = ''
+    for val in rows.values:
+        call += str(val[4]) + ' '
+    convs.append(call)
 
-model = Word2Vec(corpus,
+
+def clean(data):
+    data = word_tokenize(data)
+    data = [word for word in data if word.isalpha()]
+    data = [w for w in data if not w in stop_words]
+    data = [lemmatizer.lemmatize(w, pos='v') for w in data]
+    return data
+
+
+corpus = ' '.join(c for c in dials)
+corpus = clean(corpus)
+sentence_data = [TaggedDocument(words=clean(d), tags=[str(i)]) for i, d in enumerate(sentences)]
+dialogue_data = [TaggedDocument(words=clean(d), tags=[str(i)]) for i, d in enumerate(dials)]
+conversation_data = [TaggedDocument(words=clean(d), tags=[str(i)]) for i, d in enumerate(convs)]
+
+print('making word model')
+words_model = Word2Vec(corpus,
                  min_count=1,
                  size=200,
                  workers=2,
                  window=5,
                  iter=30)
 
-print('end')
+print('making sentence model')
+sent_model = Doc2Vec(sentence_data,
+                 min_count=1,
+                 size=200,
+                 workers=2,
+                 window=5,
+                 iter=30)
+
+print('making dialogue model')
+dialogue_model = Doc2Vec(dialogue_data,
+                 min_count=1,
+                 size=200,
+                 workers=2,
+                 window=5,
+                 iter=30)
+
+print('making call model')
+call_model = Doc2Vec(conversation_data,
+                 min_count=1,
+                 size=200,
+                 workers=2,
+                 window=5,
+                 iter=30)

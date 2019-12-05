@@ -1,0 +1,7 @@
+sr_no,preprocess_op_id,preprocess_name,preprocess_desc,preprocess_abrv,impl_class_name,is_active,created_by,created_at,last_updated_at,last_updated_by
+,replace_values_transcript_v1.0,replace_values,"replaces specified values with others, such as, replaces contractions with their expanded forms",,ReplaceValuesPreProcessorImpl,,,,,
+,trim_spaces_transcript_v1.0,trim_spaces,trims long spaces from text,,TrimSpacesPreProcessorImpl,,,,,
+,remove_nulls_transcript_v1.0,remove_nulls,Removes Empty Sentences from data and merges them or deletes them according to specification,,RemoveNullsPreProcessorImpl,,,,,
+,remove_nulls_speaker_v1.0,remove_nulls,Removes Empty Sentences from data and merges them or deletes them according to specification,,RemoveNullsPreProcessorImpl,,,,,
+,remove_nulls_start_v1.0,remove_nulls,Removes Empty Sentences from data and merges them or deletes them according to specification,,RemoveNullsPreProcessorImpl,,,,,
+,remove_nulls_end_v1.0,remove_nulls,Removes Empty Sentences from data and merges them or deletes them according to specification,,RemoveNullsPreProcessorImpl,,,,,
