@@ -1,6 +1,6 @@
 sr_no,param_id,preprocess_op_id,param_desc,param_value,allowed_list_values,is_active,display_order,created_by,created_at,last_updated_at,last_updated_by
 ,transcript_required_column,replace_values_transcript_v1.0,column to perform operation on,transcript,,,,,,,
-,transcript_required_column,trim_spaces_transcript_v1.0,output data type,transcript,,,,,,,
+,transcript_required_column,trim_spaces_transcript_v1.0,column to perform operation on,transcript,,,,,,,
 ,transcript_required_column,remove_nulls_transcript_v1.0,column to perform operation on,transcript,,,,,,,
 ,transcript_input_dtype,replace_values_transcript_v1.0,input data type,string,,,,,,,
 ,transcript_input_dtype,trim_spaces_transcript_v1.0,input data type,string,,,,,,,

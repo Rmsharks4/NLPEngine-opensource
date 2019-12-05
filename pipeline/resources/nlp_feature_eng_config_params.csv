@@ -1,1 +1,9 @@
 sr_no,param_id,feature_eng_op_id,param_desc,param_value,allowed_list_values,is_active,display_order,created_by,created_at,last_updated_at,last_updated_by
+,transcript_required_column,spacy_tags_transcript_v1.0,column to perform operation on,transcript,,,,,,,
+,transcript_required_column,nltk_tags_transcript_v1.0,column to perform operation on,transcript,,,,,,,
+,transcript_required_column,acts_transcript_v1.0,column to perform operation on,transcript,,,,,,,
+,transcript_required_column,intents_transcript_v1.0,column to perform operation on,transcript,,,,,,,
+,transcript_input_dtype,spacy_tags_transcript_v1.0,input data type,string,,,,,,,
+,transcript_input_dtype,nltk_tags_transcript_v1.0,input data type,string,,,,,,,
+,transcript_input_dtype,acts_transcript_v1.0,input data type,string,,,,,,,
+,transcript_input_dtype,intents_transcript_v1.0,input data type,string,,,,,,,

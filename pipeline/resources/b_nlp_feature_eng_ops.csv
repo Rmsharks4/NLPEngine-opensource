@@ -1,1 +1,10 @@
 sr_no,feature_eng_op_id,feature_eng_name,feature_eng_desc,feature_eng_abrv,impl_class_name,nlp_api_id,is_active,created_by,created_at,last_updated_at,last_updated_by
+,spacy_tags_transcript_v1.0,spacy_tags,all text tags provided by spacy,,SpacyTagsFeatureEngineerImpl,spacy_v1.0,,,,,
+,nltk_tags_transcript_v1.0,nltk_tags,all text tags provided by nltk,,NLTKTagsFeatureEngineerImpl,nltk_v1.0,,,,,
+,acts_transcript_v1.0,acts,all acts tags retrievable in text,,ActsFeatureEngineerImpl,,,,,,
+,intents_transcript_v1.0,intents,all intents retrievable in text,,IntentsFeatureEngineerImpl,fast_text_v1.0,,,,,
+,num_of_words_transcript_v1.0,num_of_words,number of words in text,,NumOfWordsFeatureEngineerImpl,,,,,,
+,duration_start_end_v1.0,duration,duration of a dialogue in text,,DurationFeatureEngineerImpl,,,,,,
+,difficulty_index_transcript_num_of_words_duration_v1.0,difficulty_index,difficulty index of words in text,,DifficultyIndexFeatureEngineerImpl,text_stats_v1.0,,,,,
+,hold_start_end_v1.0,hold,hold time between dialogues in text,,HoldFeatureEngineerImpl,,,,,,
+,words_per_minute_num_of_words_duration_v1.0,words_per_minute,words per minute in text,wpm,WordsPerMinuteFeatureEngineerImpl,,,,,,
