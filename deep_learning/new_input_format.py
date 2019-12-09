@@ -5,7 +5,7 @@
 [conversation id:
     [dialogue id:
         [sentence id:
-            [
+            [ embedding:
                 [id,
                 first,
                 last,
