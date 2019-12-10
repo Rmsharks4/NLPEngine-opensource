@@ -1,0 +1,3325 @@
+intent_type,phrase,label
+accept,fine,ACCEPT_POS
+accept,good,ACCEPT_POS
+accept,I can manage that,ACCEPT_POS
+accept,I am going to have to cope with that,ACCEPT_POS
+accept,i will do that,ACCEPT_POS
+accept,I am not bothered by that,ACCEPT_POS
+accept,I am sure,ACCEPT_POS
+accept,It is okay,ACCEPT_POS
+accept,mhm,ACCEPT_POS
+accept,mhm fine,ACCEPT_POS
+accept,no problem,ACCEPT_POS
+accept,oh that would be fine yeah,ACCEPT_POS
+accept,oh that is okay then,ACCEPT_POS
+accept,oh that is right erm,ACCEPT_POS
+accept,okay fine yeah,ACCEPT_POS
+accept,okay then,ACCEPT_POS
+accept,right,ACCEPT_POS
+accept,right okay,ACCEPT_POS
+accept,rightio,ACCEPT_POS
+accept,sure,ACCEPT_POS
+accept,that sounds fine,ACCEPT_POS
+accept,that is fine,ACCEPT_POS
+accept,That is alright,ACCEPT_POS
+accept,That is correct,ACCEPT_POS
+accept,That is fine yes,ACCEPT_POS
+accept,That is gonna have to do yeah okay,ACCEPT_POS
+accept,That is good,ACCEPT_POS
+accept,That is just great,ACCEPT_POS
+accept,That is okay,ACCEPT_POS
+accept,That is right,ACCEPT_POS
+accept,That is the one,ACCEPT_POS
+accept,yeah,ACCEPT_POS
+accept,yeah sure,ACCEPT_POS
+accept,yeah that is fine,ACCEPT_POS
+accept,yep,ACCEPT_POS
+accept,yes,ACCEPT_POS
+accept,yes lovely,ACCEPT_POS
+accept,yes please,ACCEPT_POS
+accept,you can,ACCEPT_POS
+accept,cool,ACCEPT_POS
+accept,cool okay,ACCEPT_POS
+accept,yea that is cool,ACCEPT_POS
+accept,cool yeah okay,ACCEPT_POS
+accept,cool yeah,ACCEPT_POS
+accept,Absolutely,ACCEPT_POS
+accept,Certainly,ACCEPT_POS
+accept,Yes please,ACCEPT_POS
+accept,Would you please,ACCEPT_POS
+accept,not to worry,ACCEPT_POS
+accept,No It does not matter,ACCEPT_POS
+accept,Of course,ACCEPT_POS
+accept,by all means,ACCEPT_POS
+accept,be my guest,ACCEPT_POS
+accept,i do not see why not,ACCEPT_POS
+accept,why not,ACCEPT_POS
+accept,you bet,ACCEPT_POS
+accept,okay,ACCEPT_POS
+accept,great,ACCEPT_POS
+accept,that works best,ACCEPT_POS
+accept,sounds fine,ACCEPT_POS
+accept,right,ACCEPT_POS
+accept,correct,ACCEPT_POS
+accept,affirmative,ACCEPT_POS
+accept,you have my permission,ACCEPT_POS
+accept,uh huh,ACCEPT_POS
+accept,mm hmm,ACCEPT_POS
+accept,sounds good,ACCEPT_POS
+accept,no problem,ACCEPT_POS
+accept,no worries,ACCEPT_POS
+accept,No,ACCEPT_NEG
+accept,Yes No,ACCEPT_NEG
+accept,No Yes,ACCEPT_NEG
+accept,Yup,ACCEPT_POS
+acknowledge,I get the impression that,ACK_INTERPRET
+acknowledge,I am picking up that you,ACK_INTERPRET
+acknowledge,Could it be that,ACK_INTERPRET
+acknowledge,I understand the problem as,ACK_INTERPRET
+acknowledge,Correct me if I am wrong,ACK_INTERPRET
+acknowledge,Let me see if I understand,ACK_INTERPRET
+acknowledge,Can you tell me more,ACK_INTERPRET
+acknowledge,Would you say more about that,ACK_INTERPRET
+acknowledge,Let me make sure I understand you,ACK_INTERPRET
+acknowledge,Have you considered,ACK_SUGGEST
+acknowledge,From where you stand,ACK_INTERPRET
+acknowledge,You think,ACK_INTERPRET
+acknowledge,You mean,ACK_INTERPRET
+acknowledge,You believe,ACK_INTERPRET
+acknowledge,From your point of view,ACK_INTERPRET
+acknowledge,What I hear you saying,ACK_SUGGEST
+acknowledge,In your experience,ACK_SUGGEST
+acknowledge,Is there any chance that you,ACK_INTERPRET
+acknowledge,It seems that you,ACK_INTERPRET
+acknowledge,From where I stand you,ACK_INTERPRET
+acknowledge,Is it conceivable that,ACK_INTERPRET
+acknowledge,I get the impression that,ACK_INTERPRET
+acknowledge,I definitely will make sure that it gets sorted,ACK_HELP_POS
+acknowledge,I absolutely agree with you,ACK_HELP_POS
+acknowledge,I can certainly help you,ACK_COMPLIMENT
+acknowledge,That is exactly right,ACK_COMPLIMENT
+acknowledge,I completely agree with you,ACK_COMPLIMENT
+acknowledge,I will quickly run through this with you,ACK_SUGGEST
+acknowledge,That is a fantastic alternative,ACK_COMPLIMENT
+acknowledge,Great news,ACK_COMPLIMENT
+acknowledge,Marvellous choice,ACK_COMPLIMENT
+acknowledge,Splendid,ACK_COMPLIMENT
+acknowledge,That is an excellent suggestion,ACK_COMPLIMENT
+acknowledge,I hope you enjoy your,ACK_WISH
+acknowledge,All that is left to do now,ACK_SUGGEST
+acknowledge,It is essential that you,ACK_SUGGEST
+acknowledge,It is a very generous offer,ACK_COMPLIMENT
+acknowledge,I can highly recommend,ACK_SUGGEST
+acknowledge,Thanks we aim to provide a friendly service,ACK_COMPLIMENT
+acknowledge,That is certainly impressive,ACK_COMPLIMENT
+acknowledge,That it is an interesting idea,ACK_COMPLIMENT
+acknowledge,Brilliant I am glad we are on the same page,ACK_COMPLIMENT
+acknowledge,Yes it is an exciting prospect,ACK_COMPLIMENT
+acknowledge,I think that it�s a terrific option,ACK_SUGGEST
+acknowledge,That is absolutely fascinating,ACK_COMPLIMENT
+acknowledge,You certainly are an expert on this,ACK_COMPLIMENT
+acknowledge,That is personally my favourite option,ACK_SUGGEST
+acknowledge,It would definitely be ideal considering your situation,ACK_SUGGEST
+acknowledge,Definitely,ACK_POS
+acknowledge,Surely,ACK_POS
+acknowledge,Absolutely,ACK_POS
+acknowledge,Gladly,ACK_POS
+acknowledge,Certainly,ACK_POS
+acknowledge,Fantastic,ACK_POS
+acknowledge,Great,ACK_POS
+acknowledge,Good,ACK_POS
+acknowledge,Terrific,ACK_POS
+acknowledge,Assure,ACK_POS
+acknowledge,Understand,ACK_POS
+acknowledge,Awful,ACK_NEG
+acknowledge,Horrible,ACK_NEG
+acknowledge,Terrible,ACK_NEG
+acknowledge,Bad,ACK_NEG
+acknowledge,Never,ACK_NEG
+acknowledge,Dumb,ACK_NEG
+acknowledge,Rude,ACK_HELP_POS
+acknowledge,I would feel the same in your situation but we will sort this out,ACK_HELP_POS
+acknowledge,I know how frustrating it can be let us see how I can help you,ACK_SYMPATHISE
+acknowledge,I completely understand how frustrating it is,ACK_SYMPATHISE
+acknowledge,I appreciate how difficult it is to,ACK_SYMPATHISE
+acknowledge,We will work to resolve the problem,ACK_HELP_POS
+acknowledge,We will be in touch shortly,ACK_SYMPATHISE
+acknowledge,We are keen to resolve this as much as you are,ACK_SYMPATHISE
+acknowledge,If I were in your position I would feel exactly the same,ACK_SYMPATHISE
+acknowledge,I appreciate you bringing this to our attention,ACK_SYMPATHISE
+acknowledge,I will contact you as soon as we have had an update,ACK_SYMPATHISE
+acknowledge,Definitely you are making perfect sense,ACK_SYMPATHISE
+acknowledge,I can assure you that this will absolutely happen,ACK_SYMPATHISE
+acknowledge,We will help you get this issue resolved,ACK_HELP_POS
+acknowledge,Apologies for the wait I appreciate your patience,ACK_SYMPATHISE
+acknowledge,Do not worry I can see why you did that,ACK_SYMPATHISE
+acknowledge,Yes that would certainly frustrate me too,ACK_SYMPATHISE
+acknowledge,What I would do in this situation is,ASK_SUGGEST
+acknowledge,How do you feel about,ASK_SUGGEST
+acknowledge,I know others who have been in your situation and what we did to successfully help them was,ACK_HELP_POS
+acknowledge,Just so we know what we are aiming for what would be the best case scenario for you,ASK_SUGGEST
+acknowledge,Absolutely I can certainly fix that for you,ACK_HELP_POS
+acknowledge,I will quickly put this into action for you and then everything will be back to normal,ACK_HELP_POS
+acknowledge,Just so I can clarify and help you,ACK_HELP_POS
+acknowledge,I am afraid that we cannot offer you,ACK_HELP_NEG
+acknowledge,I am going to take care of this for you,ACK_HELP_POS
+acknowledge,That does sound frustrating let us see what I can do to help,ACK_HELP_POS
+acknowledge,Alright,ACK_POS
+acknowledge,Interesting,ACK_POS
+address,Sir,ADDRESS_FORMAL
+address,Miss,ADDRESS_FORMAL
+address,Ms,ADDRESS_FORMAL
+address,Ma’am,ADDRESS_FORMAL
+address,Mam,ADDRESS_FORMAL
+address,Mister,ADDRESS_FORMAL
+address,Missus,ADDRESS_FORMAL
+address,Mrs,ADDRESS_FORMAL
+address,Mr,ADDRESS_FORMAL
+address,Madame,ADDRESS_FORMAL
+address,Lady,ADDRESS_FORMAL
+address,Mousier,ADDRESS_FORMAL
+address,Mademoiselle,ADDRESS_FORMAL
+address,Senor,ADDRESS_FORMAL
+address,Senorita,ADDRESS_FORMAL
+address,Doctor,ADDRESS_PROFESSIONAL
+address,Professor,ADDRESS_PROFESSIONAL
+address,General,ADDRESS_PROFESSIONAL
+address,Sergeant,ADDRESS_PROFESSIONAL
+address,Lieutenant,ADDRESS_PROFESSIONAL
+address,Major,ADDRESS_PROFESSIONAL
+address,Officer,ADDRESS_PROFESSIONAL
+address,Governor,ADDRESS_PROFESSIONAL
+address,Senator,ADDRESS_PROFESSIONAL
+address,Captain,ADDRESS_PROFESSIONAL
+address,Representative,ADDRESS_PROFESSIONAL
+address,Judge,ADDRESS_PROFESSIONAL
+address,Attorney General,ADDRESS_PROFESSIONAL
+address,City Councilor,ADDRESS_PROFESSIONAL
+address,President,ADDRESS_PROFESSIONAL
+address,Vice President,ADDRESS_PROFESSIONAL
+address,Waiter,ADDRESS_PROFESSIONAL
+address,Honey,ADDRESS_CASUAL
+address,Dear,ADDRESS_CASUAL
+address,Sweetie,ADDRESS_CASUAL
+address,Love,ADDRESS_CASUAL
+address,Darling,ADDRESS_CASUAL
+address,Babe,ADDRESS_CASUAL
+address,Baby,ADDRESS_CASUAL
+address,Pal,ADDRESS_CASUAL
+address,Buddy,ADDRESS_CASUAL
+address,Bud,ADDRESS_CASUAL
+address,Bro,ADDRESS_CASUAL
+address,Homie,ADDRESS_CASUAL
+address,Man,ADDRESS_CASUAL
+address,Brother,ADDRESS_CASUAL
+address,Sis,ADDRESS_CASUAL
+address,Sister,ADDRESS_CASUAL
+address,Father,ADDRESS_CASUAL
+address,Mom,ADDRESS_CASUAL
+address,Mama,ADDRESS_CASUAL
+address,Dad,ADDRESS_CASUAL
+address,Daddy,ADDRESS_CASUAL
+address,Everybody,ADDRESS_CASUAL
+address,Guy,ADDRESS_CASUAL
+address,Boys,ADDRESS_CASUAL
+address,Girls,ADDRESS_CASUAL
+address,Aunt,ADDRESS_CASUAL
+address,Uncle,ADDRESS_CASUAL
+address,Grandma,ADDRESS_CASUAL
+address,Grandpa,ADDRESS_CASUAL
+agree,I completely agree,AGREE_DIRECT
+agree,You are absolutely right,AGREE_DIRECT
+agree,I agree with you entirely,AGREE_DIRECT
+agree,I totally agree with you,AGREE_DIRECT
+agree,I could not agree more,AGREE_DIRECT
+agree,Exactly,AGREE_DIRECT
+agree,Absolutely,AGREE_DIRECT
+agree,You are right,AGREE_DIRECT
+agree,Me too,AGREE_DIRECT
+agree,I agree,AGREE_DIRECT
+agree,I see exactly what you mean,AGREE_DIRECT
+agree,That is exactly what I think,AGREE_DIRECT
+agree,There is no doubt about it,AGREE_DIRECT
+agree,I agree up to a point but,PARTIAL_AGREE_DIRECT
+agree,That is partly true but,PARTIAL_AGREE_DIRECT
+agree,That may be true but,PARTIAL_AGREE_DIRECT
+agree,I see your point but ,PARTIAL_AGREE_DIRECT
+agree,I guess so but,PARTIAL_AGREE_DIRECT
+agree,That seems obvious but,PARTIAL_AGREE_DIRECT
+agree,I am not so sure about that,PARTIAL_AGREE_DIRECT
+agree,I do not agree,DISAGREE_DIRECT
+agree,I do not agree with you,DISAGREE_DIRECT
+agree,I totally disagree,DISAGREE_DIRECT
+agree,I am sorry but I disagree,DISAGREE_DIRECT
+agree,Absolutely not,DISAGREE_DIRECT
+agree,I am afraid I can not agree with you,DISAGREE_DIRECT
+agree,That is not right,DISAGREE_DIRECT
+agree,That is not always true,DISAGREE_DIRECT
+agree,I do not think so,DISAGREE_DIRECT
+agree,No that is not true,DISAGREE_DIRECT
+agree,No way,DISAGREE_DIRECT
+agree,Obviously,AGREE_DIRECT
+alternative,or,ALTERNATIVE_DIRECT
+alternative,either,ALTERNATIVE_DIRECT
+alternative,options,ALTERNATIVE_DIRECT
+alternative,option,ALTERNATIVE_DIRECT
+alternative,inclusive,ALTERNATIVE_DIRECT
+alternative,exclusive,ALTERNATIVE_DIRECT
+alternative,excluding,ALTERNATIVE_DIRECT
+alternative,precluding,ALTERNATIVE_DIRECT
+alternative,exclusion,ALTERNATIVE_DIRECT
+alternative,other,ALTERNATIVE_DIRECT
+alternative,one or the other,ALTERNATIVE_DIRECT
+alternative,thing or two,ALTERNATIVE_DIRECT
+alternative,dichotomy,ALTERNATIVE_DIRECT
+alternative,tradeoff,ALTERNATIVE_DIRECT
+alternative,alternative,ALTERNATIVE_DIRECT
+alternative,disjunction,ALTERNATIVE_DIRECT
+alternative,trade off,ALTERNATIVE_DIRECT
+alternative,dilemma,ALTERNATIVE_DIRECT
+alternative,choice,ALTERNATIVE_DIRECT
+alternative,one way or the other,ALTERNATIVE_DIRECT
+alternative,conflict,ALTERNATIVE_DIRECT
+alternative,conundrum,ALTERNATIVE_DIRECT
+alternative,quandary,ALTERNATIVE_DIRECT
+alternative,this or that,ALTERNATIVE_DIRECT
+alternative,one or other,ALTERNATIVE_DIRECT
+alternative,either one or the other,ALTERNATIVE_DIRECT
+alternative,one or both,ALTERNATIVE_DIRECT
+alternative,either or both,ALTERNATIVE_DIRECT
+alternative,any,ALTERNATIVE_DIRECT
+alternative,each,ALTERNATIVE_DIRECT
+alternative,each and every one,ALTERNATIVE_DIRECT
+alternative,each of two,ALTERNATIVE_DIRECT
+alternative,each other,ALTERNATIVE_DIRECT
+alternative,every last one,ALTERNATIVE_DIRECT
+alternative,every one,ALTERNATIVE_DIRECT
+alternative,one,ALTERNATIVE_DIRECT
+alternative,one of two,ALTERNATIVE_DIRECT
+alternative,this one,ALTERNATIVE_DIRECT
+alternative,thing or the other,ALTERNATIVE_DIRECT
+alternative,way or the other,ALTERNATIVE_DIRECT
+alternative,both ways,ALTERNATIVE_DIRECT
+alternative,one nor the other,ALTERNATIVE_DIRECT
+alternative,both,ALTERNATIVE_DIRECT
+alternative,instead,ALTERNATIVE_DIRECT
+bad_news,I am afraid I have got some bad news for yous,BAD_NEWS_DIRECT
+bad_news,I am so sorry but,BAD_NEWS_DIRECT
+bad_news,I am sorry to have to tell you that,BAD_NEWS_DIRECT
+bad_news,I know this is not what you want to hear but,BAD_NEWS_DIRECT
+bad_news,I am afraid to inform you of,BAD_NEWS_DIRECT
+bad_news,It is my unfortunate duty to tell you that,BAD_NEWS_DIRECT
+bad_news,I really feel bad to have to say this but,BAD_NEWS_DIRECT
+bad_news,I really do not know how to say it but,BAD_NEWS_DIRECT
+bad_news,I am sorry to hear that,BAD_NEWS_RESPONSE
+bad_news,You must be feeling terrible,BAD_NEWS_RESPONSE
+bad_news,That is awful,BAD_NEWS_RESPONSE
+bad_news,Too bad,BAD_NEWS_RESPONSE
+bad_news,Poor you,BAD_NEWS_RESPONSE
+bad_news,Please accept my deepest sympathy,BAD_NEWS_RESPONSE
+bad_news,Anytime you need to talk,BAD_NEWS_RESPONSE
+bad_news,If there is anything I can do just let me know,BAD_NEWS_RESPONSE
+blame,It is your fault,BLAME_DIRECT
+blame,It is your mistake,BLAME_DIRECT
+blame,I can not believe that you,BLAME_DIRECT
+blame,How could you do such a thing,BLAME_DIRECT
+blame,Are you out of your mind,BLAME_DIRECT
+blame,What on earth were you thinking,BLAME_DIRECT
+blame,I think you are the one to blame,BLAME_DIRECT
+blame,I think you are the one who could have,BLAME_DIRECT
+blame,It must have been you who did it,BLAME_DIRECT
+blame,I think you are the only person who could have,BLAME_DIRECT
+blame,You must be doing something wrong,BLAME_DIRECT
+blame,I am sorry It is my fault,BLAME_ACCEPT
+blame,I am sorry for the things I have done,BLAME_ACCEPT
+blame,I am really sorry I did not mean to,BLAME_ACCEPT
+blame,Sorry for my fault,BLAME_ACCEPT
+blame,It is my responsibility I am sorry,BLAME_ACCEPT
+blame,You are right It is my fault I am sorry,BLAME_ACCEPT
+blame,It is not true,BLAME_REJECT
+blame,It is not my fault,BLAME_REJECT
+blame,I am not the one to blame,BLAME_REJECT
+blame,I did not do it,BLAME_REJECT
+blame,You are wrong It was not me,BLAME_REJECT
+bye,Goodbye,BYE_FORMAL
+bye,Farewell,BYE_FORMAL
+bye,Have a good day,BYE_FORMAL
+bye,Have a nice day,BYE_FORMAL
+bye,Take care,BYE_FORMAL
+bye,Have a great day,BYE_FORMAL
+bye,Bye,BYE_FORMAL
+bye,Bye Bye,BYE_FORMAL
+bye,See you later,BYE_INFORMAL
+bye,Talk to you later,BYE_INFORMAL
+bye,Have a good one,BYE_FORMAL
+bye,So long,BYE_INFORMAL
+bye,All right then,BYE_FORMAL
+bye,Catch you later,BYE_INFORMAL
+bye,Peace out,BYE_INFORMAL
+bye,Peace,BYE_INFORMAL
+bye,I am out,BYE_INFORMAL
+bye,Adios,BYE_FORMAL
+bye,Ciao,BYE_FORMAL
+bye,Au revoir,BYE_FORMAL
+bye,Sayonara,BYE_FORMAL
+bye,Take it easy,BYE_INFORMAL
+bye,See you soon,BYE_INFORMAL
+bye,Talk to you soon,BYE_INFORMAL
+bye,It was nice talking to you,BYE_FORMAL
+bye,Good day,BYE_FORMAL
+bye,Good evening,BYE_FORMAL
+bye,Good night,BYE_FORMAL
+bye,Cheers,BYE_FORMAL
+bye,Cheerio,BYE_FORMAL
+bye,Have a wonderful day,BYE_FORMAL
+clear,Do you understand,ASK_IF_CLEAR
+clear,Are you following,ASK_IF_CLEAR
+clear,Do you get it,ASK_IF_CLEAR
+clear,Do you comprehend,ASK_IF_CLEAR
+clear,Any questions,ASK_IF_CLEAR
+clear,Got it,ASK_IF_CLEAR
+clear,I do not get it,UNCLEAR
+clear,Sorry I did not get,UNCLEAR
+clear,What do you mean,UNCLEAR
+clear,I am not sure I got your point,UNCLEAR
+clear,I beg your pardon but I do not quite understand,UNCLEAR
+clear,I do not quite follow,UNCLEAR
+clear,I am sorry I do not understand what you mean,UNCLEAR
+clear,Sorry I did not quite hear what you said,UNCLEAR
+clear,Could you clarify that,ASK_TO_CLEAR
+clear,Could you explain that,ASK_TO_CLEAR
+clear,What do you mean by that,ASK_TO_CLEAR
+clear,Could you say that again,ASK_TO_CLEAR
+clear,Could you repeat,ASK_TO_CLEAR
+clear,Could you put it differently,ASK_TO_CLEAR
+clear,Sorry let me explain,CLARIFYING
+clear,Let me clarify,CLARIFYING
+clear,To put it differently,CLARIFYING
+clear,Let me put it in another way,CLARIFYING
+clear,I see,CLEAR_DIRECT
+clear,I understand,CLEAR_DIRECT
+clear,I got it,CLEAR_DIRECT
+clear,Okay I got what you mean,CLEAR_DIRECT
+clear,I understand what you mean,CLEAR_DIRECT
+clear,I get it,CLEAR_DIRECT
+complaint,I am sorry to say this but,COMPLAINT_DIRECT
+complaint,I hate to tell you but,COMPLAINT_DIRECT
+complaint,I am angry about,COMPLAINT_DIRECT
+complaint,I have a complaint to make,COMPLAINT_DIRECT
+complaint,There seems to be a problem with,COMPLAINT_DIRECT
+complaint,I am afraid there is a slight problem with,COMPLAINT_DIRECT
+complaint,Sorry to bother you but,COMPLAINT_DIRECT
+complaint,I am not satisfied with,COMPLAINT_DIRECT
+complaint,Would not be a good idea to,COMPLAINT_DIRECT
+complaint,There appears to be something wrong with,COMPLAINT_DIRECT
+complaint,I was expecting,COMPLAINT_DIRECT
+complaint,Sorry to bother you but,COMPLAINT_DIRECT
+complaint,I want to complain about,COMPLAINT_DIRECT
+complaint,I am afraid I have got a complaint about,COMPLAINT_DIRECT
+complaint,I have to make a complaint about,COMPLAINT_DIRECT
+complaint,I do not understand why,COMPLAINT_DIRECT
+complaint,Excuse me but there is a problem,COMPLAINT_DIRECT
+complaint,Would you mind,COMPLAINT_DIRECT
+complaint,I am so sorry but this will never happen again,COMPLAINT_RESPONSE_POS
+complaint,I am sorry,COMPLAINT_RESPONSE_POS
+complaint,I can not tell you how sorry I am,COMPLAINT_RESPONSE_POS
+complaint,I wish it never happened,COMPLAINT_RESPONSE_POS
+complaint,Sorry there is nothing we can do about it,COMPLAINT_RESPONSE_NEG
+complaint,Sorry but it is not our fault,COMPLAINT_RESPONSE_NEG
+complaint,I am afraid there is not much we can do about it,COMPLAINT_RESPONSE_NEG
+complaint,we promise never to make the same mistake again,COMPLAINT_RESPONSE_POS
+complaint,you are supposed to,COMPLAINT_DIRECT
+complaint,you were supposed to,COMPLAINT_DIRECT
+complaint,that is the problem,COMPLAINT_DIRECT
+complaint,this is the problem,COMPLAINT_DIRECT
+compliment,Good job,COMPLIMENT_DIRECT
+compliment,Well done,COMPLIMENT_DIRECT
+compliment,Fantastic,COMPLIMENT_DIRECT
+compliment,Perfect,COMPLIMENT_DIRECT
+compliment,That is great,COMPLIMENT_DIRECT
+compliment,Nice work,COMPLIMENT_DIRECT
+compliment,Excellent,COMPLIMENT_DIRECT
+compliment,That is really remarkable,COMPLIMENT_DIRECT
+compliment,I like your,COMPLIMENT_DIRECT
+compliment,What a beautiful,COMPLIMENT_DIRECT
+compliment,What a nice,COMPLIMENT_DIRECT
+compliment,I really must express my admiration for,COMPLIMENT_DIRECT
+compliment,How kind of you to say so,COMPLIMENT_RESPONSE
+compliment,It is nice of you to say so,COMPLIMENT_RESPONSE
+compliment,It is very kind of you to say that,COMPLIMENT_RESPONSE
+compliment,Thank you,COMPLIMENT_RESPONSE
+compliment,Thanks a lot,COMPLIMENT_RESPONSE
+compliment,I am glad you like it,COMPLIMENT_RESPONSE
+compliment,It was nothing really,COMPLIMENT_RESPONSE
+compliment,I am delighted to hear that,COMPLIMENT_RESPONSE
+compliment,Thanks for your compliment,COMPLIMENT_RESPONSE
+compliment,I appreciate it,COMPLIMENT_DIRECT
+condition,if,CONDITION_DIRECT
+condition,condition,CONDITION_DIRECT
+condition,provided that,CONDITION_DIRECT
+condition,conditional,CONDITION_DIRECT
+condition,then,CONDITION_DIRECT
+condition,assuming that,CONDITION_DIRECT
+condition,conceding that,CONDITION_DIRECT
+condition,granted that,CONDITION_DIRECT
+condition,in case,CONDITION_DIRECT
+condition,on the assumption that,CONDITION_DIRECT
+condition,on the occasion that,CONDITION_DIRECT
+condition,supposing that,CONDITION_DIRECT
+condition,whenever,CONDITION_DIRECT
+condition,wherever,CONDITION_DIRECT
+condition,with the condition that,CONDITION_DIRECT
+condition,contingent upon,CONDITION_DIRECT
+condition,given,CONDITION_DIRECT
+condition,if,CONDITION_DIRECT
+condition,if and only if,CONDITION_DIRECT
+condition,in case,CONDITION_DIRECT
+condition,in the case that,CONDITION_DIRECT
+condition,in the event,CONDITION_DIRECT
+condition,on condition,CONDITION_DIRECT
+condition,on the assumption,CONDITION_DIRECT
+condition,on these terms,CONDITION_DIRECT
+condition,subject to,CONDITION_DIRECT
+condition,supposing,CONDITION_DIRECT
+condition,with the proviso,CONDITION_DIRECT
+condition,though,CONDITION_DIRECT
+condition,albeit,CONDITION_DIRECT
+condition,allowing,CONDITION_DIRECT
+condition,although,CONDITION_DIRECT
+condition,but,CONDITION_DIRECT
+condition,despite,CONDITION_DIRECT
+condition,despite the fact,CONDITION_DIRECT
+condition,even if,CONDITION_DIRECT
+condition,even supposing,CONDITION_DIRECT
+condition,even though,CONDITION_DIRECT
+condition,granted,CONDITION_DIRECT
+condition,howbeit,CONDITION_DIRECT
+condition,much as,CONDITION_DIRECT
+condition,notwithstanding,CONDITION_DIRECT
+condition,when,CONDITION_DIRECT
+condition,whereas,CONDITION_DIRECT
+condition,whether,CONDITION_DIRECT
+condition,until,CONDITION_DIRECT
+confirm,Are you sure,CONFIRM_QUES
+confirm,Are you sure about,CONFIRM_QUES
+confirm,Are you certain about,CONFIRM_QUES
+confirm,Do you think it is true,CONFIRM_QUES
+confirm,Do you think so,CONFIRM_QUES
+confirm,How sure are you,CONFIRM_QUES
+confirm,Yes I am certain,CONFIRM_RESPONSE_POS
+confirm,I am a hundred percent,CONFIRM_RESPONSE_POS
+confirm,I am absolutely sure,CONFIRM_RESPONSE_POS
+confirm,I have no doubt about it,CONFIRM_RESPONSE_POS
+confirm,I am sure about it,CONFIRM_RESPONSE_POS
+confirm,I do not think there can be any doubt about,CONFIRM_RESPONSE_POS
+confirm,Of course,CONFIRM_RESPONSE_POS
+confirm,I am positive,CONFIRM_RESPONSE_POS
+confirm,I am quite sure about it,CONFIRM_RESPONSE_POS
+confirm,I am no doubt about it,CONFIRM_RESPONSE_POS
+confirm,I am absolutely certain that,CONFIRM_RESPONSE_POS
+confirm,I am not sure about it,CONFIRM_RESPONSE_NEG
+confirm,I doubt it,CONFIRM_RESPONSE_NEG
+confirm,I am not really sure about,CONFIRM_RESPONSE_NEG
+confirm,I do not know for sure,CONFIRM_RESPONSE_NEG
+confirm,It is very unlikely,CONFIRM_RESPONSE_NEG
+confirm,I have my own doubts,CONFIRM_RESPONSE_NEG
+confirm,I do not think so,CONFIRM_RESPONSE_NEG
+confirm,I do not believe this is true,CONFIRM_RESPONSE_NEG
+confirm,There is some doubt in my mind,CONFIRM_RESPONSE_NEG
+confirm,I am not a hundred percent,CONFIRM_RESPONSE_NEG
+confirm,I do not know yet,CONFIRM_RESPONSE_NEG
+confirm,I will confirm,CONFIRM_RESPONSE_POS
+confirm,I am confirming,CONFIRM_RESPONSE_POS
+confirm,confirm,CONFIRM_QUES
+confirm,confirmation,CONFIRM_QUES
+confirm,I need a confirmation,CONFIRM_QUES
+confirm,I need you to confirm,CONFIRM_QUES
+confirm,I just need confirmation,CONFIRM_QUES
+confirm,I just need to confirm,CONFIRM_QUES
+confirm,Double Check,CONFIRM_DIRECT
+demand,Can you explain,DEMAND_DIRECT
+demand,How come,DEMAND_DIRECT
+demand,I do not understand,DEMAND_DIRECT
+demand,Can you tell me,DEMAND_DIRECT
+demand,Why is it that,DEMAND_DIRECT
+demand,Do you expect me to believe,DEMAND_DIRECT
+demand,I demand an explanation,DEMAND_DIRECT
+demand,I demand to know,DEMAND_DIRECT
+demand,I need to speak to your supervisor,DEMAND_DIRECT
+demand,I want to speak to the manager,DEMAND_DIRECT
+demand,Who is in charge here,DEMAND_DIRECT
+demand,I wish to speak to the,DEMAND_DIRECT
+demand,How can this happen,DEMAND_DIRECT
+desire,I hope,DESIRE_DIRECT
+desire,We hope,DESIRE_DIRECT
+desire,Let us hope,DESIRE_DIRECT
+desire,I believe,DESIRE_DIRECT
+desire,We believe,DESIRE_DIRECT
+desire,Hopefully,DESIRE_DIRECT
+desire,I keep hoping,DESIRE_DIRECT
+desire,We keep hoping,DESIRE_DIRECT
+desire,I wish,DESIRE_DIRECT
+desire,We wish,DESIRE_DIRECT
+desire,If we are lucky,DESIRE_DIRECT
+desire,If I am lucky,DESIRE_DIRECT
+desire,With any luck,DESIRE_DIRECT
+desire,I would like,DESIRE_DIRECT
+desire,We would like,DESIRE_DIRECT
+desire,I want,DESIRE_DIRECT
+desire,We want,DESIRE_DIRECT
+desire,What I really want,DESIRE_DIRECT
+desire,What we really want,DESIRE_DIRECT
+desire,I just want,DESIRE_DIRECT
+desire,We just want,DESIRE_DIRECT
+desire,I just really want,DESIRE_DIRECT
+desire,We just really want,DESIRE_DIRECT
+desire,I’d rather,DESIRE_DIRECT
+desire,We’d rather,DESIRE_DIRECT
+desire,I’d much rather,DESIRE_DIRECT
+desire,We’d much rather,DESIRE_DIRECT
+desire,I do not want,DESIRE_DIRECT
+desire,We do not want,DESIRE_DIRECT
+desire,I just do not want,DESIRE_DIRECT
+desire,We just do not want,DESIRE_DIRECT
+desire,I just wish,DESIRE_DIRECT
+desire,We just wish,DESIRE_DIRECT
+desire,If only,DESIRE_REGRET
+desire,I should have,DESIRE_REGRET
+desire,We should have,DESIRE_REGRET
+desire,I should not have,DESIRE_REGRET
+desire,We should not have,DESIRE_REGRET
+desire,I regret,DESIRE_REGRET
+desire,We regret,DESIRE_REGRET
+desire,hope,DESIRE_DIRECT
+disappoint,That is too bad,DISAPPOINT_DIRECT
+disappoint,How disappointing,DISAPPOINT_DIRECT
+disappoint,That is so disappointing,DISAPPOINT_DIRECT
+disappoint,Oh no what a shame,DISAPPOINT_DIRECT
+disappoint,It is a great shame,DISAPPOINT_DIRECT
+disappoint,It is a little bit disappointing,DISAPPOINT_DIRECT
+disappoint,It did not live up to my expectations,DISAPPOINT_DIRECT
+disappoint,What a pity,DISAPPOINT_DIRECT
+disappoint,What a letdown,DISAPPOINT_DIRECT
+disappoint,What a bummer,DISAPPOINT_DIRECT
+disappoint,That is a nuisance,DISAPPOINT_DIRECT
+disappoint,I thought you could do better,DISAPPOINT_DIRECT
+disappoint,I have never been so disappointed in my life,DISAPPOINT_DIRECT
+disappoint,It was not as good as I thought it would be,DISAPPOINT_DIRECT
+entity,name,NAME
+entity,first name,NAME
+entity,card number,CARD
+entity,access code,ACCESS_CODE
+entity,phone number,PHONE
+entity,cell number,PHONE
+entity,mobile phone,PHONE
+entity,mobile number,PHONE
+entity,middle name,NAME
+entity,middle initial,NAME
+entity,intials,NAME
+entity,last name,NAME
+entity,date of birth,DOB
+entity,month,DATE
+entity,date,DATE
+entity,year,DATE
+entity,mother’s name,MOTHER
+entity,maiden’s name,MAIDEN
+entity,maiden name,MAIDEN
+entity,mother name,MOTHER
+entity,father’s name,FATHER
+entity,father name,FATHER
+entity,family name,NAME
+entity,phone,PHONE
+entity,cell,PHONE
+entity,number,NUMBER
+entity,mobile,PHONE
+entity,card,CARD
+entity,routing number,ROUTING_NO
+entity,routing,ROUTING_NO
+entity,checking account,ACCOUNT
+entity,savings account,ACCOUNT
+entity,account details,ACCOUNT
+entity,account,ACCOUNT
+entity,last four digits,DIGITS
+entity,digits,DIGITS
+entity,address,ADDRESS
+entity,email,EMAIL
+entity,social security,SSN
+entity,SSN,SSN
+entity,social security number,SSN
+entity,birth,DOB
+exclaim,I was shocked to hear,EXCLAIM_SHOCK
+exclaim,We are all in complete shock,EXCLAIM_SHOCK
+exclaim,Who could have predicted it,EXCLAIM_SHOCK
+exclaim,I was stunned by,EXCLAIM_SHOCK
+exclaim,The news came as a complete shock,EXCLAIM_SHOCK
+exclaim,That is the last thing I expected,EXCLAIM_SHOCK
+exclaim,You are kidding,EXCLAIM_SHOCK
+exclaim,I would never have guessed,EXCLAIM_SHOCK
+exclaim,Oh my God Really,EXCLAIM_SHOCK
+exclaim,Oh my God,EXCLAIM_SHOCK
+exclaim,I am shocked,EXCLAIM_SHOCK
+exclaim,This is shocking news,EXCLAIM_SHOCK
+exclaim,All of a sudden,EXCLAIM_SHOCK
+good_news,I have got some good news for you,GOOD_NEWS_DIRECT
+good_news,I have got a bit of good news for you,GOOD_NEWS_DIRECT
+good_news,I have got some great news for you,GOOD_NEWS_DIRECT
+good_news,I am really pleased to tell you,GOOD_NEWS_DIRECT
+good_news,I am really happy to inform you that,GOOD_NEWS_DIRECT
+good_news,I have some amazing news for you,GOOD_NEWS_DIRECT
+good_news,Good news,GOOD_NEWS_DIRECT
+good_news,Are you ready,GOOD_NEWS_DIRECT
+good_news,I am so excited to tell you that,GOOD_NEWS_DIRECT
+good_news,I am so glad to hear that,GOOD_NEWS_DIRECT
+good_news,That is great,GOOD_NEWS_RESPONSE
+good_news,Sounds great,GOOD_NEWS_RESPONSE
+good_news,That is wonderful,GOOD_NEWS_RESPONSE
+good_news,Incredible,GOOD_NEWS_RESPONSE
+good_news,Wonderful Thank you for sharing.,GOOD_NEWS_RESPONSE
+good_news,Are you serious,GOOD_NEWS_RESPONSE
+good_news,I can not believe that,GOOD_NEWS_RESPONSE
+greet,Hello,GREET_FORMAL
+greet,Good morning,GREET_FORMAL
+greet,Good afternoon,GREET_FORMAL
+greet,Good evening,GREET_FORMAL
+greet,How are you,GREET_FORMAL
+greet,How are you doing,GREET_FORMAL
+greet,Nice to meet you,GREET_FORMAL
+greet,It is nice to meet you,GREET_FORMAL
+greet,I am pleased to meet you,GREET_FORMAL
+greet,It is a pleasure to meet you,GREET_FORMAL
+greet,I am glad to see you,GREET_FORMAL
+greet,How do you do,GREET_FORMAL
+greet,Hi,GREET_FORMAL
+greet,Hey,GREET_FORMAL
+greet,Aloha,GREET_FORMAL
+greet,Shalom,GREET_FORMAL
+greet,What is up,GREET_INFORMAL
+greet,Greetings,GREET_FUNCTIONAL
+greet,Season's Greetings,GREET_FUNCTIONAL
+greet,Happy Holidays,GREET_FUNCTIONAL
+greet,Many Happy Returns,GREET_FUNCTIONAL
+greet,How is it going,GREET_INFORMAL
+greet,How have you been,GREET_INFORMAL
+greet,What is new,GREET_INFORMAL
+greet,What is going on,GREET_INFORMAL
+greet,How are things,GREET_INFORMAL
+greet,How is your day,GREET_INFORMAL
+greet,How is your day going,GREET_INFORMAL
+greet,Good to see you,GREET_INFORMAL
+greet,Long time no see,GREET_INFORMAL
+greet,It is been a while,GREET_INFORMAL
+greet,It is been a long time,GREET_INFORMAL
+greet,It is been such a long time,GREET_INFORMAL
+greet,It is been too long,GREET_INFORMAL
+greet,I am so happy to see you again,GREET_INFORMAL
+greet,"Wow, it is so good to see you again",GREET_INFORMAL
+greet,What have you been up to,GREET_INFORMAL
+greet,"I am doing very well, thank you And you",GREET_RESPONSE
+greet,I am fine thank you,GREET_RESPONSE
+greet,Great thanks How are you,GREET_RESPONSE
+greet,Not bad You,GREET_RESPONSE
+greet,Could not be better How about you,GREET_RESPONSE
+greet,Wonderful thank you,GREET_RESPONSE
+guess,It looks like,GUESS_DIRECT
+guess,It seems like,GUESS_DIRECT
+guess,It appears to,GUESS_DIRECT
+guess,Perhaps,GUESS_DIRECT
+guess,I would say,GUESS_DIRECT
+guess,If I had to take a guess,GUESS_DIRECT
+guess,Maybe,GUESS_DIRECT
+guess,Could be,GUESS_DIRECT
+guess,Chances are,GUESS_DIRECT
+guess,It’s difficult to say,GUESS_DIRECT
+guess,I think,GUESS_DIRECT
+guess,Apparently,GUESS_DIRECT
+hesitate,err,HESITATE_DIRECT
+hesitate,umm,HESITATE_DIRECT
+hesitate,uhh,HESITATE_DIRECT
+hesitate,um,HESITATE_DIRECT
+hesitate,uh,HESITATE_DIRECT
+hesitate,er,HESITATE_DIRECT
+hesitate,huh,HESITATE_DIRECT
+hesitate,hey,HESITATE_DIRECT
+hesitate,ah,HESITATE_DIRECT
+hesitate,oh,HESITATE_DIRECT
+hesitate,ugh,HESITATE_DIRECT
+hesitate,wooh,HESITATE_DIRECT
+hesitate,ah,HESITATE_DIRECT
+hesitate,phew,HESITATE_DIRECT
+hesitate,rah,HESITATE_DIRECT
+hesitate,psst,HESITATE_DIRECT
+hesitate,shucks,HESITATE_DIRECT
+hesitate,shoot,HESITATE_DIRECT
+hesitate,shit,HESITATE_DIRECT
+hesitate,oops,HESITATE_DIRECT
+hesitate,ouch,HESITATE_DIRECT
+hesitate,damn,HESITATE_DIRECT
+hold,hold,HOLD_DIRECT
+hold,wait,HOLD_DIRECT
+hold,please hold,HOLD_DIRECT
+hold,hold the line,HOLD_DIRECT
+hold,Just a sec,HOLD_DIRECT
+hold,Hang on a moment,HOLD_DIRECT
+hold,One moment please,HOLD_DIRECT
+hold,Hold the line please,HOLD_DIRECT
+hold,Please hold while I put you through,HOLD_DIRECT
+hold,All of our staff are busy at this time,HOLD_DIRECT
+hold,Please hold for the next available person,HOLD_DIRECT
+hold,Thank you for holding,HOLD_DIRECT
+hold,Thank you for waiting,HOLD_DIRECT
+hold,I am sorry to keep your waiting,HOLD_DIRECT
+hold,One minute,HOLD_DIRECT
+hold,Give me two minutes,HOLD_DIRECT
+hold,Let me put you on hold,HOLD_DIRECT
+hold,put you through,HOLD_DIRECT
+hold,second,HOLD_DIRECT
+hold,minute,HOLD_DIRECT
+hold,hang on,HOLD_DIRECT
+hold,hang in there,HOLD_DIRECT
+hold,hang,HOLD_DIRECT
+hold,Will not be long,HOLD_DIRECT
+hold,Wont be long,HOLD_DIRECT
+hold,Would not be long,HOLD_DIRECT
+hold,not long,HOLD_DIRECT
+hold,take your time,HOLD_RESPONSE
+hold,give me a moment,HOLD_DIRECT
+hold,give me moment,HOLD_DIRECT
+indifference_self,Who cares,INDIFFERENCE_DIRECT
+indifference_self,I do not care,INDIFFERENCE_DIRECT
+indifference_self,I do not mind,INDIFFERENCE_DIRECT
+indifference_self,I do not mind whatever you do,INDIFFERENCE_DIRECT
+indifference_self,It makes no difference to me,INDIFFERENCE_DIRECT
+indifference_self,Do what you like. I don’t care,INDIFFERENCE_DIRECT
+indifference_self,It does not matter to me,INDIFFERENCE_DIRECT
+indifference_self,So what,INDIFFERENCE_DIRECT
+indifference_self,It is all the same to me,INDIFFERENCE_DIRECT
+indifference_self,Why should I care,INDIFFERENCE_DIRECT
+indifference_self,It is your decision,INDIFFERENCE_DIRECT
+indifference_self,I would not mind,INDIFFERENCE_DIRECT
+indifference_self,Do as you like,INDIFFERENCE_DIRECT
+indifference_self,Whatever you want,INDIFFERENCE_DIRECT
+indifference_self,You can say whatever you like,INDIFFERENCE_DIRECT
+indifference_self,I could not care less,INDIFFERENCE_DIRECT
+indifference_self,I could care less,INDIFFERENCE_DIRECT
+indifference_self,Your choice,INDIFFERENCE_DIRECT
+indifference_self,As you wish,INDIFFERENCE_DIRECT
+info,I need some Information,INFO_DIRECT
+info,Could you tell me,INFO_DIRECT
+info,Do you know,INFO_DIRECT
+info,Do you happen to know,INFO_DIRECT
+info,Can you tell me,INFO_DIRECT
+info,I’d like to know,INFO_DIRECT
+info,What do you know about,INFO_DIRECT
+info,I wonder if you could tell me,INFO_DIRECT
+info,Do you have any idea,INFO_DIRECT
+info,Could you find out,INFO_DIRECT
+info,I am looking for,INFO_DIRECT
+info,What can you tell me about,INFO_DIRECT
+info,Of course let me look,INFO_RESPONSE_POS
+info,I will have a look,INFO_RESPONSE_POS
+info,I will find that out for you,INFO_RESPONSE_POS
+info,I am searching for,INFO_RESPONSE_POS
+info,Right away,INFO_RESPONSE_POS
+info,I am on it,INFO_RESPONSE_POS
+info,I do not know,INFO_RESPONSE_NEG
+info,I am not sure,INFO_RESPONSE_NEG
+info,I can not help you,INFO_RESPONSE_NEG
+info,I do not know where to look,INFO_RESPONSE_NEG
+info,I can see that,INFO_RESPONSE_POS
+info,I can see,INFO_RESPONSE_POS
+info,I see here,INFO_RESPONSE_POS
+info,I know,INFO_RESPONSE_POS
+info,I know that,INFO_RESPONSE_POS
+info,I already knew that,INFO_RESPONSE_POS
+info,I know what to do,INFO_RESPONSE_POS
+info,I understand,INFO_RESPONSE_POS
+info,I know this already,INFO_RESPONSE_POS
+info,I knew this,INFO_RESPONSE_POS
+info,I am wondering,INFO_DIRECT
+info,I was wondering,INFO_DIRECT
+info,I am thinking,INFO_DIRECT
+info,I was thinking,INFO_DIRECT
+info,I have been thinking,INFO_DIRECT
+info,I have been wondering,INFO_DIRECT
+info,to look,INFO_DIRECT
+info,how to,INFO_DIRECT
+info,you were asking about,INFO_RESPONSE_POS
+info,question,INFO_DIRECT
+info,questions,INFO_DIRECT
+info,how long will it take ,INFO_DIRECT
+info,how long would it take,INFO_DIRECT
+init,How do I,INIT_ASK
+init,Can you show me how to,INIT_ASK
+init,Do you know how to,INIT_ASK
+init,How do I go about,INIT_ASK
+init,What do you suggest,INIT_ASK
+init,What is the first step,INIT_ASK
+init,What is the best way to,INIT_ASK
+init,First you,INIT_DIRECT
+init,Then you,INIT_DIRECT
+init,Next you,INIT_DIRECT
+init,Lastly you,INIT_DIRECT
+init,Starting out,INIT_DIRECT_START
+init,The first thing you do is,INIT_DIRECT_START
+init,Before you begin,INIT_DIRECT_START
+init,The best place to begin is,INIT_DIRECT_START
+init,I would start by,INIT_DIRECT_START
+init,Continuing,INIT_DIRECT_MID
+init,After that,INIT_DIRECT_MID
+init,The next step is to,INIT_DIRECT_MID
+init,The next thing you do is,INIT_DIRECT_MID
+init,Once you have done that then,INIT_DIRECT_MID
+init,When you finish that then,INIT_DIRECT_MID
+init,Finishing,INIT_DIRECT_END
+init,The last step is,INIT_DIRECT_END
+init,The last thing you do is,INIT_DIRECT_END
+init,In the end,INIT_DIRECT_END
+init,When you have finished,INIT_DIRECT_END
+init,When you have completed all the steps,INIT_DIRECT_END
+init,The first time,INIT_DIRECT_START
+init,The second time,INIT_DIRECT_MID
+init,Next time,INIT_DIRECT_MID
+init,Again,INIT_DIRECT_MID
+init,Also,INIT_DIRECT_MID
+interrupt,Excuse me for interrupting,INTERRUPT_DIRECT
+interrupt,Sorry for interrupting but,INTERRUPT_DIRECT
+interrupt,May I interrupt,INTERRUPT_DIRECT
+interrupt,May I say something,INTERRUPT_DIRECT
+interrupt,Can I say something,INTERRUPT_DIRECT
+interrupt,Can I stop you there,INTERRUPT_DIRECT
+interrupt,Just a moment,INTERRUPT_DIRECT
+interrupt,Could I just mention that,INTERRUPT_DIRECT
+interrupt,I do not mean to intrude,INTERRUPT_DIRECT
+interrupt,May I have a word,INTERRUPT_DIRECT
+interrupt,Excuse me,INTERRUPT_DIRECT
+interrupt,Do you mind if I interrupt,INTERRUPT_DIRECT
+interrupt,Sorry I did not catch that,INTERRUPT_DIRECT
+interrupt,Is it possible to repeat the last point,INTERRUPT_DIRECT
+interrupt,It is also important to add,INTERRUPT_DIRECT
+interrupt,If you do not mind me saying,INTERRUPT_DIRECT
+interrupt,I would like to add something,INTERRUPT_DIRECT
+interrupt,Sorry to butt in,INTERRUPT_DIRECT
+interrupt,May I just ask,INTERRUPT_DIRECT
+interrupt,Before we move on,INTERRUPT_DIRECT
+interrupt,May I add,INTERRUPT_DIRECT
+interrupt,Before you move on,INTERRUPT_DIRECT
+interrupt,I would like to say something,INTERRUPT_DIRECT
+interrupt,Do you mind if I jump in,INTERRUPT_DIRECT
+interrupt,If I could just come in,INTERRUPT_DIRECT
+interrupt,Can I cut in,INTERRUPT_DIRECT
+interrupt,Can I just add something,INTERRUPT_DIRECT
+introduce_company,Welcome to,INTRODUCE_COMPANY
+introduce_company,Thank you for calling,INTRODUCE_COMPANY
+introduce_company,Thank you for contacting,INTRODUCE_COMPANY
+introduce_company,Thank you very much for calling,INTRODUCE_COMPANY
+introduce_company,This is,INTRODUCE_COMPANY
+introduce_company,from,INTRODUCE_COMPANY
+introduce_company,You have called,INTRODUCE_COMPANY
+introduce_company,You have reached,INTRODUCE_COMPANY
+introduce_company,We are,INTRODUCE_COMPANY
+introduce_company,I work for,INTRODUCE_COMPANY
+introduce_company,I work at,INTRODUCE_COMPANY
+introduce_company,calling,INTRODUCE_COMPANY
+introduce_company,contacting,INTRODUCE_COMPANY
+introduce_company,welcome,INTRODUCE_COMPANY
+introduce_company,called,INTRODUCE_COMPANY
+introduce_company,reached,INTRODUCE_COMPANY
+introduce_company,work,INTRODUCE_COMPANY
+introduce_self,My name is,INTRODUCE_SELF
+introduce_self,This is,INTRODUCE_SELF
+introduce_self,I am,INTRODUCE_SELF
+introduce_self,You are speaking to,INTRODUCE_SELF
+introduce_self,You are talking to,INTRODUCE_SELF
+introduce_self,You are through to,INTRODUCE_SELF
+introduce_self,It is,INTRODUCE_SELF
+introduce_self,My full name is,INTRODUCE_SELF
+introduce_self,You can call me,INTRODUCE_SELF
+introduce_self,Please call me,INTRODUCE_SELF
+introduce_self,Everyone calls me,INTRODUCE_SELF
+introduce_self,Feel free to call me,INTRODUCE_SELF
+introduce_self,Let me introduce myself,INTRODUCE_SELF
+introduce_self,May I introduce myself,INTRODUCE_SELF
+introduce_self,I would like to introduce myself,INTRODUCE_SELF
+introduce_self,name,INTRODUCE_SELF
+introduce_self,introduce,INTRODUCE_SELF
+introduce_self,speaking,INTRODUCE_SELF
+introduce_self,talking,INTRODUCE_SELF
+mistake,I have to admit that I was wrong,ADMIT_MISTAKE
+mistake,I admit what I have done is wrong,ADMIT_MISTAKE
+mistake,I should not be like this,ADMIT_MISTAKE
+mistake,Sorry I know this was my fault,ADMIT_MISTAKE
+mistake,I am fully responsible for this matter,ADMIT_MISTAKE
+mistake,I have made a mistake,ADMIT_MISTAKE
+mistake,It is my mistake Forgive me,ADMIT_MISTAKE
+mistake,Yes I take the blame,ADMIT_MISTAKE
+mistake,I was the one to blame,ADMIT_MISTAKE
+mistake,I am sorry I should not have done that,ADMIT_MISTAKE
+mistake,I never intended it that way,ADMIT_MISTAKE
+mistake,Do not mention it,MISTAKE_RESPONSE_POS
+mistake,Let it go,MISTAKE_RESPONSE_POS
+mistake,That is fine,MISTAKE_RESPONSE_POS
+mistake,Just take it easy,MISTAKE_RESPONSE_POS
+mistake,Do not do it again,MISTAKE_RESPONSE_POS
+mistake,Forget it It does not matter,MISTAKE_RESPONSE_POS
+mistake,That would be okay,MISTAKE_RESPONSE_POS
+mistake,Do not worry about it,MISTAKE_RESPONSE_POS
+mistake,It is okay,MISTAKE_RESPONSE_POS
+mistake,You should be ashamed,MISTAKE_RESPONSE_NEG
+mistake,You should be,MISTAKE_RESPONSE_NEG
+mistake,How could you,MISTAKE_RESPONSE_NEG
+mistake,How shameful,MISTAKE_RESPONSE_NEG
+mistake,How upsetting,MISTAKE_RESPONSE_NEG
+mistake,This is awful,MISTAKE_RESPONSE_NEG
+mistake,What is wrong with you,MISTAKE_RESPONSE_NEG
+mistake,apologize,ADMIT_MISTAKE
+mistake,mistake,ADMIT_MISTAKE
+mistake,I want to apologize,ADMIT_MISTAKE
+mistake,I apologize,ADMIT_MISTAKE
+mistake,It is my mistake,ADMIT_MISTAKE
+negate,No,NEGATE_DIRECT
+negate,Nah,NEGATE_DIRECT
+negate,Nope,NEGATE_DIRECT
+negate,Never,NEGATE_DIRECT
+negate,nay,NEGATE_DIRECT
+negate,nix,NEGATE_DIRECT
+negate,never,NEGATE_DIRECT
+negate,not,NEGATE_DIRECT
+negate,negation,NEGATE_DIRECT
+negate,oh,NEGATE_DIRECT
+negate,oh-oh,NEGATE_DIRECT
+negate,oops-a-daisy,NEGATE_DIRECT
+negate,sorry,NEGATE_DIRECT
+negate,uh-oh,NEGATE_DIRECT
+negate,negative,NEGATE_DIRECT
+negate,absolutely not,NEGATE_DIRECT
+negate,by no means,NEGATE_DIRECT
+negate,no way,NEGATE_DIRECT
+negate,not at all,NEGATE_DIRECT
+negate,not by any means,NEGATE_DIRECT
+negate,no can do,NEGATE_DIRECT
+negate,no longer,NEGATE_DIRECT
+negate,no man,NEGATE_DIRECT
+negate,none,NEGATE_DIRECT
+negate,hardly,NEGATE_DIRECT
+negate,I do not think so,NEGATE_DIRECT
+negate,under no circumstances,NEGATE_DIRECT
+negate,not,NEGATE_DIRECT
+negate,I think not,NEGATE_DIRECT
+negate,not in a million years,NEGATE_DIRECT
+negate,not ever,NEGATE_DIRECT
+negate,not on your life,NEGATE_DIRECT
+negate,forget it,NEGATE_DIRECT
+negate,do not hold your breath,NEGATE_DIRECT
+negate,are you kidding,NEGATE_DIRECT
+negate,are you serious,NEGATE_DIRECT
+negate,good grief,NEGATE_DIRECT
+negate,you have got to be kidding,NEGATE_DIRECT
+negate,unbelievable,NEGATE_DIRECT
+negate,no kidding,NEGATE_DIRECT
+negate,is that so,NEGATE_DIRECT
+negate,oh really,NEGATE_DIRECT
+negate,you do not say,NEGATE_DIRECT
+negate,is that a fact,NEGATE_DIRECT
+obligation,Do I have to,OBLIGATION_QUES
+obligation,Do I need to,OBLIGATION_QUES
+obligation,Must I,OBLIGATION_QUES
+obligation,Do I,OBLIGATION_QUES
+obligation,I do not have to,OBLIGATION_QUES
+obligation,Do you have to,OBLIGATION_QUES
+obligation,Are you expected to,OBLIGATION_QUES
+obligation,Must you,OBLIGATION_QUES
+obligation,Is it necessary,OBLIGATION_QUES
+obligation,I must,OBLIGATION_DIRECT
+obligation,I must not,OBLIGATION_DIRECT
+obligation,I have to,OBLIGATION_DIRECT
+obligation,I will have to,OBLIGATION_DIRECT
+obligation,I can not refuse,OBLIGATION_DIRECT
+obligation,I can not avoid it,OBLIGATION_DIRECT
+obligation,It is my responsibility,OBLIGATION_DIRECT
+obligation,It is my duty,OBLIGATION_DIRECT
+obligation,It is my job,OBLIGATION_DIRECT
+obligation,I have no other choice,OBLIGATION_DIRECT
+offer_help,May I offer you my help,OFFER_HELP
+offer_help,I’d be happy to help you,OFFER_HELP
+offer_help,How can I help you,OFFER_HELP
+offer_help,How can I provide world class service,OFFER_HELP
+offer_help,What can I help you with,OFFER_HELP
+offer_help,Can I help you,OFFER_HELP
+offer_help,How may I help you,OFFER_HELP
+offer_help,May I help you,OFFER_HELP
+offer_help,May I be of service,OFFER_HELP
+offer_help,How may I be of service,OFFER_HELP
+offer_help,Can I be of any assistance to you,OFFER_HELP
+offer_help,How can I be of assistance,OFFER_HELP
+offer_help,I will be glad to help you,OFFER_HELP
+offer_help,I will be glad to assist you,OFFER_HELP
+offer_help,I would be happy to help you,OFFER_HELP
+offer_help,Can I,OFFER_DIRECT
+offer_help,Shall I,OFFER_DIRECT
+offer_help,Would you like me to,OFFER_DIRECT
+offer_help,Would you like,OFFER_DIRECT
+offer_help,Do you want me to,OFFER_DIRECT
+offer_help,Do you want me to,OFFER_DIRECT
+offer_help,Let me,OFFER_DIRECT
+offer_help,If you would like,OFFER_DIRECT
+offer_help,I would be happy to,OFFER_DIRECT
+offer_help,May I offer you,OFFER_DIRECT
+offer_help,I accept,OFFER_RESPONSE_POS
+offer_help,Yes please,OFFER_RESPONSE_POS
+offer_help,Yes I would love to,OFFER_RESPONSE_POS
+offer_help,Yes That would be great,OFFER_RESPONSE_POS
+offer_help,Yes please that would be lovely,OFFER_RESPONSE_POS
+offer_help,Yes If you wouldn’t mind,OFFER_RESPONSE_POS
+offer_help,That is very kind of you,OFFER_RESPONSE_POS
+offer_help,That sounds nice,OFFER_RESPONSE_POS
+offer_help,Thank you I would like to,OFFER_RESPONSE_POS
+offer_help,I refuse,OFFER_RESPONSE_NEG
+offer_help,No thanks,OFFER_RESPONSE_NEG
+offer_help,It is Okay I can do it myself,OFFER_RESPONSE_NEG
+offer_help,Thank you for your kindness but I can do it myself,OFFER_RESPONSE_NEG
+offer_help,Do not worry I can do it,OFFER_RESPONSE_NEG
+offer_help,I appreciate that but I can do it myself,OFFER_RESPONSE_NEG
+offer_help,Is there anything I can help you with,OFFER_DIRECT
+offer_help,Is there anything else I can help you with,OFFER_DIRECT
+offer_help,I can help you,OFFER_DIRECT
+offer_help,Is there anything else I can help,OFFER_DIRECT
+offer_help,Is there anything I can help,OFFER_DIRECT
+offer_help,Is there anything else I can assist,OFFER_DIRECT
+offer_help,what else,OFFER_DIRECT
+offer_help,anything else I can assist you with,OFFER_HELP
+offer_help,How I help you,OFFER_HELP
+offer_help,I can assist you,OFFER_HELP
+opinion,What do you think about this problem,OPINION_ASK
+opinion,What do you think of my new house?,OPINION_ASK
+opinion,Do you have any thoughts on that,OPINION_ASK
+opinion,How do you feel about that,OPINION_ASK
+opinion,What is your opinion,OPINION_ASK
+opinion,Do you have any idea,OPINION_ASK
+opinion,Do you have any opinion on this matter,OPINION_ASK
+opinion,What is your view,OPINION_ASK
+opinion,Please tell me your opinion on this subject,OPINION_ASK
+opinion,What is your opinion about that,OPINION_ASK
+opinion,Can you give me your thoughts on the report,OPINION_ASK
+opinion,What are your feelings about his behavior,OPINION_ASK
+opinion,I would like to hear your views on this matter,OPINION_ASK
+opinion,I think you need,OPINION_DIRECT
+opinion,In my opinion,OPINION_DIRECT
+opinion,I do not think,OPINION_DIRECT
+opinion,Personally I think,OPINION_DIRECT
+opinion,From my point of view,OPINION_DIRECT
+opinion,As far as I am concerned,OPINION_DIRECT
+opinion,My personal view is,OPINION_DIRECT
+opinion,In my point of view,OPINION_DIRECT
+opinion,It seems to me,OPINION_DIRECT
+opinion,To my mind,OPINION_DIRECT
+opinion,I personally believe,OPINION_DIRECT
+opinion,This is absolutely right,OPINION_RESPONSE_POS
+opinion,I could not agree more,OPINION_RESPONSE_POS
+opinion,I completely agree with you,OPINION_RESPONSE_POS
+opinion,I agree with this opinion,OPINION_RESPONSE_POS
+opinion,I do not agree with you,OPINION_RESPONSE_NEG
+opinion,I think you are wrong,OPINION_RESPONSE_NEG
+opinion,I do not think so,OPINION_RESPONSE_NEG
+opinion,I am afraid I can not agree with you,OPINION_RESPONSE_NEG
+pardon,I am sorry,PARDON_DIRECT
+pardon,I am so sorry,PARDON_DIRECT
+pardon,I am very sorry,PARDON_DIRECT
+pardon,I am terribly sorry,PARDON_DIRECT
+pardon,Sorry,PARDON_DIRECT
+pardon,I did not mean to do that,PARDON_DIRECT
+pardon,Sorry about that,PARDON_DIRECT
+pardon,Can you forgive me,PARDON_DIRECT
+pardon,I apologize for,PARDON_DIRECT
+pardon,Please forgive me,PARDON_DIRECT
+pardon,I owe you an apology,PARDON_DIRECT
+pardon,You can blame me for this,PARDON_DIRECT
+pardon,How should I apologize to you,PARDON_DIRECT
+pardon,I beg your pardon,PARDON_DIRECT
+pardon,Excuse me,PARDON_DIRECT
+pardon,Excuse my,PARDON_DIRECT
+pardon,Sorry it is my fault,PARDON_DIRECT
+pardon,Sorry for keeping you waiting,PARDON_DIRECT
+pardon,Sorry to keep you waiting,PARDON_DIRECT
+pardon,That is all right,PARDON_RESPONSE
+pardon,Do not worry about it,PARDON_RESPONSE
+pardon,Forget it,PARDON_RESPONSE
+pardon,No problem,PARDON_RESPONSE
+pardon,Never mind It does not really matter,PARDON_RESPONSE
+pardon,No big thing,PARDON_RESPONSE
+pardon,It is not your fault,PARDON_RESPONSE
+pardon,Please do not blame yourself,PARDON_RESPONSE
+pardon,Think nothing of it,PARDON_RESPONSE
+permission, Is it okay if I,PERMISSION_DIRECT
+permission, Can I ask you a question,PERMISSION_DIRECT
+permission, Do you mind if I,PERMISSION_DIRECT
+permission, Would you mind if I,PERMISSION_DIRECT
+permission, If you don’t mind,PERMISSION_DIRECT
+permission, I wonder if I could,PERMISSION_DIRECT
+permission, Would it be all right if I,PERMISSION_DIRECT
+permission, Sure,PERMISSION_RESPONSE_POS
+permission, Sure go ahead,PERMISSION_RESPONSE_POS
+permission, No problem,PERMISSION_RESPONSE_POS
+permission, Yes you can,PERMISSION_RESPONSE_POS
+permission, Please feel free,PERMISSION_RESPONSE_POS
+permission, I do not mind,PERMISSION_RESPONSE_POS
+permission, I am afraid not,PERMISSION_RESPONSE_NEG
+permission, I am afraid you can not,PERMISSION_RESPONSE_NEG
+permission," I am sorry, but that is not possible",PERMISSION_RESPONSE_NEG
+permission, No you can not,PERMISSION_RESPONSE_NEG
+permission, You could not do that,PERMISSION_RESPONSE_NEG
+permission, Sorry you are not permitted,PERMISSION_RESPONSE_NEG
+permission,You have my permission,PERMISSION_RESPONSE_POS
+permission,You do not have my permission,PERMISSION_RESPONSE_NEG
+preference,I like,PREFERENCE_POS
+preference,I prefer,PREFERENCE_POS
+preference,My preference is,PREFERENCE_POS
+preference,I love,PREFERENCE_POS
+preference,I fancy,PREFERENCE_POS
+preference,I enjoy,PREFERENCE_POS
+preference,I adore,PREFERENCE_POS
+preference,I am crazy about,PREFERENCE_POS
+preference,I am mad about,PREFERENCE_POS
+preference,I am keen on,PREFERENCE_POS
+preference,We like,PREFERENCE_POS
+preference,We prefer,PREFERENCE_POS
+preference,Our preference is,PREFERENCE_POS
+preference,We love,PREFERENCE_POS
+preference,We fancy,PREFERENCE_POS
+preference,We enjoy,PREFERENCE_POS
+preference,We adore,PREFERENCE_POS
+preference,We are crazy about,PREFERENCE_POS
+preference,We are mad about,PREFERENCE_POS
+preference,We are keen on,PREFERENCE_POS
+preference,I would like,PREFERENCE_POS
+preference,I would prefer,PREFERENCE_POS
+preference,My preference would be,PREFERENCE_POS
+preference,I would love,PREFERENCE_POS
+preference,I would fancy,PREFERENCE_POS
+preference,I would enjoy,PREFERENCE_POS
+preference,I would adore,PREFERENCE_POS
+preference,I would go crazy for,PREFERENCE_POS
+preference,I would go mad for,PREFERENCE_POS
+preference,I would be keen on,PREFERENCE_POS
+preference,We would like,PREFERENCE_POS
+preference,We would prefer,PREFERENCE_POS
+preference,Our preference would be,PREFERENCE_POS
+preference,We would love,PREFERENCE_POS
+preference,We would fancy,PREFERENCE_POS
+preference,We would enjoy,PREFERENCE_POS
+preference,We would adore,PREFERENCE_POS
+preference,We would go crazy for,PREFERENCE_POS
+preference,We would go mad for,PREFERENCE_POS
+preference,We would be keen on,PREFERENCE_POS
+preference,I do not like,PREFERENCE_NEG
+preference,I dislike,PREFERENCE_NEG
+preference,I hate,PREFERENCE_NEG
+preference,I can not bear,PREFERENCE_NEG
+preference,I can not stand,PREFERENCE_NEG
+preference,We do not like,PREFERENCE_NEG
+preference,We dislike,PREFERENCE_NEG
+preference,We hate,PREFERENCE_NEG
+preference,We can not bear,PREFERENCE_NEG
+preference,We can not stand,PREFERENCE_NEG
+preference,Which do you prefer,PREFERENCE_QUES
+preference,Which do you like better,PREFERENCE_QUES
+preference,Do you prefer,PREFERENCE_QUES
+preference,Would you prefer,PREFERENCE_QUES
+preference,Would you rather,PREFERENCE_QUES
+preference,you said you wanted,PREFERENCE_RESPONSE
+preference,I feel,PREFERENCE_POS
+prohibition,It is forbidden,PROHIBITION_DIRECT
+prohibition,You are not allowed,PROHIBITION_DIRECT
+prohibition,You are not permitted,PROHIBITION_DIRECT
+prohibition,It is prohibited,PROHIBITION_DIRECT
+prohibition,You must not,PROHIBITION_DIRECT
+prohibition,You are not authorized,PROHIBITION_DIRECT
+prohibition,You can not,PROHIBITION_DIRECT
+prohibition,I am not authorized,PROHIBITION_DIRECT
+prohibition,I do not have access,PROHIBITION_DIRECT
+prohibition,You do not have access,PROHIBITION_DIRECT
+prohibition,I can not access,PROHIBITION_DIRECT
+prohibition,I can not verify,PROHIBITION_DIRECT
+promise,I promise that I,PROMISE_DIRECT
+promise,I promise,PROMISE_DIRECT
+promise,I swear,PROMISE_DIRECT
+promise,I swear I would,PROMISE_DIRECT
+promise,I assure you that I,PROMISE_DIRECT
+promise,I assure you,PROMISE_DIRECT
+promise,Believe me,PROMISE_DIRECT
+promise,Trust me,PROMISE_DIRECT
+promise,Thank you,PROMISE_RESPONSE
+promise,I believe you,PROMISE_RESPONSE
+promise,Keep your promise.,PROMISE_RESPONSE
+promise,I hope you will keep your words,PROMISE_RESPONSE
+promise,Just let the time answer it,PROMISE_RESPONSE
+reason,because,CAUSE
+reason,cause,CAUSE
+reason,due to,CAUSE
+reason,since,CAUSE
+reason,yet,EFFECT
+reason,as,EFFECT
+reason,as a result,EFFECT
+reason,consequently,EFFECT
+reason,so,EFFECT
+reason,Therefore,EFFECT
+reason,However,CAUSE
+reason,here after,EFFECT
+reason,which,CAUSE
+reason,that is why,CAUSE
+reason,but,EFFECT
+reason,as long as,CAUSE
+reason,as things go,CAUSE
+reason,being,CAUSE
+reason,by cause of,CAUSE
+reason,by reason of,CAUSE
+reason,by virtue of,CAUSE
+reason,considering,CAUSE
+reason,for,CAUSE
+reason,for the reason that,CAUSE
+reason,for the sake of,CAUSE
+reason,in as much as,CAUSE
+reason,in behalf of,CAUSE
+reason,in that,CAUSE
+reason,in the interest of,CAUSE
+reason,in view of,CAUSE
+reason,now that,CAUSE
+reason,on the grounds that,CAUSE
+reason,over,CAUSE
+reason,owing to,CAUSE
+reason,seeing,CAUSE
+reason,thanks to,CAUSE
+reason,through,CAUSE
+reason,whereas,CAUSE
+reason,all in all,CAUSE
+reason,all things considered,CAUSE
+reason,everything being equal,CAUSE
+reason,as much as,CAUSE
+reason,in consideration of,CAUSE
+reason,in light of,CAUSE
+reason,in so much as,CAUSE
+reason,now,CAUSE
+reason,pending,CAUSE
+reason,taking into account,CAUSE
+reason,making allowance for,CAUSE
+reason,while,CAUSE
+reason,later,EFFECT
+reason,subsequently,CAUSE
+reason,hence,CAUSE
+reason,afterward,CAUSE
+reason,ago,CAUSE
+reason,already,CAUSE
+reason,similarly,EFFECT
+reason,likewise,EFFECT
+reason,in the same way,EFFECT
+reason,thus,EFFECT
+reason,well,EFFECT
+reason,too,EFFECT
+reason,indeed,EFFECT
+reason,accordingly,EFFECT
+reason,ergo,EFFECT
+reason,in regards to,CAUSE
+reason,regarding,CAUSE
+refuse,Unfortunately ,REFUSE_DIRECT
+refuse,I am afraid ,REFUSE_DIRECT
+refuse,I am not authorized ,REFUSE_DIRECT
+refuse,Please accept my apology,REFUSE_DIRECT
+refuse,That is not something I can do,REFUSE_DIRECT
+refuse,There is nothing I can do,REFUSE_DIRECT
+refuse,I am sorry,REFUSE_DIRECT
+refuse,I can not help,REFUSE_DIRECT
+repeat,As I have mentioned,REPEAT_DIRECT
+repeat,As I said,REPEAT_DIRECT
+repeat,Like I said,REPEAT_DIRECT
+repeat,As you know,REPEAT_DIRECT
+repeat,You may know,REPEAT_DIRECT
+repeat,I said before,REPEAT_DIRECT
+repeat,I will repeat that,REPEAT_DIRECT
+repeat,You know,REPEAT_DIRECT
+repeat,As mentioned,REPEAT_DIRECT
+repeat,as i have said,REPEAT_DIRECT
+repeat,as i say,REPEAT_DIRECT
+repeat,like i told,REPEAT_DIRECT
+repeat,as i mentioned,REPEAT_DIRECT
+repeat,as i have already said,REPEAT_DIRECT
+repeat,as i was saying,REPEAT_DIRECT
+repeat,as i said earlier,REPEAT_DIRECT
+repeat,like i say,REPEAT_DIRECT
+repeat,as i told,REPEAT_DIRECT
+repeat,as i stated,REPEAT_DIRECT
+repeat,as i mentioned earlier,REPEAT_DIRECT
+repeat,as i indicated,REPEAT_DIRECT
+repeat,as mentioned before,REPEAT_DIRECT
+repeat,like you said,REPEAT_DIRECT
+repeat,as you said,REPEAT_DIRECT
+repeat,i said,REPEAT_DIRECT
+repeat,as i have already mentioned,REPEAT_DIRECT
+repeat,i told,REPEAT_DIRECT
+repeat,as i have indicated,REPEAT_DIRECT
+repeat,like i was saying,REPEAT_DIRECT
+repeat,as i just said,REPEAT_DIRECT
+repeat,as noted,REPEAT_DIRECT
+repeat,i already told,REPEAT_DIRECT
+repeat,as i was telling,REPEAT_DIRECT
+repeat,as i have just said,REPEAT_DIRECT
+repeat,as mentioned earlier,REPEAT_DIRECT
+repeat,as you say,REPEAT_DIRECT
+repeat,when i said,REPEAT_DIRECT
+repeat,as i have stated,REPEAT_DIRECT
+repeat,as i have already stated,REPEAT_DIRECT
+repeat,as i have already indicated,REPEAT_DIRECT
+repeat,like i was telling,REPEAT_DIRECT
+repeat,like i tell,REPEAT_DIRECT
+repeat,how i told,REPEAT_DIRECT
+repeat,like i just said,REPEAT_DIRECT
+repeat,as stated,REPEAT_DIRECT
+repeat,as previously stated,REPEAT_DIRECT
+repeat,like i told you,REPEAT_DIRECT
+repeat,as i already mentioned,REPEAT_DIRECT
+repeat,how i say,REPEAT_DIRECT
+repeat,what i said,REPEAT_DIRECT
+repeat,just as you said,REPEAT_DIRECT
+repeat,as i already said,REPEAT_DIRECT
+repeat,like i told you,REPEAT_DIRECT
+repeat,as i have told,REPEAT_DIRECT
+repeat,as i noted earlier,REPEAT_DIRECT
+repeat,as i mentioned previously,REPEAT_DIRECT
+repeat,as i said previously,REPEAT_DIRECT
+repeat,previously,REPEAT_DIRECT
+repeat,that is what they told me,REPEAT_RESPONSE
+repeat,they told me,REPEAT_RESPONSE
+request,Will you please,REQUEST_DIRECT
+request,Would you please,REQUEST_DIRECT
+request,Can you please,REQUEST_DIRECT
+request,Could you please,REQUEST_DIRECT
+request,Do you mind,REQUEST_DIRECT
+request,Do you think you could,REQUEST_DIRECT
+request,Do you think it would be possible,REQUEST_DIRECT
+request,Would it be possible for you to,REQUEST_DIRECT
+request,Would there be any possibility of,REQUEST_DIRECT
+request,Would you be kind enough to,REQUEST_DIRECT
+request,Would you mind,REQUEST_DIRECT
+request,Could you possibly,REQUEST_DIRECT
+request,I would appreciate it if you could,REQUEST_DIRECT
+request,Can I ask you to,REQUEST_DIRECT
+request,Sure I would be glad to,REQUEST_RESPONSE_POS
+request,I would be happy to,REQUEST_RESPONSE_POS
+request,Sure Just a moment,REQUEST_RESPONSE_POS
+request,No problem,REQUEST_RESPONSE_POS
+request,Of course,REQUEST_RESPONSE_POS
+request,Certainly,REQUEST_RESPONSE_POS
+request,All right,REQUEST_RESPONSE_POS
+request,I am sorry I can not,REQUEST_RESPONSE_NEG
+request,I am sorry but,REQUEST_RESPONSE_NEG
+request,I would love to but,REQUEST_RESPONSE_NEG
+request,Sorry to have to tell you this,REQUEST_RESPONSE_NEG
+request,It sounds great but,REQUEST_RESPONSE_NEG
+request,Can you help me,HELP_REQUEST
+request,Are you able to help me,HELP_REQUEST
+suggest,You should try,SUGGEST_DIRECT
+suggest,You should,SUGGEST_DIRECT
+suggest,I think you should,SUGGEST_DIRECT
+suggest,Why do not you,SUGGEST_DIRECT
+suggest,You would better,SUGGEST_DIRECT
+suggest,Let us,SUGGEST_DIRECT
+suggest,What about,SUGGEST_DIRECT
+suggest,How about,SUGGEST_DIRECT
+suggest,Do not you think,SUGGEST_DIRECT
+suggest,If I were you I would,SUGGEST_DIRECT
+suggest,I suggest that,SUGGEST_DIRECT
+suggest,I suggest,SUGGEST_DIRECT
+suggest,You may want to,SUGGEST_DIRECT
+suggest,Perhaps you could,SUGGEST_DIRECT
+suggest,Perhaps you should,SUGGEST_DIRECT
+suggest,Perhaps you,SUGGEST_DIRECT
+suggest,I strongly advise you,SUGGEST_DIRECT
+suggest,I recommend that,SUGGEST_DIRECT
+suggest,I recommend,SUGGEST_DIRECT
+suggest,It is better for you,SUGGEST_DIRECT
+suggest,It is better if you,SUGGEST_DIRECT
+suggest,I think you need to,SUGGEST_DIRECT
+suggest,I think its better if you,SUGGEST_DIRECT
+suggest,It is probably better if you,SUGGEST_DIRECT
+suggest,Thanks I will do it,SUGGEST_RESPONSE_POS
+suggest,It sounds good,SUGGEST_RESPONSE_POS
+suggest,That sounds like a good idea,SUGGEST_RESPONSE_POS
+suggest,Thanks It is a good suggestion,SUGGEST_RESPONSE_POS
+suggest,I think you are right,SUGGEST_RESPONSE_POS
+suggest,Why did not I think of that,SUGGEST_RESPONSE_POS
+suggest,Good advice,SUGGEST_RESPONSE_POS
+suggest,Thanks for the advice,SUGGEST_RESPONSE_POS
+suggest,Thanks for the tip,SUGGEST_RESPONSE_POS
+suggest,No I would rather not,SUGGEST_RESPONSE_NEG
+suggest,I do not think so,SUGGEST_RESPONSE_NEG
+suggest,I do not feel like it,SUGGEST_RESPONSE_NEG
+suggest,No I do not this it is a good idea,SUGGEST_RESPONSE_NEG
+suggest,What a bad idea,SUGGEST_RESPONSE_NEG
+suggest,That is an awful plan,SUGGEST_RESPONSE_NEG
+swear,acrotomophilia,SWEAR_DIRECT
+swear,aeolus,SWEAR_DIRECT
+swear,ahole,SWEAR_DIRECT
+swear,alabama hot pocket,SWEAR_DIRECT
+swear,alaskan pipeline,SWEAR_DIRECT
+swear,anal,SWEAR_DIRECT
+swear,anal impaler,SWEAR_DIRECT
+swear,anal leakage,SWEAR_DIRECT
+swear,analprobe,SWEAR_DIRECT
+swear,anilingus,SWEAR_DIRECT
+swear,anus,SWEAR_DIRECT
+swear,apeshit,SWEAR_DIRECT
+swear,ar5e,SWEAR_DIRECT
+swear,areola,SWEAR_DIRECT
+swear,areole,SWEAR_DIRECT
+swear,arian,SWEAR_DIRECT
+swear,arrse,SWEAR_DIRECT
+swear,arse,SWEAR_DIRECT
+swear,arsehole,SWEAR_DIRECT
+swear,aryan,SWEAR_DIRECT
+swear,ass,SWEAR_DIRECT
+swear,ass fuck,SWEAR_DIRECT
+swear,ass fuck,SWEAR_DIRECT
+swear,ass hole,SWEAR_DIRECT
+swear,assbag,SWEAR_DIRECT
+swear,assbandit,SWEAR_DIRECT
+swear,assbang,SWEAR_DIRECT
+swear,assbanged,SWEAR_DIRECT
+swear,assbanger,SWEAR_DIRECT
+swear,assbangs,SWEAR_DIRECT
+swear,assbite,SWEAR_DIRECT
+swear,assclown,SWEAR_DIRECT
+swear,asscock,SWEAR_DIRECT
+swear,asscracker,SWEAR_DIRECT
+swear,asses,SWEAR_DIRECT
+swear,assface,SWEAR_DIRECT
+swear,assfaces,SWEAR_DIRECT
+swear,assfuck,SWEAR_DIRECT
+swear,assfucker,SWEAR_DIRECT
+swear,ass-fucker,SWEAR_DIRECT
+swear,assfukka,SWEAR_DIRECT
+swear,assgoblin,SWEAR_DIRECT
+swear,assh0le,SWEAR_DIRECT
+swear,asshat,SWEAR_DIRECT
+swear,ass-hat,SWEAR_DIRECT
+swear,asshead,SWEAR_DIRECT
+swear,assho1e,SWEAR_DIRECT
+swear,asshole,SWEAR_DIRECT
+swear,assholes,SWEAR_DIRECT
+swear,asshopper,SWEAR_DIRECT
+swear,ass-jabber,SWEAR_DIRECT
+swear,assjacker,SWEAR_DIRECT
+swear,asslick,SWEAR_DIRECT
+swear,asslicker,SWEAR_DIRECT
+swear,assmaster,SWEAR_DIRECT
+swear,assmonkey,SWEAR_DIRECT
+swear,assmucus,SWEAR_DIRECT
+swear,assmucus,SWEAR_DIRECT
+swear,assmunch,SWEAR_DIRECT
+swear,assmuncher,SWEAR_DIRECT
+swear,assnigger,SWEAR_DIRECT
+swear,asspirate,SWEAR_DIRECT
+swear,ass-pirate,SWEAR_DIRECT
+swear,assshit,SWEAR_DIRECT
+swear,assshole,SWEAR_DIRECT
+swear,asssucker,SWEAR_DIRECT
+swear,asswad,SWEAR_DIRECT
+swear,asswhole,SWEAR_DIRECT
+swear,asswipe,SWEAR_DIRECT
+swear,asswipes,SWEAR_DIRECT
+swear,auto erotic,SWEAR_DIRECT
+swear,autoerotic,SWEAR_DIRECT
+swear,axwound,SWEAR_DIRECT
+swear,azazel,SWEAR_DIRECT
+swear,azz,SWEAR_DIRECT
+swear,b!tch,SWEAR_DIRECT
+swear,b00bs,SWEAR_DIRECT
+swear,b17ch,SWEAR_DIRECT
+swear,b1tch,SWEAR_DIRECT
+swear,babeland,SWEAR_DIRECT
+swear,baby batter,SWEAR_DIRECT
+swear,baby juice,SWEAR_DIRECT
+swear,ball gag,SWEAR_DIRECT
+swear,ball gravy,SWEAR_DIRECT
+swear,ball kicking,SWEAR_DIRECT
+swear,ball licking,SWEAR_DIRECT
+swear,ball sack,SWEAR_DIRECT
+swear,ball sucking,SWEAR_DIRECT
+swear,ballbag,SWEAR_DIRECT
+swear,balls,SWEAR_DIRECT
+swear,ballsack,SWEAR_DIRECT
+swear,bampot,SWEAR_DIRECT
+swear,bang (one's) box,SWEAR_DIRECT
+swear,bangbros,SWEAR_DIRECT
+swear,bareback,SWEAR_DIRECT
+swear,barely legal,SWEAR_DIRECT
+swear,barenaked,SWEAR_DIRECT
+swear,barf,SWEAR_DIRECT
+swear,bastard,SWEAR_DIRECT
+swear,bastardo,SWEAR_DIRECT
+swear,bastards,SWEAR_DIRECT
+swear,bastinado,SWEAR_DIRECT
+swear,batty boy,SWEAR_DIRECT
+swear,bawdy,SWEAR_DIRECT
+swear,bbw,SWEAR_DIRECT
+swear,bdsm,SWEAR_DIRECT
+swear,beaner,SWEAR_DIRECT
+swear,beaners,SWEAR_DIRECT
+swear,beardedclam,SWEAR_DIRECT
+swear,beastial,SWEAR_DIRECT
+swear,beastiality,SWEAR_DIRECT
+swear,beatch,SWEAR_DIRECT
+swear,beaver,SWEAR_DIRECT
+swear,beaver cleaver,SWEAR_DIRECT
+swear,beaver lips,SWEAR_DIRECT
+swear,beef curtain,SWEAR_DIRECT
+swear,beef curtain,SWEAR_DIRECT
+swear,beef curtains,SWEAR_DIRECT
+swear,beeyotch,SWEAR_DIRECT
+swear,bellend,SWEAR_DIRECT
+swear,bender,SWEAR_DIRECT
+swear,beotch,SWEAR_DIRECT
+swear,bescumber,SWEAR_DIRECT
+swear,bestial,SWEAR_DIRECT
+swear,bestiality,SWEAR_DIRECT
+swear,bi+ch,SWEAR_DIRECT
+swear,biatch,SWEAR_DIRECT
+swear,big black,SWEAR_DIRECT
+swear,big breasts,SWEAR_DIRECT
+swear,big knockers,SWEAR_DIRECT
+swear,big tits,SWEAR_DIRECT
+swear,bigtits,SWEAR_DIRECT
+swear,bimbo,SWEAR_DIRECT
+swear,bimbos,SWEAR_DIRECT
+swear,bint,SWEAR_DIRECT
+swear,birdlock,SWEAR_DIRECT
+swear,bitch,SWEAR_DIRECT
+swear,bitch tit,SWEAR_DIRECT
+swear,bitch tit,SWEAR_DIRECT
+swear,bitchass,SWEAR_DIRECT
+swear,bitched,SWEAR_DIRECT
+swear,bitcher,SWEAR_DIRECT
+swear,bitchers,SWEAR_DIRECT
+swear,bitches,SWEAR_DIRECT
+swear,bitchin,SWEAR_DIRECT
+swear,bitching,SWEAR_DIRECT
+swear,bitchtits,SWEAR_DIRECT
+swear,bitchy,SWEAR_DIRECT
+swear,black cock,SWEAR_DIRECT
+swear,blonde action,SWEAR_DIRECT
+swear,blonde on blonde action,SWEAR_DIRECT
+swear,bloodclaat,SWEAR_DIRECT
+swear,bloody,SWEAR_DIRECT
+swear,bloody hell,SWEAR_DIRECT
+swear,blow job,SWEAR_DIRECT
+swear,blow me,SWEAR_DIRECT
+swear,blow mud,SWEAR_DIRECT
+swear,blow your load,SWEAR_DIRECT
+swear,blowjob,SWEAR_DIRECT
+swear,blowjobs,SWEAR_DIRECT
+swear,blue waffle,SWEAR_DIRECT
+swear,blue waffle,SWEAR_DIRECT
+swear,blumpkin,SWEAR_DIRECT
+swear,blumpkin,SWEAR_DIRECT
+swear,bod,SWEAR_DIRECT
+swear,bodily,SWEAR_DIRECT
+swear,boink,SWEAR_DIRECT
+swear,boiolas,SWEAR_DIRECT
+swear,bollock,SWEAR_DIRECT
+swear,bollocks,SWEAR_DIRECT
+swear,bollok,SWEAR_DIRECT
+swear,bollox,SWEAR_DIRECT
+swear,bondage,SWEAR_DIRECT
+swear,boned,SWEAR_DIRECT
+swear,boner,SWEAR_DIRECT
+swear,boners,SWEAR_DIRECT
+swear,bong,SWEAR_DIRECT
+swear,boob,SWEAR_DIRECT
+swear,boobies,SWEAR_DIRECT
+swear,boobs,SWEAR_DIRECT
+swear,booby,SWEAR_DIRECT
+swear,booger,SWEAR_DIRECT
+swear,bookie,SWEAR_DIRECT
+swear,boong,SWEAR_DIRECT
+swear,booobs,SWEAR_DIRECT
+swear,boooobs,SWEAR_DIRECT
+swear,booooobs,SWEAR_DIRECT
+swear,booooooobs,SWEAR_DIRECT
+swear,bootee,SWEAR_DIRECT
+swear,bootie,SWEAR_DIRECT
+swear,booty,SWEAR_DIRECT
+swear,booty call,SWEAR_DIRECT
+swear,booze,SWEAR_DIRECT
+swear,boozer,SWEAR_DIRECT
+swear,boozy,SWEAR_DIRECT
+swear,bosom,SWEAR_DIRECT
+swear,bosomy,SWEAR_DIRECT
+swear,breasts,SWEAR_DIRECT
+swear,Breeder,SWEAR_DIRECT
+swear,brotherfucker,SWEAR_DIRECT
+swear,brown showers,SWEAR_DIRECT
+swear,brunette action,SWEAR_DIRECT
+swear,buceta,SWEAR_DIRECT
+swear,bugger,SWEAR_DIRECT
+swear,bukkake,SWEAR_DIRECT
+swear,bull shit,SWEAR_DIRECT
+swear,bulldyke,SWEAR_DIRECT
+swear,bullet vibe,SWEAR_DIRECT
+swear,bullshit,SWEAR_DIRECT
+swear,bullshits,SWEAR_DIRECT
+swear,bullshitted,SWEAR_DIRECT
+swear,bullturds,SWEAR_DIRECT
+swear,bum,SWEAR_DIRECT
+swear,bum boy,SWEAR_DIRECT
+swear,bumblefuck,SWEAR_DIRECT
+swear,bumclat,SWEAR_DIRECT
+swear,bummer,SWEAR_DIRECT
+swear,buncombe,SWEAR_DIRECT
+swear,bung,SWEAR_DIRECT
+swear,bung hole,SWEAR_DIRECT
+swear,bunghole,SWEAR_DIRECT
+swear,bunny fucker,SWEAR_DIRECT
+swear,bust a load,SWEAR_DIRECT
+swear,bust a load,SWEAR_DIRECT
+swear,busty,SWEAR_DIRECT
+swear,butt,SWEAR_DIRECT
+swear,butt fuck,SWEAR_DIRECT
+swear,butt fuck,SWEAR_DIRECT
+swear,butt plug,SWEAR_DIRECT
+swear,buttcheeks,SWEAR_DIRECT
+swear,buttfuck,SWEAR_DIRECT
+swear,buttfucka,SWEAR_DIRECT
+swear,buttfucker,SWEAR_DIRECT
+swear,butthole,SWEAR_DIRECT
+swear,buttmuch,SWEAR_DIRECT
+swear,buttmunch,SWEAR_DIRECT
+swear,butt-pirate,SWEAR_DIRECT
+swear,buttplug,SWEAR_DIRECT
+swear,c.0.c.k,SWEAR_DIRECT
+swear,c.o.c.k.,SWEAR_DIRECT
+swear,c.u.n.t,SWEAR_DIRECT
+swear,c0ck,SWEAR_DIRECT
+swear,c-0-c-k,SWEAR_DIRECT
+swear,c0cksucker,SWEAR_DIRECT
+swear,caca,SWEAR_DIRECT
+swear,cacafuego,SWEAR_DIRECT
+swear,cahone,SWEAR_DIRECT
+swear,camel toe,SWEAR_DIRECT
+swear,cameltoe,SWEAR_DIRECT
+swear,camgirl,SWEAR_DIRECT
+swear,camslut,SWEAR_DIRECT
+swear,camwhore,SWEAR_DIRECT
+swear,carpet muncher,SWEAR_DIRECT
+swear,carpetmuncher,SWEAR_DIRECT
+swear,cawk,SWEAR_DIRECT
+swear,cervix,SWEAR_DIRECT
+swear,chesticle,SWEAR_DIRECT
+swear,chi-chi man,SWEAR_DIRECT
+swear,chick with a dick,SWEAR_DIRECT
+swear,child-fucker,SWEAR_DIRECT
+swear,chinc,SWEAR_DIRECT
+swear,chincs,SWEAR_DIRECT
+swear,chink,SWEAR_DIRECT
+swear,chinky,SWEAR_DIRECT
+swear,choad,SWEAR_DIRECT
+swear,choade,SWEAR_DIRECT
+swear,choade,SWEAR_DIRECT
+swear,choc ice,SWEAR_DIRECT
+swear,chocolate rosebuds,SWEAR_DIRECT
+swear,chode,SWEAR_DIRECT
+swear,chodes,SWEAR_DIRECT
+swear,chota bags,SWEAR_DIRECT
+swear,chota bags,SWEAR_DIRECT
+swear,cipa,SWEAR_DIRECT
+swear,circlejerk,SWEAR_DIRECT
+swear,cl1t,SWEAR_DIRECT
+swear,cleveland steamer,SWEAR_DIRECT
+swear,climax,SWEAR_DIRECT
+swear,clit,SWEAR_DIRECT
+swear,clit licker,SWEAR_DIRECT
+swear,clit licker,SWEAR_DIRECT
+swear,clitface,SWEAR_DIRECT
+swear,clitfuck,SWEAR_DIRECT
+swear,clitoris,SWEAR_DIRECT
+swear,clitorus,SWEAR_DIRECT
+swear,clits,SWEAR_DIRECT
+swear,clitty,SWEAR_DIRECT
+swear,clitty litter,SWEAR_DIRECT
+swear,clitty litter,SWEAR_DIRECT
+swear,clover clamps,SWEAR_DIRECT
+swear,clunge,SWEAR_DIRECT
+swear,clusterfuck,SWEAR_DIRECT
+swear,cnut,SWEAR_DIRECT
+swear,cocain,SWEAR_DIRECT
+swear,cocaine,SWEAR_DIRECT
+swear,coccydynia,SWEAR_DIRECT
+swear,cock,SWEAR_DIRECT
+swear,c-o-c-k,SWEAR_DIRECT
+swear,cock pocket,SWEAR_DIRECT
+swear,cock pocket,SWEAR_DIRECT
+swear,cock snot,SWEAR_DIRECT
+swear,cock snot,SWEAR_DIRECT
+swear,cock sucker,SWEAR_DIRECT
+swear,cockass,SWEAR_DIRECT
+swear,cockbite,SWEAR_DIRECT
+swear,cockblock,SWEAR_DIRECT
+swear,cockburger,SWEAR_DIRECT
+swear,cockeye,SWEAR_DIRECT
+swear,cockface,SWEAR_DIRECT
+swear,cockfucker,SWEAR_DIRECT
+swear,cockhead,SWEAR_DIRECT
+swear,cockholster,SWEAR_DIRECT
+swear,cockjockey,SWEAR_DIRECT
+swear,cockknocker,SWEAR_DIRECT
+swear,cockknoker,SWEAR_DIRECT
+swear,Cocklump,SWEAR_DIRECT
+swear,cockmaster,SWEAR_DIRECT
+swear,cockmongler,SWEAR_DIRECT
+swear,cockmongruel,SWEAR_DIRECT
+swear,cockmonkey,SWEAR_DIRECT
+swear,cockmunch,SWEAR_DIRECT
+swear,cockmuncher,SWEAR_DIRECT
+swear,cocknose,SWEAR_DIRECT
+swear,cocknugget,SWEAR_DIRECT
+swear,cocks,SWEAR_DIRECT
+swear,cockshit,SWEAR_DIRECT
+swear,cocksmith,SWEAR_DIRECT
+swear,cocksmoke,SWEAR_DIRECT
+swear,cocksmoker,SWEAR_DIRECT
+swear,cocksniffer,SWEAR_DIRECT
+swear,cocksuck,SWEAR_DIRECT
+swear,cocksuck,SWEAR_DIRECT
+swear,cocksucked,SWEAR_DIRECT
+swear,cocksucked,SWEAR_DIRECT
+swear,cocksucker,SWEAR_DIRECT
+swear,cock-sucker,SWEAR_DIRECT
+swear,cocksuckers,SWEAR_DIRECT
+swear,cocksucking,SWEAR_DIRECT
+swear,cocksucks,SWEAR_DIRECT
+swear,cocksucks,SWEAR_DIRECT
+swear,cocksuka,SWEAR_DIRECT
+swear,cocksukka,SWEAR_DIRECT
+swear,cockwaffle,SWEAR_DIRECT
+swear,coffin dodger,SWEAR_DIRECT
+swear,coital,SWEAR_DIRECT
+swear,cok,SWEAR_DIRECT
+swear,cokmuncher,SWEAR_DIRECT
+swear,coksucka,SWEAR_DIRECT
+swear,commie,SWEAR_DIRECT
+swear,condom,SWEAR_DIRECT
+swear,coochie,SWEAR_DIRECT
+swear,coochy,SWEAR_DIRECT
+swear,coon,SWEAR_DIRECT
+swear,coonnass,SWEAR_DIRECT
+swear,coons,SWEAR_DIRECT
+swear,cooter,SWEAR_DIRECT
+swear,cop some wood,SWEAR_DIRECT
+swear,cop some wood,SWEAR_DIRECT
+swear,coprolagnia,SWEAR_DIRECT
+swear,coprophilia,SWEAR_DIRECT
+swear,corksucker,SWEAR_DIRECT
+swear,cornhole,SWEAR_DIRECT
+swear,cornhole,SWEAR_DIRECT
+swear,corp whore,SWEAR_DIRECT
+swear,corp whore,SWEAR_DIRECT
+swear,corpulent,SWEAR_DIRECT
+swear,cox,SWEAR_DIRECT
+swear,crabs,SWEAR_DIRECT
+swear,crack,SWEAR_DIRECT
+swear,cracker,SWEAR_DIRECT
+swear,crackwhore,SWEAR_DIRECT
+swear,crap,SWEAR_DIRECT
+swear,crappy,SWEAR_DIRECT
+swear,creampie,SWEAR_DIRECT
+swear,cretin,SWEAR_DIRECT
+swear,crikey,SWEAR_DIRECT
+swear,cripple,SWEAR_DIRECT
+swear,crotte,SWEAR_DIRECT
+swear,cum,SWEAR_DIRECT
+swear,cum chugger,SWEAR_DIRECT
+swear,cum chugger,SWEAR_DIRECT
+swear,cum dumpster,SWEAR_DIRECT
+swear,cum dumpster,SWEAR_DIRECT
+swear,cum freak,SWEAR_DIRECT
+swear,cum freak,SWEAR_DIRECT
+swear,cum guzzler,SWEAR_DIRECT
+swear,cum guzzler,SWEAR_DIRECT
+swear,cumbubble,SWEAR_DIRECT
+swear,cumdump,SWEAR_DIRECT
+swear,cumdump,SWEAR_DIRECT
+swear,cumdumpster,SWEAR_DIRECT
+swear,cumguzzler,SWEAR_DIRECT
+swear,cumjockey,SWEAR_DIRECT
+swear,cummer,SWEAR_DIRECT
+swear,cummin,SWEAR_DIRECT
+swear,cumming,SWEAR_DIRECT
+swear,cums,SWEAR_DIRECT
+swear,cumshot,SWEAR_DIRECT
+swear,cumshots,SWEAR_DIRECT
+swear,cumslut,SWEAR_DIRECT
+swear,cumstain,SWEAR_DIRECT
+swear,cumtart,SWEAR_DIRECT
+swear,cunilingus,SWEAR_DIRECT
+swear,cunillingus,SWEAR_DIRECT
+swear,cunnie,SWEAR_DIRECT
+swear,cunnilingus,SWEAR_DIRECT
+swear,cunny,SWEAR_DIRECT
+swear,cunt,SWEAR_DIRECT
+swear,c-u-n-t,SWEAR_DIRECT
+swear,cunt hair,SWEAR_DIRECT
+swear,cunt hair,SWEAR_DIRECT
+swear,cuntass,SWEAR_DIRECT
+swear,cuntbag,SWEAR_DIRECT
+swear,cuntbag,SWEAR_DIRECT
+swear,cuntface,SWEAR_DIRECT
+swear,cunthole,SWEAR_DIRECT
+swear,cunthunter,SWEAR_DIRECT
+swear,cuntlick,SWEAR_DIRECT
+swear,cuntlick,SWEAR_DIRECT
+swear,cuntlicker,SWEAR_DIRECT
+swear,cuntlicker,SWEAR_DIRECT
+swear,cuntlicking,SWEAR_DIRECT
+swear,cuntlicking,SWEAR_DIRECT
+swear,cuntrag,SWEAR_DIRECT
+swear,cunts,SWEAR_DIRECT
+swear,cuntsicle,SWEAR_DIRECT
+swear,cuntsicle,SWEAR_DIRECT
+swear,cuntslut,SWEAR_DIRECT
+swear,cunt-struck,SWEAR_DIRECT
+swear,cunt-struck,SWEAR_DIRECT
+swear,cus,SWEAR_DIRECT
+swear,cut rope,SWEAR_DIRECT
+swear,cut rope,SWEAR_DIRECT
+swear,cyalis,SWEAR_DIRECT
+swear,cyberfuc,SWEAR_DIRECT
+swear,cyberfuck,SWEAR_DIRECT
+swear,cyberfuck,SWEAR_DIRECT
+swear,cyberfucked,SWEAR_DIRECT
+swear,cyberfucked,SWEAR_DIRECT
+swear,cyberfucker,SWEAR_DIRECT
+swear,cyberfuckers,SWEAR_DIRECT
+swear,cyberfucking,SWEAR_DIRECT
+swear,cyberfucking,SWEAR_DIRECT
+swear,d0ng,SWEAR_DIRECT
+swear,d0uch3,SWEAR_DIRECT
+swear,d0uche,SWEAR_DIRECT
+swear,d1ck,SWEAR_DIRECT
+swear,d1ld0,SWEAR_DIRECT
+swear,d1ldo,SWEAR_DIRECT
+swear,dago,SWEAR_DIRECT
+swear,dagos,SWEAR_DIRECT
+swear,dammit,SWEAR_DIRECT
+swear,damn,SWEAR_DIRECT
+swear,damned,SWEAR_DIRECT
+swear,damnit,SWEAR_DIRECT
+swear,darkie,SWEAR_DIRECT
+swear,darn,SWEAR_DIRECT
+swear,date rape,SWEAR_DIRECT
+swear,daterape,SWEAR_DIRECT
+swear,dawgie-style,SWEAR_DIRECT
+swear,deep throat,SWEAR_DIRECT
+swear,deepthroat,SWEAR_DIRECT
+swear,deggo,SWEAR_DIRECT
+swear,dendrophilia,SWEAR_DIRECT
+swear,dick,SWEAR_DIRECT
+swear,dick head,SWEAR_DIRECT
+swear,dick hole,SWEAR_DIRECT
+swear,dick hole,SWEAR_DIRECT
+swear,dick shy,SWEAR_DIRECT
+swear,dick shy,SWEAR_DIRECT
+swear,dickbag,SWEAR_DIRECT
+swear,dickbeaters,SWEAR_DIRECT
+swear,dickdipper,SWEAR_DIRECT
+swear,dickface,SWEAR_DIRECT
+swear,dickflipper,SWEAR_DIRECT
+swear,dickfuck,SWEAR_DIRECT
+swear,dickfucker,SWEAR_DIRECT
+swear,dickhead,SWEAR_DIRECT
+swear,dickheads,SWEAR_DIRECT
+swear,dickhole,SWEAR_DIRECT
+swear,dickish,SWEAR_DIRECT
+swear,dick-ish,SWEAR_DIRECT
+swear,dickjuice,SWEAR_DIRECT
+swear,dickmilk,SWEAR_DIRECT
+swear,dickmonger,SWEAR_DIRECT
+swear,dickripper,SWEAR_DIRECT
+swear,dicks,SWEAR_DIRECT
+swear,dicksipper,SWEAR_DIRECT
+swear,dickslap,SWEAR_DIRECT
+swear,dick-sneeze,SWEAR_DIRECT
+swear,dicksucker,SWEAR_DIRECT
+swear,dicksucking,SWEAR_DIRECT
+swear,dicktickler,SWEAR_DIRECT
+swear,dickwad,SWEAR_DIRECT
+swear,dickweasel,SWEAR_DIRECT
+swear,dickweed,SWEAR_DIRECT
+swear,dickwhipper,SWEAR_DIRECT
+swear,dickwod,SWEAR_DIRECT
+swear,dickzipper,SWEAR_DIRECT
+swear,diddle,SWEAR_DIRECT
+swear,dike,SWEAR_DIRECT
+swear,dildo,SWEAR_DIRECT
+swear,dildos,SWEAR_DIRECT
+swear,diligaf,SWEAR_DIRECT
+swear,dillweed,SWEAR_DIRECT
+swear,dimwit,SWEAR_DIRECT
+swear,dingle,SWEAR_DIRECT
+swear,dingleberries,SWEAR_DIRECT
+swear,dingleberry,SWEAR_DIRECT
+swear,dink,SWEAR_DIRECT
+swear,dinks,SWEAR_DIRECT
+swear,dipship,SWEAR_DIRECT
+swear,dipshit,SWEAR_DIRECT
+swear,dirsa,SWEAR_DIRECT
+swear,dirty,SWEAR_DIRECT
+swear,dirty pillows,SWEAR_DIRECT
+swear,dirty sanchez,SWEAR_DIRECT
+swear,dirty Sanchez,SWEAR_DIRECT
+swear,div,SWEAR_DIRECT
+swear,dlck,SWEAR_DIRECT
+swear,dog style,SWEAR_DIRECT
+swear,dog-fucker,SWEAR_DIRECT
+swear,doggie style,SWEAR_DIRECT
+swear,doggiestyle,SWEAR_DIRECT
+swear,doggie-style,SWEAR_DIRECT
+swear,doggin,SWEAR_DIRECT
+swear,dogging,SWEAR_DIRECT
+swear,doggy style,SWEAR_DIRECT
+swear,doggystyle,SWEAR_DIRECT
+swear,doggy-style,SWEAR_DIRECT
+swear,dolcett,SWEAR_DIRECT
+swear,domination,SWEAR_DIRECT
+swear,dominatrix,SWEAR_DIRECT
+swear,dommes,SWEAR_DIRECT
+swear,dong,SWEAR_DIRECT
+swear,donkey punch,SWEAR_DIRECT
+swear,donkeypunch,SWEAR_DIRECT
+swear,donkeyribber,SWEAR_DIRECT
+swear,doochbag,SWEAR_DIRECT
+swear,doofus,SWEAR_DIRECT
+swear,dookie,SWEAR_DIRECT
+swear,doosh,SWEAR_DIRECT
+swear,dopey,SWEAR_DIRECT
+swear,double dong,SWEAR_DIRECT
+swear,double penetration,SWEAR_DIRECT
+swear,Doublelift,SWEAR_DIRECT
+swear,douch3,SWEAR_DIRECT
+swear,douche,SWEAR_DIRECT
+swear,douchebag,SWEAR_DIRECT
+swear,douchebags,SWEAR_DIRECT
+swear,douche-fag,SWEAR_DIRECT
+swear,douchewaffle,SWEAR_DIRECT
+swear,douchey,SWEAR_DIRECT
+swear,dp action,SWEAR_DIRECT
+swear,drunk,SWEAR_DIRECT
+swear,dry hump,SWEAR_DIRECT
+swear,duche,SWEAR_DIRECT
+swear,dumass,SWEAR_DIRECT
+swear,dumb ass,SWEAR_DIRECT
+swear,dumbass,SWEAR_DIRECT
+swear,dumbasses,SWEAR_DIRECT
+swear,Dumbcunt,SWEAR_DIRECT
+swear,dumbfuck,SWEAR_DIRECT
+swear,dumbshit,SWEAR_DIRECT
+swear,dummy,SWEAR_DIRECT
+swear,dumshit,SWEAR_DIRECT
+swear,dvda,SWEAR_DIRECT
+swear,dyke,SWEAR_DIRECT
+swear,dykes,SWEAR_DIRECT
+swear,eat a dick,SWEAR_DIRECT
+swear,eat a dick,SWEAR_DIRECT
+swear,eat hair pie,SWEAR_DIRECT
+swear,eat hair pie,SWEAR_DIRECT
+swear,eat my ass,SWEAR_DIRECT
+swear,ecchi,SWEAR_DIRECT
+swear,ejaculate,SWEAR_DIRECT
+swear,ejaculated,SWEAR_DIRECT
+swear,ejaculates,SWEAR_DIRECT
+swear,ejaculates,SWEAR_DIRECT
+swear,ejaculating,SWEAR_DIRECT
+swear,ejaculating,SWEAR_DIRECT
+swear,ejaculatings,SWEAR_DIRECT
+swear,ejaculation,SWEAR_DIRECT
+swear,ejakulate,SWEAR_DIRECT
+swear,erect,SWEAR_DIRECT
+swear,erection,SWEAR_DIRECT
+swear,erotic,SWEAR_DIRECT
+swear,erotism,SWEAR_DIRECT
+swear,escort,SWEAR_DIRECT
+swear,essohbee,SWEAR_DIRECT
+swear,eunuch,SWEAR_DIRECT
+swear,extacy,SWEAR_DIRECT
+swear,extasy,SWEAR_DIRECT
+swear,f u c k,SWEAR_DIRECT
+swear,f u c k e r,SWEAR_DIRECT
+swear,f.u.c.k,SWEAR_DIRECT
+swear,f_u_c_k,SWEAR_DIRECT
+swear,f4nny,SWEAR_DIRECT
+swear,facial,SWEAR_DIRECT
+swear,fack,SWEAR_DIRECT
+swear,fag,SWEAR_DIRECT
+swear,fagbag,SWEAR_DIRECT
+swear,fagfucker,SWEAR_DIRECT
+swear,fagg,SWEAR_DIRECT
+swear,fagged,SWEAR_DIRECT
+swear,fagging,SWEAR_DIRECT
+swear,faggit,SWEAR_DIRECT
+swear,faggitt,SWEAR_DIRECT
+swear,faggot,SWEAR_DIRECT
+swear,faggotcock,SWEAR_DIRECT
+swear,faggots,SWEAR_DIRECT
+swear,faggs,SWEAR_DIRECT
+swear,fagot,SWEAR_DIRECT
+swear,fagots,SWEAR_DIRECT
+swear,fags,SWEAR_DIRECT
+swear,fagtard,SWEAR_DIRECT
+swear,faig,SWEAR_DIRECT
+swear,faigt,SWEAR_DIRECT
+swear,fanny,SWEAR_DIRECT
+swear,fannybandit,SWEAR_DIRECT
+swear,fannyflaps,SWEAR_DIRECT
+swear,fannyfucker,SWEAR_DIRECT
+swear,fanyy,SWEAR_DIRECT
+swear,fart,SWEAR_DIRECT
+swear,fartknocker,SWEAR_DIRECT
+swear,fatass,SWEAR_DIRECT
+swear,fcuk,SWEAR_DIRECT
+swear,fcuker,SWEAR_DIRECT
+swear,fcuking,SWEAR_DIRECT
+swear,fecal,SWEAR_DIRECT
+swear,feck,SWEAR_DIRECT
+swear,fecker,SWEAR_DIRECT
+swear,feist,SWEAR_DIRECT
+swear,felch,SWEAR_DIRECT
+swear,felcher,SWEAR_DIRECT
+swear,felching,SWEAR_DIRECT
+swear,fellate,SWEAR_DIRECT
+swear,fellatio,SWEAR_DIRECT
+swear,feltch,SWEAR_DIRECT
+swear,feltcher,SWEAR_DIRECT
+swear,female squirting,SWEAR_DIRECT
+swear,femdom,SWEAR_DIRECT
+swear,fenian,SWEAR_DIRECT
+swear,fice,SWEAR_DIRECT
+swear,figging,SWEAR_DIRECT
+swear,fingerbang,SWEAR_DIRECT
+swear,fingerfuck,SWEAR_DIRECT
+swear,fingerfucked,SWEAR_DIRECT
+swear,fingerfucker,SWEAR_DIRECT
+swear,fingerfuckers,SWEAR_DIRECT
+swear,fingerfucking,SWEAR_DIRECT
+swear,fingerfucks,SWEAR_DIRECT
+swear,fingering,SWEAR_DIRECT
+swear,fist fuck,SWEAR_DIRECT
+swear,fist fuck,SWEAR_DIRECT
+swear,fisted,SWEAR_DIRECT
+swear,fistfuck,SWEAR_DIRECT
+swear,fistfucked,SWEAR_DIRECT
+swear,fistfucked,SWEAR_DIRECT
+swear,fistfucker,SWEAR_DIRECT
+swear,fistfucker,SWEAR_DIRECT
+swear,fistfuckers,SWEAR_DIRECT
+swear,fistfuckers,SWEAR_DIRECT
+swear,fistfucking,SWEAR_DIRECT
+swear,fistfucking,SWEAR_DIRECT
+swear,fistfuckings,SWEAR_DIRECT
+swear,fistfuckings,SWEAR_DIRECT
+swear,fistfucks,SWEAR_DIRECT
+swear,fistfucks,SWEAR_DIRECT
+swear,fisting,SWEAR_DIRECT
+swear,fisty,SWEAR_DIRECT
+swear,flamer,SWEAR_DIRECT
+swear,flange,SWEAR_DIRECT
+swear,flaps,SWEAR_DIRECT
+swear,fleshflute,SWEAR_DIRECT
+swear,flog the log,SWEAR_DIRECT
+swear,flog the log,SWEAR_DIRECT
+swear,floozy,SWEAR_DIRECT
+swear,foad,SWEAR_DIRECT
+swear,foah,SWEAR_DIRECT
+swear,fondle,SWEAR_DIRECT
+swear,foobar,SWEAR_DIRECT
+swear,fook,SWEAR_DIRECT
+swear,fooker,SWEAR_DIRECT
+swear,foot fetish,SWEAR_DIRECT
+swear,footjob,SWEAR_DIRECT
+swear,foreskin,SWEAR_DIRECT
+swear,freex,SWEAR_DIRECT
+swear,frenchify,SWEAR_DIRECT
+swear,frigg,SWEAR_DIRECT
+swear,frigga,SWEAR_DIRECT
+swear,frotting,SWEAR_DIRECT
+swear,fubar,SWEAR_DIRECT
+swear,fuc,SWEAR_DIRECT
+swear,fuck,SWEAR_DIRECT
+swear,fuck,SWEAR_DIRECT
+swear,f-u-c-k,SWEAR_DIRECT
+swear,fuck buttons,SWEAR_DIRECT
+swear,fuck hole,SWEAR_DIRECT
+swear,fuck hole,SWEAR_DIRECT
+swear,Fuck off,SWEAR_DIRECT
+swear,fuck puppet,SWEAR_DIRECT
+swear,fuck puppet,SWEAR_DIRECT
+swear,fuck trophy,SWEAR_DIRECT
+swear,fuck trophy,SWEAR_DIRECT
+swear,fuck yo mama,SWEAR_DIRECT
+swear,fuck yo mama,SWEAR_DIRECT
+swear,fuck you,SWEAR_DIRECT
+swear,fucka,SWEAR_DIRECT
+swear,fuckass,SWEAR_DIRECT
+swear,fuck-ass,SWEAR_DIRECT
+swear,fuck-ass,SWEAR_DIRECT
+swear,fuckbag,SWEAR_DIRECT
+swear,fuck-bitch,SWEAR_DIRECT
+swear,fuck-bitch,SWEAR_DIRECT
+swear,fuckboy,SWEAR_DIRECT
+swear,fuckbrain,SWEAR_DIRECT
+swear,fuckbutt,SWEAR_DIRECT
+swear,fuckbutter,SWEAR_DIRECT
+swear,fucked,SWEAR_DIRECT
+swear,fuckedup,SWEAR_DIRECT
+swear,fucker,SWEAR_DIRECT
+swear,fuckers,SWEAR_DIRECT
+swear,fuckersucker,SWEAR_DIRECT
+swear,fuckface,SWEAR_DIRECT
+swear,fuckhead,SWEAR_DIRECT
+swear,fuckheads,SWEAR_DIRECT
+swear,fuckhole,SWEAR_DIRECT
+swear,fuckin,SWEAR_DIRECT
+swear,fucking,SWEAR_DIRECT
+swear,fuckings,SWEAR_DIRECT
+swear,fuckingshitmotherfucker,SWEAR_DIRECT
+swear,fuckme,SWEAR_DIRECT
+swear,fuckme,SWEAR_DIRECT
+swear,fuckmeat,SWEAR_DIRECT
+swear,fuckmeat,SWEAR_DIRECT
+swear,fucknugget,SWEAR_DIRECT
+swear,fucknut,SWEAR_DIRECT
+swear,fucknutt,SWEAR_DIRECT
+swear,fuckoff,SWEAR_DIRECT
+swear,fucks,SWEAR_DIRECT
+swear,fuckstick,SWEAR_DIRECT
+swear,fucktard,SWEAR_DIRECT
+swear,fuck-tard,SWEAR_DIRECT
+swear,fucktards,SWEAR_DIRECT
+swear,fucktart,SWEAR_DIRECT
+swear,fucktoy,SWEAR_DIRECT
+swear,fucktoy,SWEAR_DIRECT
+swear,fucktwat,SWEAR_DIRECT
+swear,fuckup,SWEAR_DIRECT
+swear,fuckwad,SWEAR_DIRECT
+swear,fuckwhit,SWEAR_DIRECT
+swear,fuckwit,SWEAR_DIRECT
+swear,fuckwitt,SWEAR_DIRECT
+swear,fudge packer,SWEAR_DIRECT
+swear,fudgepacker,SWEAR_DIRECT
+swear,fudge-packer,SWEAR_DIRECT
+swear,fuk,SWEAR_DIRECT
+swear,fuker,SWEAR_DIRECT
+swear,fukker,SWEAR_DIRECT
+swear,fukkers,SWEAR_DIRECT
+swear,fukkin,SWEAR_DIRECT
+swear,fuks,SWEAR_DIRECT
+swear,fukwhit,SWEAR_DIRECT
+swear,fukwit,SWEAR_DIRECT
+swear,fuq,SWEAR_DIRECT
+swear,futanari,SWEAR_DIRECT
+swear,fux,SWEAR_DIRECT
+swear,fux0r,SWEAR_DIRECT
+swear,fvck,SWEAR_DIRECT
+swear,fxck,SWEAR_DIRECT
+swear,gae,SWEAR_DIRECT
+swear,gai,SWEAR_DIRECT
+swear,gang bang,SWEAR_DIRECT
+swear,gangbang,SWEAR_DIRECT
+swear,gang-bang,SWEAR_DIRECT
+swear,gang-bang,SWEAR_DIRECT
+swear,gangbanged,SWEAR_DIRECT
+swear,gangbangs,SWEAR_DIRECT
+swear,ganja,SWEAR_DIRECT
+swear,gash,SWEAR_DIRECT
+swear,gassy ass,SWEAR_DIRECT
+swear,gassy ass,SWEAR_DIRECT
+swear,gay,SWEAR_DIRECT
+swear,gay sex,SWEAR_DIRECT
+swear,gayass,SWEAR_DIRECT
+swear,gaybob,SWEAR_DIRECT
+swear,gaydo,SWEAR_DIRECT
+swear,gayfuck,SWEAR_DIRECT
+swear,gayfuckist,SWEAR_DIRECT
+swear,gaylord,SWEAR_DIRECT
+swear,gays,SWEAR_DIRECT
+swear,gaysex,SWEAR_DIRECT
+swear,gaytard,SWEAR_DIRECT
+swear,gaywad,SWEAR_DIRECT
+swear,gender bender,SWEAR_DIRECT
+swear,genitals,SWEAR_DIRECT
+swear,gey,SWEAR_DIRECT
+swear,gfy,SWEAR_DIRECT
+swear,ghay,SWEAR_DIRECT
+swear,ghey,SWEAR_DIRECT
+swear,giant cock,SWEAR_DIRECT
+swear,gigolo,SWEAR_DIRECT
+swear,ginger,SWEAR_DIRECT
+swear,gippo,SWEAR_DIRECT
+swear,girl on,SWEAR_DIRECT
+swear,girl on top,SWEAR_DIRECT
+swear,girls gone wild,SWEAR_DIRECT
+swear,git,SWEAR_DIRECT
+swear,glans,SWEAR_DIRECT
+swear,goatcx,SWEAR_DIRECT
+swear,goatse,SWEAR_DIRECT
+swear,god,SWEAR_DIRECT
+swear,god damn,SWEAR_DIRECT
+swear,godamn,SWEAR_DIRECT
+swear,godamnit,SWEAR_DIRECT
+swear,goddam,SWEAR_DIRECT
+swear,god-dam,SWEAR_DIRECT
+swear,goddammit,SWEAR_DIRECT
+swear,goddamn,SWEAR_DIRECT
+swear,goddamned,SWEAR_DIRECT
+swear,god-damned,SWEAR_DIRECT
+swear,goddamnit,SWEAR_DIRECT
+swear,godsdamn,SWEAR_DIRECT
+swear,gokkun,SWEAR_DIRECT
+swear,golden shower,SWEAR_DIRECT
+swear,goldenshower,SWEAR_DIRECT
+swear,golliwog,SWEAR_DIRECT
+swear,gonad,SWEAR_DIRECT
+swear,gonads,SWEAR_DIRECT
+swear,goo girl,SWEAR_DIRECT
+swear,gooch,SWEAR_DIRECT
+swear,goodpoop,SWEAR_DIRECT
+swear,gook,SWEAR_DIRECT
+swear,gooks,SWEAR_DIRECT
+swear,goregasm,SWEAR_DIRECT
+swear,gringo,SWEAR_DIRECT
+swear,grope,SWEAR_DIRECT
+swear,group sex,SWEAR_DIRECT
+swear,gspot,SWEAR_DIRECT
+swear,g-spot,SWEAR_DIRECT
+swear,gtfo,SWEAR_DIRECT
+swear,guido,SWEAR_DIRECT
+swear,guro,SWEAR_DIRECT
+swear,h0m0,SWEAR_DIRECT
+swear,h0mo,SWEAR_DIRECT
+swear,ham flap,SWEAR_DIRECT
+swear,ham flap,SWEAR_DIRECT
+swear,hand job,SWEAR_DIRECT
+swear,handjob,SWEAR_DIRECT
+swear,hard core,SWEAR_DIRECT
+swear,hard on,SWEAR_DIRECT
+swear,hardcore,SWEAR_DIRECT
+swear,hardcoresex,SWEAR_DIRECT
+swear,he11,SWEAR_DIRECT
+swear,hebe,SWEAR_DIRECT
+swear,heeb,SWEAR_DIRECT
+swear,hell,SWEAR_DIRECT
+swear,hemp,SWEAR_DIRECT
+swear,hentai,SWEAR_DIRECT
+swear,heroin,SWEAR_DIRECT
+swear,herp,SWEAR_DIRECT
+swear,herpes,SWEAR_DIRECT
+swear,herpy,SWEAR_DIRECT
+swear,heshe,SWEAR_DIRECT
+swear,he-she,SWEAR_DIRECT
+swear,hircismus,SWEAR_DIRECT
+swear,hitler,SWEAR_DIRECT
+swear,hiv,SWEAR_DIRECT
+swear,ho,SWEAR_DIRECT
+swear,hoar,SWEAR_DIRECT
+swear,hoare,SWEAR_DIRECT
+swear,hobag,SWEAR_DIRECT
+swear,hoe,SWEAR_DIRECT
+swear,hoer,SWEAR_DIRECT
+swear,holy shit,SWEAR_DIRECT
+swear,hom0,SWEAR_DIRECT
+swear,homey,SWEAR_DIRECT
+swear,homo,SWEAR_DIRECT
+swear,homodumbshit,SWEAR_DIRECT
+swear,homoerotic,SWEAR_DIRECT
+swear,homoey,SWEAR_DIRECT
+swear,honkey,SWEAR_DIRECT
+swear,honky,SWEAR_DIRECT
+swear,hooch,SWEAR_DIRECT
+swear,hookah,SWEAR_DIRECT
+swear,hooker,SWEAR_DIRECT
+swear,hoor,SWEAR_DIRECT
+swear,hootch,SWEAR_DIRECT
+swear,hooter,SWEAR_DIRECT
+swear,hooters,SWEAR_DIRECT
+swear,hore,SWEAR_DIRECT
+swear,horniest,SWEAR_DIRECT
+swear,horny,SWEAR_DIRECT
+swear,hot carl,SWEAR_DIRECT
+swear,hot chick,SWEAR_DIRECT
+swear,hotsex,SWEAR_DIRECT
+swear,how to kill,SWEAR_DIRECT
+swear,how to murdep,SWEAR_DIRECT
+swear,how to murder,SWEAR_DIRECT
+swear,huge fat,SWEAR_DIRECT
+swear,hump,SWEAR_DIRECT
+swear,humped,SWEAR_DIRECT
+swear,humping,SWEAR_DIRECT
+swear,hun,SWEAR_DIRECT
+swear,hussy,SWEAR_DIRECT
+swear,hymen,SWEAR_DIRECT
+swear,iap,SWEAR_DIRECT
+swear,iberian slap,SWEAR_DIRECT
+swear,inbred,SWEAR_DIRECT
+swear,incest,SWEAR_DIRECT
+swear,injun,SWEAR_DIRECT
+swear,intercourse,SWEAR_DIRECT
+swear,jack off,SWEAR_DIRECT
+swear,jackass,SWEAR_DIRECT
+swear,jackasses,SWEAR_DIRECT
+swear,jackhole,SWEAR_DIRECT
+swear,jackoff,SWEAR_DIRECT
+swear,jack-off,SWEAR_DIRECT
+swear,jaggi,SWEAR_DIRECT
+swear,jagoff,SWEAR_DIRECT
+swear,jail bait,SWEAR_DIRECT
+swear,jailbait,SWEAR_DIRECT
+swear,jap,SWEAR_DIRECT
+swear,japs,SWEAR_DIRECT
+swear,jelly donut,SWEAR_DIRECT
+swear,jerk,SWEAR_DIRECT
+swear,jerk off,SWEAR_DIRECT
+swear,jerk0ff,SWEAR_DIRECT
+swear,jerkass,SWEAR_DIRECT
+swear,jerked,SWEAR_DIRECT
+swear,jerkoff,SWEAR_DIRECT
+swear,jerk-off,SWEAR_DIRECT
+swear,jigaboo,SWEAR_DIRECT
+swear,jiggaboo,SWEAR_DIRECT
+swear,jiggerboo,SWEAR_DIRECT
+swear,jism,SWEAR_DIRECT
+swear,jiz,SWEAR_DIRECT
+swear,jiz,SWEAR_DIRECT
+swear,jizm,SWEAR_DIRECT
+swear,jizm,SWEAR_DIRECT
+swear,jizz,SWEAR_DIRECT
+swear,jizzed,SWEAR_DIRECT
+swear,jock,SWEAR_DIRECT
+swear,juggs,SWEAR_DIRECT
+swear,jungle bunny,SWEAR_DIRECT
+swear,junglebunny,SWEAR_DIRECT
+swear,junkie,SWEAR_DIRECT
+swear,junky,SWEAR_DIRECT
+swear,kafir,SWEAR_DIRECT
+swear,kawk,SWEAR_DIRECT
+swear,kike,SWEAR_DIRECT
+swear,kikes,SWEAR_DIRECT
+swear,kill,SWEAR_DIRECT
+swear,kinbaku,SWEAR_DIRECT
+swear,kinkster,SWEAR_DIRECT
+swear,kinky,SWEAR_DIRECT
+swear,klan,SWEAR_DIRECT
+swear,knob,SWEAR_DIRECT
+swear,knob end,SWEAR_DIRECT
+swear,knobbing,SWEAR_DIRECT
+swear,knobead,SWEAR_DIRECT
+swear,knobed,SWEAR_DIRECT
+swear,knobend,SWEAR_DIRECT
+swear,knobhead,SWEAR_DIRECT
+swear,knobjocky,SWEAR_DIRECT
+swear,knobjokey,SWEAR_DIRECT
+swear,kock,SWEAR_DIRECT
+swear,kondum,SWEAR_DIRECT
+swear,kondums,SWEAR_DIRECT
+swear,kooch,SWEAR_DIRECT
+swear,kooches,SWEAR_DIRECT
+swear,kootch,SWEAR_DIRECT
+swear,kraut,SWEAR_DIRECT
+swear,kum,SWEAR_DIRECT
+swear,kummer,SWEAR_DIRECT
+swear,kumming,SWEAR_DIRECT
+swear,kums,SWEAR_DIRECT
+swear,kunilingus,SWEAR_DIRECT
+swear,kunja,SWEAR_DIRECT
+swear,kunt,SWEAR_DIRECT
+swear,kwif,SWEAR_DIRECT
+swear,kwif,SWEAR_DIRECT
+swear,kyke,SWEAR_DIRECT
+swear,l3i+ch,SWEAR_DIRECT
+swear,l3itch,SWEAR_DIRECT
+swear,labia,SWEAR_DIRECT
+swear,lameass,SWEAR_DIRECT
+swear,lardass,SWEAR_DIRECT
+swear,leather restraint,SWEAR_DIRECT
+swear,leather straight jacket,SWEAR_DIRECT
+swear,lech,SWEAR_DIRECT
+swear,lemon party,SWEAR_DIRECT
+swear,LEN,SWEAR_DIRECT
+swear,leper,SWEAR_DIRECT
+swear,lesbian,SWEAR_DIRECT
+swear,lesbians,SWEAR_DIRECT
+swear,lesbo,SWEAR_DIRECT
+swear,lesbos,SWEAR_DIRECT
+swear,lez,SWEAR_DIRECT
+swear,lezza/lesbo,SWEAR_DIRECT
+swear,lezzie,SWEAR_DIRECT
+swear,lmao,SWEAR_DIRECT
+swear,lmfao,SWEAR_DIRECT
+swear,loin,SWEAR_DIRECT
+swear,loins,SWEAR_DIRECT
+swear,lolita,SWEAR_DIRECT
+swear,looney,SWEAR_DIRECT
+swear,lovemaking,SWEAR_DIRECT
+swear,lube,SWEAR_DIRECT
+swear,lust,SWEAR_DIRECT
+swear,lusting,SWEAR_DIRECT
+swear,lusty,SWEAR_DIRECT
+swear,m0f0,SWEAR_DIRECT
+swear,m0fo,SWEAR_DIRECT
+swear,m45terbate,SWEAR_DIRECT
+swear,ma5terb8,SWEAR_DIRECT
+swear,ma5terbate,SWEAR_DIRECT
+swear,mafugly,SWEAR_DIRECT
+swear,mafugly,SWEAR_DIRECT
+swear,make me come,SWEAR_DIRECT
+swear,male squirting,SWEAR_DIRECT
+swear,mams,SWEAR_DIRECT
+swear,masochist,SWEAR_DIRECT
+swear,massa,SWEAR_DIRECT
+swear,masterb8,SWEAR_DIRECT
+swear,masterbat*,SWEAR_DIRECT
+swear,masterbat3,SWEAR_DIRECT
+swear,masterbate,SWEAR_DIRECT
+swear,master-bate,SWEAR_DIRECT
+swear,master-bate,SWEAR_DIRECT
+swear,masterbating,SWEAR_DIRECT
+swear,masterbation,SWEAR_DIRECT
+swear,masterbations,SWEAR_DIRECT
+swear,masturbate,SWEAR_DIRECT
+swear,masturbating,SWEAR_DIRECT
+swear,masturbation,SWEAR_DIRECT
+swear,maxi,SWEAR_DIRECT
+swear,mcfagget,SWEAR_DIRECT
+swear,menage a trois,SWEAR_DIRECT
+swear,menses,SWEAR_DIRECT
+swear,menstruate,SWEAR_DIRECT
+swear,menstruation,SWEAR_DIRECT
+swear,meth,SWEAR_DIRECT
+swear,m-fucking,SWEAR_DIRECT
+swear,mick,SWEAR_DIRECT
+swear,microphallus,SWEAR_DIRECT
+swear,middle finger,SWEAR_DIRECT
+swear,midget,SWEAR_DIRECT
+swear,milf,SWEAR_DIRECT
+swear,minge,SWEAR_DIRECT
+swear,minger,SWEAR_DIRECT
+swear,missionary position,SWEAR_DIRECT
+swear,mof0,SWEAR_DIRECT
+swear,mofo,SWEAR_DIRECT
+swear,mo-fo,SWEAR_DIRECT
+swear,molest,SWEAR_DIRECT
+swear,mong,SWEAR_DIRECT
+swear,moo moo foo foo,SWEAR_DIRECT
+swear,moolie,SWEAR_DIRECT
+swear,moron,SWEAR_DIRECT
+swear,mothafuck,SWEAR_DIRECT
+swear,mothafucka,SWEAR_DIRECT
+swear,mothafuckas,SWEAR_DIRECT
+swear,mothafuckaz,SWEAR_DIRECT
+swear,mothafucked,SWEAR_DIRECT
+swear,mothafucked,SWEAR_DIRECT
+swear,mothafucker,SWEAR_DIRECT
+swear,mothafuckers,SWEAR_DIRECT
+swear,mothafuckin,SWEAR_DIRECT
+swear,mothafucking,SWEAR_DIRECT
+swear,mothafucking,SWEAR_DIRECT
+swear,mothafuckings,SWEAR_DIRECT
+swear,mothafucks,SWEAR_DIRECT
+swear,mother fucker,SWEAR_DIRECT
+swear,mother fucker,SWEAR_DIRECT
+swear,motherfuck,SWEAR_DIRECT
+swear,motherfucka,SWEAR_DIRECT
+swear,motherfucked,SWEAR_DIRECT
+swear,motherfucker,SWEAR_DIRECT
+swear,motherfuckers,SWEAR_DIRECT
+swear,motherfuckin,SWEAR_DIRECT
+swear,motherfucking,SWEAR_DIRECT
+swear,motherfuckings,SWEAR_DIRECT
+swear,motherfuckka,SWEAR_DIRECT
+swear,motherfucks,SWEAR_DIRECT
+swear,mound of venus,SWEAR_DIRECT
+swear,mr hands,SWEAR_DIRECT
+swear,muff,SWEAR_DIRECT
+swear,muff diver,SWEAR_DIRECT
+swear,muff puff,SWEAR_DIRECT
+swear,muff puff,SWEAR_DIRECT
+swear,muffdiver,SWEAR_DIRECT
+swear,muffdiving,SWEAR_DIRECT
+swear,munging,SWEAR_DIRECT
+swear,munter,SWEAR_DIRECT
+swear,murder,SWEAR_DIRECT
+swear,mutha,SWEAR_DIRECT
+swear,muthafecker,SWEAR_DIRECT
+swear,muthafuckker,SWEAR_DIRECT
+swear,muther,SWEAR_DIRECT
+swear,mutherfucker,SWEAR_DIRECT
+swear,n1gga,SWEAR_DIRECT
+swear,n1gger,SWEAR_DIRECT
+swear,naked,SWEAR_DIRECT
+swear,nambla,SWEAR_DIRECT
+swear,napalm,SWEAR_DIRECT
+swear,nappy,SWEAR_DIRECT
+swear,nawashi,SWEAR_DIRECT
+swear,nazi,SWEAR_DIRECT
+swear,nazism,SWEAR_DIRECT
+swear,need the dick,SWEAR_DIRECT
+swear,need the dick,SWEAR_DIRECT
+swear,negro,SWEAR_DIRECT
+swear,neonazi,SWEAR_DIRECT
+swear,nig nog,SWEAR_DIRECT
+swear,nigaboo,SWEAR_DIRECT
+swear,nigg3r,SWEAR_DIRECT
+swear,nigg4h,SWEAR_DIRECT
+swear,nigga,SWEAR_DIRECT
+swear,niggah,SWEAR_DIRECT
+swear,niggas,SWEAR_DIRECT
+swear,niggaz,SWEAR_DIRECT
+swear,nigger,SWEAR_DIRECT
+swear,niggers,SWEAR_DIRECT
+swear,niggle,SWEAR_DIRECT
+swear,niglet,SWEAR_DIRECT
+swear,nig-nog,SWEAR_DIRECT
+swear,nimphomania,SWEAR_DIRECT
+swear,nimrod,SWEAR_DIRECT
+swear,ninny,SWEAR_DIRECT
+swear,ninnyhammer,SWEAR_DIRECT
+swear,nipple,SWEAR_DIRECT
+swear,nipples,SWEAR_DIRECT
+swear,nob,SWEAR_DIRECT
+swear,nob jokey,SWEAR_DIRECT
+swear,nobhead,SWEAR_DIRECT
+swear,nobjocky,SWEAR_DIRECT
+swear,nobjokey,SWEAR_DIRECT
+swear,nonce,SWEAR_DIRECT
+swear,nsfw images,SWEAR_DIRECT
+swear,nude,SWEAR_DIRECT
+swear,nudity,SWEAR_DIRECT
+swear,numbnuts,SWEAR_DIRECT
+swear,nut butter,SWEAR_DIRECT
+swear,nut butter,SWEAR_DIRECT
+swear,nut sack,SWEAR_DIRECT
+swear,nutsack,SWEAR_DIRECT
+swear,nutter,SWEAR_DIRECT
+swear,nympho,SWEAR_DIRECT
+swear,nymphomania,SWEAR_DIRECT
+swear,octopussy,SWEAR_DIRECT
+swear,old bag,SWEAR_DIRECT
+swear,omg,SWEAR_DIRECT
+swear,omorashi,SWEAR_DIRECT
+swear,one cup two girls,SWEAR_DIRECT
+swear,one guy one jar,SWEAR_DIRECT
+swear,opiate,SWEAR_DIRECT
+swear,opium,SWEAR_DIRECT
+swear,orally,SWEAR_DIRECT
+swear,organ,SWEAR_DIRECT
+swear,orgasim,SWEAR_DIRECT
+swear,orgasims,SWEAR_DIRECT
+swear,orgasm,SWEAR_DIRECT
+swear,orgasmic,SWEAR_DIRECT
+swear,orgasms,SWEAR_DIRECT
+swear,orgies,SWEAR_DIRECT
+swear,orgy,SWEAR_DIRECT
+swear,ovary,SWEAR_DIRECT
+swear,ovum,SWEAR_DIRECT
+swear,ovums,SWEAR_DIRECT
+swear,p.u.s.s.y.,SWEAR_DIRECT
+swear,p0rn,SWEAR_DIRECT
+swear,paedophile,SWEAR_DIRECT
+swear,paki,SWEAR_DIRECT
+swear,panooch,SWEAR_DIRECT
+swear,pansy,SWEAR_DIRECT
+swear,pantie,SWEAR_DIRECT
+swear,panties,SWEAR_DIRECT
+swear,panty,SWEAR_DIRECT
+swear,pawn,SWEAR_DIRECT
+swear,pcp,SWEAR_DIRECT
+swear,pecker,SWEAR_DIRECT
+swear,peckerhead,SWEAR_DIRECT
+swear,pedo,SWEAR_DIRECT
+swear,pedobear,SWEAR_DIRECT
+swear,pedophile,SWEAR_DIRECT
+swear,pedophilia,SWEAR_DIRECT
+swear,pedophiliac,SWEAR_DIRECT
+swear,pee,SWEAR_DIRECT
+swear,peepee,SWEAR_DIRECT
+swear,pegging,SWEAR_DIRECT
+swear,penetrate,SWEAR_DIRECT
+swear,penetration,SWEAR_DIRECT
+swear,penial,SWEAR_DIRECT
+swear,penile,SWEAR_DIRECT
+swear,penis,SWEAR_DIRECT
+swear,penisbanger,SWEAR_DIRECT
+swear,penisfucker,SWEAR_DIRECT
+swear,penispuffer,SWEAR_DIRECT
+swear,perversion,SWEAR_DIRECT
+swear,phallic,SWEAR_DIRECT
+swear,phone sex,SWEAR_DIRECT
+swear,phonesex,SWEAR_DIRECT
+swear,phuck,SWEAR_DIRECT
+swear,phuk,SWEAR_DIRECT
+swear,phuked,SWEAR_DIRECT
+swear,phuking,SWEAR_DIRECT
+swear,phukked,SWEAR_DIRECT
+swear,phukking,SWEAR_DIRECT
+swear,phuks,SWEAR_DIRECT
+swear,phuq,SWEAR_DIRECT
+swear,piece of shit,SWEAR_DIRECT
+swear,pigfucker,SWEAR_DIRECT
+swear,pikey,SWEAR_DIRECT
+swear,pillowbiter,SWEAR_DIRECT
+swear,pimp,SWEAR_DIRECT
+swear,pimpis,SWEAR_DIRECT
+swear,pinko,SWEAR_DIRECT
+swear,piss,SWEAR_DIRECT
+swear,piss off,SWEAR_DIRECT
+swear,piss pig,SWEAR_DIRECT
+swear,pissed,SWEAR_DIRECT
+swear,pissed off,SWEAR_DIRECT
+swear,pisser,SWEAR_DIRECT
+swear,pissers,SWEAR_DIRECT
+swear,pisses,SWEAR_DIRECT
+swear,pisses,SWEAR_DIRECT
+swear,pissflaps,SWEAR_DIRECT
+swear,pissin,SWEAR_DIRECT
+swear,pissin,SWEAR_DIRECT
+swear,pissing,SWEAR_DIRECT
+swear,pissoff,SWEAR_DIRECT
+swear,pissoff,SWEAR_DIRECT
+swear,piss-off,SWEAR_DIRECT
+swear,pisspig,SWEAR_DIRECT
+swear,playboy,SWEAR_DIRECT
+swear,pleasure chest,SWEAR_DIRECT
+swear,pms,SWEAR_DIRECT
+swear,polack,SWEAR_DIRECT
+swear,pole smoker,SWEAR_DIRECT
+swear,polesmoker,SWEAR_DIRECT
+swear,pollock,SWEAR_DIRECT
+swear,ponyplay,SWEAR_DIRECT
+swear,poof,SWEAR_DIRECT
+swear,poon,SWEAR_DIRECT
+swear,poonani,SWEAR_DIRECT
+swear,poonany,SWEAR_DIRECT
+swear,poontang,SWEAR_DIRECT
+swear,poop,SWEAR_DIRECT
+swear,poop chute,SWEAR_DIRECT
+swear,poopchute,SWEAR_DIRECT
+swear,Poopuncher,SWEAR_DIRECT
+swear,porch monkey,SWEAR_DIRECT
+swear,porchmonkey,SWEAR_DIRECT
+swear,porn,SWEAR_DIRECT
+swear,porno,SWEAR_DIRECT
+swear,pornography,SWEAR_DIRECT
+swear,pornos,SWEAR_DIRECT
+swear,pot,SWEAR_DIRECT
+swear,potty,SWEAR_DIRECT
+swear,prick,SWEAR_DIRECT
+swear,pricks,SWEAR_DIRECT
+swear,prickteaser,SWEAR_DIRECT
+swear,prig,SWEAR_DIRECT
+swear,prince albert piercing,SWEAR_DIRECT
+swear,prod,SWEAR_DIRECT
+swear,pron,SWEAR_DIRECT
+swear,prostitute,SWEAR_DIRECT
+swear,prude,SWEAR_DIRECT
+swear,psycho,SWEAR_DIRECT
+swear,pthc,SWEAR_DIRECT
+swear,pube,SWEAR_DIRECT
+swear,pubes,SWEAR_DIRECT
+swear,pubic,SWEAR_DIRECT
+swear,pubis,SWEAR_DIRECT
+swear,punani,SWEAR_DIRECT
+swear,punanny,SWEAR_DIRECT
+swear,punany,SWEAR_DIRECT
+swear,punkass,SWEAR_DIRECT
+swear,punky,SWEAR_DIRECT
+swear,punta,SWEAR_DIRECT
+swear,puss,SWEAR_DIRECT
+swear,pusse,SWEAR_DIRECT
+swear,pussi,SWEAR_DIRECT
+swear,pussies,SWEAR_DIRECT
+swear,pussy,SWEAR_DIRECT
+swear,pussy fart,SWEAR_DIRECT
+swear,pussy fart,SWEAR_DIRECT
+swear,pussy palace,SWEAR_DIRECT
+swear,pussy palace,SWEAR_DIRECT
+swear,pussylicking,SWEAR_DIRECT
+swear,pussypounder,SWEAR_DIRECT
+swear,pussys,SWEAR_DIRECT
+swear,pust,SWEAR_DIRECT
+swear,puto,SWEAR_DIRECT
+swear,queaf,SWEAR_DIRECT
+swear,queaf,SWEAR_DIRECT
+swear,queef,SWEAR_DIRECT
+swear,queer,SWEAR_DIRECT
+swear,queerbait,SWEAR_DIRECT
+swear,queerhole,SWEAR_DIRECT
+swear,queero,SWEAR_DIRECT
+swear,queers,SWEAR_DIRECT
+swear,quicky,SWEAR_DIRECT
+swear,quim,SWEAR_DIRECT
+swear,racy,SWEAR_DIRECT
+swear,raghead,SWEAR_DIRECT
+swear,raging boner,SWEAR_DIRECT
+swear,rape,SWEAR_DIRECT
+swear,raped,SWEAR_DIRECT
+swear,raper,SWEAR_DIRECT
+swear,rapey,SWEAR_DIRECT
+swear,raping,SWEAR_DIRECT
+swear,rapist,SWEAR_DIRECT
+swear,raunch,SWEAR_DIRECT
+swear,rectal,SWEAR_DIRECT
+swear,rectum,SWEAR_DIRECT
+swear,rectus,SWEAR_DIRECT
+swear,reefer,SWEAR_DIRECT
+swear,reetard,SWEAR_DIRECT
+swear,reich,SWEAR_DIRECT
+swear,renob,SWEAR_DIRECT
+swear,retard,SWEAR_DIRECT
+swear,retarded,SWEAR_DIRECT
+swear,reverse cowgirl,SWEAR_DIRECT
+swear,revue,SWEAR_DIRECT
+swear,rimjaw,SWEAR_DIRECT
+swear,rimjob,SWEAR_DIRECT
+swear,rimming,SWEAR_DIRECT
+swear,ritard,SWEAR_DIRECT
+swear,rosy palm,SWEAR_DIRECT
+swear,rosy palm and her 5 sisters,SWEAR_DIRECT
+swear,rtard,SWEAR_DIRECT
+swear,r-tard,SWEAR_DIRECT
+swear,rubbish,SWEAR_DIRECT
+swear,rum,SWEAR_DIRECT
+swear,rump,SWEAR_DIRECT
+swear,rumprammer,SWEAR_DIRECT
+swear,ruski,SWEAR_DIRECT
+swear,rusty trombone,SWEAR_DIRECT
+swear,s hit,SWEAR_DIRECT
+swear,s&m,SWEAR_DIRECT
+swear,s.h.i.t.,SWEAR_DIRECT
+swear,s.o.b.,SWEAR_DIRECT
+swear,s_h_i_t,SWEAR_DIRECT
+swear,s0b,SWEAR_DIRECT
+swear,sadism,SWEAR_DIRECT
+swear,sadist,SWEAR_DIRECT
+swear,sambo,SWEAR_DIRECT
+swear,sand nigger,SWEAR_DIRECT
+swear,sandbar,SWEAR_DIRECT
+swear,sandbar,SWEAR_DIRECT
+swear,Sandler,SWEAR_DIRECT
+swear,sandnigger,SWEAR_DIRECT
+swear,sanger,SWEAR_DIRECT
+swear,santorum,SWEAR_DIRECT
+swear,sausage queen,SWEAR_DIRECT
+swear,sausage queen,SWEAR_DIRECT
+swear,scag,SWEAR_DIRECT
+swear,scantily,SWEAR_DIRECT
+swear,scat,SWEAR_DIRECT
+swear,schizo,SWEAR_DIRECT
+swear,schlong,SWEAR_DIRECT
+swear,scissoring,SWEAR_DIRECT
+swear,screw,SWEAR_DIRECT
+swear,screwed,SWEAR_DIRECT
+swear,screwing,SWEAR_DIRECT
+swear,scroat,SWEAR_DIRECT
+swear,scrog,SWEAR_DIRECT
+swear,scrot,SWEAR_DIRECT
+swear,scrote,SWEAR_DIRECT
+swear,scrotum,SWEAR_DIRECT
+swear,scrud,SWEAR_DIRECT
+swear,scum,SWEAR_DIRECT
+swear,seaman,SWEAR_DIRECT
+swear,seamen,SWEAR_DIRECT
+swear,seduce,SWEAR_DIRECT
+swear,seks,SWEAR_DIRECT
+swear,semen,SWEAR_DIRECT
+swear,sex,SWEAR_DIRECT
+swear,sexo,SWEAR_DIRECT
+swear,sexual,SWEAR_DIRECT
+swear,sexy,SWEAR_DIRECT
+swear,sh!+,SWEAR_DIRECT
+swear,sh!t,SWEAR_DIRECT
+swear,sh1t,SWEAR_DIRECT
+swear,s-h-1-t,SWEAR_DIRECT
+swear,shag,SWEAR_DIRECT
+swear,shagger,SWEAR_DIRECT
+swear,shaggin,SWEAR_DIRECT
+swear,shagging,SWEAR_DIRECT
+swear,shamedame,SWEAR_DIRECT
+swear,shaved beaver,SWEAR_DIRECT
+swear,shaved pussy,SWEAR_DIRECT
+swear,shemale,SWEAR_DIRECT
+swear,shi+,SWEAR_DIRECT
+swear,shibari,SWEAR_DIRECT
+swear,shirt lifter,SWEAR_DIRECT
+swear,shit,SWEAR_DIRECT
+swear,s-h-i-t,SWEAR_DIRECT
+swear,shit ass,SWEAR_DIRECT
+swear,shit fucker,SWEAR_DIRECT
+swear,shit fucker,SWEAR_DIRECT
+swear,shitass,SWEAR_DIRECT
+swear,shitbag,SWEAR_DIRECT
+swear,shitbagger,SWEAR_DIRECT
+swear,shitblimp,SWEAR_DIRECT
+swear,shitbrains,SWEAR_DIRECT
+swear,shitbreath,SWEAR_DIRECT
+swear,shitcanned,SWEAR_DIRECT
+swear,shitcunt,SWEAR_DIRECT
+swear,shitdick,SWEAR_DIRECT
+swear,shite,SWEAR_DIRECT
+swear,shiteater,SWEAR_DIRECT
+swear,shited,SWEAR_DIRECT
+swear,shitey,SWEAR_DIRECT
+swear,shitface,SWEAR_DIRECT
+swear,shitfaced,SWEAR_DIRECT
+swear,shitfuck,SWEAR_DIRECT
+swear,shitfull,SWEAR_DIRECT
+swear,shithead,SWEAR_DIRECT
+swear,shitheads,SWEAR_DIRECT
+swear,shithole,SWEAR_DIRECT
+swear,shithouse,SWEAR_DIRECT
+swear,shiting,SWEAR_DIRECT
+swear,shitings,SWEAR_DIRECT
+swear,shits,SWEAR_DIRECT
+swear,shitspitter,SWEAR_DIRECT
+swear,shitstain,SWEAR_DIRECT
+swear,shitt,SWEAR_DIRECT
+swear,shitted,SWEAR_DIRECT
+swear,shitter,SWEAR_DIRECT
+swear,shitters,SWEAR_DIRECT
+swear,shitters,SWEAR_DIRECT
+swear,shittier,SWEAR_DIRECT
+swear,shittiest,SWEAR_DIRECT
+swear,shitting,SWEAR_DIRECT
+swear,shittings,SWEAR_DIRECT
+swear,shitty,SWEAR_DIRECT
+swear,shiz,SWEAR_DIRECT
+swear,shiznit,SWEAR_DIRECT
+swear,shota,SWEAR_DIRECT
+swear,shrimping,SWEAR_DIRECT
+swear,sissy,SWEAR_DIRECT
+swear,skag,SWEAR_DIRECT
+swear,skank,SWEAR_DIRECT
+swear,skeet,SWEAR_DIRECT
+swear,skullfuck,SWEAR_DIRECT
+swear,slag,SWEAR_DIRECT
+swear,slanteye,SWEAR_DIRECT
+swear,slave,SWEAR_DIRECT
+swear,sleaze,SWEAR_DIRECT
+swear,sleazy,SWEAR_DIRECT
+swear,slope,SWEAR_DIRECT
+swear,slope,SWEAR_DIRECT
+swear,slut,SWEAR_DIRECT
+swear,slut bucket,SWEAR_DIRECT
+swear,slut bucket,SWEAR_DIRECT
+swear,slutbag,SWEAR_DIRECT
+swear,slutdumper,SWEAR_DIRECT
+swear,slutkiss,SWEAR_DIRECT
+swear,sluts,SWEAR_DIRECT
+swear,smartass,SWEAR_DIRECT
+swear,smartasses,SWEAR_DIRECT
+swear,smeg,SWEAR_DIRECT
+swear,smegma,SWEAR_DIRECT
+swear,smut,SWEAR_DIRECT
+swear,smutty,SWEAR_DIRECT
+swear,snatch,SWEAR_DIRECT
+swear,sniper,SWEAR_DIRECT
+swear,snowballing,SWEAR_DIRECT
+swear,snuff,SWEAR_DIRECT
+swear,s-o-b,SWEAR_DIRECT
+swear,sod off,SWEAR_DIRECT
+swear,sodom,SWEAR_DIRECT
+swear,sodomize,SWEAR_DIRECT
+swear,sodomy,SWEAR_DIRECT
+swear,son of a bitch,SWEAR_DIRECT
+swear,son of a motherless goat,SWEAR_DIRECT
+swear,son of a whore,SWEAR_DIRECT
+swear,son-of-a-bitch,SWEAR_DIRECT
+swear,souse,SWEAR_DIRECT
+swear,soused,SWEAR_DIRECT
+swear,spac,SWEAR_DIRECT
+swear,spade,SWEAR_DIRECT
+swear,sperm,SWEAR_DIRECT
+swear,spic,SWEAR_DIRECT
+swear,spick,SWEAR_DIRECT
+swear,spik,SWEAR_DIRECT
+swear,spiks,SWEAR_DIRECT
+swear,splooge,SWEAR_DIRECT
+swear,splooge moose,SWEAR_DIRECT
+swear,spooge,SWEAR_DIRECT
+swear,spook,SWEAR_DIRECT
+swear,spread legs,SWEAR_DIRECT
+swear,spunk,SWEAR_DIRECT
+swear,stfu,SWEAR_DIRECT
+swear,stiffy,SWEAR_DIRECT
+swear,stoned,SWEAR_DIRECT
+swear,strap on,SWEAR_DIRECT
+swear,strapon,SWEAR_DIRECT
+swear,strappado,SWEAR_DIRECT
+swear,strip,SWEAR_DIRECT
+swear,strip club,SWEAR_DIRECT
+swear,stroke,SWEAR_DIRECT
+swear,stupid,SWEAR_DIRECT
+swear,style doggy,SWEAR_DIRECT
+swear,suck,SWEAR_DIRECT
+swear,suckass,SWEAR_DIRECT
+swear,sucked,SWEAR_DIRECT
+swear,sucking,SWEAR_DIRECT
+swear,sucks,SWEAR_DIRECT
+swear,suicide girls,SWEAR_DIRECT
+swear,sultry women,SWEAR_DIRECT
+swear,sumofabiatch,SWEAR_DIRECT
+swear,swastika,SWEAR_DIRECT
+swear,swinger,SWEAR_DIRECT
+swear,t1t,SWEAR_DIRECT
+swear,t1tt1e5,SWEAR_DIRECT
+swear,t1tties,SWEAR_DIRECT
+swear,taff,SWEAR_DIRECT
+swear,taig,SWEAR_DIRECT
+swear,tainted love,SWEAR_DIRECT
+swear,taking the piss,SWEAR_DIRECT
+swear,tampon,SWEAR_DIRECT
+swear,tard,SWEAR_DIRECT
+swear,tart,SWEAR_DIRECT
+swear,taste my,SWEAR_DIRECT
+swear,tawdry,SWEAR_DIRECT
+swear,tea bagging,SWEAR_DIRECT
+swear,teabagging,SWEAR_DIRECT
+swear,teat,SWEAR_DIRECT
+swear,teets,SWEAR_DIRECT
+swear,teez,SWEAR_DIRECT
+swear,teste,SWEAR_DIRECT
+swear,testee,SWEAR_DIRECT
+swear,testes,SWEAR_DIRECT
+swear,testical,SWEAR_DIRECT
+swear,testicle,SWEAR_DIRECT
+swear,testis,SWEAR_DIRECT
+swear,threesome,SWEAR_DIRECT
+swear,throating,SWEAR_DIRECT
+swear,thrust,SWEAR_DIRECT
+swear,thug,SWEAR_DIRECT
+swear,thundercunt,SWEAR_DIRECT
+swear,tied up,SWEAR_DIRECT
+swear,tight white,SWEAR_DIRECT
+swear,tinkle,SWEAR_DIRECT
+swear,tit,SWEAR_DIRECT
+swear,tit wank,SWEAR_DIRECT
+swear,tit wank,SWEAR_DIRECT
+swear,titfuck,SWEAR_DIRECT
+swear,titi,SWEAR_DIRECT
+swear,tities,SWEAR_DIRECT
+swear,tits,SWEAR_DIRECT
+swear,titt,SWEAR_DIRECT
+swear,tittie5,SWEAR_DIRECT
+swear,tittiefucker,SWEAR_DIRECT
+swear,titties,SWEAR_DIRECT
+swear,titty,SWEAR_DIRECT
+swear,tittyfuck,SWEAR_DIRECT
+swear,tittyfucker,SWEAR_DIRECT
+swear,tittywank,SWEAR_DIRECT
+swear,titwank,SWEAR_DIRECT
+swear,toke,SWEAR_DIRECT
+swear,tongue in a,SWEAR_DIRECT
+swear,toots,SWEAR_DIRECT
+swear,topless,SWEAR_DIRECT
+swear,tosser,SWEAR_DIRECT
+swear,towelhead,SWEAR_DIRECT
+swear,tramp,SWEAR_DIRECT
+swear,tranny,SWEAR_DIRECT
+swear,transsexual,SWEAR_DIRECT
+swear,trashy,SWEAR_DIRECT
+swear,tribadism,SWEAR_DIRECT
+swear,trumped,SWEAR_DIRECT
+swear,tub girl,SWEAR_DIRECT
+swear,tubgirl,SWEAR_DIRECT
+swear,turd,SWEAR_DIRECT
+swear,tush,SWEAR_DIRECT
+swear,tushy,SWEAR_DIRECT
+swear,tw4t,SWEAR_DIRECT
+swear,twat,SWEAR_DIRECT
+swear,twathead,SWEAR_DIRECT
+swear,twatlips,SWEAR_DIRECT
+swear,twats,SWEAR_DIRECT
+swear,twatty,SWEAR_DIRECT
+swear,twatwaffle,SWEAR_DIRECT
+swear,twink,SWEAR_DIRECT
+swear,twinkie,SWEAR_DIRECT
+swear,two fingers,SWEAR_DIRECT
+swear,two fingers with tongue,SWEAR_DIRECT
+swear,two girls one cup,SWEAR_DIRECT
+swear,twunt,SWEAR_DIRECT
+swear,twunter,SWEAR_DIRECT
+swear,ugly,SWEAR_DIRECT
+swear,unclefucker,SWEAR_DIRECT
+swear,undies,SWEAR_DIRECT
+swear,undressing,SWEAR_DIRECT
+swear,unwed,SWEAR_DIRECT
+swear,upskirt,SWEAR_DIRECT
+swear,urethra play,SWEAR_DIRECT
+swear,urinal,SWEAR_DIRECT
+swear,urine,SWEAR_DIRECT
+swear,urophilia,SWEAR_DIRECT
+swear,uterus,SWEAR_DIRECT
+swear,uzi,SWEAR_DIRECT
+swear,v14gra,SWEAR_DIRECT
+swear,v1gra,SWEAR_DIRECT
+swear,vag,SWEAR_DIRECT
+swear,vagina,SWEAR_DIRECT
+swear,vajayjay,SWEAR_DIRECT
+swear,va-j-j,SWEAR_DIRECT
+swear,valium,SWEAR_DIRECT
+swear,venus mound,SWEAR_DIRECT
+swear,veqtable,SWEAR_DIRECT
+swear,viagra,SWEAR_DIRECT
+swear,vibrator,SWEAR_DIRECT
+swear,violet wand,SWEAR_DIRECT
+swear,virgin,SWEAR_DIRECT
+swear,vixen,SWEAR_DIRECT
+swear,vjayjay,SWEAR_DIRECT
+swear,vodka,SWEAR_DIRECT
+swear,vomit,SWEAR_DIRECT
+swear,vorarephilia,SWEAR_DIRECT
+swear,voyeur,SWEAR_DIRECT
+swear,vulgar,SWEAR_DIRECT
+swear,vulva,SWEAR_DIRECT
+swear,w00se,SWEAR_DIRECT
+swear,wad,SWEAR_DIRECT
+swear,wang,SWEAR_DIRECT
+swear,wank,SWEAR_DIRECT
+swear,wanker,SWEAR_DIRECT
+swear,wankjob,SWEAR_DIRECT
+swear,wanky,SWEAR_DIRECT
+swear,wazoo,SWEAR_DIRECT
+swear,wedgie,SWEAR_DIRECT
+swear,weed,SWEAR_DIRECT
+swear,weenie,SWEAR_DIRECT
+swear,weewee,SWEAR_DIRECT
+swear,weiner,SWEAR_DIRECT
+swear,weirdo,SWEAR_DIRECT
+swear,wench,SWEAR_DIRECT
+swear,wet dream,SWEAR_DIRECT
+swear,wetback,SWEAR_DIRECT
+swear,wh0re,SWEAR_DIRECT
+swear,wh0reface,SWEAR_DIRECT
+swear,white power,SWEAR_DIRECT
+swear,whiz,SWEAR_DIRECT
+swear,whoar,SWEAR_DIRECT
+swear,whoralicious,SWEAR_DIRECT
+swear,whore,SWEAR_DIRECT
+swear,whorealicious,SWEAR_DIRECT
+swear,whorebag,SWEAR_DIRECT
+swear,whored,SWEAR_DIRECT
+swear,whoreface,SWEAR_DIRECT
+swear,whorehopper,SWEAR_DIRECT
+swear,whorehouse,SWEAR_DIRECT
+swear,whores,SWEAR_DIRECT
+swear,whoring,SWEAR_DIRECT
+swear,wigger,SWEAR_DIRECT
+swear,willies,SWEAR_DIRECT
+swear,willy,SWEAR_DIRECT
+swear,window licker,SWEAR_DIRECT
+swear,wiseass,SWEAR_DIRECT
+swear,wiseasses,SWEAR_DIRECT
+swear,wog,SWEAR_DIRECT
+swear,womb,SWEAR_DIRECT
+swear,wop,SWEAR_DIRECT
+swear,wrapping men,SWEAR_DIRECT
+swear,wrinkled starfish,SWEAR_DIRECT
+swear,wtf,SWEAR_DIRECT
+swear,xrated,SWEAR_DIRECT
+swear,x-rated,SWEAR_DIRECT
+swear,xx,SWEAR_DIRECT
+swear,xxx,SWEAR_DIRECT
+swear,yaoi,SWEAR_DIRECT
+swear,yeasty,SWEAR_DIRECT
+swear,yellow showers,SWEAR_DIRECT
+swear,yid,SWEAR_DIRECT
+swear,yiffy,SWEAR_DIRECT
+swear,yobbo,SWEAR_DIRECT
+swear,zibbi,SWEAR_DIRECT
+swear,zoophilia,SWEAR_DIRECT
+swear,zubb,SWEAR_DIRECT
+swear,kitty,SWEAR_DIRECT
+swear,street people,SWEAR_DIRECT
+swear,bloke,SWEAR_DIRECT
+sympathy,That is too bad,SYMPATHY_DIRECT
+sympathy,That is so sad,SYMPATHY_DIRECT
+sympathy,I am sorry What bad luck,SYMPATHY_DIRECT
+sympathy,I hope things get better soon,SYMPATHY_DIRECT
+sympathy,It would be Okay soon,SYMPATHY_DIRECT
+sympathy,I hope you feel better soon,SYMPATHY_DIRECT
+sympathy,What a pity,SYMPATHY_DIRECT
+sympathy,Oh that is terrible,SYMPATHY_DIRECT
+sympathy,Be patient it would be better soon,SYMPATHY_DIRECT
+sympathy,I can not tell you how sorry I am,SYMPATHY_DIRECT
+sympathy,Oh I am sorry to hear that,SYMPATHY_DIRECT
+sympathy,I know how it feels,SYMPATHY_DIRECT
+sympathy,I take my sympathy to you,SYMPATHY_DIRECT
+sympathy,You must be very upset about it,SYMPATHY_DIRECT
+sympathy,I sympathize with your condition,SYMPATHY_DIRECT
+sympathy,It is very kind of you,SYMPATHY_RESPONSE
+sympathy,Thank you very much,SYMPATHY_RESPONSE
+sympathy,It would be Okay thanks,SYMPATHY_RESPONSE
+sympathy,Thanks for your sympathy,SYMPATHY_RESPONSE
+sympathy,Thanks for your support,SYMPATHY_RESPONSE
+thank,Thank you,THANK_DIRECT
+thank,Thanks,THANK_DIRECT
+thank,Thanks a lot,THANK_DIRECT
+thank,Thank you so much,THANK_DIRECT
+thank,Thank you very much,THANK_DIRECT
+thank,Thanks very much,THANK_DIRECT
+thank,Cheers,THANK_DIRECT
+thank,Cheerio,THANK_DIRECT
+thank,Many thanks,THANK_DIRECT
+thank,Sincerely thanks,THANK_DIRECT
+thank,Thanks a million for your help,THANK_DIRECT
+thank,I really appreciate your help,THANK_DIRECT
+thank,You are so kind,THANK_DIRECT
+thank,I do not know how to express my thanks,THANK_DIRECT
+thank,There are no words to show my appreciation,THANK_DIRECT
+thank,What you have done means a lot to me,THANK_DIRECT
+thank,That is so kind of you,THANK_DIRECT
+thank,You have made my day,THANK_DIRECT
+thank,I owe you a great deal,THANK_DIRECT
+thank,Thank you from the bottom of my heart for everything,THANK_DIRECT
+thank,How can I ever possibly thank you,THANK_DIRECT
+thank,Thank you for your kindness,THANK_DIRECT
+thank,It is very kind of you,THANK_DIRECT
+thank,It is very nice of you,THANK_DIRECT
+thank,Thanks for your support,THANK_DIRECT
+thank,Thanks for your sympathy,THANK_DIRECT
+thank,Thanks for your compliment,THANK_DIRECT
+thank,Thank you for calling,THANK_DIRECT
+thank,Cheers,THANK_DIRECT
+thank,My blessings,THANK_DIRECT
+thank,God bless,THANK_DIRECT
+thank,God bless you,THANK_DIRECT
+thank,Bless you,THANK_DIRECT
+thank,I’m grateful,THANK_DIRECT
+thank,Beyond grateful,THANK_DIRECT
+thank,I’d like to express my gratitude,THANK_DIRECT
+thank,It was nothing,THANK_RESPONSE
+thank,Think nothing of it,THANK_RESPONSE
+thank,I am glad that I can help you,THANK_RESPONSE
+thank,No problem,THANK_RESPONSE
+thank,That is alright,THANK_RESPONSE
+thank,Happy to help,THANK_RESPONSE
+thank,You are welcome,THANK_RESPONSE
+thank,Welcome,THANK_RESPONSE
+thank,Thank,THANK_DIRECT
+transfer,I would like to transfer you,TRANSFER_PHRASE
+transfer,You will be speaking to,TRANSFER_PHRASE
+transfer,I am going to transfer you,TRANSFER_PHRASE
+transfer,When I transfer you there may be a moment without sound Do not worry this is normal and someone will pick up right after that,TRANSFER_INFO
+transfer,After I transfer you there will be a short series of beeps Please do not worry this is just the line switching,TRANSFER_INFO
+transfer,They will be able to get you the information you need,TRANSFER_INFO
+transfer,Thank you for letting me put you through,TRANSFER_PHRASE
+transfer,on the line,TRANSFER_PHRASE
+transfer,He will be able to get the information you need,TRANSFER_INFO
+transfer,She will be able to get the information you need,TRANSFER_INFO
+transfer,will be able to get the information you need,TRANSFER_INFO
+transfer,I am transferring you,TRANSFER_PHRASE
+transfer,I will be transferring you,TRANSFER_PHRASE
+transfer,transfer you,TRANSFER_PHRASE
+transfer,direct number is,TRANSFER_PHRASE
+transfer,you can reach him directly at,TRANSFER_PHRASE
+transfer,you can reach her directly at,TRANSFER_PHRASE
+transfer,you can reach them directly at,TRANSFER_PHRASE
+transfer,you can reach,TRANSFER_PHRASE
+transfer,when I transfer you,TRANSFER_PHRASE
+transfer,after I transfer you,TRANSFER_PHRASE
+transfer,he will be with you directly,TRANSFER_PHRASE
+transfer,can resolve this situation to your satisfaction,TRANSFER_PHRASE
+transfer,let me put your through,TRANSFER_PHRASE
+transfer,I am putting you through,TRANSFER_PHRASE
+transfer,I will be putting you through,TRANSFER_PHRASE
+transfer,put you through,TRANSFER_PHRASE
+transfer,please call,TRANSFER_PHRASE
+transfer,you can call them,TRANSFER_PHRASE
+transfer,how about I transfer you,TRANSFER_PHRASE
+transfer,how about I put your through,TRANSFER_PHRASE
+transfer,let me forward you,TRANSFER_PHRASE
+transfer,can I call you back,TRANSFER_PHRASE
+verify,what is your,VERIFY_DETAIL
+verify,who am I speaking to,VERIFY_NAME
+verify,who am I speaking to today,VERIFY_NAME
+verify,who are you,VERIFY_NAME
+verify,I did not get your,VERIFY_DETAIL
+verify,I did not get the last,VERIFY_DETAIL
+verify,Can I have your,VERIFY_DETAIL
+verify,can I have,VERIFY_DETAIL
+verify,Can I please have your,VERIFY_DETAIL
+verify,can I please have,VERIFY_DETAIL
+verify,May I have your,VERIFY_DETAIL
+verify,may I have,VERIFY_DETAIL
+verify,May I please have your,VERIFY_DETAIL
+verify,may I please have,VERIFY_DETAIL
+verify,I did not get your,VERIFY_DETAIL
+verify,I did not get the,VERIFY_DETAIL
+verify,I did not get,VERIFY_DETAIL
+verify,I did not catch,VERIFY_DETAIL
+verify,what is your,VERIFY_DETAIL
+verify,what is,VERIFY_DETAIL
+verify,do you have a,VERIFY_DETAIL
+verify,do you have,VERIFY_DETAIL
+verify,is your,VERIFY_DETAIL
+verify,can you repeat,VERIFY_DETAIL
+verify,can you verify your,VERIFY_DETAIL
+verify,can I get your,VERIFY_DETAIL
+verify,can your verify,VERIFY_DETAIL
+verify,can I verify your,VERIFY_DETAIL
+verify,can I get,VERIFY_DETAIL
+verify,available,VERIFY_DETAIL
+verify,available on you,VERIFY_DETAIL
+verify,do you have your,VERIFY_DETAIL
+verify,available to you,VERIFY_DETAIL
+verify,can you give me your,VERIFY_DETAIL
+verify,can you give me,VERIFY_DETAIL
+verify,can you please give me,VERIFY_DETAIL
+verify,can you please share,VERIFY_DETAIL
+verify,can you share,VERIFY_DETAIL
+verify,can you just confirm,VERIFY_DETAIL
+verify,can you confirm,VERIFY_DETAIL
+verify,could you ,VERIFY_DETAIL
+verify,May I get you to verify,VERIFY_DETAIL
+verify,May I get,VERIFY_DETAIL
+verify,I need your,VERIFY_DETAIL
+verify,I am going to need your,VERIFY_DETAIL
+verify,I will need your,VERIFY_DETAIL
+verify,I will need,VERIFY_DETAIL
+verify,I need,VERIFY_DETAIL
+verify,I am going to need,VERIFY_DETAIL
+verify,I require your,VERIFY_DETAIL
+verify,I have to ask you for,VERIFY_DETAIL
+verify,can I ask you for,VERIFY_DETAIL
+verify,can I,VERIFY_DETAIL
+verify,could I have your,VERIFY_DETAIL
+verify,on you,VERIFY_DETAIL
+verify,you got your,VERIFY_DETAIL
+verify,you have your,VERIFY_DETAIL
+verify,please,VERIFY_DETAIL
+wish,Congratulations,WISH_DIRECT
+wish,Great,WISH_DIRECT
+wish,Well done,WISH_DIRECT
+wish,Please accept my warmest congratulations,WISH_DIRECT
+wish,Let me offer you my congratulations,WISH_DIRECT
+wish,I would like to congratulate you on,WISH_DIRECT
+wish,Let me congratulate you on,WISH_DIRECT
+wish,You deserve it,WISH_DIRECT
+wish,That was excellent,WISH_DIRECT
+wish,Best wishes,WISH_DIRECT
+wish,Best of luck,WISH_DIRECT
+wish,Good luck to you,WISH_DIRECT
+wish,All the best,WISH_DIRECT
+wish,Enjoy,WISH_DIRECT
+wish,Wish you,WISH_DIRECT
+wish,Thanks,WISH_RESPONSE
+wish,Thanks so much,WISH_RESPONSE
+wish,Thanks a million,WISH_RESPONSE
+wish,Thanks a lot,WISH_RESPONSE
+wish,Thank you for your kindness,WISH_RESPONSE
+wish,It is very kind of you,WISH_RESPONSE
+wish,It is very nice of you,WISH_RESPONSE
+wish,Thanks for your support,WISH_RESPONSE
+wish,Thanks for your kind words,WISH_RESPONSE

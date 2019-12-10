@@ -133,3 +133,42 @@ call_model = Doc2Vec(conversation_data,
                  workers=2,
                  window=5,
                  iter=30)
+
+import numpy as np
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Flatten, Input
+from keras.layers import Conv2D, MaxPooling2D
+from keras.optimizers import SGD
+
+conv_embeddings = []
+for data in conversation_data:
+    conv_embeddings.append(call_model[data])
+
+print('Conv Embeddings')
+for data in conv_embeddings:
+    print('shape', np.array(data).shape)
+
+dial_embeddings = []
+for data in dialogue_data:
+    dial_embeddings.append(dialogue_model[data])
+
+print('Dial Embeddings')
+for data in dial_embeddings:
+    print('shape', np.array(data).shape)
+
+sent_embeddings = []
+for data in sentence_data:
+    sent_embeddings.append(sent_model[data])
+
+print('Sent Embeddings')
+for data in sent_embeddings:
+    print('shape', np.array(data).shape)
+
+word_embeddings = []
+for data in corpus:
+    word_embeddings.append(words_model[data])
+
+print('Word Embeddings')
+for data in word_embeddings:
+    print('shape', np.array(data).shape)

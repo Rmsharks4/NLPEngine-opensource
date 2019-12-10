@@ -145,3 +145,7 @@ sr_no,param_id,feature_eng_op_id,param_desc,param_value,allowed_list_values,is_a
 ,transfer_intent_type_step_id,intents_transcript_v1.0,intent step value for this param id,,,,,,,,
 ,verify_intent_type_step_id,intents_transcript_v1.0,intent step value for this param id,,,,,,,,
 ,wish_intent_type_step_id,intents_transcript_v1.0,intent step value for this param id,,,,,,,,
+,intents_file_path,intents_transcript_v1.0,intent file path,,,,,,,,
+,intents_file_intent_type_column,intents_transcript_v1.0,intent file column: intent_type,,,,,,,,
+,intents_file_phrase_column,intents_transcript_v1.0,intent file column: phrase,,,,,,,,
+,intents_file_label_column,intents_transcript_v1.0,intent file column: label,,,,,,,,
