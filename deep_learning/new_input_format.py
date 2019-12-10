@@ -72,8 +72,8 @@ dials = []
 sentences = []
 
 for row in train_df.values:
-    dials.append(str(row[4]))
-    doc = nlp(str(row[4]))
+    dials.append(str(row[4]).strip().lower())
+    doc = nlp(str(row[4]).strip().lower())
     for sent in doc.sents:
         sentences.append(sent.text)
 
@@ -84,7 +84,7 @@ for row in labels_df.values:
     rows = rows.dropna()
     call = ''
     for val in rows.values:
-        call += str(val[4]) + ' '
+        call += str(val[4]).strip().lower() + ' '
     convs.append(call)
 
 
@@ -93,6 +93,8 @@ def clean(data):
     data = [word for word in data if word.isalpha()]
     data = [w for w in data if not w in stop_words]
     data = [lemmatizer.lemmatize(w, pos='v') for w in data]
+    if len(data) == 0:
+        data = ['']
     return data
 
 
