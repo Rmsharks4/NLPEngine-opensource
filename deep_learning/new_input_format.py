@@ -414,7 +414,7 @@ for data in sentences:
             emb = sent_model.infer_vector(clean(sent))
             sent_emb.append(emb)
         dial_emb.append(sent_emb)
-    dial_emb = pad_sequences(dial_emb)
+    dial_emb = pad_sequences(dial_emb, maxlen=max(max_sents))
     sent_embeddings.append(dial_emb)
 
 sent_embeddings = pad_sequences(sent_embeddings)
