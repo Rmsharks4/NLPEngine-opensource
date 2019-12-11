@@ -400,6 +400,8 @@ for data in dials:
         emb = dialogue_model.infer_vector(clean(dialogue))
         print('dial', np.array(emb).shape)
         dial_emb.append(emb)
+    dial_emb = pad_sequences(dial_emb, maxlen=max(max_dials))
+    print('call-dial',np.array(dial_emb).shape)
     dial_embeddings.append(dial_emb)
 
 
