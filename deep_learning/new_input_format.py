@@ -355,12 +355,15 @@ words_model = Word2Vec([train_words],
                        iter=30)
 
 print('making sentence model')
-sent_model = Doc2Vec(sentence_data,
-                     min_count=1,
+sent_model = Doc2Vec(min_count=1,
                      vector_size=200,
                      workers=2,
                      window=5,
                      epochs=30)
+sent_model.build_vocab(sentence_data)
+sent_model.train(sentence_data,
+                 total_examples=sent_model.corpus_count,
+                 epochs=sent_model.epochs)
 
 print('making dialogue model')
 dialogue_model = Doc2Vec(min_count=1,
@@ -387,7 +390,6 @@ call_model.train(conversation_data,
 conv_embeddings = []
 for data in convs:
     emb = call_model.infer_vector(clean(data))
-    print('call', np.array(emb).shape)
     conv_embeddings.append(emb)
 
 max_dial_length = max(n.shape for n in np.array(train_dials))
@@ -398,11 +400,24 @@ for data in dials:
     dial_emb = []
     for dialogue in data:
         emb = dialogue_model.infer_vector(clean(dialogue))
-        print('dial', np.array(emb).shape)
         dial_emb.append(emb)
-    dial_emb = pad_sequences(dial_emb, maxlen=max(max_dials))
-    print('call-dial',np.array(dial_emb).shape)
     dial_embeddings.append(dial_emb)
+
+dial_embeddings = pad_sequences(dial_embeddings)
+
+sent_embeddings = []
+for data in sentences:
+    dial_emb = []
+    for dialogue in data:
+        sent_emb = []
+        for sent in dialogue:
+            emb = sent_model.infer_vector(clean(sent))
+            sent_emb.append(emb)
+        dial_emb.append(sent_emb)
+    dial_emb = pad_sequences(dial_emb)
+    sent_embeddings.append(dial_emb)
+
+sent_embeddings = pad_sequences(sent_embeddings)
 
 
 """
@@ -452,6 +467,9 @@ print('Shape', np.array(conv_embeddings).shape)
 
 print('Dial Embeddings')
 print('Shape', np.array(dial_embeddings).shape)
+
+print('Sent Embeddings')
+print('Shape', np.array(sent_embeddings).shape)
 
 """
 BUILD MODEL
