@@ -49,7 +49,7 @@ import csv
 import keras
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten, Input
+from keras.layers import Dense, Dropout, Flatten, Input, Embedding, Concatenate
 from keras.layers import Conv2D, MaxPooling2D
 from keras.optimizers import SGD
 
@@ -277,16 +277,11 @@ train_dials = []
 dials = []
 dial_features = []
 
-train_sentences = []
-sentences = []
-sent_features = []
-
 train_words = []
 word_features = []
 total_word_features = []
 corpus = []
 
-max_sents = []
 max_words = []
 max_dials = []
 
@@ -302,57 +297,39 @@ for row in labels_df.values:
     call = ''
     call_dials = []
     call_dial_feats = []
-    call_sents = []
-    call_sent_feats = []
     call_words = []
     call_word_feats = []
     for val in rows.values:
-        call += str(val[4]).strip().lower() + ' '
-        call_dials.append(str(val[4]).strip().lower())
-        call_dial_feats.append([val[1], val[16]])
+        dial = str(val[4]).strip().lower()
+        call += dial + ' '
+        call_dials.append(dial)
         doc = nlp(str(val[4]).strip().lower())
-        max_sents.append(len([1 for sent in doc.sents]))
-        dial_sents = []
-        dial_sent_feats = []
+        call_dial_feats.append([val[1], val[16], imp_act(doc), qwh_act(doc), qyn_act(doc), accept(dial),
+                                acknowledge(dial), agree(dial), badnews(dial), clear(dial), compliment(dial),
+                                goodnews(dial), guess(dial), hesitate(dial), interrupt(dial), negate(dial), offer(dial),
+                                pardon(dial), promise(dial), refuse(dial), sympathy(dial), thank(dial)])
+        words = clean(str(dial).strip().lower())
+        max_words.append(len(words))
+        cleaned = nlp(' '.join(c for c in words))
         dial_words = []
         dial_word_feats = []
-        for sent in doc.sents:
-            sent_words = []
-            sent_word_feats = []
-            dial_sents.append(sent.text)
-            dial_sent_feats.append(
-                [imp_act(sent), qwh_act(sent), qyn_act(sent), accept(sent.text), acknowledge(sent.text),
-                 agree(sent.text), badnews(sent.text), clear(sent.text), compliment(sent.text),
-                 goodnews(sent.text), guess(sent.text), hesitate(sent.text), interrupt(sent.text),
-                 negate(sent.text), offer(sent.text), pardon(sent.text), promise(sent.text),
-                 refuse(sent.text), sympathy(sent.text), thank(sent.text)])
-            words = clean(str(sent.text).strip().lower())
-            max_words.append(len(words))
-            cleaned = nlp(' '.join(c for c in words))
-            for word in cleaned:
-                sent_words.append(word.text)
-                sent_word_feats.append([word.pos_, word.ent_type_, word.dep_])
-            train_words.extend(sent_words)
-            dial_words.append(sent_words)
-            total_word_features.extend(sent_word_feats)
-            dial_word_feats.append(sent_word_feats)
-        train_sentences.extend(dial_sents)
+        for word in cleaned:
+            dial_words.append(word.text)
+            word_feat = [word.pos_, word.ent_type_, word.dep_]
+            dial_word_feats.append(word_feat)
+            total_word_features.append(word_feat)
+        train_words.extend(dial_words)
         call_words.append(dial_words)
         call_word_feats.append(dial_word_feats)
-        call_sents.append(dial_sents)
-        call_sent_feats.append(dial_sent_feats)
     train_dials.extend(call_dials)
     corpus.append(call_words)
     word_features.append(call_word_feats)
-    sentences.append(call_sents)
-    sent_features.append(call_sent_feats)
     dials.append(call_dials)
     dial_features.append(call_dial_feats)
     convs.append(call)
 
 print('Vectorization:')
 
-sentence_data = [TaggedDocument(words=clean(d), tags=[str(i)]) for i, d in enumerate(train_sentences)]
 dialogue_data = [TaggedDocument(words=clean(d), tags=[str(i)]) for i, d in enumerate(train_dials)]
 conversation_data = [TaggedDocument(words=clean(d), tags=[str(i)]) for i, d in enumerate(convs)]
 
@@ -363,17 +340,6 @@ words_model = Word2Vec([train_words],
                        workers=2,
                        window=5,
                        iter=30)
-
-print('making sentence model:')
-sent_model = Doc2Vec(min_count=1,
-                     vector_size=200,
-                     workers=2,
-                     window=5,
-                     epochs=30)
-sent_model.build_vocab(sentence_data)
-sent_model.train(sentence_data,
-                 total_examples=sent_model.corpus_count,
-                 epochs=sent_model.epochs)
 
 print('making dialogue model:')
 dialogue_model = Doc2Vec(min_count=1,
@@ -417,36 +383,18 @@ for data in dials:
 
 dial_embeddings = pad_sequences(dial_embeddings)
 
-sent_embeddings = []
-for data in sentences:
-    dial_emb = []
-    for dialogue in data:
-        sent_emb = []
-        for sent in dialogue:
-            emb = sent_model.infer_vector(clean(sent))
-            sent_emb.append(emb)
-        dial_emb.append(sent_emb)
-    dial_emb = pad_sequences(dial_emb, maxlen=max(max_sents))
-    sent_embeddings.append(dial_emb)
-
-sent_embeddings = pad_sequences(sent_embeddings)
-
 word_embeddings = []
 for data in corpus:
     dial_emb = []
     for dialogue in data:
-        sent_emb = []
-        for sent in dialogue:
-            word_emb = []
-            for word in sent:
-                emb = words_model.wv[word]
-                word_emb.append(emb)
-            if len(sent) == 0:
-                word_emb.append(np.zeros(shape=(200,)))
-            sent_emb.append(word_emb)
-        sent_emb = pad_sequences(sent_emb, maxlen=max(max_words))
-        dial_emb.append(sent_emb)
-    dial_emb = pad_sequences(dial_emb, maxlen=max(max_sents))
+        word_emb = []
+        for word in dialogue:
+            emb = words_model.wv[word]
+            word_emb.append(emb)
+        if len(dialogue) == 0:
+            word_emb.append(np.zeros(shape=(200,)))
+        dial_emb.append(word_emb)
+    dial_emb = pad_sequences(dial_emb, maxlen=max(max_words))
     word_embeddings.append(dial_emb)
 
 word_embeddings = pad_sequences(word_embeddings)
@@ -456,9 +404,6 @@ print('Shape', np.array(conv_embeddings).shape)
 
 print('Dial Embeddings')
 print('Shape', np.array(dial_embeddings).shape)
-
-print('Sent Embeddings')
-print('Shape', np.array(sent_embeddings).shape)
 
 print('Word Embeddings')
 print('Shape', np.array(word_embeddings).shape)
@@ -504,12 +449,6 @@ for dial in dial_features:
 
 binned_dial_features = pad_sequences(binned_dial_features)
 
-for feat in sent_features:
-    for dial in feat:
-        dial = pad_sequences(dial, maxlen=max(max_sents))
-
-sent_features = pad_sequences(sent_features)
-
 enc = OneHotEncoder(handle_unknown='ignore')
 enc.fit(total_word_features)
 
@@ -517,19 +456,14 @@ binned_word_features = []
 for data in word_features:
     dial_feat = []
     for dialogue in data:
-        sent_feat = []
-        for sent in dialogue:
-            word_feat = []
-            for word in sent:
-                feat = enc.transform(word).toarray()
-                print(np.array(feat).shape)
-                word_feat.append(feat)
-            if len(sent) == 0:
-                word_feat.append(np.zeros(shape=(200,)))
-            sent_feat.append(word_feat)
-        sent_feat = pad_sequences(sent_feat, maxlen=max(max_words))
-        dial_feat.append(sent_feat)
-    dial_emb = pad_sequences(dial_feat, maxlen=max(max_sents))
+        word_feat = []
+        for word in dialogue:
+            feat = enc.transform([word]).toarray().flatten()
+            word_feat.append(feat)
+        if len(dialogue) == 0:
+            word_feat.append(np.zeros(shape=(75, )))
+        dial_feat.append(word_feat)
+    dial_feat = pad_sequences(dial_feat, maxlen=max(max_words))
     binned_word_features.append(dial_feat)
 
 binned_word_features = pad_sequences(binned_word_features)
@@ -539,9 +473,6 @@ print('Shape', np.array(conv_features).shape)
 
 print('Dial Features')
 print('Shape', np.array(binned_dial_features).shape)
-
-print('Sent Features')
-print('Shape', np.array(sent_features).shape)
 
 print('Word Features')
 print('Shape', np.array(binned_word_features).shape)
@@ -557,7 +488,7 @@ BUILD MODEL
 6. GRU
 """
 
-seq_model = None
+seq_model = Sequential()
 cnn_model = None
 dnn_model = None
 rnn_model = None
@@ -573,4 +504,30 @@ model structure - every time:
 - word_emb + word_features (2nd dimension) x num_of_words (pad this!)
 """
 
+call_emb_layer = Sequential()
+call_emb_layer.add(Embedding(input_length=1, input_dim=(200, )))
+
+call_feat_layer = Sequential()
+call_feat_layer.add(Input(shape=(5, )))
+
+merge_call_layer = Sequential()
+merge_call_layer.add(Concatenate([call_emb_layer, call_feat_layer]))
+
+dial_emb_layer = Sequential()
+dial_emb_layer.add(Embedding(input_length=1, input_dim=(193, 200)))
+
+dial_feat_layer = Sequential()
+dial_feat_layer.add(Input(shape=(193, 8)))
+
+merge_dial_layer = Sequential()
+merge_dial_layer.add(Concatenate([dial_emb_layer, dial_feat_layer]))
+
+word_emb_layer = Sequential()
+word_emb_layer.add(Embedding(input_length=1, input_dim=(193, 222, 200)))
+
+word_feat_layer = Sequential()
+word_feat_layer.add(Input(shape=(193, 222, 75)))
+
+merge_word_layer = Sequential()
+merge_word_layer.add(Concatenate([word_emb_layer, word_feat_layer]))
 
