@@ -531,3 +531,6 @@ word_feat_layer.add(Input(shape=(193, 222, 75)))
 merge_word_layer = Sequential()
 merge_word_layer.add(Concatenate([word_emb_layer, word_feat_layer]))
 
+merge_all_layers = Sequential()
+merge_all_layers.add(Concatenate([merge_call_layer, merge_dial_layer, merge_word_layer]))
+
